@@ -1,5 +1,44 @@
 # Research ledger
 
+## September 18, 2026: reader navigation and a beginner introduction
+
+Thomas requested clearer GitHub organization and then asked for concrete
+definitions of ordinary coordinate space and polynomial formulas. The
+front page was reduced from10537 lines to66, with separate entry points
+for a beginner, a reader checking status, and a mathematical reviewer.
+The introduction now starts with independently chosen coordinates,
+polynomial examples, and the reversible relabeling (2,3,1) to (2,7,1).
+
+The full former README is preserved unchanged beneath an archive banner
+in README-history.md, at the repository root so its relative links keep
+their original bases. Its preserved payload SHA256 is
+605b9ba8d4b38f7944bcc0575b4ae1ffd6707c55558c64c2ccd0ad6a91928f4b.
+New docs pages explain current status, the review sequence, and the archive;
+research/README.md indexes selected proof notes and dependencies.
+
+Historical claims/experiment registries are explicitly labeled as such.
+Some frozen consistency scripts assume old command lists remain in
+README.md; those lists now reside in the historical snapshot. This old
+assumption is documented, not silently repaired or represented as passing.
+No saved checker was run, imported, compiled or edited. Proof notes,
+registries, historical verification records, and script paths are unchanged.
+
+Root's fresh unsaved documentation check ed8e27 verified the exact archive
+payload,68 local navigation links including heading fragments, and the
+unchanged existing research files. General read the six reader-facing
+pages fully in133e3a/6dc46c and checked66 links in365cf6. Its sole
+attribution wording clarification was applied. GitHub's Markdown renderer
+accepted the front-page table and introduction's examples/details section
+in936848. An earlier documentation-test assertion expected the literal
+tag <table>; GitHub emits <table role="table">, so that assertion was
+corrected. This was not a mathematical or frozen-checker failure.
+
+This is a documentation-only change, not a new mathematical result or
+verification pass. Cancellation remains UNSOLVED, novelty UNKNOWN, and
+expert review and proof-assistant certification absent. The repository
+remains private; this request authorizes this organization update and push,
+not public release, external outreach, or automatic future pushes.
+
 ## September 18, 2026: user-authorized private GitHub archive
 
 Thomas explicitly requested a GitHub backup of this research. A standalone
