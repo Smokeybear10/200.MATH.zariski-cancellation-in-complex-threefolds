@@ -1,0 +1,16 @@
+{
+  "scope": "Targeted bounded exact controls for pass72. Not a full regression, proof-assistant verification, or a proof of the conditional theorem.",
+  "suites": 1,
+  "command": "/opt/anaconda3/bin/python research/quintic_rank_drop_checks_pass72.py",
+  "started_at_utc": "2026-09-14T03:57:03.415Z",
+  "finished_at_utc": "2026-09-14T03:57:04.038Z",
+  "wall_seconds": 0.623,
+  "exit_code": 0,
+  "methods": 5,
+  "unittest_seconds": 0.239,
+  "all_passed": true,
+  "checker_sha256": "07ed89446e0b13bc2d1df642dc3424c1d4dfa0102351adea443cc6661dedf362",
+  "output_order": "complete stdout followed by complete stderr",
+  "output": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.239s\n\nOK\n",
+  "output_sha256": "b7bd52d7856101919dba89eb0bcd4ed3fbbddf75c87eb3d9ca7c61ae0b2c4ab6"
+}

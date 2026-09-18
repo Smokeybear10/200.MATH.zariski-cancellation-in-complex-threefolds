@@ -1,0 +1,112 @@
+{
+  "pass": 148,
+  "status": "conditional_triangular_residue_frame_exclusions; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/fixed-projection-weitzenbock-obstruction-pass148-working.md",
+      "sha256": "90ce66d8fa55426f0818ae324d5003cdc982d649ac6ec1f42245925b8c8d8af3",
+      "bytes": 7913,
+      "lines": 190,
+      "equations": 7,
+      "test_methods": 0
+    },
+    {
+      "path": "research/line-family-triangular-kernel-exclusion-pass148-working.md",
+      "sha256": "a8b2b3795d317bcb95a1b85a8008d7408fb06f650d1faf7fdb8ebb12e4b20704",
+      "bytes": 11197,
+      "lines": 284,
+      "equations": 10,
+      "test_methods": 0
+    },
+    {
+      "path": "research/triangular-residue-frame-exclusion-pass148-working.md",
+      "sha256": "b3f3603ddb8bb27f393ece1cc19d24fe3b403e63ce44790ecbff6c34bd28c00c",
+      "bytes": 12476,
+      "lines": 300,
+      "equations": 9,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weitzenbock_projection_controls_pass148.py",
+      "sha256": "f78cf8b79132844146516bf365bdeb79ca401e67941814e6b4a9374fa2196a9f",
+      "bytes": 11246,
+      "lines": 211,
+      "equations": 0,
+      "test_methods": 4
+    }
+  ],
+  "main_result": {
+    "path": "research/triangular-residue-frame-exclusion-pass148-working.md",
+    "statement": "An actual dense three-good chart cannot have embedded S=C[r,q], A_s=C[r,t,z]_h, q=a(r)z-H(r,t), with a root r0 of a surviving h, deg_t H(r0,t)>=2, and both projected goods complex affine-linear forms in r,t,z.",
+    "proof": "For projection rank two, a nonconstant critical polynomial F over C(r,q) supplies a common zero of the two-row Jacobian minors at a point untouched by invariant denominators. A divisor-Laurent comparison proves nonconstancy even for arbitrary higher-degree base-dependent H and multiple roots of a. Rank-one projections violate whole generic-line generation or divisor noncollapse.",
+    "exact_formula": "D=a*g_q-H_t*f_q; I=a'*(q+H)-a*H_r+alpha*a*H_t-beta*a^2; F=I*D+a^2*g_r-a*H_t*f_r. Original identity f_q*F-(f_q*I+a*f_r)*D=-a^2*J, J=f_r*g_q-f_q*g_r.",
+    "dependencies": "Actual139 localized inverse and whole generic line;134 invariant-divisor good-ring injection;147 noncollapse. Simultaneous embedded triangular base and affine projected-coordinate placement are extra hypotheses, not inferred from those results.",
+    "scope": "No last-coordinate time-degree bound or constant selected-speed assumption. Includes arbitrary polynomial base dependence H with a nonlinear surviving specialization, but not arbitrary nonlinear reorientations of the projected goods."
+  },
+  "companion_results": [
+    "Fixed projection lemma: for q=pz-H(y), deg H>=2, all rational independent speeds f,g in C(p,q) produce a proper two-row Jacobian minor ideal after any invariant localization. This elementary special-case proof is preserved separately.",
+    "W=u line-family classification: in the actual intercept coordinates, if all three speeds lie in C[p,a(p)z-H(p,y)] with a nonlinear H-specialization at a root of a, nilpotence of their original Jacobian forces (constant,g0(p),h0(p)). The speed field has rank at most one. It cannot be the desired dense rank-two frame.",
+    "The full-kernel and degree-d residue-field calculation in the companion note remains limited to its P(y) model; arbitrary H(p,y) can enlarge the kernel at other collapsing roots. The generalized speed-membership exclusion makes no such kernel assertion."
+  ],
+  "canonical_execution": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.weitzenbock_projection_controls_pass148 -v",
+    "source_sha256": "f78cf8b79132844146516bf365bdeb79ca401e67941814e6b4a9374fa2196a9f",
+    "initial_output": "b42459",
+    "session_id": 31299,
+    "completion_output": "4b6e7d",
+    "exit_code": 0,
+    "methods": 4,
+    "seconds": 266.951,
+    "state": "terminal; original execution completed without interruption or restart",
+    "python": "3.13.5 Anaconda",
+    "sympy": "1.13.3",
+    "runtime_read": "3369d1",
+    "pending_execution_handles": false,
+    "scope": "Finite exact coefficient identities and formal candidate controls, not completed actual coordinate frames or a universal theorem checker."
+  },
+  "test_scope": [
+    "Generic Bezout identity, derivative rows, critical polynomial degrees and all minor relations for residue degrees2,3.",
+    "Both rational/polynomial speed branches with independently differentiated original-coordinate rows and invariant denominator checks.",
+    "Distinct generic-line and residue-collapse failures for projected planes containing the coefficient coordinate.",
+    "Variable H=P+r*t^7+r^2*t^9 and a=r^2*(1+r): four Laurent order/tie cases, g_q=0, nonconstant coefficient extraction through F-F(0), original-J preservation, and the H_r/a derivative term."
+  ],
+  "reviews": {
+    "root": "Full main final47e0e6 plus absolute-differential clarification3369d1; full fixed and original line-family notes6fc7bd plus generalized line-family delta391510. Full original3-method checker6fc7bd plus fourth-method EOF3369d1.",
+    "general": "Final main full429c71/hash28e670; full final checker85db1d. Companion author full d9af6f plus final scope88eac4/hash2f871d.",
+    "geometry": "Main generalized full02e122/hashcd438e followed by root's explanatory absolute-differential sentence; independent adic reconstruction. Earlier companion full e96591 and fixed/checker reviews281033/3d0d30 preceded the final line-family extension and fourth checker method.",
+    "jet": "Main final full d136e6/hash5aea6f; fixed proof author d0e8be and TeX delta938525; final checker author full7c9b22. Prior companion full62d3b1; final generalized companion full EOF36ef54 at hash a8b2b3795d317bcb95a1b85a8008d7408fb06f650d1faf7fdb8ebb12e4b20704.",
+    "limits": "Separate AI reconstructions and finite symbolic checks are not human peer review, Lean/formal verification or historical novelty clearance."
+  },
+  "literature_scope": "No new external classification theorem is imported. Narrow primary-source checks found only already retained finite-cover and fibration criteria with missing extra hypotheses. No broad novelty audit or claim of a new published-theorem implication.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass147-working.json",
+    "sha256": "8ed728a33e72201203b2e65197769d7c0ca9b9972fd9bc40ef1081cb8cbd7ae1",
+    "records": 966,
+    "artifact_hash_audit": "7efd18"
+  },
+  "next_task": "Investigate genuinely nonlinear placements of the first two projected goods while preserving the original polynomial inverse and selected leading derivation. A specific nonlinear first-coordinate shear is a bounded next candidate; neither affine reorientation nor a shear of the third triangular coordinate escapes the proved exclusions.",
+  "remaining_gaps": [
+    "No general proof that every full divisor residue-constant extension is trivial.",
+    "No reduction of arbitrary intrinsic actions or projected pairs to the simultaneous triangular placement used here.",
+    "No global polynomial descent or arbitrary three-good coordinate-entry theorem.",
+    "Full cancellation, professor-intent confirmation, independent human review and priority assessment remain unresolved."
+  ],
+  "goal_audit": {
+    "previous_turn_classification": "no_progress: user-requested status inspection, not a new mathematical result",
+    "current_turn_classification": "progress: new all-degree exclusions, generalized divisor arguments and completed affected exact tests",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "pass": 105,
+  "status": "working_partial_results_not_cancellation",
+  "working_target": "Unconfirmed intended complex-threefold cancellation: A[u] isomorphic to C^[4] implies A isomorphic to C^[3]. The literal emailed A^1 conclusion has a dimension mismatch for general r.",
+  "summary": "In the actual collapsed mixed quadratic sector with L(m) nonzero: no finite parameter of any degree; the c-projection has a finite rank-four normal closure with one omitted reduced closed point and an invariant degree-one boundary divisor with c-degree three; DVR slice lifting excludes full F3 image rank, so dim W3<=3 and all F3 reduced values are constant. Intrinsic quartic cubic recovery and actual shifted transverse branch tangents are proved separately with exact scope gates.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass104-working.json",
+    "sha256": "5051b3b3583a70f2412d17dca65de3b6dad4cb6e6eb14af5833d28c75061a6f1",
+    "frozen_records": 634,
+    "full_revalidation_evidence": "d7099c",
+    "all_unchanged": true,
+    "preceding_goal_turn": "verified_wait: authoritative live agent listing confirmed three running research handles; the check-in answer itself added no theorem"
+  },
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-14T20:26:18.298Z",
+    "all_passed": true,
+    "artifacts": [
+      {
+        "path": "research/mixed-third-degree-image-pass105.md",
+        "sha256": "718d2c8d10c5c79e054aae0ef106b8c27ed3d062bcd313b919088990c44f7d3d",
+        "bytes": 13378,
+        "content_lines": 306,
+        "equation_tags": 7
+      },
+      {
+        "path": "research/mixed-c-parameter-normalization-boundary-pass105.md",
+        "sha256": "d96911e4fb1bf14be57d4ef8325c7ac72975b2c96fad91037b79ff56aac5de5c",
+        "bytes": 14572,
+        "content_lines": 358,
+        "equation_tags": 10
+      },
+      {
+        "path": "research/mixed-cubic-rank-defect-pass105.md",
+        "sha256": "c20c9731feaf69515b4b75dfa29da527fffd8986eeff6caa76726311b73aa520",
+        "bytes": 6252,
+        "content_lines": 142,
+        "equation_tags": 4
+      },
+      {
+        "path": "research/mixed-quartic-hidden-cubic-parameter-pass105.md",
+        "sha256": "cbfc0538f13d1a956b300f0fddba3dde04ab20c349475c59c0f17a3882fee4aa",
+        "bytes": 12935,
+        "content_lines": 320,
+        "equation_tags": 9
+      },
+      {
+        "path": "research/quadratic-transverse-branch-motion-pass105.md",
+        "sha256": "762b8d415382a2b6547b5e2325a6ae698950974ae2da504d30d432726bf00e6e",
+        "bytes": 9197,
+        "content_lines": 215,
+        "equation_tags": 6
+      },
+      {
+        "path": "research/mixed_quartic_cubic_checks_pass105.py",
+        "sha256": "c3bc62a6c6fc407ced97bd0806bf717d5e7aaf3df4c94410947862fc839adac8",
+        "bytes": 6125,
+        "content_lines": 143,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/mixed_third_degree_checks_pass105.py",
+        "sha256": "c59aed169e3ababc71441de311f4038330212ce8960c36301474ba10e837d689",
+        "bytes": 2874,
+        "content_lines": 62,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/verification-pass105-working.json",
+        "sha256": "de5a9e290c9f5c83c3a2f5c78a0ba8112ab932b2b8c717bbd290c221b3450df8",
+        "bytes": 3136,
+        "content_lines": 48,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/mixed-cubic-rank-and-boundary-frontier-pass105.md",
+        "sha256": "786f12ecfa1d45e3428123934794809e08f1f8052e71622657718a5a1541d613",
+        "bytes": 14301,
+        "content_lines": 258,
+        "equation_tags": 0
+      }
+    ],
+    "equation_tags": 36,
+    "captured_methods": 7,
+    "ast_methods": {
+      "research/mixed_quartic_cubic_checks_pass105.py": 1,
+      "research/mixed_third_degree_checks_pass105.py": 2,
+      "research/quadratic_catalan_checks_pass104.py": 1,
+      "research/adic_transverse_surface_checks_pass104.py": 2,
+      "research/quadratic_degree_module_checks_pass102.py": 1
+    },
+    "new_test_methods": 3,
+    "complete_output_verified": true,
+    "input_files_unchanged": true,
+    "local_markdown_links_checked": 821,
+    "missing_links": [],
+    "tool_evidence": "c3a2fb"
+  },
+  "chain_record_count_after_including_this_checkpoint": 644,
+  "record_count_convention": "634 predecessor records + nine current artifact hash records + this checkpoint = 644. README and research-ledger remain live and are excluded from the frozen hash chain. Repeated tests and repeated hash checks are not new methods or new records.",
+  "proof_reviews": [
+    {
+      "reviewer": "Root",
+      "scope": "Complete five mathematical notes, both new checkers and synthesis; independently reconstructed agent proofs and supplied boundary/rank-image arguments. Read retained strict97/source-balance97, normal-volume99, transverse104 and divisor91 proofs; primary gates listed below.",
+      "evidence": [
+        "ce9db5",
+        "b5f33f",
+        "6b2e32",
+        "d1d3b2",
+        "233a0b",
+        "2d9ec3",
+        "febe6f",
+        "40da46",
+        "ceb144",
+        "57221d",
+        "868591",
+        "0b0c11",
+        "0e8d3c",
+        "42256d",
+        "7f0537",
+        "a99d9a",
+        "da4d24"
+      ]
+    },
+    {
+      "reviewer": "General",
+      "scope": "Author of third-degree image core and four-equation rank defect; independent full shifted-surface, intrinsic quartic/checker, normalization boundary including final CRT corollary, and root two-method checker. No numerical execution or new source theorem.",
+      "evidence": [
+        "e4f7a7",
+        "0722af",
+        "91ea49",
+        "f73d2f",
+        "1614d5",
+        "9ba293",
+        "a76e08",
+        "67a12c"
+      ]
+    },
+    {
+      "reviewer": "Geometry",
+      "scope": "Author of shifted-slice branch proof; independent full third-degree core and any-degree no-finiteness addition, intrinsic quartic including final exact constant-field gate, final normalization boundary and rank defect, final synthesis and captured test timings/counts. No numerical execution.",
+      "evidence": [
+        "95c441",
+        "8981f3",
+        "323aac",
+        "8d804d",
+        "780377",
+        "2b7fd4",
+        "3df296",
+        "532e6b",
+        "97f869",
+        "70bebc",
+        "3a45c9",
+        "71f505",
+        "4a5c2d"
+      ],
+      "synthesis_sha256": "786f12ecfa1d45e3428123934794809e08f1f8052e71622657718a5a1541d613"
+    },
+    {
+      "reviewer": "Jet",
+      "scope": "Author of intrinsic mixed quartic proof/checker and normalization-boundary proof. Independent full third-degree core and four-equation rank defect, including current forward status pointers. Root and General independently supplied/reconstructed the DVR slice lift.",
+      "evidence": [
+        "ce7335",
+        "03f4a0",
+        "18cad2",
+        "57e700",
+        "f1d0bd",
+        "ece94d",
+        "476701",
+        "0ce447",
+        "0c2ecf"
+      ]
+    }
+  ],
+  "canonical_verification": {
+    "path": "research/verification-pass105-working.json",
+    "tool_evidence": "5b39f9",
+    "suites": 5,
+    "test_methods": 7,
+    "new_methods": 3,
+    "retained_dependency_methods": 4,
+    "elapsed_seconds": 2.011593583,
+    "unittest_seconds": 1.695,
+    "complete_output_sha256": "de4591e9eb730b5ba64c31b3862cb69fedd183b9d0dcab429038bd8faadf57ae",
+    "all_passed": true,
+    "scope": "Three new finite coefficient/example methods in two suites; four retained finite methods in three dependency suites. Does not verify universal source-balance, normalization, full module, rank-defect or cancellation proofs."
+  },
+  "author_executions": [
+    {
+      "author": "Jet",
+      "evidence": [
+        "5a3125",
+        "aab7e1"
+      ],
+      "methods": 1,
+      "subtests": "m=1,...,5",
+      "unittest_seconds": 0.981,
+      "exit_code": 0
+    },
+    {
+      "author": "Root",
+      "evidence": [
+        "3606f2"
+      ],
+      "methods": 2,
+      "unittest_seconds": 0.048,
+      "exit_code": 0
+    }
+  ],
+  "historical_full_verification": {
+    "path": "research/verification-pass75-working.json",
+    "suites": 146,
+    "methods": 1047,
+    "claim_registry_count": 544,
+    "rerun_this_pass": false,
+    "revalidation": "d7099c: existing source/output hash records and counts checked; not a new full test execution"
+  },
+  "sources": [
+    {
+      "url": "https://stacks.math.columbia.edu/tag/03GT",
+      "use": "Normalization form of affine finite-type Zariski Main Theorem, applied only after all-strata quasi-finiteness.",
+      "root_evidence": "turn3610view0",
+      "jet_evidence": "turn3607view0",
+      "scope": "Complete displayed statement/proof; algebraic dependency00Q9 read separately."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/00Q9",
+      "use": "Algebraic normalization ZMT.",
+      "root_evidence": "turn3611view0",
+      "jet_evidence": "turn3607view1",
+      "scope": "Complete displayed induction proof; deeper conductor lemmas not freshly reconstructed."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/032L",
+      "use": "Finite integral closure of a Noetherian normal domain in a finite separable field extension.",
+      "root_evidence": "turn3610view1",
+      "jet_evidence": "turn3607view2",
+      "scope": "Complete statement and trace-dual proof."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/0B3D",
+      "use": "A normal Noetherian surface is Cohen-Macaulay.",
+      "root_evidence": "turn3605view1",
+      "jet_evidence": "turn3608view1",
+      "scope": "Complete displayed statement/proof; underlying Serre criterion retained."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/00R4",
+      "use": "Miracle flatness at the two-dimensional normal-closure local rings.",
+      "root_evidence": "turn3610view2",
+      "jet_evidence": "turn3608view2",
+      "scope": "Complete displayed statement/proof and exact dimension equality checked."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/0BCQ",
+      "use": "Pure codimension-one complement of the dense affine open.",
+      "root_evidence": "turn3605view0",
+      "jet_evidence": "turn3608view0",
+      "scope": "Complete section including Lemmas31.17.1,4,5 and their proofs."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/0GTG",
+      "use": "Applicability audit: weak relative Noether normalization gives quasi-finite, not finite.",
+      "root_evidence": "turn3602view0",
+      "scope": "Complete displayed proof; not used to replace the explicit c-projection gate."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/0GTF",
+      "use": "Parameter-power lemma in the weak relative normalization audit.",
+      "root_evidence": "turn3602view1",
+      "scope": "Complete displayed statement/proof; deeper dependencies not reconstructed."
+    }
+  ],
+  "proof_limits": [
+    "Every actual mixed conclusion assumes the supplied original quadratic frame, collapsed profile(2,1), and L(m) nonzero. No arbitrary-frame reduction.",
+    "Rank defect and zero F3 reduced slopes do not exclude the mixed fiber or give a global coordinate system.",
+    "The rank-two W2 branch may retain a nonconstant nilpotent coefficient direction; lower-rank module multiplication remains open.",
+    "The omitted closed point may lie on the closure of the retained degree-two divisor even though no boundary divisor lies over its generic point.",
+    "Only completed C_P is asserted to be canonically T-hat; uncompleted C_P need not be finite over T.",
+    "Intrinsic quartic family has exact degree-three divisor constants and cannot instantiate the specified actual invariant inclusion.",
+    "Transverse branch curves need not lie in the fixed quotient exceptional curve; constant tangents do not fix higher branch terms.",
+    "Finite checks do not prove universal geometric or all-polynomial assertions. Separate AI reconstructions are not human review, Lean verification or novelty clearance.",
+    "Whole-double, L(m)=0, global recognition and original unconfirmed target interpretation remain unresolved."
+  ],
+  "draft_corrections": [
+    "Before saved core, corrected invalid inference 'beta affine implies imF3<=3': D+C epsilon c has dimension four. Final exclusion uses independent boundary geometry and DVR slice lifting.",
+    "Intrinsic cubic construction strengthened from 'no actual frame asserted' to exact nonrealizability via degree-three divisor constants.",
+    "Boundary equation6 restricted explicitly to boundary primes, not all height-one primes through P.",
+    "Boundary proof uses the completed finite factor rather than a false assertion that uncompleted C_P is finite over T.",
+    "Core rank-four computations remain correct conditional statements, with a noncircular forward note that the separate rank theorem excludes those cases.",
+    "Pre-checkpoint run79140c had exactly three pending links to the then-uncreated checkpoint. Post-creation3d1520 and the recorded final audit resolve all821 checked local links with none missing."
+  ],
+  "next_bounded_tasks": [
+    "Analyze W2 dimension2 and dimW3<=3, including the remaining nilpotent residue direction and Nc residue constraints.",
+    "Analyze fourth derivative image ideal and multiplication after W2=D implies W3=D; use actual mandatory degree-one boundary prime and its polynomial local slice.",
+    "Test whether the c-projection boundary argument extends to every admissible F4 parameter and whether this forces the fourth derivative image ideal to be nonprincipal. This is a pending idea, not a proved result in105.",
+    "Keep separate unresolved whole-double, L(m)=0, global recognition and arbitrary sliced-action entry problems."
+  ],
+  "goal_status": "active",
+  "authorization_boundary": "Private local research, public-source reading and symbolic checks only. No expert outreach, submission, public posting, new automation, trading or paid resource action."
+}

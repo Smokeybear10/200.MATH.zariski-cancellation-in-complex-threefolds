@@ -1,0 +1,151 @@
+{
+  "pass": 212,
+  "status": "height_two_initial_relation_shortcuts_refuted_by_actual_family; rank_two_principal_kernel_reduced_to_nonconstant_squarefree_centers",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass211-working.json",
+    "sha256": "e639f56ec1b4cb9133757855de248dbe273c42427489da82d831fad689713770",
+    "records": 1303
+  },
+  "results": {
+    "distinct_sectors": "Height-two initial ideal means codimension two of the entire leading evaluation kernel. Rank-two in the second note instead describes the bad-variable quadratic part of the height-one principal kernel (ZW-X^4). The two strands are not identified.",
+    "actual_height_two_family": "For every polynomial f(t) of degree at least4, the explicit actual automorphism X=u, Y=y+tu, Z=z+(3t^2 y+f(t))u+t^3u^2, W=t+XZ-Y^3 has a polynomial inverse, exact E-times(1,1,2,2), nonproportional good speeds and full initial ideal of height two with no weight-two relation. For f=t^4 the entire initial ideal is (XZ-Y^3,XW-YZ,Y^2W-Z^2), proved by disjoint normal-monomial images rather than by three vanishings alone. The literal bad-coordinate shifts are2 and1, with opposite dependent leading derivations and a common actual slice.",
+    "unbounded_relation_weight": "For f=t^n, n at least4, the least weight of a homogeneous initial relation outside (XZ-Y^3) is exactly ceil(2n/3). Disjoint t-exponent bands prove the lower bound in every degree, and the explicit n=3m+r relation X^(2m+r-2)W-Y^r Z^m attains it. Consequently the exact1122 time profile gives no uniform generating-weight bound for these height-two ideals. Nevertheless t=W-XZ+Y^3 is an actual invariant ambient coordinate of fixed weight3; the original kernel is already polynomial and EX=1.",
+    "rank_two_necessary_reduction": "For a supplied actual exact1122 frame with full principal initial kernel (ZW-X^4), the original pivot gives q=1/rho and the displayed speed a cannot be a unit. The unrestricted potentials produce a nonzero sextic H with top -rho^(-11)V^6, U-degree at most4 and exact gradient/calibrated determinant identities. In the nonzero-return, nonconstant-second branch, e=deg_v theta<d=deg_v y, d at most6 and e at most4. Conductor and leading-coefficient restrictions give the stated finite necessary degree list; no realization classification follows.",
+    "repeated_center_exclusion": "The new characteristic-zero cone lemma assumes deg P at most4 and imposes no bound on Q. A ring-preserving shear handles the missing degree class, and opposite-pair power sums rule out a quadratic first square root in a generating vertex-free triple. In its actual repeated-center application, generation and vertex-freeness are proved before using the lemma. Whole-plane return then gives one double return root and a nonreduced rank-two fiber. Sextic top factors force degrees(3,2), whose elementary collision or failed immersion contradicts whole-plane generation. Zero and constant centers are recognized by retained results.",
+    "remaining_scope": "The rank-two nonconstant squarefree centers of degree one or two remain unresolved. Its primitive commuting auxiliary derivation has P-degree Y=d>e at least1 and P^2Y nonzero, so the specific211 quasi-nice input is not supplied. The actual height-two family is neither a cancellation counterexample nor a true global minimum-six frame. Other kernels, arbitrary entry and unrestricted cancellation remain open. Separate213 sources and later exploration are excluded."
+  },
+  "goal_audit": {
+    "current_progress": "Two distinct written results and two four-method finite exact-algebra suites are packaged. Each saved suite passed once after complete source reads. The actual family defeats proposed bounded initial-ideal shortcuts, while the principal rank-two chart has a sharper unresolved frontier; neither completes the global goal.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "actual_height_two_family": true,
+    "actual_height_two_counterexample_to_cancellation": false,
+    "actual_family_speed_unit": true,
+    "actual_family_true_minimum_six": false,
+    "unbounded_second_relation_weight_proved": true,
+    "unbounded_invariant_recognition_complexity_claim": false,
+    "rank_two_full_principal_kernel_required": true,
+    "rank_two_repeated_center_excluded": true,
+    "rank_two_squarefree_branch_recognized": false,
+    "rank_two_squarefree_realization_claim": false,
+    "arbitrary_entry_proved": false,
+    "global_minimum_profile_claim": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/height-two-no-quadratic-relation-actual-control-pass212-working.md",
+      "sha256": "225e1b5717a4c15a31dbe162e03e62e103042a0839ae5611f014c556f8214af6",
+      "bytes": 14454,
+      "lines": 401,
+      "equations": 24,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank-two-t-independent-sextic-reduction-pass212-working.md",
+      "sha256": "cec67b33a0d3d621c43cfc1d4a6a149b22acf937cd51984dc9f3ef809f96d892",
+      "bytes": 19600,
+      "lines": 499,
+      "equations": 26,
+      "test_methods": 0
+    },
+    {
+      "path": "research/height_two_initial_family_controls_pass212.py",
+      "sha256": "db61553a103a09451ed368c843ef07be51cb44dbda113f0fd3835b8015442676",
+      "bytes": 7601,
+      "lines": 153,
+      "equations": 0,
+      "test_methods": 4
+    },
+    {
+      "path": "research/rank_two_sextic_reduction_controls_pass212.py",
+      "sha256": "241e1d20026389c2871a3db18b5a9c87ae6f0600ee70daeb382a3c3da31e8553",
+      "bytes": 10182,
+      "lines": 205,
+      "equations": 0,
+      "test_methods": 4
+    }
+  ],
+  "canonical_executions": [
+    {
+      "suite": "height_two_initial_family_controls212",
+      "path": "research/height_two_initial_family_controls_pass212.py",
+      "pre_execution_read": "Root complete46f0f7/hashc4ae11/metadata0256f8; Jet completea8bf24/hash1b1dfb/count07ea80.",
+      "initial_output": "bd1086",
+      "session_id": null,
+      "terminal_output": "bd1086",
+      "methods": 4,
+      "unittest_seconds": 0.088,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "completion_via_original_handle": false,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/height_two_initial_family_controls_pass212.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "login": false,
+      "initial_yield_time_ms": 1000,
+      "initial_max_output_tokens": 6000
+    },
+    {
+      "suite": "rank_two_sextic_reduction_controls212",
+      "path": "research/rank_two_sextic_reduction_controls_pass212.py",
+      "pre_execution_read": "Author complete2bad08/hashcec6aa/count124e56/method088cc9; Root completeec329c/hash4405c6.",
+      "initial_output": "65d778",
+      "session_id": null,
+      "terminal_output": "65d778",
+      "methods": 4,
+      "unittest_seconds": 0.47,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "completion_via_original_handle": false,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/rank_two_sextic_reduction_controls_pass212.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "login": false,
+      "initial_yield_time_ms": 1000,
+      "initial_max_output_tokens": 6000
+    }
+  ],
+  "tagged_equations": 50,
+  "total_new_test_methods": 8,
+  "reviews": {
+    "height_two_family": "General final author complete6f5bcf+ad6876/hash292ac6/count875026+508658; Root complete529087+144ddc; Jet complete42d9eb+f220cf/hash1b1dfb/count07ea80. Both staged actual inverse orders, all-ring selected shifts, the full n=4 ideal via three disjoint normal-monomial regions, the arbitrary-polynomial family and the exact all-n ceil(2n/3) threshold reconstruct. Nondivisibility is proved in the prime triple quotient. The fixed weight-three invariant is separated from unbounded ideal-generation weight.",
+    "rank_two_reduction": "Geometry final author complete752603+629d37 and final notation/EOF/hash14006c; Root complete2b3f50+e594f0; Jet complete8953d5+f6bd66/hashcec6aa. All q=1/rho coefficients, including the full R_rho term and the quadratic w contribution, sextic top, U-degree slots, calibrated gradient/wedge identities and degree list reconstruct. The all-degree asymmetric cone shear preserves the plane and triple rings; its power-sum argument includes diagonal and low-degree cases and faithful descent. The actual repeated-center application verifies generation, vertex-freeness, root multiplicity, the nonreduced fiber and the final(3,2) contradiction. Primitive division is justified, but does not supply211's square-zero coordinate iterates.",
+    "height_two_checker": "Root complete46f0f7/hashc4ae11/metadata0256f8 and Jet completea8bf24/hash1b1dfb/count07ea80 preceded sole canonicalbd1086. The arbitrary-f staged inverses, exact translation flow, literal partials and commutators, finite syzygy/normal-monomial controls and finite thresholds4 through30 reconstruct. Finite enumeration is not recorded as proof of the all-degree ideal or unboundedness theorem.",
+    "rank_two_checker": "Author complete2bad08/hashcec6aa/count124e56/method088cc9 and Root completeec329c/hash4405c6 preceded sole canonical65d778. Four independent finite methods retain exact prior-potential residuals rather than silently dividing in the line ring. Cone inverses, companion-trace recurrence controls through degree16, finite leading-degree cancellation and nonreduced-fiber/collision identities supplement the literal sextic and wedge checks. No additional full peer checker review is claimed.",
+    "metadata": "Read-only7fc9c5/e2351e/9480c5 confirms both frozen211 hashes, all four212 source hashes, byte/line counts and eight method declarations. The two canonical runs retain separate times and initially-terminal provenance. No213 source, unsaved exploration or prior execution is counted."
+  },
+  "proof_dependencies": {
+    "retained": [
+      "research/two-linear-two-quadratic-initial-bound-pass157-working.md",
+      "research/three-good-all-degree-recognition-pass156-working.md",
+      "research/arbitrary-positive-weight-initial-bound-pass158-working.md",
+      "research/unrestricted-entry-frontier-pass124.md",
+      "research/weight-four-universal-chart-potentials-pass184-working.md",
+      "research/vertex-free-quintic-cone-projection-pass184-working.md",
+      "research/weight-four-t-independent-leading-kernel-classification-pass206-working.md",
+      "research/radical-projection-conductor-cubic-reduction-pass206-working.md",
+      "research/weight-four-t-independent-zero-r-recognition-pass205-working.md",
+      "research/weight-four-constant-second-projection-recognition-pass210-working.md",
+      "research/radical-initial-kernel-recognition-synthesis-pass211-working.md"
+    ],
+    "scope": "Retained sources supply actual-chart and recognized-branch inputs and delimit entry claims. They are not new212 records or reruns. The height-two fixture and new cone argument have elementary written proofs. No new primary-paper access, expert review or novelty clearance is claimed by this packet."
+  },
+  "finite_control_scope": "The first four-method suite checks arbitrary-function inverse identities and finite flow/partial formulas, then finite normal monomials and monomial relation thresholds. The second checks exact sextic and center coefficients, full undivided potential-gradient remainders, an independent calibrated wedge, cone shear inverse orders, bounded power sums and degree cancellation, and repeated-center fiber/collision identities. Neither suite proves universal ideal generation, unboundedness, field return, conductor bounds, the all-degree cone theorem, actual geometric realization or recognition.",
+  "next_bounded_task": "Investigate the actual nonconstant squarefree-center branches of the rank-two principal kernel, or a genuinely different height-two entry mechanism. Keep coefficient-field manipulations separate from original-ring coordinate construction. Do not rerun212; separate213 work is not incorporated."
+}

@@ -1,0 +1,111 @@
+{
+  "pass": 213,
+  "status": "rank_two_squarefree_degree_lists_pruned; linear_center_quadratic_projection_described_over_coefficient_field; original_recognition_open",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass212-working.json",
+    "sha256": "7ca24e8c1821967c22d6ab0f226d565995ffea390d737141d13a197e091e0612",
+    "records": 1309
+  },
+  "results": {
+    "degree_pruning": "Monic specialization at the squarefree center gives exact U-degrees for G and its cofactor, including nonreduced fibers. The positive-degree cofactor inequality yields linear-center pairs(2,1),(3,1),(4,1),(3,2),(4,2),(6,2), and quadratic-center pairs(2,1),(3,2),(6,4). The constant specialized cofactor is not subjected to the positive-degree bound.",
+    "linear_center_ring": "For a linear center with quadratic second projection, exact division and the full triple-ring equality yield O=L[theta,wtilde]. The odd-part argument gives wtilde=P(theta)+b1x over L, so C=L[x^2,x^3+c1x] is proper with defect one and exact conductor RO. The plane is geometrically nodal for nonzero c1 and cuspidal for c1=0.",
+    "bookkeeping_and_countercontrol": "The allowed degrees of P are at most2 and give first-projection degrees3,4,6 with deg wtilde=d-2. A separate formal(6,4) polynomial pair has y^2-theta^3 of degree3, blocking an unsupported cancellation-degree shortcut. It is not asserted to satisfy actual chart hypotheses.",
+    "boundaries": "All normalized ring descriptions and recoveries are over the coefficient field, not ambient coordinate changes. No listed case is realized or recognized here, and no original-ring denominator descent is proved. The full cancellation goal and arbitrary entry remain unresolved. Separate214 notes and explorations are excluded."
+  },
+  "goal_audit": {
+    "current_progress": "Two proof notes and one four-method finite suite are packaged with complete source reviews and one passing canonical execution. This records a sharper coefficient-field degree and ring frontier, not completion of any remaining original-ring recognition branch.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "actual_full_rank_two_frame_hypotheses_required": true,
+    "coefficient_field_ring_description_only": true,
+    "monic_center_bounds_proved": true,
+    "linear_center_quadratic_projection_proper": true,
+    "node_cusp_description_proved": true,
+    "remaining_squarefree_branch_recognized": false,
+    "listed_pairs_realized": false,
+    "coefficient_field_normalization_is_ambient": false,
+    "coefficient_field_rationality_claim": false,
+    "formal_cancellation_fixture_is_actual": false,
+    "arbitrary_entry_proved": false,
+    "global_minimum_profile_claim": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/rank-two-squarefree-center-degree-pruning-pass213-working.md",
+      "sha256": "6fc73470c53b80d33e3fb80101a6eb7dc48acc4d7f833a2620eca0b2630c13e4",
+      "bytes": 6434,
+      "lines": 168,
+      "equations": 8,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank-two-linear-center-quadratic-projection-pass213-working.md",
+      "sha256": "5f158d551702edb2e1ce48d8a42172af6a72a9f01878b7f1fc5728a69a41dc5f",
+      "bytes": 7329,
+      "lines": 206,
+      "equations": 12,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank_two_center_projection_controls_pass213.py",
+      "sha256": "2521a6c65e98fd8ba6a30f9e858403dba46d0683fde8f96c446009a365ca0204",
+      "bytes": 8758,
+      "lines": 176,
+      "equations": 0,
+      "test_methods": 4
+    },
+    {
+      "path": "research/verification-pass213-working.json",
+      "sha256": "bad3e3f4db40876970f3a08334b6fcc19e345ebc4f5120294507aa7fadc00e81",
+      "bytes": 9014,
+      "lines": 113,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "chain_record_count_after_including_this_checkpoint": 1314,
+  "record_count_convention": "1309 frozen predecessor records plus two proof notes, one checker source, verification213 and this checkpoint: five new records. Mutable indices are not records. No214 source, unsaved exploration, retained input or previous canonical execution is counted.",
+  "verification": {
+    "capture": "research/verification-pass213-working.json",
+    "canonical_runs": [
+      {
+        "suite": "rank_two_center_projection_controls213",
+        "path": "research/rank_two_center_projection_controls_pass213.py",
+        "pre_execution_read": "Author complete EOF7d53db/hash6c31c5/countb28a2c/method7b5678; Root complete0015a3.",
+        "initial_output": "cc52cb",
+        "session_id": null,
+        "terminal_output": "cc52cb",
+        "methods": 4,
+        "unittest_seconds": 0.116,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "completion_via_original_handle": false,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/rank_two_center_projection_controls_pass213.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "login": false,
+        "initial_yield_time_ms": 1000,
+        "initial_max_output_tokens": 6000
+      }
+    ],
+    "new_suites": 1,
+    "new_methods": 4,
+    "tagged_equations": 20,
+    "scope": "Finite monic-center and degree-list controls, exact D division and coefficient-field recovery, bounded parity/conductor formulas, node/cusp and degree identities, and a formal cancellation countercontrol. These checks do not prove universal field, module, conductor or geometric statements and do not establish ambient coordinates or actual realization. Author and Root complete reads preceded the sole initially-terminal run; no additional full peer checker review is claimed."
+  },
+  "next_bounded_task": "Use the actual differential potentials and calibrated determinant to test the remaining squarefree-center possibilities, while keeping coefficient-field normalizations separate from ambient polynomial coordinates. Do not rerun213. Separate214 work is not incorporated."
+}

@@ -1,0 +1,126 @@
+{
+  "pass": 150,
+  "status": "all_H_coefficient_subring_exclusion_and_rational_classification; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/base-dependent-nonlinear-intercept-exclusion-pass150-working.md",
+      "sha256": "fcb6fa15991b1b1f62ff0d1d50314c0d0ec0f352654a8602060b259b06004271",
+      "bytes": 15980,
+      "lines": 403,
+      "equations": 12,
+      "test_methods": 0
+    },
+    {
+      "path": "research/selected-divisor-and-entry-gaps-pass150-working.md",
+      "sha256": "a035068686c157c5dac0ef808ac0460b0cb06ad45e2cc0eb049dec1cc7b11cd1",
+      "bytes": 11365,
+      "lines": 219,
+      "equations": 6,
+      "test_methods": 0
+    },
+    {
+      "path": "research/nonlinear_intercept_rank_two_controls_pass150.py",
+      "sha256": "3e95c73f3bff3733aa9c7007b905fe2f059ee425283881755a5b76a22633f603",
+      "bytes": 10682,
+      "lines": 259,
+      "equations": 0,
+      "test_methods": 4
+    }
+  ],
+  "main_result": {
+    "statement": "Let p=y-R(x), q=a(p)z-H(p,x), R in C[x] of degree at least2, a in C[p] nonconstant, H arbitrary in C[p,x]. If f,g,h belong to C[p,q] and their original (x,y,z) Jacobian is nilpotent, their speed field has transcendence degree at most1.",
+    "proof": "Rank2 forces the coefficient minor Jfg nonzero. The reverse determinant forces H=A(p)R(x)+B(p)x+C(p). If a'A-aA' is nonzero, highest trace degrees force f_q=g_q=0. Otherwise A=k a; the reduced trace rules out all branches except a quadratic resonance, whose mixed-partial identity forces g_q=c/a for nonzero complex c, incompatible with polynomial coefficient membership.",
+    "strengthening": "No nonlinear-specialization hypothesis or restriction on the base dependence of H remains in the polynomial-coefficient theorem.",
+    "limits": "No rank-one classification, arbitrary nonlinear-intercept normal form, or cancellation recognition. The actual W=u application is diagnostic within an already-polynomial A."
+  },
+  "rational_classification": {
+    "statement": "All rational coefficient rank2 solutions are quadratic: R=(r/2)x^2+s*x+t, H=k*a*R+B*x+C, D=B/a with D' nonzero; f=f0-c*D/r, g=g0+c*(q+C)/a-c*k*p-c*s*D/r, h=h0+k*g-c*D^2/(2*r), with r,c nonzero constants.",
+    "converse": "Coefficient trace and reverse determinant vanish, so (BA)^2=0 and (AB)^3=0. The coefficient Jacobian minor is -c^2*D'/(r*a).",
+    "ambient_polynomiality": "Exactly D in C[p]. Ambient polynomiality is weaker than membership of all speeds in C[p,q].",
+    "actual_boundary": "p=y-x^2/2, q=pz-p^2x, speeds=(-p,q/p,-p^2/2). The displayed four-coordinate line family has a two-sided polynomial inverse. It violates coefficient-subring membership, not the theorem."
+  },
+  "structural_audit": {
+    "status": "Dependency clarification, not a proved new reduction.",
+    "open_sufficient_lemma": "For every actual unrestricted dense139 frame and every prime p of S=ker N, the full divisor constant field ell_p equals Frac(S/p). No triangular placement or W=u premise.",
+    "conditional_endpoint": "Under the retained factorial and faithfully flat quotient hypotheses, equality at every prime makes the primitive plinth a unit and yields A=S[v].",
+    "separate_gap": "No entry theorem puts an arbitrary sliced action on C4 into three polynomial coordinate slots annihilated by E^2. Neither gap is proved by the family exclusion.",
+    "next_task": "Attack a full divisor of an actual all-degree frame without a triangular or W=u assumption, using the original inverse, or produce an inverse-verified selected-action counterexample to this sufficient strategy. Do not reopen the now-classified coefficient-subring family."
+  },
+  "canonical_execution": {
+    "command": "/opt/anaconda3/bin/python research/nonlinear_intercept_rank_two_controls_pass150.py -v",
+    "source_sha256": "3e95c73f3bff3733aa9c7007b905fe2f059ee425283881755a5b76a22633f603",
+    "completion_output": "d596bb",
+    "exit_code": 0,
+    "methods": 4,
+    "seconds": 0.207,
+    "source_read": "Root full final258e59 before execution",
+    "state": "terminal; no pending execution handles",
+    "python": "3.13.5 Anaconda",
+    "sympy": "1.13.3",
+    "runtime_read": "8dfdaf"
+  },
+  "pre_extension_execution": {
+    "source_sha256": "d7d7792e07f70283c577997bdc133c4295b0012a04218a1f501b1895d10c7eae",
+    "source_read": "39d484",
+    "completion_output": "d330d8",
+    "exit_code": 0,
+    "methods": 3,
+    "seconds": 0.125,
+    "scope": "Earlier three-method source before theorem strengthening and fourth method. Not the final canonical execution."
+  },
+  "test_scope": [
+    "Independent original-coordinate chain rule and AB/BA determinant identity.",
+    "Cleared one-form, reduced-trace and rational-exception identities.",
+    "Representative nonresonant degrees2,3,5 and all types of resonant degree branch.",
+    "Actual rational-coefficient boundary: original Jacobian cube, rank2 minor, both polynomial inverse orders and three-good time-degree bounds.",
+    "Finite algebra controls only. Universal classifications are written arguments; no Lean/formal verification or broad counterexample search."
+  ],
+  "reviews": {
+    "root": "Final proof full387de5; structural note fullba1a61; final checker full258e59; artifact metadata51be05.",
+    "general": "Proof author final403-line source and precision delta7900fb; independent final checker and structural note e46f59/hash92f4f3; fresh retained27 b5890f and primary Masuda turn4111view0.",
+    "geometry": "Final proof full21a077+e23375 at fcb6fa15; final checker full6b0a19 at3e95c73f; structural note author fullea2eea. Fresh Yan-de Bondt exact statement turn4108view1.",
+    "jet": "Final proof full49d049 at fcb6fa15; structural note full7ebc79 with retained27 read09f80e; checker author full1c8023.",
+    "limits": "Separate AI reconstructions and exact symbolic tests are not human expert review, formal proof checking or historical novelty clearance."
+  },
+  "literature": {
+    "yan_de_bondt": {
+      "url": "https://arxiv.org/pdf/1710.04210v3",
+      "checked": "Theorem2.5 and its proof, root turn4105view2.",
+      "scope": "The ambient-polynomial rational exceptions match the known two-variable-component pattern after the stated linear changes. No new-family or novelty claim; the coefficient-subring argument is self-contained."
+    },
+    "masuda": {
+      "url": "https://arxiv.org/html/2512.06687v1",
+      "checked": "Theorem3.5 and proof, root turn4106view0; author/reviewer fresh primary checks separately.",
+      "scope": "The published endpoint applies conditionally on the still-missing boundary birationality. No assertion that the family proof supplies it."
+    },
+    "limitations": "Narrow applicability/overlap checks, not a comprehensive priority audit. An attempted Chamberland author-PDF fetch timed out and the publisher page failed; neither failed fetch is used as primary evidence."
+  },
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass149-working.json",
+    "sha256": "af6f1f5ab195e0f3f8542337916924b327a4c3df469137f051b58488a96e0257",
+    "records": 978
+  },
+  "remaining_gaps": [
+    "Unrestricted actual selected-divisor triviality, or an alternative descent mechanism.",
+    "Entry into the supplied three-good setting from an arbitrary sliced action and its other profiles.",
+    "Professor-intent confirmation, human expert reconstruction and statement-level historical priority."
+  ],
+  "goal_audit": {
+    "previous_turn_classification": "progress: new149 exact verification eeaa45",
+    "current_turn_classification": "progress:149 frozen, arbitrary-H rank2 exclusion and rational classification proved within their displayed hypotheses, final affected tests passed, general dependency gaps audited",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  }
+}

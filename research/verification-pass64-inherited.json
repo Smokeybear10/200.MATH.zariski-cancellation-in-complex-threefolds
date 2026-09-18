@@ -1,0 +1,35 @@
+{
+  "started_at_utc": "2026-09-13T23:23:22.809518+00:00",
+  "completed_at_utc": "2026-09-13T23:23:24.310274+00:00",
+  "all_passed": true,
+  "suites": [
+    {
+      "command": "/opt/anaconda3/bin/python research/two_quadratic_degree_two_checks_pass42.py",
+      "test_methods": 5,
+      "unittest_seconds": 0.279,
+      "exit_code": 0,
+      "raw_stdout": "",
+      "raw_stderr": "test_actual_common_tangent_plane_and_all_annihilations (__main__.TwoQuadraticDegreeTwoChecks.test_actual_common_tangent_plane_and_all_annihilations) ... ok\ntest_actual_conjugate_columns_and_top_coefficients (__main__.TwoQuadraticDegreeTwoChecks.test_actual_conjugate_columns_and_top_coefficients) ... ok\ntest_bad_speed_image_and_material_rank_hypothesis (__main__.TwoQuadraticDegreeTwoChecks.test_bad_speed_image_and_material_rank_hypothesis) ... ok\ntest_slice_quotient_restrictions_have_exact_rank_one (__main__.TwoQuadraticDegreeTwoChecks.test_slice_quotient_restrictions_have_exact_rank_one) ... ok\ntest_unrestricted_second_bracket_identity_and_invariant_specialization (__main__.TwoQuadraticDegreeTwoChecks.test_unrestricted_second_bracket_identity_and_invariant_specialization) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.279s\n\nOK\n"
+    },
+    {
+      "command": "/opt/anaconda3/bin/python research/bad_projection_rank_closure_checks_pass43.py",
+      "test_methods": 3,
+      "unittest_seconds": 0.198,
+      "exit_code": 0,
+      "raw_stdout": "",
+      "raw_stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.198s\n\nOK\n"
+    },
+    {
+      "command": "/opt/anaconda3/bin/python research/generic_bad_pair_checks_pass44.py",
+      "test_methods": 4,
+      "unittest_seconds": 0.31,
+      "exit_code": 0,
+      "raw_stdout": "",
+      "raw_stderr": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.310s\n\nOK\n"
+    }
+  ],
+  "total_methods_rerun": 12,
+  "new_methods": 0,
+  "new_suites": 0,
+  "scope": "Affected inherited exact-identity suites only; not the full project regression or proof of their general hypotheses."
+}

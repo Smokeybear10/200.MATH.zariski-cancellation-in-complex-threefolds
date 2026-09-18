@@ -1,0 +1,151 @@
+{
+  "pass": 100,
+  "status": "working_partial_result; unrestricted cancellation unsolved",
+  "working_target": "A[u] isomorphic to C^[4] implies A isomorphic to C^[3]; professor's corrected scope unconfirmed",
+  "summary": "Exact canonical and original partial actions on the whole collapsed quadratic fiber. Nonzero first normal action forces whole-fiber commutation. Zero first normal action permits a quadratic nilpotent correction in the quotient calculation; an Artin-only polynomial inverse control shows why that calculation alone cannot eliminate it.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass99-working.json",
+    "sha256": "baec46acc839e5846ffa77c5a6e8066fe725b3ea9e47177b9c98702b0d05194d",
+    "verified_hash_records": 602,
+    "tool": "f4f815"
+  },
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-14T18:37:51.047Z",
+    "all_passed": true,
+    "artifacts": [
+      {
+        "path": "research/quadratic-whole-fiber-actions-pass100.md",
+        "sha256": "5d445b545553cd5973fb39555645774c3ba083af9a8ff8ba3db83a12d5d2d993",
+        "bytes": 11165,
+        "content_lines": 277,
+        "equation_tags": 8
+      },
+      {
+        "path": "research/quadratic_whole_fiber_checks_pass100.py",
+        "sha256": "978f7e9d354bdea3e65743a2b77d71fd64e7d535c968e7d9ea0082f141cea0a6",
+        "bytes": 6354,
+        "content_lines": 138,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/verification-pass100-working.json",
+        "sha256": "5d024fb3fd9c5250229678f825877e35b894f4edd0d9c2408b31e09b02732cbb",
+        "bytes": 1390,
+        "content_lines": 29,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/quadratic-action-frontier-pass100.md",
+        "sha256": "1640ac1297d9f5dcac656b9746218bb1562e3c9f3fbedef9e3e11e72e6939180",
+        "bytes": 9579,
+        "content_lines": 180,
+        "equation_tags": 0
+      }
+    ],
+    "equation_tags": 8,
+    "captured_methods": 1,
+    "ast_methods": 1,
+    "complete_output_verified": true,
+    "local_markdown_links_checked": 779,
+    "missing_links": [],
+    "deferred_checkpoint_links": [
+      {
+        "from": "README.md",
+        "target": "research/checkpoint-pass100-working.json"
+      }
+    ]
+  },
+  "chain_record_count_after_including_this_checkpoint": 607,
+  "record_count_convention": "602 predecessor records + 4 frozen current artifacts + this checkpoint; current primary comparison is remote and not a frozen source download",
+  "proof_reviews": [
+    {
+      "reviewer": "Root",
+      "scope": "Complete saved proof and checker; complete volume-normal dependency99; synthesis and live index deltas",
+      "evidence": [
+        "e52460",
+        "34afa5",
+        "4bf0d6",
+        "f5d8d7",
+        "279caa",
+        "c1e97d"
+      ]
+    },
+    {
+      "reviewer": "Geometry",
+      "scope": "Author complete saved joint proof, eight equations; unit transition and induced actions",
+      "proof_sha256": "5d445b545553cd5973fb39555645774c3ba083af9a8ff8ba3db83a12d5d2d993"
+    },
+    {
+      "reviewer": "Jet",
+      "scope": "Independent weighted derivation and complete saved joint-proof audit; authored finite checker",
+      "evidence": [
+        "b10fd5",
+        "056eed"
+      ]
+    },
+    {
+      "reviewer": "General",
+      "scope": "Independent complete saved proof/code audit, both hashes matched; all eight equations, strict filtration and actual unit premises reconstructed; no rerun",
+      "evidence": [
+        "ce7b28"
+      ]
+    }
+  ],
+  "canonical_verification": {
+    "path": "research/verification-pass100-working.json",
+    "sha256": "5d024fb3fd9c5250229678f825877e35b894f4edd0d9c2408b31e09b02732cbb",
+    "tool": "b51ce0",
+    "suites": 1,
+    "test_methods": 1,
+    "scope": "One finite symbolic method: weighted beta coefficients, explicit double and mixed Artin-ring derivations, commutators, and polynomial inverse controls. Not verification of actual original-frame existence, conormal-transition units, the geometric filtration hypotheses, recognition, or cancellation."
+  },
+  "repeated_verification": [
+    {
+      "by": "Jet",
+      "tool": "b17086",
+      "unittest_seconds": 0.3,
+      "wall_seconds": 0.553262625
+    },
+    {
+      "by": "Root check-in",
+      "tool": "54dc74",
+      "unittest_seconds": 0.287,
+      "wall_seconds": 0.555718834
+    }
+  ],
+  "historical_full_verification": {
+    "pass": 75,
+    "suites": 146,
+    "test_methods": 1047,
+    "rerun": false,
+    "registry_claims": 544,
+    "registry_expanded": false
+  },
+  "sources": [
+    {
+      "title": "On nice Gm-actions arising from locally nilpotent derivations with slice",
+      "author": "Luis Cid",
+      "url": "https://arxiv.org/html/2604.03471v1",
+      "primary_sections_read": "Introduction, Lemma5.3 and Theorem5.4 including proofs",
+      "access_evidence": "turn3572view0",
+      "scope": "Bounded recheck of already-known comparison; no arbitrary-frame theorem obtained and no exhaustive novelty audit",
+      "date_note": "arXiv header April3,2026; rendered manuscript August24,2026"
+    }
+  ],
+  "open_obligations": [
+    "Lift quotient constraints to an actual global exclusion or recognition theorem",
+    "Zero-first-normal polynomial correction and higher normal orders",
+    "L=0 and noncollapsed whole-double sectors",
+    "Remaining supplied-frame recognition",
+    "Arbitrary sliced-action reduction to a recognized or supplied frame",
+    "Human expert review and historical priority check"
+  ],
+  "excluded_work": "Pass101 polynomial lift, higher-normal and global-entry audits are not included or claimed completed here.",
+  "integrity_note": "The pre-check deferred only the README link to this checkpoint. A post-write link/hash check must resolve it; this file cannot include its own cryptographic hash.",
+  "authorization": {
+    "external_contact": false,
+    "publication": false,
+    "submission": false
+  },
+  "completion": false
+}

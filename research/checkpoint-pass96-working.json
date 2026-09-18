@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "pass": 96,
+  "created_at_utc": "2026-09-14 16:39:43 UTC",
+  "active_goal": "keep going until u solved it",
+  "working_question": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic to C^[4] implies A isomorphic to C^[3].",
+  "general_conjecture_solved": false,
+  "goal_status": "active",
+  "this_pass_classification": "progress",
+  "preceding_turn_classification": "The intervening user check-in was status-only and is no progress. This continuation completed the pass95 saved packet and made new proof, compatibility and dependency progress.",
+  "summary": "Every reduced quadratic closed-fiber component is an entire affine line. Every noncollapsed fixed component is the whole reduced fiber. A narrower normalization-homology and integral-lattice argument supports the irreducible multiplicity exclusion. An actual polynomial-ring countercontrol isolates why quotient geometry and a relative inverse do not supply an original coordinate tuple.",
+  "scope_assumptions": [
+    "Actual supplied nonconical constant-acceleration original polynomial frame B=A[u]=C^[4], canonical primitive Jacobian LND N, kernel S=C^[2], faithful flatness and A=S[A1,A2,c].",
+    "Quadratic generic relative degrees at most2,2,4 and the retained actual all-divisor degree bound at most2.",
+    "The affine-line theorem uses the already established smooth disjoint reduced fibers95, contractibility of X, actual quotient product strata and ordinary oriented Thom homology.",
+    "The compatibility proof uses actual good-generator degree2 and whole-thickening length, miracle flatness and equality in the non-finite flat-module rank lemma93; it does not need first-normal action to be nonzero.",
+    "The global bridge control intentionally has a noncoordinate proposed tuple, despite a genuine polynomial A and actual coordinate Z. It is not a counterexample satisfying the original frame."
+  ],
+  "completed_deductions": [
+    "Ordinary homology gives H4(X*)=0 from the exceptional divisor/product strata and then H1 of the full smooth disjoint deleted curves is zero by contractibility and codimension-two Thom. Every quadratic open-line component therefore has no puncture.",
+    "Each quadratic whole component thickening is finite free over an actual polynomial parameter ring, preserving the module/algebra distinction from95.",
+    "A noncollapsed fixed component with any companion forces degree-one generic residue projections and an entire U-line. At a matching closed point, generic degree and transverse length2 force a finite free local cover.",
+    "An integral localization identifies the entire local base change with a local ring, but two distinct matching closed points would survive. Thus every noncollapsed quadratic fixed component is the whole reduced fiber, of multiplicity2.",
+    "In particular, all fixed components in reducible quadratic fibers are collapsed; a (2,2) fiber must have two collapsed components. Their existence or exclusion is not resolved.",
+    "The whole-irreducible multiplicity-four exclusion can avoid Theorem5.2 and affine-line normalizations: finite-cover transfer plus equal normalization-H1 ranks gives integral injectivity and the necessary puncture lift.",
+    "The actual full supported integral lattice and transverse linking degree give whole irreducible multiplicity in {1,2} under the degree2 divisor bound.",
+    "A smooth factorial quadric control with H3=Z and a wrong-kernel polynomial map of multiplicity4 expose the missing homology and reduced-prime-divisor gates if those hypotheses are dropped.",
+    "A literal quadratic polynomial quotient realizes all stated elementary fiber geometry, a unit speed row with nonconstant Ω, freeness on DΩ, an actual constant-acceleration coordinate Z, and an exact relative inverse/pencil, yet no nonzero constant-linear speed.",
+    "The proposed tuple in that control has an explicit singular point on DΩ; a tangent vector proves u,a,t cannot be recovered polynomially from the tuple. The original-coordinate hypothesis remains essential to any global recognition inference."
+  ],
+  "proof_reviews": {
+    "affine_lines": "Root author and full saved-proof read; Jet, General, Geometry full independent six-equation saved-proof reviews, including ordinary noncompact Thom.",
+    "compatibility": "Jet author; Root initial proof plus complete new no-companion section and forward delta, General and Geometry final ten-equation saved-proof reviews. The forward affine-line link is not a proof dependency.",
+    "dependency_audit": "Geometry author; Root, General, Jet complete eight-equation saved-note reviews. General additionally freshly read the selected complete primary Kaliman passages; no wholesale foundational-topology proof audit.",
+    "global_bridge": "General author; Root and Jet complete final proof/code reads. Geometry complete proof and independent determinant/tangent reconstruction. Final generic-rank wording checked; no code change.",
+    "synthesis": "Root full saved read and General complete independent four-equation review.",
+    "proof_audit": "Root full saved read and General full independent integration review; final evidence-only adjustment avoids attributing a checker read to Geometry.",
+    "limit": "Separate AI mathematical reconstructions and finite controls, not expert review, formal verification or historical novelty clearance."
+  },
+  "targeted_verification": {
+    "path": "research/verification-pass96-working.json",
+    "sha256": "660e4a3190a637921b3cb6d408afa9584f61211c362cfde5fc086f2219a99038",
+    "all_passed": true,
+    "suites": 1,
+    "test_methods": 1,
+    "started_at_utc": "2026-09-14T16:34:57.323Z",
+    "finished_at_utc": "2026-09-14T16:34:57.810Z",
+    "wall_seconds": 0.481187666,
+    "unittest_seconds": 0.094,
+    "input_files": 1,
+    "input_hashes_unchanged": true,
+    "complete_output_sha256": "9d767260723bcc372c73dea2ef2c29be9b7ce6ca2cb2c7d2c80c792d6ad5b3b7",
+    "output_hash_convention": "stdout + one newline + stderr",
+    "canonical_tool_chunk": "dca956",
+    "author_final_run": "General747968,1 method0.094 seconds",
+    "independent_final_repeat": "Jet a7097c,1 method0.097 seconds; repeat of the same method, not additional coverage",
+    "scope": "One finite exact polynomial speed-row, relative inverse, Jacobian and tangent control. Not verification of universal topology, finite-flat arguments, original-frame recognition or cancellation."
+  },
+  "predecessor_audit": {
+    "checked_at_utc": "2026-09-14T16:39:08.458Z",
+    "all_passed": true,
+    "prior_hash_records": 564,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "c5e66c8f7efedb48a69dbb341c3216e832b99cc9b2049724ad4d6dff57956bec",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "tool_chunk": "91bf65",
+    "unchanged": true,
+    "independent95_checkpoint_audit": "General de5b36: complete checkpoint/audit/capture read,11 artifact hashes/sizes/lines,46 tags,3 inputs/output digest, resolved links and564 accounting, without rerun."
+  },
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-14T16:39:43.821Z",
+    "all_passed": true,
+    "artifact_count": 8,
+    "numbered_equations": 36,
+    "local_links_checked": 766,
+    "missing_links": [],
+    "deferred_links": [
+      {
+        "from": "research/quadratic-fiber-recognition-frontier-pass96.md",
+        "target": "checkpoint-pass96-working.json"
+      },
+      {
+        "from": "README.md",
+        "target": "research/checkpoint-pass96-working.json"
+      },
+      {
+        "from": "research-ledger.md",
+        "target": "research/checkpoint-pass96-working.json"
+      }
+    ],
+    "targeted_inputs_checked": 1,
+    "targeted_complete_outputs_checked": 1,
+    "artifacts": [
+      {
+        "path": "research/irreducible-fiber-dependency-audit-pass96.md",
+        "sha256": "bf3eefe1a0e8e7e9179cb39f4ce9530d52b88414c5b1e5eff5fa161783ada3b9",
+        "bytes": 17957,
+        "content_lines": 399,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/proof-audits-pass96-working.md",
+        "sha256": "e6197ac4a0027a8f2a6f19359a71691750e69d4fe3c2250624f9c89961999f85",
+        "bytes": 7050,
+        "content_lines": 166,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/quadratic-component-compatibility-pass96.md",
+        "sha256": "ac05d6c97df62b6b65860cf5b1b24350369077c6a761d9fd48225b8cc01feb3e",
+        "bytes": 14645,
+        "content_lines": 344,
+        "numbered_equations": 10
+      },
+      {
+        "path": "research/quadratic-fiber-affine-lines-pass96.md",
+        "sha256": "658b86d6b2a3325f59ade1840d741bfc4991bc2d9452f5fce7dd86ac5c3b0b86",
+        "bytes": 7795,
+        "content_lines": 192,
+        "numbered_equations": 6
+      },
+      {
+        "path": "research/quadratic-fiber-recognition-frontier-pass96.md",
+        "sha256": "0e89505bdeebd93447be11538d339ef649c42561ca7e0977e4d3a1ffc2e69038",
+        "bytes": 9941,
+        "content_lines": 254,
+        "numbered_equations": 4
+      },
+      {
+        "path": "research/quadratic-global-bridge-pass96.md",
+        "sha256": "e475dec774494cd73d2685a355c2dde10774be93e114ffe68ead8dee2af5926d",
+        "bytes": 9622,
+        "content_lines": 223,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/quadratic_global_bridge_checks_pass96.py",
+        "sha256": "f482c0bb934986d1bb5e438469eccdd4e60628bec1b7995d4fc23f37a3de649e",
+        "bytes": 3482,
+        "content_lines": 88,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/verification-pass96-working.json",
+        "sha256": "660e4a3190a637921b3cb6d408afa9584f61211c362cfde5fc086f2219a99038",
+        "bytes": 1297,
+        "content_lines": 29,
+        "numbered_equations": 0
+      }
+    ],
+    "tool_chunk": "6d234e",
+    "scope": "Eight saved artifacts plus README/ledger links. Three self-checkpoint links intentionally deferred until save, then checked again."
+  },
+  "selected_primary_sources": [
+    {
+      "url": "https://www.math.miami.edu/~kaliman/library/Ka.invent.2004.c%2B.pdf",
+      "scope": "Selected full Lemmas2.1–2.2, Notation2.3 and Proposition3.2 including the homology diagram and Step2 rank comparison freshly checked. Geometry additionally checked later statements adversarially but they are not needed in the replacement multiplicity argument. No complete new Dold/Milnor/Stein foundation audit."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/00R4",
+      "scope": "Complete displayed statement/proof checked by Root and Jet; actual dimension-three local map satisfies its hypotheses."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/00MC",
+      "scope": "Complete displayed statement/proof checked by Root for retained flat-rank lemma's completion contraction."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/0AFU",
+      "scope": "Complete displayed statement/proof checked by Geometry for the factorial quadric control only."
+    }
+  ],
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "fresh_full96_regression_performed": false,
+  "central_registry_integrated": false,
+  "historical_claim_count": 544,
+  "record_accounting": {
+    "prior_frozen_records": 564,
+    "new_artifacts": 8,
+    "new_checkpoint_self": 1,
+    "records_after_checkpoint_freeze": 573,
+    "note": "Checkpoint self hash retained externally and independently checked after saving."
+  },
+  "rejected_shortcuts": [
+    "Entire reduced affine lines do not imply reduced fibers, a free N-action, or polynomial-ring recognition.",
+    "The no-companion theorem does not exclude a single noncollapsed double fiber or collapsed fixed components in reducible fibers.",
+    "Rational normalization-H1 surjectivity alone does not prove the integral puncture equality; equal ranks and torsion-free integral groups are used.",
+    "Cover degree alone does not identify multiplicity when the displayed base subring is not the full kernel and prime divisors pull back nonreduced.",
+    "A determinant-one matrix over S is not an ambient coordinate change when S cannot be recovered from the proposed tuple.",
+    "An actual coordinate Z, canonical slice EZ/2, unit speed row and relative inverse do not by themselves make all four proposed functions original coordinates."
+  ],
+  "next_bounded_actions": [
+    "Use the original coordinate volume and partial-derivation identities to constrain the remaining irreducible double fibers and collapsed fixed components in reducible fibers.",
+    "Investigate the remaining collapsed (3,1) and (2,2) configurations using full support-lattice entries and actual normal actions; do not infer source-normalization separation from reduced component disjointness.",
+    "Determine whether the exact noncollapsed local model can yield a global base coordinate using the original frame; local regular parameters alone are insufficient.",
+    "Keep a separate route toward reducing arbitrary sliced actions, rather than treating this supplied quadratic frame as universal."
+  ],
+  "arbitrary_constant_acceleration_recognized": false,
+  "arbitrary_sliced_action_reduced_to_frame": false,
+  "professor_interpretation_confirmed": false,
+  "historical_novelty_verified": false,
+  "human_expert_review_completed": false,
+  "formal_verification_completed": false,
+  "external_contact_made": false,
+  "submission_or_publication_made": false
+}

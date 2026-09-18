@@ -1,0 +1,162 @@
+{
+  "pass": 218,
+  "status": "supplied_mixed_conic_radial_and_lower_potential_restrictions; zero_M_excluded; exact_simple_return_cofactor; conic_recognition_open_at_this_packet_stage; global_goal_open",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass217-working.json",
+    "sha256": "2d4aeb0baacdd8901baa12c9afeac8096e7aa83555275aa752fb5704d3379acc",
+    "records": 1338
+  },
+  "results": {
+    "radial_constants": "In the retained actual mixed conic branch II for full kernel(ZW-X^2Y^2), put h=t/rho and D=partial_rho at fixed h. Exact radial integration gives k=C/rho+F rho+G, alpha=rho/C, with C,F,G in L0=ker D and C nonzero. The highest scalar-Jacobian coefficient forces delta=d/alpha into L0. The literal cubic third-potential coefficient gives b=(2C_h+G_h rho+2h delta rho^2)/C. The complete next Jacobian coefficient, including all three determinant contributions, then forces C_h=0, so C is a nonzero complex constant. No rationality of L0 or regularity of coefficient-field factors is inferred.",
+    "complete_next_coefficient": "With M=hF_h-F-2h^2 delta, the complete xi^4 coefficient gives M(2rho D epsilon-epsilon+delta_h)=0 after C is constant. By itself this does not force epsilon=delta_h: a nonzero square-root radial mode is a valid formal boundary. The independent lower-potential argument is essential.",
+    "cofactor_dichotomy": "The exact original-formal gradient identities for Gamma=V-P(U-hV), together with the retained q1|R^2 and scalar wedge, give R|q1. At the unique root of the affine return R, the actual middle Jacobian row excludes the common vanishing of both potential coefficients. Exact root orders yield q1 in L*R when M is nonzero, and q1 in L*R^2 when M=0. This conditional dichotomy alone is neither realization nor exclusion.",
+    "zero_M_exclusion": "Differentiate the unshifted original Y,Z,W columns in the generic affine parameter first, and then evaluate at X*=h epsilon-delta and xi*=-C/(2h rho)-b/(2alpha). The resulting column is (0,M/h,0). Since the already-formed actual scalar determinant is a nonzero L-scalar independent of X and xi, M=0 is impossible. Evaluation uses coefficient-field values, not an ambient coordinate change, and no moving-point derivative is taken. Consequently the actual surviving evaluated cofactor is exactly a nonzero L-scalar times R.",
+    "lower_potential_restrictions": "The complete raw third and fourth potentials, with original t/rho derivatives distinguished from radial derivatives, determine explicit c,n,f primitives with arbitrary epsilon and n0 retained. Their full cubic fourth-potential coefficient is -M(epsilon-delta_h)/C-Astar/rho^2-5G_hhh/(6rho^3), where Astar=F_hhh/3+(c0-G_h^2/(4C))_h-delta_h. Applying 2rho D-1 and the complete preceding Jacobian relation yields rho Astar+7G_hhh/6=0. A radial derivative gives Astar=G_hhh=0 and then M(epsilon-delta_h)=0, without dividing by M. Thus G has degree at most two over C in h and c0=delta-F_hh/3+G_h^2/(4C)+gamma with gamma complex. Combining the separate M=0 exclusion gives epsilon=delta_h in the actual surviving branch.",
+    "remaining_scope": "These are necessary conditions in the supplied actual globally sliced exact1122 full-initial-kernel chart and its branch-II reduction. They do not recognize or exclude the entire conic at this packet stage, assert xi is an ambient coordinate, remove roots of a nonzero R, or assume coefficient fields are rational. The line recognition and zero-return exclusion are retained217 inputs. The remaining lower scalar coefficients, original-ring endpoint, arbitrary entry and global cancellation are not resolved here. Separate219 proof, synthesis, checker, execution and closure claims are excluded."
+  },
+  "goal_audit": {
+    "current_progress": "Five218 proof notes determine exact radial and lower-potential restrictions, exclude M=0 by a raw actual Jacobian column, and fix the surviving cofactor order. Five finite algebra methods passed in one canonical execution completed through its original live handle. The remaining conic and the full goal are not closed by this packet.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "actual_globally_sliced_exact1122_frame_required": true,
+    "entire_principal_initial_kernel_required": true,
+    "retained217_branch_II_reduction_required": true,
+    "literal_q_t_squared_over_rho": true,
+    "original_and_radial_partial_derivatives_distinguished": true,
+    "C_nonzero_complex_proved": true,
+    "delta_in_radial_constant_field_proved": true,
+    "complete_fourth_Jacobian_coefficient_used": true,
+    "square_root_boundary_before_lower_potentials_retained": true,
+    "zero_M_excluded_by_actual_scalar_Jacobian": true,
+    "evaluated_cofactor_exactly_L_star_times_R": true,
+    "lower_potential_restrictions_keep_both_M_cases_before_combining": true,
+    "actual_epsilon_equals_delta_h": true,
+    "nonzero_return_has_no_roots_claim": false,
+    "conic_recognition_or_exclusion": false,
+    "coefficient_field_factors_assumed_regular": false,
+    "coefficient_field_rationality_claim": false,
+    "moving_point_differentiated_as_coordinate_change": false,
+    "xi_asserted_ambient_coordinate": false,
+    "arbitrary_entry_proved": false,
+    "all_height_two_initial_kernels_recognized": false,
+    "global_minimum_profile_claim": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/mixed-conic-radial-constant-leading-ratios-pass218-working.md",
+      "sha256": "e11b54d39ea8c82a311b6d46a365319b8817bd4f6e9e74d88bf8dac098611f37",
+      "bytes": 6596,
+      "lines": 196,
+      "equations": 13,
+      "test_methods": 0
+    },
+    {
+      "path": "research/mixed-conic-next-jacobian-constant-pass218-working.md",
+      "sha256": "75d4f1f9d2ca6fc9ac6fc6c02a9b9b234586f6235ced14c0d8445820ece79dfb",
+      "bytes": 8113,
+      "lines": 236,
+      "equations": 14,
+      "test_methods": 0
+    },
+    {
+      "path": "research/mixed-conic-return-cofactor-order-dichotomy-pass218-working.md",
+      "sha256": "6b6656b48ff993e8fde32e70a5d594d0c256ea5d361a582f145420e891318911",
+      "bytes": 8264,
+      "lines": 218,
+      "equations": 10,
+      "test_methods": 0
+    },
+    {
+      "path": "research/mixed-conic-zero-M-jacobian-exclusion-pass218-working.md",
+      "sha256": "25887bff36fdbf644f60056c0954d0f1250a761d1efea24084e53f15aa740780",
+      "bytes": 6083,
+      "lines": 174,
+      "equations": 12,
+      "test_methods": 0
+    },
+    {
+      "path": "research/mixed-conic-lower-potential-radial-restrictions-pass218-working.md",
+      "sha256": "af716d4f0c1438850e51b4f9013f882d61d33b50d7200fd9051c23b24cba52f9",
+      "bytes": 13024,
+      "lines": 360,
+      "equations": 24,
+      "test_methods": 0
+    },
+    {
+      "path": "research/mixed_conic_radial_controls_pass218.py",
+      "sha256": "254551f0d9d96e4e6d9ada9720d4ad7fff699f00682002a8e2633e64deada40a",
+      "bytes": 17161,
+      "lines": 347,
+      "equations": 0,
+      "test_methods": 5
+    }
+  ],
+  "canonical_executions": [
+    {
+      "suite": "mixed_conic_radial_controls218",
+      "path": "research/mixed_conic_radial_controls_pass218.py",
+      "pre_execution_read": "Jet final complete author EOF086c67/hasha5e88f/countc86b7d; Root complete EOF7ea1e9+8394e2/hash463926; Geometry independent complete EOF5bb5e4+3cf5be/hasha88c15. All three completed saved-source reads preceded the sole canonical execution.",
+      "initial_output": "3e6f87",
+      "session_id": 93540,
+      "terminal_output": "eacf19",
+      "methods": 5,
+      "unittest_seconds": 0.758,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": false,
+      "initial_output_contains_test_summary": true,
+      "terminal_output_empty": true,
+      "pending_execution_handle": false,
+      "completion_via_original_handle": true,
+      "original_handle_poll_count": 1,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/mixed_conic_radial_controls_pass218.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "shell": "/bin/zsh",
+      "login": false,
+      "initial_yield_time_ms": 1000,
+      "initial_max_output_tokens": 6000,
+      "completion_poll": {
+        "tool": "write_stdin",
+        "session_id": 93540,
+        "chars": "",
+        "yield_time_ms": 1000,
+        "max_output_tokens": 6000
+      },
+      "completion_note": "The initial response printed five tests and OK but still returned a live session. Root resumed that original handle once; the empty terminal response supplied exit code zero. This was one execution, not a rerun."
+    }
+  ],
+  "tagged_equations": 73,
+  "total_new_test_methods": 5,
+  "reviews": {
+    "radial": "Root full436180 and earlier authorb4ef76; Jet complete saved7d7c90/hash19655b. Exact commuting derivative conventions, radial primitives, highest-Jacobian branch argument and the full rho^2 factor in b reconstruct.",
+    "next_Jacobian": "Root full504d89 and earlier e399ec; Jet complete saved5fec06/hash19655b. The complete xi^4 coefficient retains all three determinant contributions and every coefficient-field derivative. The C_h gate and the independent formal square-root boundary reconstruct.",
+    "cofactor": "Geometry full authorb8a395/hasha7fc41; Root full110019; General fullf1a44b/hash92e249; Jet complete saved77f00b/hash5f6a61. Both calibrated gradient equations, the common-zero wedge obstruction, and the two exact root orders reconstruct without treating R as a unit.",
+    "zero_M": "Root full authorffb3e3/hashb13da7; General full7434a4/hash92e249; Geometry full d54b18/hash144f2b; Jet full13bc85/hashadf4ae. The raw derivative is formed before coefficient-field evaluation, and the evaluated tangent (0,M/h,0) contradicts the actual scalar calibration when M=0. Root unsaved inlineaf4f16 is independent exploration, not a saved-suite execution.",
+    "lower_potentials": "General full authorbe4c51+bacbb3/metadata4f60d1; Root full20956c+965a89; Geometry fullb40a8d+ed3f97/hash5d7db0; Jet fulla42d82/hasha33c66. Full raw S and fourth potential, all used convolution coefficients, free epsilon/n0 substitutions, exact c/n/f primitives and distinct radial powers reconstruct. General unsaved57e08f/1f4c5c and Geometry unsavedad9126 are separate exploratory checks, not canonical executions.",
+    "checker": "Jet full final author086c67/hasha5e88f/countc86b7d, Root complete7ea1e9+8394e2/hash463926, and Geometry independent5bb5e4+3cf5be/hasha88c15 all preceded Root's sole execution. The source imports only unittest and SymPy, no retained checker or solver. Five methods independently construct raw potential arrays, column determinants, point evaluation, root orders and complete lower substitutions. No General checker review is attributed.",
+    "metadata": "Root718a17 and fresh Jet read-onlyb5f44e confirm the six source hashes, byte/line counts,73 tagged equations and five methods. The preceding217 verification/checkpoint hashes are unchanged. Historical source status/no-author-execution prose remains unchanged. The initial execution response3e6f87 was live despite printing the test summary; original session93540 was completed once in eacf19. No219 content or execution is counted."
+  },
+  "proof_dependencies": {
+    "retained": [
+      "research/weight-four-universal-chart-potentials-pass184-working.md",
+      "research/rank-two-mixed-ratio-projection-reduction-pass217-working.md",
+      "research/rank-two-mixed-ratio-quadratic-graph-reduction-pass217-working.md"
+    ],
+    "scope": "The actual scalar calibration, exact field return, affine parameter and branch-II setup are retained inputs. The218 arguments are algebraic consequences inside that chart and do not introduce a new external recognition theorem. Exact joint constants and coefficient-field integration are written proof steps, not consequences of finite tests."
+  },
+  "finite_control_scope": "Five methods check independent literal q=t^2/rho potentials and derivative changes; radial primitives, highest and complete next determinant coefficients; the formal square-root boundary; raw differentiated columns at the specified point; both-potential gradient and finite root-order identities; complete fourth-potential coefficient convolutions, exact c/n/f substitutions with epsilon and n0 free, and distinct radial-weight identities. They do not prove actual frame existence, coefficient-field constants or integration completeness, exact field return, root multiplicity theorems in all cases, original-ring recognition, arbitrary entry or the global conjecture.",
+  "next_bounded_task": "Analyze the remaining actual conic scalar coefficients and any original-ring endpoint after these necessary restrictions. Separate219 work and its later execution must remain in a distinct packet. No218 rerun is authorized."
+}

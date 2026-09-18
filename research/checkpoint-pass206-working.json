@@ -1,0 +1,107 @@
+{
+  "pass": 206,
+  "status": "t_independent_weight_four_classification_and_radical_projection_defect_reduction; nonzero_R_recognition_and_unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass205-working.json",
+    "sha256": "2e45fdc1fe423827156e1edd52b18f1538055308ff2964b13f807c381f908966",
+    "records": 1267
+  },
+  "results": {
+    "classification": "The actual full weight-four t-independent sector is exactly the Y-independent sector and has the two weighted normal forms Z^2-X^2W and ZW-X^4. The original chart automatically has q_rhorho nonzero. No preservation of R or the selected pivot through normalization is asserted.",
+    "radical_projection": "In the nonzero-R radical chart, the undivided degree-at-most-five eliminant has simple selected component and evaluated cofactor dividing R^3. Its plane normalization satisfies O=C+Cw and RO contained in C. Specified zero/constant/repeated centers give C=O; a proper C requires a nonconstant squarefree center.",
+    "cubic_defect": "Every proper projected ring satisfying these actual degree and conductor inputs is, after changes over the exact coefficient field, L[x^2,x^3+c*x], with defect dimension one and conductor (x^2+c)O. This describes a possible generic cusp or geometric node, not an invariant coordinate or cancellation obstruction.",
+    "boundaries": "No nonzero-R recognition or unrestricted entry is proved. Separate207 actual node/cusp positive controls have known polynomial A and are not cancellation counterexamples; their sources and inline calculations are outside this packet."
+  },
+  "goal_audit": {
+    "current_progress": "Three necessary-restriction notes and one four-method finite checker are packaged with independent saved-source reviews and one passing canonical run.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/weight-four-t-independent-leading-kernel-classification-pass206-working.md",
+      "sha256": "9328b9ea81c11fef3beb4f0bdb5af5242d50f37dd254a1b536ea0052cff5ebab",
+      "bytes": 8503,
+      "lines": 216,
+      "equations": 14,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-radical-nonzero-r-eliminant-pass206-working.md",
+      "sha256": "3a2ca8aab83d0ca21c0dfe3ab22ec9d7f6e80c26247fda96e9f7807e2759a691",
+      "bytes": 12636,
+      "lines": 334,
+      "equations": 18,
+      "test_methods": 0
+    },
+    {
+      "path": "research/radical-projection-conductor-cubic-reduction-pass206-working.md",
+      "sha256": "8d8516811860ae366ee8c6018eb2fda45f23069bae3bca7b5dd657bb6fd7681c",
+      "bytes": 10075,
+      "lines": 258,
+      "equations": 14,
+      "test_methods": 0
+    },
+    {
+      "path": "research/radical_projection_algebra_controls_pass206.py",
+      "sha256": "8e1746c99745a866799ac5e6fe82f69461ca4847213b33e39f4e0c94ad83b12a",
+      "bytes": 12619,
+      "lines": 231,
+      "equations": 0,
+      "test_methods": 4
+    },
+    {
+      "path": "research/verification-pass206-working.json",
+      "sha256": "79886511696db3c317ee0fbb8856501cac7ed01f672569ff64f8ab4fa04d24ba",
+      "bytes": 8076,
+      "lines": 110,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "chain_record_count_after_including_this_checkpoint": 1273,
+  "record_count_convention": "1267 frozen predecessor records plus three proof notes, one checker source, verification206 and this checkpoint: six new records. Mutable indices are not records. No207 source, inline calculation or earlier canonical run is counted.",
+  "verification": {
+    "capture": "research/verification-pass206-working.json",
+    "canonical_runs": [
+      {
+        "suite": "radical_projection_algebra_controls206",
+        "path": "research/radical_projection_algebra_controls_pass206.py",
+        "pre_execution_read": "Author complete37d53c, hashabdeb4, countsf99560; Root complete86c4e0.",
+        "initial_output": "155714",
+        "session_id": null,
+        "terminal_output": "155714",
+        "methods": 4,
+        "unittest_seconds": 0.209,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "completion_via_original_handle": false,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/radical_projection_algebra_controls_pass206.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "login": false,
+        "initial_yield_time_ms": 1000,
+        "initial_max_output_tokens": 6000
+      }
+    ],
+    "new_suites": 1,
+    "new_methods": 4,
+    "tagged_equations": 46,
+    "scope": "Finite algebra identities and degree-window fixtures, not certification of universal field, conductor, geometry, realization or recognition arguments. Author and Root fully read the checker before its sole run; the precise proof-review provenance is recorded in verification206."
+  },
+  "next_bounded_task": "Use the actual radical differential potentials and original-ring geometry beyond the projected cusp/node classification. Keep actual positive examples distinct from cancellation counterexamples, and do not rerun206."
+}

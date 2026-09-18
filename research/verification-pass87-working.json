@@ -1,0 +1,94 @@
+{
+  "kind": "Fresh targeted87 capture, not a full regression",
+  "started_at_utc": "2026-09-14T11:28:42.171815+00:00",
+  "finished_at_utc": "2026-09-14T11:28:42.693319+00:00",
+  "wall_seconds": 0.521032,
+  "total_suites": 3,
+  "total_test_methods": 3,
+  "all_passed": true,
+  "new87_suites": 3,
+  "new87_test_methods": 3,
+  "fresh_full87_regression_performed": false,
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "source_hashes_before": {
+    "research/constant_acceleration_average_checks_pass87.py": "f9259e459b3d933336055355c0f005290e74deea1e5b4ac722060d55a516dbfc",
+    "research/constant_acceleration_row_checks_pass87.py": "5db2459822ff66228e5c594dcfe8782adc4fd974a7d3e892f587292454b319be",
+    "research/constant_acceleration_frame_checks_pass87.py": "0efa132db7c269a46869aa7714304e76f15daa4a68bb73c52d22f75ddf99925f",
+    "research/run_targeted_pass87.py": "2500561e203114b83e789204c72a82a5ed142828f8b986fe8fd572e32afbecc5",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_hashes_after": {
+    "research/constant_acceleration_average_checks_pass87.py": "f9259e459b3d933336055355c0f005290e74deea1e5b4ac722060d55a516dbfc",
+    "research/constant_acceleration_row_checks_pass87.py": "5db2459822ff66228e5c594dcfe8782adc4fd974a7d3e892f587292454b319be",
+    "research/constant_acceleration_frame_checks_pass87.py": "0efa132db7c269a46869aa7714304e76f15daa4a68bb73c52d22f75ddf99925f",
+    "research/run_targeted_pass87.py": "2500561e203114b83e789204c72a82a5ed142828f8b986fe8fd572e32afbecc5",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_inputs_unchanged": true,
+  "bounded_search_executed": false,
+  "search_candidates_are_test_methods": false,
+  "central_registry_integrated": false,
+  "general_cancellation_verified": false,
+  "scope": "Three finite exact methods in three independent suites check actual inverse pairs, an averaged derivation, parity and Reynolds maps, and a three-good constant-acceleration frame. They do not prove universal linearization, fibration recognition, or general cancellation. No full regression or exhaustive action search.",
+  "suites": [
+    {
+      "path": "research/constant_acceleration_average_checks_pass87.py",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/constant_acceleration_average_checks_pass87.py"
+      ],
+      "started_at_utc": "2026-09-14T11:28:42.172373+00:00",
+      "finished_at_utc": "2026-09-14T11:28:42.527170+00:00",
+      "wall_seconds": 0.354889,
+      "exit_code": 0,
+      "expected_methods": 1,
+      "test_methods": 1,
+      "method_count_matches": true,
+      "all_passed": true,
+      "unittest_seconds": 0.155,
+      "output": "test_actual_constant_acceleration_and_nonnilpotent_average (__main__.ConstantAccelerationAverageChecks.test_actual_constant_acceleration_and_nonnilpotent_average) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.155s\n\nOK\n",
+      "output_sha256": "09c7c5cef528ca2f8f8c806539d6869e4dba1ee4b24be11f32baaba2cfe8df47"
+    },
+    {
+      "path": "research/constant_acceleration_row_checks_pass87.py",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/constant_acceleration_row_checks_pass87.py"
+      ],
+      "started_at_utc": "2026-09-14T11:28:42.172469+00:00",
+      "finished_at_utc": "2026-09-14T11:28:42.446103+00:00",
+      "wall_seconds": 0.273673,
+      "exit_code": 0,
+      "expected_methods": 1,
+      "test_methods": 1,
+      "method_count_matches": true,
+      "all_passed": true,
+      "unittest_seconds": 0.071,
+      "output": "test_actual_row_reynolds_and_completion_obstructions (__main__.ConstantAccelerationRowChecks.test_actual_row_reynolds_and_completion_obstructions) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.071s\n\nOK\n",
+      "output_sha256": "3c096ed68427638f7f00a7d554ae2226c2b5a8c5133fc54ade0100c05ebe3062"
+    },
+    {
+      "path": "research/constant_acceleration_frame_checks_pass87.py",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/constant_acceleration_frame_checks_pass87.py"
+      ],
+      "started_at_utc": "2026-09-14T11:28:42.446200+00:00",
+      "finished_at_utc": "2026-09-14T11:28:42.692813+00:00",
+      "wall_seconds": 0.246624,
+      "exit_code": 0,
+      "expected_methods": 1,
+      "test_methods": 1,
+      "method_count_matches": true,
+      "all_passed": true,
+      "unittest_seconds": 0.055,
+      "output": "test_actual_three_good_frame_and_all_adjoint_columns (__main__.ConstantAccelerationFrameChecks.test_actual_three_good_frame_and_all_adjoint_columns) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.055s\n\nOK\n",
+      "output_sha256": "e3257634740e4d6da6a0bb7aef26839b96c3d704f4aaba36b111dc17272c5aa7"
+    }
+  ]
+}

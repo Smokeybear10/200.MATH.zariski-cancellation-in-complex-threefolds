@@ -1,0 +1,115 @@
+{
+  "status": "audited working pass54 structural results; not yet integrated into central registry or regression",
+  "previous_frozen_checkpoint": "consistency-pass-52.json",
+  "prior_working_checkpoint": "research/checkpoint-pass53-working.json",
+  "previous_scope": {
+    "claims": 523,
+    "test_methods": 993,
+    "suites": 122,
+    "hash_records": 168
+  },
+  "mathematical_notes": [
+    "research/primitive-fiber-nonvanishing-pass54.md",
+    "research/profile-generation-gap-pass54.md"
+  ],
+  "audits": [
+    "research/proof-audits-pass54-working.md"
+  ],
+  "completed_proof_deductions": [
+    "On a smooth factorial complex threefold with primitive nonzero LND, polynomial two-dimensional kernel and faithfully flat quotient, the induced derivation is nonzero on every whole scheme-theoretic quotient fiber. At a closed fiber it is already nonzero on the local scheme of each component's generic point. It may vanish on the reduction.",
+    "The local proof uses a transverse Artinian complete intersection, the characteristic-zero Jacobian socle theorem and regularity of the multiplier between the local Jacobian field and primitive D. No rational component field or global volume is assumed.",
+    "Combining this nonvanishing theorem with the exact pass53 inclusion D(F5) in mF4 proves R[F5] proper in the actual algebra in the reduced zero-first-jet sector. Every generating set there requires intrinsic degree at least six, and (a,b) is not regular on the full K5 algebra.",
+    "The actual slices form an affine coset H_*+A_R in L[j]. Existence of a projected F5 list is equivalent to that coset meeting degree at most two and equivalent to a projected F4 list. This does not characterize every possible low-degree generating set.",
+    "Actual replica automorphisms exp(r^N E), with explicit polynomial inverses, give unbounded arbitrary supplied-slice degrees in every actual instance, but preserve the selection coset. They do not refute an existential low-degree choice.",
+    "The cofactor original-flow bound and constant-iterate shortcut were deduplicated against earlier results. They do not supply a minimum intrinsic generating-degree upper bound."
+  ],
+  "independent_ai_reviews": {
+    "primitive_fiber_proof": [
+      "root",
+      "general_affine17",
+      "jet_checker17"
+    ],
+    "full_primary_socle_and_local_algebra_reads": [
+      "geometry_audit17",
+      "general_affine17",
+      "root"
+    ],
+    "profile_bridge_proof": [
+      "root",
+      "general_affine17"
+    ],
+    "scope": "Jet reconstructed the whole nonvanishing proof but did not claim a separate complete primary-source audit. General independently checked the Section6 bridge addition. Root requested only the final title and missing-W-definition clarifications."
+  },
+  "primary_sources": [
+    {
+      "title": "Duality and socle generators for residual intersections",
+      "authors": [
+        "David Eisenbud",
+        "Bernd Ulrich"
+      ],
+      "version": "arXiv:1309.2050v4",
+      "version_date": "2016-07-10",
+      "url": "https://arxiv.org/pdf/1309.2050v4",
+      "passage": "Appendix Section8 and Theorem8.1, printed pages40-41, complete classical trace/different proof"
+    },
+    {
+      "title": "Coefficient-compatible complete regular local power-series ring",
+      "url": "https://stacks.math.columbia.edu/tag/0C0S",
+      "passage": "Lemma10.160.10(2), statement and proof"
+    },
+    {
+      "title": "Fitting ideals and base change",
+      "url": "https://stacks.math.columbia.edu/tag/07ZA",
+      "passage": "Lemma15.8.4(3), statement and proof"
+    },
+    {
+      "title": "Smooth morphisms and differentials",
+      "url": "https://stacks.math.columbia.edu/tag/01V4",
+      "passage": "Lemma29.35.14 and nearby differential exact-sequence statement"
+    }
+  ],
+  "new_standalone_methods": 0,
+  "new_standalone_suites": 0,
+  "full_project_regression_including_pass53_completed": false,
+  "next_actions": [
+    "Preserve both working checkpoints and integrate them into a cited synthesis without retroactively changing historical claims. The only pending additional numeric suite is the two-method quintic53 suite.",
+    "Test the bounded actual quadratic-generator/slice-selection implication or find a countercontrol satisfying its precise weaker premises. Do not use a high-degree arbitrary replica as an existential counterexample.",
+    "Compare the invariant-open generation theorem with the needed global low-degree gluing. Do not assume local expressions supply a global bounded slice.",
+    "Maintain full supplied-profile recognition and the universal coordinate-frame bound as separate open obligations. No sixth-degree brute-force enumeration is needed merely to advance a counter."
+  ],
+  "general_conjecture_solved": false,
+  "novelty_claimed": false,
+  "human_expert_review": false,
+  "proof_assistant_verified": false,
+  "interpretation_confirmed_by_professor": false,
+  "artifact_integrity": {
+    "all_passed": true,
+    "checked_at_utc": "2026-09-13T21:13:12.421Z",
+    "previous_records_checked": 168,
+    "working53_records_checked": 6,
+    "local_links_checked": 12,
+    "artifacts": [
+      {
+        "path": "research/primitive-fiber-nonvanishing-pass54.md",
+        "bytes": 12880,
+        "sha256": "84ba0b53408206c0edf22bb861cc4eed585ee5240c05c7e387413d93a27a0ec1",
+        "numbered_equations": 15,
+        "source_footnotes": 3
+      },
+      {
+        "path": "research/profile-generation-gap-pass54.md",
+        "bytes": 12264,
+        "sha256": "5044714bbe0079d7ee3053114fa718d644bcaaef7dd0661b9a84e6bad2513ba5",
+        "numbered_equations": 18,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/proof-audits-pass54-working.md",
+        "bytes": 6323,
+        "sha256": "0d352a9e5907fa5105eee78c7cd4f659652a535310bd3c787347b654c0242baf",
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      }
+    ]
+  }
+}

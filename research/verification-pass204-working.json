@@ -1,0 +1,111 @@
+{
+  "pass": 204,
+  "status": "actual_nonvacuity_and_conditional_nice_pivot_reduction_with_all_parameter_fixed_last_slot_countercontrol; unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass203-working.json",
+    "sha256": "460c282d7b4fa169de1ef11ab594686ae90849df8d6577c04e9d46a405c8ca37",
+    "records": 1256
+  },
+  "results": {
+    "actual_nonvacuity": "An explicit polynomial frame has a global slice, exact1122 and the entire initial kernel Z^2-X^2Y(X-Y). Both inverse orders and the correct quadratic coefficient h are established; field independence and irreducibility give the full kernel in the written proof.",
+    "radical_pivot": "For the different full initial kernel Z^2-X^2W, the old-W pivot has q=rho^2 and an essential monic w^2 potential. If evaluated R is identically zero, actual line return and the scalar determinant make the projected line affine. P=aN-(NX)E is an original-ring nonzero nice LND commuting with E and fixing X.",
+    "fixed_last_slot_countercontrol": "An actual sliced frame of exact degrees1128 defeats W_J-P(X,Y)Z_J-Q(X,Y) for every polynomial invariant parameter J in ker(X partial_Z+Z partial_W), with arbitrary P,Q. The proof uses the highest W coefficient and then a cubic Z defect, without a degree cutoff. J=X nevertheless gives the invariant other slot Z-X^2, and W-Z^4 is an invariant coordinate.",
+    "remaining_scope": "The nice commuting pair is not yet recognized by this packet. Neither R nonzero nor arbitrary coordinate entry is settled. The fixed-last-slot obstruction does not exclude other slots, broader shears or composite flows. Separate205 work is not counted."
+  },
+  "goal_audit": {
+    "current_progress": "Three bounded working notes are source-reviewed and supported by one passing four-method exact-algebra suite. The positive example and negative fixed-output control sharpen the scope of the conditional pivot reduction.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/weight-four-two-root-actual-nonvacuity-pass204-working.md",
+      "sha256": "b3bafa7636ca7323a7c52c2735bc344df005154dafd512ea0cf098a688840301",
+      "bytes": 4493,
+      "lines": 122,
+      "equations": 7,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-radical-pivot-zero-r-nice-derivation-pass204-working.md",
+      "sha256": "c0323ffef5dc6c3c580850403b9d8af9da6d2f5b7dc8f26e07ad73c1c8092f8f",
+      "bytes": 9351,
+      "lines": 256,
+      "equations": 16,
+      "test_methods": 0
+    },
+    {
+      "path": "research/one-quadratic-replica-two-good-counterexample-pass204-working.md",
+      "sha256": "6168820d5a011a964f95ec50db941142beb98219c175d4151d3813a95784d33f",
+      "bytes": 7234,
+      "lines": 176,
+      "equations": 8,
+      "test_methods": 0
+    },
+    {
+      "path": "research/actual_frame_replica_controls_pass204.py",
+      "sha256": "441b0487b4456110931fb12855390337f8283fe2339c7926855020a47f6a35df",
+      "bytes": 8499,
+      "lines": 203,
+      "equations": 0,
+      "test_methods": 4
+    }
+  ],
+  "canonical_executions": [
+    {
+      "suite": "actual_frames_pivot_and_replica_controls204",
+      "path": "research/actual_frame_replica_controls_pass204.py",
+      "pre_execution_read": "Author complete 411296+85bc3c; Root complete 6814d0.",
+      "initial_output": "52d062",
+      "session_id": 19828,
+      "terminal_output": "7f9692",
+      "methods": 4,
+      "unittest_seconds": 0.841,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": false,
+      "pending_execution_handle": false,
+      "completion_via_original_handle": true,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/actual_frame_replica_controls_pass204.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "login": false,
+      "initial_yield_time_ms": 1000,
+      "initial_max_output_tokens": 6000,
+      "completion_poll": "Empty write_stdin to the original session19828, yield1000 and max_output_tokens6000."
+    }
+  ],
+  "tagged_equations": 31,
+  "total_new_test_methods": 4,
+  "reviews": {
+    "actual_nonvacuity": "Root complete 722cf6 and independent inline3aca84/43d23f; General full saved-source review7e1d83; Jet complete e320e4. All refer to b3bafa76. The earlier omitted a^2 factor on v was rejected, not retained as a formula.",
+    "radical_pivot": "Geometry author full9ee08a plus TeX repair/read b48340, after complete retained universal184 reads87a8e7+b81a37 and initial157 reads e85e4f+324821; Root full8b3461; Jet full35908c/hash946cc5, with fresh complete universal184 reads2bc054+5a9e45; General full0257f5. The swapped calibration sign, essential w^2 term, actual affine line and original P local-nilpotence/commutation argument reconstruct cleanly at c0323ffe.",
+    "fixed_last_slot_countercontrol": "General strengthened author EOF/metadata6e775f; Root full de8d7e and separate inline5dfc5c; Jet complete4e0450. The all-degree written argument and its other-slot boundary are preserved at6168820d.",
+    "checker": "Complete author411296+85bc3c and Root6814d0 preceded the sole canonical execution. No additional peer checker review or timing is asserted. The actual frames are separated from the formal pivot transport, and representative H-degrees are not described as proof of the all-degree exclusion.",
+    "metadata": "Read-only8022fd confirms all four source hashes, byte/line counts,31 tagged equations,four methods and the frozen203 hashes. Historical source status lines are preserved; completed source reviews and the canonical run are recorded here."
+  },
+  "proof_dependencies": {
+    "retained": [
+      "research/two-linear-two-quadratic-initial-bound-pass157-working.md",
+      "research/weight-four-universal-chart-potentials-pass184-working.md",
+      "research/weight-four-two-root-monomial-coordinate-recognition-pass203-working.md",
+      "research/weight-four-absent-w-rank-one-recognition-synthesis-pass203-working.md",
+      "research/unrestricted-entry-frontier-pass124.md"
+    ],
+    "scope": "Retained mechanisms and scope comparisons, not a new recursive review or additional canonical runs."
+  },
+  "finite_control_scope": "Four finite exact-algebra methods support the explicit inverse and coefficient identities. Actual field return, kernel fullness, LND theorems and all-polynomial-parameter exclusion remain written-proof arguments.",
+  "next_bounded_task": "Resolve the actual-ring invariant-coordinate gate for the commuting nice pair, or a broader entry mechanism consistent with the fixed-output countercontrol. The R nonzero branch remains separate. New205 work is outside this packet; do not rerun204."
+}

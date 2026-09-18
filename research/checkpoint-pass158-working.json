@@ -1,0 +1,122 @@
+{
+  "pass": 158,
+  "status": "arbitrary_positive_weight_necessary_bound; split_invariant_lift_obstructed; cusp_low_weight_invariant_conditionally_recognizes; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/arbitrary-positive-weight-initial-bound-pass158-working.md",
+      "sha256": "b65cba8d9d9913d5e906d5c2d9d1135f948aa78c0d5d74250dcf9fe15b3018e4",
+      "bytes": 15425,
+      "lines": 400,
+      "equations": 12,
+      "test_methods": 0
+    },
+    {
+      "path": "research/split-cubic-invariant-correction-obstruction-pass158-working.md",
+      "sha256": "a3ce86512d4a4b4f9fe8f527cd0059c3557b8e95b45a6fc7966f35c715ff8890",
+      "bytes": 9119,
+      "lines": 239,
+      "equations": 9,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp-cubic-low-weight-invariant-gate-pass158-working.md",
+      "sha256": "c46f4bdab60f9d740b031465b9ef14a69c54a80eeda184a6464c014b32963aeb",
+      "bytes": 9027,
+      "lines": 236,
+      "equations": 9,
+      "test_methods": 0
+    },
+    {
+      "path": "research/arbitrary_positive_weight_controls_pass158.py",
+      "sha256": "fd0d2e0012140a9c42507a5cf1a308f212bd57b4a1ce68b675635dd61551f9b2",
+      "bytes": 11653,
+      "lines": 225,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/split_cubic_correction_controls_pass158.py",
+      "sha256": "c506207a19de02b353db0cd4f0dd4b6c064a031fa71a520cecac7cbcdb22a45d",
+      "bytes": 9332,
+      "lines": 186,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/cusp_cubic_gate_controls_pass158.py",
+      "sha256": "53cf7bda160456f88ced67c084f7a748a49f0d00e02a455a6eb18c5a2cbbf1c8",
+      "bytes": 5823,
+      "lines": 124,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/verification-pass158-working.json",
+      "sha256": "ead42c127e04d41c6f709508913dcfff28601c48b7da54bf0325f571e0c8e989",
+      "bytes": 9211,
+      "lines": 134,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "results": {
+    "arbitrary_positive_weights": "For every actual sliced complex four-frame with all time degrees d_i>0 and S=sum d_i, each coordinate partial has exact nonnegative all-ring shift k_i<=S-d_i-1 and a nonzero intrinsic leading LND fixing all four leading coefficients. Their field has transcendence degree<=2 and the generated initial algebra has rank<=3. If the full initial kernel is principal(F), wtF<=S-2. Every pivot occurring in F attains k_i=S-d_i-1; omitted pivots, and all pivots at initial rank<=2, have smaller shifts.",
+    "split_no_lift": "Every H=lambda(XZ+YW)+alpha Z+beta W+Q(X,Y), lambda!=0 and arbitrary polynomial Q, has a unique nondegenerate critical point. If a polynomial derivation with a global slice fixed H, its full vector field would vanish there, a contradiction. Thus in the actual split-cubic full-initial-kernel frame the invariant space of original weight<=3 consists only of constants. This is not exclusion of the frame itself.",
+    "cusp_integral_intercept": "For any LND with EX!=0 and E^2X=E^2Y=0, XZ-P(Y) cannot be invariant when P is monic of degree>=2. The invariant local slice X/EX gives H=-P(y) for a rational intercept y; normality of the original polynomial ring makes y polynomial, contradicting original Z-degree1. No global slice is needed for this elementary exclusion.",
+    "cusp_conditional_recognition": "A nonconstant invariant of weight<=3 in the actual cusp full-initial-kernel frame has shape lambda(XZ-Y^3)+alpha Z+beta W+quadratic Q(X,Y). If beta=0, actual translations and shears reduce to the excluded integral-intercept lemma. Hence beta!=0, so the invariant is an actual polynomial coordinate. Slice regularity and the checked BGL3.5 endpoint recognize A=C^[3]. Existence of such an invariant is not proved.",
+    "remaining": "No bound on S, low-weight invariant existence, compatible affine correction existence, universal coordinate reduction, or unrestricted cancellation is supplied. The split-cubic, remaining cusp, weight-four and smaller-initial-rank recognition problems remain open. Separate159 generic-chart research is excluded from this packet."
+  },
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass157-working.json",
+    "sha256": "c2fb52781d5b014eaeb900309029cf3e86fb250e3d07423178678f8111e4b989",
+    "records": 1020
+  },
+  "goal_audit": {
+    "previous_goal_turn": "progress: completed156/157 packets, conditional actual-profile theorems and four terminal157 controls",
+    "current_continuation": "progress: three complete new written arguments, independent saved-source reconstructions, nine terminal exact methods and a fresh applicability check of the invariant-coordinate endpoint",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "chain_record_count_after_including_this_checkpoint": 1028,
+  "record_count_convention": "1020 prior records plus three proof notes158, three checkers158, verification158 and this checkpoint. Live indexes and all159 work excluded. Counts do not measure mathematical significance.",
+  "verification": {
+    "capture": "research/verification-pass158-working.json",
+    "canonical_terminals": [
+      "05367f",
+      "3029cc",
+      "aab6af"
+    ],
+    "methods_by_run": [
+      3,
+      3,
+      3
+    ],
+    "seconds_by_run": [
+      0.938,
+      0.191,
+      0.11
+    ],
+    "exit_codes": [
+      0,
+      0,
+      0
+    ],
+    "total_methods": 9,
+    "numbered_equations": 30,
+    "pending_execution_handle": false,
+    "scope": "Complete written arguments, separate AI reconstructions and finite exact controls. No human expert review, formal certification or novelty clearance."
+  },
+  "next_bounded_task": "Derive and verify the actual cusp generic X-chart in separate159 work, including its exact coefficient field, normalized volume, and determinant recurrences. Establish only justified whole-line or selected-factor properties. Then attack the missing low-weight invariant or affine-correction existence, the split/quartic/lower-rank cases, or a genuine degree-lowering entry step. No159 result is part of158."
+}

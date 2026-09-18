@@ -1,0 +1,136 @@
+{
+  "pass": 210,
+  "status": "supplied_radical_chart_reduced_to_affine_projected_pair_or_recognized; affine_pair_and_general_cancellation_frontiers_open",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass209-working.json",
+    "sha256": "2d5ec48e77c43aac39f771f101b76a276f2a98bf8937bc83efc4a2904e62ea47",
+    "records": 1289
+  },
+  "results": {
+    "constant_second_projection": "In the supplied actual weight-four chart with q_t=0, q_rhorho nonzero and theta in L, the unrestricted fourth potential forces affine projected entries. The actual P=aN-(NX)E is nonzero, locally nilpotent, commuting, nice on the original coordinates and has E-invariant coordinate coefficients. The retained criterion205 recognizes A as a polynomial three-ring. The zero-return case is retained205; no original speed-unit claim is required.",
+    "zero_and_repeated_centers": "A zero center factors the calibrated determinant by R in L[v], forcing theta in L and hence the preceding recognition. A repeated quadratic center gives whole-plane return through the vertex-free cone lemma, one double return root, a nonreduced finite-free fiber and rigid conic coefficients. Verified actual center-preserving normalizations then force an irreducible original polynomial to equal a square in FracB, excluding the branch.",
+    "squarefree_nonlinear_exclusions": "In a whole plane with nonconstant squarefree center and nonconstant theta, immersion, injectivity and the gradient orders give Q(y,theta)=eta R and both projected degrees at most2. A quadratic second generator is excluded by coefficient rigidity and an irreducible original-square identity. The separate affine-second/quadratic-first branch is excluded by its exact U^2 coefficient, center-slope-preserving actual normalization and another irreducible original-square identity.",
+    "synthesis": "Combining all center cases with retained zero-return205 and proper-plane209 recognition, the supplied actual radical chart is recognized or has R nonzero, L[y,theta]=L[v], both y and theta affine nonconstant, deg_v w at most1 and deg_v z exactly2. This remaining alternative is not a counterexample and need not be disjoint from the recognized alternative.",
+    "remaining_scope": "The affine-pair chart has P^2 Z=2a^2(Ntheta)^2 nonzero and E(PW)=a^2Ntheta nonzero, so the existing P does not meet the nice invariant-coefficient criterion. Recognition of that remaining branch, other leading kernels, arbitrary frame entry, minimum profiles and unrestricted cancellation remain unresolved. No generic affine parameter is asserted to be an ambient coordinate. Separate211 research is excluded."
+  },
+  "goal_audit": {
+    "current_progress": "Four component proofs and their synthesis eliminate the nonlinear whole-plane alternatives and recognize constant second projection. One five-method finite exact-algebra suite passed once after complete author and Root source reads.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "restricted_branch_recognition_only": true,
+    "remaining_affine_pair_recognition_proved": false,
+    "arbitrary_entry_proved": false,
+    "global_minimum_profile_claim": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/radical-squarefree-whole-plane-reduction-pass210-working.md",
+      "sha256": "f36351308b44d3e594343df76d9b25e02949393637fef654589446cb2d8f72b0",
+      "bytes": 11580,
+      "lines": 307,
+      "equations": 18,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-constant-second-projection-recognition-pass210-working.md",
+      "sha256": "d236f826a937df546bda399c6ea054284b109e9574813c9a3040456f885920d7",
+      "bytes": 8487,
+      "lines": 229,
+      "equations": 15,
+      "test_methods": 0
+    },
+    {
+      "path": "research/radical-affine-second-quadratic-first-exclusion-pass210-working.md",
+      "sha256": "d786d001934e0b7b912a7703a7928ceafc57964413ea2901bb454b31983929c8",
+      "bytes": 10395,
+      "lines": 273,
+      "equations": 18,
+      "test_methods": 0
+    },
+    {
+      "path": "research/radical-zero-and-repeated-center-reduction-pass210-working.md",
+      "sha256": "881ad75f954a555c7ca045b2ef4797935e8692a731c009ca263b143cc4b11897",
+      "bytes": 14452,
+      "lines": 376,
+      "equations": 22,
+      "test_methods": 0
+    },
+    {
+      "path": "research/radical-affine-pair-frontier-synthesis-pass210-working.md",
+      "sha256": "2ce3ceb2d09b3467d0405e20afc7ecd5edb25844256f0fbdd7ce9c89d62d9ef7",
+      "bytes": 6910,
+      "lines": 178,
+      "equations": 8,
+      "test_methods": 0
+    },
+    {
+      "path": "research/radical_whole_plane_reduction_controls_pass210.py",
+      "sha256": "a9cdf3dc02f5020ffa01528bafdcfd06945960d5849e39c45af0a592cd3600c4",
+      "bytes": 14895,
+      "lines": 310,
+      "equations": 0,
+      "test_methods": 5
+    }
+  ],
+  "canonical_executions": [
+    {
+      "suite": "radical_whole_plane_reduction_controls210",
+      "path": "research/radical_whole_plane_reduction_controls_pass210.py",
+      "pre_execution_read": "Author complete EOF/hash/count769fbe; Root complete9dc5db.",
+      "initial_output": "655586",
+      "session_id": null,
+      "terminal_output": "655586",
+      "methods": 5,
+      "unittest_seconds": 0.225,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "completion_via_original_handle": false,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/radical_whole_plane_reduction_controls_pass210.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "login": false,
+      "initial_yield_time_ms": 1000,
+      "initial_max_output_tokens": 6000
+    }
+  ],
+  "tagged_equations": 81,
+  "total_new_test_methods": 5,
+  "reviews": {
+    "squarefree_reduction": "Root completeb3e944+adfb6c; Geometry completeec920a; Jet complete9fb1cf/hash9aa8d5. The local-order proof of nonzero C1, simple center fiber, evaluated versus formal cofactor distinction, conic coefficients, actual normalization and primitive original-square contradiction reconstruct cleanly.",
+    "constant_second_projection": "Root complete6c5f98; Jet complete9fb1cf/hash9aa8d5. Higher q-rho derivatives and the quadratic w term are retained. The actual localization proves P is locally nilpotent; invariant coordinate coefficients are established before invoking205. The nonconstant-theta failure of those coefficients remains explicit.",
+    "affine_second_conic": "General author complete52308e/hashf0ac7a/metadata66a316; Root complete42ea88; Geometry complete474ae0; Jet completef150d2. The literal U^2 coefficient, both n-transport formulas and preserved nonzero center slope, exact-field integration, actual affine inverse and I=x^2 identity reconstruct cleanly.",
+    "zero_and_repeated_centers": "Geometry author complete99de99+881448 and final wording/read555081; Root complete63f3a6; Jet complete15f6d1. Zero-center determinant divisibility, cone generation and vertex exclusion, one double return root, nonreduced rank-two fiber, odd-part restriction and cofactor order all reconstruct. Jet independently derived both third-potential scalar transport remainders, so repeated-center preservation is verified rather than assumed. The final square is an original-ring irreducible polynomial, not a generic-coordinate assertion.",
+    "synthesis": "Root completeb1aa4e followed only by TeX whitespace repair/reade020af/hashb893ad/metadataf26f72; Geometry complete49023d/hashbb768e; Jet complete8a9b49. All four center cases and the retained proper-plane/zero-return branches are accounted for. The constant-y gate, affine-pair degree conclusions, P^2 Z and E(PW) boundaries reconstruct; no remaining recognition is asserted.",
+    "checker": "Author complete769fbe and Root complete9dc5db preceded the sole canonical655586. Five independent finite methods use exact quotient matrices, local coefficient jets, unrestricted symbolic n in the actual transport, original polynomial identities and both elementary inverse orders. No additional full peer checker review is claimed.",
+    "metadata": "Read-onlye7f20f confirms all six source hashes and byte/line counts and both frozen209 hashes. Historical source status and unsaved exploration are not rewritten as canonical runs. No211 work is included."
+  },
+  "proof_dependencies": {
+    "retained": [
+      "research/weight-four-universal-chart-potentials-pass184-working.md",
+      "research/vertex-free-quintic-cone-projection-pass184-working.md",
+      "research/nice-commuting-invariant-coefficients-recognition-pass205-working.md",
+      "research/weight-four-t-independent-zero-r-recognition-pass205-working.md",
+      "research/weight-four-radical-nonzero-r-eliminant-pass206-working.md",
+      "research/radical-quartic-first-projection-unit-speed-pass208-working.md",
+      "research/radical-cubic-second-projection-exclusion-pass209-working.md",
+      "research/radical-proper-plane-unit-speed-synthesis-pass209-working.md"
+    ],
+    "scope": "These are retained written inputs, not new210 records or reruns. Constant-projection recognition uses the already-reviewed criterion205 endpoints. The square exclusions use the actual polynomial ring and prime valuation. No new primary-paper access, human review or novelty clearance is claimed."
+  },
+  "finite_control_scope": "Five methods check rank-two center fibers and local gradient orders; zero-center formulas, the general-q quartic gate and the affine-pair derivation boundary; literal actual X/W/Z transport with n, ell, centers and both inverse orders; quadratic-second/repeated-center conic coefficients and original square identities; and affine-second conic coefficients with actual affine inverse and I=x^2. Gcd identities are finite primitive-coefficient controls, not tests proving universal irreducibility, valuation, field, cone, conductor or recognition theorems.",
+  "next_bounded_task": "Investigate an actual recognition mechanism for the residual affine projected pair. The existing P is not nice and lacks invariant W-coefficient; generic affine parameters and P squared cannot replace the missing actual argument. Do not rerun210."
+}

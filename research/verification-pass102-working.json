@@ -1,0 +1,29 @@
+{
+  "started_at_utc": "2026-09-14T19:10:59.292Z",
+  "finished_at_utc": "2026-09-14T19:10:59.852Z",
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.quadratic_degree_module_checks_pass102"
+  ],
+  "exit_code": 0,
+  "suites": 1,
+  "test_methods": 1,
+  "wall_seconds": 0.554344584,
+  "unittest_seconds": 0.109,
+  "input_files": [
+    {
+      "path": "research/quadratic_degree_module_checks_pass102.py",
+      "sha256": "dd701dc05fe10c4ce5189ab848bfde4f0ea7bb724f27d4317b69f38c91613362"
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "stdout": "",
+  "stderr": "test_conic_first_coefficients_and_weight_comparison (research.quadratic_degree_module_checks_pass102.QuadraticDegreeModuleChecks.test_conic_first_coefficients_and_weight_comparison) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.109s\n\nOK\n",
+  "output_hash_convention": "stdout + one newline + stderr",
+  "complete_output_sha256": "59e6869a351d2ac1f766a4ae307f33c106c795460972d1696fad25b2f89bb4d5",
+  "all_passed": true,
+  "scope": "One finite symbolic method: conic/matrix identities, nonunit theta control, first-order ranks on double and mixed Artin fibers, and finite weighted comparisons. It does not certify flatness, local freeness, an actual original-coordinate frame, the universal proof, recognition, or cancellation."
+}

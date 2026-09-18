@@ -1,0 +1,34 @@
+{
+  "status": "four targeted exact example methods passed; fixed-good quadratic removability is false in an actual frame, while general cancellation remains unsolved",
+  "working_directory": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+  "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.three_good_cubic_divided_difference_checks_pass129 research.three_good_unit_rank_two_boundary_checks_pass128 -v",
+  "execution_output_ids": ["cba446"],
+  "exit_code": 0,
+  "unittest_reported_seconds": 0.408,
+  "tool_call_wait_seconds": [0.691356792],
+  "timing_scope": "The tool wait is not a separately measured process wall-clock duration. Execution completed in the initial call and had no ongoing session handle.",
+  "suites": 2,
+  "methods": 4,
+  "new_methods": 2,
+  "retained_methods": 2,
+  "before_hash_output_id": "cba446",
+  "after_hash_output_id": "f5e520",
+  "inputs_before_and_after": {
+    "research/three_good_cubic_divided_difference_checks_pass129.py": "2b09ed46530732e1afb664e6b7e0c55ead8bc73674cdc494288441afd67bc1ed",
+    "research/three_good_unit_rank_two_boundary_checks_pass128.py": "b424611c0677deef91b9d9c95311275aa4b4d09a795160af5aabd3c255e5b8e9"
+  },
+  "new_control_scope": [
+    "Both polynomial inverse orders for the actual cubic translation frame, including its determinant -1 in the stated coordinate order, invariant cubic cancellation, unit/full-span/rank-two good speeds and nonconical determinant1",
+    "The realized acceleration a^3 and its exact nonmembership in the six-dimensional constant quadratic good-speed span; this supplies fixed-good shear nonremovability using the written degree argument, not global frame minimality",
+    "The original bad-coordinate partial transported through the inverse, exact filtration degree2, first and second commutators, primitive N with a slice, and N(Q(b))=3v nonzero",
+    "Divided-difference and derivative identities for a cubic with symbolic constant coefficients, q=2*gamma*a^3, and the gamma=0 degree-drop boundary"
+  ],
+  "retained_control_scope": "The two frozen pass128 methods were rerun unchanged. No full historical-suite rerun is claimed.",
+  "not_verified_by_this_run": [
+    "The all-polynomial divided-difference family or universal fixed-good degree criterion, which require their written proofs",
+    "The full initial-algebra kernel calculation or universal recognition from weighted relations",
+    "Any assertion that a globally minimal frame has been constructed, or that the displayed action is a cancellation counterexample",
+    "General rank-two recognition, unrestricted coordinate entry, cancellation, historical novelty, human expert review or formal proof verification"
+  ],
+  "capture_limitation": "The complete output is retained in the single listed tool-output identifier. No complete-output checksum or peer execution is claimed."
+}

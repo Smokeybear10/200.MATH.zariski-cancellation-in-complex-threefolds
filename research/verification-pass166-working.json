@@ -1,0 +1,81 @@
+{
+  "pass": 166,
+  "status": "working_actual_quartic_graph_recognition_via_exact_field_return; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/cusp-quartic-actual-field-recognition-pass166-working.md",
+      "sha256": "ddda84f898048b9c954fecfb58620054c064aedff175f4a06d589bde2977612c",
+      "bytes": 12455,
+      "lines": 318,
+      "equations": 15,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp_quartic_field_return_controls_pass166.py",
+      "sha256": "59dc4b2b331a440df1773c82e9bab30313982c6d6734f6fe284d0a524807b95e",
+      "bytes": 7763,
+      "lines": 167,
+      "equations": 0,
+      "test_methods": 3
+    }
+  ],
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass165-working.json",
+    "sha256": "419b0fa8f5a832c332691d3b564aefb70a355e0c213f372fa2f2bcda9ce78655",
+    "records": 1062
+  },
+  "results": {
+    "actual_hypotheses": "All retained159 cusp hypotheses and163 quartic graph hypotheses are retained: an actual sliced polynomial four-frame, exact E-time(1,1,2,2), full weighted initial ideal(XZ-Y^3), whole generic line, and projected y affine with theta of degree4. Normalization165 uses actual weighted polynomial inverses.",
+    "exact_field": "The164 result gives L=K(rho), with K finite over C(t), and the actual inverse gives Frac(A)=C(y,z,w)=K(rho)(y). The proof never assumes K=C(t), that a=EX is a unit, or that a generic coefficient-dependent shear is integral.",
+    "line_family": "Before assuming any degree bound on k0, the lower equations give h=delta', p2/t=-6delta^2-3t+Lambda, and z=Z0+hq, w=yZ0+V0+(yh-1)q, q=rho/t. The exact line equation G=(1-yh)z+hw has cubic y coefficient4(delta-t*h).",
+    "pencil_lemma": "If M=k(f,g), f transcendental, and W=fZ+g for Z transcendental over M, the irreducible full plane relation R(f,g)=0 gives [M(Z):k(Z,W)]=total_degree(R). A polynomial variable change T->W-ZS preserves irreducibility; the leading coefficient R_d(1,-Z) and Gauss's lemma give the exact degree. This is a written algebraic proof, not inferred from a finite example.",
+    "coefficient_forcing": "Assuming h nonconstant, actual field equality first forces K(y)=C(y)(f,g) for f=y-1/h and g=G/h. The pencil lemma forces a linear relation, so every coefficient of G is in the complex span of1,h. Its cubic coefficient gives delta-t*h=alpha+beta*h, whence h'=0, a contradiction. Exact Euler integration then yields k0=-h*t^3-4j*t^2+b*t+c+q/t with complex constants.",
+    "recognition": "The forced degree-four criterion permits the explicit165 invariant coordinate I in S and its two-sided polynomial inverse. The separately cited Bhatwadekar-Gupta-Lokhande regular-kernel theorem gives A=C[I]^[2]. This is a working recognition result for the stated actual quartic graph subcase only.",
+    "formal_boundary": "A separate generic example satisfies all lower equations with delta=t^2 and h=2t but has exact projected field index8. Its P8 numerator has leading coefficient-y^4 and constant1/224. It fails actual field return and is not an actual frame or a cancellation counterexample.",
+    "scope": "No lower graph-degree branch, other weighted initial profile, arbitrary coordinate-entry theorem or full cancellation solution is claimed. Independent AI reviews and finite checks are not expert review, formal certification or novelty clearance."
+  },
+  "canonical_execution": {
+    "command": "/opt/anaconda3/bin/python research/cusp_quartic_field_return_controls_pass166.py",
+    "source_sha256": "59dc4b2b331a440df1773c82e9bab30313982c6d6734f6fe284d0a524807b95e",
+    "root_full_source_read": "927e90",
+    "terminal_output": "59470e",
+    "methods": 3,
+    "seconds": 0.174,
+    "exit_code": 0,
+    "pending_execution_handle": false,
+    "terminal_in_initial_response": true,
+    "rerun": false,
+    "scope": "Generic line decomposition and cubic coefficient, derivative and Euler identities, finite pencil leading-degree and linear/quadratic boundaries, and the full formal index-eight example. These checks do not replace exact field return, irreducibility, the general pencil proof or the external regular-kernel theorem."
+  },
+  "reviews": {
+    "root": "Independent hostile reconstruction of the full pencil/intersection argument and formal index-eight boundary; complete saved proof reads f9996f and b80551. Complete checker read927e90 before canonical59470e. Packet review ed5435 and6b6afa identified the command-flag metadata correction; no test was rerun.",
+    "general": "Complete author proof c2aac6+476dd2 at final ddda84f8, with exact metadata57a9be. Complete independent checker source3379d2 at final59dc4b2b; no execution.",
+    "geometry": "Complete saved proof a78570 clean atddda84f8, including field intersection, coefficient-span descent, Euler completion and every formal P8 coefficient. Complete checker98bc97 clean; no execution.",
+    "jet": "Complete saved proof7438f6 clean atddda84f8. Complete author checkerbf2af8 at59dc4b2b; no execution by author."
+  },
+  "external_dependency": {
+    "theorem": "Bhatwadekar-Gupta-Lokhande Theorem3.5",
+    "source": "https://arxiv.org/html/1501.01438v1",
+    "scope": "The regular-kernel endpoint is inherited through165. Its statement and displayed proof were inspected there; no fresh recursive dependency or historical novelty audit is claimed in166."
+  },
+  "runtime": "Canonical command uses /opt/anaconda3/bin/python. The adjacent165 capture records Python3.13.5 Anaconda and SymPy1.13.3 in e17058; no new version probe or checker rerun was performed during this closure.",
+  "goal_audit": {
+    "previous_goal_turn": "Progress, not a status-only turn: completed the actual field-return proof166, received full saved-source AI reviews, and canonical59470e passed3methods0.174s exit0 in its initial terminal response.",
+    "current_continuation": "Administrative closure of completed165/166 evidence. The two distinct canonical suites contain6 methods total, all terminal, and this packet records the quartic subcase proof and exact index-eight failure of formal-only data. Packaging is not an additional theorem or a new test execution.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Investigate remaining lower-degree graph branches in the actual cusp chart, with exact coefficient fields and actual field return retained. Other initial configurations and unrestricted coordinate entry remain separate open obligations. All167 and later work is excluded from this packet."
+}

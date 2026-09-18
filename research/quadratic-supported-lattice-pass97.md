@@ -1,0 +1,320 @@
+# Quadratic component multiplicities determine the supported ramification columns
+
+The actual quadratic profiles (3,1) and (2,2) force specific positive
+integral Thom columns. In either case all their normalized source points
+must have one common image in the intermediate quotient curve Z. For a
+fully retained exceptional curve, the first profile has one split
+degree-two base branch; the second has one split and one fully ramified
+degree-two base branch. This constrains actual incidence, but does not
+prove that either profile exists or exclude it.
+
+The multiplicity-gcd identity itself is retained from equation (2) of
+[support93](nonconical-reducible-ramification-support-pass93.md).
+The contribution here is its reconstruction using the weaker
+[dependency audit96](irreducible-fiber-dependency-audit-pass96.md),
+which allows degree-one exceptional covers, and the exhaustive quadratic
+column calculation. It is not a new general cancellation result.
+
+Forward status: the later [finite source-balance proof97](quadratic-saturated-source-balance-pass97.md)
+excludes every total-four quadratic fiber, hence both profiles
+conditionally classified here. Its additional finite-normalization
+balance is not a consequence of the lattice alone. It also records
+the surviving (2,1) split columns. The finite-curve controls below
+remain controls, not actual realizations of the excluded profiles.
+
+## 1. The actual supported lattice, including its linking map
+
+Retain the actual supplied quadratic frame and full quotient of
+[checkpoint96](checkpoint-pass96-working.json). Thus X is a smooth
+factorial contractible affine threefold, S is the full invariant plane,
+the quotient is faithfully flat, and every whole generic divisor fiber
+has algebraic constant-field degree at most two over the base divisor.
+The reduced closed-fiber components are disjoint affine lines by96.
+The following lattice calculation needs the quotient and topological
+hypotheses, not an independently chosen finite curve cover.
+
+Choose any product-complement exceptional curve Gamma as in96 and its
+finite factorization E -> Z -> Gamma. Fix a closed value b in Gamma.
+There are r normalized base branches at b. Above branch j are normalized
+source points indexed by a, with positive ramification indices e_ja.
+Their sum is the degree N_j of the corresponding normalized cover.
+Here N_j is one or two. A normalized branch is not the same thing as
+an irreducible global component: different branches may belong to one
+component of Gamma.
+
+Write Q for the total number of normalized source points, and h for the
+number of irreducible components C_i of the whole reduced fiber. The
+actual integral diagram, with positive complex orientations, supplies
+\[
+\begin{gathered}
+T:\mathbb Z^Q\longrightarrow\mathbb Z^r,
+\qquad T(e_{ja}^{\rm std})=e_{ja}e_j^{\rm std},
+\qquad L=T^{-1}(\mathbb Z\mathbf1),\\
+\mathbb Z^r=T(\mathbb Z^Q)+\mathbb Z\mathbf1,
+\qquad (v_1,\ldots,v_h)\text{ is a }\mathbb Z\text{-basis of }L,\\
+Tv_i=\mu_i\mathbf1,\qquad v_i\in\mathbb Z_{\ge0}^Q,
+\qquad h=Q-r+1.
+\end{gathered}
+\tag{1}
+\]
+These are the full supported lattice and the actual component basis,
+not a finite-index substitute or a freely selected positive basis.
+The integer mu_i is the generic length of the whole fiber along C_i.
+It is not the transverse length of the fixed scheme.
+
+For completeness, the common-value homomorphism ell on L is the
+transverse linking map to the oriented base sphere. At a general smooth
+point of C_i, the whole fiber's nilpotent layers are locally free on
+the reduced curve. A transverse local parameter cuts length mu_i.
+The resulting finite analytic surface germ has mu_i nearby points over
+a regular value, with positive complex orientations. Thus ell(v_i)=mu_i,
+including when the whole fiber is nonreduced. This is the local
+multiplicity identification reconstructed in96.
+
+The entries of v_i are nonnegative for a separate geometric reason.
+In that transverse surface, each branch of the reduced exceptional
+curve has a positive winding degree to a normalized source branch.
+Its contribution to the corresponding entry is that degree. The
+transverse fiber over b is isolated, so none of these branches maps
+constantly to a point of Z. Also kappa(C_i) is a single point z_i of
+the finite set theta^{-1}(b). A sufficiently small neighborhood of C_i
+avoids the other points of Z. Consequently only normalization points
+over z_i can occur with a nonzero entry in v_i. No properness of kappa
+or normality of Z is assumed.
+
+## 2. The exact gcd identity and its scope
+
+Put g_j=gcd_a(e_ja). Since the different rows of T have disjoint
+sets of variables, its image is the direct product of g_j Z. Hence
+\[
+\begin{gathered}
+\ell(L)=\operatorname{lcm}_j(g_j)\mathbb Z,
+\qquad
+\boxed{\ \gcd_i\mu_i=\operatorname{lcm}_j\gcd_a(e_{ja})\ },\\
+\gcd(g_j,g_k)=1\quad(j\ne k).
+\end{gathered}
+\tag{2}
+\]
+The second description of ell(L) is the subgroup generated by the
+values on its actual basis, namely the mu_i. This proves the boxed
+identity with no inequality or unspecified index. The first line
+needs the full lattice and the linking interpretation, but not
+positivity of the columns.
+
+The final assertion uses the integral surjectivity in (1). The
+cokernel of T modulo the diagonal has order
+product_j(g_j)/lcm_j(g_j). Indeed the diagonal element in the finite
+group product_j Z/g_j has order lcm_j(g_j). Its cokernel is trivial
+exactly when the g_j are pairwise coprime. This is not a conclusion
+from cover degrees alone. The wrong-full-kernel and noncontractible
+controls in96 demonstrate why the actual source hypotheses matter.
+
+## 3. All possible branch groups for two quadratic components
+
+Now h=2. Equation (1) says Q=r+1. Each base branch has at least one
+normalized preimage. Therefore exactly one branch has two preimages,
+and all others have one. Since every N_j is at most two, the split
+branch has degree two and indices (1,1). Each other branch has either
+one index one, of degree one, or one index two, of degree two.
+
+Let k count the single index-one branches and let s count the single
+index-two branches. Pairwise coprimality in (2) forces s at most one.
+The complete alternatives are
+\[
+\begin{gathered}
+r=1+k+s,\qquad Q=2+k+s,\qquad s\in\{0,1\},\\
+\gcd(\mu_1,\mu_2)=2^s,\\
+(\mu_1,\mu_2)=(3,1)\Longrightarrow s=0,
+\qquad
+(\mu_1,\mu_2)=(2,2)\Longrightarrow s=1.
+\end{gathered}
+\tag{3}
+\]
+Thus degree-one branches can be present for an arbitrary product
+exceptional curve, but they do not change the essential two-column
+calculation. In the fully retained setup of92, every N_j is at least
+two, so k=0. Invoking that setup imports its separate retained
+branch-deletion/source hypotheses. The weaker96 argument alone does
+not permit silently setting k to zero.
+
+## 4. The actual positive columns, not just their weighted sums
+
+For (3,1), retain the two split-branch coordinates x,y. They identify
+L with Z^2; each index-one row is then forced to have value x+y.
+The simple component's split column is either (1,0) or (0,1), by
+positivity. Order the punctures so it is (1,0). The other column has
+entries a,3-a. Its determinant with (1,0) has absolute value one
+only when 3-a=1. Consequently the actual columns are
+\[
+\begin{array}{c|cc}
+\text{normalized source row}&\mu=3&\mu=1\\ \hline
+\text{first split point}&2&1\\
+\text{second split point}&1&0\\
+\text{each degree-one point}&3&1
+\end{array}
+\tag{4}
+\]
+The ordering of the two punctures is the only ambiguity, apart from
+permuting the degree-one rows. In particular a matrix such as
+columns (3,0),(0,1) has the right weighted sums but the wrong lattice
+index, and is not allowed.
+
+For (2,2), use split coordinates x,y and the single ramified coordinate
+z. The essential lattice is x+y=2z. Its projection to (x,y) is the
+index-two sublattice with even coordinate sum. Each actual column has
+z=1 and split form (a,2-a), with a in {0,1,2}. For two columns of
+this form the absolute determinant in Z^2 is 2|a-b|. They form the
+full lattice exactly when |a-b|=1. After ordering the components
+and the split points, this gives
+\[
+\begin{array}{c|cc}
+\text{normalized source row}&\text{first }\mu=2&\text{second }\mu=2\\ \hline
+\text{first split point}&1&2\\
+\text{second split point}&1&0\\
+\text{single ramified point, index }2&1&1\\
+\text{each degree-one point}&2&2
+\end{array}
+\tag{5}
+\]
+Equivalently, the first three rows are columns (1,1,1) and (2,0,1).
+The alternative columns (2,0,1),(0,2,1) generate a sublattice of
+index two and cannot be actual component Thom columns. No choice
+of basis is being made on behalf of the components in (4)--(5):
+positivity, multiplicities and the full-basis condition exhaust all
+possibilities and force those forms.
+
+## 5. Forced source incidence and local branch counts
+
+In (4), the triple column uses both split points and every degree-one
+point. They must all lie over its one actual image z_3 in Z. The
+simple column shares the first split point, so its image is z_3 too.
+In (5), the first double column uses every normalized point, and the
+second shares both the first split point and the ramified point.
+Again their images agree. Every point of theta^{-1}(b) has a
+normalization preimage, so in both cases
+\[
+\begin{gathered}
+\theta^{-1}(b)=\{z_0\}\text{ as a set},\qquad
+\kappa(C_1)=\kappa(C_2)=z_0,\\
+\#\nu_Z^{-1}(z_0)=
+\begin{cases}
+2+k,&(3,1),\\
+3+k,&(2,2).
+\end{cases}
+\end{gathered}
+\tag{6}
+\]
+The disjointness of the actual affine-line components does not
+separate their images under kappa. In particular a unibranch Z at
+this point excludes both profiles. A point of Z with at most two
+normalization branches excludes (2,2). These are conditional
+consequences, not established normality or separation statements.
+
+For a fully retained exceptional curve, (3,1) has exactly one
+normalized base branch, whereas (2,2) has exactly two. The latter
+may be two branches of one irreducible global curve; the theorem
+does not require two distinct global components. Thus a fully
+retained base curve unibranch at b cannot support (2,2).
+
+There is also an intrinsic version that does not use the fully
+retained-curve theorem. Let Delta_2 be the union of the base prime
+divisors whose actual generic constant-field extension has degree
+two. Every product-complement Gamma contains them: at the generic
+point of a divisor outside Gamma the quotient is a polynomial
+line, whose algebraic constant field is the base field itself.
+Thus Delta_2 is a finite union of components of any such Gamma.
+Equations (3)--(5) say that Delta_2 has exactly one normalized
+branch at a (3,1) value, with split unramified cover, and exactly
+two at a (2,2) value, one split and one fully ramified. This
+description is independent of extra degree-one components chosen
+for Gamma. It does not assert that the complement of Delta_2 is
+itself a product, or that Delta_2 has smooth embedded branches.
+
+The entries also constrain transverse germs. In (3,1), the triple
+component has at least two transverse exceptional branches. Above
+the second split point there is exactly one, of source-normalization
+degree one. The entry two above the first point may be one branch
+of degree two or two branches of degree one. In (2,2), the component
+with essential column (1,1,1) has exactly three transverse branches
+over these essential points. Their source-normalization degrees are
+all one and their composite base-normalization degrees are 1,1,2.
+The other component has two or three essential branches. Additional
+degree-one rows add their own contributions when k is positive.
+These are counts at a general point on the component, not an
+assertion that its entire exceptional surface is normal.
+
+By compatibility96 every fixed component of a reducible quadratic
+fiber is collapsed. Thus the triple component in (3,1) and both
+components in (2,2) have the retained original-plane property.
+Nothing above proves that this plane property prevents the forced
+gluing or realizes the displayed transverse branch counts.
+
+## 6. Exact finite-curve controls and the remaining realization gate
+
+The required finite source gluing is not contradictory on its own.
+The controls93 specialize to the exact columns just forced here.
+For (3,1) let
+\[
+t=w^2-1,\qquad
+C_2=\mathbb C[t]+t\mathbb C[w]
+=\mathbb C[t]\oplus\mathbb C[t]tw,\qquad
+T=(1,1),\qquad v_3=(2,1)^t,\quad v_1=(1,0)^t.
+\tag{7}
+\]
+The ring is finite over C[t] and has normalization C[w]. Indeed w
+is integral, and the two rings agree after t is inverted. The two
+normalization points w=1 and w=-1 have the same image in Spec C_2;
+its fiber modulo t has square-zero generator tw. The normalized
+cover is unramified at both points. The two displayed columns
+have determinant minus one, weighted sums three and one, and
+support compatible with the actual gluing of this finite curve.
+
+For (2,2), take the nodal base G=C[t,s]/(ts) and
+\[
+\begin{gathered}
+C_{\rm cross}=\{(f(w),g(a))\in\mathbb C[w]\times\mathbb C[a]:
+f(1)=f(-1)=g(0)\},\\
+t\longmapsto(w^2-1,0),\qquad s\longmapsto(0,a^2),\qquad
+T=\begin{pmatrix}1&1&0\\0&0&2\end{pmatrix},\\
+v_1=(1,1,1)^t,\qquad v_2=(2,0,1)^t.
+\end{gathered}
+\tag{8}
+\]
+The product normalization is finite over G. Its submodule
+C_cross is a ring, finite over the Noetherian ring G and reduced.
+Away from the finitely identified points its conductor separates
+the components, giving the stated product normalization. All three
+normalization points above the node have one common image.
+In coordinates (x,z) on x+y=2z, the columns are (1,1),(2,1),
+whose determinant is minus one. Thus they are a full basis and
+both weighted multiplicities are two.
+
+These controls construct the finite reduced curves and verify
+their support-compatible integer bases. They do not construct an
+exceptional surface E, its map kappa, the transverse local
+intersection germs, or an original coordinate inverse. In
+particular they are not actual actions realizing (3,1) or (2,2).
+Conversely the lattice restrictions do not exclude those profiles
+without an additional actual-geometric obstruction.
+
+## Source and review scope
+
+The frozen checkpoint96, the full current dependency-audit96 and
+the relevant fiber/component proofs96 were read before using their
+conclusions. Support93 was fully reread to identify the existing
+gcd theorem and to retain its positivity and actual-support gates.
+The primary source remains Kaliman's
+[final author paper](https://www.math.miami.edu/~kaliman/library/Ka.invent.2004.c%2B.pdf),
+Lemmas 2.1--2.2, Lemma 3.1 and Proposition 3.2 with its integral
+diagram. Their exact fresh primary read scope is recorded in96;
+no additional complete primary proof or foundational topology
+read is claimed for97. The fully retained k=0 specialization
+additionally uses the setup of92 and its separately recorded
+Theorem 5.2 dependency, not merely the weaker96 replacement.
+
+The arithmetic, column classification and finite-curve controls
+are proved above. No numerical checker is needed for these
+symbolic two-column calculations, and none was run for this
+note. Every file through96 remains unchanged. No general
+cancellation, arbitrary-frame reduction, or realization claim
+is made.

@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "pass": 97,
+  "created_at_utc": "2026-09-14 17:34:54 UTC",
+  "active_goal": "keep going until u solved it",
+  "working_question": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic to C^[4] implies A isomorphic to C^[3].",
+  "general_conjecture_solved": false,
+  "goal_status": "active",
+  "this_pass_classification": "progress",
+  "preceding_turn_classification": "The intervening user check-in was status-only and is no progress. This continuation revalidated the saved state, integrated the total-four exclusion and established the weighted saturation identity and exact defect for every total-three fiber.",
+  "summary": "Finite source normalization and the actual full component lattice exclude every total-four quadratic fiber without a first-normal-action hypothesis. Fixed profiles reduce to (2)/(2,1). Weighted saturation obeys n=lcm(N_j)*gcd(d_i), so every total-three fiber has exact generic/special projection degrees4/3 and a nonfinite local module. Relative generators are affine on all its components; a low-degree good function separates the reduced (2,1) components. Conditional tangent and actual original double-fiber equations remain useful but do not recognize A.",
+  "scope_assumptions": [
+    "Actual supplied original nonconical constant-acceleration frame B=A[u]=C^[4], canonical u=Ez/q, E^2 good coordinates zero, E^2z=q nonzero constant, and retained canonical primitive N with full kernel S=C^[2].",
+    "A is smooth factorial contractible, faithfully flat over S, A=S[A1,A2,c], A_K=K[v], generic degrees at most2,2,4, and actual whole prime-divisor constant extensions of degrees at most2.",
+    "Full supported integral quotient-homology lattice and positive component Thom basis from the exact actual curve factorization and dependency96, not an arbitrary finite curve model.",
+    "Total-four proof first proves actual finite freeness by saturated flat rank; all labels and residue degrees are then counted by finite normalization and generic transverse sections.",
+    "Weighted proof uses finiteness only under hypothetical saturation. It proves strict inequality and actual nonfiniteness for total-three fibers rather than treating a missing finiteness proof as contradiction.",
+    "Double tangent theorem requires nonzero first normal action. Noncollapsed whole-double original graph and surface Jacobian theorem do not require that additional hypothesis."
+  ],
+  "completed_deductions": [
+    "Exact supported columns for conditional(3,1)/(2,2), all normalized labels gluing at one actual source point, and intrinsic degree-two branch descriptions. The old gcd identity93 is deduplicated.",
+    "Finite free rank-four actual local cover plus finite-normalization source row sums4/N_j contradict primitivity of the unweighted actual component-basis sum. Every total-four quadratic fiber is excluded.",
+    "Every component has multiplicity at most2; fixed-containing whole fibers have only(2)/(2,1), and no fiber has two fixed components.",
+    "Under weighted saturation n=sum(mu_i*d_i), exact row balance sum(d_i*v_i)_a=n/N_j gives gcd_i(d_i)=gcd_j(n/N_j), hence n=lcm_j(N_j)*gcd_i(d_i).",
+    "For every total-three fiber, no actual function nonconstant on all components can saturate the projection bound. Every admissible relative-linear U has n4, all d_i1, residue dimension3 and exact defect1; both semilocal and entire local base changes are nonfinite.",
+    "All relative generators restrict affinely to every component of a total-three fiber. In(2,1), a constant affine good F of generic degree<=2 is0 on the double component and1 on the simple component. It is not an admissible projection or a coordinate.",
+    "For the surviving(2,1) double component under nonzero first normal action, full prepared quadratic and source-label arguments force the intrinsic split base branch to have a prescribed vertical tangent and positive even multiplicity.",
+    "Double/triple formal controls descend via the original cusp conductor and are formally invariant, but cannot be rational on the actual algebraic exceptional surface. They do not realize actual excluded profiles.",
+    "A noncollapsed whole-double cylinder has actual quadratic graph ideal(L0,z-qW^2/2-R(U)), degreeR<=2. Canonical evaluation gives two global component-ideal generators in A, with N degrees at most2 and4.",
+    "Actual tangent translations give quotient-only commutation and original velocity-Jacobian constraints on that surface. Pointwise rank<=2 gives J^3=0 there, not globally.",
+    "A regular semilocal rank-four/special-length-three control exposes why strict flat-rank inequality does not imply finiteness; it intentionally fails the actual prime-divisor gate."
+  ],
+  "proof_reviews": {
+    "source_balance": "Geometry author; Root saved EOF and retained flat-rank/base-change/lattice reads; General and Jet complete saved nine-equation independent reconstructions. Full field-tower and generic-section ef-to-Thom identification checked, not endorsed from finite tables.",
+    "weighted_defect": "Geometry author; Root and General independent weighted construction, General exact-gcd refinement, Root all-total-three/separator extension. Root, General and Jet complete saved eight-equation reconstruction including nonfiniteness, graph limitation and semilocal control.",
+    "double_branch": "Root author; General, Geometry and Jet local reconstruction; General and Jet final conductor/invariance/nonrationality and(2,1) extension reviews. Final forward-status delta checked by Root.",
+    "triple_branch": "Jet author; Root original full proof plus final conductor/invariance delta; General and Geometry final ten-equation reconstruction. Forward pointer marks(3,1) superseded by global exclusion.",
+    "original_volume": "General author; Root, Geometry and Jet full proof and final pointwise rank/nilpotence refinement reviews.",
+    "supported_lattice": "Geometry author; Root and General full saved reconstruction; current total-four forward status retained.",
+    "integration": "Root full final synthesis/audit reads; General final full synthesis/audit plus README/ledger review clean. General read-only2a9778 checks three inputs, one method per file and exact output digest without rerun.",
+    "limit": "Separate AI reconstructions, not human expert review, Lean verification, a new audit of all foundational topology or historical novelty clearance."
+  },
+  "targeted_verification": {
+    "path": "research/verification-pass97-working.json",
+    "sha256": "99affc6a96268bd378a4c7006058a01b1248bf5c84ec194ac9655bb5b945e934",
+    "all_passed": true,
+    "suites": 3,
+    "test_methods": 3,
+    "started_at_utc": "2026-09-14T17:29:48.157Z",
+    "finished_at_utc": "2026-09-14T17:29:48.637Z",
+    "wall_seconds": 0.474191875,
+    "unittest_seconds": 0.081,
+    "input_files": 3,
+    "input_hashes_unchanged": true,
+    "complete_output_sha256": "1d79f7fd24d574249fafeca1f771d3ab840e45d16be90e5fdbf8fef61dadb788",
+    "output_hash_convention": "stdout + one newline + stderr",
+    "canonical_tool_chunk": "c84535",
+    "independent_repeats": "Jet final double7c6138(.059s), triple04af18(.043s), weighted source9ea60b(.000s); General final weighted sourcea93c6b(.000s). Repeated executions of the same three methods, not additional coverage.",
+    "scope": "Three finite exact methods: double and triple formal controls and source-row integer controls including weighted projection examples. Not verification of universal geometry, the weighted normalization proof, original-frame reduction or cancellation."
+  },
+  "predecessor_audit": {
+    "checked_at_utc": "2026-09-14T17:34:54.572Z",
+    "all_passed": true,
+    "prior_hash_records": 573,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "c1e8a6d6897db63c17d74762e5a54d3570a9733463e9adb2d917da757a69a31a",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "tool_chunk": "f0a788",
+    "unchanged": true,
+    "earlier_this_continuation_chunk": "177c09",
+    "earlier_pass97_start_chunk": "57b9ef"
+  },
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-14T17:34:54.672Z",
+    "all_passed": true,
+    "artifact_count": 12,
+    "numbered_equations": 56,
+    "local_links_checked": 796,
+    "missing_links": [],
+    "deferred_links": [
+      {
+        "from": "research/proof-audits-pass97-working.md",
+        "target": "checkpoint-pass97-working.json"
+      },
+      {
+        "from": "research/quadratic-tangent-and-coordinate-frontier-pass97.md",
+        "target": "checkpoint-pass97-working.json"
+      },
+      {
+        "from": "README.md",
+        "target": "research/checkpoint-pass97-working.json"
+      },
+      {
+        "from": "research-ledger.md",
+        "target": "research/checkpoint-pass97-working.json"
+      }
+    ],
+    "targeted_inputs_checked": 3,
+    "targeted_complete_outputs_checked": 1,
+    "artifacts": [
+      {
+        "path": "research/original-volume-constraints-pass97.md",
+        "sha256": "27f2084196479a01a18015ef1a9879838d2fe68c45e46e91632a3e448e9ac217",
+        "bytes": 12056,
+        "content_lines": 280,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/proof-audits-pass97-working.md",
+        "sha256": "ba8de2741daf472b485a3add8fda4fac856231bae01f98eae1b96a0b3d095918",
+        "bytes": 11670,
+        "content_lines": 219,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/quadratic-double-branch-pass97.md",
+        "sha256": "40d5a27a0ae874d167c9d4d5451e602d6708d80dbe477f7a541d4bb5de41d6e7",
+        "bytes": 16178,
+        "content_lines": 328,
+        "numbered_equations": 7
+      },
+      {
+        "path": "research/quadratic-saturated-source-balance-pass97.md",
+        "sha256": "c0cc6355ea5e8a3ce7bcddefad413bfc52d4a98e591088809c9d96cdafe71d93",
+        "bytes": 14861,
+        "content_lines": 324,
+        "numbered_equations": 9
+      },
+      {
+        "path": "research/quadratic-supported-lattice-pass97.md",
+        "sha256": "f39d03590407c889f0e1d965ddad0bd22ebf401912a210dc84b573ab874bc2fe",
+        "bytes": 15105,
+        "content_lines": 320,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/quadratic-tangent-and-coordinate-frontier-pass97.md",
+        "sha256": "c8667864d47eb9d4d909309d6522338799863e5b6c74fa90a936eabce0fa8c6d",
+        "bytes": 13987,
+        "content_lines": 303,
+        "numbered_equations": 6
+      },
+      {
+        "path": "research/quadratic-triple-branch-pass97.md",
+        "sha256": "ed1c7e438dff8d2a9c6ae7ef1ddcf00e9341dedc9d5fe44f0ce559eb81a6d68d",
+        "bytes": 17149,
+        "content_lines": 399,
+        "numbered_equations": 10
+      },
+      {
+        "path": "research/quadratic-weighted-rank-defect-pass97.md",
+        "sha256": "cdb7a7eda2ef8f6dec73d2d36d1fd2a27ba38633bc25ed0359643e6cb11bae48",
+        "bytes": 10317,
+        "content_lines": 249,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/quadratic_double_branch_checks_pass97.py",
+        "sha256": "4f0a10d02455ac45c6a04c16ee3a39f87b8e6905db6559c19a756b634b0430ab",
+        "bytes": 3816,
+        "content_lines": 81,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/quadratic_source_balance_checks_pass97.py",
+        "sha256": "150b438d6fcd45a3cc89091869e648c0bc54030c42599b15bdacbe9ab97278c7",
+        "bytes": 8174,
+        "content_lines": 181,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/quadratic_triple_branch_checks_pass97.py",
+        "sha256": "eca2f93c3fa2bcd9ae370a93fa45b3ab9dee63c84060f71c8dfccb57f0baeaf4",
+        "bytes": 3813,
+        "content_lines": 97,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/verification-pass97-working.json",
+        "sha256": "99affc6a96268bd378a4c7006058a01b1248bf5c84ec194ac9655bb5b945e934",
+        "bytes": 2151,
+        "content_lines": 39,
+        "numbered_equations": 0
+      }
+    ],
+    "tool_chunk": "22f419",
+    "scope": "Twelve saved97 artifacts plus live README/ledger links; four self-checkpoint links intentionally deferred until checkpoint save and rechecked afterward."
+  },
+  "selected_primary_sources": [
+    {
+      "url": "https://stacks.math.columbia.edu/tag/0BXR",
+      "scope": "Complete displayed statement/proof freshly read by Root, Geometry and General for finite actual affine normalization."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/032L",
+      "scope": "Complete displayed statement/proof freshly read for trace-dual finiteness over Noetherian normal domains in finite separable extensions."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/00MC",
+      "scope": "Complete displayed statement/proof reread by Root for retained completion contraction in the flat-rank lemma."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/0ALJ",
+      "scope": "Earlier complete pass97 reading for henselian completeness in local branch arguments."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/04GG",
+      "scope": "Earlier complete pass97 reading for simple-root lifting and finite-algebra decomposition."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/09E8",
+      "scope": "Earlier complete pass97 reading for finite DVR degree counting and the henselian single-place distinction."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/035Q",
+      "scope": "Earlier complete pass97 statement/proof reading, including dominant-normal-source normalization lifting."
+    },
+    {
+      "url": "https://www.math.miami.edu/~kaliman/library/Ka.invent.2004.c%2B.pdf",
+      "scope": "Earlier selected pass97 Lemmas2.1,2.2,3.1 and Proposition3.2 start; current continuation checked displayed Proposition4.2 and Theorem5.2 scope. Full retained integral argument recorded in96. No fresh full foundational-topology or visual PDF audit."
+    }
+  ],
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "fresh_full97_regression_performed": false,
+  "central_registry_integrated": false,
+  "historical_claim_count": 544,
+  "record_accounting": {
+    "prior_frozen_records": 573,
+    "new_artifacts": 12,
+    "new_checkpoint_self": 1,
+    "records_after_checkpoint_freeze": 586,
+    "note": "Checkpoint self hash is retained externally and independently checked after saving."
+  },
+  "rejected_shortcuts": [
+    "Correct weighted column sums do not replace the actual full integral basis.",
+    "Generic field finiteness does not imply the actual local base change is finite.",
+    "Finite normalization of the actual prime surface and generic transverse sections cannot be replaced by arbitrary formal curve maps.",
+    "Weighted basis sums need not be primitive; their coordinate gcd must be retained.",
+    "Formal invariant descent through a conductor does not imply rationality or a global algebraic factorization.",
+    "Relative affine lines and a reduced-component separator are not original ambient coordinate assertions.",
+    "Global component complete-intersection generators and surface-only commutation do not supply global coordinates or a free N-action.",
+    "Even recognition of the supplied quadratic frame would not supply the missing arbitrary sliced-action reduction."
+  ],
+  "next_bounded_actions": [
+    "Use the actual low-degree separator and original volume/conic relations to constrain the surviving(2,1) fiber; do not attempt another finite-cover proof without overcoming its proved nonfiniteness.",
+    "Test whether the original normal relation Omega*h=(L dot v2)A1+(L dot v3)A2-kappa restricts the simple companion when the speed-map normal L is nonzero at the base value; this is a proposed next investigation, not a proved deduction here.",
+    "Attack whole collapsed and noncollapsed double fibers using the actual normal generators, quadratic graph and original partial identities; retain the first-normal-zero sector explicitly.",
+    "Keep the reduction from arbitrary sliced actions separate and unresolved."
+  ],
+  "arbitrary_constant_acceleration_recognized": false,
+  "arbitrary_sliced_action_reduced_to_frame": false,
+  "professor_interpretation_confirmed": false,
+  "historical_novelty_verified": false,
+  "human_expert_review_completed": false,
+  "formal_verification_completed": false,
+  "external_contact_made": false,
+  "submission_or_publication_made": false
+}

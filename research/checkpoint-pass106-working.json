@@ -1,0 +1,274 @@
+{
+  "pass": 106,
+  "status": "working_partial_results_not_cancellation",
+  "working_target": "Unconfirmed intended complex-threefold cancellation: A[u] isomorphic to C^[4] implies A isomorphic to C^[3]. Literal emailed A^1 conclusion has a dimension mismatch for general r.",
+  "summary": "In the actual collapsed mixed quadratic sector with L(m) nonzero, every admissible F4 parameter has a one-point normalization boundary, and I4 is nonprincipal with two or three generators. In the full W2=D branch, I3=(g), I4=theta gJ for a proper two-generated maximal-primary complete-intersection ideal J, g lies in JI2, and I3/I4 lie in the third/fourth base powers. A genuine nonflat LND control realizes the module and multiplication pattern without satisfying the actual-frame assumptions.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass105-working.json",
+    "sha256": "3d9a8b27948d3c966cf7b948509b3c754c64f0891b41f6b3c891c261825a97ff",
+    "frozen_records": 644,
+    "full_revalidation_evidence": "4b4048",
+    "all_unchanged": true,
+    "preceding_goal_turn": "no_progress: the preceding user check-in gave a status-only answer and did not advance the mathematical argument. Current continuation revalidated state and executed the next proof tasks.",
+    "final_independent_audit105": {
+      "reviewer": "Jet",
+      "evidence": [
+        "64c2ab",
+        "3b923b"
+      ],
+      "status": "clean"
+    }
+  },
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-14T20:49:49.953Z",
+    "all_passed": true,
+    "artifacts": [
+      {
+        "path": "research/mixed-admissible-quartic-boundary-pass106.md",
+        "sha256": "79bb4d951bd1fd17f751f32f4be6c872f13846e9587b801e5a4dc976da126c2e",
+        "bytes": 12724,
+        "content_lines": 291,
+        "equation_tags": 8
+      },
+      {
+        "path": "research/mixed-fourth-image-nonprincipal-pass106.md",
+        "sha256": "ca2d10d612817591399b73afe472419eeefbeac37727d92b7df96966e1b71b3c",
+        "bytes": 9699,
+        "content_lines": 227,
+        "equation_tags": 6
+      },
+      {
+        "path": "research/mixed-full-artin-two-generator-pass106.md",
+        "sha256": "901d3fd98633ed33cc6b021b14c2afb65c6574b1b981df1891a9856d4b51cf88",
+        "bytes": 9909,
+        "content_lines": 233,
+        "equation_tags": 7
+      },
+      {
+        "path": "research/fourth-image-module-controls-pass106.md",
+        "sha256": "7b4dde1c9dca5cfeefcb0e7dc5a030972cdcb460c2266bca058d28abb78d39c9",
+        "bytes": 9101,
+        "content_lines": 224,
+        "equation_tags": 7
+      },
+      {
+        "path": "research/fourth_image_module_checks_pass106.py",
+        "sha256": "a53999d3f4a83abad55bef5acbee323651b722594a11ec66a06647bbb32bc817",
+        "bytes": 5970,
+        "content_lines": 156,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/verification-pass106-working.json",
+        "sha256": "d8b6ad310ade4535bc4abcef873cb73f0183fdc654d827ee6df1b7c42fb7f6ee",
+        "bytes": 2432,
+        "content_lines": 45,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/mixed-fourth-image-frontier-pass106.md",
+        "sha256": "0d5af10038b47e19ea5eff1db677052c8bba44cd48ce4f02185f803b9752d5a7",
+        "bytes": 11161,
+        "content_lines": 213,
+        "equation_tags": 0
+      }
+    ],
+    "equation_tags": 28,
+    "captured_methods": 4,
+    "ast_methods": {
+      "research/fourth_image_module_checks_pass106.py": 2,
+      "research/mixed_quartic_cubic_checks_pass105.py": 1,
+      "research/quadratic_degree_module_checks_pass102.py": 1
+    },
+    "new_test_methods": 2,
+    "complete_output_verified": true,
+    "input_files_unchanged": true,
+    "local_markdown_links_checked": 823,
+    "missing_links": [],
+    "tool_evidence": "368919"
+  },
+  "chain_record_count_after_including_this_checkpoint": 652,
+  "record_count_convention": "644 predecessor frozen records + seven current artifact hash records + this checkpoint = 652. README and research-ledger remain live and are excluded. Repeated runs and checks are not new coverage.",
+  "proof_reviews": [
+    {
+      "reviewer": "Root",
+      "scope": "Complete generalized boundary, nonprincipality, full-Artin proof, intrinsic control and checker, and synthesis; supplied generator perturbation and full-Artin matrix, product and order arguments. Read retained102/104/105 module proofs, strict97 and divisor91. Final source/tiny notation deltas read separately.",
+      "evidence": [
+        "2c5ec5",
+        "55edd7",
+        "5e6b3a",
+        "0d88c2",
+        "376e95",
+        "4d00db",
+        "c39393",
+        "1e5a59",
+        "af2494",
+        "a88f7a",
+        "19e010",
+        "1ef50d",
+        "0ede7a",
+        "ef7f6e"
+      ]
+    },
+    {
+      "reviewer": "General",
+      "scope": "Author of nonprincipality and generator-count proof; complete independent generalized boundary, full-Artin matrix including final Leibniz/support delta, intrinsic control and checker, and initial synthesis/control section. No numerical execution.",
+      "evidence": [
+        "dce995",
+        "ed36ce",
+        "837601",
+        "c979cf",
+        "da3aea",
+        "ff6c4a",
+        "894bb1",
+        "90e4a7"
+      ]
+    },
+    {
+      "reviewer": "Geometry",
+      "scope": "Author of generalized admissible boundary; independent full nonprincipality and full-Artin proof plus mathematical deltas, intrinsic control and checker, and initial synthesis. No numerical execution. Final complete synthesis213 lines and capture45 lines independently read; three input hashes, complete output hash and2+1+1 method split checked read-only.",
+      "evidence": [
+        "29a2d8",
+        "8f9988",
+        "851e09",
+        "505791",
+        "b48aad",
+        "539050",
+        "633f9a",
+        "5caec5",
+        "6fce75",
+        "cf13d4",
+        "2ea8d1",
+        "dc6835",
+        "dd8446"
+      ],
+      "synthesis_sha256": "0d5af10038b47e19ea5eff1db677052c8bba44cd48ce4f02185f803b9752d5a7"
+    },
+    {
+      "reviewer": "Jet",
+      "scope": "Author of intrinsic control and checker; independent full generalized boundary, nonprincipality and full-Artin matrix/support/product proof. Final source-only delta explicitly attributes the new source read to Root.",
+      "evidence": [
+        "59822e",
+        "895ef1",
+        "253079",
+        "cdb9d8",
+        "4a582b"
+      ]
+    }
+  ],
+  "canonical_verification": {
+    "path": "research/verification-pass106-working.json",
+    "tool_evidence": "c8303b",
+    "suites": 3,
+    "test_methods": 4,
+    "new_methods": 2,
+    "retained_dependency_methods": 2,
+    "elapsed_seconds": 1.719275333,
+    "unittest_seconds": 1.341,
+    "complete_output_sha256": "d44d98dde9c38b67d46bf589edaaa437bdef7b8634691fcff3b410effcf8cfc0",
+    "all_passed": true,
+    "scope": "New finite algebraic controls plus retained quartic-recovery and conic-matrix controls. Does not verify universal normalization, image-ideal, whole-module, flatness or cancellation theorems."
+  },
+  "author_executions": [
+    {
+      "author": "Jet",
+      "command": "/opt/anaconda3/bin/python research/fourth_image_module_checks_pass106.py",
+      "evidence": "295df5",
+      "methods": 2,
+      "unittest_seconds": 0.367,
+      "wall_seconds": 0.954592542,
+      "exit_code": 0
+    }
+  ],
+  "historical_full_verification": {
+    "path": "research/verification-pass75-working.json",
+    "suites": 146,
+    "methods": 1047,
+    "claim_registry_count": 544,
+    "rerun_this_pass": false,
+    "revalidation": "4b4048 revalidated retained source/output hashes and counts, not a new full test execution."
+  },
+  "sources": [
+    {
+      "url": "https://stacks.math.columbia.edu/tag/032L",
+      "use": "Finite integral closure in a finite separable extension.",
+      "root_evidence": "turn3618view0",
+      "scope": "Complete displayed statement and trace-dual proof."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/03GT",
+      "use": "Normalization form of Zariski Main Theorem, applied after all-strata quasi-finiteness.",
+      "root_evidence": "turn3618view1",
+      "scope": "Complete displayed statement/proof; algebraic00Q9 read separately."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/00Q9",
+      "use": "Algebraic Zariski Main Theorem underlying the normalized open immersion.",
+      "root_evidence": "turn3613view1",
+      "scope": "Complete displayed induction proof, not the deeper conductor dependencies."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/0B3D",
+      "use": "Normal Noetherian surfaces are Cohen-Macaulay.",
+      "root_evidence": "turn3618view2",
+      "scope": "Complete displayed statement/proof; Serre-criterion foundation retained."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/00R4",
+      "use": "Miracle flatness for the finite normal surface algebra.",
+      "root_evidence": "turn3617view2",
+      "scope": "Complete displayed statement/proof; exact dimension equality checked."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/0BCQ",
+      "use": "Pure divisorial complement of a dense affine open.",
+      "root_evidence": "turn3613view2",
+      "scope": "Complete displayed section including Lemmas31.17.1,4,5 and proofs."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/00NQ",
+      "use": "Regular local rings are Cohen-Macaulay, comparison for the direct UFD regular-sequence proof.",
+      "root_evidence": "turn3617view1",
+      "scope": "Complete displayed statement/proof."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/02JN",
+      "use": "Regular sequence dimension criterion, comparison only.",
+      "root_evidence": "turn3617view0",
+      "scope": "Complete displayed statement/proof; direct two-element UFD proof also given."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/00N2",
+      "use": "Regular-sequence quotient and no-embedded-prime gates in the intrinsic-control presentation proof.",
+      "root_evidence": "turn3620view0",
+      "scope": "Complete displayed section, particularly10.103.5 and10.103.7; deeper depth-theory dependencies not rebuilt."
+    }
+  ],
+  "proof_limits": [
+    "Every actual conclusion assumes the supplied three-good original quadratic frame, collapsed profile(2,1), and L(m) nonzero. Arbitrary-frame entry is not proved.",
+    "Nonprincipal I4 and its residual point ideal do not exclude the mixed fiber or recognize A.",
+    "Only W2=D receives the compatible complements, I3 principal, complete-intersection residual ideal, and third/fourth order bounds.",
+    "The parameter boundary prime may depend on the admissible parameter. No fixed boundary prime is assumed.",
+    "Only the omitted completed local factor is canonically the completed base; its uncompleted local ring is not claimed finite over the base.",
+    "Exact degree-two divisor support does not determine its multiplicities or prove theta is a unit.",
+    "The intrinsic LND control fails base flatness, has a fat-plane closed fiber, and zero whole-fiber derivation. It is not an actual-frame example or cancellation counterexample.",
+    "Tests verify finite explicit identities and controls, not universal lattice, flatness, normalization, image-ideal or cancellation theorems.",
+    "Separate AI proof reconstructions are not human expert review, formal Lean verification or novelty clearance.",
+    "Whole-double, L(m)=0, lower-rank W2, global recognition and the unconfirmed original target remain unresolved."
+  ],
+  "draft_corrections": [
+    "Preserved the F2 correction H when comparing independent F3/F4 complements; it vanishes only after its correct third derivative.",
+    "Corrected a TeX superscript and a prose reference before finalizing the full-Artin note, without changing its mathematical argument.",
+    "Changed the intrinsic control wording from polynomial-algebra to finitely generated algebra to avoid claiming the ring itself is polynomial.",
+    "Added an explicit regular-sequence nonflatness witness to the control instead of relying only on a dimension jump.",
+    "Pre-checkpoint auditde8b25 had exactly three pending links to the not-yet-created checkpoint. Post-creation audit368919 resolves all823 checked local Markdown links with none missing."
+  ],
+  "next_bounded_tasks": [
+    "Determine the actual degree-two constant-extension DVR filtration and valuations of I1 throughI4, without assuming a unit slice over a nontrivial residue constant field.",
+    "Combine those divisor valuations with I3=(g), I4=theta gJ, g in JI2, I2² subsetI4 and I1 subsetthetaJ in the full-Artin branch. In particular test theta-unit or normalized-ideal implications instead of assuming them.",
+    "Analyze the W2 dimension-two branch and remaining nilpotent F3 direction; nonprincipal I4 alone leaves two or three generators.",
+    "Retain the separate whole-double, zero-normal, global recognition and arbitrary-frame entry gaps."
+  ],
+  "goal_status": "active",
+  "authorization_boundary": "Private local research, public-source reading and symbolic checks only. No expert outreach, submission, public posting, new automation, trading or paid resource action."
+}

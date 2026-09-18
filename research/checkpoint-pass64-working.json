@@ -1,0 +1,178 @@
+{
+  "status": "Audited working61–64 mathematical packet after full60. Not integrated into central claim registry or a new full-project regression.",
+  "covered_working_passes": [
+    61,
+    62,
+    63,
+    64
+  ],
+  "previous_frozen_checkpoint": "consistency-pass-60.json",
+  "previous_scope": {
+    "claims": 544,
+    "test_methods": 1000,
+    "suites": 126,
+    "hash_records": 172
+  },
+  "artifact_integrity": {
+    "checked_at_utc": "2026-09-13T23:34:35.836Z",
+    "all_passed": true,
+    "prior_full60_frozen_records_checked": 168,
+    "local_links_checked": 68,
+    "artifacts": [
+      {
+        "path": "research/square-speed-leading-determinant-pass61.md",
+        "bytes": 6261,
+        "sha256": "581fce7e0631729eeedb425b4c4f165684388a4879d7317c4eaaf8b68cdd5daa",
+        "lines": 179,
+        "numbered_equations": 9,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/square_speed_leading_checks_pass61.py",
+        "bytes": 3001,
+        "sha256": "8334341ec8777e19e96aaaa0d1d27989ad2846c53083638bc970cfc5a2624bc7",
+        "lines": 80,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/square-speed-schur-generation-pass61.md",
+        "bytes": 15839,
+        "sha256": "27bcbfcefcf3f7208af2718efdeced65a442e0ce4494102b9b740d7b46f615e7",
+        "lines": 483,
+        "numbered_equations": 23,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/verification-pass61-working.json",
+        "bytes": 1040,
+        "sha256": "517ee606990b0b71c61570ce808baa633cd09799e490bdb5640de778005c4b79",
+        "lines": 22,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/monomial-speed-exclusion-pass62.md",
+        "bytes": 14777,
+        "sha256": "9695747314635e94a5a2e24b4e5e62874d15dc6713cac92bfb15b30abc36befa",
+        "lines": 453,
+        "numbered_equations": 22,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/ramified-normalization-scope-pass62.md",
+        "bytes": 11578,
+        "sha256": "88760236aec26875e265771add6a706aa42d4541d4027f2fb4511f2ed0eb087b",
+        "lines": 285,
+        "numbered_equations": 12,
+        "source_footnotes": 2
+      },
+      {
+        "path": "research/rational-euler-graph-rigidity-pass63.md",
+        "bytes": 13575,
+        "sha256": "da15923984971bfa1d2b2f25eb83c003507f38261dc03c265b24dfa85d0c48eb",
+        "lines": 382,
+        "numbered_equations": 22,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/actual-quadratic-graph-cancellation-pass64.md",
+        "bytes": 12864,
+        "sha256": "cb135a520a179d2ec62f44e1a7ceb9cd0295a48d38cc0ac0ebc8c8bbfcc519ec",
+        "lines": 381,
+        "numbered_equations": 22,
+        "source_footnotes": 2
+      },
+      {
+        "path": "research/verification-pass64-working.json",
+        "bytes": 1232,
+        "sha256": "51298897caa7be405a69c60197f2ae31e6e0c37fc941335fa8806b4fdaa62afd",
+        "lines": 21,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/verification-pass64-inherited.json",
+        "bytes": 2172,
+        "sha256": "09eb7cda2b525b75f243eebb59ba9176c609523ab29bc85088f6339838a39615",
+        "lines": 35,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/proof-audits-pass64-working.md",
+        "bytes": 10334,
+        "sha256": "8fd089c046cbb1161ae4927f87fc3aabac7a83b365e3f09a6b2cfe7c681de4b5",
+        "lines": 203,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/post-graph-closure-scope-pass64.md",
+        "bytes": 14720,
+        "sha256": "4baaed2419ee3a3ea7f53c84cf56daf0b92b93d99ae7ec5c4b8ad4055ad75e73",
+        "lines": 234,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/graph-recognition-literature-scope-pass64.md",
+        "bytes": 9427,
+        "sha256": "9aef26b57d88db128532e08d3e9df824dc34a284b34c5efb18ce3302f5cc79f6",
+        "lines": 208,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      }
+    ]
+  },
+  "checker_ast": {
+    "methods": [
+      "test_all_quartics_have_the_exact_rank_one_leading_factor"
+    ],
+    "imports": [
+      "unittest",
+      "sympy"
+    ],
+    "all_passed": true
+  },
+  "new_distinct_test_methods": 1,
+  "new_distinct_suites": 1,
+  "affected_inherited_methods_rerun": 12,
+  "affected_inherited_suites_rerun": 3,
+  "verification_records": [
+    "research/verification-pass61-working.json",
+    "research/verification-pass64-working.json",
+    "research/verification-pass64-inherited.json"
+  ],
+  "full_project_regression_rerun": false,
+  "completed_deductions": [
+    "Full actual square-speed graph exclusion from Schur determinant and actual coordinate-field generation.",
+    "Exact monomial gcd-at-most-two exclusion, then all-positive-exponent exclusion via rational Euler graph rigidity.",
+    "Local weighted Euler kernel theorem for actual regular parameters; formal roots outside the actual field are not substituted.",
+    "The full actual independent-defect quadratic graph has polynomial original kernel: moving graph direction is impossible, while constant direction extracts an invariant ambient coordinate.",
+    "Composition of the inherited pass42–44 reductions and pass64 recognizes the entire independent-defect flow-degree-two branch under the supplied adjoint profile (1,1,2,2)."
+  ],
+  "independent_ai_review_scope": {
+    "rational_graph63": "Three independent agents reconstructed the entire saved proof; an algebraic-versus-finite wording correction was incorporated.",
+    "actual_graph64": "General and Jet independently read the entire saved proof and its exact source applications. Geometry independently reconstructed inherited pass44 inputs and the coordinate argument.",
+    "dependency_map": "Geometry full saved-source scope audit; root complete final map read.",
+    "literature_map": "General bounded three-primary-paper applicability audit; root complete final note read and selected primary source passages; Jet complete final scope review.",
+    "limitations": "AI reviews and finite symbolic checks are not human expert review or formal proof-assistant verification."
+  },
+  "literature_scope": "Three selected primary papers do not directly supply the raw-frame-to-coordinate step. Their theorems apply once the required invariant coordinate has been established. No exhaustive novelty or priority audit is claimed.",
+  "recognized_full44_graph": true,
+  "recognized_independent_defect_flow_degree_two": true,
+  "recognized_entire_supplied_two_quadratic_profile": false,
+  "universal_frame_existence_proved": false,
+  "next_actions": [
+    "Independent defects: investigate constant nonzero highest vector at flow degree three, then remaining higher constant tops.",
+    "Dependent defects with no constant relation: investigate low-flow and constant-highest sectors without transferring rank-two hypotheses.",
+    "Moving top parameters: use the full actual-partial identities, not only commutation and divergence, to attack the remaining motion obstruction.",
+    "Keep unrestricted frame existence separate from recognition of a supplied frame."
+  ],
+  "general_conjecture_solved": false,
+  "novelty_claimed": false,
+  "human_expert_review": false,
+  "proof_assistant_verified": false,
+  "interpretation_confirmed_by_professor": false
+}

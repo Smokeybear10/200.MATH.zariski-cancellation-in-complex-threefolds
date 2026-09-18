@@ -1,0 +1,29 @@
+{
+  "started_at_utc": "2026-09-14T18:13:04.897Z",
+  "finished_at_utc": "2026-09-14T18:13:05.574Z",
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.quadratic_volume_normal_checks_pass99"
+  ],
+  "exit_code": 0,
+  "suites": 1,
+  "test_methods": 1,
+  "wall_seconds": 0.670470625,
+  "unittest_seconds": 0.073,
+  "input_files": [
+    {
+      "path": "research/quadratic_volume_normal_checks_pass99.py",
+      "sha256": "44f260454d3c4c2e0936a5304cc546794dd12b686b11a336543ff5fb6a36dbc5"
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "stdout": "",
+  "stderr": "test_affine_column_and_full_derivation_boundary (research.quadratic_volume_normal_checks_pass99.QuadraticVolumeNormalChecks.test_affine_column_and_full_derivation_boundary) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.073s\n\nOK\n",
+  "output_hash_convention": "stdout + one newline + stderr",
+  "complete_output_sha256": "2173d15ee4d741adc43f2daa5aea56ddd29a921c0bb5977da8852d6380ed08b8",
+  "all_passed": true,
+  "scope": "One finite symbolic method: cubic weighted-column identities, affine positive and higher-degree negative controls, constant-left-inverse matrix algebra, and an intrinsic polynomial inverse-pair boundary. Not verification of actual global volume, conormal or fiber geometry, universal primary contraction, recognition, or cancellation."
+}

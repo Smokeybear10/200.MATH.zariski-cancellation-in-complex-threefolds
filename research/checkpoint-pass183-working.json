@@ -1,0 +1,177 @@
+{
+  "pass": 183,
+  "status": "working_recognition_for_supplied_full_split_initial_kernel; unrestricted_cancellation_and_entry_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "bundle_passes": [
+    178,
+    179,
+    180,
+    181,
+    182,
+    183
+  ],
+  "artifacts": [
+    {
+      "path": "research/split-affine-graph-coefficient-normal-form-pass178-working.md",
+      "sha256": "50f8b3fca71b0648806e3f3fc78c8c7d6c13921334bedd06caa33ec9b71cbad7",
+      "bytes": 14735,
+      "lines": 407,
+      "equations": 26,
+      "test_methods": 0
+    },
+    {
+      "path": "research/split-rho-constant-potential-coordinate-pass179-working.md",
+      "sha256": "b20a5187f9c3d0a3eb2a70de2cd23e66235b4d51a5b60598f124bbe271b60bcd",
+      "bytes": 8306,
+      "lines": 238,
+      "equations": 13,
+      "test_methods": 0
+    },
+    {
+      "path": "research/split-nonzero-rho-slope-reciprocal-rigidity-pass180-working.md",
+      "sha256": "835970917c5666e7cc6f9d4d1ad604d93992330f4dda444a6704851e46ee8e38",
+      "bytes": 10665,
+      "lines": 283,
+      "equations": 12,
+      "test_methods": 0
+    },
+    {
+      "path": "research/split-low-degree-graph-three-good-recognition-pass181-working.md",
+      "sha256": "d172827a5bda416f8161066cfd76810b90626d1a2ab66b9904b023ed108b5cbd",
+      "bytes": 16224,
+      "lines": 474,
+      "equations": 28,
+      "test_methods": 0
+    },
+    {
+      "path": "research/split-reciprocal-slope-invariant-coordinate-pass182-working.md",
+      "sha256": "72ced760743de8181a9cf138773f97cd891e39616d55f3cc979c6326b428d57a",
+      "bytes": 8991,
+      "lines": 249,
+      "equations": 14,
+      "test_methods": 0
+    },
+    {
+      "path": "research/split-nonlinear-graph-recognition-synthesis-pass182-working.md",
+      "sha256": "1951eed8e07171c89c6fe6f7eaa91796820517e2435bf53f93eb71f66ea1ac53",
+      "bytes": 7029,
+      "lines": 139,
+      "equations": 4,
+      "test_methods": 0
+    },
+    {
+      "path": "research/split-initial-recognition-synthesis-pass183-working.md",
+      "sha256": "32f0d4f3d02f9c3e125e114ca0b4d5853fb78fbaef5e684387ea5f284826434c",
+      "bytes": 6829,
+      "lines": 140,
+      "equations": 4,
+      "test_methods": 0
+    },
+    {
+      "path": "research/split_nonlinear_graph_controls_pass179.py",
+      "sha256": "5e897aec36c4d4fd85ec0345d4a0ed6aecb90d2dbab422ec3d5e468bb88f4251",
+      "bytes": 12022,
+      "lines": 222,
+      "equations": 0,
+      "test_methods": 4
+    },
+    {
+      "path": "research/split_low_degree_graph_controls_pass181.py",
+      "sha256": "08dce925f5b57df0c66667bb863c933c53638607056356366db2e6ee0d1cf175",
+      "bytes": 12532,
+      "lines": 237,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/split_reciprocal_graph_controls_pass182.py",
+      "sha256": "facacca9c7691b12e7ed6ed0a63d6546b7bcab735e71a905cbcb60073b23d70d",
+      "bytes": 9556,
+      "lines": 183,
+      "equations": 0,
+      "test_methods": 2
+    },
+    {
+      "path": "research/verification-pass183-working.json",
+      "sha256": "3e40aac21f34835ac1cbd018868cf2024137e69c53dde39e68c7e8cdadcda3f2",
+      "bytes": 15572,
+      "lines": 239,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass177-working.json",
+    "sha256": "237ede61fa0a9d3348ec9748bb59eac2739cb88ddc860d3738774e28af8ad46d",
+    "records": 1120
+  },
+  "results": {
+    "supplied_configuration": "The complete full-split synthesis183 gives A isomorphic C^[3] for an actual globally sliced polynomial four-ring with exact E-time degrees(1,1,2,2) and full weighted initial kernel(XZ+YW). The initial relation alone does not suffice, and no general entry claim is made.",
+    "exhaustive_graphs": "Retained175–177 give affine generic y and theta=P(y), deg P<=4. The181 low-degree proof constructs an original invariant coordinate without assuming a pure eliminant. For degrees2–4,178 normalizes the coefficients;179 handles m_rho=0, and revised180 plus182 handle m_rho!=0, including degree2.",
+    "actual_endpoint": "Every surviving branch has an explicit original-ring invariant coordinate and two-sided polynomial coordinate inverse. The slice makes its kernel regular, so Bhatwadekar–Gupta–Lokhande Theorem3.5 gives A=C[I]^[2]. The final synthesis does not depend on the separate156 nice-frame endpoint.",
+    "exact_field_boundary": "The proofs keep Ny in the determinant and use the actual inverse's field return. No rational K, unit speed, generic-to-global coordinate shortcut, or numerical proof of the pencil-degree theorem is asserted.",
+    "remaining_scope": "Only the supplied full split configuration is recognized. The full weight-four initial-relation and height-two initial-kernel configurations, higher true-minimum E-time profiles and arbitrary coordinate entry remain unresolved. The separate cusp synthesis174 is not an unstated input. No unrestricted complex-threefold cancellation theorem or novelty clearance is claimed."
+  },
+  "chain_record_count_after_including_this_checkpoint": 1132,
+  "record_count_convention": "1120 frozen predecessor records plus seven proof/synthesis sources, three new checker sources, verification183 and this checkpoint. The grouped passes178–183 add twelve records, not six separate packets. README and ledger are not records; earlier runs are not recounted.",
+  "verification": {
+    "capture": "research/verification-pass183-working.json",
+    "canonical_runs": [
+      {
+        "suite": 179,
+        "terminal_output": "5d5a0a",
+        "methods": 4,
+        "unittest_seconds": 0.244,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "rerun": false
+      },
+      {
+        "suite": 182,
+        "terminal_output": "489a01",
+        "methods": 2,
+        "unittest_seconds": 0.125,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "rerun": false
+      },
+      {
+        "suite": 181,
+        "terminal_output": "d825ce",
+        "methods": 3,
+        "unittest_seconds": 0.218,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "rerun": false
+      }
+    ],
+    "new_suites": 3,
+    "new_methods": 9,
+    "tagged_equations": 101,
+    "scope": "Finite symbolic controls, with separate full saved-source reviews. The proof-only degree2 extension followed unchanged182 code execution and adds no run or methods. No reviewer executed, imported or compiled a checker during packet assembly."
+  },
+  "goal_audit": {
+    "prior_completed_evidence": "Frozen177 ends at1120 records with an affine generic projected parameter; its proof-only step and earlier tests are not recounted.",
+    "current_continuation": "The new178–183 coefficient, field-return and original-coordinate proofs close every graph degree in the supplied full split configuration. Three separate finite-control suites are captured once after their canonical completion. Packet assembly and source review are not additional mathematical results.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Study the full weight-four initial-relation configurations within the supplied actual two-linear/two-quadratic frame. Do not assume entry into that frame, a global unit speed, rational coefficient field or an upper bound of six for the true minimum."
+}

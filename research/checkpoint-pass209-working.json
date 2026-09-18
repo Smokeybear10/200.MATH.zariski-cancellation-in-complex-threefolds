@@ -1,0 +1,111 @@
+{
+  "pass": 209,
+  "status": "proper_radical_projected_planes_force_unit_speed; whole_plane_and_general_cancellation_frontiers_open",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass208-working.json",
+    "sha256": "f15be47fa6cf80dcb3f75d91646edaceda602cddbef21ed60304c2d5e2fe8e9d",
+    "records": 1283
+  },
+  "results": {
+    "cubic_first_quadratic_second": "The actual radical proper-plane degree pair (3,2) admits a constant-parameter normal form and a polynomial inverse in both orders. Only after this original-ring return does the original global slice force EX in C* and a polynomial three-dimensional kernel.",
+    "cubic_second_exclusion": "The exact monic center fiber fixes cofactor support. Cusp/node membership and the calibrated gradient exclude the cusp and cubic-node power; actual normalization and fixed-parameter rho gates make the remaining quadratic-node Jacobian divisible by an affine parameter, contradicting its nonzero scalar calibration.",
+    "proper_plane_closure": "Together with the retained conductor206 and local/quartic-first208 arguments, every proper projected plane under the full actual radical hypotheses has second degree2 and first degree3 or4, with original unit speed and A=C[x,t,rho]. The unified normal form includes the degree3 cusp/node and degree4 nodal possibilities.",
+    "boundaries": "The whole-plane branch, other leading sectors, arbitrary entry, global minimum profiles and unrestricted cancellation remain unresolved. Generic field elements and scalar determinants alone do not supply actual coordinates or units. Separate210 sources and claims are excluded."
+  },
+  "goal_audit": {
+    "current_progress": "Two new branch notes and their synthesis are packaged with independent saved-source reviews and one passing four-method canonical suite. The supplied proper-plane sector is closed, not the full goal.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "restricted_branch_recognition_only": true,
+    "whole_plane_recognition_proved": false,
+    "arbitrary_entry_proved": false,
+    "global_minimum_profile_claim": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/radical-cubic-first-quadratic-second-unit-speed-pass209-working.md",
+      "sha256": "41b61f13e20b272ff6295fd55731f7481b6d2849b228677fbd3a9bf1ee32a310",
+      "bytes": 9802,
+      "lines": 259,
+      "equations": 17,
+      "test_methods": 0
+    },
+    {
+      "path": "research/radical-cubic-second-projection-exclusion-pass209-working.md",
+      "sha256": "59900628aa5a8a8c5101a70dce3f1a99a9608f3c9598ce7a9e54fa20eb5a0ca5",
+      "bytes": 14915,
+      "lines": 376,
+      "equations": 20,
+      "test_methods": 0
+    },
+    {
+      "path": "research/radical-proper-plane-unit-speed-synthesis-pass209-working.md",
+      "sha256": "8572fa33470d6ef13dba6a57019c03901e4fc70bf70996d88c0fc116d8c929ea",
+      "bytes": 6678,
+      "lines": 172,
+      "equations": 9,
+      "test_methods": 0
+    },
+    {
+      "path": "research/radical_proper_plane_controls_pass209.py",
+      "sha256": "13affdc75698e725e86c6682be190755321b0cc3e9830dd9c7a6dd3c71a1c14c",
+      "bytes": 11269,
+      "lines": 247,
+      "equations": 0,
+      "test_methods": 4
+    },
+    {
+      "path": "research/verification-pass209-working.json",
+      "sha256": "5ae43e64b3e7339998f0aaf4fd4cf13283e095d6dc07511c6112bd214b73da0d",
+      "bytes": 9177,
+      "lines": 117,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "chain_record_count_after_including_this_checkpoint": 1289,
+  "record_count_convention": "1283 frozen predecessor records plus three proof notes, one checker source, verification209 and this checkpoint: six new records. Mutable indices are not records. No210 source, unsaved inline calculation, retained foundation source or earlier canonical run is counted.",
+  "verification": {
+    "capture": "research/verification-pass209-working.json",
+    "canonical_runs": [
+      {
+        "suite": "radical_proper_plane_controls209",
+        "path": "research/radical_proper_plane_controls_pass209.py",
+        "pre_execution_read": "Author complete EOF/hash/count81067e; Root complete d68502.",
+        "initial_output": "0daf83",
+        "session_id": null,
+        "terminal_output": "0daf83",
+        "methods": 4,
+        "unittest_seconds": 0.191,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "completion_via_original_handle": false,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/radical_proper_plane_controls_pass209.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "login": false,
+        "initial_yield_time_ms": 1000,
+        "initial_max_output_tokens": 6000
+      }
+    ],
+    "new_suites": 1,
+    "new_methods": 4,
+    "tagged_equations": 46,
+    "scope": "Finite multiplication-matrix, membership, coefficient, fixed-parameter Jacobian and actual inverse-map controls. They do not prove universal field return, conductor geometry, factor simplicity, irreducibility, finite-field constants, exhaustive branch classification or global-slice recognition. Complete author and Root checker reads preceded the sole saved run; no additional full peer checker review is claimed."
+  },
+  "next_bounded_task": "Investigate the remaining whole projected plane in the actual radical chart, preserving the exact field and original-ring return requirements. Do not infer an invariant coordinate from whole-plane genericity or rerun209."
+}

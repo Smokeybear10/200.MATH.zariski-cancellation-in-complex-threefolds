@@ -1,0 +1,231 @@
+{
+  "status": "working92-total-fiber-multiplicity-and-quadratic-generic-rank-exclusion; unrestricted goal active",
+  "working_question": "Unconfirmed corrected complex-threefold cancellation: A[s] isomorphic to C^[4] implies A isomorphic to C^[3].",
+  "previous_working_checkpoint": "research/checkpoint-pass91-working.json",
+  "previous_working_checkpoint_sha256": "d83e50381f81d57b0e472eabf4e0f69f1fe8f031dd50020f267a7ee754621e2d",
+  "previous_goal_turn_classification": "no progress: immediately preceding user check-in was status-only; substantive pass91 was progress",
+  "current_research_pass_classification": "progress: completed fixed-scheme structure, local and total multiplicity bounds, generic-rank-zero exclusion in degree two, cubic residual profiles and actual-plane collapse",
+  "synthesis": "research/nonconical-fixed-fiber-frontier-pass92.md",
+  "proof_audit": "research/proof-audits-pass92-working.md",
+  "verification_record": "research/verification-pass92-working.json",
+  "actual_frame_hypotheses": [
+    "Actual LND E on B=C[x1,x2,x3,z] with E^2 xi=0 for i<=3 and E^2 z=q in C*; u=Ez/q, A=ker E, B=A[u].",
+    "Use the actual highest-adjoint plane S=C[s1,s2], good speeds b in S^3, original completion R=S[A1,A2], A=R[c], Omega=det[b,b_s1,b_s2] nonzero.",
+    "Relative irreducible equation degree d<=3, A_K=K[v]=K[A1,A2], deg_v Ai<=d and deg_v c<=2d.",
+    "Canonical global primitive Jacobian LND N with kernel S, faithfully flat quotient with nonempty pure curve fibers; derived previously from the actual frame.",
+    "No general theorem placing an arbitrary sliced action into this frame is supplied."
+  ],
+  "completed_deductions": [
+    "If nonempty, the exact fixed scheme is pure one-dimensional Cohen--Macaulay, with no isolated or embedded point components. At quotient rank one its local ideal is a complete intersection.",
+    "Every reduced fixed component is an entire closed-fiber component and has generic whole-fiber multiplicity at least two. This does not bound its fixed-scheme thickness.",
+    "For a surviving generator U on a closed-fiber component, mu [kappa(q):C(Ubar)] <= deg_v U, via nonfinite local miracle flatness and J-adic associated-graded independence.",
+    "A common generic complex linear combination U of Ai and c, followed by semilocalization at every component, gives sum_i mu_i [kappa(q_i):C(Ubar_i)] <= deg_v U <=2d.",
+    "At a generically rank-zero component of the quotient differential, mu>=4; both Ai residues are constants and A/q=C[cbar]. Ambient cotangent rank is essential.",
+    "In degree two, a generic-rank-zero component consumes all four units of total multiplicity and forces whole-fiber irreducibility. Retained topology then forces multiplicity two, a contradiction. Such components do not exist; isolated rank drops and rank-one fixed curves are not excluded.",
+    "In degree three, at most one generically rank-zero component occurs. Its necessary profiles are mu6 alone with retained branch degrees2,3; mu5 with one multiplicity-one component; or mu4 with remaining total multiplicity1 or2. These profiles are not realizations.",
+    "If both Ai collapse, the tensor pencil makes hbar constant. Its cylinder is an actual affine plane qB=(X,Y), for affine-linear original good coordinates. E and original partial_z preserve it; their commutator vanishes on its quotient.",
+    "At generic quotient rank zero, mB lies in (X,Y)^2 and the original velocity Jacobian has rank exactly one at every point of this plane, with square zero there."
+  ],
+  "proof_reviews": {
+    "fixed_scheme": "Geometry author; Root, General, Jet full EOF reconstructions,8eq.",
+    "local_multiplicity": "Root author; General, Geometry, Jet full EOF reconstructions,8eq.",
+    "total_multiplicity": "Root author; General, Geometry, Jet full EOF reconstructions,4eq.",
+    "ramification": "Geometry author; Root, General, Jet full EOF reconstructions,7eq including forward pointer. General-cylinder source gate deduplicated to46.",
+    "collapsed_plane": "General author; Root, Geometry, Jet full EOF reconstructions,8eq.",
+    "synthesis": "Root author; General, Geometry, Jet full EOF mathematical/scope reconstructions,5eq.",
+    "audit": "Root author; Jet full EOF/capture review, followed by a review-row-only update adding its synthesis verdict.",
+    "limit": "AI proof reconstruction only; no human expert review, Lean or other formal proof, or novelty certification."
+  },
+  "targeted_verification": {
+    "all_passed": true,
+    "suites": 1,
+    "test_methods": 2,
+    "started_at_utc": "2026-09-14T14:30:45.080Z",
+    "finished_at_utc": "2026-09-14T14:30:45.535Z",
+    "wall_seconds": 0.447691458,
+    "unittest_seconds": 0.059,
+    "input_files": 1,
+    "input_hashes_unchanged": true,
+    "complete_output_sha256": "ae856f6eeb5b4416368a5229edb06c35f56c756269b5155330a3f572c6e6e399",
+    "output_hash_convention": "stdout + one newline + stderr",
+    "canonical_tool_chunk": "ea82cc",
+    "scope": "Exact finite Artinian CI lengths4/5/6 and triangular-family fiber/thickness controls. Does not verify universal topology, multiplicity or cancellation statements."
+  },
+  "selected_primary_sources": [
+    {
+      "url": "https://stacks.math.columbia.edu/tag/00R4",
+      "scope": "Complete displayed miracle-flatness statement/proof; local dimensions, contraction and finiteness limits proved in the application."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/00NN",
+      "scope": "Selected complete regular-local associated-graded and Cohen--Macaulay arguments, including 00NQ."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/00HT",
+      "scope": "Complete displayed target-local flatness proof, especially item7, used at all semilocal maximal ideals."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/00LX",
+      "scope": "Complete displayed depth-lemma proof; depth-dimension inequality00LK separately freshly read."
+    },
+    {
+      "url": "https://www.math.miami.edu/~kaliman/library/Ka.invent.2004.c%2B.pdf",
+      "title": "Free C+-actions on C3 are translations",
+      "authors": "Shulim Kaliman",
+      "scope": "Root, Geometry and Jet complete selected Lemmas2.1–2.2,3.1, Notation2.3, Proposition3.2 all steps, Lemma4.1, Propositions4.2,5.1, Theorem5.2 displayed statement/deduction. Underlying analytic/topological inputs not all freshly reproved."
+    }
+  ],
+  "predecessor_audit": {
+    "checked_at_utc": "2026-09-14T14:37:38.820Z",
+    "all_passed": true,
+    "prior_hash_records": 520,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "d83e50381f81d57b0e472eabf4e0f69f1fe8f031dd50020f267a7ee754621e2d",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "tool_chunk": "54cc89",
+    "unchanged": true
+  },
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-14T14:39:22.995Z",
+    "all_passed": true,
+    "artifact_count": 10,
+    "numbered_equations": 40,
+    "local_links_checked": 745,
+    "missing_links": [],
+    "deferred_links": [
+      {
+        "from": "research/nonconical-fixed-fiber-frontier-pass92.md",
+        "target": "checkpoint-pass92-working.json"
+      },
+      {
+        "from": "README.md",
+        "target": "research/checkpoint-pass92-working.json"
+      },
+      {
+        "from": "research-ledger.md",
+        "target": "research/checkpoint-pass92-working.json"
+      }
+    ],
+    "targeted_inputs_checked": 1,
+    "targeted_complete_outputs_checked": 1,
+    "artifacts": [
+      {
+        "path": "research/fixed-scheme-artin-controls-pass92.md",
+        "sha256": "b1a374e2ffa029c503f90ef6a88e8af1f8db074bf50e1594a2175ef69e13950c",
+        "bytes": 2829,
+        "content_lines": 51,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/fixed_scheme_artin_checks_pass92.py",
+        "sha256": "1749fb6bd2015e05e7779e74bf8ea6f48ac95b6edae8828d6261c70a79a2e1bd",
+        "bytes": 5049,
+        "content_lines": 102,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/nonconical-closed-fiber-multiplicity-pass92.md",
+        "sha256": "48891c40153a2b9423d9efeb0e376a20875ba1c7f55c0d0f002714e46f92dc21",
+        "bytes": 10996,
+        "content_lines": 260,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/nonconical-collapsed-component-plane-pass92.md",
+        "sha256": "fd9980439f31c56b17b33f9f5c3058e1c3838ed36f3233152013464c64198c03",
+        "bytes": 7427,
+        "content_lines": 192,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/nonconical-fixed-fiber-frontier-pass92.md",
+        "sha256": "f91eb23d2eeabba7db7ac361019fce272d31afa011c097120bbb10e3cee31a2b",
+        "bytes": 11198,
+        "content_lines": 237,
+        "numbered_equations": 5
+      },
+      {
+        "path": "research/nonconical-fixed-scheme-structure-pass92.md",
+        "sha256": "02a24206f72effc1a441f1a49c9df3d6e7ae5f7fcc07112197d466c23093ea20",
+        "bytes": 12942,
+        "content_lines": 279,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/nonconical-irreducible-fiber-ramification-pass92.md",
+        "sha256": "a71aa6dcfdc4c35ae90203f45c83c46bf568a3db7946eb826919b80efc0a59cb",
+        "bytes": 13504,
+        "content_lines": 281,
+        "numbered_equations": 7
+      },
+      {
+        "path": "research/nonconical-total-fiber-multiplicity-pass92.md",
+        "sha256": "c31db649dce0b164ae518a357dc51cd339cea0a86aefdd89db025623871e6ebc",
+        "bytes": 6244,
+        "content_lines": 138,
+        "numbered_equations": 4
+      },
+      {
+        "path": "research/proof-audits-pass92-working.md",
+        "sha256": "717a981c3f870d263ab931842a28dfeb6a2a9e724d35419b8d51c84eaf75d20b",
+        "bytes": 8015,
+        "content_lines": 135,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/verification-pass92-working.json",
+        "sha256": "d8be4a714cbd2a8b1a6aa20732e86849a9e2f2a6dd5cd60533df7df5037b6a68",
+        "bytes": 1108,
+        "content_lines": 18,
+        "numbered_equations": 0
+      }
+    ],
+    "tool_chunk": "6bc9d1",
+    "scope": "Presave hashes and links; three checkpoint links intentionally pending creation. Hash/tag counts are not mathematical verification."
+  },
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "fresh_full92_regression_performed": false,
+  "exhaustive_action_search_performed": false,
+  "central_registry_integrated": false,
+  "historical_claim_count": 544,
+  "record_accounting": {
+    "prior_frozen_records": 520,
+    "new_artifacts": 10,
+    "new_checkpoint_self": 1,
+    "records_after_checkpoint_freeze": 531,
+    "note": "Checkpoint self hash is held externally and must be checked after save."
+  },
+  "rejected_shortcuts": [
+    "Formal first-jet matrices and the orbit determinant do not supply actual inverse frames.",
+    "Conditional aligned-graph degree cancellation has an unproved base-alignment hypothesis.",
+    "The old quintic-generation obstruction54 requires its separate full-filtration and zero-first-jet hypotheses.",
+    "Fixed-scheme thickness is not generic whole-fiber multiplicity.",
+    "An invariant codimension-two plane ideal does not yield a common invariant polynomial.",
+    "Generic quotient rank is not the original velocity Jacobian rank or a rank condition at every closed point."
+  ],
+  "next_bounded_actions": [
+    "Exploit actual-plane embedding and normal-order constraints against the remaining cubic total-multiplicity profiles, without presuming their realizability.",
+    "Analyze rank-one quadratic fixed components and possible isolated rank drops using the local Hamiltonian form and exact original-coordinate equations.",
+    "Test any prospective action construction by both polynomial inverse identities and the actual highest-adjoint plane/completion.",
+    "Keep arbitrary sliced-action reduction as an independent obligation. Restricted results do not prove the full unconfirmed corrected cancellation target."
+  ],
+  "general_conjecture_solved": false,
+  "arbitrary_constant_acceleration_recognized": false,
+  "arbitrary_sliced_action_reduced_to_frame": false,
+  "professor_interpretation_confirmed": false,
+  "historical_novelty_verified": false,
+  "human_expert_review_completed": false,
+  "formal_verification_completed": false,
+  "external_contact_made": false,
+  "submission_or_publication_made": false,
+  "goal_status": "active"
+}

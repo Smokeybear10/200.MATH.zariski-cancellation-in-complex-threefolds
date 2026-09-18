@@ -1,0 +1,57 @@
+{
+  "pass": 119,
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.cubic_polynomial_curve_checks_pass119",
+    "research.cubic_ruled_checks_pass119",
+    "research.cubic_pullback_transfer_checks_pass118",
+    "research.cubic_moving_frame_checks_pass118",
+    "research.quadratic_velocity_shear_checks_pass117",
+    "research.nonconical_quadratic_potential_checks_pass90"
+  ],
+  "checked_at_utc": "2026-09-15T02:32:14.100Z",
+  "suites": 6,
+  "test_methods": 12,
+  "new_methods": 5,
+  "retained_methods": 7,
+  "exit_code": 0,
+  "all_passed": true,
+  "elapsed_seconds": 3.077848042,
+  "unittest_seconds": 2.647,
+  "stdout": "",
+  "stderr": "test_fractional_exponent_and_nonlinear_remainder_controls (research.cubic_polynomial_curve_checks_pass119.CubicPolynomialCurveChecks.test_fractional_exponent_and_nonlinear_remainder_controls) ... ok\ntest_indicial_and_infinitesimal_identities (research.cubic_polynomial_curve_checks_pass119.CubicPolynomialCurveChecks.test_indicial_and_infinitesimal_identities) ... ok\ntest_ramified_frame_and_root_divisor_controls (research.cubic_polynomial_curve_checks_pass119.CubicPolynomialCurveChecks.test_ramified_frame_and_root_divisor_controls) ... ok\ntest_conditional_ruled_tensor_and_volume_coefficients (research.cubic_ruled_checks_pass119.CubicRuledChecks.test_conditional_ruled_tensor_and_volume_coefficients) ... ok\ntest_unit_speed_metric_control_without_actual_frame (research.cubic_ruled_checks_pass119.CubicRuledChecks.test_unit_speed_metric_control_without_actual_frame) ... ok\ntest_birational_and_degree_two_rational_base_transfer (research.cubic_pullback_transfer_checks_pass118.CubicPullbackTransferChecks.test_birational_and_degree_two_rational_base_transfer) ... ok\ntest_affine_block_and_moving_basis_coefficients (research.cubic_moving_frame_checks_pass118.CubicMovingFrameChecks.test_affine_block_and_moving_basis_coefficients) ... ok\ntest_finite_cylinder_residual_coefficients (research.cubic_moving_frame_checks_pass118.CubicMovingFrameChecks.test_finite_cylinder_residual_coefficients) ... ok\ntest_principal_open_inverse_geometry_and_global_pole (research.cubic_moving_frame_checks_pass118.CubicMovingFrameChecks.test_principal_open_inverse_geometry_and_global_pole) ... ok\ntest_formal_moving_metric_connection_identity (research.quadratic_velocity_shear_checks_pass117.QuadraticVelocityShearChecks.test_formal_moving_metric_connection_identity) ... ok\ntest_nonplanar_velocity_constant_form_and_shear (research.quadratic_velocity_shear_checks_pass117.QuadraticVelocityShearChecks.test_nonplanar_velocity_constant_form_and_shear) ... ok\ntest_generic_volume_coefficient_and_symmetric_potential (research.nonconical_quadratic_potential_checks_pass90.NonconicalQuadraticPotentialChecks.test_generic_volume_coefficient_and_symmetric_potential) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 2.647s\n\nOK\n",
+  "complete_output_sha256": "1c0598d40d96ac6dd9819879216946a2bb223315a0e5903a1a45c4373c732dc8",
+  "output_hash_convention": "SHA256 of UTF-8 stdout + one newline + stderr, matching the retained capture convention.",
+  "input_files": [
+    {
+      "path": "research/cubic_polynomial_curve_checks_pass119.py",
+      "sha256": "a49fa8f968dc4b2c73dd9209c23d0f6dedcd3bb4563337af7ca345bf4f16eb19"
+    },
+    {
+      "path": "research/cubic_ruled_checks_pass119.py",
+      "sha256": "f3d4c778bb1f3a8ffb728fe5ac487be9ca398f49112f0250931fc7d8b5b35b93"
+    },
+    {
+      "path": "research/cubic_pullback_transfer_checks_pass118.py",
+      "sha256": "782cab2abe1be015084fb6a427c37c2cd2eb4d72b5f2c10260a390f0964b8aa9"
+    },
+    {
+      "path": "research/cubic_moving_frame_checks_pass118.py",
+      "sha256": "37309d71d65224db7f5530758ca7dad58775f649d3e0ba785716de9b7ab0e881"
+    },
+    {
+      "path": "research/quadratic_velocity_shear_checks_pass117.py",
+      "sha256": "f3048f3d72fad78990184ff27eb013a46ab3773097c418f6fdc1da689e95930c"
+    },
+    {
+      "path": "research/nonconical_quadratic_potential_checks_pass90.py",
+      "sha256": "d429f7e80321c813d0745bd61834a26a642750ffeff3b31a2965c78bc94bc966"
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "scope": "Five new exact finite controls: ruled connection/tensor/volume identities and polynomial metric countercontrol; polynomial-curve indicial/first-variation identities, selected ramified transfers and root-divisor reconstructions, and selected nonlinear fractional-exponent residuals. Seven retained controls from118,117,90. No numerical test proves formal inversion, all-degree asymptotics, generic constant fields, invariant-kernel intersections, coordinate irreducibility, arbitrary-frame entry, general cancellation, human expert review or novelty.",
+  "tool_evidence": "874756"
+}

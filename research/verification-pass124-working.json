@@ -1,0 +1,48 @@
+{
+  "pass_number": 124,
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.nagata_degree_bypass_checks_pass124",
+    "research.quasi_nice_full_acceleration_checks_pass124",
+    "research.cubic_nonnull_potential_checks_pass123"
+  ],
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+  "suites": 3,
+  "test_methods": 8,
+  "new_methods": 4,
+  "retained_methods": 4,
+  "elapsed_seconds": 5.385752958012745,
+  "exit_code": 0,
+  "inputs": [
+    {
+      "module": "research.nagata_degree_bypass_checks_pass124",
+      "path": "research/nagata_degree_bypass_checks_pass124.py",
+      "sha256_before": "8d1ad87d6c5de59c5e96f6e0638eb10e60f317d483c42bfab51ddf8b255720e6",
+      "test_methods": 3,
+      "sha256_after": "8d1ad87d6c5de59c5e96f6e0638eb10e60f317d483c42bfab51ddf8b255720e6",
+      "unchanged": true
+    },
+    {
+      "module": "research.quasi_nice_full_acceleration_checks_pass124",
+      "path": "research/quasi_nice_full_acceleration_checks_pass124.py",
+      "sha256_before": "e0af287bb6936e1dfc0df0299ba7f6c1d94ea0b5e132c9cdbabed357f53c9736",
+      "test_methods": 1,
+      "sha256_after": "e0af287bb6936e1dfc0df0299ba7f6c1d94ea0b5e132c9cdbabed357f53c9736",
+      "unchanged": true
+    },
+    {
+      "module": "research.cubic_nonnull_potential_checks_pass123",
+      "path": "research/cubic_nonnull_potential_checks_pass123.py",
+      "sha256_before": "0155180f6c65847e066af72e3a5bbcb7228220d85153c2b2fa0eefae355c24ac",
+      "test_methods": 4,
+      "sha256_after": "0155180f6c65847e066af72e3a5bbcb7228220d85153c2b2fa0eefae355c24ac",
+      "unchanged": true
+    }
+  ],
+  "complete_output": "test_nagata_inverse_and_failed_nonunit_replacement (research.nagata_degree_bypass_checks_pass124.NagataDegreeBypassChecks.test_nagata_inverse_and_failed_nonunit_replacement) ... ok\ntest_replica_factorizations_and_exact_degree_traces (research.nagata_degree_bypass_checks_pass124.NagataDegreeBypassChecks.test_replica_factorizations_and_exact_degree_traces) ... ok\ntest_six_elementary_moves_and_their_inverses (research.nagata_degree_bypass_checks_pass124.NagataDegreeBypassChecks.test_six_elementary_moves_and_their_inverses) ... ok\ntest_actual_inverse_flow_and_full_acceleration_span (research.quasi_nice_full_acceleration_checks_pass124.QuasiNiceFullAccelerationChecks.test_actual_inverse_flow_and_full_acceleration_span) ... ok\ntest_cubic_matrix_and_polynomial_dual_row (research.cubic_nonnull_potential_checks_pass123.NonnullPotentialChecks.test_cubic_matrix_and_polynomial_dual_row) ... ok\ntest_cubic_surface_jacobian_with_full_residual (research.cubic_nonnull_potential_checks_pass123.NonnullPotentialChecks.test_cubic_surface_jacobian_with_full_residual) ... ok\ntest_lower_volume_scalar_conversion (research.cubic_nonnull_potential_checks_pass123.NonnullPotentialChecks.test_lower_volume_scalar_conversion) ... ok\ntest_scalar_normalization_and_original_quadratic_identity (research.cubic_nonnull_potential_checks_pass123.NonnullPotentialChecks.test_scalar_normalization_and_original_quadratic_identity) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 5.094s\n\nOK\n",
+  "complete_output_sha256": "0f55dd6c6e588d40b85af79b7d257c5163cbb4646624de8c460213b60a48f126",
+  "scope": "Explicit inverses, elementary Nagata bypasses, full-span acceleration control, and four retained scalar identities. No universal coordinate descent, arbitrary cancellation, human expert review, formal proof verification, novelty clearance, or full historical rerun."
+}

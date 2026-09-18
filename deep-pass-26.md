@@ -1,0 +1,320 @@
+# Cancellation: simultaneous coordinates and exact realization obstructions
+
+The unrestricted complex threefold cancellation conjecture is still
+unsolved in this project. This pass proves a conditional coordinate
+completion theorem and sharpens two concrete routes. It does not replace
+the missing hypothesis by a determinant computation, a finite search,
+or an assumption that the unknown threefold is already polynomial.
+
+The working target remains
+\[
+X\times_{\mathbb C}\mathbb A^1\simeq\mathbb A^4
+\quad\Longrightarrow\quad X\simeq\mathbb A^3.
+\tag{1}
+\]
+The professor has not confirmed this correction of the original
+dimension typo or the choice of field. The statements below are private
+working results, not a novelty claim, submission, or expert-reviewed paper.
+
+## 1. A conditional coordinate argument that actually closes
+
+Let \(S\) be a domain containing \(\mathbb Q\), and suppose
+\(B=S[u,v]\) is an actual polynomial plane over \(S\).
+For polynomial relative derivations, assume
+\[
+W_1=a\partial_u+b\partial_v,\qquad
+W_2=c\partial_u+d\partial_v,\qquad
+ad-bc\in S^*,\qquad [W_1,W_2]=0.
+\tag{2}
+\]
+If either field is locally nilpotent, then there are actual polynomial
+coordinates \(P,Q\) over \(S\) for which
+\[
+B=S[P,Q],\qquad W_1=\partial_P,\qquad W_2=\partial_Q.
+\tag{3}
+\]
+
+Here “locally nilpotent” means that repeated application eventually
+kills each polynomial, with the required number of repetitions allowed
+to depend on that polynomial. Merely sending one polynomial to one
+does not establish this property.
+
+The complete proof is in the
+[simultaneous-frame note](research/simultaneous-frame-pass26.md).
+The inverse coefficient matrix gives dual one-forms. Commutation makes
+them closed. Coefficientwise integration gives polynomial primitives
+satisfying
+\[
+W_1P=W_2Q=1,\qquad W_1Q=W_2P=0.
+\tag{4}
+\]
+This alone gives a unit-Jacobian pair, not coordinates.
+
+To finish, pass to \(\operatorname{Frac}(S)\). If \(W_1\) is locally
+nilpotent, the two-variable triangularization and slice results give
+coordinates \(t,P\). Commutation makes \(W_2(t)=g(t)\), and
+\(Q=q(t)\) satisfies \(gq'=1\). Both factors must be constants.
+Thus \(W_2\) is also locally nilpotent. Nilpotence descends through the
+injective localization. Two successive slice decompositions over the
+original ring \(S\) now give (3). This uses classical results, with the
+descent step made explicit.[^1]
+
+For \(B=A[s]\), a tangent field \(W_1(s)=0\) with this completion
+would yield a sliced LND on \(A=B/(s)\). What remains unproved is that
+an appropriate intrinsic field always lies in an actual relative
+polynomial plane and admits the commuting unit-determinant complement.
+Primitivity does not imply that its coefficients generate the unit ideal.
+
+### The tempting omitted premise is another open problem
+
+Deleting the local-nilpotence premise from (2) would settle the
+two-variable Jacobian conjecture. Every unit-Jacobian polynomial pair
+has commuting inverse-Jacobian derivations of the form (2). Conversely,
+the dual integration argument constructs such a pair from every frame
+(2). The unconditional coordinate conclusion is therefore exactly that
+additional conjecture over \(\mathbb C\), not an elementary extension
+of this proof. The LND/Jacobian connection is already classical.[^1]
+
+Commutation also matters. The determinant-one pair
+\[
+V_1=\partial_u+u\partial_v,\qquad
+V_2=v\partial_u+(1+uv)\partial_v
+\tag{5}
+\]
+has \(V_1\) locally nilpotent but \([V_1,V_2]=uV_1\ne0\).
+In coordinates \(p=u,\ q=v-u^2/2\),
+\(V_2=\partial_q+(q+p^2/2)\partial_p\).
+The leading \(p\)-term of \(V_2^jp\) is
+\(j!p^{j+1}/2^j\), so it is never zero.
+
+### Genuine simultaneous moves, without a termination claim
+
+The note supplies the full inverse and all corrected ambient partials
+for \(P=u+F(v),\ Q=v+G(P)\), allowing coefficients in the other ambient
+coordinates. Leaving those other partials unchanged can destroy
+commutation.
+
+For the actual coordinate word
+\(u=a+s^m,\ v=s+u^n\), \(m,n\ge2\), its defined intrinsic frame height
+decreases under the two inverse shears as
+\[
+m(n+1)+2\quad\longrightarrow\quad m+3
+\quad\longrightarrow\quad3.
+\tag{6}
+\]
+This proves a safe positive control for a full-frame move.
+It does not prove that every input admits a height-reducing move.
+
+## 2. Finite adjoints do not give a finite or integrable Lie closure
+
+The [moving-plane note](research/moving-plane-lie-pass26.md) proves
+a general elementary fact: for an LND \(\delta\) on a finitely
+generated characteristic-zero algebra, \(\operatorname{ad}\delta\)
+is locally nilpotent on its module of derivations. The binomial
+commutator formula and finitely many algebra generators prove it.
+
+If \(B=K[\lambda]\), \(\delta=\partial_\lambda\), and a nonzero LND
+\(\Delta\) kills \(\lambda\), its highest coefficient in \(\lambda\)
+is again an LND on \(K\). Leading terms of \(\Delta^nf\) give the
+all-degree proof. These facts do not say that lower adjoints are LNDs
+or that the Lie algebra generated by \(\delta,\Delta\) is finite.
+
+An actual polynomial control exposes both failures. On
+\(B=\mathbb C[\lambda,x,w,z]\), take
+\[
+\begin{aligned}
+\delta&=\partial_\lambda+z\partial_x,\\
+\Delta(\lambda)&=\Delta(x)=0,\qquad
+\Delta(w)=x^2,\qquad
+\Delta(z)=2(1+\lambda x)^2w.
+\end{aligned}
+\tag{7}
+\]
+Both are LNDs and \(\delta(\lambda)=1\).
+Using actual coordinates \(a=x-\lambda z,\ b=w,\ c=z\),
+the common invariant ring and common invariant field are just
+\(\mathbb C\). The proof first computes the kernel of the constant
+coefficient \(D_0=a^2\partial_b+2b\partial_c\), then uses the next
+coefficient to force every remaining polynomial or rational invariant
+to be constant. It is not a bounded kernel search.
+
+Write \(Q_j=(\operatorname{ad}\delta)^j\Delta/j!\). Then
+\[
+\begin{aligned}
+Q_5&=-2bc^2\partial_a,\\
+Q_4&=(-4abc-10\lambda bc^2)\partial_a+2bc^2\partial_c,\\
+(\operatorname{ad}\delta)^6\Delta&=0.
+\end{aligned}
+\tag{8}
+\]
+Nevertheless \(Q_4^jc=(2b)^j j!c^{j+1}\ne0\), and
+\[
+(\operatorname{ad}Q_4)^jQ_5
+=-2\,2^j\frac{(j+3)!}{3!}\,b^{j+1}c^{j+2}\partial_a.
+\tag{9}
+\]
+Distinct degrees make these linearly independent over \(\mathbb C\).
+Thus the Lie closure is infinite-dimensional.
+
+There is also a successful escape in the same control. The primitive
+part of \(Q_5\) is \(\partial_a\), which has slice \(a\) and commutes
+with \(\delta\). Their new common invariant plane is
+\(\mathbb C[b,c]\). It is not a common invariant plane of the original
+pair \(\delta,\Delta\). Hence “the original pair has no invariants”
+does not obstruct a successful change of action. Conversely, this
+example does not prove that highest-coefficient primitive extraction
+always produces a slice.
+
+## 3. The rank boundary is published, and the intrinsic distinction is weaker
+
+For a primitive LND \(D\) of \(R=\mathbb C^{[3]}\) with nonunit
+principal full plinth \(pC\), \(C=\ker D=\mathbb C^{[2]}\), Stampfli
+explicitly proves that the plinth divisor is a fence exactly when
+\(\operatorname{rank}(D)\le2\). An adapted plane coordinate in the
+fence case is also an ambient coordinate of \(R\). These are published
+results, not discoveries of this pass.[^2] A later primary treatment
+also states the relevant rank-three and commuting-action criteria.[^3]
+
+Consequently the previous
+[non-fence normalizer theorem](research/nonfence-plane-rigidity-pass25.md)
+covers every primitive rank-three polynomial base: in the homotopy
+\[
+\mathcal B=R[\lambda,w]/((1+\lambda d)w-r),\qquad
+Dr=p,\qquad d\in\sqrt{pC},
+\tag{10}
+\]
+a horizontal LND preserving the included \(C[\lambda]\) setwise
+exists exactly when \(p\mid d\). A radical-only input outside this
+positive regime must have nonreduced plinth.
+
+The fence case gives polynomiality of each individual
+three-dimensional modification \(R[r/(1+cd)]\), for fixed
+\(c\in\mathbb C\), by the known Dedekind-base slice theorem.[^4]
+It does not justify a parameter-preserving trivialization of
+\(\mathcal B\): the uniform coefficient ring
+\(\mathbb C[u,\lambda]\) has dimension two and is not Dedekind.
+
+The [intrinsic note](research/fence-centralizer-sector-pass26.md)
+also separates commuting directions from coordinates without assuming
+the ambient threefold is polynomial. Suppose \(A\) is an affine
+\(\mathbb C\)-domain and UFD, \(D\) is primitive,
+\(\ker D=\mathbb C[u,h]\), and its full nonunit plinth is principal,
+\(p\mathbb C[u,h]\). Then:
+
+- If the divisor is not a fence, every commuting LND is an invariant
+  multiple of \(D\).
+- If it is a fence, there is an independent commuting LND \(N\) with
+  joint kernel \(\mathbb C[u]\), after choosing adapted plane coordinates
+  with \(p\in\mathbb C[u]\). Every commuting LND kills this adapted \(u\).
+
+For the second assertion, on the local-slice chart
+\(A_p=C_p[r]\), clear denominators from \(N_0=\partial_h\)
+by one power \(p^m\). This gives an actual LND \(N=p^mN_0\) of \(A\).
+The proof does not make \(N\) primitive, free, or sliced.
+The intrinsic proposition explicitly assumes principal full plinth.
+The polynomial-ambient coordinate theorem cannot be imported to
+recognize an unknown \(A\).
+
+## 4. The actual surface: all invariant replacements and linear projections fail
+
+Keep the precise conductor pinch and verified four-generator
+presentation \(R_{\rm pin}=\mathbb C[d,e,g,h]\) from
+[pass 23](research/nodal-elimination-pass23.md).
+Its normalization is
+\(\mathbb C[u,y,z]/((u-1)(u-i)z-y(y-1))\), with \(d=u^4-1\),
+\(e=du\), and full invariant ring
+\(T=\mathbb C+(u^4-1)\mathbb C[u]\).
+
+The [new surface proof](research/actual-surface-realization-pass26.md)
+establishes the all-degree exclusion
+\[
+R_{\rm pin}\ne\mathbb C[j,g,h]\qquad\text{for every }j\in T.
+\tag{11}
+\]
+If \(j(\zeta)=j(0)\) for some nonzero \(\zeta\), the actual normalization
+point \((\zeta,0,0)\) collides under \((j,g,h)\) with an explicitly
+constructed smooth point on \(u=0\). Their images in the pinched
+surface are distinct.
+
+If no such nonzero root exists, algebraic closedness forces
+\(j=cu^N+c_0\). Descent across the four conductor roots forces
+\(4\mid N\), so its conductor differential is a nonzero multiple
+of \(dd\). At the explicit first-pair point
+\(t=-(1+i)/4\), the functions \(d,g,h\) fail to span the full
+three-dimensional pinched cotangent space. The same is true of
+\(j,g,h\). Constant \(j\) is covered by the collision argument.
+
+Separately, every rank-three affine-linear projection of the given
+four-generator embedding fails. The proof treats every possible
+kernel direction: it either meets a conductor tangent space,
+collides a smooth point with a conductor point, identifies distinct
+conductor components, or collapses a conductor line.
+
+This is an obstruction to those specified presentations, not a proof
+that the surface intrinsically needs four generators.
+
+### A finite exact route for future noninvariant generators
+
+The same calculation produces a degree-nine monic relation for \(u\)
+over \(S=\mathbb C[g,h]\), and an explicit free rank-nine \(S\)-basis
+of the actual pinched ring. The normalization quotient as an
+\(S\)-module is \(S/(g(g-1)(g-i))\); the basis-change determinant is
+that nonunit conductor index, not one.
+
+For any candidate \(j\in R_{\rm pin}\), form the columns
+\(1,j,\ldots,j^8\) in the displayed basis. Then
+\[
+R_{\rm pin}=S[j]
+\quad\Longleftrightarrow\quad
+\det(1,j,\ldots,j^8)\in\mathbb C^*.
+\tag{12}
+\]
+Cayley-Hamilton proves sufficiency of the first nine powers.
+This criterion includes noninvariant candidates, while (11) settles
+all invariant ones. A three-generator presentation changing \(g,h\)
+is still outside this relative criterion. The current abstract bound
+remains \(3\le\mu_{\mathbb C}(R_{\rm pin})\le4\), and the prescribed
+ambient primitive-LND realization is unconstructed.
+
+## 5. Verification, attribution and the exact remaining work
+
+There are three new standalone checkers, importing only unittest
+and SymPy. They have 12, 8 and 7 test methods. The complete regression
+and its actual timestamps are recorded in
+[verification-pass-26.json](verification-pass-26.json).
+The saved run passed all 580 methods in 46 suites, from
+08:11:23 to 08:12:39 UTC on September 13, 2026.
+The written all-degree arguments are not inferred from those finite
+checks. Repeated author and independent runs are not additional methods.
+
+The [audit record](research/proof-audits-pass26.md) separates
+proof reconstruction, source reading, finite identities and artifact
+integrity. No human expert has reviewed this packet; it has not been
+formalized in Lean or another proof assistant. The literature reading
+establishes the named inherited mechanisms, not a comprehensive
+statement-level priority audit for all combinations or examples.
+
+The next bounded proof targets are specific:
+
+- Construct the missing relative plane and commuting unimodular
+  complement for a genuinely broader intrinsic action class, or prove
+  an exact obstruction without silently assuming freeness.
+- Determine a condition making the primitive highest coefficient in
+  a plane-changing construction sliced. The successful control alone
+  does not supply it.
+- Use the rank-nine multiplication basis to test noninvariant relative
+  generators, or change the retained pair. Repeating invariant
+  replacements or affine-linear projections cannot improve the surface
+  bound.
+- Resolve the nonreduced rank-three modification sector with an actual
+  polynomial inverse or a different admissible recognition theorem.
+
+None of these is declared completed here. No external message,
+submission, public claim, or new recurring task was made.
+
+## Sources
+
+[^1]: Harm Derksen, [*Locally Nilpotent Derivations*](https://sites.lsa.umich.edu/hderksen/wp-content/uploads/sites/614/2018/09/LND1.pdf), Theorem 2.13, slice results in Section 4, Proposition 4.6, and Theorem 5.9 with proof. The cited statements were read directly. Two-variable triangularization is credited there to Rentschler.
+[^2]: I. Stampfli, [*Automorphisms of C^3 Commuting with a C+-Action*](https://arxiv.org/pdf/1406.6246v2), Lemma 5.3.1, Remark 5.3.1 and Lemma 5.3.2. Section 5.3 was read through Remark 5.3.4. The exact rank/fence equivalence is explicitly published.
+[^3]: N. Dasgupta and S. Gaifullin, [*On locally nilpotent derivations of polynomial algebra in three variables*](https://arxiv.org/pdf/2306.00510), Proposition 2.14, Lemma 2.15 and Proposition 5.3, read directly in the primary manuscript. These assertions require the polynomial three-variable ambient algebra.
+[^4]: H. Derksen, A. van den Essen and P. van Rossum, [*The Cancellation Problem in Dimension Four*](https://www.researchgate.net/publication/228571174_The_cancellation_problem_in_dimension_four), author-uploaded primary manuscript, Theorem 4.4 and Corollary 4.5, statements and proofs. The base used here is the one-dimensional ring \(\mathbb C[u]\).

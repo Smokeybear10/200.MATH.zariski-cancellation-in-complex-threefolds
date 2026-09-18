@@ -1,0 +1,159 @@
+{
+  "status": "Audited working70 conditional proof packet: all supplied-frame cubic flows recognized; dependent moving roots descend to the original ring; terminal quartic global descent remains unresolved.",
+  "previous_working_checkpoint": "research/checkpoint-pass69-working.json",
+  "previous_integrated_checkpoint": "consistency-pass-60.json",
+  "current_research_pass_classification": "progress",
+  "previous_status_only_turn_classification": "no progress; revalidated and resumed substantive proof work in this continuation",
+  "synthesis": "research/cubic-frame-closure-pass70.md",
+  "proof_audit": "research/proof-audits-pass70-working.md",
+  "verification_record": "research/verification-pass70-working.json",
+  "historical_integrated_counts": {
+    "claims": 544,
+    "test_methods": 1000,
+    "suites": 126
+  },
+  "last_full_regression": {
+    "path": "research/verification-pass69-working.json",
+    "suites": 136,
+    "test_methods": 1021,
+    "all_passed": true
+  },
+  "targeted_current_verification": {
+    "path": "research/verification-pass70-working.json",
+    "suites": 1,
+    "methods": 2,
+    "all_passed": true,
+    "unittest_seconds": 0.21,
+    "started_at_utc": "2026-09-14T02:28:01.852Z",
+    "finished_at_utc": "2026-09-14T02:28:02.329Z",
+    "checker_sha256": "527a3fc0ff78e8299be0391193792e70b7f322c6daa2ee9dc94719f5cb1a09d4",
+    "output_sha256": "1598d6ee16ef92ad0b0ba0e9d86adf4f275de460699d63f1400303ab94fa1b11"
+  },
+  "fresh_full70_regression_performed": false,
+  "central_registry_integrated": false,
+  "completed_deductions": [
+    "Under an actual polynomial (1,1,2,2) adjoint frame and the original polynomial slice, every coordinate flow of degree at most three has a polynomial three-variable kernel, without any defect-rank assumption.",
+    "In the remaining dependent nonconstant-highest cases of orders three and four, a finite algebraic root extension forces the whole transverse preceding layer to be a constant vector times the root's (m-1)st power. A nonzero bad component recovers that root in the original fraction field, and normality makes it an original polynomial.",
+    "The rotating alternatives of the earlier dependent preceding-curve reduction cannot satisfy the complete remaining original-frame hypotheses. The old formal differential controls remain valid weaker-premise examples.",
+    "The dependent moving cubic is recognized by an exact normalized-rank and rational-symmetry hypothesis transfer once the actual polynomial common powers are proved.",
+    "The dependent common-power quartic is recognized in its nonconstant first or second residual-pair branches and collinear constant first-pair branch. Its terminal constant-pair branch supplies only a justified localized three-direction LND and polynomial replica, not the required original global coordinate-section recognition."
+  ],
+  "remaining_mathematical_obligations_at_this_checkpoint": [
+    "Dependent common-power moving quartic with constant transverse first pair and constant second pair: prove a valid original global recognition/descent endpoint for its rational three-direction symmetry, or use another argument.",
+    "Independent defects with nonconstant highest vector in flow degrees four or five, after the inherited individual recognition criteria.",
+    "Universal existence of an applicable actual polynomial coordinate frame, or an unrestricted recognition proof.",
+    "Confirmation from the professor of the intended field, dimension and corrected statement; current work uses the unconfirmed complex-threefold interpretation."
+  ],
+  "proof_review_kind": "Independent AI through-EOF proof reconstructions, with author work separated. One ambiguous audit scope phrase was clarified after independent provenance review. Finite symbolic controls and captured file integrity are not human or proof-assistant review.",
+  "all_supplied_two_quadratic_low_flow_recognized": true,
+  "all_supplied_two_quadratic_constant_highest_flow_recognized": true,
+  "all_supplied_two_quadratic_independent_cubic_flow_recognized": true,
+  "all_supplied_two_quadratic_cubic_flow_recognized": true,
+  "dependent_rotating_moving_orders_three_four_excluded": true,
+  "all_supplied_dependent_common_power_quartic_recognized": false,
+  "entire_two_quadratic_profile_recognized": false,
+  "all_profile_height_threshold": 9,
+  "general_conjecture_solved": false,
+  "universal_frame_existence_proved": false,
+  "novelty_claimed": false,
+  "human_expert_review": false,
+  "proof_assistant_verified": false,
+  "interpretation_confirmed_by_professor": false,
+  "external_contact_or_submission": false,
+  "pass71_drafts_excluded": true,
+  "artifact_integrity": {
+    "checked_at_utc": "2026-09-14T02:36:05.429Z",
+    "all_passed": true,
+    "frozen_predecessor": {
+      "path": "research/checkpoint-pass69-working.json",
+      "sha256": "9498efb93c2f0bc6d74a65b0b013feda4235b12e4b80fc2e9a07557182c1d86a"
+    },
+    "prior_hash_records": 244,
+    "current_artifacts": 8,
+    "total_hash_records": 252,
+    "local_link_paths_checked": 504,
+    "deferred_checkpoint_links": [
+      {
+        "source": "README.md",
+        "target": "research/checkpoint-pass70-working.json"
+      },
+      {
+        "source": "research-ledger.md",
+        "target": "research/checkpoint-pass70-working.json"
+      }
+    ],
+    "link_anchors_checked": false,
+    "current_numbered_equations": 70,
+    "current_targeted_suite_count": 1,
+    "current_targeted_method_count": 2,
+    "targeted_output_rehashed": true,
+    "historical_last_full": {
+      "path": "research/verification-pass69-working.json",
+      "suites": 136,
+      "methods": 1021,
+      "all_passed": true
+    },
+    "mathematical_suites_executed": 0,
+    "regression_runners_executed": 0,
+    "pass71_drafts_excluded": true,
+    "scope": "Read-only exact file hashes, text hygiene, local paths, equation numbering and saved finite-run accounting. Not proof verification, novelty review, source theorem verification or general cancellation.",
+    "artifacts": [
+      {
+        "path": "research/dependent-common-power-cubic-pass70.md",
+        "sha256": "e6c9a6493cbbdc90e371f9e6e43831ee15ec61b7928a94ae4ee54e71f1d8dfe3",
+        "bytes": 12055,
+        "lines": 334,
+        "numbered_equations": 17
+      },
+      {
+        "path": "research/dependent-algebraic-root-top-pass70.md",
+        "sha256": "98402a6a78ef33c902e353c5e4c79d7264bde0903488a36f710a57044b31eeae",
+        "bytes": 14712,
+        "lines": 408,
+        "numbered_equations": 20
+      },
+      {
+        "path": "research/common-power-moving-quartic-reduction-pass70.md",
+        "sha256": "d9bc4762b1ecfc8d5168109b40edbab9ba2e5d5bbc93f8bc3ee6d4c0c958b336",
+        "bytes": 12607,
+        "lines": 373,
+        "numbered_equations": 21
+      },
+      {
+        "path": "research/cubic-frame-closure-pass70.md",
+        "sha256": "e195cd0aff492c38b6c2a5a8c9f264dd3f2a0c494eaa2bb0fa112700511733bd",
+        "bytes": 9488,
+        "lines": 193,
+        "numbered_equations": 5
+      },
+      {
+        "path": "research/finite-root-top-controls-pass70.md",
+        "sha256": "0524cbec79f34abded1f9a60b2916f8a40733b79a5bd44ca4615d7df01328973",
+        "bytes": 7451,
+        "lines": 177,
+        "numbered_equations": 7
+      },
+      {
+        "path": "research/finite_root_top_checks_pass70.py",
+        "sha256": "527a3fc0ff78e8299be0391193792e70b7f322c6daa2ee9dc94719f5cb1a09d4",
+        "bytes": 9704,
+        "lines": 181,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/verification-pass70-working.json",
+        "sha256": "adad85a627eee62f3ea875441b2cb9ae23b8482ef9acc6746cfef5163fa76e7a",
+        "bytes": 1053,
+        "lines": 24,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/proof-audits-pass70-working.md",
+        "sha256": "23c848161077a6cb87366ce29f755579ce63ca22a3fb947a1640e62427a3f113",
+        "bytes": 10170,
+        "lines": 192,
+        "numbered_equations": 0
+      }
+    ]
+  }
+}

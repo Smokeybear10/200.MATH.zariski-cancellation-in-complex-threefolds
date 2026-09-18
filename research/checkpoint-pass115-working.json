@@ -1,0 +1,344 @@
+{
+  "pass": 115,
+  "status": "conditional_global_conic_presentation_proved_in_supplied_quadratic_frame; recognition_and_general_cancellation_unsolved",
+  "working_target": "Unconfirmed intended complex-threefold cancellation A[u]≅C^[4] implies A≅C^[3]; literal emailed A^1 conclusion mismatches dimension for general r.",
+  "summary": "Free closed fibers have one or two translating lines and I2=I1; three translating components and the residual idempotent second-image branch are excluded. Combined with fixed114 this gives all-closed equality. An actual global parameter and height-one scalar coefficient intersection prove A=S[U,r]/(r^2-2PU+eta), with exact alternating filtration. Original-coordinate recognition and arbitrary-frame entry are not proved.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass114-working.json",
+    "sha256": "bd808a0578f1c37f7728e331935d96545416ffaa88cb11030dd01f830fb578e9",
+    "records": 721,
+    "revalidation": "0f5a2d"
+  },
+  "chain_record_count_after_including_this_checkpoint": 729,
+  "record_count_convention": "721 previous frozen hash records plus 7 current artifacts plus this checkpoint. README and research-ledger stay live. This checkpoint hash is recorded externally, never in itself.",
+  "canonical_verification": {
+    "path": "research/verification-pass115-working.json",
+    "tool_evidence": [
+      "e0fcaa"
+    ],
+    "suites": 5,
+    "test_methods": 8,
+    "new_methods": 2,
+    "retained_methods": 6,
+    "elapsed_seconds": 2.462106584,
+    "unittest_seconds": 2.098,
+    "complete_output_sha256": "019d7e2a9c6c629380bc6bdbb0e17539cc94294fb90b3ece2a55ec809b9cf5da",
+    "all_passed": true,
+    "scope": "New exact quadratic trace/sign and idempotent coefficient-shift identities. Retained114 universal factor certificates,112 product/conormal,102 degree-module and107 divisor identities. Does not prove finite flatness, all-order lifting, supported topology, analytic prime support, all-point image equality, global coefficient intersection, actual-frame hypotheses, recognition, cancellation or novelty."
+  },
+  "author_executions": [
+    {
+      "checker": "research/free_fiber_trace_shift_checks_pass115.py",
+      "evidence": "70d90a",
+      "methods": 2,
+      "unittest_seconds": 0.041,
+      "wall_seconds": 0.281369333
+    }
+  ],
+  "historical_full_verification": {
+    "pass": 75,
+    "suites": 146,
+    "methods": 1047,
+    "claims_registry": 544,
+    "rerun_this_pass": false
+  },
+  "current_integrity_audit": {
+    "artifacts": [
+      {
+        "path": "research/free-quadratic-fiber-conic-pass115.md",
+        "sha256": "1f6757bba7388461f732d50714bfc190362b33de2c0f6c2ccf4777e00b8f6e97",
+        "bytes": 20707,
+        "lines": 411,
+        "equations": 12
+      },
+      {
+        "path": "research/free-fiber-supported-plinth-prime-pass115.md",
+        "sha256": "25afd505fb11071834a79d418394772acf6beadb5d5ecb273da7a7217c12863d",
+        "bytes": 9379,
+        "lines": 196,
+        "equations": 7
+      },
+      {
+        "path": "research/quadratic-global-conic-patching-pass115.md",
+        "sha256": "2c0e534d2cc7aa86962a9fdbbd11a57b93a6126d1bba178adb50a615abd83c7e",
+        "bytes": 8448,
+        "lines": 197,
+        "equations": 6
+      },
+      {
+        "path": "research/quadratic-conic-global-recognition-gates-pass115.md",
+        "sha256": "b7666ec5afaafb2fdff8f24a2a99cc7ffb760f93a57ced6366f0bd33e3776189",
+        "bytes": 12858,
+        "lines": 240,
+        "equations": 5
+      },
+      {
+        "path": "research/free_fiber_trace_shift_checks_pass115.py",
+        "sha256": "5321fb2505f54bf9a39875e86763396afd5b9ecd096f77486ffd325ddef00bf3",
+        "bytes": 4136,
+        "lines": 91,
+        "equations": 0
+      },
+      {
+        "path": "research/verification-pass115-working.json",
+        "sha256": "37e9e1ec8980b0a384f95208fb68042e531ffe8db5f1b6ac30af3070247e1867",
+        "bytes": 4031,
+        "lines": 57,
+        "equations": 0
+      },
+      {
+        "path": "research/quadratic-global-conic-frontier-pass115.md",
+        "sha256": "b5867317387b0679e6eaf9df82aedda8f4eebb238826a9373681028a8a10cb50",
+        "bytes": 13263,
+        "lines": 271,
+        "equations": 4
+      }
+    ],
+    "equations": 34,
+    "checked_at_utc": "2026-09-15T00:50:13.943Z",
+    "metadata_evidence": "e7b9f5",
+    "prior_full_integrity_evidence": [
+      "0f5a2d",
+      "e0e4ad"
+    ],
+    "all_passed": true,
+    "scope": "Artifact SHA256, byte/line and equation counts; complete prior721 hash chain was independently rerun by Root. Tests and proof audits have separate evidence. Final checkpoint/link audit recorded externally.",
+    "pre_checkpoint_metadata_and_links": {
+      "evidence": "f8a1b6",
+      "artifacts": 7,
+      "equations": 34,
+      "local_links": 912,
+      "missing_links": 0
+    }
+  },
+  "proof_reviews": [
+    {
+      "artifact": "research/free-quadratic-fiber-conic-pass115.md",
+      "author": "General",
+      "root_full_read": "2f649a",
+      "root_dependency_reads": [
+        "e418d9",
+        "fa3db2",
+        "7d26a3",
+        "1fda51"
+      ],
+      "independent_reviews": [
+        {
+          "reviewer": "Jet",
+          "evidence": [
+            "46c6b5",
+            "37c132",
+            "5f4dff"
+          ],
+          "verdict": "Complete 12-equation saved proof reconstructed; full-Artin107 reread for C^3 transfer; clean."
+        },
+        {
+          "reviewer": "Geometry",
+          "evidence": [
+            "6b3eaa",
+            "c6fda4",
+            "343af4",
+            "792186"
+          ],
+          "verdict": "Complete saved proof plus 92/93/94 and 107/110 transfer dependencies reconstructed; clean."
+        }
+      ]
+    },
+    {
+      "artifact": "research/free-fiber-supported-plinth-prime-pass115.md",
+      "author": "Geometry",
+      "author_final_delta": "d96245",
+      "root_reads": [
+        "08edf1",
+        "7a11b2",
+        "7d26a3",
+        "1fda51"
+      ],
+      "scope": "One free component gives slice; two give one analytic base prime. Constant cover splits; no whole-divisor completed-domain or scalar-contraction inference.",
+      "independent_reviews": [
+        {
+          "reviewer": "General",
+          "evidence": [
+            "c87087",
+            "cc1301"
+          ],
+          "verdict": "Complete saved support proof including final conductor addition independently reconstructed; base prime and splitting-cover distinction clean."
+        }
+      ]
+    },
+    {
+      "artifact": "research/quadratic-global-conic-patching-pass115.md",
+      "author": "Root",
+      "root_full_read": "9bbb4c",
+      "independent_reviews": [
+        {
+          "reviewer": "General",
+          "evidence": [
+            "445c93"
+          ],
+          "verdict": "Complete abstract six-equation patch reconstructed before actual-frame corollary addition; clean."
+        },
+        {
+          "reviewer": "Geometry",
+          "evidence": [
+            "30c9a7"
+          ],
+          "verdict": "Complete final six-equation patch and actual-frame corollary reconstructed; clean."
+        },
+        {
+          "reviewer": "Jet",
+          "evidence": [
+            "704806"
+          ],
+          "verdict": "Complete global patch reconstructed: invertible first image, actual U, monic basis and finite coefficient intersection; clean."
+        }
+      ]
+    },
+    {
+      "artifact": "research/free_fiber_trace_shift_checks_pass115.py",
+      "author": "Jet",
+      "author_full_read": "884d0b",
+      "root_full_read": "08edf1",
+      "independent_reviews": [
+        {
+          "reviewer": "General",
+          "evidence": [
+            "eb1792"
+          ],
+          "verdict": "Complete code-only review clean; no execution or proof-by-test claim."
+        }
+      ]
+    },
+    {
+      "artifact": "research/quadratic-conic-global-recognition-gates-pass115.md",
+      "author": "Geometry",
+      "root_reads": [
+        "5a55e2",
+        "b32d89",
+        "b6ebe6",
+        "8d8036"
+      ],
+      "author_final_delta": "7d60e4",
+      "scope": "Exact recognition premises and Russell boundary. Root caught and author corrected PDF-extracted >1 to HTML >=1. No new global recognition theorem or exhaustive novelty audit.",
+      "independent_reviews": [
+        {
+          "reviewer": "General",
+          "evidence": [
+            "c87087",
+            "c47791",
+            "cc1301"
+          ],
+          "verdict": "Complete saved source note and corrected HTML >=1 provenance read; clean. No claim of another full primary-proof reconstruction."
+        }
+      ]
+    },
+    {
+      "artifact": "research/quadratic-global-conic-frontier-pass115.md",
+      "author": "Root",
+      "root_full_read": "c7e78d",
+      "scope": "Synthesis of exact conclusions and limitations; equation4 derives actual global original-coordinate polynomial form from retained97 and new module bases. It does not construct the inverse or prove recognition.",
+      "independent_reviews": [
+        {
+          "reviewer": "General",
+          "evidence": [
+            "c87087",
+            "cc1301",
+            "bf8ae0"
+          ],
+          "verdict": "Complete saved synthesis and full original-volume97 read; exact original-coordinate equation4 and recognition boundaries reconstructed cleanly."
+        },
+        {
+          "reviewer": "Jet",
+          "evidence": [
+            "7ec001",
+            "704806",
+            "20e48d"
+          ],
+          "verdict": "Complete synthesis/capture/global patch and live index tops read; 5 input hashes, 8 AST/passed methods and output hash validated without rerunning tests."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Stacks Project, Lemma 10.157.6(2)",
+      "url": "https://stacks.math.columbia.edu/tag/031T",
+      "root_read": "Complete displayed statement and proof; direct UFD denominator proof suffices.",
+      "evidence": [
+        "turn3717view0"
+      ]
+    },
+    {
+      "title": "Kaliman and Saveliev, C+-actions on contractible threefolds",
+      "url": "https://www.math.miami.edu/~kaliman/library/KaSa.michigan.2004.quotient.pdf",
+      "root_read": "Complete displayed Theorem2.7 and Corollary2.8 statements and proofs; deeper topology not reconstructed.",
+      "evidence": [
+        "turn3718view0"
+      ]
+    },
+    {
+      "title": "Ghosh, Gupta and Pal, On the family of affine threefolds a(x)y=F(x,z,t), v2, 3 August 2024",
+      "urls": [
+        "https://arxiv.org/pdf/2403.17397v2",
+        "https://arxiv.org/html/2403.17397v2"
+      ],
+      "root_read": "Complete Theorem4.8 and short proof; setup equation1 checked in authoritative HTML to recover deg(a)>=1, including linear denominators.",
+      "evidence": [
+        "turn3720view0",
+        "turn3721view0",
+        "turn3722view0"
+      ],
+      "author_additional_read": "Geometry read Corollary4.2 and proof and Lemmas4.4-4.5 and proofs, not full invoked Theorem4.1; final HTML reconciliation turn3723view2/turn3724view0."
+    },
+    {
+      "title": "Dubouloz, Moser-Jauslin and Poloni, Inequivalent embeddings of the Koras-Russell cubic threefold",
+      "url": "https://arxiv.org/pdf/0903.4278",
+      "root_read": "Section2 definition and explicit ML(C_R)=C[x] research statement attributed to Makar-Limanov1996; not a reconstruction of the original ML proof.",
+      "evidence": [
+        "turn3720view1"
+      ]
+    },
+    {
+      "title": "Additional primary sources read by Geometry; exact scope in recognition note",
+      "urls": [
+        "https://www.math.miami.edu/~kaliman/library/Ka.invent.2004.c%2B.pdf",
+        "https://www.numdam.org/item/10.5802/aif.1803.pdf",
+        "https://link.springer.com/article/10.1007/BF02937314"
+      ],
+      "scope": "Kaliman Proposition5.1/Theorem5.2 displayed proofs; Miyanishi characterization in primary restatement; original Makar-Limanov publisher record/abstract only. Root did not reread these full primary proofs this pass."
+    },
+    {
+      "title": "Retained support/normalization sources, not freshly re-proved here",
+      "urls": [
+        "https://stacks.math.columbia.edu/tag/0C44",
+        "https://stacks.math.columbia.edu/tag/00MA"
+      ],
+      "scope": "Finite curve normalization and exact finite-module completion. The saved113 application and repaired96/97 topology were reread; no claim of fresh foundational proof audit."
+    }
+  ],
+  "draft_corrections": [
+    "Root saved-synthesis EOF found and corrected two literal plus/newline transcription defects before freeze; no equation changed.",
+    "Primary PDF text extraction rendered the GGP condition >=1 as >1. Root checked authoritative HTML, and Geometry corrected the source-note degree premise and explained the reconciliation.",
+    "Support note adds a conductor explanation identifying completed curve and normalization fraction fields before the split-cover comparison."
+  ],
+  "remaining_obligations": [
+    "Use the actual original-coordinate inverse and constant-acceleration identities to recognize the global conic as a polynomial three-ring in the supplied quadratic frame.",
+    "The conic alone is insufficient: Russell cubic shares its intrinsic filtration but no polynomial cylinder or special frame is established for it.",
+    "No global free additive action has been constructed; local slices and the value P do not make the entire action free.",
+    "No proof puts P in one coordinate of the invariant plane or supplies the unstabilized ML/DK condition for the cited modification recognition theorem.",
+    "The relative cubic lane remains unresolved.",
+    "An arbitrary original sliced action is not known to enter the supplied nonconical quadratic frame.",
+    "Luo's intended field and dimension are unconfirmed.",
+    "No human expert review, Lean verification or exhaustive statement-level novelty audit has been obtained."
+  ],
+  "next_bounded_task": "Exploit the exact original-coordinate normal form in synthesis115 equation4, using the actual polynomial inverse rather than generic degree or Jacobian alone, to constrain P and eta or construct a global recognition invariant. Do not rerun already excluded local branches or infer recognition from intrinsic conic filtration.",
+  "goal_audit": {
+    "previous_goal_turn": "verified_wait",
+    "evidence": "Direct live-agent listing in the user check-in confirmed General and Geometry running; Jet completed.",
+    "this_turn": "progress",
+    "reason": "New complete free-fiber proof and global patch close the all-closed-point presentation gap in the retained special frame.",
+    "full_goal_achieved": false,
+    "blocked": false
+  },
+  "boundaries": "Private local research and public primary-source reads only. No external contact, posting, submission, paid access, financial action or new automation. Files through114 unchanged. Conditional proofs and finite checks are not full cancellation, novelty clearance, human review or formal verification."
+}

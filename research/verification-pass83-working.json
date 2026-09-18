@@ -1,0 +1,54 @@
+{
+  "kind": "Fresh targeted83 capture, not a full regression",
+  "started_at_utc": "2026-09-14T10:03:11.591812+00:00",
+  "finished_at_utc": "2026-09-14T10:03:11.910515+00:00",
+  "wall_seconds": 0.318398,
+  "total_suites": 1,
+  "total_test_methods": 3,
+  "all_passed": true,
+  "new83_suites": 1,
+  "new83_test_methods": 3,
+  "fresh_full83_regression_performed": false,
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "source_hashes_before": {
+    "research/rank_one_return_checks_pass83.py": "1ef8779766686d8c324ca8074aa47814e5d04e62af2e2f1cf344af0297fb0639",
+    "research/run_targeted_pass83.py": "ad533ef399cde6b12991a503b357758af3f79146ef42f01db6a9de9d37ddd52e",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_hashes_after": {
+    "research/rank_one_return_checks_pass83.py": "1ef8779766686d8c324ca8074aa47814e5d04e62af2e2f1cf344af0297fb0639",
+    "research/run_targeted_pass83.py": "ad533ef399cde6b12991a503b357758af3f79146ef42f01db6a9de9d37ddd52e",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_inputs_unchanged": true,
+  "bounded_search_executed": false,
+  "search_candidates_are_test_methods": false,
+  "central_registry_integrated": false,
+  "general_cancellation_verified": false,
+  "scope": "Three finite exact methods: an actual two-speed action and rational return with frozen Taylor identities, a polynomial isolated jet failing its full lift determinant, and ideal integrality versus membership and valuation controls. Not a proof of arbitrary action recognition or a universal source theorem. Repeated runs do not add methods.",
+  "suites": [
+    {
+      "path": "research/rank_one_return_checks_pass83.py",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/rank_one_return_checks_pass83.py"
+      ],
+      "started_at_utc": "2026-09-14T10:03:11.591812+00:00",
+      "finished_at_utc": "2026-09-14T10:03:11.910515+00:00",
+      "wall_seconds": 0.318398,
+      "exit_code": 0,
+      "expected_methods": 3,
+      "test_methods": 3,
+      "method_count_matches": true,
+      "all_passed": true,
+      "unittest_seconds": 0.138,
+      "output": "test_actual_two_speed_return_and_frozen_taylor_equation (__main__.RankOneReturnChecks.test_actual_two_speed_return_and_frozen_taylor_equation) ... ok\ntest_integrable_isolated_jet_and_failed_full_lift (__main__.RankOneReturnChecks.test_integrable_isolated_jet_and_failed_full_lift) ... ok\ntest_integral_closure_is_not_membership_and_jet_valuation (__main__.RankOneReturnChecks.test_integral_closure_is_not_membership_and_jet_valuation) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.138s\n\nOK\n",
+      "output_sha256": "7dd787818ee05c305054c039c650ac0baea9cef626e58c8d5094b68172d6d9f3"
+    }
+  ]
+}

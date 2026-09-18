@@ -1,0 +1,361 @@
+{
+  "pass": 119,
+  "status": "conditional_coordinate_first_integral_cubic_exclusion; general_cancellation_unsolved",
+  "working_target": "Unconfirmed intended complex-threefold cancellation A[u] isomorphic C^[4] implies A isomorphic C^[3]. Literal emailed A^1 conclusion has dimensional mismatch for general r.",
+  "summary": "Exact cubic relative degree is excluded when the rational invariant field of the cubic direction is C(s) for an actual polynomial coordinate s of the embedded invariant plane. Polynomial line/rank reduction combines a ruled nondegenerate volume contradiction with an all-degree polynomial-curve and global coordinate-prime contradiction. Rational-to-polynomial source gates and a common-basepoint/constant-unit obstruction remain separately scoped.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass118-working.json",
+    "sha256": "8378779998a606403f6c5e67f999c9ae83fc57f91070134723965a338dba7802",
+    "records": 752,
+    "revalidations": [
+      "4d1a7e",
+      "ea28c5"
+    ]
+  },
+  "chain_record_count_after_including_this_checkpoint": 761,
+  "record_count_convention": "752 prior frozen hash records plus eight current artifacts plus this checkpoint. README and research-ledger remain live. This checkpoint hash is external.",
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-15T02:35:23.920Z",
+    "artifacts": [
+      {
+        "path": "research/cubic-coordinate-first-integral-line-pass119.md",
+        "sha256": "838a0fd53122445ee219521cdb5d44a3cd5a147770fe0cfdb1710d63df35c7f2",
+        "bytes": 9453,
+        "lines": 216,
+        "equations": 6
+      },
+      {
+        "path": "research/cubic-ruled-nondegenerate-exclusion-pass119.md",
+        "sha256": "15859940e75a71ef4599ea9033688e6c38bbc045737b15aa08dcd837fbc4ecd8",
+        "bytes": 9449,
+        "lines": 226,
+        "equations": 8
+      },
+      {
+        "path": "research/cubic-polynomial-curve-exclusion-pass119.md",
+        "sha256": "15575c73bb0ff4dc88a9cd5a243d522b5f6ed2c134cb0ad2620a4924b2e62ea6",
+        "bytes": 11913,
+        "lines": 280,
+        "equations": 9
+      },
+      {
+        "path": "research/cubic-first-integral-polynomial-gates-pass119.md",
+        "sha256": "0e7caf00cd3faff6542a86fefa4f193fafde10a36a9e61afc2d699f075260cdb",
+        "bytes": 11158,
+        "lines": 248,
+        "equations": 6
+      },
+      {
+        "path": "research/cubic_ruled_checks_pass119.py",
+        "sha256": "f3d4c778bb1f3a8ffb728fe5ac487be9ca398f49112f0250931fc7d8b5b35b93",
+        "bytes": 5137,
+        "lines": 116,
+        "equations": 0
+      },
+      {
+        "path": "research/cubic_polynomial_curve_checks_pass119.py",
+        "sha256": "a49fa8f968dc4b2c73dd9209c23d0f6dedcd3bb4563337af7ca345bf4f16eb19",
+        "bytes": 4984,
+        "lines": 121,
+        "equations": 0
+      },
+      {
+        "path": "research/verification-pass119-working.json",
+        "sha256": "300794d4c1b3f100bcafba1aaaf4e957bc440f5fc987d1a975ab8974899a2466",
+        "bytes": 4802,
+        "lines": 57,
+        "equations": 0
+      },
+      {
+        "path": "research/cubic-coordinate-field-frontier-pass119.md",
+        "sha256": "7833ede4d1955cd5e76da45bf312d94aae5b9e3d2ef243ac3f03d8ed04a87577",
+        "bytes": 8484,
+        "lines": 153,
+        "equations": 0
+      }
+    ],
+    "equations": 29,
+    "local_markdown_links": 21,
+    "all_passed": true,
+    "metadata_evidence": [
+      "894979",
+      "3c266d"
+    ],
+    "scope": "Eight artifact hashes/byte/line counts,29 sequential displayed equations,21 existing local Markdown links,whitespace. The later capture-only delta explicitly records the already-used output hash convention."
+  },
+  "canonical_verification": {
+    "path": "research/verification-pass119-working.json",
+    "tool_evidence": "874756",
+    "suites": 6,
+    "test_methods": 12,
+    "new_methods": 5,
+    "retained_methods": 7,
+    "elapsed_seconds": 3.077848042,
+    "unittest_seconds": 2.647,
+    "complete_output_sha256": "1c0598d40d96ac6dd9819879216946a2bb223315a0e5903a1a45c4373c732dc8",
+    "all_passed": true,
+    "scope": "Five new exact finite controls: ruled connection/tensor/volume identities and polynomial metric countercontrol; polynomial-curve indicial/first-variation identities, selected ramified transfers and root-divisor reconstructions, and selected nonlinear fractional-exponent residuals. Seven retained controls from118,117,90. No numerical test proves formal inversion, all-degree asymptotics, generic constant fields, invariant-kernel intersections, coordinate irreducibility, arbitrary-frame entry, general cancellation, human expert review or novelty."
+  },
+  "author_runs": [
+    {
+      "checker": "research/cubic_ruled_checks_pass119.py",
+      "evidence": [
+        "ca4ba6"
+      ],
+      "methods": 2,
+      "unittest_seconds": 0.479,
+      "wall_seconds": 0.728378584,
+      "exit_code": 0
+    },
+    {
+      "checker": "research/cubic_polynomial_curve_checks_pass119.py",
+      "evidence": [
+        "2d83c1",
+        "8df3c3"
+      ],
+      "methods": 3,
+      "unittest_seconds": 1.264,
+      "exit_code": 0,
+      "scope": "The process yielded and was resumed on session6881; only unittest duration recorded as a full-run duration. Not additive coverage."
+    }
+  ],
+  "proof_reviews": [
+    {
+      "artifact": "research/cubic-coordinate-first-integral-line-pass119.md",
+      "author": "General",
+      "root_reads": [
+        "9ff56a",
+        "5553dc"
+      ],
+      "independent_reviews": [
+        {
+          "reviewer": "Geometry",
+          "evidence": [
+            "1ffd43"
+          ],
+          "scope": "Full six-equation core; final forward implication separately confirmed in message."
+        },
+        {
+          "reviewer": "Jet",
+          "evidence": [
+            "f7dfca",
+            "de5b1d"
+          ],
+          "scope": "Full six-equation core before the final forward-status paragraph."
+        }
+      ],
+      "author_final_delta": "6118f8"
+    },
+    {
+      "artifact": "research/cubic-ruled-nondegenerate-exclusion-pass119.md",
+      "author": "Jet",
+      "root_reads": [
+        "9789c7"
+      ],
+      "independent_reviews": [
+        {
+          "reviewer": "General",
+          "evidence": [
+            "294683",
+            "cab15b"
+          ],
+          "scope": "Full eight-equation proof and final provenance/code delta."
+        },
+        {
+          "reviewer": "Geometry",
+          "evidence": [
+            "55f935"
+          ],
+          "scope": "Full final proof and code, rational constants and exact linear-potential coefficient."
+        }
+      ]
+    },
+    {
+      "artifact": "research/cubic-polynomial-curve-exclusion-pass119.md",
+      "author": "Root",
+      "root_reads": [
+        "bf3a4b"
+      ],
+      "independent_reviews": [
+        {
+          "reviewer": "General",
+          "evidence": [
+            "3f1456"
+          ],
+          "scope": "All nine equations; degree normalization, finite base change, formal-series first variation and global coordinate irreducibility."
+        },
+        {
+          "reviewer": "Jet",
+          "evidence": [
+            "5dc133",
+            "750ff2"
+          ],
+          "scope": "All nine equations and exact formal-series orders."
+        },
+        {
+          "reviewer": "Geometry",
+          "evidence": [
+            "954ded",
+            "42ee0b"
+          ],
+          "scope": "All nine equations, constant-field transfer and rank-two assembly."
+        }
+      ]
+    },
+    {
+      "artifact": "research/cubic-first-integral-polynomial-gates-pass119.md",
+      "author": "Geometry",
+      "root_reads": [
+        "c6f704"
+      ],
+      "independent_reviews": [
+        {
+          "reviewer": "General",
+          "evidence": [
+            "96d702",
+            "c97a92"
+          ],
+          "scope": "Full six-equation proof and final invariant-field delta; no fresh primary-source read."
+        },
+        {
+          "reviewer": "Jet",
+          "evidence": [
+            "ce6d56",
+            "de5b1d"
+          ],
+          "scope": "Full final note, generic affine closure, units and coefficient control; selected primary proofs freshly read."
+        }
+      ]
+    },
+    {
+      "artifact": "research/cubic-coordinate-field-frontier-pass119.md",
+      "author": "Root",
+      "root_reads": [
+        "2cfb04"
+      ],
+      "independent_reviews": [
+        {
+          "reviewer": "Geometry",
+          "evidence": [
+            "8931c3"
+          ],
+          "scope": "Full synthesis, theorem assembly and unresolved obligations."
+        }
+      ]
+    }
+  ],
+  "code_reviews": [
+    {
+      "artifact": "research/cubic_ruled_checks_pass119.py",
+      "root": [
+        "111fa5"
+      ],
+      "independent": [
+        "cab15b",
+        "55f935"
+      ],
+      "methods": 2
+    },
+    {
+      "artifact": "research/cubic_polynomial_curve_checks_pass119.py",
+      "root": [
+        "890d85"
+      ],
+      "independent": [
+        "c3c5ba",
+        "432977"
+      ],
+      "methods": 3
+    }
+  ],
+  "capture_review": {
+    "reviewer": "Geometry",
+    "evidence": [
+      "8931c3",
+      "ca9a05"
+    ],
+    "scope": "Full twelve-method output, six input hashes and AST counts, canonical newline output hash. Final metadata-only hash-convention field added afterward; no test input or output changed.",
+    "non_test_audit_correction": "An initial read-only audit tried direct stdout/stderr concatenation; using the retained stdout + newline + stderr convention verified the recorded hash. No execution or reproducibility failure."
+  },
+  "primary_source_reads": [
+    {
+      "source": "Michiel de Bondt, arXiv1501.06046v4",
+      "url": "https://arxiv.org/html/1501.06046v4",
+      "root_evidence": [
+        "turn3783view0",
+        "turn3789view0"
+      ],
+      "root_scope": "Theorem1.1 statement/attribution; full displayed Theorem3.1,Corollary3.2,Lemma3.3 statements/proofs. The displayed nearby Lemma2.8 proof also returned; deeper dependencies not all re-audited.",
+      "geometry_evidence": [
+        "turn3778view0"
+      ],
+      "jet_evidence": [
+        "turn3784view0",
+        "turn3786view0"
+      ]
+    },
+    {
+      "source": "Stacks Project, Lemma10.47.8 Tag037P",
+      "url": "https://stacks.math.columbia.edu/tag/037P",
+      "root_evidence": [
+        "turn3789view1"
+      ],
+      "root_scope": "Complete displayed factor-coefficient proof; characteristic-zero field extension application explicit in the saved note.",
+      "geometry_evidence": [
+        "turn3781view0"
+      ],
+      "jet_evidence": [
+        "turn3787view0"
+      ]
+    }
+  ],
+  "scope_clarification": {
+    "frozen_artifact": "research/cubic-principal-open-frame-control-pass118.md",
+    "clarification": "The phrase excluding the velocity family as a global original frame applies only in the exact cubic relative branch. No exclusion of every action with those velocities is asserted.",
+    "recorded_in": "research/cubic-coordinate-field-frontier-pass119.md",
+    "mathematical_statement_changed": false
+  },
+  "unresolved_obligations": [
+    "General rational first-integral case, without a polynomial coordinate generator.",
+    "Full actual cubic branch recognition.",
+    "Entry of an arbitrary sliced polynomial cylinder into the supplied constant-acceleration framework.",
+    "Independent human expert review, formal proof checking if sought, and statement-level novelty clearance.",
+    "Confirmation of the professor's intended field, dimension and corrected conclusion."
+  ],
+  "next_bounded_proof_tasks": [
+    "Prove or disprove transfer of the ruled nondegenerate exclusion over an arbitrary rational invariant field L=C(H).",
+    "Test whether rank-two Q forces polynomial projected velocities, allowing S intersect L=C[g] and the global root-divisor argument without g being a coordinate.",
+    "Then attack the remaining rank-three metric with nondegenerate restriction to ker n; do not count the preceding outlines as proved119 results."
+  ],
+  "goal_audit": {
+    "objective": "keep going until u solved it",
+    "status": "active",
+    "previous_turn_classification": "no_new_progress_status_check",
+    "current_turn_classification": "progress",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false
+  },
+  "boundaries": {
+    "human_expert_review": false,
+    "formal_verification": false,
+    "novelty_cleared": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "paid_resources": false,
+    "new_automation": false,
+    "files_through118_frozen": true
+  },
+  "historical_verification": {
+    "pass": 75,
+    "suites": 146,
+    "methods": 1047,
+    "integrity_revalidated": "ea28c5",
+    "rerun_in119": false
+  },
+  "live_indexes": [
+    "README.md",
+    "research-ledger.md"
+  ],
+  "worktree_note": "The whole project remains untracked relative to its parent; git status be5a79 also lists unrelated sibling files. Those siblings were not edited. This is not a claim that git diff verifies newly created artifacts."
+}

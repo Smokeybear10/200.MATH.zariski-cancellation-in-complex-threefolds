@@ -1,0 +1,131 @@
+{
+  "pass": 219,
+  "status": "supplied_full_mixed_quartic_initial_kernel_recognized; conic_excluded_by_original_polynomial_relation; arbitrary_entry_and_global_cancellation_open",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass218-working.json",
+    "sha256": "77a379162c0bcde5e98c3a395e0db6cbcabd80a92e1736fc43ebff9416562aab",
+    "records": 1346
+  },
+  "results": {
+    "actual_bridge": "The actual good-coordinate interchange and rebuilt217 coefficient alternatives put both conic possibilities into case II. This is not descent of a coefficient-field coordinate.",
+    "conic_exclusion": "The complete cubic and quadratic scalar-Jacobian coefficients, including constant-column terms, give exact integrable differential identities. Joint constants yield explicit complex-coefficient polynomials F,delta,n0. The full original coordinate map factors through Acal,Bcal,Dcal satisfying Bcal^2-Acal Dcal=-C(X+kappa-lambda/3). Its coefficient matrix has a monic quadratic determinant in X, so a nonzero original polynomial relation follows after exact denominator clearing. Original coordinate independence excludes the conic.",
+    "conditional_recognition": "For the supplied actual globally sliced exact1122 frame and the entire initial evaluation kernel(ZW-X^2Y^2),217 excludes zero return and reduces nonzero return to a line or conic. The conic is now impossible. The retained original-ring line proof supplies an ambient E-invariant coordinate and A isomorphic C^[3]. This conditional statement makes no sector nonvacuity or existence assertion.",
+    "remaining_scope": "The unrestricted cancellation implication and arbitrary entry remain unresolved. A single leading identity is insufficient. No unit-speed, rational-field, formal-verification, human-review or novelty claim is added. Separate220 sources, executions and later sector strengthenings are excluded; prior218 is unchanged."
+  },
+  "goal_audit": {
+    "current_progress": "The complete conic exclusion and its synthesis close the retained conditional recognition statement for the supplied full mixed-quartic initial kernel. Three independent finite-algebra methods passed in one canonical execution through its original live handle. The unrestricted goal is not achieved.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "actual_globally_sliced_exact1122_frame_required": true,
+    "entire_principal_initial_kernel_required": true,
+    "single_leading_relation_sufficient": false,
+    "actual_good_swap_rebuilt_chart_bridge": true,
+    "complete_cubic_and_quadratic_Jacobian_coefficients_used": true,
+    "all_constant_column_contributions_retained": true,
+    "exact_joint_constants_used": true,
+    "coefficient_field_rationality_assumed": false,
+    "generic_parameter_centering_asserted_ambient": false,
+    "localized_structural_parameters_asserted_ambient": false,
+    "generically_invertible_affine_combinations_over_CX": true,
+    "cleared_original_polynomial_relation_nonzero": true,
+    "conic_branch_excluded": true,
+    "supplied_full_mixed_kernel_conditionally_recognized": true,
+    "ambient_E_invariant_coordinate_via_retained_line_proof": true,
+    "supplied_sector_nonvacuity_or_existence_claim": false,
+    "supplied_sector_universally_empty_claim": false,
+    "unit_speed_assumed": false,
+    "arbitrary_entry_proved": false,
+    "other_full_initial_kernels_recognized_here": false,
+    "all_height_two_initial_kernels_recognized": false,
+    "global_minimum_profile_claim": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/mixed-conic-final-jacobian-exclusion-pass219-working.md",
+      "sha256": "ef05204e0d76f7aed4203d011b841f0ddaf90109aa66162758a1f4779ef353b6",
+      "bytes": 12230,
+      "lines": 371,
+      "equations": 26,
+      "test_methods": 0
+    },
+    {
+      "path": "research/mixed-quartic-initial-kernel-recognition-synthesis-pass219-working.md",
+      "sha256": "8d5bc2a9ccc6eca6d92ed8f9da15af12b76afa6bc724239731f90ed4dbaf076d",
+      "bytes": 6776,
+      "lines": 150,
+      "equations": 5,
+      "test_methods": 0
+    },
+    {
+      "path": "research/mixed_conic_structural_exclusion_controls_pass219.py",
+      "sha256": "2a40fa8630f783c336c8a8e43db81bbad07890f6940b6868ed0f2c7baf325aa8",
+      "bytes": 11701,
+      "lines": 312,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/verification-pass219-working.json",
+      "sha256": "0bc1b75d57014ef1982da59382e36883b9484b449e444f43cd80a53849375fcc",
+      "bytes": 13802,
+      "lines": 141,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "chain_record_count_after_including_this_checkpoint": 1351,
+  "record_count_convention": "1346 held predecessor records plus two219 proof notes, one checker source, verification219 and this checkpoint: five new records. Mutable indices, retained proof inputs, separate220 work and unsaved exploration are not counted.",
+  "verification": {
+    "capture": "research/verification-pass219-working.json",
+    "canonical_runs": [
+      {
+        "suite": "mixed_conic_structural_exclusion_controls219",
+        "path": "research/mixed_conic_structural_exclusion_controls_pass219.py",
+        "pre_execution_read": "General complete author EOF2ebdee/metadatac5bba8; Root full savedcc6cbb+09d9b1/hashffe916; Geometry completece0324+831895/hash5a790e. These saved-source reads preceded the sole canonical execution. Jet's complete independent checker read16c494 occurred afterward and is not a pre-run review.",
+        "initial_output": "c33dc7",
+        "session_id": 54759,
+        "terminal_output": "83ec35",
+        "methods": 3,
+        "unittest_seconds": 2.034,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": false,
+        "pending_execution_handle": false,
+        "completion_via_original_handle": true,
+        "original_handle_poll_count": 1,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/mixed_conic_structural_exclusion_controls_pass219.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "shell": "/bin/zsh",
+        "login": false,
+        "initial_yield_time_ms": 1000,
+        "initial_max_output_tokens": 6000,
+        "completion_poll": {
+          "tool": "write_stdin",
+          "session_id": 54759,
+          "chars": "",
+          "yield_time_ms": 1000,
+          "max_output_tokens": 6000
+        },
+        "completion_note": "Initial response c33dc7 returned live session54759. Root resumed that original handle once; terminal83ec35 reported three tests in2.034s, OK and exit code zero. One saved execution only."
+      }
+    ],
+    "new_suites": 1,
+    "new_methods": 3,
+    "tagged_equations": 31,
+    "scope": "Three finite exact-algebra methods check the complete raw map and determinant coefficients, exact differential identities, constant-form substitution, full structural factorization, both actual triangular-shear inverse orders and a uniformly nonzero cleared relation. The author, Root and Geometry completed pre-run source reads; Jet's full independent checker read is post-run. Initialc33dc7 returned live session54759, completed exactly once via its original handle in83ec35: three tests2.034s,OK,exit0. No rerun or pending handle. Field, actual-chart and published recognition results remain written-proof inputs."
+  },
+  "next_bounded_task": "Choose a separate bounded remaining initial-kernel or actual-entry investigation. Preserve the supplied-frame/full-kernel limitations and keep any later sector strengthening in its own packet. No219 rerun is authorized."
+}

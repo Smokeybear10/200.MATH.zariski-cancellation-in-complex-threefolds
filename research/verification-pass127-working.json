@@ -1,0 +1,38 @@
+{
+  "status": "eleven targeted exact example methods passed; universal conclusions depend on the written proof and cited theorems",
+  "working_directory": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+  "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.three_good_speed_curve_checks_pass127 research.three_good_cofactor_checks_pass126 research.three_good_controls_pass125 -v",
+  "execution_output_ids": ["18b278", "34bd73"],
+  "execution_session_id": 53427,
+  "exit_code": 0,
+  "unittest_reported_seconds": 0.991,
+  "tool_call_wait_seconds": [1.002319417, 0.000209916],
+  "timing_scope": "The tool times are waits for the two output chunks, not a separately measured process wall-clock duration.",
+  "suites": 3,
+  "methods": 11,
+  "new_methods": 5,
+  "retained_methods": 6,
+  "before_hash_output_id": "8f1daa",
+  "after_hash_output_id": "bbcb40",
+  "inputs_before_and_after": {
+    "research/three_good_speed_curve_checks_pass127.py": "e8e700657a02b7228ecb31c93e17cae4390d21392b37b5f542761ec7002f1c3c",
+    "research/three_good_cofactor_checks_pass126.py": "ecd8d7952a0c29e3e23d28abcbe748fb7f301c8ca9e69ceb9cb048762b58710b",
+    "research/three_good_controls_pass125.py": "bd4ed1a8d89cdb472349959fef06ab66f4c95ee93b6d5723667f05856ee4ac53"
+  },
+  "new_control_scope": [
+    "Actual two-sided inverse frames with last time degrees two, three and five, including the composite parameter p=(W-Y^2)^3 with a nonunit repeated alpha divisor; original partials, flow determinant, cofactor column and scalar recursions",
+    "Finite nonreduced quotient identities, primitive normal and dependent-row boundaries, and examples of the elementary total-degree-separation endpoint; the quotient-only controls are not claimed to be actual frame realizations",
+    "Polynomial Wronskian examples of degrees one, two and four with explicit triangular inverse maps, plus a polynomial failing the Wronskian premise",
+    "An actual speed-rank-two translation frame with a nonzero second selected adjoint, excluding extension of the rank-one cofactor bound",
+    "An actual unit-speed, rank-two translation frame with common intrinsic kernel C[a,h] but T(h)=-Y and E(T(h))=-a, excluding preservation of that kernel by the original last partial"
+  ],
+  "retained_control_scope": "The three pass126 methods and three pass125 methods recorded in their frozen verification files were rerun unchanged. This is not a complete historical-suite rerun.",
+  "not_verified_by_this_run": [
+    "The universal all-degree speed-curve recognition theorem",
+    "Polynomial curve factorization, the regular-kernel source theorem or their dependency trees",
+    "Universal intrinsic quotient or prior height-recognition theorems",
+    "Recognition of speed rank two or existence of the supplied frame for arbitrary sliced actions",
+    "Unrestricted cancellation, historical novelty, human expert review or Lean/formal verification"
+  ],
+  "capture_limitation": "The complete process output is retained across its two tool-output identifiers. No complete-output checksum or peer execution is claimed."
+}

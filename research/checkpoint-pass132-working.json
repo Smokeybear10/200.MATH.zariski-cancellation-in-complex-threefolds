@@ -1,0 +1,55 @@
+{
+  "pass": 132,
+  "status": "normalized_irreducible_classification_and_exact_dense_adjoint_degree_proved_in_working_derivations; general_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3]. The professor's intended correction, field and dimension remain unconfirmed.",
+  "previous_checkpoint": {"path": "research/checkpoint-pass131-working.json", "sha256": "c55c8a17d95e3d178ca88204186c59603ca0804462728924d7245d2760c0df34", "records": 852, "scope": "Direct predecessor hash rechecked c8b622 and b17658; not a recursive historical proof audit."},
+  "chain_record_count_after_including_this_checkpoint": 859,
+  "record_count_convention": "852 prior records plus six current artifacts plus this checkpoint; live indexes and the scratch primary-source PDF excluded.",
+  "artifacts": [
+    {"path": "research/normalized-cubic-action-classification-pass132.md", "sha256": "0e62b3479eea9ede966532f2267fd51ed1a39105c95f145d2b825f3d19ccb8d7", "bytes": 17153, "lines": 393, "equations": 14},
+    {"path": "research/dense-three-good-adjoint-degree-pass132.md", "sha256": "2bc4fc33c9294af7846baa17b5cc463c5c9d1c279388b8307ad3c46d89a8ce82", "bytes": 8787, "lines": 231, "equations": 8},
+    {"path": "research/primitive-unit-row-slice-necessity-pass132.md", "sha256": "706584f54b1857462c763d961633b8bf307a9f9d8d641a0eefe051aad8dc7a48", "bytes": 9746, "lines": 267, "equations": 10},
+    {"path": "research/two-shear-primitive-return-rigidity-pass132.md", "sha256": "9c27593cb2bb4418e85989784e237fed55d455695598e1e98065e78da2cb3be1", "bytes": 10332, "lines": 262, "equations": 8},
+    {"path": "research/three_good_unit_row_and_two_shear_checks_pass132.py", "sha256": "374d2f6cb2dfb39134e8f6f799e17774eb77297081ede1725f4a27d7e2bbfd53", "bytes": 21853, "lines": 424, "test_methods": 6},
+    {"path": "research/verification-pass132-working.json", "sha256": "c0331ec8d74685a42760a016fcbcf93745f3bc0d077926bc8f5615af69ea0846", "bytes": 4260, "lines": 68}
+  ],
+  "new_results": [
+    "For an actual normalized invariant I=XW-F(Y)-delta*Z, F cubic and gamma*delta nonzero, E^2X=E^2Y=E^2Z=0, E^3W=0 and EX nonzero, every irreducible LND has EX=c*h^3, EY=h^2*g with coprime h,g in C[I], or the separately treated EY=0 constant-speed boundary. The note proves the converse, reduced fixed locus and explicit fixed-point-free straightening.",
+    "After retained130 normalization, every successful primitive mixed-cubic correction in a sliced dense frame forces L(a) in C*. No unit-good-row premise is needed. Successful dense normal forms and the intrinsic top are explicit; no generic gate passage or entry claim follows.",
+    "For every supplied actual sliced three-good frame with rank-two speeds and dense homogeneous speed cone, the selected bad partial has exact adjoint degree two, without a bound on the last coordinate's E-degree. This independently eliminates d=1 in the dense branch before any relation is assumed.",
+    "The elementary unit-row proof is independently retained. An inverse-verified nonprimitive successful frame with nonconstant L(a) shows the primitive application cannot omit primitivity.",
+    "An arbitrary polynomial two-shear middle deformation in the stated family that returns to the primitive profile has constant-coefficient first shear of degree at most three, and both corrections pass. No arbitrary-word assertion is made."
+  ],
+  "proof_reviews": {
+    "normalized_Root": ["db5328 full initial proof", "25fbee repaired main proof", "c8b622 complete successful-family section", "6858ac final adjoint section and source tail"],
+    "normalized_General": ["855393 complete initial classification", "d75a5e complete final fourteen-equation note", "d0743e final hash"],
+    "normalized_Geometry": ["d5b5ef complete initial classification", "1bc549 family section", "b09c5c final adjoint section and notation", "66cb0a source tail"],
+    "normalized_Jet": ["f3fb51 complete initial classification", "468686 successful-family delta", "96f57c final sections7--8 and source tail"],
+    "dense_degree_Root": "6858ac complete saved proof",
+    "dense_degree_General_author": ["ea4047 full proof", "f121ae source-title tail", "1c757e final hash"],
+    "dense_degree_Geometry": "a68ec0 full mathematical proof and 013f1b final source-title-only normalization",
+    "dense_degree_Jet": "32eacc complete final eight-equation proof",
+    "unit_row": "Root full final prior-phase read be483f and current e92f15; General e38834, Geometry 11cc55, Jet complete independent reconstruction; later local cross-link clarifies stronger classification.",
+    "two_shear": "Root full mathematical read 519386, current e92f15 and tail c3f3a6; General 3e26b5 plus 665a90; Geometry author e1fa0f and correction44e906; Jet complete independent reconstruction.",
+    "limits": "Independent AI reconstructions of working derivations, not human approval, a proof-assistant certificate or novelty clearance. Universal claims are supported by the written arguments, not finite tests."
+  },
+  "verification": {"capture": "research/verification-pass132-working.json", "initial_execution": "bc24b3", "completion": "831129", "exit_code": 0, "methods": 13, "new_methods": 6, "retained_methods": 7, "unittest_seconds": 0.830, "scope": "Exact finite symbolic examples, coordinate inverses, derivative identities and assumption boundaries; no general theorem verified by computation."},
+  "external_dependency_audit": {
+    "precise_input": "Wang's two-quasi-nice classification over any characteristic-zero field, invoked after localizing the actual normalized coordinate I.",
+    "restatement": {"title": "Nice derivations over principal ideal domains", "authors": "Nikhilesh Dasgupta and Neena Gupta", "url": "https://arxiv.org/pdf/1701.03635v1", "location": "Theorem4.1, printed p.9", "root_read": "turn3958view0"},
+    "original": {"title": "Locally Nilpotent Derivations of Polynomial Rings", "author": "Zhiqing Wang", "date": "December1999, copyright2000", "url": "https://central.bac-lac.gc.ca/.item?app=Library&id=NQ48119&oclc_number=1006678048&op=pdf", "location": "University of Ottawa PhD thesis, Theorem2.4.5 and Remark9, printed p.37, PDF p.48", "root_reads": ["bc24b3 field convention, theorem, short proof and selected Lemmas1.2.14--1.2.15", "b17658 title page"], "geometry_scope": "Theorem and short proof visually checked, plus selected field-extension and two-variable lemmas. Not a recursive dependency-tree audit."},
+    "journal_limit": "Original journal full proof was not accessible and is not claimed to have been read.",
+    "novelty_limit": "Bounded targeted searches found no precise matching normalized statement. This is not evidence that it is historically new.",
+    "next_gap_source_check": "Geometry turn3970view0--3 and Root turn3972view0--1 read exact nearby hypotheses: DG Cor3.8 requires an invariant original coordinate, and DL2302.13787v6 Theorem2.13 requires an actual R-linear nice derivation on R^[3] over a PID. The two-variable fixed-point-free result requires actual B=R^[2]. None supplies the missing relative polynomial presentation from speed rank two alone."
+  },
+  "remaining_gaps": [
+    "Existence of a suitable primitive mixed relation for the full supplied dense rank-two degree-two branch.",
+    "Passage of both derivative corrections, or an actual inverse-verified frame decisively failing one.",
+    "Entry or reduction for arbitrary sliced polynomial fourfolds, outside any supplied three-good profile.",
+    "Full cancellation, human expert review, formal verification and novelty determination."
+  ],
+  "next_bounded_task": "Use actual cofactor and invariant-divisor constraints in the now-forced dense d=2 branch to prove correction passage or realize a primitive frame with nonconstant L(a), which would force a failure. Separately assess whether known three-quasi-nice theorems already recognize the supplied frame. Do not search for a dense rank-two d=1 frame or treat more successful normal-form examples as closing general entry.",
+  "goal_audit": {"previous_goal_turn": "informational_status_no_new_mathematical_progress; reviewers_were_terminal_not_a_live_wait", "current_turn": "new_written_classification_and_general_degree_exclusion_with_exact_controls", "full_goal_achieved": false, "genuine_external_blocker": false},
+  "boundaries": {"prior_frozen_artifacts_intentionally_edited": false, "human_review": false, "formal_verification": false, "novelty_cleared": false, "external_contact": false, "submission": false, "public_posting": false, "new_automation": false},
+  "live_indexes": ["README.md", "research-ledger.md"]
+}

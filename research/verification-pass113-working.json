@@ -1,0 +1,51 @@
+{
+  "started_at_utc": "2026-09-14T23:45:28.493Z",
+  "finished_at_utc": "2026-09-14T23:45:30.097Z",
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.whole_double_hensel_slice_checks_pass113",
+    "research.whole_double_conormal_checks_pass112",
+    "research.quadratic_degree_module_checks_pass102",
+    "research.quadratic_divisor_filtration_checks_pass107"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 1.599617709,
+  "suites": 4,
+  "test_methods": 6,
+  "new_methods": 2,
+  "retained_methods": 4,
+  "ast_method_counts": {
+    "research/whole_double_hensel_slice_checks_pass113.py": 2,
+    "research/whole_double_conormal_checks_pass112.py": 2,
+    "research/quadratic_degree_module_checks_pass102.py": 1,
+    "research/quadratic_divisor_filtration_checks_pass107.py": 1
+  },
+  "input_files": [
+    {
+      "path": "research/whole_double_hensel_slice_checks_pass113.py",
+      "sha256": "876b15e290be3a1c638985fef3cc256308df1bdc6a1a3763b234f67baae54594"
+    },
+    {
+      "path": "research/whole_double_conormal_checks_pass112.py",
+      "sha256": "ea5fdc95e9297c2807c119e3ef2674edbcf39e0f8c754861fb4c5f2a37ecab52"
+    },
+    {
+      "path": "research/quadratic_degree_module_checks_pass102.py",
+      "sha256": "dd701dc05fe10c4ce5189ab848bfde4f0ea7bb724f27d4317b69f38c91613362"
+    },
+    {
+      "path": "research/quadratic_divisor_filtration_checks_pass107.py",
+      "sha256": "87c7052e3e165f0d1ebc8faabc8f49d178c2c55a3cfe6daf0ef6d97e817e1a38"
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "stdout": "",
+  "stderr": "test_conic_slice_certificates (research.whole_double_hensel_slice_checks_pass113.WholeDoubleHenselSliceChecks.test_conic_slice_certificates) ... ok\ntest_hensel_shear_certificates (research.whole_double_hensel_slice_checks_pass113.WholeDoubleHenselSliceChecks.test_hensel_shear_certificates) ... ok\ntest_conormal_and_weighted_connections (research.whole_double_conormal_checks_pass112.WholeDoubleConormalChecks.test_conormal_and_weighted_connections) ... ok\ntest_product_index_determinant (research.whole_double_conormal_checks_pass112.WholeDoubleConormalChecks.test_product_index_determinant) ... ok\ntest_conic_first_coefficients_and_weight_comparison (research.quadratic_degree_module_checks_pass102.QuadraticDegreeModuleChecks.test_conic_first_coefficients_and_weight_comparison) ... ok\ntest_conic_filtration_and_hypothesis_controls (research.quadratic_divisor_filtration_checks_pass107.QuadraticDivisorFiltrationChecks.test_conic_filtration_and_hypothesis_controls) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 1.300s\n\nOK\n",
+  "output_hash_convention": "stdout + one newline + stderr",
+  "complete_output_sha256": "5777e447f3326b0c16cb8c2386919d5c2dde6d081dd393b2476b85ff0207064f",
+  "all_passed": true,
+  "scope": "New Hensel-shear coefficient identities and finite root lifting, plus an optional conic slice control. Retained112 conormal/product identities,102 conic module and107 divisor filtration identities. Does not verify actual-frame hypotheses, integral topology, finite normalization, infinite completion, the written special-case exclusion or invariant-kernel theorem, arbitrary-frame entry, cancellation or novelty."
+}

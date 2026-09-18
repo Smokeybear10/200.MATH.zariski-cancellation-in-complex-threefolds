@@ -1,0 +1,92 @@
+{
+  "pass": 145,
+  "status": "working_partial_theorem; unrestricted_cancellation_unsolved",
+  "proof": {
+    "path": "research/common-gauss-integrality-tail-primitivity-pass145-working.md",
+    "sha256": "d07b10759eea004d22f4ce39cad459c7ebb3dd291f4fb1c24664530f374ab859",
+    "numbered_equations": 15,
+    "assumptions": "Retained actual139 dense three-good chart, its exact signed Taylor coefficients and actual polynomial coordinate inverse; the earlier chart reductions are working inputs, not recursively certified here.",
+    "conclusions": [
+      "All actual first-tail factors are active and coincide with the selected simple irreducible curve equation: Phi is a coefficient-field unit times g.",
+      "The speed-ratio field and fixed tail coefficients recover the intrinsic coefficient field L.",
+      "The fixed-good last-coordinate shear minimum is deg(g)-1, using the retained139/141 degree and shear results."
+    ],
+    "critical_distinctions": [
+      "The common coefficient field is an abstract copy, not presumed the original invariant subfield in the rational target field.",
+      "Gauss noncancellation uses transcendence on active factors only.",
+      "Inactive factors first receive a ring homomorphism, not an unproved field embedding. Polynomial integrality of actual invariant expressions and the three affine identities then force activity.",
+      "The residue comparison is at X=infinity. Polynomiality is essential to infer stationarity from valuation zero."
+    ]
+  },
+  "canonical_execution": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.common_gauss_valuation_controls_pass145 -v",
+    "source_sha256": "45e448df6ea925c3906de3046a8b0897f845a3f77b6b1e047e7bdfee5295f7db",
+    "full_source_reads": ["3cb461 before execution, retained in continuation history", "0df90d current full source and metadata reread"],
+    "completion_output": "565a12",
+    "state": "completed_in_initial_call",
+    "exit_code": 0,
+    "test_methods": 4,
+    "reported_seconds": 0.707,
+    "python": "3.13.5 Anaconda",
+    "sympy": "1.13.3",
+    "runtime_recheck": "0df90d",
+    "pending_process_or_session": false
+  },
+  "superseded_execution": {
+    "completion_output": "26e824",
+    "source_sha256": "7efb7955822e4454619384a7507c9d0ad525668a897802687ee61cf20d074e5a",
+    "methods": 3,
+    "reported_seconds": 0.506,
+    "exit_code": 0,
+    "scope": "Earlier three-method checker only. Not the final four-method verification; not an additional four tests."
+  },
+  "finite_test_scope": [
+    "Inverse-verified sharp families at degrees3,4, exact invariant residues and coefficient recovery.",
+    "Inverse-verified coefficient covers at exponents2,3, with finite chosen algebraic Taylor jets. No rationality of the complete algebraic root is inferred.",
+    "Two expressly nonactual formal branches, eight sampled rational valuations, and a valuation-zero nonconstant rational negative control.",
+    "Actual cubic inverse and explicit Laurent-integral invariant polynomials, with product controls and a deliberately noninjective ring specialization. That specialization is not an actual inactive factor.",
+    "These tests verify identities in examples, not all instances of the theorem or cancellation."
+  ],
+  "model_reviews": {
+    "root": "Full145 proof and source reviewed before execution in retained outputs; current proof reread c469db and checker/runtime/hash reread0df90d. Current conclusion/scope read and canonical terminal test565a12.",
+    "general": "Full fourteen-equation draft d95689+c47d14; final equation15/source delta3b8ec5+0b2f7e. Final SHA d07b1075... matches. Reverse-delta reconstruction confirmed earlier sections unchanged.",
+    "geometry": "Full fourteen-equation draft afeb7a; final corollary delta271844/hash396278 and retained139/141 inputs checked. Final fourth-checker-method delta28c142/hashb729fb supplements full first-three-method source review42d62e.",
+    "jet": "Full proof audit99d8ab, including the all-factor ring-only argument, reported clean. Author source reviewd3ac1b and final metadata646540 at the final checker hash. No tests executed by Jet.",
+    "limits": "Separate model reconstructions are not independent human peer review or proof-assistant verification. No guarantee that all inherited reductions are correct is inferred from model agreement."
+  },
+  "integrity": {
+    "frozen144_artifacts_matched": 7,
+    "checkpoint144_sha256": "a555a6295c4a72e1acf86434b19f71a35bd80d2e9430c24d4c9503f57f5074d9",
+    "fresh_check": "0df90d",
+    "proof_bytes": 18061,
+    "proof_lines": 447,
+    "checker_bytes": 15732,
+    "checker_lines": 269,
+    "old_active_only_draft": "Moved and expanded into the final proof; not a separate frozen artifact.",
+    "old_suites_rerun": false
+  },
+  "literature_scope": "Exploratory primary-source searches supplied no new classification used in the direct Gauss argument. Known plane epimorphism and earlier working139/141 inputs remain explicit dependencies. No comprehensive statement-level novelty audit is complete.",
+  "goal_audit": {
+    "previous_goal_turn": "progress: the user check-in completed the final source-matched four-method execution565a12, yielding terminal verification evidence",
+    "current_continuation": "progress: recording145 evidence and attacking the next divisorial/global descent gap",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "remaining_obligations": [
+    "Polynomial descent across coefficient-denominator divisors and the divisor of the selected speed.",
+    "An argument placing an arbitrary sliced polynomial fourfold in the retained three-good setup, or another route covering arbitrary cylinders.",
+    "The full unconfirmed corrected complex-threefold cancellation objective.",
+    "Professor-intent confirmation, human expert review and historical priority assessment."
+  ],
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "frozen_earlier_files_edited": false
+  }
+}

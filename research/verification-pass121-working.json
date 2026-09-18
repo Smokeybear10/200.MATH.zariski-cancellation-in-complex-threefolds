@@ -1,0 +1,84 @@
+{
+  "pass": 121,
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.cubic_null_axis_checks_pass121",
+    "research.cubic_nonnull_axis_checks_pass121",
+    "research.cubic_null_polynomial_speed_checks_pass121",
+    "research.cubic_scalar_speed_boundary_checks_pass121",
+    "research.cubic_conic_axis_checks_pass120",
+    "research.cubic_rational_transfer_checks_pass120",
+    "research.nonconical_quadratic_potential_checks_pass90"
+  ],
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+  "suites": 7,
+  "test_methods": 9,
+  "new_methods": 5,
+  "retained_methods": 4,
+  "elapsed_seconds": 3.6433750411961228,
+  "exit_code": 0,
+  "inputs": [
+    {
+      "module": "research.cubic_null_axis_checks_pass121",
+      "path": "research/cubic_null_axis_checks_pass121.py",
+      "sha256_before": "f72e88e1da70efaf2b26d085e627443e02af2dbf7daf876b1f907433425ae03f",
+      "test_methods": 1,
+      "sha256_after": "f72e88e1da70efaf2b26d085e627443e02af2dbf7daf876b1f907433425ae03f",
+      "unchanged": true
+    },
+    {
+      "module": "research.cubic_nonnull_axis_checks_pass121",
+      "path": "research/cubic_nonnull_axis_checks_pass121.py",
+      "sha256_before": "7802b5c81182daf0124d3517a0a1a919a36803c2e1ceda44bf49b0937e04f653",
+      "test_methods": 2,
+      "sha256_after": "7802b5c81182daf0124d3517a0a1a919a36803c2e1ceda44bf49b0937e04f653",
+      "unchanged": true
+    },
+    {
+      "module": "research.cubic_null_polynomial_speed_checks_pass121",
+      "path": "research/cubic_null_polynomial_speed_checks_pass121.py",
+      "sha256_before": "0a1f4ea2abf826fc004be7a246210b508cab00d453b9dbbb7b2ce8606b0bd01f",
+      "test_methods": 1,
+      "sha256_after": "0a1f4ea2abf826fc004be7a246210b508cab00d453b9dbbb7b2ce8606b0bd01f",
+      "unchanged": true
+    },
+    {
+      "module": "research.cubic_scalar_speed_boundary_checks_pass121",
+      "path": "research/cubic_scalar_speed_boundary_checks_pass121.py",
+      "sha256_before": "0becc9b68ab28aec037dcddb74f5ea66c95f575cf3f7052a35ac2d171a2d6c88",
+      "test_methods": 1,
+      "sha256_after": "0becc9b68ab28aec037dcddb74f5ea66c95f575cf3f7052a35ac2d171a2d6c88",
+      "unchanged": true
+    },
+    {
+      "module": "research.cubic_conic_axis_checks_pass120",
+      "path": "research/cubic_conic_axis_checks_pass120.py",
+      "sha256_before": "ddef12d7343a51decc198b272c872a0af5578766125cddb8e4f5f38a5734ce7e",
+      "test_methods": 2,
+      "sha256_after": "ddef12d7343a51decc198b272c872a0af5578766125cddb8e4f5f38a5734ce7e",
+      "unchanged": true
+    },
+    {
+      "module": "research.cubic_rational_transfer_checks_pass120",
+      "path": "research/cubic_rational_transfer_checks_pass120.py",
+      "sha256_before": "a9836678368493de7f3ac6830ff23cb037cf447e1f348524bdf210d60a917416",
+      "test_methods": 1,
+      "sha256_after": "a9836678368493de7f3ac6830ff23cb037cf447e1f348524bdf210d60a917416",
+      "unchanged": true
+    },
+    {
+      "module": "research.nonconical_quadratic_potential_checks_pass90",
+      "path": "research/nonconical_quadratic_potential_checks_pass90.py",
+      "sha256_before": "d429f7e80321c813d0745bd61834a26a642750ffeff3b31a2965c78bc94bc966",
+      "test_methods": 1,
+      "sha256_after": "d429f7e80321c813d0745bd61834a26a642750ffeff3b31a2965c78bc94bc966",
+      "unchanged": true
+    }
+  ],
+  "complete_output": "\ntest_null_connection_lower_volume_and_generic_control (research.cubic_null_axis_checks_pass121.NullAxisChecks.test_null_connection_lower_volume_and_generic_control) ... ok\ntest_normalized_potential_and_all_volume_coefficients (research.cubic_nonnull_axis_checks_pass121.NonnullAxisChecks.test_normalized_potential_and_all_volume_coefficients) ... ok\ntest_scalar_derivative_conversion_and_first_integral (research.cubic_nonnull_axis_checks_pass121.NonnullAxisChecks.test_scalar_derivative_conversion_and_first_integral) ... ok\ntest_reciprocal_certificates_and_cubic_speed_control (research.cubic_null_polynomial_speed_checks_pass121.NullPolynomialSpeedChecks.test_reciprocal_certificates_and_cubic_speed_control) ... ok\ntest_both_nonnull_scalar_types_have_unimodular_polynomial_speeds (research.cubic_scalar_speed_boundary_checks_pass121.ScalarSpeedBoundaryChecks.test_both_nonnull_scalar_types_have_unimodular_polynomial_speeds) ... ok\ntest_normalized_conic_connection_and_tensor (research.cubic_conic_axis_checks_pass120.CubicConicAxisChecks.test_normalized_conic_connection_and_tensor) ... ok\ntest_volume_coefficients_exactness_and_finite_gauge (research.cubic_conic_axis_checks_pass120.CubicConicAxisChecks.test_volume_coefficients_exactness_and_finite_gauge) ... ok\ntest_quadratic_field_transfer_and_missing_original_inverse (research.cubic_rational_transfer_checks_pass120.RationalTransferChecks.test_quadratic_field_transfer_and_missing_original_inverse) ... ok\ntest_generic_volume_coefficient_and_symmetric_potential (research.nonconical_quadratic_potential_checks_pass90.NonconicalQuadraticPotentialChecks.test_generic_volume_coefficient_and_symmetric_potential) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 3.267s\n\nOK\n",
+  "complete_output_sha256": "9cc213bf454268190447e84af44fc401a86ac0e94d037b87d4448cda9a1c7406",
+  "scope": "Targeted exact conditional coefficient and control checks only. No full historical rerun, field integration proof, global original inverse, cancellation proof, human expert review, or novelty clearance."
+}

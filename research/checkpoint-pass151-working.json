@@ -1,0 +1,99 @@
+{
+  "pass": 151,
+  "status": "all_degree_polynomial_slice_off_speed_determinant; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass150-working.json",
+    "sha256": "6f0f1cbe5d869217a24d7dac2aa69c3be76d9c0ebfe312c156d79038bcbd72f9",
+    "records": 983
+  },
+  "chain_record_count_after_including_this_checkpoint": 989,
+  "record_count_convention": "983 previous records plus two notes, two checkers, verification151 and this checkpoint. Live indexes and unfinished152 work excluded; record counts do not measure mathematical significance.",
+  "artifacts": [
+    {
+      "path": "research/dense-all-degree-primitive-jacobian-factor-pass151-working.md",
+      "sha256": "20fd8906b0f4057ec13529df077f27ec01bd861f2263e0c1325d2cbe014b9c61",
+      "bytes": 16739,
+      "lines": 386,
+      "equations": 11,
+      "test_methods": 0
+    },
+    {
+      "path": "research/nonsliced-top-three-good-gate-pass151-working.md",
+      "sha256": "78d3ee2bb84d4ddd634626be1173a7d59ba02840f4d55298fde22e9c913f46be",
+      "bytes": 8809,
+      "lines": 226,
+      "equations": 9,
+      "test_methods": 0
+    },
+    {
+      "path": "research/off_omega_tail_slice_controls_pass151.py",
+      "sha256": "0ee6bfc26fe181aa6917db9be1c8531749d509c71d908744251dbb27859a23e4",
+      "bytes": 9792,
+      "lines": 206,
+      "equations": 0,
+      "test_methods": 2
+    },
+    {
+      "path": "research/nonsliced_top_gate_controls_pass151.py",
+      "sha256": "76bad9da1a4dafd48cbb34d510202430911707cf896e134a4e792407b867b458",
+      "bytes": 6958,
+      "lines": 165,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/verification-pass151-working.json",
+      "sha256": "4d6ae180eb48cfefff07a70dff346a6ffb06bdc6696b019127489bcd9b3066e2",
+      "bytes": 7590,
+      "lines": 124,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "results": [
+    "Every actual dense three-good frame with intrinsic S=C[P,Q] has N=Omega*D, Omega=det[a,a_P,a_Q], with D the global primitive original-coordinate Jacobian LND.",
+    "The actual canonical Taylor coefficients descend over S[1/(Omega*s)], and the corrected second negative coefficient supplies a polynomial slice there.",
+    "Invariant patching gives A_Omega=S_Omega[r]. Thus ell_p=k_p for p not dividing Omega; the primitive plinth is supported on Omega=0. A=C^[3] when Omega is a complex unit in the stated coordinate setting.",
+    "A genuine degree-two sliced-pair construction with a full quadratic residue extension cannot supply the three-good frame: ker T intersect ker E^2=C plus C*u."
+  ],
+  "verification": {
+    "capture": "research/verification-pass151-working.json",
+    "canonical_completions": [
+      "db0259",
+      "71b206"
+    ],
+    "exit_codes": [
+      0,
+      0
+    ],
+    "test_methods": 5,
+    "numbered_equations": 20,
+    "pending_test_execution_handles": false,
+    "scope": "Conditional written all-degree proofs, separate AI reconstructions and finite exact identity checks. No full cancellation, human review, formal verification or novelty clearance."
+  },
+  "next_bounded_task": "Attack prime factors of Omega, using actual inverse constraints on the poles of the coefficient partials. An unfinished152 follow-up is deriving an explicit primitive-plinth exponent bound. Noncontracted ramification examples must retain their true shear minimum and must not be confused with a new recognition regime.",
+  "closed_scope": "The off-Omega selected-divisor problem is now resolved under the actual dense-frame hypotheses. Do not reopen it as merely a freeness or generic-fiber question. The earlier coefficient-subring family150 and the explicit failed pair151 are also closed within their stated hypotheses.",
+  "remaining_gaps": [
+    "Full residue-field behavior on the speed-determinant divisor Omega=0, or another global descent mechanism.",
+    "Entry into the supplied dense three-good coordinate setting from an arbitrary sliced action and treatment of other profiles.",
+    "Professor-intent confirmation, human expert reconstruction and historical priority."
+  ],
+  "goal_audit": {
+    "previous_turn_classification": "progress: new151 exact pair verification71b206 and independent review",
+    "current_turn_classification": "progress: all-degree primitive-factor extension, actual polynomial slice on all of D(Omega), two independently reviewed notes and five passing finite exact methods across two distinct sources",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  }
+}

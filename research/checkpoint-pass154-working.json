@@ -1,0 +1,89 @@
+{
+  "pass": 154,
+  "status": "all_fixed_axis_two_stage_nongraphs_excluded; semiprime_generic_degrees_recognized; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass153-working.json",
+    "sha256": "b87f42e1aaed48e161d87db70b3dc7c5991e7abd55bda31606d02179345ffca3",
+    "records": 1000
+  },
+  "chain_record_count_after_including_this_checkpoint": 1005,
+  "record_count_convention": "1000 prior records plus two proof notes, one checker, verification154 and this checkpoint. Live indexes and all155 work excluded. Counts do not measure mathematical significance.",
+  "artifacts": [
+    {
+      "path": "research/two-stage-nongraph-continuation-pass154-working.md",
+      "sha256": "c42a8aeae9e858db830a2d5d65c9653eacd704c977ce8e3e68127732db5692ed",
+      "bytes": 12577,
+      "lines": 324,
+      "equations": 12,
+      "test_methods": 0
+    },
+    {
+      "path": "research/semiprime-generic-degree-recognition-pass154-working.md",
+      "sha256": "4d0904d0df33048c3ea3f7935a88bc4c3e45dbd40479363370c34ba33475e99b",
+      "bytes": 6954,
+      "lines": 155,
+      "equations": 4,
+      "test_methods": 0
+    },
+    {
+      "path": "research/two_stage_nongraph_controls_pass154.py",
+      "sha256": "98d5f44576b30b5662ccdfe534a9cc3a6ae87129b26bab3760953539556b452d",
+      "bytes": 10113,
+      "lines": 203,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/verification-pass154-working.json",
+      "sha256": "5b5073aaa1070740ead0a40ad14c36be18f40f8a81915bb4f30ea0e9459fc3a5",
+      "bytes": 6700,
+      "lines": 89,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "results": {
+    "common_hypotheses": "Actual sliced complex polynomial four-ring with three E-affine coordinates, rank-two speeds and dense homogeneous speed cone. Fixed-good minimum mu>=2 and exact normalized chart153, canonical tails139/141 and selected whole-kernel/Gauss theorem145 are retained inputs, not freshly proved upstream results.",
+    "two_stage": "An exact fixed-axis placement Phi=B_q(V-A_r(U))+ell*U+n with r,q>=2 and ell!=0 cannot occur. Centered coefficient comparison forces r=2, complex outer coefficients, and a complex constant translation parameter. For r>2 the constant-in-residual identity already contradicts the U degree.",
+    "actual_reconstruction": "After the actual constant X translation and allowable complex polynomial last-coordinate shears, the literal canonical jets return to the displayed complex homogeneous coefficients. The selected common Gauss model gives H=a*alpha*tau^2/eps+alpha*b0*tau-alpha*rho+eps*zeta and I=zeta-alpha*d0, hence deg_E H=1 and EI=0.",
+    "polynomial_contradiction": "A generalized triangular locally nilpotent flow using the full preserved H yields genuine coordinates (x,Y,r,J), with r=I/alpha and E r=E J=0. Both divided differences are polynomial at x=0. The original E^2 Z=0 then forces an odd valuation of a square at the prime linear in J, a contradiction.",
+    "semiprime": "If d=mu+1 has two prime factors counted with multiplicity, AMS gives a prime smaller generic degree e unless it is one. Repeated leading subtraction in the exact field L exposes the literal two-stage equation without any coefficient-dependent original coordinate change. Its exclusion forces the graph; retained153 recognition then gives A=C^[3]. In particular mu=5 is newly recognized.",
+    "remaining": "Full cancellation and arbitrary-coordinate entry remain unsolved. The next unrecognized dense minimum in this frozen packet is mu=7 (generic degree8); longer-chain155 calculations are explicitly excluded from154. Conditional progress does not estimate distance to a general proof."
+  },
+  "verification": {
+    "capture": "research/verification-pass154-working.json",
+    "canonical_completion": "345c19",
+    "initial_output": "1951e9",
+    "exit_code": 0,
+    "methods": 3,
+    "seconds": 1.394,
+    "numbered_equations": 16,
+    "pending_execution_handle": false,
+    "scope": "Written deductions from retained inputs, separate AI reconstructions and finite exact controls. No human review, formal verification or novelty clearance."
+  },
+  "goal_audit": {
+    "previous_turn_classification": "no progress: brief user-requested status turn; live parallel tasks were confirmed, then this continuation resumed the saved proof and verification.",
+    "current_turn_classification": "progress: complete all-two-stage conditional exclusion, semiprime exhaustion and three terminal exact methods; separate longer-chain investigation started but not used as154 evidence.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "payment": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Audit the separate155 all-three-stage gradient obstruction and the newer arbitrary-length critical-fiber candidate. Prove the leading-coefficient gate and exact fixed-axis chain applicability before claiming all nongraphs excluded. Continue to keep arbitrary-coordinate entry as an independent unsolved requirement.",
+  "remaining_gaps": [
+    "Other nongraph generic embedded lines in this packet, starting with minimum mu=7.",
+    "Arbitrary entry into the dense three-good profile and other general profiles.",
+    "Professor-intent confirmation, expert reconstruction and historical-priority audit."
+  ]
+}

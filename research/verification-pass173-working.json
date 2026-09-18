@@ -1,0 +1,121 @@
+{
+  "pass": 173,
+  "status": "working_recognition_of_zero_r_nonzero_n_rho_actual_cusp_branch; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/cusp-zero-r-coefficient-normal-form-pass173-working.md",
+      "sha256": "686627f659219a91897d85ef5f01f5828148d6a198b1fe220c9d25ccd52a4ac4",
+      "bytes": 9091,
+      "lines": 256,
+      "equations": 15,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp-zero-r-field-forcing-pass173-working.md",
+      "sha256": "23b2f5b61413d26ee232c03baec48bbd67a4a4a7f867874e4260170742daca47",
+      "bytes": 11830,
+      "lines": 306,
+      "equations": 15,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp-zero-r-global-coordinate-pass173-working.md",
+      "sha256": "6d6a72083b8d69718e973b39f3319e4a066181d257fd06e4a7ab053681f99518",
+      "bytes": 9688,
+      "lines": 259,
+      "equations": 17,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp_zero_r_coefficient_normal_form_controls_pass173.py",
+      "sha256": "5e1f764343e08e8877221e494adf99ea8d37fb4bfffc006a439d1a96fe58b373",
+      "bytes": 9417,
+      "lines": 215,
+      "equations": 0,
+      "test_methods": 3
+    }
+  ],
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass172-working.json",
+    "sha256": "327614225f8fd0792fa7de0346986f510515683e676059e8e93b5fa19ba2f514",
+    "records": 1091
+  },
+  "results": {
+    "actual_hypotheses": "Retains the full actual159 globally sliced complex polynomial four-frame, exact E-time(1,1,2,2), full weighted initial cusp kernel(XZ-Y^3), selected N, exact finite coefficient field L over C(t,rho), whole generic line and actual equality Frac(A)=C(y,z,w). Assumes r=k_rho=0 and s=n_rho!=0. The selected speed EX is nonzero, not assumed a unit.",
+    "coefficient_derivatives": "Starting with the retained171 relation rho=a*n^2+b*n+c over K=ker(partial_rho), the commuting fixed-n coefficient derivatives are defined on the original finite separable extension. K is finite over C(t) with derivative constants C; neither K=C(t) nor L=K(n) is assumed at this stage.",
+    "coefficient_normal_form": "The exact integration R_U=delta P keeps an unrestricted intercept R0 in L. The highest coefficients force a complex and m quadratic in n. The lower recurrence gives a*h''=0, the exact quadratic intercept R0=gamma*n^2+D*n+R00, and the required compatibility b*h'''+5*b'*h''=0. This condition is retained in the a=0 branch. All P,R coefficients lie in K[n].",
+    "exact_field_return": "Actual Frac(A)=L(y)=C(y,z,w), with y transcendental over L, forces L=K(n) by an explicit rational-indeterminate field intersection. This does not follow from a nonzero Jacobian and does not assert a global polynomial ring for the invariant surface.",
+    "field_forcing": "After subtracting the complex multiple gamma*z^2, the projected equation is a line pencil w1=f(y)*z+g(y), with only the constant coefficient d_star of f possibly outside C. If d_star were nonconstant, actual field equality and the exact pencil-degree lemma would put every coefficient of g in C+C*d_star. Its U and U^2 coefficients force successively k' complex and t complex, a contradiction. Thus d_star is complex. The remaining scalar identity gives g=G(U)+R00 with G complex polynomial, and actual field intersection yields K=C(R00).",
+    "global_polynomial_lift": "On the common field define Tcal=partial_t-X*partial_y-F_U(y)*partial_n. It kills the original X,Y,Z and sends W to g0', where g0=R00 in K and g0'!=0. In both a branches the quadratic n coefficient of W equals a*(X-lambda)^2 with lambda complex. Subtracting a*(X-lambda)^2*Z^2 leaves a linear n coefficient. Its transport by y=Y-tX has zero coefficient derivative, so it is A0(X,Y) in C[X,Y]. Subtracting A0*Z and then transporting the remaining correction similarly gives Q0 in C[X,Y].",
+    "actual_coordinate_and_inverse": "I=W-a*(X-lambda)^2*Z^2-A0(X,Y)*Z-Q0(X,Y)=g0 belongs to B and is E-invariant. Its polynomial inverse fixes X,Y,Z and solves W=I+a*(X-lambda)^2*Z^2+A0*Z+Q0. Consequently B=C[X,Y,Z,I]. No localization denominator is declared a global unit.",
+    "recognition_endpoint": "The original E is a nonzero C[I]-linear LND on the actual polynomial ring C[I]^[3]. The global slice Eu=1 gives A isomorphic B/(u), a regular ring by the gradient criterion. Bhatwadekar-Gupta-Lokhande Theorem3.5 therefore gives A=C[I]^[2]. This is an imported published theorem with checked hypotheses.",
+    "scope": "This recognizes the stated actual r=0,s!=0 cusp branch and includes, rather than excludes, the genuine quadratic coefficient-cover example171. Together with the separate172 exclusion it covers r=0 in this cusp chart. The r!=0,y in L case, other initial configurations and unrestricted coordinate entry are not solved by this packet. No174 result is included."
+  },
+  "canonical_execution": {
+    "performed": true,
+    "command": "/opt/anaconda3/bin/python research/cusp_zero_r_coefficient_normal_form_controls_pass173.py -v",
+    "source_sha256": "5e1f764343e08e8877221e494adf99ea8d37fb4bfffc006a439d1a96fe58b373",
+    "terminal_output": "128020",
+    "methods": 3,
+    "seconds": 0.196,
+    "exit_code": 0,
+    "initial_response_terminal": true,
+    "pending_execution_handle": false,
+    "rerun": false,
+    "scope": "One canonical run by Root after full source read a7fc6e and hash8a0d06. The initial response was terminal and passed all three methods. Geometry's full source review497d2d was afterward; no second run, import or compile was performed."
+  },
+  "tagged_equations": 47,
+  "total_new_test_methods": 3,
+  "finite_controls": {
+    "method_1": "Independent coefficient functions: exact integration, cleared old-to-new derivative identity, and unrestricted U^6,U^5 coefficients.",
+    "method_2": "All R coefficients and the full coefficient recurrence, including the extra a*h'' term before its gate, the unrestricted intercept and lower compatibility.",
+    "method_3": "Coefficient specialization of actual171, a separate nonactual nonconstant-D formal solution, an invalid lower-coefficient boundary, chart derivation identities and independent W-linear polynomial shear inverse.",
+    "limits": "These finite checks do not establish the pencil irreducibility argument, actual field equality, universal coefficient descent, existence of the invariant lift or the published recognition endpoint. The actual171 inverse suite is not rerun."
+  },
+  "reviews": {
+    "normal_form": "Jet full author258dee, followed by the sole precision change explicitly invoking a*h''=0 in the U^2 reduction. Root final full d6899f and Geometry final full c3f41e cover that final wording; General full766cbc and Geometry920ade cover the pre-precision source. Mathematical coefficients are unchanged by the wording correction.",
+    "field_forcing": "General full authorbaa2c9; Root full46b893; Geometry complete reads9e5ead and7fab2f; Jet full8f666c. The exact pencil field, coefficient-span return and both coefficient contradictions were independently reconstructed.",
+    "global_lift": "Root full edf22a, Geometry full a36bba, General full b90808 and Jet full ed84bf cover the complete mathematical source at5efd16f4. Root then applied only the status wording, with final hash7a0e7c at6d6a7208; Geometry read the exact final status delta37c6a7. No mathematical body changed.",
+    "checker": "Jet final author7edaba; Root full a7fc6e and hash8a0d06 before canonical128020; Geometry complete source-only497d2d afterward. No claim that the later independent review preceded the run.",
+    "primary_endpoint": "Fresh exact BGL Theorem3.5 statement and displayed proof: Root turn4183view1, Jet turn4184view1, Geometry turn4186view0. The actual invariant coordinate, nonzero LND, characteristic zero and regular kernel hypotheses are all checked.",
+    "final_metadata": "Geometry read-only metadata1522ce confirms all four final core artifacts and unchanged172 predecessor; no checker is executed during metadata collection."
+  },
+  "proof_dependencies": {
+    "retained": [
+      "research/cusp-generic-chart-first-reductions-pass159-working.md",
+      "research/cusp-zero-r-generic-graph-pass160-working.md",
+      "research/cusp-quartic-actual-field-recognition-pass166-working.md",
+      "research/cusp-zero-r-square-root-actual-boundary-pass171-working.md"
+    ],
+    "separate_scope": [
+      "research/cusp-zero-r-constant-projection-exclusion-pass172-working.md"
+    ],
+    "scope": "The actual cusp chart, whole-line zero-r reduction and171 coefficient-cover integration are retained inputs. The166 elementary pencil proof is reproduced in the field note. The172 exclusion is separate and not needed for the nonzero-s construction. No recursive certification of all historical dependencies is claimed."
+  },
+  "external_dependency": {
+    "theorem": "Bhatwadekar-Gupta-Lokhande Theorem3.5",
+    "source": "https://arxiv.org/html/1501.01438v1",
+    "location": "Theorem3.5 and its displayed proof, lines286-291 in the inspected primary HTML.",
+    "hypotheses_checked": "Field C of characteristic zero; nonzero C[I]-linear locally nilpotent derivation on actual C[I,X,Y,Z]; kernel regular because the original global slice identifies it with smooth B/(u). The coordinate I is proved by a two-sided polynomial inverse before applying the theorem.",
+    "scope": "The exact statement and short proof were freshly read. This imports a published recognition endpoint, not a new classification theorem or an exhaustive audit of its sources."
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Investigate the remaining actual cusp branch r!=0 with y in L. Preserve the distinction between field identities, projected polynomial coordinates and original-ring coordinates. Other initial profiles and unrestricted entry remain independent gaps. Any174 development is outside this173 packet.",
+  "goal_audit": {
+    "prior_completed_evidence": "Retains frozen172 at1091 records and its proof-only status. Prior171 executions are not repeated or counted as173 evidence.",
+    "current_continuation": "Derived and independently reconstructed the unrestricted coefficient normal form, exact field forcing, original-ring invariant-coordinate lift and recognition endpoint. One independent finite suite was canonically run once by Root; packet assembly adds no theorem or execution.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  }
+}

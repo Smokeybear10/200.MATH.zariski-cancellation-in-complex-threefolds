@@ -1,0 +1,120 @@
+{
+  "pass": 214,
+  "status": "rank_two_high_degree_squarefree_center_branches_excluded; linear_center_pair21_and_quadratic_center_pairs21_32_remain; original_recognition_open",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass213-working.json",
+    "sha256": "875c0ae070d085696cbd5b9a90cd691f5b405cb3a031db36082b2d2159d417bc",
+    "records": 1314
+  },
+  "results": {
+    "linear_center_quadratic_second": "Exact cofactor support and monic discriminant comparisons exclude every linear-center case with quadratic second projection. Actual complex lower-time shears normalize k_t and preserve the selected partial and center slope; the resulting Euler exponents -1+i/2 and -1-i/2 contradict algebraicity by a field-norm logarithmic-residue argument.",
+    "quadratic_center_six_four": "The weight26 coefficient forces k_ttt=0. Four characteristic branches of the monic U-quartic force its weight24 initial form to be a repeated square. Comparison with all sextic-potential contributions gives the same impossible nonreal Euler exponent for k_tt over the exact finite extension L/C(t,rho). No unsupported remainder-degree bound is used.",
+    "affine_second_high_first": "Both exact potentials and the scalar determinant sharpen evaluated-cofactor support to R^2. The first potential alone does not suffice. Direct graph coefficients then exclude first degree four by degree eight versus six, and degree three by the unshifted cubic coefficient and norm-residue contradiction.",
+    "surviving_frontier": "The necessary squarefree-center lists are now only(2,1) for a linear center and(2,1),(3,2) for a quadratic center. This packet does not realize or recognize those cases, provide an ambient invariant coordinate, prove the speed is a unit, or establish arbitrary entry. The full cancellation goal remains unresolved. Separate215 and216 material is excluded."
+  },
+  "goal_audit": {
+    "current_progress": "Three bounded exclusion proofs and one five-method finite suite are packaged with complete saved-source reads and one passing canonical execution. The remaining actual recognition frontier is smaller but open.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "actual_full_rank_two_frame_hypotheses_required": true,
+    "linear_center_quadratic_second_excluded": true,
+    "linear_center_affine_second_high_first_excluded": true,
+    "quadratic_center_six_four_excluded": true,
+    "both_potentials_required_for_affine_cofactor_gate": true,
+    "actual_constant_coefficient_shears_verified": true,
+    "remaining_squarefree_branch_recognized": false,
+    "remaining_pairs_realized": false,
+    "speed_unit_proved": false,
+    "coefficient_field_rationality_claim": false,
+    "formal_weighted_branch_fixtures_are_actual": false,
+    "arbitrary_entry_proved": false,
+    "global_minimum_profile_claim": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/rank-two-linear-center-quadratic-projection-exclusion-pass214-working.md",
+      "sha256": "1f600ad81670bab1a7942db29aa266d9d707eccceace82a6e566ffbdc50938ee",
+      "bytes": 12195,
+      "lines": 333,
+      "equations": 22,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank-two-quadratic-center-six-four-exclusion-pass214-working.md",
+      "sha256": "1632635ea390214141c1e8ddfe16874b4f26e2e0b76a0c1e6ed46f9c68ea5264",
+      "bytes": 9918,
+      "lines": 248,
+      "equations": 12,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank-two-affine-second-high-degree-exclusion-pass214-working.md",
+      "sha256": "75de886febb829beb71a9133d40ba05fe89855720a66eb391ed826bfc12023ed",
+      "bytes": 8173,
+      "lines": 214,
+      "equations": 15,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank_two_high_degree_exclusion_controls_pass214.py",
+      "sha256": "d2cc143a93ad7523cbf6af6c33a531072ca1522d853d2c16317fcda0eeab0f9f",
+      "bytes": 12619,
+      "lines": 232,
+      "equations": 0,
+      "test_methods": 5
+    },
+    {
+      "path": "research/verification-pass214-working.json",
+      "sha256": "154f46dc2cd8db63e9460323f1db03e1dd63e462246a8661385b6565fa6cb044",
+      "bytes": 10242,
+      "lines": 123,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "chain_record_count_after_including_this_checkpoint": 1320,
+  "record_count_convention": "1314 frozen predecessor records plus three proof notes, one checker source, verification214 and this checkpoint: six new records. Mutable indices are not records. No215/216 source, unsaved exploration, retained input or previous canonical execution is counted.",
+  "verification": {
+    "capture": "research/verification-pass214-working.json",
+    "canonical_runs": [
+      {
+        "suite": "rank_two_high_degree_exclusion_controls214",
+        "path": "research/rank_two_high_degree_exclusion_controls_pass214.py",
+        "pre_execution_read": "Author complete EOFae402a/metadatade2145; Root complete EOF1bec22/hash0383a6. Source held unchanged between the complete reads and sole execution.",
+        "initial_output": "717c7a",
+        "session_id": null,
+        "terminal_output": "717c7a",
+        "methods": 5,
+        "unittest_seconds": 0.450,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "completion_via_original_handle": false,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/rank_two_high_degree_exclusion_controls_pass214.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "login": false,
+        "initial_yield_time_ms": 1000,
+        "initial_max_output_tokens": 6000
+      }
+    ],
+    "new_suites": 1,
+    "new_methods": 5,
+    "tagged_equations": 49,
+    "scope": "Full high-coefficient formal jets; actual constant-shear inverse orders and selected-partial columns; exact weighted pieces and resultant; the explicit residual distinguishing both potentials; finite graph-degree and Euler norm arithmetic. These controls do not prove universal cofactor support, finite-field or norm theorems, characteristic-branch completeness, actual realization or recognition. Author and Root full reads preceded the sole initially-terminal canonical run; no additional full peer checker review is claimed."
+  },
+  "next_bounded_task": "Study the surviving(2,1) linear-center and(2,1),(3,2) quadratic-center possibilities using their actual chart hypotheses. Do not infer original-ring recognition from the present exclusions and do not rerun214. Separate215/216 work is not incorporated."
+}

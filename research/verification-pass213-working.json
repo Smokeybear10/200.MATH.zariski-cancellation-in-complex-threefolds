@@ -1,0 +1,113 @@
+{
+  "pass": 213,
+  "status": "rank_two_squarefree_degree_lists_pruned; linear_center_quadratic_projection_described_over_coefficient_field; original_recognition_open",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass212-working.json",
+    "sha256": "7ca24e8c1821967c22d6ab0f226d565995ffea390d737141d13a197e091e0612",
+    "records": 1309
+  },
+  "results": {
+    "monic_center_pruning": "Under the retained actual rank-two principal-kernel hypotheses, the finite-free L[theta]-module O=L[v] and birationality make the selected relation G monic in U of degree e. At the squarefree center of degree m, its U-degree does not drop, so e is at most2m and the specialized cofactor has exact U-degree2m-e. When that degree is positive, its pure-V top yields d at most5-2m+e. The constant-cofactor case is explicitly excluded from this last inequality; no reduced-fiber assumption is made.",
+    "necessary_degree_lists": "For a linear squarefree center, the necessary pairs(d,e) are(2,1),(3,1),(4,1),(3,2),(4,2),(6,2). For a quadratic squarefree center they are(2,1),(3,2),(6,4). The lists combine exact center specialization with the retained conductor bound and do not assert existence of any actual frame. An independent U-degree check excludes e=3.",
+    "formal_cancellation_boundary": "The formal pair theta=x^4+x and y=x^6+(3/2)x^3+3/8 satisfies y^2-theta^3=x^3/8+9/64. Thus leading cancellation in degrees(6,4) can leave degree3. This is a negative control against an unsupported next-degree inference, not an actual solution of the differential potentials, determinant, conductor or frame hypotheses.",
+    "linear_center_quadratic_projection": "For a linear center and e=2, exact division gives D=alpha U+D0(V), and the actual triple-ring equality yields O=L[theta,wtilde] with y=U0-R wtilde/B1. After completing theta's square over the exact field L, the odd-part generation argument forces wtilde=P(theta)+b1 x, with b1 a nonzero element of L. It follows that C=L[y,theta]=L[x^2,x^3+c1x] is a proper plane ring of defect dimension one, with conductor exactly(x^2+c1)O=RO. It is geometrically a node when c1 is nonzero and a cusp when c1 is zero.",
+    "projected_degree_bookkeeping": "P zero or constant gives(d,e)=(3,2), degreeP1 gives(4,2), and degreeP2 gives(6,2). In each case deg wtilde=d-2; degreeP at least3 contradicts d at most6. These are coefficient-field polynomial recoveries, not ambient coordinate changes over C.",
+    "remaining_scope": "No remaining squarefree rank-two branch is recognized or realized by this packet. The projected-ring description does not remove original-ring denominators or provide an ambient invariant coordinate. Other initial kernels, arbitrary entry and unrestricted cancellation remain open. Separate214 exclusion notes and later explorations are excluded."
+  },
+  "goal_audit": {
+    "current_progress": "Two coefficient-field proof notes and one four-method finite exact-algebra suite sharpen the rank-two frontier. One canonical execution passed after complete saved-source reads. This is a necessary degree/ring description, not original-ring recognition or completion of the global goal.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "actual_full_rank_two_frame_hypotheses_required": true,
+    "coefficient_field_ring_description_only": true,
+    "monic_center_bounds_proved": true,
+    "linear_center_quadratic_projection_proper": true,
+    "node_cusp_description_proved": true,
+    "remaining_squarefree_branch_recognized": false,
+    "listed_pairs_realized": false,
+    "coefficient_field_normalization_is_ambient": false,
+    "coefficient_field_rationality_claim": false,
+    "formal_cancellation_fixture_is_actual": false,
+    "arbitrary_entry_proved": false,
+    "global_minimum_profile_claim": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/rank-two-squarefree-center-degree-pruning-pass213-working.md",
+      "sha256": "6fc73470c53b80d33e3fb80101a6eb7dc48acc4d7f833a2620eca0b2630c13e4",
+      "bytes": 6434,
+      "lines": 168,
+      "equations": 8,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank-two-linear-center-quadratic-projection-pass213-working.md",
+      "sha256": "5f158d551702edb2e1ce48d8a42172af6a72a9f01878b7f1fc5728a69a41dc5f",
+      "bytes": 7329,
+      "lines": 206,
+      "equations": 12,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank_two_center_projection_controls_pass213.py",
+      "sha256": "2521a6c65e98fd8ba6a30f9e858403dba46d0683fde8f96c446009a365ca0204",
+      "bytes": 8758,
+      "lines": 176,
+      "equations": 0,
+      "test_methods": 4
+    }
+  ],
+  "canonical_executions": [
+    {
+      "suite": "rank_two_center_projection_controls213",
+      "path": "research/rank_two_center_projection_controls_pass213.py",
+      "pre_execution_read": "Author complete EOF7d53db/hash6c31c5/countb28a2c/method7b5678; Root complete0015a3.",
+      "initial_output": "cc52cb",
+      "session_id": null,
+      "terminal_output": "cc52cb",
+      "methods": 4,
+      "unittest_seconds": 0.116,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "completion_via_original_handle": false,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/rank_two_center_projection_controls_pass213.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "login": false,
+      "initial_yield_time_ms": 1000,
+      "initial_max_output_tokens": 6000
+    }
+  ],
+  "tagged_equations": 20,
+  "total_new_test_methods": 4,
+  "reviews": {
+    "degree_pruning": "Geometry final author EOF/hash83046a; General complete48987f; Jet complete54213a/hash8718bd. The monic characteristic-polynomial argument, exact specialization degrees, positive-degree cofactor inequality with the constant exception, both necessary lists and the formal cancellation identity reconstruct. Neither normality of the plane nor an etale center fiber is assumed.",
+    "linear_center": "Geometry final author EOFe2818e; General complete103aa4/hash23d51a; Root complete41a149; Jet completebf702c/hash8718bd. The full triple-ring input precedes the exact division and odd-part argument. Square completion takes no square root of the quadratic leading coefficient. Both plane-ring inclusions, the even/odd decomposition, exact conductor, geometric node/cusp boundary and the degree table reconstruct. The point-separation and chain-rule conditions are used only as necessary consequences of generation.",
+    "checker": "Author complete7d53db/hash6c31c5/countb28a2c/method7b5678 and Root complete0015a3 preceded the sole canonicalcc52cb. Four methods check finite monic reduced/nonreduced center fixtures and degree lists, exact D division and projected recovery identities, bounded conductor parity formulas with the node/cusp polynomial, and degree bookkeeping with the formal Davenport cancellation control. No additional full peer checker review is claimed.",
+    "metadata": "Read-onlye4172a/6ef405 confirms both frozen212 hashes and all three213 source hashes and byte/line counts. The saved checker is unchanged after the sole initially-terminal run. No214 source, unsaved exploration or retained run is counted."
+  },
+  "proof_dependencies": {
+    "retained": [
+      "research/rank-two-t-independent-sextic-reduction-pass212-working.md",
+      "research/radical-projection-conductor-cubic-reduction-pass206-working.md",
+      "research/weight-four-universal-chart-potentials-pass184-working.md"
+    ],
+    "scope": "These retained actual-chart, sextic and conductor inputs are not new213 records or reruns. The new arguments are elementary exact-field polynomial and module arguments. No new primary-paper access, human review or novelty clearance is claimed."
+  },
+  "finite_control_scope": "Finite monic characteristic-polynomial fixtures, degree-pair enumeration, exact center division, coefficient-field ring recovery, bounded even/odd conductor identities, node/cusp polynomial identities, projected degree checks and one formal cancellation example. These tests do not prove universal finite-free monicity, field descent, conductor geometry, odd-part generation, actual realization or original-ring recognition.",
+  "next_bounded_task": "Use the actual differential potentials and calibrated determinant to test the remaining squarefree-center possibilities, while keeping coefficient-field normalizations separate from ambient polynomial coordinates. Do not rerun213. Separate214 work is not incorporated."
+}

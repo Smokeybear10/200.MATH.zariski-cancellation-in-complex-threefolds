@@ -1,0 +1,387 @@
+# A rank-one cancellation remainder need not be a coordinate
+
+**Status: an exact elementary-descent criterion and an actual obstruction control.**
+
+An elementary degree decrease in coordinate X_j is equivalent to
+membership of its leading form in the FULL embedded associated graded
+of the other-coordinate subalgebra. The algebra generated just by those
+three coordinate initials need not be that associated graded algebra.
+
+The actual translation control below has positive degrees
+(36,23,10,14), initial rank one and a semigroup-minimal degree tuple.
+Its binomial initial relation ZX+Y squared has a full evaluated
+remainder of degree thirteen, below the degrees of X and Y. Nevertheless,
+that remainder is not an ambient polynomial coordinate.
+
+This rules out promoting such a remainder to a coordinate merely
+from positivity, rank one and semigroup minimality. A DIFFERENT explicit
+polynomial in X,Y,Z does give an elementary descent of W to t. The frame
+is not globally minimal, and no classification of its other possible
+descents is asserted.
+
+## 1. The exact actual elementary-descent criterion
+
+Let
+\[
+B=\mathbb C[X_1,X_2,X_3,X_4]=A[u],\qquad
+E\in\operatorname{LND}_{\mathbb C}(B),\quad Eu=1,\quad A=\ker E.
+\tag{1}
+\]
+The displayed X_i are actual polynomial coordinates. For every i put
+d_i=deg_E X_i and c_i=[u to the d_i]X_i. For the criterion fix j
+with d_j positive, and write
+\[
+T_j=\partial_{X_j},\qquad
+R_j=\ker_B T_j=\mathbb C[X_i:i\ne j],\qquad
+X_j=c_j u^{d_j}+\text{smaller degree},\quad c_j\ne0.
+\tag{2}
+\]
+No coordinate status for u or polynomial presentation of A is assumed.
+
+The filtration on R_j is the restriction of the exact E-degree filtration:
+\[
+\mathcal F_rR_j=\{P\in R_j:\deg_E P\le r\},\quad
+\mathcal F_{-1}R_j=0,\qquad
+G_j=\bigoplus_{r\ge0}\mathcal F_rR_j/\mathcal F_{r-1}R_j.
+\tag{3}
+\]
+Use degree of zero equal to minus infinity. Leading coefficients in A[u]
+give an injective graded-algebra map
+\[
+G_j\hookrightarrow A[\eta],\qquad
+[P]_r\longmapsto [u^r]P\,\eta^r.
+\tag{4}
+\]
+For r=0 this is the inclusion of R_j intersect A in A. In every degree
+the kernel is exactly the preceding filtration step. Products are
+compatible because leading coefficients multiply in the domain A.
+Henceforth G_j means this embedded algebra. The derivation E need not
+preserve R_j; no induced derivation on R_j is asserted.
+
+The following three conditions are equivalent:
+\[
+\begin{aligned}
+\text{(i)}\quad&
+\exists\,\gamma\in\mathbb C^*,\ P\in R_j:
+       \deg_E(\gamma X_j+P)<d_j,\\
+\text{(ii)}\quad&c_j\eta^{d_j}\in G_j,\\
+\text{(iii)}\quad&
+\exists\,f\in B:\ \deg_E f<d_j,\quad T_jf\in\mathbb C^*.
+\end{aligned}
+\tag{5}
+\]
+To prove (i) implies (ii), cancellation of the degree-d_j coefficient
+forces P to have exactly that degree and leading coefficient
+minus gamma times c_j. Divide its class in G_j by that nonzero
+complex scalar. Conversely, (ii) supplies P in R_j of degree d_j
+with leading coefficient c_j. Then f=X_j-P has smaller degree.
+
+For (iii), use the unique polynomial expression in the ACTUAL
+coordinates. If partial_{X_j} f=gamma is a nonzero complex constant,
+characteristic zero gives f=gamma*X_j+P with P in R_j. This proves
+(iii) implies (i), and the reverse implication follows by differentiating.
+Every replacement in (i) is an actual elementary automorphism: fix
+the other three coordinates and invert by subtracting P and dividing
+by gamma. In particular the new coordinate cannot be constant.
+
+Consequently a globally minimizing actual frame, whether for the
+sorted nonnegative degree tuple or for its degree sum, necessarily
+satisfies
+\[
+c_j\eta^{d_j}\notin G_j\qquad\text{for every }j\text{ with }d_j>0.
+\tag{6}
+\]
+This is a necessary condition, not a criterion for global minimality.
+The existence of a low-degree polynomial alone is insufficient in
+(iii): its actual partial must be a nonzero complex constant.
+
+## 2. The full initial ideal still requires evaluated remainders
+
+The smaller subalgebra
+\[
+S_j=\mathbb C[c_i\eta^{d_i}:i\ne j]\subseteq G_j
+\tag{7}
+\]
+is determined by the coordinate initials and their full contracted
+initial prime. It need not equal G_j. An actual polynomial in the
+other coordinates can have cancellation at its source weight and
+thereby contribute a new, lower-degree initial form to G_j.
+
+More precisely, give source variable mathsf X_i weight d_i. If a
+nonzero polynomial P in the other actual coordinates has source
+weight M but exact E-degree less than M, its nonzero top source
+part belongs to
+\[
+I_j=\ker\bigl(\mathbb C[\mathsf X_i:i\ne j]
+           \longrightarrow A[\eta],\quad
+           \mathsf X_i\longmapsto c_i\eta^{d_i}\bigr).
+\tag{8}
+\]
+This is the contraction of the FULL four-variable initial kernel.
+Knowing (8) detects the leading cancellation; the next actual
+coefficients determine the evaluated remainder and its initial form.
+
+If d_j is not in the semigroup generated by the other three degrees,
+a correction P as in (i) cannot have source weight M=d_j. Since
+its exact degree is d_j, it must have M>d_j and a canceled top in
+I_j. Thus semigroup minimality merely forces a potential correction
+to use higher-source-weight cancellation. The actual family
+[565](rank-one-semigroup-minimal-actual-translation-controls-pass565-working.md)
+shows that such corrections can exist.
+
+No finite generation of G_j, uniform source-weight bound, or
+termination of a subduction procedure is asserted here. Equations
+(5),(8) do not turn the full toric ideal by itself into a coordinate
+descent algorithm.
+
+## 3. An actual polynomial frame with a complete inverse
+
+Work now in the known translation ring
+\[
+B=\mathbb C[a,b,c,t],\qquad E=\partial_t,\qquad
+\ker E=\mathbb C[a,b,c].
+\tag{9}
+\]
+First introduce the intermediate actual coordinates
+\[
+U=a+t^3+t^2,\qquad V=b+t^5,\qquad Z=c+t^{10},
+\qquad W=t+U^5-V^3.
+\tag{10}
+\]
+The first three changes add polynomials in the unchanged t. The
+last adds a polynomial in the first three current coordinates to t.
+These are actual elementary automorphisms. Their entire inverse is
+\[
+T=W-U^5+V^3,\qquad
+t=T,\quad a=U-T^3-T^2,\quad b=V-T^5,\quad c=Z-T^{10}.
+\tag{11}
+\]
+Substitution of (10) gives T=t and recovers a,b,c. Conversely, (11)
+recovers U,V,Z first and then W=T+U^5-V^3. No localization is used.
+
+Set
+\[
+\Delta=ZU+V^2,\qquad
+X=U-2V\Delta-Z\Delta^2,\qquad
+Y=V+Z\Delta,
+\tag{12}
+\]
+retaining Z,W. The key entire identity and inverse are
+\[
+\begin{gathered}
+ZX+Y^2=\Delta,\\
+R=ZX+Y^2,\qquad
+U_*=X+2YR-ZR^2,\qquad V_*=Y-ZR,\qquad
+ZU_*+V_*^2=R.
+\end{gathered}
+\tag{13}
+\]
+In the first inverse order, replace R by Delta in (13) and substitute
+(12); all terms in Delta and Delta squared cancel to U and V.
+In the reverse order, the last identity in (13) makes the forward
+Delta equal R, so (12) recovers X,Y. Thus (12),(13) are polynomial
+inverses in both orders.
+
+Combining the two stages gives the complete inverse of the final frame:
+\[
+\begin{aligned}
+R&=ZX+Y^2,\\
+U_*&=X+2YR-ZR^2,\qquad V_*=Y-ZR,\\
+T&=W-U_*^5+V_*^3,\\
+t&=T,\qquad a=U_*-T^3-T^2,\qquad
+b=V_*-T^5,\qquad c=Z-T^{10}.
+\end{aligned}
+\tag{14}
+\]
+Every right side uses preceding polynomial expressions. Both inverse
+orders hold on the entire fourfold, including Z=0. In particular
+B=C[X,Y,Z,W], and these are actual coordinates for the same sliced
+derivation E. Both stages have Jacobian determinant one, also checked
+by direct differentiation. Invertibility was proved by the inverse,
+not inferred from the Jacobian.
+
+## 4. Exact positive degrees and the full rank-one prime
+
+The whole intermediate Delta is
+\[
+\Delta=t^{13}+t^{12}+(a+1)t^{10}
+            +2bt^5+ct^3+ct^2+ac+b^2.
+\tag{15}
+\]
+Its degree is exactly thirteen, with leading coefficient one.
+In (10), U has degree three and leading coefficient one, V has
+degree five and leading coefficient one, and Z has degree ten.
+The degree-fifteen terms in U to the fifth and V cubed cancel.
+The next coefficient of U to the fifth, at degree fourteen, is
+five; V cubed has no degree-fourteen term. Hence W has degree
+fourteen and leading coefficient five.
+
+In (12), the term minus Z*Delta squared has degree thirty-six,
+strictly above the degrees eighteen and three of the other two
+terms. The leading term of Y is Z*Delta of degree twenty-three.
+We obtain
+\[
+\begin{gathered}
+(\deg_E X,\deg_E Y,\deg_E Z,\deg_E W)=(36,23,10,14),\\
+(\operatorname{lc}_E X,\operatorname{lc}_E Y,
+ \operatorname{lc}_E Z,\operatorname{lc}_E W)=(-1,1,1,5).
+\end{gathered}
+\tag{16}
+\]
+In particular all four degrees are positive.
+
+After the harmless complex rescalings of the FIRST coordinate by
+minus one and the FOURTH by one fifth, the full coordinate-initial
+map is the monomial-curve map
+\[
+(\mathsf X,\mathsf Y,\mathsf Z,\mathsf W)
+ \longmapsto(\eta^{36},\eta^{23},\eta^{10},\eta^{14}).
+\tag{17}
+\]
+Its image has transcendence degree one. Its FULL kernel is the ideal
+generated by all binomials mathsf X to alpha minus mathsf X to beta
+with nonnegative exponent vectors and equal dot product with
+(36,23,10,14). To see this, collect any source polynomial into
+equal-weight blocks. Its image vanishes exactly when each block's
+coefficients sum to zero; subtracting one reference monomial in each
+block expresses it as a sum of those binomials. The image is a domain,
+so the kernel is prime of height three. Pull back the two complex
+rescalings to obtain the full initial prime of the unrescaled frame.
+No selected factor is substituted for that full kernel.
+
+The tuple is semigroup-minimal. Degree ten is the smallest.
+Fourteen is not a nonnegative multiple of ten. Degree twenty-three
+cannot be a nonnegative combination of ten and fourteen because it
+is odd, and thirty-six is larger. To express thirty-six using the
+others, using twenty-three once leaves thirteen, which is not such
+a combination, while using it twice is too large. Without it, one
+would need
+\[
+10i+14j=36,\qquad\text{or}\qquad 5i+7j=18.
+\tag{18}
+\]
+Here j can only be 0,1,2, giving respectively 18,11,4 on the
+right for 5i; none is divisible by five. Thus no degree belongs
+to the semigroup of the other three. The four degrees have gcd
+one, since already gcd(23,10)=1. This is minimality of the
+semigroup generating set, not minimality of the actual frame.
+
+## 5. The exact remainder is not a coordinate
+
+In the original, unrescaled source coordinates, the polynomial
+\[
+H=ZX+Y^2
+\tag{19}
+\]
+has weighted source degree forty-six. Its two monomials have equal
+weight, and their initial images are minus eta to the forty-sixth
+and plus eta to the forty-sixth. Thus H is a binomial in the FULL
+initial kernel. Its entire evaluation is Delta by (13), with exact
+E-degree thirteen by (15). This is strictly less than both
+deg_E X=36 and deg_E Y=23.
+
+Nevertheless H is not a polynomial coordinate of B. Its entire
+source gradient is
+\[
+(T_XH,T_YH,T_ZH,T_WH)=(Z,2Y,X,0).
+\tag{20}
+\]
+It vanishes at every actual point X=Y=Z=0, with W arbitrary.
+If H were one coordinate of a polynomial automorphism, the
+Jacobian matrix of that automorphism would have this row. It
+would be singular at those points, contradicting the nonzero
+constant Jacobian determinant forced by a polynomial inverse.
+This rules out ANY polynomial coordinate completion of H,
+not just one selected completion.
+
+The attempted elementary replacement of X by H while fixing
+Y,Z,W displays the exact nonunit:
+\[
+T_XH=Z,\qquad T_X^2H=0,\qquad
+\det\frac{\partial(H,Y,Z,W)}{\partial(X,Y,Z,W)}=Z.
+\tag{21}
+\]
+Being linear in X is not enough for criterion (iii) in (5).
+Solving back for X while fixing the other coordinates requires
+division by Z. The full gradient argument retains the divisor
+Z=0 rather than deleting it. The other derivatives in (20) are
+also not nonzero complex constants.
+
+The same H supplies a genuine new graded element for the
+other-coordinate algebra R_W=C[X,Y,Z]:
+\[
+\eta^{13}\in G_W,\qquad
+\eta^{13}\notin S_W=\mathbb C[\eta^{36},\eta^{23},\eta^{10}].
+\tag{22}
+\]
+The first assertion follows from (15); the second follows because
+thirteen is not in that nonnegative semigroup. The sign on the
+X initial does not alter S_W. This proves strict inclusion in
+(7) for an actual other-coordinate subalgebra.
+
+The inverse (13) also decides the membership needed to lower W.
+Both U_* and V_* belong to R_W. Put
+\[
+P=U_*^5-V_*^3\in R_W,\qquad
+\deg_E P=14,\quad \operatorname{lc}_E P=5,\qquad
+5\eta^{14}\in G_W,\qquad W-P=t.
+\tag{23}
+\]
+Indeed U_*,V_* evaluate to U,V. The same degree-fifteen cancellation
+and degree-fourteen coefficient computed before (16) give the two
+degree assertions in (23). Thus fixing X,Y,Z and replacing W by W-P
+is an actual elementary automorphism, with inverse W=t+P. It lowers
+degree fourteen to degree one. This is a successful application of
+(5), using a different cancellation polynomial from H. Neither (22)
+nor (23) computes all of G_W.
+
+## 6. Precise boundary and retained overlap
+
+The mechanism in (12),(13),(20),(21) is the same Nagata-type
+nonunit obstruction explicitly proved in
+[the earlier elementary-descent control124](coordinate-degree-elementary-descent-obstruction-pass124.md).
+That entire source and its
+[polynomial bypass companion](nagata-stabilized-degree-bypass-pass124.md)
+were read through EOF in54a373. The present preliminary elementary
+shears place that mechanism in an all-positive, rank-one,
+semigroup-minimal degree frame. No historical novelty is asserted.
+
+The stronger no-one-step-descent statement in the earlier source
+uses invariant Z,W slots. Here Z,W have positive degrees, so that
+proof is NOT imported. Here (23) explicitly provides a different
+elementary replacement of W. The possible replacements of X,Y,Z,
+or lower corrections to H before seeking a coordinate, are not
+classified. Only the specific remainder H itself is proved not to
+be a coordinate.
+
+The explicit inverse (14) already supplies the actual adapted
+translation frame (a,b,c,t), of degree sum one. The supplied degree
+sum is eighty-three. Thus the frame is not globally minimizing.
+The example refutes an inference from a low-degree cancellation
+remainder to its coordinate status; it is not an example of an
+unknown sliced kernel, a cancellation counterexample, or a proof
+that non-decreasing intermediate changes are necessary.
+
+For a true globally minimizing frame, (6) remains the exact
+necessary elementary-descent restriction. Proving a useful general
+entry theorem still requires additional information about the
+embedded G_j or an actual coordinate change beyond these tests.
+No bound on a search through polynomial corrections is supplied.
+
+## 7. Verification and scope
+
+The target was checked absent before creation. The full writing
+guide was read. Fresh unsaved1b78b0 checked both inverse orders of
+both stages, their Jacobian determinants, the exact degrees and
+leading coefficients (16), the degree of the whole Delta, the
+semigroup arithmetic and the full source gradient (20). The
+explicit W descent (23) follows from the entire inverse and was
+also checked afresh after independent review flagged its omission. The
+proofs of the full kernel, criterion (5) and gradient obstruction
+are supplied above; they are not inferred from finite samples.
+
+Only this source was created. No earlier source or canonical record
+was edited. No saved checker was executed, imported or compiled.
+Independent saved-source review remains required. There is no
+novelty, absence-of-all-elementary-descent, global-minimum,
+arbitrary-entry, recognition or unrestricted cancellation claim.

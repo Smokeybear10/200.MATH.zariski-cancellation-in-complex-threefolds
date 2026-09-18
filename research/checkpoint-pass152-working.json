@@ -1,0 +1,69 @@
+{
+  "pass": 152,
+  "status": "effective_primitive_plinth_exponent_bound; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass151-working.json",
+    "sha256": "da056b55702d6919f1c90b715b0eac274a5eb00761a5fb955d6810c3d80301d3",
+    "records": 989
+  },
+  "chain_record_count_after_including_this_checkpoint": 993,
+  "record_count_convention": "989 previous records plus proof152, checker152, verification152 and this checkpoint. Live indexes and all153 work excluded; counts are not mathematical significance.",
+  "artifacts": [
+    {
+      "path": "research/effective-selected-plinth-bound-pass152-working.md",
+      "sha256": "0bf6bfaf81783fb5f053e0db5c136b7a3797c4d75b374684c4e61adc68fa5105",
+      "bytes": 12041,
+      "lines": 288,
+      "equations": 9,
+      "test_methods": 0
+    },
+    {
+      "path": "research/effective_plinth_controls_pass152.py",
+      "sha256": "c6acf378e0655cc5232deea98bd1099827e390e66945d8457f51b9568a8f6c67",
+      "bytes": 7087,
+      "lines": 150,
+      "equations": 0,
+      "test_methods": 2
+    },
+    {
+      "path": "research/verification-pass152-working.json",
+      "sha256": "bd510241d5a07a9f99868b141948b6957aa7fc5f0e285af1788d3ec1fe6b464b",
+      "bytes": 3680,
+      "lines": 68,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "result": {
+    "hypotheses": "Actual dense three-good frame139/151 with S=C[P,Q], N=Omega*D, primitive D, principal first-image plinth alpha*S and fixed-good minimum mu.",
+    "conclusion": "alpha divides (Omega*rad(Omega))^(mu+1); in particular Omega^(2*(mu+1)) belongs to D(A) intersect S.",
+    "proof": "Coefficient partials at p|Omega cost e on a first derivative and e+1 subsequently. Descending canonical Taylor peeling bounds the corrected second tail. Multiplication by Omega/s^2 clears to a derivative value of p^((mu+1)*(e+1)). Localizing the principal plinth and using151 off-Omega support gives the global divisor bound.",
+    "limits": "A nonconstant derivative value is not a slice. No sharpness or preimage-degree bound, full residue-field exclusion, arbitrary coordinate entry, or cancellation solution."
+  },
+  "verification": {
+    "capture": "research/verification-pass152-working.json",
+    "canonical_completion": "e305b8",
+    "exit_code": 0,
+    "test_methods": 2,
+    "seconds": 0.276,
+    "pending_execution_handle": false
+  },
+  "goal_audit": {
+    "previous_turn_classification": "no progress: user-requested status update; no claim that the status message advanced the proof",
+    "current_turn_classification": "progress: canonical152 checks completed and new153 structural arguments being developed separately",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "formal_verification": false,
+    "human_review": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Audit and verify the153 leading normalization, all-degree graph correction/recognition, and nested quartic Nagata construction. These are separate live work and do not change the effective exponent claim here."
+}

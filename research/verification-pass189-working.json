@@ -1,0 +1,328 @@
+{
+  "pass": 189,
+  "bundle_passes": [
+    187,
+    188,
+    189
+  ],
+  "status": "restricted_absent_variable_exact_field_reductions_and_separate_actual_example; original_ring_recognition_and_unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/weight-four-common-factor-actual-frame-pass187-working.md",
+      "sha256": "83cea61f91712144042543fe76817c4866a37d199c6cec2e159232b7c4bec985",
+      "bytes": 7277,
+      "lines": 217,
+      "equations": 14,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-absent-variable-zero-r-reduction-pass187-working.md",
+      "sha256": "91e73c3c365c31ce222d0faff22c2812220c20327c0820e19d44a37490689c8e",
+      "bytes": 13901,
+      "lines": 374,
+      "equations": 21,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-absent-variable-nonzero-r-rigidity-pass188-working.md",
+      "sha256": "68a332113be9431660be817d4167bc3bd74116162dce0a58aa02d689d5dca751",
+      "bytes": 9707,
+      "lines": 259,
+      "equations": 13,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-absent-variable-constant-projection-exclusion-pass188-working.md",
+      "sha256": "ed559d66b93bee273d8e6768a79e130281208f8ac58ebd5b2ce02bbd120f7b40",
+      "bytes": 14506,
+      "lines": 406,
+      "equations": 23,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-absent-zero-r-cover-collapse-pass189-working.md",
+      "sha256": "f263a64f6687cb865beb270fe4f4e85dbc00d1844f94f9e1f1612aa258ea7141",
+      "bytes": 10506,
+      "lines": 290,
+      "equations": 19,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-absent-nonzero-r-quartic-graph-reduction-pass189-working.md",
+      "sha256": "8637e06e8c5f8f7357edeceb24200cbcb98c659f143102e5df0c1668aa23308d",
+      "bytes": 14543,
+      "lines": 411,
+      "equations": 19,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-absent-variable-frontier-synthesis-pass189-working.md",
+      "sha256": "6a26c5abb0a4ecbdc5b4ab944ae15b2fe377ca58238aefa6ca98cab080a71545",
+      "bytes": 6217,
+      "lines": 145,
+      "equations": 5,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight_four_common_factor_actual_frame_controls_pass187.py",
+      "sha256": "7f7a5b8ae2197cc9d30c0ef57ab008a8c727a25c27110479110ee814ac78ef42",
+      "bytes": 7064,
+      "lines": 146,
+      "equations": 0,
+      "test_methods": 2
+    },
+    {
+      "path": "research/weight_four_absent_zero_r_controls_pass187.py",
+      "sha256": "cb734f82f75a636723c318531f1db383e6eafda56fcf52951a83e0e34e08b48f",
+      "bytes": 8294,
+      "lines": 182,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/weight_four_absent_nonzero_r_controls_pass188.py",
+      "sha256": "180cc9e520f78719f407a006031dfefd0fff9ca4ed5de0c609c85fa10cda5f75",
+      "bytes": 7474,
+      "lines": 164,
+      "equations": 0,
+      "test_methods": 2
+    },
+    {
+      "path": "research/weight_four_absent_constant_projection_controls_pass188.py",
+      "sha256": "6f2caee0f431c8e12645ae8d9ab8459540e778c70bbaaabd4ab81e932bc4693b",
+      "bytes": 8688,
+      "lines": 180,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/weight_four_absent_cover_collapse_controls_pass189.py",
+      "sha256": "9888c997c689f60f6269ba52bb4ff69ab7ba7ac8be0e86d19adcaefe7f274b46",
+      "bytes": 8482,
+      "lines": 187,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/weight_four_absent_quartic_graph_controls_pass189.py",
+      "sha256": "1b2c04e70572916bd72ea1015da07ff567ca306e69499134c26e7ad8df3a377d",
+      "bytes": 9061,
+      "lines": 206,
+      "equations": 0,
+      "test_methods": 3
+    }
+  ],
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass186-working.json",
+    "sha256": "cf577aa7b00e25c49dd09e0b60b84d6afbcc162390aa3d50352aa8a39681c660",
+    "records": 1157
+  },
+  "results": {
+    "absent_variable_hypotheses": "Supplied actual B=C[X,Y,Z,W]=A[u], global E=partial_u, exact E-time profile(1,1,2,2), full weighted initial kernel (X^2 Z-Y^4). The occurring Z pivot gives an actual selected LND N, exact generic line A_L=L[v], Nv=1, independent t,rho, finite L/C(t,rho), and the determinant J=-a^3 from the actual inverse. A single leading relation does not suffice.",
+    "separate_actual_example": "The inverse-verified example187 realizes the DIFFERENT common-factor relation (X^2 Z+XYW-Y^4), already recognized186. The polynomial maps through (X,Y,I,J) have both inverse orders; literal partial_Z gives N=partial_y, and a fraction-field plus irreducibility argument proves the full initial kernel. It starts with A=C[y,t,rho] and a translation slice, so proves nonvacuity of that restricted configuration, not a new recognition theorem or globally minimal time profile.",
+    "zero_R187": "For R=k_rho=0, the constant-y determinant forces n_rho=theta_v=0 and C0=-ell_rho nonzero. The actual field intersection L=C(y,z) yields original partial_W commuting with E. Primitive Wang classification and the t^4 versus quadratic leading coefficient exclude this case. Nonconstant y then has s=n_rho nonzero, theta=P(y) of degree three, w=W(y) of degree at most six, and L[y]=L[v]. The exact scalar equations retain gamma=Ny and force (s^-2)_rhorho=0 and rho=A_c*n^2/2+B_c*n+C_c over K, without yet L=K(n).",
+    "nonzero_R188": "For R nonzero, it is a field scalar, so the first potential gives L[y,theta]=L[v]. The actual cleared R^2 J identity proves a nonzero eliminant and unit evaluated cofactor. If R_rho is nonzero, its quartic top has distinct multiplicities(3,1). A proved one-point-at-infinity statement and all factor-degree cases force y constant. Thus nonconstant y implies R_rho=0.",
+    "constant_projection188": "Constant y with R nonzero is excluded separately. The actual LND P=aN-(NX)E fixes X,Y and commutes with E. Invariant primitive division preserves these gates. Published two-variable triangularity and the time-leading relation force affine coefficients B0,C0. A unit ideal gives an explicit coordinate inverse; independent nonunit affine coefficients give only a polynomial kernel by contraction. Wang on that actual three-ring contradicts the leading rho or t^4 coefficient in every case. Primitive gcd is not treated as a unit ideal.",
+    "cover_collapse189": "In the zero-R branch, exact recurrences make P,W polynomial in n over K. Actual function-field return then proves L=K(n). A proved polynomial-pencil pole-degree bound forces any nonconstant leading coefficient gamma of w as a polynomial in z to generate K. The genuine quadratic cover gives gamma^2*t^9 constant nonzero; a nonconstant linear slope gives gamma^2*t^7 constant nonzero. Integer valuation at gamma=0 excludes both. Hence rho=b*n+c, b in C*, c in K, and n_rho=1/b. K is not assumed rational.",
+    "quartic_graph189": "In the nonzero-R branch, the V-degree bound gives degree(y) at most two. Vanishing quartic top has mixed cubic multiplicities and is excluded without rejecting algebraic fourth-root coefficients. The exhaustive affine and nested-quadratic cases reduce either to a pure quartic graph or to a square-completion ODE. A local finite-ramification Laurent proof shows every nonzero algebraic solution of (f+4tf')f'''-3f'f''-3t(f'')^2=0 is affine, including all possible tails. Thus y is affine, theta=P(y) has degree four, R=1/(A*t+B), and n=C*R^2*rho+n0, with A,B,C complex and k0,n0 in K; A=0 and C=0 are allowed.",
+    "combined_scope": "Every supplied absent-variable chart considered here has affine generic y. The zero-R branch is an exact cubic graph with a constant-slope linear coefficient cover; the nonzero-R branch is a quartic graph with reciprocal-linear R. These are coefficient-field reductions, not an original-ring polynomial coordinate, a recognition theorem for this absent-variable form, or unrestricted cancellation.",
+    "remaining_work": "Analyze the residual potentials and calibrated scalar determinant in both branches and prove any needed original-ring coordinate return. The split one-dimensional coefficient form, positive quadratic bad-variable rank, height-two kernels, higher possible minimum profiles and arbitrary entry remain unresolved. The professor has not confirmed the corrected interpretation of the email."
+  },
+  "canonical_executions": [
+    {
+      "suite": "actual_frame187",
+      "path": "research/weight_four_common_factor_actual_frame_controls_pass187.py",
+      "command": "/opt/anaconda3/bin/python research/weight_four_common_factor_actual_frame_controls_pass187.py -v",
+      "pre_execution_read": "Rootffddc6",
+      "terminal_output": "05690c",
+      "methods": 2,
+      "unittest_seconds": 0.114,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "rerun": false
+    },
+    {
+      "suite": "zero_R187",
+      "path": "research/weight_four_absent_zero_r_controls_pass187.py",
+      "command": "/opt/anaconda3/bin/python research/weight_four_absent_zero_r_controls_pass187.py -v",
+      "pre_execution_read": "Rootffddc6",
+      "terminal_output": "4c8501",
+      "methods": 3,
+      "unittest_seconds": 0.148,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "rerun": false
+    },
+    {
+      "suite": "nonzero_R188",
+      "path": "research/weight_four_absent_nonzero_r_controls_pass188.py",
+      "command": "/opt/anaconda3/bin/python research/weight_four_absent_nonzero_r_controls_pass188.py -v",
+      "pre_execution_read": "Rootd5540b",
+      "terminal_output": "81d3a8",
+      "methods": 2,
+      "unittest_seconds": 0.093,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "rerun": false
+    },
+    {
+      "suite": "constant_projection188",
+      "path": "research/weight_four_absent_constant_projection_controls_pass188.py",
+      "command": "/opt/anaconda3/bin/python research/weight_four_absent_constant_projection_controls_pass188.py -v",
+      "pre_execution_read": "Rootd5540b",
+      "terminal_output": "54a534",
+      "methods": 3,
+      "unittest_seconds": 0.088,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "rerun": false
+    },
+    {
+      "suite": "cover_collapse189",
+      "path": "research/weight_four_absent_cover_collapse_controls_pass189.py",
+      "command": "/opt/anaconda3/bin/python research/weight_four_absent_cover_collapse_controls_pass189.py -v",
+      "pre_execution_read": "Root1d2895",
+      "terminal_output": "e3e0b3",
+      "methods": 3,
+      "unittest_seconds": 0.125,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "rerun": false
+    },
+    {
+      "suite": "quartic_graph189",
+      "path": "research/weight_four_absent_quartic_graph_controls_pass189.py",
+      "command": "/opt/anaconda3/bin/python research/weight_four_absent_quartic_graph_controls_pass189.py -v",
+      "pre_execution_read": "Rootba2a10",
+      "terminal_output": "041d71",
+      "methods": 3,
+      "unittest_seconds": 0.165,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "rerun": false
+    }
+  ],
+  "runtime": {
+    "source": "Retained runtime evidence Root49b8b5 from183; packet assembly performs no new runtime probe.",
+    "python": "3.13.5 (Anaconda)",
+    "sympy": "1.13.3"
+  },
+  "tagged_equations": 114,
+  "total_new_test_methods": 16,
+  "finite_control_scope": {
+    "actual_frame187": "Two methods check staged actual inverse identities in both orders, exact time coefficients, selected partial and initial-map identities. The full-kernel dimension/Gauss argument remains written.",
+    "zero_R187": "Three methods check the corrected constant-y determinant, actual-partial components, Ny-calibrated graph determinant, U8 recurrence and quadratic-cover identity, including a formal cubic negative boundary.",
+    "nonzero_R188": "Two methods check literal elimination, pre-evaluation gradient residuals, independent cleared determinant rows, leading multiplicities and a formal constant-y boundary. They do not prove geometric integrality or the point-at-infinity argument.",
+    "constant_projection188": "Three methods check literal theta coefficients, iterate ratios with invariant Delta explicitly imposed, a noninvariant negative control, both affine unit-ideal inverse orders and the time-leading contradictions. Primitive LND construction, nonunit kernel contraction and Wang remain written arguments.",
+    "cover_collapse189": "Three methods check the exact integral, U6/U5/U2 primitives, U4 linear-slope equation, Euler/gamma exponents and valuation arithmetic. Formal ramified covers demonstrate why Euler identities alone cannot replace actual field return. The curve pole-degree bound is not inferred from tests.",
+    "quartic_graph189": "Three methods check the literal eliminant, degree-drop and square models, reciprocal ODE coefficient identity, indicial and first-tail arithmetic, and finite ramified derivative controls. These do not replace the exhaustive local expansion proof.",
+    "execution_boundary": "Six once-only canonical suites contain sixteen methods. Independent source reviews and packet assembly did not execute, import or compile checkers. Root's exploratory read-only symbolic calculations d34495 and87e391 are explicitly noncanonical and are not counted as suites, methods or universal proof results."
+  },
+  "reviews": {
+    "actual_example": "Jet complete author45e37c at83cea61f; Geometry complete9f093d and Root retained complete802a5d. Both inverse stages, literal selected partial and full initial kernel were separately reconstructed.",
+    "zero_R_proof": "General authorffa6f2 at91e73c3c; Geometry full d2b81f+54b9a1, Root full146638 and Jet full254a5e. Geometry freshly checked the exact Wang4.1 alternatives in4227view1.",
+    "nonzero_R_proof": "Root complete5c61a6 at68a33211; Geometry full09020f and Jet fullce2f8a. The scalar-return case, cleared calibration and projective one-point argument were rebuilt without importing the special common-factor completion.",
+    "constant_projection_proof": "General complete author063b06 ated559d66; Geometry full e90a5e+b8565c and Root full3846aa. Geometry freshly read the exact UFD Lemma2.3(i) in4230view0 and Wang4.1 in4227view1; Root primary4228view0/4229view0 and General4226view0/1 are independent.",
+    "cover_collapse_proof": "Root complete0480c6 atf263a64f; Geometry full daabb9+31cf8c and Jet fulla599cc. Geometry freshly read all three cited Stacks statements in4234view0/1/2; Root4232view0/1/2 is separate. Polynomial degrees, base-extension pole valuations and both integer-order contradictions were independently reconstructed. General's subsequent complete review0c7c08 at the same hash and fresh Stacks4236view0/1/2 also check clean.",
+    "quartic_graph_proof": "General complete authora110bf at8637e06e; Root full e48d19 and Geometry complete30bccc+920e57. The exact square-completion equations and factor five in the reciprocal ODE were reconstructed, and every Laurent-tail case was checked. The coefficient field was not silently made rational. Jet's complete saved-source review74c556 independently checks the final proof.",
+    "synthesis": "Root complete d77f91 and Geometry complete9d464b at6a26c5ab. The two necessary-condition branches and the separate common-factor example are explicitly distinguished; no recognition endpoint is imported for the absent-variable form. Subsequent full reviews Generalb6b3a8 and Jet43cc23 check the same final source.",
+    "checker_chronology": "Canonical pre-run Root reads are listed with each execution. Jet authored actual15cd81, zero-R43f2ee, nonzero-R1f5482 and cover41d32a; Geometry authored constant-projection completea3d7c3; General authored quartic-graph complete3e5d5c. Geometry source-only complete reads are actualbb9c24, zero-Ra1a1fa, nonzero-R03342a, cover75b43f and quartic-graph1d10f5. No claim is made that those independent reads preceded the canonical runs. Jet's subsequent complete review243782 checks the final quartic checker at1b2c04e7; it is not a pre-canonical execution or review.",
+    "metadata": "Read-only Geometry389cd8 confirms all thirteen final source hashes, byte/line counts,114 tagged equations and sixteen method declarations. Historical pending-review/source-only author wording is not rewritten to add later review events."
+  },
+  "proof_dependencies": {
+    "new": [
+      "research/weight-four-common-factor-actual-frame-pass187-working.md",
+      "research/weight-four-absent-variable-zero-r-reduction-pass187-working.md",
+      "research/weight-four-absent-variable-nonzero-r-rigidity-pass188-working.md",
+      "research/weight-four-absent-variable-constant-projection-exclusion-pass188-working.md",
+      "research/weight-four-absent-zero-r-cover-collapse-pass189-working.md",
+      "research/weight-four-absent-nonzero-r-quartic-graph-reduction-pass189-working.md",
+      "research/weight-four-absent-variable-frontier-synthesis-pass189-working.md"
+    ],
+    "retained_actual_core": [
+      "research/weight-four-universal-chart-potentials-pass184-working.md",
+      "research/two-linear-two-quadratic-initial-bound-pass157-working.md",
+      "research/cusp-generic-chart-first-reductions-pass159-working.md"
+    ],
+    "mechanism_context": [
+      "research/cusp-zero-r-constant-projection-exclusion-pass172-working.md",
+      "research/cusp-zero-r-generic-graph-pass160-working.md",
+      "research/weight-four-normalized-common-factor-recognition-pass185-working.md",
+      "research/weight-four-common-factor-recognition-synthesis-pass186-working.md"
+    ],
+    "scope": "The actual selected LND, exact-shift/full-kernel mechanism and calibrated projection remain retained inputs. Only159's general actual projection/field mechanism is used, not cusp formulas. New notes rederive their coefficient identities and commuting kernels. The185/186 common-factor construction is context for the separate actual example, not an absent-variable recognition theorem. No fresh recursive audit of every historical dependency is claimed."
+  },
+  "external_dependencies": [
+    {
+      "source": "Dasgupta–Gupta Lemma2.3(i) and Wang's classification reproduced as Theorem4.1",
+      "url": "https://arxiv.org/pdf/1701.03635v1",
+      "use": "The nonzero-R constant-projection proof applies the two-variable lemma only after obtaining an irreducible C[X,Y]-linear LND. Both constant-projection exclusions apply Wang only to an actual polynomial three-ring and a justified primitive LND with two second derivatives zero.",
+      "fresh_primary_reads": [
+        "Geometry4230view0",
+        "Geometry4227view1",
+        "Root4228view0",
+        "Root4229view0",
+        "General4226view0/1"
+      ],
+      "scope": "Published statements are retained; their original cited proofs are not recursively reverified here."
+    },
+    {
+      "source": "Stacks Project Theorem53.2.6",
+      "url": "https://stacks.math.columbia.edu/tag/0BY1",
+      "use": "Nonsingular projective models and nonconstant maps for the polynomial-pencil pole-degree lemma.",
+      "fresh_primary_reads": [
+        "Root4232view1",
+        "Geometry4234view0"
+      ]
+    },
+    {
+      "source": "Stacks Project Lemma33.44.11",
+      "url": "https://stacks.math.columbia.edu/tag/0AYZ",
+      "use": "Pullback degree on proper curves, applied to the degree-one divisor at infinity.",
+      "fresh_primary_reads": [
+        "Root4232view0",
+        "Geometry4234view1"
+      ]
+    },
+    {
+      "source": "Stacks Project Definition29.52.8",
+      "url": "https://stacks.math.columbia.edu/tag/02NY",
+      "use": "Map degree is the finite function-field extension degree.",
+      "fresh_primary_reads": [
+        "Root4232view2",
+        "Geometry4234view2"
+      ]
+    }
+  ],
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Solve residual scalar coefficient identities and actual field-return constraints in the zero-R cubic and reciprocal nonzero-R quartic branches, then seek an original polynomial invariant coordinate. Do not treat generic parameters or denominators as original-ring coordinates or units.",
+  "goal_audit": {
+    "prior_status_turn": "The immediately preceding user-status turn reported no new progress. It is not counted as a mathematical result or execution.",
+    "current_continuation": "This continuation finalized and verified the inherited187–188 example and reduction drafts, produced the189 exact-field reductions, and completed independent written-source reviews and six distinct canonical finite-control runs. Packet closure is evidence bookkeeping, not an additional theorem.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  }
+}

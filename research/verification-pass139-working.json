@@ -1,0 +1,65 @@
+{
+  "pass": 139,
+  "status": "working_generic_fiber_reduction; full_cancellation_unsolved",
+  "execution": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.dense_taylor_tail_controls_pass139 -v",
+    "tool_output": "784b37",
+    "state": "completed_in_initial_call",
+    "exit_code": 0,
+    "methods": 4,
+    "reported_seconds": 0.267,
+    "rerun_this_continuation": false
+  },
+  "scope": {
+    "formal_methods": 3,
+    "actual_inverse_family_methods": 1,
+    "universal_proof_by_tests": false,
+    "review": "Root and three AI reviewers reconstructed chart, tail and synthesis; finite controls are not proof-assistant or human verification.",
+    "root_complete_reads": [
+      "e85079: chart and synthesis",
+      "e809da: tail and checker, before canonical execution",
+      "13553d: synthesis and complete actual-control note"
+    ],
+    "independent_main_reads": [
+      "General 7619d2",
+      "Geometry bf2afa",
+      "Jet b21d9c"
+    ],
+    "latest_integrity_check": "dc8f0e: five139 core hashes and all six frozen138 artifact hashes match"
+  },
+  "source": {
+    "title": "On Finding and Cancelling Variables in k[X,Y,Z]",
+    "authors": "Peter Russell and Avinash Sathaye",
+    "year": 1979,
+    "locator": "Section1.1, printed p.153",
+    "url": "https://www.ms.uky.edu/~sohum/ma561/affgeom/vars_in_k3.pdf",
+    "use": "Characteristic-zero field-level plane epimorphism theorem, attributed there to Abhyankar–Moh.",
+    "root_read": "turn4026view0",
+    "independent_reads": [
+      "turn4027view0",
+      "General and Geometry separately confirmed exact field statement"
+    ],
+    "limitation": "Original1975 proof not freshly reconstructed; source statement is an explicit classical input."
+  },
+  "results": [
+    "Actual intrinsic localization and formal Taylor embedding work over the exact finite separable coefficient field.",
+    "The first two negative tails supply a nonzero relation of degree at most m+1 and a generic-line parameter of degree at most m+2.",
+    "The implicit equation degree equals the maximum generic coordinate degree, hence each is at most m+1.",
+    "All statements remain generic over L. No removal of invariant denominators or arbitrary coordinate-entry theorem is proved."
+  ],
+  "goal_audit": {
+    "previous_user_checkin": "No progress: status and read-only validation; no live process awaited.",
+    "current_continuation": "Progress: completing139 record and investigating actual versus formal descent implications in140.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false
+  }
+}

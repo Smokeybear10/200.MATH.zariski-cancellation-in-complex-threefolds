@@ -1,0 +1,258 @@
+{
+  "pass": 104,
+  "status": "working_partial_results; unrestricted cancellation unsolved",
+  "working_target": "A[u] isomorphic to C^[4] implies A isomorphic to C^[3]; corrected complex-threefold interpretation remains unconfirmed by professor",
+  "summary": "Actual collapsed mixed L(m) nonzero fibers have only Artin-valued degree-two residues, with a rank-two/rank-three image dichotomy and conditional improved base orders. Finite projected-translation kernels are neighborhoods of an actual smooth transverse surface and a finite free simply ramified formal cover over the corrected base. The actual cyclic conic has no section over its specified base and its eta is not an ambient coordinate. An intrinsic whole-double quartic-looking family has an explicit all-m Catalan hidden quadratic parameter.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass103-working.json",
+    "sha256": "c48a7a2e90465927f06a1d33aa6dda492b152518f95915795a1cb569af291b99",
+    "verified_hash_records": 625,
+    "full_chain_audit_tool": "3d8a62"
+  },
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-14T19:54:16.025Z",
+    "all_passed": true,
+    "artifacts": [
+      {
+        "path": "research/mixed-degree-module-artin-image-pass104.md",
+        "sha256": "f2c44e42e41382abc96537fc9875074dc7315a7afdb3881c4f6791945cef9f54",
+        "bytes": 11927,
+        "content_lines": 275,
+        "equation_tags": 6
+      },
+      {
+        "path": "research/cyclic-conic-retraction-obstruction-pass104.md",
+        "sha256": "69dd76350870d0a7d7817565633d80af9c4e5c0aa95f54db3b42a0a549afeb42",
+        "bytes": 9458,
+        "content_lines": 204,
+        "equation_tags": 6
+      },
+      {
+        "path": "research/quadratic-catalan-hidden-parameter-pass104.md",
+        "sha256": "22eeecd7da5902a24b5602e82e92789a146a38dcaaf5c5c43added0ba43b788d",
+        "bytes": 9160,
+        "content_lines": 238,
+        "equation_tags": 8
+      },
+      {
+        "path": "research/adic-transverse-surface-pass104.md",
+        "sha256": "25ba3901e83b3c3b573d57da492af756956957f7b23cfee0f5a8ff53284f8f85",
+        "bytes": 11773,
+        "content_lines": 266,
+        "equation_tags": 13
+      },
+      {
+        "path": "research/quadratic_catalan_checks_pass104.py",
+        "sha256": "08cdaef3d2cfa2413ba45c395739595ac62a75a2b7c27abfee22c7bddf078e3b",
+        "bytes": 4438,
+        "content_lines": 108,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/adic_transverse_surface_checks_pass104.py",
+        "sha256": "01d7a60ee9c8709f3e7c83c301449722a2a762de784e47dcf0a46a73c064fe74",
+        "bytes": 2751,
+        "content_lines": 59,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/verification-pass104-working.json",
+        "sha256": "89be8c6b9b93c035047442c1a31d66bcf2908d39906029bcef89299d5abe2e37",
+        "bytes": 3017,
+        "content_lines": 44,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/mixed-fiber-and-transverse-frontier-pass104.md",
+        "sha256": "aed01fc494cc7a2be5c832ed20c73e8d3285107eaae0c056ab907407117a1871",
+        "bytes": 11482,
+        "content_lines": 245,
+        "equation_tags": 0
+      }
+    ],
+    "equation_tags": 33,
+    "captured_methods": 6,
+    "ast_methods": {
+      "research/quadratic_catalan_checks_pass104.py": 1,
+      "research/adic_transverse_surface_checks_pass104.py": 2,
+      "research/quadratic_degree_module_checks_pass102.py": 1,
+      "research/projected_derivation_thickening_checks_pass103.py": 2
+    },
+    "new_test_methods": 3,
+    "complete_output_verified": true,
+    "input_files_unchanged": true,
+    "local_markdown_links_checked": 807,
+    "missing_links": []
+  },
+  "chain_record_count_after_including_this_checkpoint": 634,
+  "record_count_convention": "625 predecessor records + eight current frozen artifacts + this checkpoint; primary web readings are not frozen downloads",
+  "proof_reviews": [
+    {
+      "reviewer": "Root",
+      "scope": "Complete four proof notes, both new checkers, synthesis and all final deltas. Independently reconstructed three agent proofs; authored transverse proof/control. Retained102/103 and99/100 selected dependencies read. Fresh cited primary statement/proof checks with limits below.",
+      "evidence": [
+        "ba9f51",
+        "e675ee",
+        "72b352",
+        "f9325d",
+        "955741",
+        "6a5200",
+        "be302c",
+        "e773ed",
+        "cd41b2",
+        "888dd7",
+        "e2e0f4",
+        "fbccc1",
+        "dfb31a",
+        "a66adb",
+        "c3c829"
+      ]
+    },
+    {
+      "reviewer": "General",
+      "scope": "Author of six-equation mixed-module proof; independent complete conic obstruction and transverse core, final transverse control and both-method checker. No new execution or fresh primary-source proof audit.",
+      "evidence": [
+        "e36832",
+        "e1661b",
+        "3f514e",
+        "ef16b2"
+      ],
+      "transverse_proof_sha256": "25ba3901e83b3c3b573d57da492af756956957f7b23cfee0f5a8ff53284f8f85",
+      "transverse_checker_sha256": "01d7a60ee9c8709f3e7c83c301449722a2a762de784e47dcf0a46a73c064fe74"
+    },
+    {
+      "reviewer": "Geometry",
+      "scope": "Author of six-equation conic no-section proof. Independent complete mixed-module, eight-equation Catalan proof before provenance-only tail, transverse core plus final control, and final synthesis with both scope clarifications fully reread. Primary Das-Dutta selected proof audit. No numerical execution.",
+      "evidence": [
+        "f29a27",
+        "39fc2d",
+        "4733ec",
+        "f88393",
+        "54e010",
+        "a36fcc",
+        "e53be7",
+        "6a9c1a",
+        "a800e5",
+        "3be983",
+        "78f954",
+        "b6441c"
+      ],
+      "mixed_proof_sha256": "f2c44e42e41382abc96537fc9875074dc7315a7afdb3881c4f6791945cef9f54",
+      "synthesis_sha256": "aed01fc494cc7a2be5c832ed20c73e8d3285107eaae0c056ab907407117a1871"
+    },
+    {
+      "reviewer": "Jet",
+      "scope": "Author of all-m Catalan proof and one-method finite checker. Independent full corrected mixed-module proof; no fresh external source audit for that reconstruction.",
+      "evidence": [
+        "8be8ef",
+        "9ffb2e",
+        "4373bb"
+      ],
+      "mixed_proof_sha256": "f2c44e42e41382abc96537fc9875074dc7315a7afdb3881c4f6791945cef9f54"
+    }
+  ],
+  "canonical_verification": {
+    "path": "research/verification-pass104-working.json",
+    "sha256": "89be8c6b9b93c035047442c1a31d66bcf2908d39906029bcef89299d5abe2e37",
+    "tool": "e07dd8",
+    "suites": 4,
+    "test_methods": 6,
+    "new_suites": 2,
+    "new_test_methods": 3,
+    "dependency_suites": 2,
+    "dependency_test_methods": 3,
+    "scope": "Three new finite symbolic methods in two suites (Catalan family m=1..5; transverse basis/length/base embedding k=1..6 and ramification truncations), plus three retained methods in two dependency suites from102/103. Not verification of universal actual-fiber, completion, section-obstruction, or cancellation arguments."
+  },
+  "author_executions": [
+    {
+      "tool": "72e191",
+      "suite": "quadratic_catalan_checks_pass104",
+      "test_methods": 1,
+      "unittest_seconds": 0.576,
+      "wall_seconds": 0.847100917,
+      "exit_code": 0
+    },
+    {
+      "tool": "d57b07",
+      "suite": "adic_transverse_surface_checks_pass104",
+      "test_methods": 2,
+      "unittest_seconds": 0.157,
+      "wall_seconds": 0.404131375,
+      "exit_code": 0
+    }
+  ],
+  "historical_full_verification": {
+    "pass": 75,
+    "suites": 146,
+    "test_methods": 1047,
+    "rerun": false,
+    "registry_claims": 544,
+    "registry_expanded": false
+  },
+  "sources": [
+    {
+      "title": "On codimension-one A1-fibration with retraction",
+      "authors": [
+        "Prosenjit Das",
+        "Amartya K. Dutta"
+      ],
+      "url": "https://arxiv.org/pdf/1302.5223v1",
+      "sections": "Definitions, Theorem1.1 statement, Lemma3.5 statement, Lemma3.6, Proposition3.8, Theorem3.9 displayed proofs, Corollary3.10",
+      "root_evidence": [
+        "turn3596view0",
+        "turn3597view0"
+      ],
+      "scope": "Retained source deduplicated against79; new result proves retraction and geometric-integrality premises unavailable at actual conic. Deeper external patching dependencies not freshly reconstructed."
+    },
+    {
+      "title": "Regular complete local rings and permanence under completion",
+      "authors": [
+        "The Stacks Project Authors"
+      ],
+      "urls": [
+        "https://stacks.math.columbia.edu/tag/0C0S",
+        "https://stacks.math.columbia.edu/tag/07NU"
+      ],
+      "sections": "Lemma10.160.10 and Lemmas15.44.1,15.44.4 displayed statements/proofs",
+      "root_evidence": [
+        "turn3595view0",
+        "turn3595view1"
+      ],
+      "scope": "Known regularity/dimension and formal-coordinate facts, not novelty or algebraization."
+    },
+    {
+      "title": "Henselian local rings",
+      "authors": [
+        "The Stacks Project Authors"
+      ],
+      "url": "https://stacks.math.columbia.edu/tag/04GE",
+      "sections": "Definition10.153.1, Lemmas10.153.2/10.153.3 displayed characterization/proof",
+      "root_evidence": [
+        "turn3593view1"
+      ],
+      "scope": "Direct complete-ring simple-root argument reconstructed; no general algebraization or deeper dependency audit."
+    }
+  ],
+  "proof_limits": [
+    "Actual mixed-image theorem retains collapsed profile(2,1), supplied quadratic frame and L(m) nonzero. It excludes a hidden degree-two component parameter, not the fiber.",
+    "Rank-three order improvements are conditional on imageF2=D; the two-dimensional image alternative remains.",
+    "Cubic generation needs actual degree-three elements and multiplication control; rankF4 cannot justify Gc in F4.",
+    "Finite-k kernels are identified through slice projection, which corrects the base embedding; the original S need not be fixed.",
+    "Formal kernel cover and restricted-series decomposition do not prove finite algebraic generation over the localized base or global D0 local nilpotence.",
+    "No-section obstruction is relative to specified local conic base; it does not contradict absolute polynomiality or rule out a different invariant coordinate.",
+    "Catalan and transverse controls are intrinsic polynomial algebras, not asserted original E-frame realizations.",
+    "Universal proofs are written AI reconstructions, not verified by finite tests, human experts or Lean.",
+    "No unrestricted frame reduction, relative cubic solution, global cancellation proof, novelty clearance or publication."
+  ],
+  "draft_corrections": [
+    "Mixed proof whole-ideal expression corrected to W-gamma(c)(G-G^2) in mA, retaining the simple companion; two typography defects repaired before final reviews.",
+    "Synthesis opening now includes collapsed mixed L(m) nonzero and its Section4 distinguishes parameter exclusion from fiber exclusion."
+  ],
+  "next_bounded_tasks": [
+    "Determine actual mixed F3 residue image and multiplication with F2, separating residue ranks two/three; require real generation before a cubic presentation.",
+    "Test actual whole-double hidden-parameter existence using original-coordinate constraints, without transferring the intrinsic Catalan family as a classification.",
+    "Continue the unrestricted frame-entry and original global recognition problems separately."
+  ],
+  "goal_status": "active; not achieved",
+  "authorization_boundary": "Private mathematics and local checks only; no expert contact, submission, public posting, paid resources or new automation."
+}

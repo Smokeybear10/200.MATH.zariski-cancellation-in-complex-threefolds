@@ -1,0 +1,244 @@
+# Polynomial speeds exclude the reciprocal null-axis scalar
+
+The reciprocal alternative in the null-axis classification121 cannot
+have the actual polynomial speed and nonzero moving-frame determinant.
+The proof is a polynomial Jacobian divisibility argument. It needs no
+original-coordinate inverse beyond the already supplied polynomial
+speed, and it does not make the normal ratio a coordinate.
+
+The cubic alternative is different. It forces a perfect-cube condition
+on one polynomial speed component, but explicit polynomial speeds can
+satisfy that condition, the metric identity, a global unit-row condition
+and a nonzero frame determinant. A control below shows why those facts
+alone do not exclude it.
+
+## 1. The null-axis input and the classified alternatives
+
+Retain the actual null-axis setting of
+[scalar normal forms121](cubic-axis-scalar-normal-forms-pass121.md) and
+[null scalar classification121](cubic-null-axis-scalar-constraint-pass121.md).
+Write the second and third polynomial speed entries as P and Y:
+
+\[
+\begin{gathered}
+S=\mathbb C[s,t],\quad K=\operatorname{Frac}S,\qquad
+b=(g,P,Y)^t\in S^3,\quad Y\ne0,\quad h=P/Y\notin\mathbb C,\\
+\Omega=\det[b,b_s,b_t]\ne0,\qquad
+2gY+D(h)Y^2=-1,\\
+D(h)=a_3h^3+a_2h^2+a_1h+a_0,\quad a_3\ne0,\\
+\text{or}\qquad
+D(h)=a_2h^2+a_1h+a_0+\frac{c}{\lambda h+\mu},
+\quad \lambda c\ne0 .
+\end{gathered}
+\tag{1}
+\]
+
+All displayed scalar coefficients belong to C. Membership D in C(h)
+is the conclusion of the lower-volume proof121, not an assumption that
+the full first-integral field equals C(h). The latter field may still
+have a nontrivial finite extension inside K. No original inverse is
+needed in the polynomial arguments below.
+
+For polynomials U,W in S, write Jac(U,W)=U_s W_t-U_t W_s. All
+divisibility statements refer to the UFD S, and degree means total
+polynomial degree in its original variables s,t.
+
+## 2. Clear the reciprocal denominator by a constant speed change
+
+Suppose the reciprocal alternative holds. Define constants A,B,C and
+polynomials Z,G by
+
+\[
+\begin{gathered}
+Z=\lambda P+\mu Y,\qquad
+A=\frac{a_2}{\lambda^2},\quad
+B=\frac{a_1}{\lambda}-\frac{2a_2\mu}{\lambda^2},\quad
+C=a_0-\frac{a_1\mu}{\lambda}+\frac{a_2\mu^2}{\lambda^2},\\
+G=g+\frac{BZ+CY}{2},\qquad
+F(G,Y,Z):=2GYZ+AZ^3+cY^3+Z=0 .
+\end{gathered}
+\tag{2}
+\]
+
+Indeed the polynomial quadratic part times Y squared becomes
+A Z squared+B ZY+C Y squared. The reciprocal term times Y squared
+is cY cubed/Z. Absorbing the cross terms into G and multiplying the
+identity in (1) by Z gives exactly (2).
+
+The polynomial Z is nonzero: it equals Y(lambda h+mu), and h is
+nonconstant. The change from (g,P,Y) to (G,Z,Y) is constant linear
+with determinant lambda nonzero. It can therefore be made by an
+actual constant linear change of the three original good coordinates.
+Its moving-frame determinant remains nonzero. This statement is not
+a base-dependent ambient change.
+
+## 3. A coprime derivative forces a zero Jacobian
+
+The partial derivative of the formal polynomial F with respect to its
+third variable, evaluated at the polynomial solution, is
+F_Z=1+2GY+3AZ squared. It is coprime to YZ in S.
+
+To prove this, let q be an irreducible divisor of YZ. If q divides Z,
+equation (2) modulo q gives cY cubed=0, so q divides Y as well and
+F_Z is one modulo q. If q divides Y but not Z, equation (2) gives
+A Z squared=-1 modulo q. In that case F_Z is minus two modulo q.
+These cases cover all divisors of YZ, including when A=0; the second
+case then simply cannot occur. Thus no prime factor of YZ divides
+F_Z.
+
+Differentiating the identity F(G,Y,Z)=0 in the two original base
+variables and wedging it with dY gives the exact signed relation
+
+\[
+F_Z\,\operatorname{Jac}(Y,Z)
+ =F_G\,\operatorname{Jac}(G,Y)
+ =2YZ\,\operatorname{Jac}(G,Y),\qquad
+\gcd(F_Z,YZ)=1,
+\qquad YZ\mid\operatorname{Jac}(Y,Z).
+\tag{3}
+\]
+
+For example, the coefficient of ds wedge dt in dF wedge dY is
+F_G Jac(G,Y)-F_Z Jac(Y,Z), fixing the sign. Coprimality cancels all
+prime powers in the UFD, not just the reduced support of YZ.
+
+If either Y or Z is a nonzero constant, its Jacobian with the other
+is zero. Otherwise both have positive total degree, and a nonzero
+Jacobian satisfies
+
+\[
+\deg\operatorname{Jac}(Y,Z)\le\deg Y+\deg Z-2
+ <\deg(YZ),\qquad
+\operatorname{Jac}(Y,Z)=0 .
+\tag{4}
+\]
+
+The last equality follows from (3) and the strict degree bound. It
+therefore holds in all cases. Since YZ is nonzero, (2) expresses G
+as the rational function -(AZ cubed+cY cubed+Z)/(2YZ) of Y,Z.
+Consequently dG is a K-linear combination of dY,dZ. Their zero wedge
+product implies that the two base derivatives of (G,Z,Y) are
+dependent. Its moving-frame determinant is zero, contradicting the
+nonzero determinant preserved in Section 2.
+
+This excludes the entire reciprocal alternative of (1). It did not
+require h polynomial, Y a unit, D times Y polynomial, or equality
+between K and a rational coordinate field generated by h,Y.
+
+## 4. The cubic alternative forces a perfect cube
+
+Now suppose D is the cubic alternative. Put
+G=g+(a1 P+a0 Y)/2, so clearing one denominator gives
+
+\[
+\begin{gathered}
+2GY^2+a_3P^3+a_2P^2Y+Y=0,\\
+Y=uR^3,\quad P=RT,\qquad
+u\in\mathbb C^*,\quad R,T\in S,\quad \gcd(R,T)=1,\\
+a_3T^3+u+a_2uR^2T^2+2Gu^2R^3=0,
+\qquad R^2\mid(a_3T^3+u) .
+\end{gathered}
+\tag{5}
+\]
+
+Here is the valuation proof of the second line. Every irreducible
+q dividing Y also divides P by the first line. The factor
+1+a2 P squared+2GY is then one modulo q. The exact equality
+a3 P cubed=-Y(1+a2 P squared+2GY) gives
+ord_q Y=3 ord_q P. Collect these factors into R. The remaining
+factor of Y is a complex unit u, and no factor of R remains in
+T=P/R. Substitution and cancellation of R cubed give the third
+line of (5).
+
+The construction also allows constant Y by taking R constant.
+Under Omega nonzero that case is impossible: if Y is constant,
+the original identity expresses g as a polynomial in P, and all
+three speeds have differential rank at most one. Thus in the
+actual case R is nonconstant. This perfect-power conclusion and
+the additional R-squared divisibility are restrictions, not yet
+a contradiction.
+
+## 5. A polynomial, unimodular cubic control
+
+The following explicit polynomials satisfy the surviving scalar
+identity with D=h cubed:
+
+\[
+\begin{gathered}
+V=st-1,\qquad Y=-s^3,\qquad P=s(1+s^3V),\\
+g=-\frac{3V+3s^3V^2+s^6V^3}{2},\qquad
+h=P/Y=-s^{-2}-sV,\\
+2gY^2+P^3+Y=0,\qquad
+2gY+h^3Y^2=-1,\qquad
+\det[b,b_s,b_t]=3s^4\ne0,\quad b=(g,P,Y)^t .
+\end{gathered}
+\tag{6}
+\]
+
+The first identity follows by expanding (1+s cubed V) cubed; its
+constant term cancels Y and its three other terms cancel 2gY squared.
+For a short independent determinant computation, first regard s,V
+as independent variables. The Jacobian Jac(P,Y) in these variables
+is 3s to the power6. For F=2gY squared+P cubed+Y, the first entry
+of its gradient is 2s to the power6, so b_s cross b_V is three
+halves of that gradient. Its pairing with b is minus three Y,
+or 3s cubed. Substitution V=st-1 multiplies this determinant by s,
+giving (6).
+
+These speeds are a global unit row, not just polynomials with no
+common divisor. In fact
+
+\[
+\begin{gathered}
+s=P+sVY,\qquad
+U=t+s^2V^2+\frac{s^5V^3}{3},\\
+1=\frac23g+sU
+ =\frac23g+UP+sVU\,Y,\qquad
+(g,P,Y)S=S .
+\end{gathered}
+\tag{7}
+\]
+
+Thus the scalar identity, polynomiality, nonzero Omega and even
+the global unit-row condition do not exclude this cubic control.
+
+It also has the canonical metric, not just an unrelated quadratic
+matrix. Substitute D=h cubed into the null normal form, giving
+M11=3h, M12=-3h squared/2 and M22=h cubed. Then Q_h=3nn transposed
+with n=(0,1,-h), n transposed b=0 and Q(b,b)=-1. Differentiating
+these identities gives Q(b,b_i)=0 and Q(b_i,b_j)=G_ij for the actual
+radial connection obtained from this polynomial b. Hence Q is that
+frame's canonical metric. Its cubic tensor is
+-3Y squared times (dh) cubed, which is nonzero.
+
+The rational direction killing h has full constant field C(h) here:
+K=C(h,s), since the displayed h recovers t as
+1/s-h/s squared-1/s to the power4. This does not provide relative
+generators of an original polynomial four-ring. No actual original
+potential, full coordinate-volume realization or polynomial inverse
+is claimed for this speed-only control. It is not a counterexample
+to recognition or cancellation.
+
+## 6. Verification and remaining scope
+
+The new exclusion is the reciprocal case, proved by (2)--(4).
+The cubic perfect-power condition (5) and the explicit control
+(6)--(7) show why the same conclusion cannot follow just from
+the remaining polynomial-speed identity. Further use of the full
+actual original-coordinate reconstruction is still needed there.
+
+The complete null scalar classification121 was read and its lower
+volume coefficients, differential-field integrations and rational
+control were independently reconstructed before using (1).
+The [one-method checker121](cubic_null_polynomial_speed_checks_pass121.py)
+checks the exact reciprocal absorption and differentiated-identity
+certificates, then the cubic polynomial speed, determinant, unit-row
+certificate and metric. It does not certify the UFD cancellation,
+universal total-degree argument, valuation proof, or actual original
+inverse. Those are written proof and scope questions above.
+
+The first author run, execution `161eff`, passed its single method
+in 0.127 seconds of unittest time and 0.305438875 seconds of command
+wall time, exit zero. No new primary source, general frame-entry,
+recognition or cancellation statement is claimed. All files through120
+remain unchanged.

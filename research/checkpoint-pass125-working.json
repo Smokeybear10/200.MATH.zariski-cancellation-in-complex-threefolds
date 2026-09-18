@@ -1,0 +1,55 @@
+{
+  "pass": 125,
+  "status": "common_intrinsic_speed_quotient_and_square_membership_progress; general_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3]. The professor's intended field, dimension and conclusion remain unconfirmed.",
+  "summary": "For a supplied sliced frame with n-1 E-affine coordinates, the leading part of the actual last-coordinate partial gives one nonzero intrinsic LND killing every good speed, unless all speeds vanish and recognition is immediate. In dimension four its retained affine-plane quotient also contains a quadratic acceleration. Faithful-flat contraction and dimension-two Briancon-Skoda give q^2 in the speed ideal, removing the old embedded square defect. First-power membership, intrinsic freeness, recognition of every supplied frame and unrestricted entry remain unproved.",
+  "previous_checkpoint": {"path": "research/checkpoint-pass124-working.json", "sha256": "f78b92aca762fbcc17b6441bd0d0973d9b54a20f7efb1fafa581a1dcf9f87a85", "records": 811, "evidence": "0c0a98", "scope": "Previous checkpoint hash and recorded count checked; no rehash of all historical records."},
+  "chain_record_count_after_including_this_checkpoint": 819,
+  "record_count_convention": "811 prior frozen records plus seven current artifacts plus this checkpoint. Live indexes are not frozen records. This checkpoint's hash is recorded externally.",
+  "current_integrity_audit": {
+    "artifacts": [
+      {"path": "research/three-good-speed-rank-bound-pass125.md", "sha256": "589751615fa777894700f7f0316398da65a3a4fbbe6f2da61628b2c2a94efd3f", "bytes": 10005, "lines": 226, "equations": 7, "test_methods": 0},
+      {"path": "research/three-good-intrinsic-speed-quotient-pass125.md", "sha256": "f2e11f89403f683706340ac464fd59c1fac3b9d6192285d653c620761ef0c827", "bytes": 11615, "lines": 264, "equations": 8, "test_methods": 0},
+      {"path": "research/three-good-acceleration-square-pass125.md", "sha256": "556635bca996ea707687c01a34f1703210df28ec171424cf173c47a47efd3438", "bytes": 9761, "lines": 207, "equations": 8, "test_methods": 0},
+      {"path": "research/source-audit-pass125.md", "sha256": "61f9b0abf20ae3a266d40a994c760d988ecf0bab39b37ec9ca6c73039f99d0ce", "bytes": 7993, "lines": 144, "equations": 2, "test_methods": 0},
+      {"path": "research/three_good_controls_pass125.py", "sha256": "bd4ed1a8d89cdb472349959fef06ab66f4c95ee93b6d5723667f05856ee4ac53", "bytes": 4493, "lines": 105, "equations": 0, "test_methods": 3},
+      {"path": "research/three-good-variable-acceleration-frontier-pass125.md", "sha256": "eb2db10a852707063c4fd376e2a160911899ed4c749bd85e467771c1e573c759", "bytes": 8741, "lines": 183, "equations": 5, "test_methods": 0},
+      {"path": "research/verification-pass125-working.json", "sha256": "82e0dbaff010eb29c960eea1888464e471499268df1d0bfc1282c109f6ca3502", "bytes": 2177, "lines": 41, "equations": 0, "test_methods": 0}
+    ],
+    "artifact_count": 7, "proof_artifacts": 3, "source_audits": 1, "equations": 30, "new_test_methods": 3, "local_markdown_links": 21,
+    "evidence": "0c0a98",
+    "scope": "All seven current hashes, bytes, lines, numbered tags, checker AST methods and local Markdown targets checked. No missing local links. Final checkpoint self-validation and hash are recorded externally."
+  },
+  "canonical_verification": {
+    "path": "research/verification-pass125-working.json", "root_execution_evidence": "d8b4ff", "exit_code": 0,
+    "suites": 3, "test_methods": 6, "new_methods": 3, "retained_methods": 3,
+    "tool_wall_time_seconds": 0.663253583, "unittest_reported_seconds": 0.364,
+    "inputs": [
+      {"path": "research/three_good_controls_pass125.py", "sha256": "bd4ed1a8d89cdb472349959fef06ab66f4c95ee93b6d5723667f05856ee4ac53", "test_methods": 3},
+      {"path": "research/strict_slice_checks_pass84.py", "sha256": "43ff529612cfc37f48833329c3b84a8c63d4400585d41bf0351e57b7a2f50d88", "test_methods": 2},
+      {"path": "research/embedded_square_controls_pass84.py", "sha256": "cc97022922c597dc3a428808cb1b478d4eebbf1b18791aa48e039e1cdd8714fd", "test_methods": 1}
+    ],
+    "all_input_hashes_match_recorded_before_and_after": true,
+    "review_evidence": ["723fbe", "0c0a98"],
+    "review_scope": "Complete capture read; command/input mapping, all current hashes and AST counts [3,2,1] verified against saved data. The before/after execution evidence is Root's d8b4ff. The capture contains no complete output or output hash; no independent output-hash verification is claimed. Geometry neither imported test modules nor reran tests.",
+    "coverage_scope": "Two actual inverse families, leading coefficient extractions, a square-zero substitution and ideal-only boundaries, with two retained actual-return methods and one retained ideal-only method. No universal theorem, primary-source proof or historical full regression certification. Earlier three-method run8ec535 is superseded, not additive coverage."
+  },
+  "proof_reviews": [
+    {"artifact": "research/three-good-speed-rank-bound-pass125.md", "reports": [{"reviewer": "Geometry", "evidence": "a5f541"}, {"reviewer": "Root", "evidence": "a4a5df"}], "scope": "Full saved volume proof: finite separable speed-field extension, u-independent Jacobian in that field, actual cofactors and Laurent specialization, including n=2. No slice-coordinate or rationality assumption. This is independent verification of the weaker rank consequence, not a second stronger structural advance."},
+    {"artifact": "research/three-good-intrinsic-speed-quotient-pass125.md", "reports": [{"reviewer": "Geometry", "evidence": "8e11c7"}, {"reviewer": "Root", "evidence": "a22e3e"}], "scope": "Full saved leading-LND proof, including d=0, all-speed annihilation, positive last-degree leading coefficient and slice-translation invariance. Dimension-four polynomiality and faithful flatness explicitly invoke the retained source-dependent quotient theorem; no new audit of its entire primary dependency tree by Geometry."},
+    {"artifact": "research/three-good-acceleration-square-pass125.md", "reports": [{"reviewer": "Root", "evidence": "131713"}, {"reviewer": "General", "evidence": "a2e145"}, {"reviewer": "Jet", "evidence": "854230"}, {"reviewer": "Geometry", "evidence": "e4f949"}], "scope": "Full saved contraction, dimension-two ideal-theorem application, support alternative and square-zero boundary. Geometry additionally reread retained square-support84 through EOF2bf598, but did not freshly audit the primary Briancon-Skoda or quotient proofs. The source reads and omitted dependencies are itemized in the proof."}
+  ],
+  "source_audit_review": {"artifact": "research/source-audit-pass125.md", "author_evidence": "486993", "independent_report": {"reviewer": "General", "evidence": ["0e163a", "18afe5"], "scope": "Complete saved-note algebra/applicability review, not fresh primary-source reading."}, "scope": "Selected original Daigle and Alhajjar statements/proofs and exact Dasgupta-Lahiri/Dasgupta-Gupta statements were freshly read as itemized. Wang, Daigle-Freudenburg and Freudenburg-book endpoints are explicitly research-paper restatements, not new original-proof audits. No novelty or exhaustive negative-search claim."},
+  "code_review": {"artifact": "research/three_good_controls_pass125.py", "reports": [{"reviewer": "Geometry", "evidence": "5d4c45"}, {"reviewer": "General", "evidence": ["4350d8", "6a551b"]}], "scope": "Full three-method code-only reconstruction: both actual inverse orders, degree-zero and positive leading shifts, degrees2/3/5, square-zero inverse and ideal-only monomial boundary with no actual-frame realization asserted. No peer execution."},
+  "synthesis_review": {"artifact": "research/three-good-variable-acceleration-frontier-pass125.md", "reviewer": "Geometry", "evidence": "c4112a", "scope": "Full corrected five-equation synthesis. Integral closure confines first-power failure to finite critical base support; quotient by a linear parameter removes the noncritical points. Ambient two-dimensional defect support is compatible with the old codimension-two bound, unlike the square case. The hypothetical minimum-degree profile is inherited, not a reduction of all larger profiles."},
+  "mathematical_boundary": [
+    "The intrinsic action fixes every specified speed without a degree bound on the last coordinate. The last coordinate's leading coefficient is also fixed when that degree is positive. The construction requires at least one nonzero speed; all-zero speeds are separately recognized.",
+    "For a quadratic last coordinate, q^2 lies in J in the actual invariant polynomial plane, and hence in its extensions to A and B. This does not imply q in J, q in I^2, reducedness, a polynomial shear solution or coordinate recognition.",
+    "Any first-power defect is supported on finitely many plane points where J is contained in the squared maximal ideal. No actual action with such a defect is constructed, and the bare monomial ideal is not one.",
+    "The intrinsic action may require further freeness analysis. The speed row is not automatically a unit row. Neither supplied-frame recognition in full generality nor unrestricted frame entry is proved."
+  ],
+  "goal_audit": {"pass_mathematics_classification": "structural_progress_and_square_defect_resolution", "archival_task_classification": "packaging_and_verification_only", "preceding_user_checkin": "status_only_not_mathematical_progress", "full_goal_achieved": false, "genuine_external_blocker": false},
+  "boundaries": {"human_expert_review": false, "formal_verification": false, "historical_novelty_cleared": false, "external_contact": false, "submission": false, "public_posting": false, "new_automation": false, "files_through124_frozen": true, "all_historical_tests_rerun": false},
+  "live_indexes": ["README.md", "research-ledger.md"],
+  "live_index_scope": "Root owns the live indexes and reports full current top-entry readf9c13f. Geometry did not edit them in this task; no frozen index hashes are asserted."
+}

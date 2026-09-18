@@ -1,0 +1,133 @@
+{
+  "pass": 211,
+  "status": "supplied_exact_radical_initial_kernel_recognized; arbitrary_entry_other_kernels_and_general_cancellation_remain_open",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass210-working.json",
+    "sha256": "1df2d4072253369698a46d664f0643232b210e65702fa4484cb6d96611bafc56",
+    "records": 1297
+  },
+  "results": {
+    "fiber_obstruction": "For the actual polynomial F0=X^2 Z-W^2+2dXY, every specialization X=c is transcendental over C, including F0 at X=0 equal to -W^2. Polynomial-in-F0 denominators contract from C(X)[F0] to C[X,F0]. If an actual derivation fixes X,F0 and has DY,DW in C(X)[F0], with DW=X tau for a nonzero regular E-invariant tau and EX nonzero, differentiation followed by the X=0 odd/even identity forces X to divide tau. Factorial closure contradicts EX nonzero. This includes d=0 and does not claim contraction for arbitrary rational functions in F0.",
+    "constant_slope_recognition": "For the actual affine projected pair y=mu theta+nu, w=lambda theta+omega, the auxiliary P=aN-(NX)E is actual, locally nilpotent and commuting. Primitive division retains those properties, and normality returns tau0 from its square to B. When mu is a nonzero complex constant, an actual shear makes the auxiliary derivation nice. The PID-linear invariant and a weighted common-speed argument force a nonzero constant coefficient, giving an explicit auxiliary slice and polynomial three-variable kernel. Daigle's theorem and the regular-kernel theorem then recognize A.",
+    "nonconstant_slope_exclusion": "Wang's exact second alternative, applied only over C(X), implies a degree-at-most-two relation between mu and lambda. The quadratic relation is excluded, but the valid linear exception lambda=r0 mu+s0 is retained. Verified actual elementary maps preserve the good-variable presentation and normalize the candidate invariant to F0/X^2 plus an element of C(X). The already regular E-invariant tau0 then satisfies every hypothesis of the fiber obstruction, excluding this branch.",
+    "synthesis": "The exhaustive retained210 reductions leave only the affine projected pair. The two slope cases above finish recognition for every supplied actual polynomial frame of exact E-degrees (1,1,2,2) whose entire initial evaluation kernel is (X^2 Z-W^2). Thus A is a polynomial three-ring and the original sliced action fixes an ambient coordinate. No speed-unit conclusion is needed or asserted.",
+    "remaining_scope": "A single leading relation is insufficient; the full initial kernel and actual globally sliced frame are required. Entry from an arbitrary cancellation instance, other leading kernels and global minimum profiles are not settled by this packet. The full cancellation goal remains unsolved. Separate212 work is excluded."
+  },
+  "goal_audit": {
+    "current_progress": "Three written notes and a four-method finite exact-algebra suite close the supplied radical initial-kernel frame. The checker passed once after complete author and Root source reads; this is a restricted recognition result, not completion of the global goal.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "restricted_frame_recognition_only": true,
+    "remaining_affine_pair_recognition_proved": true,
+    "supplied_full_radical_initial_kernel_recognition_proved": true,
+    "arbitrary_entry_proved": false,
+    "original_speed_unit_claim": false,
+    "coefficient_field_rationality_claim": false,
+    "global_minimum_profile_claim": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/radical-wang-second-case-fiber-obstruction-pass211-working.md",
+      "sha256": "55a9c4776570d1218cc749343dda69ec9a61972d00fdaab779a7e1b065366e72",
+      "bytes": 4832,
+      "lines": 130,
+      "equations": 8,
+      "test_methods": 0
+    },
+    {
+      "path": "research/radical-affine-pair-coordinate-recognition-pass211-working.md",
+      "sha256": "3bdd6882bd7c2bdbe3017a8a55dbbad15b67da1a2ca8f842a7032209fa9102bb",
+      "bytes": 14885,
+      "lines": 402,
+      "equations": 27,
+      "test_methods": 0
+    },
+    {
+      "path": "research/radical-initial-kernel-recognition-synthesis-pass211-working.md",
+      "sha256": "d57c4cbfddec6a94456d306a2d765dc947bac1b097772a5d0c0969fd6161f1b1",
+      "bytes": 5789,
+      "lines": 136,
+      "equations": 5,
+      "test_methods": 0
+    },
+    {
+      "path": "research/radical_affine_pair_recognition_controls_pass211.py",
+      "sha256": "d68347f6fa8ed574a245a32543ab411c0837eaefd3d578b254da738270e00c46",
+      "bytes": 10597,
+      "lines": 218,
+      "equations": 0,
+      "test_methods": 4
+    }
+  ],
+  "canonical_executions": [
+    {
+      "suite": "radical_affine_pair_recognition_controls211",
+      "path": "research/radical_affine_pair_recognition_controls_pass211.py",
+      "pre_execution_read": "Author complete EOF882111/hash5222fc/count07519c/method00e734; Root complete5c61a8/hashaccf44.",
+      "initial_output": "aab71b",
+      "session_id": null,
+      "terminal_output": "aab71b",
+      "methods": 4,
+      "unittest_seconds": 0.11,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "completion_via_original_handle": false,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/radical_affine_pair_recognition_controls_pass211.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "login": false,
+      "initial_yield_time_ms": 1000,
+      "initial_max_output_tokens": 6000
+    }
+  ],
+  "tagged_equations": 40,
+  "total_new_test_methods": 4,
+  "reviews": {
+    "fiber_obstruction": "General complete9050be/fresh hash3bdbfb; Jet complete EOF/hash5c69a7 at the final55a9c477 source. The all-fiber polynomial contraction, distinction between C(X)[F0] and C(X,F0), denominator multiplicities, derivative identity and odd/even contradiction reconstruct. The application requires an actual regular E-invariant tau; the main proof establishes it by normality and primitive division before invoking this lemma.",
+    "affine_pair_recognition": "General author completeff4f0b+d9d04e/hash77ed6b/metadata2948dd; Root complete504395+b7b6cc and fresh5c6be8+94b0f4; Geometry completeff860d+dc04b3; Jet completea9033a and fresh4f49c3. Primitive division and tau0 normality, both constant-mu coordinate presentations, the weighted common-a^n argument without independence of raw a,t,rho, the auxiliary slice before the three-variable endpoint, and the exact relation ideal retaining its linear exception reconstruct. The actual normalizations preserve the good-variable polynomial subring and Wang II membership. The final tau0 is regular and E-invariant, not merely a rational chart coefficient.",
+    "synthesis": "Root completeff5a7b+222c64; Geometry completedc04b3 and retained-bridge reviewf2d94f; Jet completeec1baa/hash5222fc. The actual full initial kernel, exhaustive210 cases and all affine-pair hypotheses compose without a new speed, rationality or arbitrary-entry assumption. The actual unit-speed examples207 remain positive controls, not counterexamples.",
+    "checker": "Author complete882111/hash5222fc/count07519c/method00e734 and Root complete5c61a8/hashaccf44 preceded the sole canonicalaab71b. Four methods independently check literal auxiliary columns, polynomial inverse orders, slice and bounded leader identities, the retained formal linear exception, actual normalization, F0 and parity coefficients. No additional full peer checker review is claimed.",
+    "metadata": "Read-only55871c and fe57b4 confirm all four source hashes, byte/line counts and both frozen210 hashes. Historical source status is retained. No212 source, unsaved exploration or earlier canonical execution is counted."
+  },
+  "proof_dependencies": {
+    "retained": [
+      "research/two-linear-two-quadratic-initial-bound-pass157-working.md",
+      "research/weight-four-universal-chart-potentials-pass184-working.md",
+      "research/nice-commuting-invariant-coefficients-recognition-pass205-working.md",
+      "research/weight-four-radical-nonzero-r-eliminant-pass206-working.md",
+      "research/radical-nodal-cuspidal-actual-frame-pass207-working.md",
+      "research/radical-proper-plane-unit-speed-synthesis-pass209-working.md",
+      "research/weight-four-constant-second-projection-recognition-pass210-working.md",
+      "research/radical-affine-pair-frontier-synthesis-pass210-working.md"
+    ],
+    "scope": "These are retained written inputs, not new211 records or reruns. The earlier actual-foundation audit supplies the exact selected N, finite coefficient field, projected return and scalar calibration. The imported classification and recognition theorems are applied only after their actual hypotheses are established."
+  },
+  "primary_source_checks": [
+    {
+      "url": "https://arxiv.org/pdf/1701.03635v1",
+      "reads": "Jet fresh turn4315view0 and turn4316view0.",
+      "scope": "Dasgupta-Gupta Theorem4.1 states Wang's two alternatives with the original two degree-one coordinates retained in the second. Theorem3.6, Lemma2.3(ii) and Theorem4.8 provide the exact PID-linear, invariant-base coefficient and three-variable statements used. Theorem4.8 is a stated Daigle result. This is not a claim of reading the original Wang or Daigle papers."
+    },
+    {
+      "url": "https://arxiv.org/html/1501.01438v1",
+      "reads": "Jet fresh turn4318view0 and turn4318view1.",
+      "scope": "Bhatwadekar-Gupta-Lokhande Theorem3.5 and its short proof recognize a regular kernel of a nonzero LND on a polynomial four-ring fixing an ambient coordinate. The actual global slice proves regularity here; the auxiliary slice first makes the three-variable invariant coordinate ambient."
+    }
+  ],
+  "finite_control_scope": "Four methods check the exact P columns and constant-mu coordinate maps in both inverse orders; the auxiliary slice with arbitrary base function and bounded weight-six common-speed identities; formal quadratic coefficient comparisons, the valid linear exception, actual normalization inverses and selected-partial/initial columns; and F0 differentiation, every symbolic fiber formula and bounded odd/even coefficients including d=0. They do not verify universal local nilpotence, primitive division, normality, constants, field descent, polynomial contraction, factorial closure or imported theorems.",
+  "next_bounded_task": "Investigate a distinct remaining actual leading-kernel sector or an entry obstruction, keeping supplied-frame recognition separate from arbitrary cancellation. Do not rerun211. Separate212 work is not incorporated."
+}

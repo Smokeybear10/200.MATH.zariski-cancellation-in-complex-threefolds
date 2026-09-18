@@ -1,0 +1,267 @@
+{
+  "status": "AI-audited working80: every nice sliced action on the actual complex polynomial four-ring has polynomial kernel. Unrestricted complex-threefold cancellation remains unproved.",
+  "working_question": "Unconfirmed corrected complex-threefold interpretation: A[s] isomorphic to C^[4] implies A isomorphic to C^[3]. The professor has not confirmed the intended correction, field or dimension.",
+  "previous_working_checkpoint": "research/checkpoint-pass79-working.json",
+  "previous_working_checkpoint_sha256": "527d0ef2f5d0bf19aff4dd28fb7af4706dc16c482a5c1006fca682998ba269fa",
+  "previous_integrated_checkpoint": "consistency-pass-60.json",
+  "previous_goal_turn_classification": "No progress: the preceding user check-in received a status-only response.",
+  "current_research_pass_classification": "progress",
+  "synthesis": "research/nice-slice-recognition-pass80.md",
+  "proof_audit": "research/proof-audits-pass80-working.md",
+  "verification_record": "research/verification-pass80-working.json",
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "targeted_verification": {
+    "path": "research/verification-pass80-working.json",
+    "sha256": "3553e406e112078bacc5c1bd4b81d4ada7f10fb1798a80deee7e03d3706b8260",
+    "suites": 1,
+    "test_methods": 4,
+    "all_passed": true,
+    "started_at_utc": "2026-09-14T08:40:41.136520+00:00",
+    "finished_at_utc": "2026-09-14T08:40:41.890271+00:00",
+    "monotonic_wall_seconds": 0.7535,
+    "unittest_seconds": 0.407,
+    "tracked_inputs": 3,
+    "retained_complete_outputs": 1
+  },
+  "retained79_checker_rerun": {
+    "path": "research/relative_quadratic_checks_pass79.py",
+    "exit_code": 0,
+    "tool_chunk": "258e4f",
+    "suites": 1,
+    "test_methods": 4,
+    "unittest_seconds": 0.197,
+    "output": "test_actual_conic_inverse_transport_and_second_iterate (__main__.RelativeQuadraticChecks.test_actual_conic_inverse_transport_and_second_iterate) ... ok\ntest_formal_five_row_determinant_and_all_cofactors (__main__.RelativeQuadraticChecks.test_formal_five_row_determinant_and_all_cofactors) ... ok\ntest_formal_quadratic_normal_form_and_cubic_bound (__main__.RelativeQuadraticChecks.test_formal_quadratic_normal_form_and_cubic_bound) ... ok\ntest_whole_relative_gradient_and_replica_boundary (__main__.RelativeQuadraticChecks.test_whole_relative_gradient_and_replica_boundary) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.197s\n\nOK\n",
+    "scope": "Separate rerun of unchanged old methods, not new80 methods or a full regression."
+  },
+  "new80_suites": 1,
+  "new80_test_methods": 4,
+  "fresh_full80_regression_performed": false,
+  "central_registry_integrated": false,
+  "historical_claim_count": 544,
+  "completed_deductions": [
+    "Every actual E in LND_C(C^[4]) with E(s*)=1 and E^2(x_i)=0 has kernel C^[3]. The J^2=0, nonzero constant good-space, and zero good-space cases are exhaustive.",
+    "In the no-good nice branch, the homogenized image is a three-dimensional component of its zero set using elementary rank, slice, homogeneity and dimension facts. De Bondt Theorem3.8(i) gives a generic pair-incidence property. A complete projective line-family proof forces the projective surface to be a nonsingular quadric.",
+    "The primitive quadric normal is an invertible constant matrix times the actual unimodular velocity P, so it is unimodular over S=C[u,v]. The unnormalized minor row may retain scalar content.",
+    "An explicit rank-one two-by-two UFD factorization of P and two Bezout completions give a global Segre frame over S and actual A=S[Y,Z]/F. No projective-module completion theorem, localization of S, or hidden ambient coordinate is used.",
+    "The actual original coordinate-generation determinant forces F to be a Darboux polynomial for an affine saddle field with nonzero opposite eigenvalues over Frac(S). The actual generic polynomial line excludes the hyperbola; therefore F is affine-linear. Nonempty closed curve fibers make its coefficient row unimodular, so A=S[t].",
+    "The associated action of N*s*E, for any nonzero integer N, is linear in the resulting three invariant coordinates and original slice. This is an immediate corollary, not an additional source input.",
+    "Two explicit parameter controls show that velocity unimodularity, formal nilpotence and the earlier lowest-normal-span bound alone do not force a unit primitive normal. The displayed derivative matrices fail commuting partials and local nilpotence and are not actual actions."
+  ],
+  "superseded_live_obligations": [
+    "Do not continue treating the no-good-direction branch as unrecognized under an actual nice frame and original polynomial slice.",
+    "Do not try to prove constant-good-direction existence as a necessary step for nice recognition; the no-good branch is now recognized without being excluded.",
+    "The old hypothetical nice height-twelve obstruction is no longer an open recognition case. This does not raise the general all-profile threshold."
+  ],
+  "remaining_mathematical_obligations": [
+    "Prove the unrestricted corrected complex-threefold cancellation implication, without assuming a nice coordinate frame. Constructing an actual nice frame is one possible route, not a proven reduction step.",
+    "Seek an actual frame-reduction operation or an independent recognition route for general non-nice sliced actions; pointwise local nilpotence alone does not supply a nice frame.",
+    "Confirm the professor's intended statement, correction, field and dimension.",
+    "Obtain historical novelty assessment and human expert review; no claimed formal verification exists. External outreach or public submission remains outside this packet's authorization."
+  ],
+  "next_bounded_actions": [
+    "Revalidate the frozen80 recognition chain and work on the remaining arbitrary-frame/non-nice problem, rather than reopening the closed nice branches.",
+    "Examine the lowest still-unrecognized actual adjoint-height profiles or construct a genuine degree-reducing polynomial coordinate operation, with explicit original-ring hypotheses.",
+    "Keep finite algebra controls separate from coordinate-existence proofs. Reject any proposed partial matrix unless the actual mixed-partial and local-nilpotence requirements hold."
+  ],
+  "proof_review_kind": "Complete separate written AI mathematical reconstructions, selected primary-proof reads, finite exact controls and file-integrity checks. Not human expert or formal verification.",
+  "arbitrary_nice_action_recognized": true,
+  "arbitrary_nice_action_scope": "Actual complex polynomial four-ring, global polynomial slice, and niceness in a supplied actual polynomial coordinate frame.",
+  "no_good_direction_case_recognized": true,
+  "no_good_velocity_cone_nondegenerate_quadric_proved": true,
+  "primitive_no_good_quadric_normal_unit_proved": true,
+  "raw_normal_ideal_always_unit_proved": false,
+  "universal_constant_good_direction_existence_proved": false,
+  "universal_nice_frame_existence_proved": false,
+  "universal_frame_existence_proved": false,
+  "all_profile_height_threshold": 10,
+  "conditional_nonpolynomial_kernel_minimum_height_lower_bound": 11,
+  "conditional_nonpolynomial_nice_frame_possible": false,
+  "general_conjecture_solved": false,
+  "professor_interpretation_confirmed": false,
+  "historical_novelty_verified": false,
+  "human_expert_review_completed": false,
+  "formal_verification_completed": false,
+  "external_contact_made": false,
+  "submission_or_publication_made": false,
+  "predecessor_audit": {
+    "checked_at_utc": "2026-09-14T08:34:11.569Z",
+    "all_passed": true,
+    "prior_hash_records": 370,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "527d0ef2f5d0bf19aff4dd28fb7af4706dc16c482a5c1006fca682998ba269fa",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "primary_source_audit": {
+    "checked_at_utc": "2026-09-14T08:46:17.679Z",
+    "all_passed": true,
+    "files": [
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.pdf",
+        "sha256": "b4df87f9a4042c1110915f50779be26decb6473fc13fccb99038a91bcb9f3a03",
+        "bytes": 2153645
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.txt",
+        "sha256": "31b95df36405d2cf9b50cf24e649bc75a40b490a0f2caebdca0de0416bf85816",
+        "bytes": 862237
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77-source.md",
+        "sha256": "4a8edfdd91fd0ef6441384a92b5aa45b2cc39f19958abcc7fbe363c89f237b83",
+        "bytes": 1170
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.sha256",
+        "sha256": "243073116eef79c9fd0d28c06add2c602bf7aeae3797e10373be8252b35ddd00",
+        "bytes": 214
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.txt",
+        "sha256": "2450cbb34179187172a6c81dfedba9752ecb32b067c5a62ffcb2decab7f236d9",
+        "bytes": 98069
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.pdf",
+        "sha256": "31cec362bd10fbe65e2a4622979fbcf4fbff2bcd585bae9dd3fe78bc330d49cc",
+        "bytes": 387538
+      }
+    ],
+    "scope": "Existing durable primary files rehashed. This is not a claim that every file was freshly read in full."
+  },
+  "selected_primary_reads": [
+    {
+      "title": "Homogeneous quasi-translations in dimension 5",
+      "author": "Michiel de Bondt",
+      "url": "https://arxiv.org/html/1501.04845v3",
+      "scope": "Selected full Theorem3.8 statement/proof and Definition3.7 freshly read by Root, General, Geometry and Jet; individual antecedent-read scope is recorded in audit80. Only3.8(i) is the new incidence source gate. No fresh whole-paper/deeper reference audit."
+    },
+    {
+      "title": "Conormal exact sequence, Lemma10.131.9",
+      "publisher": "The Stacks Project",
+      "url": "https://stacks.math.columbia.edu/tag/00RU",
+      "scope": "Root freshly read the full displayed proof; left injectivity is checked separately for the actual hypersurface."
+    },
+    {
+      "title": "C+-actions on contractible threefolds",
+      "authors": "Shulim Kaliman and Nikolai Saveliev",
+      "url": "https://www.math.miami.edu/~kaliman/library/KaSa.michigan.2004.quotient.pdf",
+      "scope": "Retained exact cylinder applicability; Root full saved-note reread, not a fresh whole primary/topology proof audit."
+    },
+    {
+      "title": "On nice Gm-actions arising from locally nilpotent derivations with slice",
+      "author": "Luis Cid",
+      "url": "https://arxiv.org/html/2604.03471v1",
+      "scope": "Root, General and Geometry freshly read selected Lemma5.3/Theorem5.4 proofs and Section6.4. Nearby criterion only, not a four-variable recognition input or novelty certification; differing displayed dates retained."
+    }
+  ],
+  "artifact_integrity": {
+    "checked_at_utc": "2026-09-14T08:46:17.679Z",
+    "all_passed": true,
+    "current_artifacts": 9,
+    "current_numbered_equations": 47,
+    "local_link_paths_checked": 636,
+    "deferred_checkpoint_links": [
+      {
+        "source": "research/proof-audits-pass80-working.md",
+        "target": "research/checkpoint-pass80-working.json"
+      },
+      {
+        "source": "README.md",
+        "target": "research/checkpoint-pass80-working.json"
+      },
+      {
+        "source": "research-ledger.md",
+        "target": "research/checkpoint-pass80-working.json"
+      }
+    ],
+    "link_anchors_checked": false,
+    "artifacts": [
+      {
+        "path": "research/nice-no-apex-quadric-pass80.md",
+        "sha256": "6482649c86d5c559fbff5c17594534432d22504f62405d49a771fdc73ae63b6f",
+        "bytes": 12775,
+        "lines": 262,
+        "numbered_equations": 10
+      },
+      {
+        "path": "research/quadric-segre-frame-pass80.md",
+        "sha256": "a692837713390bc9aa5bcd44e7dcd91bf4a4f6e817b6540e9009d34908236b90",
+        "bytes": 5003,
+        "lines": 130,
+        "numbered_equations": 10
+      },
+      {
+        "path": "research/nondegenerate-quadric-nice-recognition-pass80.md",
+        "sha256": "173c5756952ed1734935fa879e47ccca5a854e7cd9ffc922c364fedf39e4244a",
+        "bytes": 10727,
+        "lines": 269,
+        "numbered_equations": 13
+      },
+      {
+        "path": "research/normal-row-parameter-boundary-pass80.md",
+        "sha256": "a535ac78b771724c828d5ec1fb9597cdcfdd69454ae5268d89f4bb24c0058d1d",
+        "bytes": 10248,
+        "lines": 245,
+        "numbered_equations": 10
+      },
+      {
+        "path": "research/nice-slice-recognition-pass80.md",
+        "sha256": "6d22ea5f8a2daa14d792d0c0ad31a114b4df71a19ceee2c422ddf0da4beb2718",
+        "bytes": 7632,
+        "lines": 141,
+        "numbered_equations": 4
+      },
+      {
+        "path": "research/normal_row_parameter_checks_pass80.py",
+        "sha256": "c77a2ebbf789ad6e161abd0d434cc84c7f23575848200a7a7bdfa680712f55bf",
+        "bytes": 9464,
+        "lines": 173,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/run_targeted_pass80.py",
+        "sha256": "4d96427e84b8d45ed3d148f0806dc968a884984339ba34c0e5af8ad18f75daaf",
+        "bytes": 3215,
+        "lines": 89,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/verification-pass80-working.json",
+        "sha256": "3553e406e112078bacc5c1bd4b81d4ada7f10fb1798a80deee7e03d3706b8260",
+        "bytes": 2871,
+        "lines": 49,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/proof-audits-pass80-working.md",
+        "sha256": "10b0ebba23a4b07b214b72e96129f352c4969e78c81fbace3d5b66bfac4b25cf",
+        "bytes": 11359,
+        "lines": 189,
+        "numbered_equations": 0
+      }
+    ],
+    "targeted_suites": 1,
+    "targeted_methods": 4,
+    "new80_suites": 1,
+    "new80_methods": 4,
+    "current_run_sources_checked": 3,
+    "retained_output_hashes_checked": 1,
+    "primary_source_files_checked": 6,
+    "central_claim_count": 544,
+    "mathematical_suites_executed": 0,
+    "scope": "Read-only file hashes, equation numbering, local paths, whitespace and saved run accounting; not proof verification.",
+    "prior_hash_records": 370,
+    "total_hash_records": 379
+  },
+  "checkpoint_self_in_artifact_list": false
+}
+

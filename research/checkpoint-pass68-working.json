@@ -1,0 +1,216 @@
+{
+  "status": "Audited working68 conditional proof packet with actual targeted two-method coefficient checks. No fresh full68 regression; historical central registry remains at full60.",
+  "previous_working_checkpoint": "research/checkpoint-pass67-working.json",
+  "previous_integrated_checkpoint": "consistency-pass-60.json",
+  "current_research_pass_classification": "progress",
+  "synthesis": "research/constant-and-moving-closure-pass68.md",
+  "proof_audit": "research/proof-audits-pass68-working.md",
+  "verification_record": "research/verification-pass68-working.json",
+  "historical_integrated_counts": {
+    "claims": 544,
+    "test_methods": 1000,
+    "suites": 126
+  },
+  "last_full_regression": {
+    "path": "research/verification-pass67-working.json",
+    "test_methods": 1011,
+    "suites": 132,
+    "all_passed": true
+  },
+  "targeted_current_verification": {
+    "path": "research/verification-pass68-working.json",
+    "suites": 1,
+    "methods": 2,
+    "all_passed": true,
+    "unittest_seconds": 0.064,
+    "stdout_sha256": "43315031ecdf12b4240d23d04572e6d931008baa7c8942abb871de117aa29f05",
+    "clock_precision_seconds": 1
+  },
+  "fresh_full68_regression_performed": false,
+  "central_registry_integrated": false,
+  "completed_deductions": [
+    "Under an actual polynomial (1,1,2,2) adjoint frame and the original polynomial slice, every constant highest nonzero coordinate flow vector gives a polynomial three-variable kernel. The highest degree is bounded by six for independent defects and five for dependent defects.",
+    "The independent higher constant sectors of flow degrees four, five and six are recognized using both full companion images and either an explicitly justified commuting correction or a global commuting action with an actual coordinate slice.",
+    "The dependent constant sectors of flow degrees four and five are recognized while retaining the variable auxiliary row, both possible residual curve denominators and the original polynomial slice.",
+    "The independent moving cubic sector with original joint rank three is recognized for zero, nonconstant and nonzero constant normalized transverse speed. The proof obtains an original invariant ambient coordinate, not merely a localized slice.",
+    "A commuting coordinate-section lemma reduces recognition to established complex surface cancellation when the auxiliary action has an actual coordinate slice and fixes an actual polynomial slice of the original action."
+  ],
+  "remaining_mathematical_obligations_at_this_checkpoint": [
+    "Independent defects with nonconstant cubic highest vector and original joint rank two, where invariant normalization drops the defect rank.",
+    "Independent defects with nonconstant highest vector in flow degrees four or five, after inherited individual recognition criteria.",
+    "Dependent defects without a constant relation and with nonconstant highest vector in flow degrees three or four, after inherited individual recognition criteria.",
+    "Universal existence of an applicable actual polynomial coordinate frame, or an unrestricted recognition proof.",
+    "Confirmation from the professor of the intended field, dimension and corrected statement; current work uses the unconfirmed complex-threefold interpretation."
+  ],
+  "proof_review_kind": "Independent AI full-file reconstructions, with author self-review separated. Symbolic coefficient tests and artifact integrity are not human review or proof-assistant verification.",
+  "all_supplied_two_quadratic_low_flow_recognized": true,
+  "all_supplied_two_quadratic_constant_highest_flow_recognized": true,
+  "all_supplied_two_quadratic_independent_joint_rank_three_cubic_recognized": true,
+  "all_supplied_two_quadratic_cubic_flow_recognized": false,
+  "entire_two_quadratic_profile_recognized": false,
+  "all_profile_height_threshold": 9,
+  "general_conjecture_solved": false,
+  "universal_frame_existence_proved": false,
+  "novelty_claimed": false,
+  "human_expert_review": false,
+  "proof_assistant_verified": false,
+  "interpretation_confirmed_by_professor": false,
+  "external_contact_or_submission": false,
+  "artifact_integrity": {
+    "checked_at_utc": "2026-09-14T01:37:19.093517+00:00",
+    "all_passed": true,
+    "old_full60_nonmutable_records": 168,
+    "historical_registry_and_manifest_records": 2,
+    "central_claim_count": 544,
+    "prior_working64_artifacts": 13,
+    "prior_working65_artifacts": 11,
+    "prior_working66_artifacts": 9,
+    "prior_working67_artifacts": 10,
+    "prior_packets": [
+      {
+        "path": "research/checkpoint-pass64-working.json",
+        "sha256": "79837b5bcdd9291d9f145e9ff4a59645a08d4612f47d2cf1884d8cf25545c79f"
+      },
+      {
+        "path": "research/checkpoint-pass65-working.json",
+        "sha256": "48937ab0c218c0db8790f9572cb0f07bebd9d969ac09119a24baa6dddebd4f68"
+      },
+      {
+        "path": "research/checkpoint-pass66-working.json",
+        "sha256": "b4217516af1d50d19f6f446a49e85bba7462d6afabf69a35566968f3f825c635"
+      },
+      {
+        "path": "research/checkpoint-pass67-working.json",
+        "sha256": "e6aef37fc9a9c860febf533cf06298b6a48cfcb56a53be1bf73e2b325b126d47"
+      }
+    ],
+    "frozen67_checkpoint_sha256": "e6aef37fc9a9c860febf533cf06298b6a48cfcb56a53be1bf73e2b325b126d47",
+    "local_link_paths_checked": 45,
+    "deferred_future_checkpoint_links": [
+      {
+        "source": "research/constant-and-moving-closure-pass68.md",
+        "target": "research/checkpoint-pass68-working.json"
+      }
+    ],
+    "link_anchors_checked": false,
+    "current_new_checker": {
+      "path": "research/independent_higher_constant_checks_pass68.py",
+      "methods": [
+        "test_symbolic_full_velocity_and_commuting_coefficients",
+        "test_full_lower_layer_and_degree_four_five_six_split"
+      ],
+      "imports": [
+        "unittest",
+        "sympy"
+      ]
+    },
+    "targeted_verification": {
+      "path": "research/verification-pass68-working.json",
+      "suites": 1,
+      "methods": 2,
+      "all_passed": true,
+      "unittest_seconds": 0.064,
+      "stdout_sha256": "43315031ecdf12b4240d23d04572e6d931008baa7c8942abb871de117aa29f05",
+      "clock_precision_seconds": 1
+    },
+    "last_full_regression": {
+      "suites": 132,
+      "methods": 1011,
+      "all_passed": true
+    },
+    "fresh_full68_regression_performed": false,
+    "central_claim_registry_integrated": false,
+    "general_cancellation_verified": false,
+    "scope": "Artifact integrity and actual targeted finite-test accounting, not mathematical proof verification or a fresh full68 regression. An absent current checkpoint link is explicitly deferred because this capture precedes that packet.",
+    "artifacts": [
+      {
+        "path": "research/independent-higher-constant-closure-pass68.md",
+        "bytes": 11627,
+        "sha256": "49bde9f909cb89775ec2328a8ef4f9ea8d8bf143e5c6537a3d373d54050ec6bf",
+        "lines": 325,
+        "numbered_equations": 22,
+        "source_footnotes": 1
+      },
+      {
+        "path": "research/dependent-constant-quartic-closure-pass68.md",
+        "bytes": 16648,
+        "sha256": "fec033224e8e45156a47c838badd57a58caaea7c2eced859db615bc78fbb06d2",
+        "lines": 499,
+        "numbered_equations": 30,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/dependent-constant-quintic-closure-pass68.md",
+        "bytes": 14326,
+        "sha256": "05ca20f3331bfec39f78e7601c0d489d51f58ff2913aa611193182af50e9fe1c",
+        "lines": 440,
+        "numbered_equations": 27,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/moving-cubic-coordinate-local-slice-pass68.md",
+        "bytes": 11258,
+        "sha256": "30e8a2328fc17aa1d54aeaa7a4a916d74f1218f52b55b48c57b6b7d3a56d4c07",
+        "lines": 324,
+        "numbered_equations": 18,
+        "source_footnotes": 1
+      },
+      {
+        "path": "research/moving-cubic-graph-recognition-pass68.md",
+        "bytes": 7713,
+        "sha256": "3efb94ec88450e860e159ad9c3c1a90ef3a56d72fd74344702665c78c76450dd",
+        "lines": 218,
+        "numbered_equations": 13,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/moving-cubic-constant-speed-recognition-pass68.md",
+        "bytes": 7581,
+        "sha256": "6272e98f00be4c22239b28ab4c4939378c7d4a584e25a413b34658a9ffeded3f",
+        "lines": 217,
+        "numbered_equations": 11,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/independent_higher_constant_checks_pass68.py",
+        "bytes": 5266,
+        "sha256": "9a650ff185ba425602f2e9524dd6be03c9507cc75c8257fb492b6a15fa1bfccc",
+        "lines": 116,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/proof-audits-pass68-working.md",
+        "bytes": 18932,
+        "sha256": "afb899e86b71d0ce28b041801b020469f483d8d73dccefe150061bd5a750bdd9",
+        "lines": 379,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/constant-and-moving-closure-pass68.md",
+        "bytes": 12339,
+        "sha256": "7ff45f5983786ec72e151ec2bb00703e04ca93bf118657bb7c3c3eeee5083a5e",
+        "lines": 244,
+        "numbered_equations": 7,
+        "source_footnotes": 2
+      },
+      {
+        "path": "research/verification-pass68-working.json",
+        "bytes": 1160,
+        "sha256": "cfe975b91efa18b65b397dc608effc47c683f7ed7f8512aadfe6416b9650bea1",
+        "lines": 27,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/consistency_checks_pass68.py",
+        "bytes": 10177,
+        "sha256": "dd508843294f5d1c980c191f16f880a1485c03cac51926677ed3c584fbfc08f8",
+        "lines": 223,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      }
+    ]
+  }
+}

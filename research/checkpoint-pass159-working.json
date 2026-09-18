@@ -1,0 +1,81 @@
+{
+  "pass": 159,
+  "status": "actual_cusp_generic_chart_and_selected_factor_reduction; four_exact_methods_passed; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/cusp-generic-chart-first-reductions-pass159-working.md",
+      "sha256": "8c5f26456b526ad426acbba9b8385e3eeb628ef23abdf328f529f36b5526d611",
+      "bytes": 14622,
+      "lines": 373,
+      "equations": 12,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp-generic-selected-factor-reduction-pass159-working.md",
+      "sha256": "e6e85ae96474d9463a9940fcae30ddc18a085011f3f05d11dad816813231be63",
+      "bytes": 8191,
+      "lines": 213,
+      "equations": 7,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp_generic_chart_controls_pass159.py",
+      "sha256": "c357b7805c245051e82e213f5c961e8d8f8f61baba1ab299b22e454eda828b0a",
+      "bytes": 15326,
+      "lines": 305,
+      "equations": 0,
+      "test_methods": 4
+    },
+    {
+      "path": "research/verification-pass159-working.json",
+      "sha256": "e6b7e51a23b7bf922ff8af5b4fdcbcf1f621933dd4f4ead95c4b4f7df128ca49",
+      "bytes": 5639,
+      "lines": 80,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "results": {
+    "chart": "Under an actual sliced polynomial four-frame with exact E-time degrees(1,1,2,2) and full initial kernel(XZ-Y^3), the selected intrinsic LND has exact shift3. Its exact field L is finite separable over C(tau,rho). The actual X-chart has whole L[y,z,w]=L[v] and calibrated relative Jacobian -a^3. Its X4,X3,X2 coefficients integrate to sigma,z and r*w+f(y,theta)=ell.",
+    "nonzero_r": "For r=k_rho!=0, the X1 coefficient gives Phi(y,theta)=m with deg Phi<=4, and L[y,theta]=L[v]. X0 expresses -a^3 as a polynomial combination of the evaluated gradient. Thus the selected irreducible kernel factor G is simple and its cofactor restricts to a nonzero L constant.",
+    "selected_factor": "Exactly Phi-m=cG+G^2K. If K!=0 then either degG1 and y is constant, or degG2 and y is an affine generic parameter with theta a quadratic polynomial in y. All degree4/3/2 drops are treated over the original L. If y is neither constant nor affine, Phi-m is associated to G. No converse actual realization is claimed.",
+    "zero_r_scope": "The core159 note only gives L[y,w]=L[v] when r=0,n_rho!=0, and an affine w parameter with y,z,sigma,theta constant when r=n_rho=0. The stronger next-coefficient result belongs to separate160, not this packet.",
+    "actual_boundary": "The fourth finite method has a two-sided polynomial inverse for an actual cusp frame with k=n=rho, ell0, y=v, theta=-v^3-tau, w=tau. It verifies relative J=-1, selected N=partial_v, full initial kernel and the actual invariant tau=(1+X)W-X(XZ-Y^3) of weight4. X is already a coordinate slice. This prevents exclusion of cusp frames and is not a cancellation counterexample.",
+    "remaining": "No integral denominator removal, low-weight invariant existence, global cusp recognition, arbitrary-coordinate entry, or unrestricted cancellation. The quartic classification and zero-r graph160 work are excluded."
+  },
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass158-working.json",
+    "sha256": "fba97ba5929af121ea99de8ac4eeff3c3bebc71842d86b213053d1ed65f3e926",
+    "records": 1028
+  },
+  "goal_audit": {
+    "previous_goal_turn": "Status-only check: no new mathematical state; live-agent snapshot confirmed the pending checker agent was running. This continuation revalidated saved sources rather than restarting completed tests.",
+    "current_continuation": "Progress: completed actual chart and selected-factor proof reviews, canonical four-method terminal test, and a new independently reconstructed zero-r argument with three separate160 tests.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "chain_record_count_after_including_this_checkpoint": 1033,
+  "record_count_convention": "1028 prior records plus two proof notes159, one checker159, verification159 and this checkpoint. Live indexes and all160 work excluded. Counts do not measure mathematical significance.",
+  "verification": {
+    "capture": "research/verification-pass159-working.json",
+    "canonical_terminal": "a2306c",
+    "methods": 4,
+    "seconds": 0.433,
+    "exit_code": 0,
+    "numbered_equations": 19,
+    "pending_execution_handle": false
+  },
+  "next_bounded_task": "Complete separate160 exact-field degree exhaustion and nongraph quartic necessary ODE, and the zero-r generic graph reduction. Then attack actual realization or integral denominator removal. Do not infer a global polynomial coordinate from a generic parameter or treat necessary ODE solutions as actual frames."
+}

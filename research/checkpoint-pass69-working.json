@@ -1,0 +1,291 @@
+{
+  "status": "Audited working69 conditional proof packet with actual combined 136-suite/1021-method regression. Historical central registry remains at full60; pass70 drafts are excluded.",
+  "previous_working_checkpoint": "research/checkpoint-pass68-working.json",
+  "previous_integrated_checkpoint": "consistency-pass-60.json",
+  "current_research_pass_classification": "progress",
+  "preceding_user_check_in_turn_classification": "no progress: status-only readback; this turn resumes substantive proof and integrity work",
+  "synthesis": "research/independent-cubic-closure-pass69.md",
+  "proof_audit": "research/proof-audits-pass69-working.md",
+  "verification_record": "research/verification-pass69-working.json",
+  "historical_integrated_counts": {
+    "claims": 544,
+    "test_methods": 1000,
+    "suites": 126
+  },
+  "last_full_regression": {
+    "path": "research/verification-pass69-working.json",
+    "test_methods": 1021,
+    "suites": 136,
+    "all_passed": true,
+    "started_at_utc": "2026-09-14T02:03:29.218741+00:00",
+    "finished_at_utc": "2026-09-14T02:05:03.238131+00:00",
+    "sha256": "0e058799b5d1af27c628d690dc11999613f5ac047b4ccaa3b25ff457c1a6c51b"
+  },
+  "fresh_full69_regression_performed": true,
+  "current_pass_test_addition": {
+    "suites": 3,
+    "methods": 8
+  },
+  "central_registry_integrated": false,
+  "completed_deductions": [
+    "Under an actual polynomial (1,1,2,2) adjoint frame and the original polynomial slice, every independent-defect coordinate flow of degree at most three has a polynomial three-variable kernel.",
+    "The new original joint-rank-two moving cubic branch is recognized for nonconstant normalized transverse speed by a rational two-direction symmetry and its proved parallel/radial alternatives.",
+    "Nonzero constant normalized transverse speed admits an explicit original polynomial combined shear to the already recognized mixed frame. Its new third coordinate flow derivatives vanish.",
+    "Projection of a commuting locally nilpotent defect to a divided-action slice kernel proves normalized local nilpotence and supplies exact polynomial clearing under the actual column identities; intrinsic restrictions remain replicas, not new independent directions.",
+    "A highest iterated adjoint of an actual locally nilpotent derivation parallel to a sliced locally nilpotent derivation vanishes, by an actual Laurent conjugation, restriction and stable-ideal specialization."
+  ],
+  "remaining_mathematical_obligations_at_this_checkpoint": [
+    "Independent defects with nonconstant highest vector in flow degrees four or five, after inherited individual recognition criteria.",
+    "Dependent defects without a complex constant relation and with nonconstant highest vector in flow degrees three or four, after inherited individual recognition criteria. Separate pass70 drafts are not counted in this checkpoint.",
+    "Universal existence of an applicable actual polynomial coordinate frame, or an unrestricted recognition proof.",
+    "Confirmation from the professor of the intended field, dimension and corrected statement; current work uses the unconfirmed complex-threefold interpretation."
+  ],
+  "proof_review_kind": "Independent AI through-EOF proof reconstructions, with author self-review separated. Root and Geometry also fully read the new integrity checker; Root ran it at the time in artifact_integrity. No human or proof-assistant review is claimed.",
+  "all_supplied_two_quadratic_low_flow_recognized": true,
+  "all_supplied_two_quadratic_constant_highest_flow_recognized": true,
+  "all_supplied_two_quadratic_independent_cubic_flow_recognized": true,
+  "all_supplied_two_quadratic_cubic_flow_recognized": false,
+  "entire_two_quadratic_profile_recognized": false,
+  "all_profile_height_threshold": 9,
+  "general_conjecture_solved": false,
+  "universal_frame_existence_proved": false,
+  "novelty_claimed": false,
+  "human_expert_review": false,
+  "proof_assistant_verified": false,
+  "interpretation_confirmed_by_professor": false,
+  "external_contact_or_submission": false,
+  "artifact_integrity": {
+    "checked_at_utc": "2026-09-14T02:18:57.232827+00:00",
+    "all_passed": true,
+    "frozen68_checkpoint": {
+      "path": "research/checkpoint-pass68-working.json",
+      "sha256": "435d09c341a80c1b3f6ae7ba46316b89e64d9f6f5291cce0fa6f1bb3413a0b50"
+    },
+    "old_full60_nonmutable_records": 168,
+    "historical_registry_and_manifest_records": 2,
+    "central_claim_count": 544,
+    "prior_working64_artifacts": 13,
+    "prior_working65_artifacts": 11,
+    "prior_working66_artifacts": 9,
+    "prior_working67_artifacts": 10,
+    "prior_working68_artifacts": 11,
+    "prior_packets": [
+      {
+        "path": "research/checkpoint-pass64-working.json",
+        "sha256": "79837b5bcdd9291d9f145e9ff4a59645a08d4612f47d2cf1884d8cf25545c79f"
+      },
+      {
+        "path": "research/checkpoint-pass65-working.json",
+        "sha256": "48937ab0c218c0db8790f9572cb0f07bebd9d969ac09119a24baa6dddebd4f68"
+      },
+      {
+        "path": "research/checkpoint-pass66-working.json",
+        "sha256": "b4217516af1d50d19f6f446a49e85bba7462d6afabf69a35566968f3f825c635"
+      },
+      {
+        "path": "research/checkpoint-pass67-working.json",
+        "sha256": "e6aef37fc9a9c860febf533cf06298b6a48cfcb56a53be1bf73e2b325b126d47"
+      },
+      {
+        "path": "research/checkpoint-pass68-working.json",
+        "sha256": "435d09c341a80c1b3f6ae7ba46316b89e64d9f6f5291cce0fa6f1bb3413a0b50"
+      }
+    ],
+    "frozen68_integrity_reexecuted": true,
+    "mathematical_suites_executed": 0,
+    "regression_runners_executed": 0,
+    "current_new_checkers": [
+      {
+        "path": "research/normalized_defect_projection_checks_pass69.py",
+        "methods": [
+          "test_actual_coordinate_partial_and_minimal_clearing_power",
+          "test_actual_commuting_fields_preserve_and_drop_generic_rank",
+          "test_local_projection_alone_does_not_give_one_power_descent"
+        ],
+        "imports": [
+          "unittest",
+          "sympy"
+        ]
+      },
+      {
+        "path": "research/rational_two_direction_checks_pass69.py",
+        "methods": [
+          "test_classification_differential_and_leading_coefficient_identities",
+          "test_actual_parallel_action_with_nonzero_kappa",
+          "test_actual_radial_compatibility_without_local_nilpotence"
+        ],
+        "imports": [
+          "unittest",
+          "sympy"
+        ]
+      },
+      {
+        "path": "research/cubic_shear_vertical_checks_pass69.py",
+        "methods": [
+          "test_actual_shear_and_formal_full_coefficient_bounds",
+          "test_n_parametric_dilation_and_vertical_divisibility_boundary"
+        ],
+        "imports": [
+          "unittest",
+          "sympy"
+        ]
+      }
+    ],
+    "combined_verification": {
+      "path": "research/verification-pass69-working.json",
+      "sha256": "0e058799b5d1af27c628d690dc11999613f5ac047b4ccaa3b25ff457c1a6c51b",
+      "suites": 136,
+      "methods": 1021,
+      "all_passed": true,
+      "started_at_utc": "2026-09-14T02:03:29.218741+00:00",
+      "finished_at_utc": "2026-09-14T02:05:03.238131+00:00",
+      "elapsed_seconds": 94.01939,
+      "exact_inherited67_commands": 132,
+      "rerun68_methods": 2,
+      "new69_suites": 3,
+      "new69_methods": 8,
+      "retained_outputs_rehashed": [
+        {
+          "path": "research/normalized_defect_projection_checks_pass69.py",
+          "methods": 3,
+          "unittest_seconds": 0.157,
+          "stdout_sha256": "7e7b518c62fd31b716bf236a1c7683595f443b08d4c0caf38bc7274fab8f302b"
+        },
+        {
+          "path": "research/rational_two_direction_checks_pass69.py",
+          "methods": 3,
+          "unittest_seconds": 0.189,
+          "stdout_sha256": "15bf1cdb223d5e10e4cab3a7f91badf64925f3e77e75c01405c3bfeb7c3a372b"
+        },
+        {
+          "path": "research/cubic_shear_vertical_checks_pass69.py",
+          "methods": 2,
+          "unittest_seconds": 0.091,
+          "stdout_sha256": "6b1376e7447249b88676e8086e42b3577ebdf6fdd08ac3b999f06acbb522a101"
+        }
+      ],
+      "omitted_successful_outputs": 133,
+      "omitted_stdout_hashes_recomputed": false
+    },
+    "local_link_paths_checked": 45,
+    "deferred_future_checkpoint_links": [],
+    "link_anchors_checked": false,
+    "central_claim_registry_integrated": false,
+    "general_cancellation_verified": false,
+    "scope": "Read-only artifact integrity and actual captured finite-test accounting. No mathematical proof, source theorem, human review, formal verification, novelty, universal frame or general cancellation is verified. The only potentially deferred local path is this pass's future checkpoint; pass70 drafts are excluded.",
+    "artifacts": [
+      {
+        "path": "research/projected-cubic-defects-pass69.md",
+        "bytes": 6848,
+        "sha256": "5e1855966e8e4ca395775657cefe5a6e06fd4e5408f51007db0a952015efb5f5",
+        "lines": 165,
+        "numbered_equations": 9,
+        "source_footnotes": 1
+      },
+      {
+        "path": "research/rational-two-direction-recognition-pass69.md",
+        "bytes": 8844,
+        "sha256": "1013e596e36b77f24947c63fc7c4e959c2b27f1ca6062092d67a4287faa3c8b5",
+        "lines": 212,
+        "numbered_equations": 14,
+        "source_footnotes": 2
+      },
+      {
+        "path": "research/cubic-rank-drop-nonconstant-speed-pass69.md",
+        "bytes": 10642,
+        "sha256": "ed17a21d1a9503c07264163573cce26ba2c62984aa71700d6241d1527883d258",
+        "lines": 320,
+        "numbered_equations": 16,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/vertical-top-exclusion-pass69.md",
+        "bytes": 5248,
+        "sha256": "dc2a311f2065d92a06f95c27a08b1cd3ece0d6d458a4f14e94d74bb8a4ed39c5",
+        "lines": 141,
+        "numbered_equations": 8,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/cubic-rank-drop-constant-speed-closure-pass69.md",
+        "bytes": 6477,
+        "sha256": "24ef8a30708bbc51ce45a6e480bb34c0d80ca029fd1029b20507acb546732d89",
+        "lines": 207,
+        "numbered_equations": 13,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/normalized-defect-projection-controls-pass69.md",
+        "bytes": 7707,
+        "sha256": "479df93324b06af4b57833a395ececff7561ef5380f086929ce65545460c0c00",
+        "lines": 216,
+        "numbered_equations": 12,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/normalized_defect_projection_checks_pass69.py",
+        "bytes": 6937,
+        "sha256": "b586e3b71b8a681b5e75f70f3c9364bc8cbe6d4cbf74af529cebd47a4438125f",
+        "lines": 137,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/rational_two_direction_checks_pass69.py",
+        "bytes": 6894,
+        "sha256": "d71612cce1af560dbeb5aea44c5b9c6f22595c888e71dbb03deda6b6e5b6429e",
+        "lines": 146,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/cubic_shear_vertical_checks_pass69.py",
+        "bytes": 5720,
+        "sha256": "632b466d6bdab7d886bee34b62b77ac0b8bc8840b96d65df9e355075fed6ccfe",
+        "lines": 118,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/proof-audits-pass69-working.md",
+        "bytes": 17578,
+        "sha256": "7929449259646e163cab688f10508dacffd16b2a230e6ebdd1949c36258e6375",
+        "lines": 329,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/independent-cubic-closure-pass69.md",
+        "bytes": 11278,
+        "sha256": "e1ed22f88c60b4f72816dc754487a1ec5345d00a4385056a845b197c88fdbc15",
+        "lines": 230,
+        "numbered_equations": 5,
+        "source_footnotes": 1
+      },
+      {
+        "path": "research/run_regression_pass69.py",
+        "bytes": 4298,
+        "sha256": "f8ceaa139e21f46996caef1120701630fc69b93acb3653e8e3fcdaeb7cf79b8e",
+        "lines": 89,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/verification-pass69-working.json",
+        "bytes": 100950,
+        "sha256": "0e058799b5d1af27c628d690dc11999613f5ac047b4ccaa3b25ff457c1a6c51b",
+        "lines": 2611,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/consistency_checks_pass69.py",
+        "bytes": 14238,
+        "sha256": "76e5f7fc87a52f2fd3a7a01c6c76f5c2e8422ee2754fc9b84677163243cef14b",
+        "lines": 303,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "status": "Audited working72 conditional deduction: all original joint-rank-at-most-two sliced actions under the supplied actual two-quadratic frame are recognized. Independent joint-rank-three moving sectors and universal frame existence are outside this packet.",
+  "previous_working_checkpoint": "research/checkpoint-pass71-working.json",
+  "previous_integrated_checkpoint": "consistency-pass-60.json",
+  "current_research_pass_classification": "progress",
+  "previous_status_only_turn_classification": "no progress in the root proof; files and live reviewers revalidated before the next bounded audit",
+  "synthesis": "research/joint-rank-two-frame-closure-pass72.md",
+  "proof_audit": "research/proof-audits-pass72-working.md",
+  "verification_record": "research/verification-pass72-working.json",
+  "historical_integrated_counts": {
+    "claims": 544,
+    "test_methods": 1000,
+    "suites": 126
+  },
+  "last_full_regression": {
+    "path": "research/verification-pass69-working.json",
+    "suites": 136,
+    "test_methods": 1021,
+    "all_passed": true
+  },
+  "targeted_current_verification": {
+    "path": "research/verification-pass72-working.json",
+    "suites": 1,
+    "methods": 5,
+    "all_passed": true,
+    "unittest_seconds": 0.239,
+    "started_at_utc": "2026-09-14T03:57:03.415Z",
+    "finished_at_utc": "2026-09-14T03:57:04.038Z",
+    "checker_sha256": "07ed89446e0b13bc2d1df642dc3424c1d4dfa0102351adea443cc6661dedf362",
+    "output_sha256": "b7bd52d7856101919dba89eb0bcd4ed3fbbddf75c87eb3d9ca7c61ae0b2c4ab6"
+  },
+  "fresh_full72_regression_performed": false,
+  "central_registry_integrated": false,
+  "completed_deductions": [
+    "Original joint-rank-two moving quartic transfer to the actual terminal71 hypotheses.",
+    "A full third companion-image argument gives constant normalized acceleration for the remaining actual good quintic coordinate.",
+    "An explicit polynomial nice replica is obtained by clearing four powers of the actual invariant factor, retaining all multiplicities.",
+    "A rational fixed-good-base commutator lemma forces coefficient independence using a nonzero output defect.",
+    "The terminal quintic is recognized in both zero and nonzero acceleration cases by actual polynomial shears and exact original-ring recognition gates.",
+    "All original joint-rank-at-most-two cases under the supplied two-quadratic frame are exhausted."
+  ],
+  "remaining_mathematical_obligations_at_this_checkpoint": [
+    "Independent original joint-rank-three moving quartic and quintic sectors. Separate73 drafts are excluded.",
+    "Universal existence of an applicable actual frame, or an unrestricted original-kernel recognition proof.",
+    "Professor confirmation of the intended field, dimension and corrected statement."
+  ],
+  "proof_review_kind": "Independent full-file AI reconstructions, separate from author self-review and bounded exact controls. Not human or formal verification.",
+  "all_supplied_two_quadratic_joint_rank_at_most_two_recognized": true,
+  "all_supplied_two_quadratic_dependent_defects_recognized": true,
+  "entire_two_quadratic_profile_recognized": false,
+  "all_profile_height_threshold": 9,
+  "general_conjecture_solved": false,
+  "universal_frame_existence_proved": false,
+  "novelty_claimed": false,
+  "human_expert_review": false,
+  "proof_assistant_verified": false,
+  "interpretation_confirmed_by_professor": false,
+  "external_contact_or_submission": false,
+  "pass73_drafts_excluded": true,
+  "artifact_integrity": {
+    "checked_at_utc": "2026-09-14T04:00:05.022Z",
+    "all_passed": true,
+    "frozen_predecessor": {
+      "path": "research/checkpoint-pass71-working.json",
+      "sha256": "57d0b054819d272ebd1479f7d742a96108d8b59c08143512dc6c70efba73540c"
+    },
+    "prior_hash_records": 263,
+    "current_artifacts": 11,
+    "total_hash_records": 274,
+    "local_link_paths_checked": 52,
+    "deferred_checkpoint_links": [
+      {
+        "source": "research/proof-audits-pass72-working.md",
+        "target": "research/checkpoint-pass72-working.json"
+      }
+    ],
+    "link_anchors_checked": false,
+    "current_numbered_equations": 77,
+    "targeted_output_rehashed": true,
+    "mathematical_suites_executed": 0,
+    "regression_runners_executed": 0,
+    "scope": "Exact file hashes, equation numbering, local paths, text hygiene and captured bounded-run accounting only. Not mathematical proof verification.",
+    "artifacts": [
+      {
+        "path": "research/independent-higher-rank-drop-pass72.md",
+        "sha256": "d01f59d60dd88498333233e23836ef7dae3cd602fc00e732acc2736133da2d6e",
+        "bytes": 12177,
+        "lines": 322,
+        "numbered_equations": 17
+      },
+      {
+        "path": "research/quintic-rank-drop-third-image-pass72.md",
+        "sha256": "21befaf0f8d9b52eb38d9d58190e522dffd2009b258548c0348b855d294c1131",
+        "bytes": 6377,
+        "lines": 194,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/quintic-rank-drop-polynomial-symmetry-pass72.md",
+        "sha256": "f0992a59b0e64817a5aac6c33385b7b7485accc552be0c94a019e4f83cba6b76",
+        "bytes": 7203,
+        "lines": 214,
+        "numbered_equations": 16
+      },
+      {
+        "path": "research/fixed-good-base-coefficient-pass72.md",
+        "sha256": "4491f4abb842463c2b5b65d8fc6b0894e78b7cc44dabb259628ca42f872121ae",
+        "bytes": 3801,
+        "lines": 123,
+        "numbered_equations": 5
+      },
+      {
+        "path": "research/terminal-quintic-recognition-pass72.md",
+        "sha256": "7722c8f97d91b73a47bc9d084bf1b5d0a12a31fab1492d83d24e6f6d54b0347c",
+        "bytes": 14024,
+        "lines": 362,
+        "numbered_equations": 22
+      },
+      {
+        "path": "research/joint-rank-two-frame-closure-pass72.md",
+        "sha256": "8c8359a41d7420c942ff1196c3752f6166511db444b4a86d0a0be8238fe8f8a3",
+        "bytes": 8787,
+        "lines": 209,
+        "numbered_equations": 6
+      },
+      {
+        "path": "research/good-coordinate-local-slice-scope-pass72.md",
+        "sha256": "c789adabd79e34e218bdfa8d1588618abf142b20a6286e4e6fedb34319479896",
+        "bytes": 8672,
+        "lines": 189,
+        "numbered_equations": 3
+      },
+      {
+        "path": "research/quintic_rank_drop_checks_pass72.py",
+        "sha256": "07ed89446e0b13bc2d1df642dc3424c1d4dfa0102351adea443cc6661dedf362",
+        "bytes": 16134,
+        "lines": 296,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/quintic-rank-drop-controls-pass72.md",
+        "sha256": "3c25451b041e9a3cbcbf0728c2309016389af5065ab5d1f5f04c91f0d096cc54",
+        "bytes": 8322,
+        "lines": 186,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/verification-pass72-working.json",
+        "sha256": "a3675b6c02c8eed1158b0b8201d6b478a6ad30620926b5fa495a0e63b57bde9d",
+        "bytes": 825,
+        "lines": 16,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/proof-audits-pass72-working.md",
+        "sha256": "48510bc64364cefd364d844061fc3ba23b130b9199923490ddd499a3178df2fa",
+        "bytes": 6146,
+        "lines": 116,
+        "numbered_equations": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "pass": 155,
+  "status": "all_fixed_axis_three_stage_placements_excluded; arbitrary_chain_extension_pending; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/three-stage-gradient-obstruction-pass155-working.md",
+      "sha256": "29367c7860eeeda525bf6e0486b79bb078650253294603d8dab29c162943ac11",
+      "bytes": 9759,
+      "lines": 246,
+      "equations": 9,
+      "test_methods": 0
+    },
+    {
+      "path": "research/three_stage_gradient_controls_pass155.py",
+      "sha256": "3b3573c41134c428c037b6431ec8055391004450442029ab54aba2415972d47e",
+      "bytes": 7914,
+      "lines": 152,
+      "equations": 0,
+      "test_methods": 2
+    }
+  ],
+  "results": {
+    "algebraic_theorem": "Over a characteristic-zero differential field, for R=V-A(U), H=U-B(R), Phi=C(H)+lambda*R+n and all three stage degrees>=2, there is no Psi=alpha*H+beta+c*Phi with alpha!=0 and delta(Phi)=partial_U(Psi). No centering, second derivative or original-ring inverse is needed.",
+    "proof": "Put P=c*A'-A_delta. In independent variables R,H, the unique highest R coefficient first forces degP<=degA-1. The next coefficient gives -p_(r-1)*C'(H)=alpha*r*a_r, impossible because C' has positive H degree and the right side is a nonzero scalar.",
+    "canonical_gate": "The retained actual normalized dense tails have degPsi<=degPhi. The full quotient line is L[H]=L[v]; hence H evaluates to an affine parameter and Psi-alpha*H-beta is a constant multiple of the whole Phi. The algebraic theorem therefore excludes the specified fixed-axis placement.",
+    "remaining": "No degree-eight exhaustion or mu7 recognition is claimed in this packet. The separately developing arbitrary-length156 obstruction and AMS exhaustion are not completed155 results. Arbitrary-coordinate entry and full cancellation remain unresolved."
+  },
+  "canonical_execution": {
+    "command": "/opt/anaconda3/bin/python research/three_stage_gradient_controls_pass155.py -v",
+    "source_sha256": "3b3573c41134c428c037b6431ec8055391004450442029ab54aba2415972d47e",
+    "source_read": "Root full EOF1f5056 before execution; subsequent hash99e9d8 unchanged.",
+    "initial_output": "59745d",
+    "initial_session": 15004,
+    "completion_output": "da00c1",
+    "exit_code": 0,
+    "methods": 2,
+    "seconds": 0.788,
+    "state": "terminal; session15004 closed; no pending execution",
+    "runtime": "Python3.13.5 Anaconda, SymPy1.13.3, freshly checked in1eebe6 earlier in the same continuation.",
+    "scope": "Four generic parameter-jet triples (2,2,2),(3,2,2),(2,3,2),(2,2,3); formal plane inverses; full gradient signs and both highest R coefficients; a valid degree-one outer-stage formal boundary satisfying both gradients. These finite controls do not prove the universal argument or realize an actual dense four-frame."
+  },
+  "reviews": {
+    "root": "Full proof EOFe7cbbb and checker EOF1f5056 before canonical execution; hashes99e9d8.",
+    "general": "Author complete EOF4efc61 and TeX spacing correction d1fb95 at29367c78; independently reconstructed all-degree root outline before writing.",
+    "geometry": "Independent complete proof EOFa09a73 at29367c78 and checker EOF2a6449 at3b3573c4; no test execution.",
+    "jet": "Independent complete proof EOFb7c59f at29367c78; checker author EOF/hash46f872 at3b3573c4; no test execution."
+  },
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass154-working.json",
+    "sha256": "94535f422a2f1e639836370dbf25752cf424f7db3d3d135f57905f3cc4185be0",
+    "records": 1005
+  },
+  "goal_audit": {
+    "current_turn_classification": "progress: all-degree three-stage differential-field obstruction, exact actual-tail applicability gate and two terminal finite methods.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  }
+}

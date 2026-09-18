@@ -1,0 +1,98 @@
+{
+  "pass": 205,
+  "status": "invariant_coefficient_nice_pair_recognition_and_t_independent_zero_R_application; unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass204-working.json",
+    "sha256": "d987de8c39f8fb97ac15e8b1ec1e769d4371389a73e4e1beeedec57d438562f8",
+    "records": 1262
+  },
+  "results": {
+    "criterion": "An actual commuting nice LND P fixing X, with E-invariant coordinate coefficients and EX nonzero/E^2X=0, yields an E-invariant ambient coordinate. The primitive auxiliary slice and polynomial inverse are established before applying the exact Daigle and regular-kernel endpoints.",
+    "application": "Under the supplied full weight-four chart, q_t=0, q_rhorho nonzero and evaluated R identically zero imply the criterion. This recognizes the specified zero-R branches of Z^2-X^2W and ZW-X^4, with their stated pivots.",
+    "boundaries": "Actual fixtures separate coefficient invariance from niceness/commutation and allow nonunit content. No original slice in the auxiliary kernel is assumed. The nonzero-R branches, arbitrary entry and unrestricted cancellation remain outside the result; separate206 work is not counted."
+  },
+  "goal_audit": {
+    "current_progress": "Two written recognition notes and one three-method finite checker are packaged with saved-source reviews, precise primary theorem checks and one passing canonical run.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/nice-commuting-invariant-coefficients-recognition-pass205-working.md",
+      "sha256": "6abbe808927df21816a666ae4c3dd76b1788894d83864368b5d9f0c0e5f70dab",
+      "bytes": 12489,
+      "lines": 314,
+      "equations": 19,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-t-independent-zero-r-recognition-pass205-working.md",
+      "sha256": "528442663ceb953a73d8990087a5a2409e8e74a70a6b474665162aacd248dfe3",
+      "bytes": 9661,
+      "lines": 278,
+      "equations": 18,
+      "test_methods": 0
+    },
+    {
+      "path": "research/nice_commuting_zero_r_controls_pass205.py",
+      "sha256": "baf8368d2c6dc84d8eb2cc0c15490c2cdea1894a2252ab48b08316ab966f178e",
+      "bytes": 10307,
+      "lines": 214,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/verification-pass205-working.json",
+      "sha256": "02942e055f6dbee155b10f20aee288aaf4d369af40f7f67a08cd38814afe2ace",
+      "bytes": 7859,
+      "lines": 111,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "chain_record_count_after_including_this_checkpoint": 1267,
+  "record_count_convention": "1262 frozen predecessor records plus two proof notes, one checker source, verification205 and this checkpoint: five new records. Mutable indices are not records. No206 source or earlier canonical run is counted.",
+  "verification": {
+    "capture": "research/verification-pass205-working.json",
+    "canonical_runs": [
+      {
+        "suite": "nice_commuting_zero_R_controls205",
+        "path": "research/nice_commuting_zero_r_controls_pass205.py",
+        "pre_execution_read": "Author complete6b38c7; Root complete161d52.",
+        "initial_output": "0f0973",
+        "session_id": null,
+        "terminal_output": "0f0973",
+        "methods": 3,
+        "unittest_seconds": 0.220,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "completion_via_original_handle": false,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/nice_commuting_zero_r_controls_pass205.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "login": false,
+        "initial_yield_time_ms": 1000,
+        "initial_max_output_tokens": 6000
+      }
+    ],
+    "new_suites": 1,
+    "new_methods": 3,
+    "tagged_equations": 37,
+    "scope": "Three finite methods support Bezout, actual boundary and raw chart identities, not the universal field, LND, comaximality or recognition arguments. Jet's complete checker review was post-canonical; author and Root reads preceded the run."
+  },
+  "next_bounded_task": "Analyze the nonzero-R branches and actual invariant-coordinate entry without assuming the coefficient-invariance criterion automatically applies. Separate206 work remains outside this packet; do not rerun205."
+}

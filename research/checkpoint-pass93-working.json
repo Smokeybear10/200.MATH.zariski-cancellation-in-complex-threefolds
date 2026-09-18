@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "pass": 93,
+  "created_at_utc": "2026-09-14 15:12:42 UTC",
+  "active_goal": "keep going until u solved it",
+  "working_question": "Unconfirmed corrected complex-threefold cancellation: A[s] isomorphic to C^[4] implies A isomorphic to C^[3].",
+  "general_conjecture_solved": false,
+  "goal_status": "active",
+  "this_pass_classification": "progress",
+  "preceding_turn_classification": "Verified live-status observation of running agent handles; no new mathematical claim from the status turn. Prior substantive pass92 was progress.",
+  "summary": "A second-normal-order Wronskian removes the B0=0 conormal-direction exception for collapsed quadratic rank-one double fibers. Saturated multiplicity gives finite free local normalization, and cubic support data force source gluing and specified singular-base restrictions. No general recognition or contradiction follows.",
+  "scope_assumptions": [
+    "Actual nonconical constant-acceleration polynomial frame in B=A[u]=C^[4], retained nilpotent original Jacobian and specified actual highest-adjoint plane S=C^[2].",
+    "Primitive canonical Jacobian LND N with kernel S, faithfully flat quotient, A=S[A1,A2,c], A_K=K[v] and relative degree d=2 or3, all as proved with the exact hypotheses in passes90-92.",
+    "Double-fiber theorem additionally assumes both Ai collapse, generic ambient quotient rank1 and generic whole-fiber multiplicity2.",
+    "No theorem reducing arbitrary sliced actions to this frame is supplied."
+  ],
+  "completed_deductions": [
+    "A flat module over a Noetherian local domain, with finite generic rank equal to residue dimension, is finite free even without initial finite generation. The proof uses compatible finite quotients and faithfully flat completion of the source only.",
+    "Saturation of sum_i mu_i f_i=deg_v U identifies the actual semilocal ring with the full integral closure of the regular local base in K(v). Total cubic multiplicity6 forces rank6 and every residue degree1.",
+    "For a generically rank-one fixed fiber, canonical N on the whole Artinian fiber has nonzero socle-valued image, kills its radical, and squares to zero. Its first normal action can still be nonzero.",
+    "A collapsed fixed component has the exact centered ideal q=(X-uEX,Y-uEY). In relative degree2 both generators are killed by N^3. The first-layer polynomial conormal matrix depends only on the component parameter.",
+    "For multiplicity2, the third-derivative identities modulo q^3 yield a zero Wronskian and a constant conormal row or column, regardless of B0. Some constant good normal L has EL in P^2 and N(L-uEL) in q^2. This does not mean either derivative vanishes.",
+    "Actual positive Thom columns satisfy gcd(mu_i)=lcm(branch gcds) and single-actual-point support. The remaining reducible cubic heavy profiles force source gluing. Injective source normalization would force all multiplicities at most3, but that hypothesis is not proved.",
+    "At rank zero a smooth analytic base branch cannot carry an unramified positive Thom entry1. Specified split-cover profiles therefore require singular base branches; finite cusp-base controls show this condition alone does not exclude them."
+  ],
+  "proof_reviews": {
+    "saturated_flat_rank": "Root author; General, Geometry, Jet complete six-equation saved-file reviews; source-only00IP delta separately checked.",
+    "curvilinear_action": "Jet author; Root, General, Geometry complete six-equation reviews.",
+    "conormal_layer": "General author; Root, Geometry, Jet complete eight-equation reviews; unnumbered double-fiber pointer separately checked.",
+    "reducible_support": "Geometry author; Root, General, Jet complete original eight-equation reviews plus final ninth-equation smooth-base and cusp-control delta.",
+    "double_fiber_normal_order": "Root author; General, Geometry, Jet complete eight-equation reviews including final P^2-primary contraction proof.",
+    "synthesis": "Root author; General, Geometry, Jet complete four-equation reviews. Split-cover degree wording clarified.",
+    "audit": "Root author; Jet full EOF integration/capture review, then a review-record-only paragraph added.",
+    "limit": "AI reconstructions, not human expert review, formal proof or novelty certification."
+  },
+  "targeted_verification": {
+    "path": "research/verification-pass93-working.json",
+    "sha256": "ce07ccfa787fefd8029b472fc00313e59dea5ce4cee1f198e0060626835e4808",
+    "all_passed": true,
+    "suites": 2,
+    "test_methods": 3,
+    "started_at_utc": "2026-09-14T15:03:57.191Z",
+    "finished_at_utc": "2026-09-14T15:03:58.167Z",
+    "wall_seconds": 0.969877917,
+    "unittest_seconds": 0.563,
+    "input_files": 2,
+    "input_hashes_unchanged": true,
+    "complete_output_sha256": "621e8d6cf6b3a71b9839656c468bad837b7d08ad0292cab3994f6320fbffbae6",
+    "output_hash_convention": "stdout + one newline + stderr",
+    "canonical_tool_chunk": "3057ac",
+    "independent_capture_audit": "Jet0c1fe8, both inputs/full output digest/counts verified without rerun.",
+    "scope": "Finite support-lattice and curve-ring controls plus a symbolic normal-order identity; not a verifier of universal geometry or cancellation."
+  },
+  "selected_primary_sources": [
+    {
+      "url": "https://stacks.math.columbia.edu/tag/00MC",
+      "scope": "Complete displayed statement/proof of faithful-flat Noetherian local completion."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/00MB",
+      "scope": "Complete displayed statement/proof of completion flatness."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/00IP",
+      "scope": "Complete displayed Krull-intersection statement/proof, applied only to finite source T."
+    },
+    {
+      "url": "https://www.math.miami.edu/~kaliman/library/Ka.invent.2004.c%2B.pdf",
+      "scope": "Prior primary scope retained in ramification92; current93 rereads its saved exact reconstruction. No fresh complete underlying topology or novelty audit."
+    }
+  ],
+  "predecessor_audit": {
+    "checked_at_utc": "2026-09-14T15:10:39.330Z",
+    "all_passed": true,
+    "prior_hash_records": 531,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "f31604e7f6e865c50f7db1fafd2a3d4b4d32d80d521b3d26fcce759d28a74c23",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "tool_chunk": "1f111b",
+    "unchanged": true
+  },
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-14T15:11:31.480Z",
+    "all_passed": true,
+    "artifact_count": 11,
+    "numbered_equations": 41,
+    "local_links_checked": 748,
+    "missing_links": [],
+    "deferred_links": [
+      {
+        "from": "research/nonconical-second-normal-frontier-pass93.md",
+        "target": "checkpoint-pass93-working.json"
+      },
+      {
+        "from": "README.md",
+        "target": "research/checkpoint-pass93-working.json"
+      },
+      {
+        "from": "research-ledger.md",
+        "target": "research/checkpoint-pass93-working.json"
+      }
+    ],
+    "targeted_inputs_checked": 2,
+    "targeted_complete_outputs_checked": 1,
+    "artifacts": [
+      {
+        "path": "research/double_fiber_normal_order_checks_pass93.py",
+        "sha256": "e32e008becbde154378f2345d2de6ea8ee4af80a0e7ae9b7d332f6c320bf74de",
+        "bytes": 2084,
+        "content_lines": 47,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/nonconical-collapsed-conormal-layer-pass93.md",
+        "sha256": "838f4820b996d5b6f8c805b0051ab3c26c5adab9017c7369f36608177916245c",
+        "bytes": 10004,
+        "content_lines": 248,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/nonconical-curvilinear-fiber-action-pass93.md",
+        "sha256": "ee189d9161452dba40bb7dcc330f012d0ccb8bb69d2db715537655a97194fc96",
+        "bytes": 8393,
+        "content_lines": 196,
+        "numbered_equations": 6
+      },
+      {
+        "path": "research/nonconical-double-fiber-normal-order-pass93.md",
+        "sha256": "a0ab1a632c8a326770016e84b241d4547d0b47910e1ce3b0a445469ed2d8af77",
+        "bytes": 7761,
+        "content_lines": 190,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/nonconical-reducible-ramification-support-pass93.md",
+        "sha256": "0d903337391cf55f9b2c5736deb30d38a908021bf74dfbea661fc35284545008",
+        "bytes": 13805,
+        "content_lines": 305,
+        "numbered_equations": 9
+      },
+      {
+        "path": "research/nonconical-saturated-flat-rank-pass93.md",
+        "sha256": "c0f36cd3b2c7222320c46c667fa8c95a69336c6ff331c1b98ca28028c5e02cfe",
+        "bytes": 8268,
+        "content_lines": 187,
+        "numbered_equations": 6
+      },
+      {
+        "path": "research/nonconical-second-normal-frontier-pass93.md",
+        "sha256": "fb42344b2fb505b1842ce5b6e9322fccbabced7d60e6fcaa9e1ba5e6ae222224",
+        "bytes": 10982,
+        "content_lines": 226,
+        "numbered_equations": 4
+      },
+      {
+        "path": "research/proof-audits-pass93-working.md",
+        "sha256": "a70a137ac21caf9591e18511c40acca13b415cf398dc69c9e78e0847e8a64b5b",
+        "bytes": 8137,
+        "content_lines": 143,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/ramification-gluing-controls-pass93.md",
+        "sha256": "f365210bdb63470afd82bcafc17f43446f9d73439926ea4c1162dfe47f5474bf",
+        "bytes": 4428,
+        "content_lines": 89,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/ramification_gluing_controls_pass93.py",
+        "sha256": "17666b2e2d45c700b807b1a00b22905abd845f177ffa6bd20eb7bb346d919103",
+        "bytes": 9918,
+        "content_lines": 252,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/verification-pass93-working.json",
+        "sha256": "ce07ccfa787fefd8029b472fc00313e59dea5ce4cee1f198e0060626835e4808",
+        "bytes": 1863,
+        "content_lines": 34,
+        "numbered_equations": 0
+      }
+    ],
+    "tool_chunk": "80682e",
+    "scope": "Eleven saved artifacts and README/ledger links; three checkpoint links intentionally deferred until save. Excludes inline/display TeX from Markdown link parsing.",
+    "preflight_parser_note": "Initial generic Markdown regex mistook a TeX determinant evaluation for a file link. The read-only parser was corrected; no mathematical artifact was changed for this false positive."
+  },
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "fresh_full93_regression_performed": false,
+  "central_registry_integrated": false,
+  "historical_claim_count": 544,
+  "record_accounting": {
+    "prior_frozen_records": 531,
+    "new_artifacts": 11,
+    "new_checkpoint_self": 1,
+    "records_after_checkpoint_freeze": 543,
+    "note": "Checkpoint self hash is held outside the checkpoint and verified after saving."
+  },
+  "rejected_shortcuts": [
+    "Second-order vanishing is not invariance or a common coordinate.",
+    "Multiplicity2 normal-order coefficient is nonzero; at higher multiplicity that coefficient vanishes, so the proof does not extend automatically.",
+    "Finite-free semilocal normalization is not global finiteness of A over S[U].",
+    "Finite pinched curves and full positive lattice bases do not realize actual Thom classes, exceptional surfaces or original polynomial frames.",
+    "Normality of A and the collapsed affine plane do not by themselves establish source normalization injectivity.",
+    "No old full-filtration hypothesis54 is inserted, and no arbitrary-action reduction is supplied."
+  ],
+  "next_bounded_actions": [
+    "Use the exact original E,T and volume equations with the constant double-fiber conormal direction to obtain a further restriction, an invariant, or a contradiction, without assuming Nf=0.",
+    "Determine whether low N-degree generators constrain higher-multiplicity rank-one components; the mu2 Wronskian argument alone does not.",
+    "Analyze saturated rank6 regular local normalization together with actual degree and ramification constraints, rather than merely arbitrary length6 complete intersections.",
+    "Attack singular-base source-gluing configurations using actual transverse surfaces or frame equations; do not repeat lattice-only exclusions defeated by explicit controls.",
+    "Keep the independent arbitrary sliced-action-to-frame obligation visible."
+  ],
+  "arbitrary_constant_acceleration_recognized": false,
+  "arbitrary_sliced_action_reduced_to_frame": false,
+  "professor_interpretation_confirmed": false,
+  "historical_novelty_verified": false,
+  "human_expert_review_completed": false,
+  "formal_verification_completed": false,
+  "external_contact_made": false,
+  "submission_or_publication_made": false
+}

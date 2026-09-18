@@ -1,0 +1,147 @@
+{
+  "pass": 123,
+  "status": "supplied_exact_cubic_excluded_and_constant_acceleration_frame_recognized; general_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3]. The professor's intended field, dimension and conclusion remain unconfirmed.",
+  "summary": "The actual scalar potential forces Y^2 dividing P^3. Separate elementary triple-root and nontriple polynomial arguments exclude every remaining nonnull cubic. Together with122 and retained lower-rank reductions, the supplied exact cubic branch is impossible. Retained89/91/117/80 then recognize the supplied constant-acceleration frame. Universal entry into that frame is not proved and, with this working recognition theorem, is equivalent to the unresolved cancellation question.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass122-working.json",
+    "sha256": "d52e3a386e6a2c278cb6edceebe9c063f2701e3f8d8ba2f300cdbc4b4ff736c0",
+    "records": 791,
+    "hash_check_evidence": "5bdf58",
+    "scope": "The previous checkpoint hash and its recorded chain count were checked. This audit does not claim a fresh rehash of all 791 historical records."
+  },
+  "chain_record_count_after_including_this_checkpoint": 802,
+  "record_count_convention": "791 prior frozen records plus ten current artifacts plus this checkpoint. README and research-ledger are live indexes; the current checkpoint hash is recorded externally.",
+  "current_integrity_audit": {
+    "artifacts": [
+      {
+        "path": "research/cubic-exclusion-frontier-pass123.md",
+        "sha256": "4c032843a949d91c199bd2f9477831d737b70348354f91227f2e676b97451132",
+        "bytes": 10725, "lines": 224, "equations": 0, "test_methods": 0
+      },
+      {
+        "path": "research/cubic-nonnull-coefficient-globalization-pass123.md",
+        "sha256": "59bb9f73d8a8af4ccca8cd219d52cb0c96c4290b11b8396c280c0ec88356c749",
+        "bytes": 6548, "lines": 168, "equations": 6, "test_methods": 0
+      },
+      {
+        "path": "research/cubic-nonnull-horizontal-divisor-pass123.md",
+        "sha256": "3b20b51293179e6f2b46849b9f99dbb444ee23f4f137144a9f5e4903fc78dffc",
+        "bytes": 5219, "lines": 135, "equations": 5, "test_methods": 0
+      },
+      {
+        "path": "research/cubic-nonnull-log-form-obstruction-pass123.md",
+        "sha256": "f53bc9b11739739acab7ce5e25ffb5cb7b8680f38397b816f51a7c8f09bafc9d",
+        "bytes": 12659, "lines": 279, "equations": 6, "test_methods": 0
+      },
+      {
+        "path": "research/cubic-nonnull-nontriple-exclusion-pass123.md",
+        "sha256": "c2ade64b2d25f7a21a73990d9ec935cb968b3ee4e3d3e7b4aa6b18516718d36a",
+        "bytes": 7851, "lines": 212, "equations": 7, "test_methods": 0
+      },
+      {
+        "path": "research/cubic-nonnull-pole-bound-pass123.md",
+        "sha256": "f89c9ba42373c9c45477c605f336b8b67ebd802c38c3e4be8a461fd1547732a2",
+        "bytes": 7826, "lines": 194, "equations": 6, "test_methods": 0
+      },
+      {
+        "path": "research/cubic-nonnull-potential-pole-pass123.md",
+        "sha256": "d962cdb7bf1da7f277bad0902aea74b92cb9720fa80532c87ddaf2ddaf04f602",
+        "bytes": 12861, "lines": 317, "equations": 9, "test_methods": 0
+      },
+      {
+        "path": "research/cubic-nonnull-triple-root-exclusion-pass123.md",
+        "sha256": "70bd87e453182ac11147b3631911e9c0b8fb6f8ea3f2e38c629c22ef0dcaba73",
+        "bytes": 5611, "lines": 149, "equations": 5, "test_methods": 0
+      },
+      {
+        "path": "research/cubic_nonnull_potential_checks_pass123.py",
+        "sha256": "0155180f6c65847e066af72e3a5bbcb7228220d85153c2b2fa0eefae355c24ac",
+        "bytes": 5722, "lines": 132, "equations": 0, "test_methods": 4
+      },
+      {
+        "path": "research/verification-pass123-working.json",
+        "sha256": "5c9c6eed7c7e5d84423c3d8ba7f25ee74fd25b72b69ab0022ae906fc4d4e5f27",
+        "bytes": 5655, "lines": 75, "equations": 0, "test_methods": 0
+      }
+    ],
+    "artifact_count": 10,
+    "proof_artifacts": 7,
+    "equations": 44,
+    "local_markdown_links": 32,
+    "new_test_methods": 4,
+    "metadata_evidence": "5bdf58",
+    "scope": "All ten current hashes, bytes, lines, numbered tags, four checker AST methods and 32 local Markdown links checked. All links resolve. The synthesis contains unnumbered displays. Final checkpoint path and metadata validation is recorded externally."
+  },
+  "canonical_verification": {
+    "path": "research/verification-pass123-working.json",
+    "tool_evidence": "b19421",
+    "suites": 6, "test_methods": 12, "new_methods": 4, "retained_methods": 8,
+    "elapsed_seconds": 2.9538412920664996,
+    "unittest_seconds": 2.595,
+    "exit_code": 0,
+    "complete_output_sha256": "a487c77e74c4a95acdfa33cc05ad24428916ef6e655d940cdd7361107feec1b4",
+    "output_hash_convention": "SHA256 of the exact UTF-8 complete_output string in the capture, including its leading newline and final newline after OK.",
+    "all_input_hashes_unchanged": true,
+    "all_passed": true,
+    "review_evidence": ["1f6e0a", "3ec7cb", "5bdf58"],
+    "review_scope": "Full capture read; command-to-input mapping; all six before, after and current hashes; AST [4,2,1,1,2,2]; twelve recorded successes; exact output hash. Geometry did not execute or rerun tests.",
+    "coverage_scope": "Finite potential, lower-volume, matrix, Jacobian residual identities and retained controls only. No full historical rerun or certification of all-primes arguments, field integration, degree proofs, geometric resolution, actual-frame entry or cancellation."
+  },
+  "proof_reviews": [
+    {"artifact": "research/cubic-nonnull-potential-pole-pass123.md", "reviewer": "Geometry", "evidence": ["483248", "c166c1"], "scope": "Full final nine-equation reconstruction, with selected121 dependencies. Fixed-w derivative, finite-field constants, original-coordinate potential and lower-volume c' and R(0) conversions. No new primary-source read or test execution."},
+    {"artifact": "research/cubic-nonnull-pole-bound-pass123.md", "reviewer": "Geometry", "evidence": ["483248", "c166c1"], "scope": "Full six-equation reconstruction. Rational local parameter in retained L=C(H), derivative order, normalized polynomial residue contradiction, Y^2|P^3 and dual-row contraction aY. Equality boundary is retained."},
+    {"artifact": "research/cubic-nonnull-horizontal-divisor-pass123.md", "reviewer": "Geometry", "evidence": ["28a091"], "scope": "Full five-equation reconstruction. Trivial valuations in finite algebraic extensions, finite nonconstant residue exclusion and failure of the122 speed control. No execution or new source read."},
+    {"artifact": "research/cubic-nonnull-coefficient-globalization-pass123.md", "reviewer": "Geometry", "evidence": ["2c9f14"], "scope": "Full six-equation reconstruction. Finite-place and pole-place coefficient bounds, original linear-coordinate collapse, all-height-one contraction and polynomial Y-multiplied identity. No individual polynomiality of a,c,h or Q is inferred."},
+    {"artifact": "research/cubic-nonnull-triple-root-exclusion-pass123.md", "reviewer": "Geometry", "evidence": ["2c9f14"], "scope": "Full five-equation reconstruction. Constant root shift preserves divisibility; reduced-fraction factorization and repeated-component derivative-degree contradiction. No execution or new source read."},
+    {"artifact": "research/cubic-nonnull-nontriple-exclusion-pass123.md", "reviewer": "Geometry", "evidence": ["e5d708"], "scope": "Full seven-equation reconstruction. Full-multiplicity wedge divisibility, g*Omega=Jac(P,Y), coprimality and all degree cases after one constant shift. Uses the122 radical gate, not the geometric proof."},
+    {"artifact": "research/cubic-nonnull-log-form-obstruction-pass123.md", "author_read": "e5d708", "independent": [{"reviewer": "Root", "evidence": ["ea15ac"], "scope": "Reported complete six-equation reconstruction and fresh selected primary reads recorded below."}, {"reviewer": "Jet", "evidence": ["146dc8"], "scope": "Reported complete six-equation reconstruction of singularity charts, crepancy, boundary, adjunction and codimension-one logarithmic pullback. No fresh primary read or execution."}]}
+  ],
+  "synthesis_review": {
+    "artifact": "research/cubic-exclusion-frontier-pass123.md",
+    "reviewer": "Geometry",
+    "evidence": ["04cae5", "822966", "3ec7cb", "086a96"],
+    "scope": "Complete final synthesis, including entry equivalence, plus fresh complete saved88/89/91/117/nice80 endpoint reads for assembly. This is not a fresh audit of every historical proof dependency or cited primary source. The separate geometric result is outside the shortest elementary chain."
+  },
+  "code_review": {
+    "artifact": "research/cubic_nonnull_potential_checks_pass123.py",
+    "reviewer": "Geometry",
+    "evidence": "04cae5",
+    "scope": "Complete132-line four-method code-only review. Scalar normalization and original quadratic identity, lower-volume conversion, polynomial dual row and full cubic surface Jacobian residual match the written proofs. No execution."
+  },
+  "source_dependencies": {
+    "new_geometric_route": [
+      {"source": "Stacks Lemma29.43.5, tag0BX7", "url": "https://stacks.math.columbia.edu/tag/0BX7", "geometry_evidence": ["turn3801view0", "turn3802view0"], "root_reported_evidence": "turn3803view0", "scope": "Complete displayed extension statement and proof; proper target extends the rational map near each codimension-one point of P^2."},
+      {"source": "Stacks Lemma48.14.1, tag0B4B, and Section48.14, tag0B4A", "url": "https://stacks.math.columbia.edu/tag/0B4B", "section_url": "https://stacks.math.columbia.edu/tag/0B4A", "geometry_evidence": ["turn3801view1", "turn3802view1"], "root_reported_evidence": ["turn3803view1", "turn3803view2"], "scope": "Complete displayed Cartier-divisor duality statements and proof passages used for hypersurface adjunction. Deeper derived-duality dependencies were not newly audited."}
+    ],
+    "scope": "No log-Kodaira monotonicity theorem is used: the new geometric proof includes its own explicit resolution and logarithmic pullback argument. The elementary combined exclusion does not depend on that route. Older quotient, nice-recognition, finite-field and actual-frame source dependencies retain their prior confidence limits."
+  },
+  "mathematical_scope": [
+    "Actual full90 cubic hypotheses force Y^2 dividing P^3; elementary polynomial arguments then exclude every exact nonnull cubic. Together with122 and120 reductions, the supplied exact cubic branch is impossible.",
+    "Standalone polynomial consequence: for any exact complex cubic D and polynomials g,P,Y with Y nonzero, the norm identity and Y^2|P^3 force det[b,b_s,b_t]=0.",
+    "Independent geometric consequence: for nontriple D the norm identity alone forces that determinant to vanish, without actual-frame or radical-divisor hypotheses. The triple-root geometric case is not claimed.",
+    "Retained89/91/117/80 plus this exclusion recognize actual polynomial frames with three zero second derivatives and one nonzero complex constant second derivative. With a supplied slice, a constant linear change also covers any four complex constant second derivatives, including the all-zero nice case.",
+    "No universal nice or constant-acceleration frame is proved for an arbitrary sliced action. Given the working recognition theorem, universal existence of the special frame would itself be equivalent to cancellation, not a small remaining technical step."
+  ],
+  "unresolved_obligations": [
+    "Unrestricted complex-threefold cancellation or equivalent entry into a recognized polynomial coordinate frame.",
+    "Confirmation of the professor's intended field, dimension and conclusion.",
+    "Human expert review, formal proof checking if sought, and statement-level novelty clearance."
+  ],
+  "goal_audit": {
+    "objective": "keep going until u solved it",
+    "status": "active",
+    "pass_mathematics_classification": "progress",
+    "archival_task_classification": "packaging_and_verification_only",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false
+  },
+  "boundaries": {
+    "human_expert_review": false, "formal_verification": false, "novelty_cleared": false,
+    "external_contact": false, "public_posting": false, "submission": false,
+    "paid_resources": false, "new_automation": false,
+    "files_through122_frozen": true,
+    "all_historical_tests_rerun": false
+  },
+  "live_indexes": ["README.md", "research-ledger.md"]
+}

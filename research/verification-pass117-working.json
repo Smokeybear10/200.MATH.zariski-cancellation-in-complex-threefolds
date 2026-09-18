@@ -1,0 +1,45 @@
+{
+  "started_at_utc": "2026-09-15T01:38:46.418Z",
+  "finished_at_utc": "2026-09-15T01:38:47.440Z",
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.quadratic_velocity_shear_checks_pass117",
+    "research.nonconical_quadratic_potential_checks_pass90",
+    "research.normal_row_parameter_checks_pass80"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 1.012664333,
+  "suites": 3,
+  "test_methods": 7,
+  "new_methods": 2,
+  "retained_methods": 5,
+  "ast_method_counts": {
+    "research/quadratic_velocity_shear_checks_pass117.py": 2,
+    "research/nonconical_quadratic_potential_checks_pass90.py": 1,
+    "research/normal_row_parameter_checks_pass80.py": 4
+  },
+  "input_files": [
+    {
+      "path": "research/quadratic_velocity_shear_checks_pass117.py",
+      "sha256": "f3048f3d72fad78990184ff27eb013a46ab3773097c418f6fdc1da689e95930c"
+    },
+    {
+      "path": "research/nonconical_quadratic_potential_checks_pass90.py",
+      "sha256": "d429f7e80321c813d0745bd61834a26a642750ffeff3b31a2965c78bc94bc966"
+    },
+    {
+      "path": "research/normal_row_parameter_checks_pass80.py",
+      "sha256": "c77a2ebbf789ad6e161abd0d434cc84c7f23575848200a7a7bdfa680712f55bf"
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "stdout": "",
+  "stderr": "test_formal_moving_metric_connection_identity (research.quadratic_velocity_shear_checks_pass117.QuadraticVelocityShearChecks.test_formal_moving_metric_connection_identity) ... ok\ntest_nonplanar_velocity_constant_form_and_shear (research.quadratic_velocity_shear_checks_pass117.QuadraticVelocityShearChecks.test_nonplanar_velocity_constant_form_and_shear) ... ok\ntest_generic_volume_coefficient_and_symmetric_potential (research.nonconical_quadratic_potential_checks_pass90.NonconicalQuadraticPotentialChecks.test_generic_volume_coefficient_and_symmetric_potential) ... ok\ntest_explicit_segre_frame_and_polynomial_inverse (research.normal_row_parameter_checks_pass80.NormalRowParameterChecks.test_explicit_segre_frame_and_polynomial_inverse) ... ok\ntest_formal_nilpotence_fails_original_partial_integrability (research.normal_row_parameter_checks_pass80.NormalRowParameterChecks.test_formal_nilpotence_fails_original_partial_integrability) ... ok\ntest_formal_quadric_transfer_determinant_and_linear_part (research.normal_row_parameter_checks_pass80.NormalRowParameterChecks.test_formal_quadric_transfer_determinant_and_linear_part) ... ok\ntest_unimodular_rows_with_proper_primitive_normals (research.normal_row_parameter_checks_pass80.NormalRowParameterChecks.test_unimodular_rows_with_proper_primitive_normals) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.651s\n\nOK\n",
+  "output_hash_convention": "stdout + one newline + stderr",
+  "complete_output_sha256": "320a266401306edd655a61b64aedb6b42ed7c6723f2fb8806d5e0781d8ce8d96",
+  "all_passed": true,
+  "scope": "New exact moving-metric identity and nonplanar coefficient/shear control. Retained90 volume-potential identity and80 parameter/matrix controls. Does not prove actual generic-generation and Jacobian-unit hypotheses, universal multiplier/T-vanishing, the complete nice80 recognition theorem, cubic-branch recognition, arbitrary-frame entry, general cancellation or novelty."
+}

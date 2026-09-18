@@ -1,0 +1,294 @@
+{
+  "checked_at_utc": "2026-09-13 06:39:42 UTC",
+  "all_passed": true,
+  "claim_count": 218,
+  "last_claim": "Z218",
+  "test_method_count": 494,
+  "suite_count": 38,
+  "new_checker_imports": {
+    "research/polynomial_coefficient_checks_pass23.py": [
+      "unittest",
+      "sympy"
+    ],
+    "research/nodal_elimination_checks_pass23.py": [
+      "unittest",
+      "sympy"
+    ]
+  },
+  "current_local_links_checked": 150,
+  "report_line_count": 351,
+  "report_numbered_equations": 15,
+  "report_footnotes": 6,
+  "artifact_count": 19,
+  "artifacts": [
+    {
+      "path": "README.md",
+      "sha256": "5e0238f421d760dfa133a33f9de530d93e26b89aa03afad3313eebc3a4bc50c9"
+    },
+    {
+      "path": "research-ledger.md",
+      "sha256": "0bf221890063b90de6bcb467e051186b455ef29b4f9525c812c187d7f2e42a12"
+    },
+    {
+      "path": "claims.json",
+      "sha256": "e38967d4bb28433a53993dda709f92c45e1e5e266406b362b0f3b9728f371db3"
+    },
+    {
+      "path": "experiment-manifest.json",
+      "sha256": "1bbf3f10b466614128733a2a9002d00aded4db5445ece1e452e1a31040e4cd5d"
+    },
+    {
+      "path": "verification-pass-23.json",
+      "sha256": "b247fad9015d31006df897663c71778ec2dbd7fb1f6b9841341397294273982f"
+    },
+    {
+      "path": "deep-pass-23.md",
+      "sha256": "bb99d27f560aa7ee6682d5b3c5171af42843fc5c56d8eac16fe44f65afbd2aa1"
+    },
+    {
+      "path": "research/polynomial-local-slice-coefficients-pass23.md",
+      "sha256": "01b457bdc265693f62f12a461a9b97f8ac5461d4288e78e457fa77f2dc19facc"
+    },
+    {
+      "path": "research/nodal-elimination-pass23.md",
+      "sha256": "bf9a1f1e3d23acf4f4e80a8501e6dd383331765c71f5f55e92a29761b3f84548"
+    },
+    {
+      "path": "research/presentation-homotopy-pass23.md",
+      "sha256": "8ef14b258edff97a0c35f0dab8525a69f872ddeed50ede21e8da9724657e4f9b"
+    },
+    {
+      "path": "research/leading-derivation-pass23.md",
+      "sha256": "348ddc3788bfd08b66fea00a1ed3d78cb5cfb7a428e5ce6a93ad3d66e50efa23"
+    },
+    {
+      "path": "research/polynomial-coefficients-audit-pass23.md",
+      "sha256": "0be9a60dcc4e48ae5365d63b05b26288242277cf10d4782b8e011c3261cbebf2"
+    },
+    {
+      "path": "research/polynomial-coefficients-second-audit-pass23.md",
+      "sha256": "f775b3a1e858ec63a2400416c2a7eb7e66e8a41d788c81666dab4cd52de6c5b7"
+    },
+    {
+      "path": "research/nodal-four-generator-audit-pass23.md",
+      "sha256": "2fcdf6e4434bcb284a9831e874678b13f970e1788d2b2747fa25de33820f2dbe"
+    },
+    {
+      "path": "research/proof-audits-pass23.md",
+      "sha256": "911356c47a8a9aff65d0dab72869e70f0447e6901fb81784fe1a16799559fefb"
+    },
+    {
+      "path": "research/priority-comparison-pass23.md",
+      "sha256": "5e05b41c243ca6bbfc0037ef87eb109ff726ecac4b9457e655ab0b27ea3abd64"
+    },
+    {
+      "path": "research/polynomial_coefficient_checks_pass23.py",
+      "sha256": "282e330534326df4d47e3b582239383f42b6f0e11182563a18f00063e1840547"
+    },
+    {
+      "path": "research/nodal_elimination_checks_pass23.py",
+      "sha256": "c3fff7f0186db9c6f496e43573766318712de135a6386c9b42a2c28a1866d88b"
+    },
+    {
+      "path": "research/run_regression_pass23.py",
+      "sha256": "b7e12d050b7451b9c9a791f0da0c36b3d829993efbdfb9e6b5bf67a3fde3c239"
+    },
+    {
+      "path": "research/consistency_checks_pass23.py",
+      "sha256": "62ae3b2111e3b8fbbe1b8a3ae12a88a5c0cbc262ab1de4121d92c740360d1f4d"
+    }
+  ],
+  "suite_sources": [
+    {
+      "path": "verify_exact.py",
+      "test_methods": 19,
+      "sha256": "e48cba8df391f50e605429a5dd8d3af4f462dd89f074026387f18799be396566"
+    },
+    {
+      "path": "verify_extension.py",
+      "test_methods": 16,
+      "sha256": "7516187695ebad26ffaa6da2701782d3b91b13df26170aab8a789db91988ce78"
+    },
+    {
+      "path": "verify_first_pole.py",
+      "test_methods": 16,
+      "sha256": "22e96fd993612cf1d52ea224ddc0439c62678d6c49db862bf1cecbf94e5d6af4"
+    },
+    {
+      "path": "verify_nonlinear.py",
+      "test_methods": 18,
+      "sha256": "8d1ba092b8a36ff26d7c47bfacc0e79c89c35384fac4c3b54abcae7d0c37e56e"
+    },
+    {
+      "path": "verify_higher_poles.py",
+      "test_methods": 9,
+      "sha256": "353a3b79f45f5e1c2ca745170d2a6af1a07124a190638ea3f9b28e1467b5e040"
+    },
+    {
+      "path": "verify_outside_coefficients.py",
+      "test_methods": 3,
+      "sha256": "9cb71cc689d40a79184c5684dc5d9e0f6e1fcc5590f83265b60315db344ee893"
+    },
+    {
+      "path": "research/primitive_classifier.py",
+      "test_methods": 17,
+      "sha256": "f6f5b0c122193d326b5bbb06cedbcecc5ea9adef041a84cf30a43d968bbb8992"
+    },
+    {
+      "path": "research/full_coefficient_classifier.py",
+      "test_methods": 9,
+      "sha256": "a71b727263069cf9aeb23c7ed48fb91e02856e1b98ebd7f68fc0b4960e8e7be7"
+    },
+    {
+      "path": "verify_global_filtration.py",
+      "test_methods": 19,
+      "sha256": "51dd6ce593b9f34f9b34b4cf36f2fe9be521dce4e116592d29bf52691e194e7b"
+    },
+    {
+      "path": "verify_linear_variable.py",
+      "test_methods": 9,
+      "sha256": "872c994232d4a9565f6eb58f3e970fc459f8a7347f26e6a692624966b27d6f50"
+    },
+    {
+      "path": "verify_quadratic_pencils.py",
+      "test_methods": 17,
+      "sha256": "a3b0347dec79a8334e402aee713f965f92f44e07e8731a351c91d5622fde472b"
+    },
+    {
+      "path": "verify_quadratic_coefficients.py",
+      "test_methods": 8,
+      "sha256": "0d6b2561e988f46407404f5516f132bb9418dfe673e3c24469ea1ff859f2a274"
+    },
+    {
+      "path": "verify_repeated_crossing.py",
+      "test_methods": 15,
+      "sha256": "c796f5a1927e4583dc06eaefc7bd2007834a0cb95fb9e292f49b85311b33fa42"
+    },
+    {
+      "path": "verify_central_arrangements.py",
+      "test_methods": 14,
+      "sha256": "190264c6d82d7a28e6f6681c31467aacee0b714ecd3f3321fcca9124472fb140"
+    },
+    {
+      "path": "verify_quadratic_obstructions.py",
+      "test_methods": 13,
+      "sha256": "d8310b372b2c2986e072af4c18e0400647760a5ae7c17fa8b05f9172863e7da1"
+    },
+    {
+      "path": "verify_torsion_monodromy.py",
+      "test_methods": 6,
+      "sha256": "ff55aa1f01c351f07d496aeb2b7ce4944c18de407d7f81e494f110b739bd4b78"
+    },
+    {
+      "path": "verify_two_power_slices.py",
+      "test_methods": 17,
+      "sha256": "f09204b7efa7ff8cf4b3848883f8885941dcdbcd683a904ff1cf74885775aa37"
+    },
+    {
+      "path": "verify_intrinsic_quotients.py",
+      "test_methods": 12,
+      "sha256": "3c00bae6b1083a2e104bb0e39eb042013acd02bc0119a3b7fe1a63754abd8047"
+    },
+    {
+      "path": "research/frame_height_checks.py",
+      "test_methods": 16,
+      "sha256": "d9f3d6b53dc19f9b169184e170fb0656dc83df89e08a30f2de52e05055efa882"
+    },
+    {
+      "path": "research/height_eight_algebra_checks.py",
+      "test_methods": 7,
+      "sha256": "2c2435e4c2e32acba93bc786c8585fcb77a698f1e2d42890fa36bf7d52c786ac"
+    },
+    {
+      "path": "research/mixed_height_checks.py",
+      "test_methods": 22,
+      "sha256": "70482d888a78f3616b3c094c28551220597f83f0202e0bcb2f0ed7c8d577efff"
+    },
+    {
+      "path": "research/projective_plane_checks.py",
+      "test_methods": 25,
+      "sha256": "7c0e0102a293e08580467c6c7262d723d8b3758f37787c71005f8a20757f13a3"
+    },
+    {
+      "path": "research/invariant_mixing_verifier.py",
+      "test_methods": 23,
+      "sha256": "74c0fd012c783280379ae1067a6739e84219f33c39bca8b35dc0811d1b8549b7"
+    },
+    {
+      "path": "research/invariant_slice_checks.py",
+      "test_methods": 22,
+      "sha256": "38ce4c202a3bcae92610bf8614922c02ac24471b77bf5c2720a9f70acb03df37"
+    },
+    {
+      "path": "research/rank_three_image_checks_pass17.py",
+      "test_methods": 8,
+      "sha256": "99a32c624bd0e711c4014455635e5cc73e5a48c2f29869a3000e956db413fe85"
+    },
+    {
+      "path": "research/nonreduced_jet_checks.py",
+      "test_methods": 18,
+      "sha256": "89f39064bad2372b2d8a0ae163d83f3cc0366d4d0f1af5330028a4faf8ffa190"
+    },
+    {
+      "path": "research/general_jet_lift_checks.py",
+      "test_methods": 8,
+      "sha256": "7bbf4673094fa92d673e27f4c4ac2d40d4e5c11b568759b35f32ac20bafd10f6"
+    },
+    {
+      "path": "research/polynomial_fiber_checks_pass18.py",
+      "test_methods": 8,
+      "sha256": "e341cf2a73f33aeac54c341c8f48309dc04db2b2fcf549509d1d20f1f07b9dae"
+    },
+    {
+      "path": "research/rescaling_curve_controls_pass18.py",
+      "test_methods": 10,
+      "sha256": "1288701ab3bbf4633806a666b99735380639b0bd01735cc985362361902a48a5"
+    },
+    {
+      "path": "research/global_bridge_checks_pass19.py",
+      "test_methods": 12,
+      "sha256": "7551407dfc7de79ce16264a457d1f805d0ffa9193e69e14631d0bee46dd7bdf2"
+    },
+    {
+      "path": "research/iterated_local_slice_checks_pass19.py",
+      "test_methods": 4,
+      "sha256": "40fe8894c63ff05e0ee0f7b1df1804260cdd77d8e1ff78ced2e05bd13e01f458"
+    },
+    {
+      "path": "research/multiplier_surface_controls_pass20.py",
+      "test_methods": 11,
+      "sha256": "b45183d4f8a67f9b0a90616fd6e54e7b581001d69c9c0587ae6775cc1e81ab3b"
+    },
+    {
+      "path": "research/nonunit_local_slice_checks_pass20.py",
+      "test_methods": 6,
+      "sha256": "dd7a008456eb0bce92ead8fcc0fdffebe7d91c1b117eb95fc8a75aaf16b4cf28"
+    },
+    {
+      "path": "research/primitive_bridge_checks_pass21.py",
+      "test_methods": 14,
+      "sha256": "db79d129fac7a8a98b4c2425bee53ba873b141c72c7f703cf24ded83ab812cc2"
+    },
+    {
+      "path": "research/radical_nonlinear_checks_pass22.py",
+      "test_methods": 15,
+      "sha256": "d38357919d81a67101343f9653d301c94a1461d9b2b1c31035d654311941d4cc"
+    },
+    {
+      "path": "research/nodal_generators_checks_pass22.py",
+      "test_methods": 7,
+      "sha256": "6f94b9a1136aa4afc1cdaa68792c21caedaf2be4f2ff84f148c4b8eb1154e72b"
+    },
+    {
+      "path": "research/polynomial_coefficient_checks_pass23.py",
+      "test_methods": 14,
+      "sha256": "282e330534326df4d47e3b582239383f42b6f0e11182563a18f00063e1840547"
+    },
+    {
+      "path": "research/nodal_elimination_checks_pass23.py",
+      "test_methods": 7,
+      "sha256": "c3fff7f0186db9c6f496e43573766318712de135a6386c9b42a2c28a1866d88b"
+    }
+  ],
+  "scope": "JSON, AST counts, flags, whitespace, links, numbering and SHA256 integrity. Not mathematical proof verification."
+}

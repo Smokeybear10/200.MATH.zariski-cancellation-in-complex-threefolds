@@ -1,0 +1,142 @@
+{
+  "pass": 217,
+  "status": "supplied_mixed_rank_two_zero_return_excluded; nonzero_return_whole_plane_line_or_conic; line_recognized; conic_third_iterate_reduction_only; global_goal_open",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass216-working.json",
+    "sha256": "3aea10371a5e91dd4192aba8be3b7df80a00218a7742e2b467cda018399a3c83",
+    "records": 1331
+  },
+  "results": {
+    "zero_return": "For the supplied actual full kernel(ZW-X^2Y^2) and exact1122 profile, R=0 contradicts the fourth potential, scalar B1 factor, actual nice derivation and highest-X fixed-linear-form identity. No claim that a nonzero R is root-free is made.",
+    "nonzero_return": "The undivided full-q sextic, calibrated both-potential gradients, cofactor divisibility and conductor/degree arguments give L[y,theta]=L[v]. The component is a line or a conic; in the conic both y and theta are quadratic and xi=y-(t/rho)theta is affine.",
+    "line_recognition": "One of the three line directions is excluded by the actual nice-row theorem. The other two have constant theta after at most the literal good-coordinate swap. Full scalar identities force lambda in C; actual U=W-lambda Y, primitive division, a weighted leading gate and explicit auxiliary-slice inverse give a polynomial three-variable kernel. The commuting original E then has an ambient invariant coordinate by the stated Daigle/BGL inputs, and A is isomorphic C^[3].",
+    "conic_reduction_only": "The tangent cofactor identity gives q1 dividing R^2. Two exact radial coefficient branches remain. One has intercepts of degree at most two already; in the other the actual constant good-slot swap cancels the cubic term while preserving the full ideal and selected partial. The rebuilt actual auxiliary derivation satisfies third-iterate vanishing on all coordinates. This is not niceness or conic recognition.",
+    "remaining_scope": "The actual supplied-frame/full-initial-ideal assumptions are essential. Coefficient-field factors and xi are not declared ambient regular coordinates, old R is not assumed preserved by a good swap, and the conic's lower constraints remain open at this stage. The global cancellation/entry problem remains unresolved. Separate218 sources and explorations are excluded."
+  },
+  "goal_audit": {
+    "current_progress": "Four217 proof notes exclude zero return, reduce nonzero return to a whole plane line or conic, recognize the line branch, and give only an actual third-iterate bound for the remaining conic. Five finite algebra methods passed in one canonical run. The full goal is not achieved.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "actual_globally_sliced_exact1122_frame_required": true,
+    "entire_principal_initial_kernel_required": true,
+    "literal_q_t_squared_over_rho": true,
+    "zero_return_excluded": true,
+    "nonzero_return_has_no_roots_claim": false,
+    "nonzero_return_whole_plane_proved": true,
+    "line_or_conic_exhaustive_under_supplied_hypotheses": true,
+    "line_branch_recognized": true,
+    "line_branch_ambient_invariant_coordinate_proved": true,
+    "conic_xi_affine": true,
+    "conic_evaluated_cofactor_divides_R_squared": true,
+    "conic_actual_good_swap_proved": true,
+    "conic_actual_third_iterate_bound": true,
+    "conic_nice_square_zero_claim": false,
+    "conic_recognition_or_exclusion": false,
+    "coefficient_field_factors_assumed_regular": false,
+    "coefficient_field_rationality_claim": false,
+    "xi_asserted_ambient_coordinate": false,
+    "zero_return_auxiliary_row_E_invariance_claim": false,
+    "old_R_preserved_under_good_swap_claim": false,
+    "literal_selected_partial_preserved_by_stated_good_swap": true,
+    "arbitrary_entry_proved": false,
+    "all_height_two_initial_kernels_recognized": false,
+    "all_two_good_direction_kernels_recognized": false,
+    "global_minimum_profile_claim": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/rank-two-mixed-ratio-projection-reduction-pass217-working.md",
+      "sha256": "32c57cd0fb28ad110cde056666c44a02590c59919d2e8fb9e72382a5cf3f51e4",
+      "bytes": 12970,
+      "lines": 349,
+      "equations": 18,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank-two-mixed-ratio-zero-return-exclusion-pass217-working.md",
+      "sha256": "3d040216d393113e56701ffbbdcad8b2a3fe81b1167ffd7d746b84e0888df597",
+      "bytes": 10169,
+      "lines": 270,
+      "equations": 14,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank-two-mixed-ratio-quadratic-graph-reduction-pass217-working.md",
+      "sha256": "c231314247209590e6c0bee96ad9103f6541c9d8277b88ce875d23ffbaf9fbad",
+      "bytes": 9601,
+      "lines": 266,
+      "equations": 19,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank-two-mixed-ratio-line-recognition-pass217-working.md",
+      "sha256": "ea64d0947e4fc4887924bd04d88b8209326a612aabf0b1d9470c48051e84e0e7",
+      "bytes": 13179,
+      "lines": 330,
+      "equations": 17,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank_two_mixed_ratio_controls_pass217.py",
+      "sha256": "bdc7d318bd82cf47b297f7529d20e1c5f0c9897e4ea8a42d03a9c30a5744e146",
+      "bytes": 18910,
+      "lines": 363,
+      "equations": 0,
+      "test_methods": 5
+    },
+    {
+      "path": "research/verification-pass217-working.json",
+      "sha256": "12b9bcd5709ff4dab12910254c20919877c867aaa3a9aa2c957bd810b7d55d85",
+      "bytes": 13926,
+      "lines": 149,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "chain_record_count_after_including_this_checkpoint": 1338,
+  "record_count_convention": "1331 held predecessor records plus four217 proof notes, one checker source, verification217 and this checkpoint: seven new records. Mutable indices are not records. Separate218 source, unsaved exploration, retained input and earlier canonical executions are not counted.",
+  "verification": {
+    "capture": "research/verification-pass217-working.json",
+    "canonical_runs": [
+      {
+        "suite": "rank_two_mixed_ratio_controls217",
+        "path": "research/rank_two_mixed_ratio_controls_pass217.py",
+        "pre_execution_read": "Geometry final full author EOFcfcd52+9ed223/hash0e8ef5/countf54dd7; Root complete EOF0802d8/hashad9cb6; Jet independent complete EOF7dea3c/hash938bea/count8f60fe. All three completed saved-source reads preceded the sole canonical execution.",
+        "initial_output": "c7d29c",
+        "session_id": null,
+        "terminal_output": "c7d29c",
+        "methods": 5,
+        "unittest_seconds": 0.611,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "completion_via_original_handle": false,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/rank_two_mixed_ratio_controls_pass217.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "shell": "/bin/zsh",
+        "login": false,
+        "initial_yield_time_ms": 1000,
+        "initial_max_output_tokens": 6000
+      }
+    ],
+    "new_suites": 1,
+    "new_methods": 5,
+    "tagged_equations": 68,
+    "scope": "Finite full-q potential/gradient/wedge/sextic identities, bounded semigroup and cofactor degree controls, zero-return scalar/nice rows, quadratic radial coefficients and actual good-slot swap, line scalar/weighted gates and both original auxiliary-slice inverse orders. No finite method proves actual field return, normalization, conductor theorems, transcendence, published LND results, arbitrary entry or original-ring recognition. Geometry, Root and Jet full saved-source reads preceded the sole c7d29c run. There is no rerun or pending handle."
+  },
+  "next_bounded_task": "Investigate the remaining lower-potential and scalar-Jacobian constraints of the actual conic after the stated good-coordinate swap. Do not treat P^3 bounds as niceness. Separate218 work remains outside this packet; no217 rerun is authorized."
+}

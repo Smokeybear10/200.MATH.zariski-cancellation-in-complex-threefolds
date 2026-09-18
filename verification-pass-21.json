@@ -1,0 +1,327 @@
+{
+  "checked_at_utc": "2026-09-13 05:07:47 UTC",
+  "completed_at_utc": "2026-09-13 05:09:15 UTC",
+  "working_directory": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+  "suites": [
+    {
+      "name": "exact",
+      "command": "/opt/anaconda3/bin/python verify_exact.py",
+      "test_methods": 19,
+      "elapsed_seconds": 0.496,
+      "unittest_seconds": 0.148,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "extension",
+      "command": "python3 verify_extension.py",
+      "test_methods": 16,
+      "elapsed_seconds": 0.379,
+      "unittest_seconds": 0.306,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "first_pole",
+      "command": "python3 verify_first_pole.py",
+      "test_methods": 16,
+      "elapsed_seconds": 0.101,
+      "unittest_seconds": 0.028,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "nonlinear",
+      "command": "python3 verify_nonlinear.py",
+      "test_methods": 18,
+      "elapsed_seconds": 0.186,
+      "unittest_seconds": 0.138,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "higher_poles",
+      "command": "python3 verify_higher_poles.py",
+      "test_methods": 9,
+      "elapsed_seconds": 0.6,
+      "unittest_seconds": 0.543,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "outside_coefficients",
+      "command": "python3 verify_outside_coefficients.py",
+      "test_methods": 3,
+      "elapsed_seconds": 0.051,
+      "unittest_seconds": 0.002,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "primitive_classifier",
+      "command": "/opt/anaconda3/bin/python research/primitive_classifier.py --self-test",
+      "test_methods": 17,
+      "elapsed_seconds": 0.854,
+      "unittest_seconds": 0.573,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "full_coefficient_classifier",
+      "command": "/opt/anaconda3/bin/python research/full_coefficient_classifier.py --self-test",
+      "test_methods": 9,
+      "elapsed_seconds": 0.321,
+      "unittest_seconds": 0.061,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "global_filtration",
+      "command": "/opt/anaconda3/bin/python verify_global_filtration.py",
+      "test_methods": 19,
+      "elapsed_seconds": 0.487,
+      "unittest_seconds": 0.223,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "linear_variable",
+      "command": "/opt/anaconda3/bin/python verify_linear_variable.py",
+      "test_methods": 9,
+      "elapsed_seconds": 4.759,
+      "unittest_seconds": 4.501,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "quadratic_pencils",
+      "command": "/opt/anaconda3/bin/python verify_quadratic_pencils.py",
+      "test_methods": 17,
+      "elapsed_seconds": 0.468,
+      "unittest_seconds": 0.227,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "quadratic_coefficients",
+      "command": "/opt/anaconda3/bin/python verify_quadratic_coefficients.py",
+      "test_methods": 8,
+      "elapsed_seconds": 1.619,
+      "unittest_seconds": 1.367,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "repeated_crossing",
+      "command": "/opt/anaconda3/bin/python verify_repeated_crossing.py",
+      "test_methods": 15,
+      "elapsed_seconds": 1.403,
+      "unittest_seconds": 1.158,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "central_arrangements",
+      "command": "/opt/anaconda3/bin/python verify_central_arrangements.py",
+      "test_methods": 14,
+      "elapsed_seconds": 3.555,
+      "unittest_seconds": 3.305,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "quadratic_obstructions",
+      "command": "/opt/anaconda3/bin/python verify_quadratic_obstructions.py",
+      "test_methods": 13,
+      "elapsed_seconds": 11.363,
+      "unittest_seconds": 11.125,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "torsion_monodromy",
+      "command": "python3 verify_torsion_monodromy.py",
+      "test_methods": 6,
+      "elapsed_seconds": 0.059,
+      "unittest_seconds": 0.008,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "two_power_slices",
+      "command": "/opt/anaconda3/bin/python verify_two_power_slices.py",
+      "test_methods": 17,
+      "elapsed_seconds": 0.447,
+      "unittest_seconds": 0.2,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "intrinsic_quotients",
+      "command": "/opt/anaconda3/bin/python verify_intrinsic_quotients.py",
+      "test_methods": 12,
+      "elapsed_seconds": 0.401,
+      "unittest_seconds": 0.154,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "frame_height",
+      "command": "/opt/anaconda3/bin/python research/frame_height_checks.py",
+      "test_methods": 16,
+      "elapsed_seconds": 0.601,
+      "unittest_seconds": 0.351,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "height_eight_algebra",
+      "command": "/opt/anaconda3/bin/python research/height_eight_algebra_checks.py",
+      "test_methods": 7,
+      "elapsed_seconds": 0.481,
+      "unittest_seconds": 0.236,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "mixed_height",
+      "command": "/opt/anaconda3/bin/python research/mixed_height_checks.py",
+      "test_methods": 22,
+      "elapsed_seconds": 1.174,
+      "unittest_seconds": 0.917,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "projective_plane",
+      "command": "/opt/anaconda3/bin/python research/projective_plane_checks.py",
+      "test_methods": 25,
+      "elapsed_seconds": 0.428,
+      "unittest_seconds": 0.184,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "invariant_mixing",
+      "command": "/opt/anaconda3/bin/python research/invariant_mixing_verifier.py --self-test",
+      "test_methods": 23,
+      "elapsed_seconds": 1.048,
+      "unittest_seconds": 0.793,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "invariant_slice",
+      "command": "/opt/anaconda3/bin/python research/invariant_slice_checks.py",
+      "test_methods": 22,
+      "elapsed_seconds": 2.133,
+      "unittest_seconds": 1.849,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "rank_three_images",
+      "command": "/opt/anaconda3/bin/python research/rank_three_image_checks_pass17.py",
+      "test_methods": 8,
+      "elapsed_seconds": 0.776,
+      "unittest_seconds": 0.516,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "nonreduced_jets",
+      "command": "/opt/anaconda3/bin/python research/nonreduced_jet_checks.py",
+      "test_methods": 18,
+      "elapsed_seconds": 8.648,
+      "unittest_seconds": 8.293,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "general_jet_lift",
+      "command": "/opt/anaconda3/bin/python research/general_jet_lift_checks.py",
+      "test_methods": 8,
+      "elapsed_seconds": 78.299,
+      "unittest_seconds": 77.855,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "polynomial_fiber",
+      "command": "/opt/anaconda3/bin/python research/polynomial_fiber_checks_pass18.py",
+      "test_methods": 8,
+      "elapsed_seconds": 48.607,
+      "unittest_seconds": 48.218,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "rescaling_curve_controls",
+      "command": "/opt/anaconda3/bin/python research/rescaling_curve_controls_pass18.py",
+      "test_methods": 10,
+      "elapsed_seconds": 0.681,
+      "unittest_seconds": 0.287,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "global_bridge",
+      "command": "/opt/anaconda3/bin/python research/global_bridge_checks_pass19.py",
+      "test_methods": 12,
+      "elapsed_seconds": 1.37,
+      "unittest_seconds": 1.098,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "iterated_local_slice",
+      "command": "/opt/anaconda3/bin/python research/iterated_local_slice_checks_pass19.py",
+      "test_methods": 4,
+      "elapsed_seconds": 1.113,
+      "unittest_seconds": 0.789,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "multiplier_surface_controls",
+      "command": "/opt/anaconda3/bin/python research/multiplier_surface_controls_pass20.py",
+      "test_methods": 11,
+      "elapsed_seconds": 2.769,
+      "unittest_seconds": 2.441,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "nonunit_local_slice",
+      "command": "/opt/anaconda3/bin/python research/nonunit_local_slice_checks_pass20.py",
+      "test_methods": 6,
+      "elapsed_seconds": 0.853,
+      "unittest_seconds": 0.608,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "primitive_bridge",
+      "command": "/opt/anaconda3/bin/python research/primitive_bridge_checks_pass21.py",
+      "test_methods": 14,
+      "elapsed_seconds": 32.335,
+      "unittest_seconds": 31.904,
+      "exit_code": 0,
+      "all_passed": true
+    }
+  ],
+  "total_test_methods": 451,
+  "all_passed": true,
+  "total_suites": 34,
+  "new_suite_test_methods": 14,
+  "new_suite_count": 1,
+  "runner": "research/run_regression_pass21.py",
+  "orchestration_parser_controls": 5,
+  "orchestration_controls_counted_as_test_methods": false,
+  "scope": "Finite exact controls and prior regression checks. Written general proofs and cited classification inputs are not replaced by these tests; no Lean proof, human expert review, novelty certification, or unrestricted complex threefold cancellation solution.",
+  "general_cancellation_verified": false,
+  "human_expert_review": false,
+  "proof_assistant_verified": false,
+  "novelty_established": false,
+  "execution_note": "An initial one-off aggregator misclassified eight successful older suites because it required OK to be the last output line, although those suites print JSON summaries afterward. No mathematical test failed. The reusable runner tests this parsing boundary and the complete regression was rerun after removal of redundant checker assertions."
+}

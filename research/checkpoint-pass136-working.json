@@ -1,0 +1,99 @@
+{
+  "pass": 136,
+  "status": "nonradial_nonlinear_conical_branch_excluded_in_working_proof; unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3]. Professor's intended statement, field and dimension remain unconfirmed.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass135-working.json",
+    "sha256": "0d0e11b90b9c33bb1828cfb55c39382f83291484c828d8b52e151a78589c9697",
+    "records": 888
+  },
+  "chain_record_count_after_including_this_checkpoint": 895,
+  "record_count_convention": "888 prior records plus three proof notes, two new checkers, verification136 and this checkpoint. Live indexes and any proposed137 files are excluded.",
+  "artifacts": [
+    {
+      "path": "research/conical-mismatch-tangent-graph-reduction-pass136.md",
+      "sha256": "7fc2273506cf7aa245be9289526e0364e4c714b2f485995e57a27055b384e52e",
+      "bytes": 12437,
+      "lines": 301,
+      "equations": 11
+    },
+    {
+      "path": "research/conical-mismatch-coefficient-polynomiality-pass136.md",
+      "sha256": "0ddb0a052f98dec42a4f93834af41a22553f58129064a8e937e60730a16ee4e8",
+      "bytes": 10250,
+      "lines": 247,
+      "equations": 8
+    },
+    {
+      "path": "research/conical-nonradial-quartic-coordinate-pass136-working.md",
+      "sha256": "792e728b0634cbde7f1d194e72fd565b53569cf9e273a8c85595f762a97c7417",
+      "bytes": 14812,
+      "lines": 348,
+      "equations": 15
+    },
+    {
+      "path": "research/conical_localized_wedge_controls_pass136.py",
+      "sha256": "9ba5d9d1270ca79b28eaa36d4b7ae488a13d5047efea63427912aeb0e4abcfb8",
+      "bytes": 5717,
+      "lines": 127,
+      "test_methods": 3
+    },
+    {
+      "path": "research/conical_kappa_monic_controls_pass136.py",
+      "sha256": "6d11165205be035c117cbbeef09acf0ab81868fdb7ea73b9bf667064a4f48528",
+      "bytes": 7174,
+      "lines": 148,
+      "test_methods": 3
+    },
+    {
+      "path": "research/verification-pass136-working.json",
+      "sha256": "9f9ff0d500e521ee2c6b71f88fa732644196d0cb1a12b97c215a528a953380a3",
+      "bytes": 9011,
+      "lines": 156
+    }
+  ],
+  "results": [
+    "Actual invariant localization and the normalized intrinsic leading LND give the complete tangent graph and y_v in L*. No deleted generic fiber is silently filled.",
+    "Reparameterization by the tangent intercept puts sigma,ell,m in K[kappa] of degrees at most2,3,4. The resulting W relation is monic and has good degree at most4.",
+    "A reusable exact monic rational-pencil descent gives an invariant original coordinate z+P(goods) from a monic z relation over a transcendence-degree-one invariant field, without requiring a slice or a polynomial rational-field generator.",
+    "In the hypothetical nonradial frame, that coordinate is W+P(X,Y,Z), degreeP at most4. It gives a valid regular-kernel recognition implication.",
+    "More strongly, the recovered coordinate lets Wang's linear-invariant theorem apply over C(I). The nonlinear cone-line intersection puts all speed ratios in C(I); the PID primitive row and the slice force speed rank at most1, contradicting rank2. Thus the stated nonradial nonlinear conical branch cannot occur.",
+    "Conditional coefficient-field instability in this hypothetical branch is not an actual realization example. Formal scalar solutions in the tests do not instantiate the excluded original-ring hypotheses."
+  ],
+  "proof_review_scope": "Root and independent AI agents reconstructed the actual chart, coefficient polynomiality, monic descent and nonlinear-cone contradiction. The final main note has two independent complete saved-file reviews; General independently reconstructed its final mechanisms before saving. Exact details are in verification136. This is not human review or proof-assistant verification.",
+  "verification": {
+    "capture": "research/verification-pass136-working.json",
+    "executions": ["9eb906", "727010"],
+    "states": ["completed_in_initial_call", "completed_in_initial_call"],
+    "exit_codes": [0, 0],
+    "methods_per_execution": [3, 3],
+    "total_methods": 6,
+    "all_methods_new": true,
+    "reported_seconds": [0.056, 0.123],
+    "scope": "Finite exact determinant, normalization, differential coefficient, polynomial primitive and pencil-boundary controls. They do not prove the universal field arguments or source theorems. No unchanged old suite was rerun."
+  },
+  "remaining_gaps": [
+    "Recognition or nonexistence in the radial resonance branch R(q)=2q, including the retained unrecognized(1,2,2,2) endpoint within its scope.",
+    "Entry from an arbitrary sliced polynomial fourfold to any of the supplied recognized coordinate profiles.",
+    "Unrestricted corrected cancellation, confirmation of professor intent, human expert review, formal verification and novelty determination."
+  ],
+  "next_bounded_task": "Test the same actual fixed-X chart over (tau,xi=s), rather than (tau,sigma=q/s^2). The selected leading coefficient kills xi, so [X]T(xi)=0 may force the tangent relation without nonradiality. Audit the resulting generic sigma derivatives before transferring the coefficient proof. Proposed137 work is outside this completed packet.",
+  "goal_audit": {
+    "previous_turn": "No progress: informational check-in and active-goal status inspection.",
+    "current_turn": "Mathematical and verification progress, including a proved-in-working-derivation nonexistence statement and six completed new exact methods.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false
+  },
+  "boundaries": {
+    "full_goal_achieved": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_cleared": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_files_intentionally_edited": false
+  },
+  "live_indexes": ["README.md", "research-ledger.md"]
+}

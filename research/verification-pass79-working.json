@@ -1,0 +1,48 @@
+{
+  "kind": "Fresh targeted79 capture, not a full regression",
+  "started_at_utc": "2026-09-14T07:56:15.302974+00:00",
+  "finished_at_utc": "2026-09-14T07:56:15.754528+00:00",
+  "wall_seconds": 0.451162,
+  "total_suites": 1,
+  "total_test_methods": 4,
+  "all_passed": true,
+  "new79_suites": 1,
+  "new79_test_methods": 4,
+  "fresh_full79_regression_performed": false,
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "source_hashes_before": {
+    "research/relative_quadratic_checks_pass79.py": "e574fa21954c8d1867a1f38fbd061231233d1f9979d746a9b1f4dc61b673626a",
+    "research/run_targeted_pass79.py": "36ac93ba3dfced28e31cb2c658d41d6f3a8cd94e78da56800d92bfb579e5eaea",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_hashes_after": {
+    "research/relative_quadratic_checks_pass79.py": "e574fa21954c8d1867a1f38fbd061231233d1f9979d746a9b1f4dc61b673626a",
+    "research/run_targeted_pass79.py": "36ac93ba3dfced28e31cb2c658d41d6f3a8cd94e78da56800d92bfb579e5eaea",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_inputs_unchanged": true,
+  "central_registry_integrated": false,
+  "general_cancellation_verified": false,
+  "scope": "Finite exact examples, inverse maps, ideal reductions and operator identities. Not verification of universal proofs, primary geometric inputs, historical novelty or cancellation. Repeated runs are not additional test methods.",
+  "suites": [
+    {
+      "path": "research/relative_quadratic_checks_pass79.py",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/relative_quadratic_checks_pass79.py"
+      ],
+      "exit_code": 0,
+      "expected_methods": 4,
+      "test_methods": 4,
+      "all_passed": true,
+      "unittest_seconds": 0.189,
+      "output": "test_actual_conic_inverse_transport_and_second_iterate (__main__.RelativeQuadraticChecks.test_actual_conic_inverse_transport_and_second_iterate) ... ok\ntest_formal_five_row_determinant_and_all_cofactors (__main__.RelativeQuadraticChecks.test_formal_five_row_determinant_and_all_cofactors) ... ok\ntest_formal_quadratic_normal_form_and_cubic_bound (__main__.RelativeQuadraticChecks.test_formal_quadratic_normal_form_and_cubic_bound) ... ok\ntest_whole_relative_gradient_and_replica_boundary (__main__.RelativeQuadraticChecks.test_whole_relative_gradient_and_replica_boundary) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.189s\n\nOK\n",
+      "output_sha256": "c883b22c581b19e5327b533c2fa77cab2f2e891ca41124e5bb22657fd07d3bef"
+    }
+  ]
+}

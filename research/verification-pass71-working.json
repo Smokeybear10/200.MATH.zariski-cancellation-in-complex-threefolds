@@ -1,0 +1,16 @@
+{
+  "scope": "Targeted exact symbolic controls for pass71. Not a fresh full regression, proof-assistant certificate, or validation of unrestricted cancellation.",
+  "suites": 1,
+  "command": "/opt/anaconda3/bin/python research/terminal_quartic_recognition_checks_pass71.py",
+  "started_at_utc": "2026-09-14T03:05:52.007Z",
+  "finished_at_utc": "2026-09-14T03:05:52.543Z",
+  "wall_seconds": 0.536,
+  "exit_code": 0,
+  "methods": 3,
+  "unittest_seconds": 0.152,
+  "all_passed": true,
+  "checker_sha256": "9522267108df2f9f14df3958a0c004aa42c7678384f8127b48c84eef0bf3145d",
+  "output_order": "complete stdout followed by complete stderr",
+  "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.152s\n\nOK\n",
+  "output_sha256": "703b99d9161b29bd7d60908c527dee9e5660257ad2b5168bbab9479863ca7302"
+}

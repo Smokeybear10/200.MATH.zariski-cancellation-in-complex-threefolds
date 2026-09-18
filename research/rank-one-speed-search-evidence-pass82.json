@@ -1,0 +1,299 @@
+{
+  "kind": "Bounded exact search evidence, not unit tests or universal verification",
+  "script": "research/rank_one_speed_search_pass82.py",
+  "script_sha256": "73be64fde317324b20b1a0f8d4d5b8d9bad27860c6aa1129aeb0346b690ce948",
+  "original_inline_run": {
+    "tool_chunk": "87360e",
+    "attempts": 3000,
+    "accepted_frames": 1670,
+    "rank_one_profiles": 697,
+    "gcd_screen_candidates": 391,
+    "proper_ideal_membership_checks": 141,
+    "wall_seconds": 7.032,
+    "counterexample_found": false,
+    "qualification": "The original inline label nonprincipal was only a screen. The classified replay below establishes 140 genuinely nonprincipal checks; one of the 141 proper ideals was principal."
+  },
+  "captures": [
+    {
+      "label": "initial-classified-replay",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/rank_one_speed_search_pass82.py",
+        "initial"
+      ],
+      "tool_chunk": "682dc9",
+      "exit_code": 0,
+      "output": "{\n  \"config\": {\n    \"batch\": \"initial\",\n    \"random_seed\": 82017,\n    \"attempt_limit\": 3000,\n    \"wall_limit_seconds\": 45,\n    \"maximum_s_degree\": 2,\n    \"maximum_total_degree\": 12,\n    \"maximum_terms_per_coordinate\": 70,\n    \"maximum_history_length_in_pool\": 12,\n    \"maximum_pool_size\": 180,\n    \"monomial_degree_choices\": [\n      1,\n      2,\n      2,\n      3\n    ],\n    \"cancellation_probability_denominator\": 4,\n    \"seed_frames\": [\n      {\n        \"name\": \"identity\",\n        \"coordinates\": [\n          \"s\",\n          \"a\",\n          \"b\",\n          \"c\"\n        ]\n      },\n      {\n        \"name\": \"two-speed\",\n        \"coordinates\": [\n          \"s\",\n          \"a\",\n          \"a**2*s + b\",\n          \"b**2*s + c\"\n        ]\n      },\n      {\n        \"name\": \"conic-square\",\n        \"coordinates\": [\n          \"a**4*s + 2*a**2*c + b\",\n          \"a**2*s + c\",\n          \"s\",\n          \"a - b*s + c**2\"\n        ]\n      },\n      {\n        \"name\": \"conic-linear\",\n        \"coordinates\": [\n          \"a**2*s + 2*a*c + b\",\n          \"a*s + c\",\n          \"s\",\n          \"a - b*s + c**2\"\n        ]\n      }\n    ]\n  },\n  \"counts\": {\n    \"attempts\": 3000,\n    \"accepted\": 1670,\n    \"rankone\": 697,\n    \"nonprincipal\": 391,\n    \"membership\": 141,\n    \"proper_nonprincipal_membership\": 140,\n    \"distinct_proper_ideals\": 25,\n    \"distinct_nonprincipal_ideals\": 24\n  },\n  \"wall_seconds\": 6.882773,\n  \"stopping_reason\": \"attempt_limit\",\n  \"counterexample\": null,\n  \"sample_proper_checks\": [\n    {\n      \"seed\": \"two-speed\",\n      \"speeds\": [\n        \"a**2 - 1\",\n        \"b**2\"\n      ],\n      \"q\": \"2*a**2*b**2 - 2*b**2\"\n    },\n    {\n      \"seed\": \"two-speed\",\n      \"speeds\": [\n        \"a**2 - 1\",\n        \"b**2\"\n      ],\n      \"q\": \"2*a**2*b**2 - 2*b**2\"\n    },\n    {\n      \"seed\": \"two-speed\",\n      \"speeds\": [\n        \"a**2 - 1\",\n        \"a**2 - 1\",\n        \"b**2\"\n      ],\n      \"q\": \"2*a**4 - 4*a**2 + 2\"\n    }\n  ],\n  \"python_search_is_unittest\": false,\n  \"new_unittest_methods\": 0,\n  \"scope\": \"Finite exact candidate search, not exhaustive and not a universal membership proof.\",\n  \"script_sha256\": \"73be64fde317324b20b1a0f8d4d5b8d9bad27860c6aa1129aeb0346b690ce948\",\n  \"sympy_version\": \"1.13.3\"\n}\n",
+      "record": {
+        "config": {
+          "batch": "initial",
+          "random_seed": 82017,
+          "attempt_limit": 3000,
+          "wall_limit_seconds": 45,
+          "maximum_s_degree": 2,
+          "maximum_total_degree": 12,
+          "maximum_terms_per_coordinate": 70,
+          "maximum_history_length_in_pool": 12,
+          "maximum_pool_size": 180,
+          "monomial_degree_choices": [
+            1,
+            2,
+            2,
+            3
+          ],
+          "cancellation_probability_denominator": 4,
+          "seed_frames": [
+            {
+              "name": "identity",
+              "coordinates": [
+                "s",
+                "a",
+                "b",
+                "c"
+              ]
+            },
+            {
+              "name": "two-speed",
+              "coordinates": [
+                "s",
+                "a",
+                "a**2*s + b",
+                "b**2*s + c"
+              ]
+            },
+            {
+              "name": "conic-square",
+              "coordinates": [
+                "a**4*s + 2*a**2*c + b",
+                "a**2*s + c",
+                "s",
+                "a - b*s + c**2"
+              ]
+            },
+            {
+              "name": "conic-linear",
+              "coordinates": [
+                "a**2*s + 2*a*c + b",
+                "a*s + c",
+                "s",
+                "a - b*s + c**2"
+              ]
+            }
+          ]
+        },
+        "counts": {
+          "attempts": 3000,
+          "accepted": 1670,
+          "rankone": 697,
+          "nonprincipal": 391,
+          "membership": 141,
+          "proper_nonprincipal_membership": 140,
+          "distinct_proper_ideals": 25,
+          "distinct_nonprincipal_ideals": 24
+        },
+        "wall_seconds": 6.882773,
+        "stopping_reason": "attempt_limit",
+        "counterexample": null,
+        "sample_proper_checks": [
+          {
+            "seed": "two-speed",
+            "speeds": [
+              "a**2 - 1",
+              "b**2"
+            ],
+            "q": "2*a**2*b**2 - 2*b**2"
+          },
+          {
+            "seed": "two-speed",
+            "speeds": [
+              "a**2 - 1",
+              "b**2"
+            ],
+            "q": "2*a**2*b**2 - 2*b**2"
+          },
+          {
+            "seed": "two-speed",
+            "speeds": [
+              "a**2 - 1",
+              "a**2 - 1",
+              "b**2"
+            ],
+            "q": "2*a**4 - 4*a**2 + 2"
+          }
+        ],
+        "python_search_is_unittest": false,
+        "new_unittest_methods": 0,
+        "scope": "Finite exact candidate search, not exhaustive and not a universal membership proof.",
+        "script_sha256": "73be64fde317324b20b1a0f8d4d5b8d9bad27860c6aa1129aeb0346b690ce948",
+        "sympy_version": "1.13.3"
+      }
+    },
+    {
+      "label": "only-broader-batch",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/rank_one_speed_search_pass82.py",
+        "broader"
+      ],
+      "tool_chunk": "b9e209",
+      "exit_code": 0,
+      "output": "{\n  \"config\": {\n    \"batch\": \"broader\",\n    \"random_seed\": 82018,\n    \"attempt_limit\": 8000,\n    \"wall_limit_seconds\": 35,\n    \"maximum_s_degree\": 2,\n    \"maximum_total_degree\": 14,\n    \"maximum_terms_per_coordinate\": 80,\n    \"maximum_history_length_in_pool\": 15,\n    \"maximum_pool_size\": 240,\n    \"monomial_degree_choices\": [\n      1,\n      2,\n      2,\n      3,\n      3,\n      4\n    ],\n    \"cancellation_probability_denominator\": 2,\n    \"seed_frames\": [\n      {\n        \"name\": \"identity\",\n        \"coordinates\": [\n          \"s\",\n          \"a\",\n          \"b\",\n          \"c\"\n        ]\n      },\n      {\n        \"name\": \"two-speed\",\n        \"coordinates\": [\n          \"s\",\n          \"a\",\n          \"a**2*s + b\",\n          \"b**2*s + c\"\n        ]\n      },\n      {\n        \"name\": \"conic-square\",\n        \"coordinates\": [\n          \"a**4*s + 2*a**2*c + b\",\n          \"a**2*s + c\",\n          \"s\",\n          \"a - b*s + c**2\"\n        ]\n      },\n      {\n        \"name\": \"conic-linear\",\n        \"coordinates\": [\n          \"a**2*s + 2*a*c + b\",\n          \"a*s + c\",\n          \"s\",\n          \"a - b*s + c**2\"\n        ]\n      },\n      {\n        \"name\": \"principal-n2\",\n        \"coordinates\": [\n          \"a\",\n          \"a**2*s - a*b**2/2 + b\",\n          \"a**3*s**2/2 - a**2*b**2*s/2 + a*b**4/8 + a*b*s - b**3/2 + s\",\n          \"c\"\n        ]\n      },\n      {\n        \"name\": \"principal-n3\",\n        \"coordinates\": [\n          \"a\",\n          \"a**3*s + a**2*b**3/2 - a*b**2/2 + b\",\n          \"a**4*s**2/2 + a**3*b**3*s/2 + a**2*b**6/8 - a**2*b**2*s/2 - a*b**5/4 + a*b*s + 5*b**4/8 + s\",\n          \"c\"\n        ]\n      }\n    ]\n  },\n  \"counts\": {\n    \"attempts\": 1239,\n    \"accepted\": 687,\n    \"rankone\": 244,\n    \"nonprincipal\": 43,\n    \"membership\": 16,\n    \"proper_nonprincipal_membership\": 11,\n    \"distinct_proper_ideals\": 10,\n    \"distinct_nonprincipal_ideals\": 7\n  },\n  \"wall_seconds\": 41.97165,\n  \"stopping_reason\": \"wall_limit\",\n  \"counterexample\": null,\n  \"sample_proper_checks\": [\n    {\n      \"seed\": \"conic-linear\",\n      \"speeds\": [\n        \"a**2\",\n        \"a\",\n        \"-b\"\n      ],\n      \"q\": \"2*a**2*b\"\n    },\n    {\n      \"seed\": \"identity\",\n      \"speeds\": [\n        \"-b\",\n        \"-a\"\n      ],\n      \"q\": \"-2*a*b**2\"\n    },\n    {\n      \"seed\": \"two-speed\",\n      \"speeds\": [\n        \"a**2\",\n        \"b**2\"\n      ],\n      \"q\": \"2*a**2*b**2\"\n    }\n  ],\n  \"python_search_is_unittest\": false,\n  \"new_unittest_methods\": 0,\n  \"scope\": \"Finite exact candidate search, not exhaustive and not a universal membership proof.\",\n  \"script_sha256\": \"73be64fde317324b20b1a0f8d4d5b8d9bad27860c6aa1129aeb0346b690ce948\",\n  \"sympy_version\": \"1.13.3\"\n}\n",
+      "record": {
+        "config": {
+          "batch": "broader",
+          "random_seed": 82018,
+          "attempt_limit": 8000,
+          "wall_limit_seconds": 35,
+          "maximum_s_degree": 2,
+          "maximum_total_degree": 14,
+          "maximum_terms_per_coordinate": 80,
+          "maximum_history_length_in_pool": 15,
+          "maximum_pool_size": 240,
+          "monomial_degree_choices": [
+            1,
+            2,
+            2,
+            3,
+            3,
+            4
+          ],
+          "cancellation_probability_denominator": 2,
+          "seed_frames": [
+            {
+              "name": "identity",
+              "coordinates": [
+                "s",
+                "a",
+                "b",
+                "c"
+              ]
+            },
+            {
+              "name": "two-speed",
+              "coordinates": [
+                "s",
+                "a",
+                "a**2*s + b",
+                "b**2*s + c"
+              ]
+            },
+            {
+              "name": "conic-square",
+              "coordinates": [
+                "a**4*s + 2*a**2*c + b",
+                "a**2*s + c",
+                "s",
+                "a - b*s + c**2"
+              ]
+            },
+            {
+              "name": "conic-linear",
+              "coordinates": [
+                "a**2*s + 2*a*c + b",
+                "a*s + c",
+                "s",
+                "a - b*s + c**2"
+              ]
+            },
+            {
+              "name": "principal-n2",
+              "coordinates": [
+                "a",
+                "a**2*s - a*b**2/2 + b",
+                "a**3*s**2/2 - a**2*b**2*s/2 + a*b**4/8 + a*b*s - b**3/2 + s",
+                "c"
+              ]
+            },
+            {
+              "name": "principal-n3",
+              "coordinates": [
+                "a",
+                "a**3*s + a**2*b**3/2 - a*b**2/2 + b",
+                "a**4*s**2/2 + a**3*b**3*s/2 + a**2*b**6/8 - a**2*b**2*s/2 - a*b**5/4 + a*b*s + 5*b**4/8 + s",
+                "c"
+              ]
+            }
+          ]
+        },
+        "counts": {
+          "attempts": 1239,
+          "accepted": 687,
+          "rankone": 244,
+          "nonprincipal": 43,
+          "membership": 16,
+          "proper_nonprincipal_membership": 11,
+          "distinct_proper_ideals": 10,
+          "distinct_nonprincipal_ideals": 7
+        },
+        "wall_seconds": 41.97165,
+        "stopping_reason": "wall_limit",
+        "counterexample": null,
+        "sample_proper_checks": [
+          {
+            "seed": "conic-linear",
+            "speeds": [
+              "a**2",
+              "a",
+              "-b"
+            ],
+            "q": "2*a**2*b"
+          },
+          {
+            "seed": "identity",
+            "speeds": [
+              "-b",
+              "-a"
+            ],
+            "q": "-2*a*b**2"
+          },
+          {
+            "seed": "two-speed",
+            "speeds": [
+              "a**2",
+              "b**2"
+            ],
+            "q": "2*a**2*b**2"
+          }
+        ],
+        "python_search_is_unittest": false,
+        "new_unittest_methods": 0,
+        "scope": "Finite exact candidate search, not exhaustive and not a universal membership proof.",
+        "script_sha256": "73be64fde317324b20b1a0f8d4d5b8d9bad27860c6aa1129aeb0346b690ce948",
+        "sympy_version": "1.13.3"
+      }
+    }
+  ],
+  "replay_commands": [
+    [
+      "/opt/anaconda3/bin/python",
+      "research/rank_one_speed_search_pass82.py",
+      "initial",
+      "--replay-attempts",
+      "3000"
+    ],
+    [
+      "/opt/anaconda3/bin/python",
+      "research/rank_one_speed_search_pass82.py",
+      "broader",
+      "--replay-attempts",
+      "1239"
+    ]
+  ],
+  "count_definitions": {
+    "attempts": "Proposed moves, including rejected or repeated moves.",
+    "accepted": "Distinct coordinate tuples passing degree/term bounds; tuple strings are deduplicated within this batch.",
+    "rankone": "Accepted tuples with exactly one s-degree-two coordinate.",
+    "nonprincipal": "Historical key for candidates surviving the cheap normalized-gcd screen, before exact unit/nonprincipal tests; not a proof of nonprincipality.",
+    "membership": "Proper speed ideals receiving an exact Groebner remainder test for q.",
+    "proper_nonprincipal_membership": "Membership checks for which the normalized generators also have proper ideal, proving nonprincipality.",
+    "distinct_proper_ideals": "Distinct displayed reduced Groebner-basis tuples among proper checked ideals in this batch.",
+    "distinct_nonprincipal_ideals": "The corresponding distinct nonprincipal ideals in this batch."
+  },
+  "duplicate_policy": "Coordinate tuples are deduplicated within each batch; distinct frames may repeat an ideal or q check. No global distinct-ideal total across batches is asserted.",
+  "time_limit_policy": "Wall limit is checked between attempts, not as an interrupt inside one symbolic operation. The final broader attempt completed after the nominal 35-second bound.",
+  "new_unittest_methods": 0,
+  "full_regression_performed": false,
+  "counterexample_found": false,
+  "universal_membership_proved": false,
+  "frozen_files_changed": false
+}

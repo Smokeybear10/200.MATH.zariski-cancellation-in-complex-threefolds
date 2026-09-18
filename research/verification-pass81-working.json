@@ -1,0 +1,72 @@
+{
+  "kind": "Fresh targeted81 capture, not a full regression",
+  "started_at_utc": "2026-09-14T09:09:42.927718+00:00",
+  "finished_at_utc": "2026-09-14T09:09:43.615358+00:00",
+  "wall_seconds": 0.687334,
+  "total_suites": 2,
+  "total_test_methods": 6,
+  "all_passed": true,
+  "new81_suites": 2,
+  "new81_test_methods": 6,
+  "fresh_full81_regression_performed": false,
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "source_hashes_before": {
+    "research/quadratic_flow_filter_checks_pass81.py": "16252d686e623751a0ad600bfe6f6e526c47928c6781e74cbbec850f057dda9f",
+    "research/quadratic_reduction_controls_pass81.py": "acd5a30dcd28367dc43241bc71b9f41673539e7f87ac8fb2066da2c28983b2d8",
+    "research/run_targeted_pass81.py": "d8ffffd7590a9cd53e0a450f9931f68cae3702ddc506def38c80fcc1d4f0ba49",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_hashes_after": {
+    "research/quadratic_flow_filter_checks_pass81.py": "16252d686e623751a0ad600bfe6f6e526c47928c6781e74cbbec850f057dda9f",
+    "research/quadratic_reduction_controls_pass81.py": "acd5a30dcd28367dc43241bc71b9f41673539e7f87ac8fb2066da2c28983b2d8",
+    "research/run_targeted_pass81.py": "d8ffffd7590a9cd53e0a450f9931f68cae3702ddc506def38c80fcc1d4f0ba49",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_inputs_unchanged": true,
+  "central_registry_integrated": false,
+  "general_cancellation_verified": false,
+  "scope": "Finite exact polynomial inverses, scalar-filter identities, selected degree bounds, acceleration fields and flow-box controls. Not a formal proof of universal statements or recognition of arbitrary sliced actions. Repeated runs and subtests are not additional test methods.",
+  "suites": [
+    {
+      "path": "research/quadratic_flow_filter_checks_pass81.py",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/quadratic_flow_filter_checks_pass81.py"
+      ],
+      "started_at_utc": "2026-09-14T09:09:42.928103+00:00",
+      "finished_at_utc": "2026-09-14T09:09:43.614742+00:00",
+      "wall_seconds": 0.686646,
+      "exit_code": 0,
+      "expected_methods": 3,
+      "test_methods": 3,
+      "method_count_matches": true,
+      "all_passed": true,
+      "unittest_seconds": 0.346,
+      "output": "test_actual_frame_all_scalar_filters_and_lowering_failure (__main__.QuadraticFlowFilterChecks.test_actual_frame_all_scalar_filters_and_lowering_failure) ... ok\ntest_finite_higher_degree_weights_and_recurrence (__main__.QuadraticFlowFilterChecks.test_finite_higher_degree_weights_and_recurrence) ... ok\ntest_true_slice_dilation_inverse_and_positive_linear_slice (__main__.QuadraticFlowFilterChecks.test_true_slice_dilation_inverse_and_positive_linear_slice) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.346s\n\nOK\n",
+      "output_sha256": "3ba56de345990d7bab5fd0584bb3626170d447dc2fa3b1638719f2fea794708a"
+    },
+    {
+      "path": "research/quadratic_reduction_controls_pass81.py",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/quadratic_reduction_controls_pass81.py"
+      ],
+      "started_at_utc": "2026-09-14T09:09:42.928171+00:00",
+      "finished_at_utc": "2026-09-14T09:09:43.356930+00:00",
+      "wall_seconds": 0.428785,
+      "exit_code": 0,
+      "expected_methods": 3,
+      "test_methods": 3,
+      "method_count_matches": true,
+      "all_passed": true,
+      "unittest_seconds": 0.101,
+      "output": "test_actual_acceleration_unit_non_lnd_and_commutator (__main__.QuadraticReductionControls.test_actual_acceleration_unit_non_lnd_and_commutator) ... ok\ntest_actual_flow_boxes_and_generic_degrees (__main__.QuadraticReductionControls.test_actual_flow_boxes_and_generic_degrees) ... ok\ntest_rank_one_acceleration_without_square_speed_divisibility (__main__.QuadraticReductionControls.test_rank_one_acceleration_without_square_speed_divisibility) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.101s\n\nOK\n",
+      "output_sha256": "747d2696637914dccb61feb6f4bbb1465be4587ffadf8b0db48a91524fd5f3c6"
+    }
+  ]
+}

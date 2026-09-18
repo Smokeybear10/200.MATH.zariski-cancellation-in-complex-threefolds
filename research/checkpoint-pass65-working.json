@@ -1,0 +1,183 @@
+{
+  "status": "Audited working65 proof packet. No new full-project regression or central-registry integration is claimed.",
+  "previous_full_checkpoint": "consistency-pass-60.json",
+  "previous_working_checkpoint": "research/checkpoint-pass64-working.json",
+  "historical_full_counts": {
+    "claims": 544,
+    "test_methods": 1000,
+    "suites": 126
+  },
+  "current_pass_new_methods": 4,
+  "current_pass_new_suites": 2,
+  "previous_working64_new_methods": 1,
+  "previous_working64_new_suites": 1,
+  "affected_inherited_methods_rerun": 26,
+  "affected_inherited_suites_rerun": 6,
+  "verification_record": "research/verification-pass65-working.json",
+  "full_project_regression_rerun": false,
+  "synthesis": "research/low-flow-synthesis-pass65.md",
+  "audit": "research/proof-audits-pass65-working.md",
+  "completed_deductions": [
+    "Dependent defects with no complex constant relation force the highest vector's bad components to vanish; flow degree one is recognized.",
+    "Dependent-defect flow degree two with algebraically independent bad speeds is recognized after actual intrinsic-chart and projection arguments.",
+    "A nonconstant-projective speed curve gives an actual one-parameter quadratic graph under joint leading rank two and transverse bad projection; full generation and the determinant/pole argument recognize the original kernel.",
+    "The complementary rank-one projection is recognized using the exact relative-plane, two-quasi, Riccati and good-output gates. Joint leading rank at most two is therefore recognized throughout the dependent degree-two speed-curve sector.",
+    "Independent constant-top cubic frames have exact common kernels k[t] and k[t,f] and a preceding-layer/speed normal form. The existing omitted-constant-direction criterion gives a recognition subcase.",
+    "The cubic Heisenberg LND kills the entire k[t,f] base by the full lower coefficient identities. Its compatible projection is a global commuting LND, but supplies no parameter-moving intrinsic slice.",
+    "An actual full moving-top degree-four family refutes automatic g dividing T_lambda(g) and automatic nonzero repair. The family is already recognized by an omitted good direction.",
+    "The two-variable-speed enlargement of that same family violates the fourth adjoint bound precisely when the added speed dependence is nonzero."
+  ],
+  "audit_correction": {
+    "initial_proposal": "Use the cubic Heisenberg field's constant motion Nt=kappa as a new recognition subcase when nonzero.",
+    "decisive_evidence": "The good quadratic and bad cubic coefficients imply N(E^2x)=0 and therefore Nt=Nf=0.",
+    "final_status": "Nonzero-kappa branch is empty under the full hypotheses and is not counted as a recognition advance. The corrected zero-motion and LND statements are retained."
+  },
+  "remaining_low_flow": {
+    "defect_rank": 1,
+    "constant_defect_relation": false,
+    "flow_degree": 2,
+    "bad_speed_jacobian_rank": 1,
+    "projective_speed_direction": "nonconstant",
+    "joint_leading_rank": 3,
+    "status": "Necessary residual configuration after recognized cases, not an existence assertion or a prohibition on further individual recognition criteria."
+  },
+  "remaining_beyond_low_flow": [
+    "Independent constant-top cubic ambient-generation problem, retaining the automatic zero Heisenberg motion.",
+    "Other higher constant-top and moving-top sectors in the pass64 dependency map.",
+    "Existence of a recognized actual coordinate frame for an arbitrary sliced four-ring action."
+  ],
+  "all_profile_height_threshold": 9,
+  "entire_two_quadratic_profile_recognized": false,
+  "general_conjecture_solved": false,
+  "universal_frame_existence_proved": false,
+  "novelty_claimed": false,
+  "human_expert_review": false,
+  "proof_assistant_verified": false,
+  "interpretation_confirmed_by_professor": false,
+  "external_contact_or_submission": false,
+  "artifact_integrity": {
+    "checked_at_utc": "2026-09-14T00:00:15.089Z",
+    "all_passed": true,
+    "old_full60_nonmutable_records": 168,
+    "prior_working64_artifacts": 13,
+    "prior_packet": {
+      "path": "research/checkpoint-pass64-working.json",
+      "sha256": "79837b5bcdd9291d9f145e9ff4a59645a08d4612f47d2cf1884d8cf25545c79f"
+    },
+    "local_links_checked": 46,
+    "new_checker_ast": [
+      {
+        "path": "research/moving_frame_divisibility_checks_pass65.py",
+        "methods": [
+          "test_actual_inverse_and_all_four_exact_adjoint_columns",
+          "test_canonical_layers_failed_divisibility_and_zero_repair"
+        ],
+        "imports": [
+          "unittest",
+          "sympy"
+        ]
+      },
+      {
+        "path": "research/speed_curve_graph_checks_pass65.py",
+        "methods": [
+          "test_fixed_bad_derivatives_and_arbitrary_scalar_integrations",
+          "test_rational_speed_basis_and_nonlinear_parameter_schur_coefficients"
+        ],
+        "imports": [
+          "unittest",
+          "sympy"
+        ]
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "research/constant-top-cubic-pass65.md",
+        "bytes": 12084,
+        "sha256": "372377915fd6847d324786dc60dd0ae856c8106353fddc78c65d5d0006e3e16a",
+        "lines": 319,
+        "numbered_equations": 16,
+        "source_footnotes": 2
+      },
+      {
+        "path": "research/constant-top-cubic-heisenberg-pass65.md",
+        "bytes": 7704,
+        "sha256": "9f078fb677b93fe0ac300ffa4063d2b5cfcea79ae8887a76d512e984c73f1102",
+        "lines": 204,
+        "numbered_equations": 9,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/dependent-low-flow-pass65.md",
+        "bytes": 16258,
+        "sha256": "b52000c98daf4231046489e4ad8ca2d1f83f1d1d2603aa60a794da339f68ab4b",
+        "lines": 393,
+        "numbered_equations": 20,
+        "source_footnotes": 1
+      },
+      {
+        "path": "research/dependent-speed-curve-graph-pass65.md",
+        "bytes": 16851,
+        "sha256": "7ce69120ba9e70b4bd913c28c27f494c4e41ca4ab9b842e4f9152d3bbe4d383f",
+        "lines": 449,
+        "numbered_equations": 24,
+        "source_footnotes": 2
+      },
+      {
+        "path": "research/moving-frame-divisibility-control-pass65.md",
+        "bytes": 8658,
+        "sha256": "bb07de7cde4bcc39feea0b0ba1cd5df5710001ab8c510ae8f22606fc3503ae84",
+        "lines": 268,
+        "numbered_equations": 19,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/moving_frame_divisibility_checks_pass65.py",
+        "bytes": 6225,
+        "sha256": "bfc2b84701b223b5ac4e61b2284ae566d97b7b5f0ebcbeb361172437141f66ed",
+        "lines": 156,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/speed_curve_graph_checks_pass65.py",
+        "bytes": 4971,
+        "sha256": "61f5bb4d8c67f6ef5bdc8b77640704a9dd92e0658bc0ccba407d1de600d9ffa7",
+        "lines": 141,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/finite-euler-graph-recognition-pass65.md",
+        "bytes": 4240,
+        "sha256": "0cd5d3d449ab1e557f8e75c7553a6637854f5679b32e8eed51fea2d7cf6d6ea2",
+        "lines": 102,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/verification-pass65-working.json",
+        "bytes": 4513,
+        "sha256": "527b8e793a355a2c12bb4d4854099e8d5afb836de1cfc32ddf6d9fa159af3ff7",
+        "lines": 101,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/low-flow-synthesis-pass65.md",
+        "bytes": 9670,
+        "sha256": "754c2f76bc48878aaedb3c83cb9546eb8ce7ae6f7d6218f198696badab9130c9",
+        "lines": 211,
+        "numbered_equations": 6,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/proof-audits-pass65-working.md",
+        "bytes": 10804,
+        "sha256": "1ba6538d6d3ebc5aff6083f751335e3388bea3f6bbafa37fdac15a0dc5ce16c3",
+        "lines": 226,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      }
+    ]
+  }
+}

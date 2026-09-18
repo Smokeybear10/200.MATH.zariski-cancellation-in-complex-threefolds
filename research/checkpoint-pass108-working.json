@@ -1,0 +1,260 @@
+{
+  "pass": 108,
+  "status": "working_partial_unit_exclusion_and_conditional_quartic_rigidity_not_cancellation",
+  "working_target": "Unconfirmed intended complex-threefold cancellation: A[u] isomorphic to C^[4] implies A isomorphic to C^[3]. Literal emailed A^1 conclusion has a dimension mismatch for general r.",
+  "summary": "In the supplied collapsed mixed quadratic sector with L(m) nonzero, the unit normalized second-image ideal is excluded. The proper case has a sharp purity ideal and B1 outside J2 squared. If ord(a)=1, an actual quartic yields basis 1,G,G²,c,U, W3=D, W4=D+C*c, and J4=(a,L)=(a,t^n) with 1<=n<2 length(R/J2). Proper mixed exclusion and arbitrary-frame entry remain unproved.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass107-working.json",
+    "sha256": "b7df20b1dd55c29b5cf66836782163060ae556c80e56d24cbc21a1ab1a856ace",
+    "frozen_records": 663,
+    "full_revalidation_evidence": "df8ffe",
+    "all_unchanged": true,
+    "preceding_goal_turn": "no_progress: user status check-in, active goal inspection and current unit-case proof read; no new theorem or artifact in that check-in.",
+    "prior_independent_final_audit": {
+      "agent": "jet_checker17",
+      "status": "clean",
+      "evidence": [
+        "34e16f",
+        "687ca5"
+      ],
+      "artifacts": 10,
+      "equationTags": 38,
+      "suites": 4,
+      "methods": 7,
+      "newMethods": 2,
+      "retainedMethods": 5,
+      "frozenRecords": 663,
+      "localLinks": 844,
+      "missingLinks": 0
+    }
+  },
+  "chain_record_count_after_including_this_checkpoint": 673,
+  "record_count_convention": "663 predecessor frozen records + nine current artifact hash records + this checkpoint = 673. README and research-ledger remain live and are excluded. Repeated checks are not additional mathematical or test coverage.",
+  "canonical_verification": {
+    "path": "research/verification-pass108-working.json",
+    "tool_evidence": "a6a996",
+    "suites": 3,
+    "test_methods": 6,
+    "new_methods": 2,
+    "retained_methods": 4,
+    "elapsed_seconds": 1.876345709,
+    "unittest_seconds": 1.429,
+    "complete_output_sha256": "30c95b4e560badd88715a13bc7ac98da57a72212bed22bf7b3ba3608d39d9d15",
+    "all_passed": true,
+    "scope": "New finite gcd-row, mixed-Artin, sharp-conic and divided-quartic identities, plus retained divisor-filtration and general-epsilon quartic controls. Does not verify purity, actual integrality, universal residue-rank arguments, source-frame existence, global entry or cancellation."
+  },
+  "author_executions": [
+    {
+      "author": "Jet",
+      "command": "/opt/anaconda3/bin/python research/mixed_pure_quartic_checks_pass108.py",
+      "evidence": "f598dd",
+      "methods": 2,
+      "unittest_seconds": 0.259,
+      "tool_wall_seconds": 1.372963,
+      "exit_code": 0
+    }
+  ],
+  "historical_full_verification": {
+    "path": "research/verification-pass75-working.json",
+    "suites": 146,
+    "methods": 1047,
+    "claim_registry_count": 544,
+    "rerun_this_pass": false,
+    "revalidation": "df8ffe rechecked retained hashes/counts, not a new full execution."
+  },
+  "sources": [
+    {
+      "url": "https://stacks.math.columbia.edu/tag/00NQ",
+      "use": "A quotient of a regular local surface by a first-order parameter is regular of dimension one.",
+      "root_evidence": "turn3635view1",
+      "scope": "Complete displayed statement and proof; deeper foundations not rebuilt."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/00PD",
+      "use": "One-dimensional regular local rings are DVRs; their nonzero ideals are powers of a uniformizer.",
+      "root_evidence": "turn3635view0",
+      "scope": "Complete displayed statement and proof."
+    },
+    {
+      "url": "https://arxiv.org/html/1501.01438v1#S3.Thmtheorem3.5",
+      "use": "Existing conditional recognition from a fixed ambient coordinate and regular kernel, not existence of that coordinate.",
+      "root_evidence": "turn3639view0",
+      "independent_evidence": "turn3637view0",
+      "scope": "Complete displayed Theorem3.5 and short proof; DVR proposition and PID patching inputs not rebuilt."
+    }
+  ],
+  "proof_limits": [
+    "The actual original three-good constant-acceleration coordinate frame is supplied, not derived from arbitrary cancellation input.",
+    "The local results concern the collapsed mixed multiplicity-(2,1) quadratic sector with L(m) nonzero.",
+    "Only the unit J2 case is excluded here. Proper J2 remains unresolved.",
+    "Purity uses residue-independent finite pieces; the whole F2 and F4 are not declared pure.",
+    "The normalized conic coefficient B1 is outside J2 squared in the proper case; the full-Artin two-quartic argument cannot simply be reused.",
+    "The one-quartic and subsequent rank/strict-length conclusions require ord_m(a)=1; that premise is not proved in general.",
+    "The constructed U belongs to mA_R but not to mF4. The two reduction maps are kept distinct.",
+    "A_R=R[G,c,U] is a generating-set statement, not an exact defining ideal, finite-parameter presentation or coordinate recognition.",
+    "The selected-c coprimality gcd(P,L)=1 uses the exact boundary valuation, not generic fourth degree alone.",
+    "dim W3=2 forces equal component speeds, but equal speeds do not imply that dimension.",
+    "The global-entry note is a dependency audit and reuses the existing101 all-polynomial cutoff result; it is not a new theorem or an exhaustive novelty audit.",
+    "Finite tests verify explicit identities, not universal flatness, integrality, purity, source-frame validity, residue rank, global entry or cancellation.",
+    "Separate AI reconstructions are not human expert review, Lean formalization or novelty clearance.",
+    "Whole-double, zero-normal, relative cubic, global recognition and arbitrary-frame-entry obligations remain open."
+  ],
+  "draft_corrections": [
+    "The sharp conic rearrangement's right side uses positive 2B1H and positive mixed/quadratic terms; early-message sign slips were corrected before the saved proof.",
+    "The quotient integral-ideal argument does not assume R/(B1) normal unless B1 is a smooth parameter.",
+    "The initial weak exponent bound n<=2k is proved in the construction note; the separate whole-residue proof strengthens it to n<2k.",
+    "An unused draft H-squared expansion transcription was corrected during complete checker review before the first assertion-bearing run; the two-method author run passed.",
+    "Pre-checkpoint audit1c8150 had exactly three pending links to this checkpoint. The post-creation audit211232 resolves all877 checked local Markdown links."
+  ],
+  "next_bounded_tasks": [
+    "In the smooth-a branch, derive the actual defining relations of A_R=R[G,c,U] from the free degree basis and original-frame identities. Do not invert 1+epsilon bG or infer finiteness from a closed-fiber generator count.",
+    "Analyze the k=1 subcase with J4=m and selected L a complementary parameter; test whether original boundary/volume identities contradict its square first plinth jet.",
+    "In the remaining rank-two W3 branch use ord(a)>=2, the sharp ideal and the pure quartic gcd row. Do not use the smooth-parameter division there.",
+    "Maintain a separate global lane for an actual degree-adaptive coordinate/frame witness or a recognition proof avoiding that frame. A new local result does not fill this gate."
+  ],
+  "goal_status": "active",
+  "authorization_boundary": "Private local research, public-source reading and symbolic checks only. No expert outreach, submission, public posting, new automation, trading or paid resource action.",
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-14T21:39:57.324Z",
+    "all_passed": true,
+    "artifacts": [
+      {
+        "path": "research/mixed-unit-second-image-exclusion-pass108.md",
+        "sha256": "4602839d1e1e94efc75084b223946d7b462d7bfe7e13051969baaa10ab3e2e4e",
+        "bytes": 10397,
+        "content_lines": 223,
+        "equation_tags": 6
+      },
+      {
+        "path": "research/mixed-proper-second-image-jets-pass108.md",
+        "sha256": "460bd6d531eb12d37e2451807f6f9b2c9127c2bac431582143a526484c7fa680",
+        "bytes": 9221,
+        "content_lines": 192,
+        "equation_tags": 6
+      },
+      {
+        "path": "research/mixed-pure-quartic-row-pass108.md",
+        "sha256": "430d9061b8424703f8aeb48dbda67bc59305a2216965954b0364422284d66988",
+        "bytes": 9342,
+        "content_lines": 216,
+        "equation_tags": 6
+      },
+      {
+        "path": "research/mixed-smooth-generator-quartic-pass108.md",
+        "sha256": "5929612a93f49c2da220c4cb4dafb4ab162dc120a62fb92be1fe62d9f1915ec7",
+        "bytes": 6764,
+        "content_lines": 157,
+        "equation_tags": 7
+      },
+      {
+        "path": "research/mixed-smooth-quartic-residue-pass108.md",
+        "sha256": "86a67278cb8a231004facf4e31cd6ce0b6840d6e13dfb854fb7ab36cbbbffde2",
+        "bytes": 7917,
+        "content_lines": 180,
+        "equation_tags": 6
+      },
+      {
+        "path": "research/global-entry-audit-pass108.md",
+        "sha256": "ed504c5a62483024596f5ac0164752f7f0877ae8c165e0c26a43622f39a33c39",
+        "bytes": 8829,
+        "content_lines": 156,
+        "equation_tags": 3
+      },
+      {
+        "path": "research/mixed_pure_quartic_checks_pass108.py",
+        "sha256": "b6d4bca801664a82bc829a42a26abc4a03ffaf700aec5125ac6b17d54bf5c80e",
+        "bytes": 5805,
+        "content_lines": 140,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/verification-pass108-working.json",
+        "sha256": "e521f915e4c1e68fab7675e8a6ecb33221c1f04ce35a4fb8a05a07140ef01503",
+        "bytes": 2930,
+        "content_lines": 45,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/mixed-proper-ideal-frontier-pass108.md",
+        "sha256": "da7f4c5bd10b4727706e06144ad93b77a48bf6f7e2f4d3d2e91fd6e6da54ccad",
+        "bytes": 9411,
+        "content_lines": 227,
+        "equation_tags": 0
+      }
+    ],
+    "equation_tags": 34,
+    "captured_methods": 6,
+    "ast_methods": {
+      "research/mixed_pure_quartic_checks_pass108.py": 2,
+      "research/quadratic_divisor_filtration_checks_pass107.py": 1,
+      "research/triple_point_quartic_checks_pass51.py": 3
+    },
+    "new_test_methods": 2,
+    "complete_output_verified": true,
+    "input_files_unchanged": true,
+    "local_markdown_links_checked": 877,
+    "missing_links": [],
+    "tool_evidence": "211232",
+    "stage": "post-creation all current artifacts and local links verified"
+  },
+  "proof_reviews": [
+    {
+      "reviewer": "Root",
+      "scope": "Complete current unit, proper-image, pure-row, checker, smooth-quartic, residue and global-entry notes; independently derived one-quartic and flat-colon/internal-rank argument. Complete predecessor checkpoint/purity read, affected canonical execution and selected primary proofs.",
+      "evidence": [
+        "4dfd92",
+        "7024be",
+        "6750c4",
+        "3a090c",
+        "089cd2",
+        "f22686",
+        "d8def3",
+        "c80355"
+      ],
+      "canonical_evidence": "a6a996"
+    },
+    {
+      "reviewer": "General",
+      "scope": "Author unit exclusion and global-entry audit; full independent proper-jets, row/checker, smooth-generator and residue proofs. No new numerical run in reviews.",
+      "evidence": [
+        "79e72e",
+        "edeb4b",
+        "bb8cab",
+        "ce23f9",
+        "7bd940",
+        "d37975",
+        "0340d0",
+        "9b5cbb",
+        "700c38"
+      ]
+    },
+    {
+      "reviewer": "Geometry",
+      "scope": "Author sharp proper-ideal and smooth-quartic residue proofs; full independent unit exclusion, smooth-generator construction and row/checker reviews.",
+      "evidence": [
+        "49bc15",
+        "bbb34e",
+        "40522f",
+        "702303",
+        "f0805d",
+        "cf38b8",
+        "8c7239"
+      ]
+    },
+    {
+      "reviewer": "Jet",
+      "scope": "Author six-equation row and two-method checker; full independent unit, proper, smooth-generator, smooth-residue, global-entry, synthesis and capture review. No canonical rerun during audit.",
+      "evidence": [
+        "46719f",
+        "b96c9c",
+        "df6dbf",
+        "19f34f",
+        "1a0fea",
+        "ba4401",
+        "93f33e",
+        "c5b9d7"
+      ],
+      "capture_evidence": "08c239"
+    }
+  ]
+}

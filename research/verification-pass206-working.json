@@ -1,0 +1,110 @@
+{
+  "pass": 206,
+  "status": "t_independent_weight_four_classification_and_radical_projection_defect_reduction; nonzero_R_recognition_and_unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass205-working.json",
+    "sha256": "2e45fdc1fe423827156e1edd52b18f1538055308ff2964b13f807c381f908966",
+    "records": 1267
+  },
+  "results": {
+    "classification": "Inside the supplied actual full weight-four initial-kernel chart, q_t=0 is equivalent to independence of the original Y slot. It forces q_rhorho nonzero and leaves exactly Z^2-X^2W or ZW-X^4 under actual weighted polynomial coordinate changes preserving the entire initial ideal and exact1122. This does not transport R or the selected pivot between normal forms. In the original selected chart, the retained zero-R theorem205 therefore needs no separate q_rhorho hypothesis.",
+    "radical_eliminant": "For the swapped radical pivot q=rho^2 and evaluated R nonzero, the two final undivided potentials give a nonzero eliminant of total degree at most five, with U-degree at most four. The calibrated R^3 J identity proves selected-factor simplicity and cofactor divisibility by R^3. The projected normalization is O=C+Cw, with RO contained in C; no plane normality or invertibility of R is assumed.",
+    "center_cases": "The zero, nonzero constant, and repeated-quadratic centers give the whole projected plane ring, with the last case using the retained degree-five vertex-free cone lemma. A proper projected ring can only have a nonconstant squarefree center of degree one or two.",
+    "conductor_reduction": "The actual conductor element and exact projected degree bounds reduce any proper plane ring to C=L[x^2,x^3+c*x] over the exact coefficient field. Its normalization defect has dimension one and conductor (x^2+c)O. This is a cusp when c=0 or a geometric node when c is nonzero, not an original-ring coordinate or cancellation obstruction.",
+    "remaining_scope": "Nonzero-R recognition, actual invariant-coordinate entry, other leading-kernel sectors and unrestricted cancellation remain open here. Separate207 actual node/cusp positive controls have known polynomial kernel A; they are not cancellation counterexamples and neither their source nor inline calculations are included in this packet."
+  },
+  "goal_audit": {
+    "current_progress": "Three written restrictions classify the t-independent sector and reduce a possible radical projected defect to a cubic cusp/node ring. One four-method finite exact-algebra checker passed once after complete author and Root source reads.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/weight-four-t-independent-leading-kernel-classification-pass206-working.md",
+      "sha256": "9328b9ea81c11fef3beb4f0bdb5af5242d50f37dd254a1b536ea0052cff5ebab",
+      "bytes": 8503,
+      "lines": 216,
+      "equations": 14,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-radical-nonzero-r-eliminant-pass206-working.md",
+      "sha256": "3a2ca8aab83d0ca21c0dfe3ab22ec9d7f6e80c26247fda96e9f7807e2759a691",
+      "bytes": 12636,
+      "lines": 334,
+      "equations": 18,
+      "test_methods": 0
+    },
+    {
+      "path": "research/radical-projection-conductor-cubic-reduction-pass206-working.md",
+      "sha256": "8d8516811860ae366ee8c6018eb2fda45f23069bae3bca7b5dd657bb6fd7681c",
+      "bytes": 10075,
+      "lines": 258,
+      "equations": 14,
+      "test_methods": 0
+    },
+    {
+      "path": "research/radical_projection_algebra_controls_pass206.py",
+      "sha256": "8e1746c99745a866799ac5e6fe82f69461ca4847213b33e39f4e0c94ad83b12a",
+      "bytes": 12619,
+      "lines": 231,
+      "equations": 0,
+      "test_methods": 4
+    }
+  ],
+  "canonical_executions": [
+    {
+      "suite": "radical_projection_algebra_controls206",
+      "path": "research/radical_projection_algebra_controls_pass206.py",
+      "pre_execution_read": "Author complete37d53c, hashabdeb4, countsf99560; Root complete86c4e0.",
+      "initial_output": "155714",
+      "session_id": null,
+      "terminal_output": "155714",
+      "methods": 4,
+      "unittest_seconds": 0.209,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "completion_via_original_handle": false,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/radical_projection_algebra_controls_pass206.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "login": false,
+      "initial_yield_time_ms": 1000,
+      "initial_max_output_tokens": 6000
+    }
+  ],
+  "tagged_equations": 46,
+  "total_new_test_methods": 4,
+  "reviews": {
+    "classification": "Root author fullfb36df and inline inverse d5bd4a; Jet completef4cec9 and fresh complete0651bc; General full7e99eb. Ratio-ideal contraction, common differential constants, automatic q_rhorho nonvanishing, both actual inverse orders and the explicit non-transfer of R reconstruct cleanly.",
+    "eliminant": "Root full5e1e13; General fullf67ab3; Jet mathematical-source read8b827c (lines1-320), completed through EOF by the fourteen scope/disclaimer lines in f6de3f after canonical execution. The exact undivided potentials, gradient residuals, calibrated R^3 J identity, module/conductor statements and center cases reconstruct cleanly. The earlier read alone is not represented as a complete EOF.",
+    "conductor_cubic": "Root author full216fe6; General full2af06f; Jet completec099d8. The monic characteristic/minimal-polynomial descent, coprime degree semigroup, conductor degree budget, every small-degree reduction and exact even/odd conductor calculation reconstruct cleanly over the exact coefficient field.",
+    "checker": "Author full37d53c and Root full86c4e0 preceded the sole canonical execution155714. The checker retains the third/fourth-potential and differentiated-third residuals rather than applying the calibrated identity to unrestricted jets. No additional peer checker review is claimed.",
+    "metadata": "Read-only5c5348 confirms all four source hashes, byte/line counts,46 tagged equations,four methods and both frozen205 hashes. Historical no-execution statements in proof sources are preserved; the later canonical execution is recorded here."
+  },
+  "proof_dependencies": {
+    "retained": [
+      "research/weight-four-universal-chart-potentials-pass184-working.md",
+      "research/vertex-free-quintic-cone-projection-pass184-working.md",
+      "research/weight-four-t-independent-zero-r-recognition-pass205-working.md",
+      "research/nice-commuting-invariant-coefficients-recognition-pass205-working.md"
+    ],
+    "scope": "Retained actual-chart, cone and zero-R recognition mechanisms. Their earlier canonical runs are not counted, and no fresh primary-paper access or new novelty review is asserted for206."
+  },
+  "finite_control_scope": "Four finite methods check weighted normal-form identities and both inverse orders; literal radical eliminant, degree, gradient and wedge residual identities; semigroup gaps/conductor sanity in the finite degree window; and cubic normalization/even-odd/formal node/cusp identities. They do not prove ideal contraction, irreducibility, universal semigroup claims, integral closure, actual realization, local nilpotence or recognition.",
+  "next_bounded_task": "Use the actual radical differential potentials and original-ring geometry beyond the projected cusp/node classification. Keep actual positive examples distinct from cancellation counterexamples, and do not rerun206."
+}

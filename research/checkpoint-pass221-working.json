@@ -1,0 +1,126 @@
+{
+  "pass": 221,
+  "status": "nonsquare_binary_quartic_zero_return_excluded; supplied_squarefree_rank_two_sector_nonrealizable; remaining211_and31_branches_and_global_goal_open",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass220-working.json",
+    "sha256": "8a71ed83a291f0f35dbdc42ae86a9bcd180dc8ae10ae58757ea2aea0665c63ff",
+    "records": 1356
+  },
+  "results": {
+    "zero_return": "In the actual general quartic chart, R=0 forces the cubic differential obstruction J(f)=4f^2 f'''-6ff'f''+3(f')^3 to vanish, otherwise the complete potentials contradict whole-line return. For degree-at-most-four complex polynomials, exact odd-root orders and J(g^2)=8g^5g''' show this happens precisely for binary-quadratic squares, including infinity. Every nonsquare quartic therefore has nonidentically zero return.",
+    "squarefree_line": "The retained220 pair-factor theorem now gives a whole projected line for any supplied squarefree quartic. An actual constant GL2 change transports its chosen pair direction and the entire initial ideal to the normalized cubic f=alpha0 t^3+beta0 t^2+gamma0 t, with nonzero endpoint coefficients. The literal potentials yield the actual auxiliary degrees(0,1,2,1).",
+    "original_ring_exclusion": "After primitive localization over C(X), the actual two-good-component ratio excludes Wang's first alternative. The second would give invariant Z+Q(Y,W), with Q of total degree two. Its second derivative and the uniform leading Laurent comparison force a nonzero complex cubic relation on h=t/rho, impossible. Thus the supplied squarefree full-kernel sector is empty, without lifting a coefficient-field coordinate to the original ring.",
+    "remaining_scope": "The repeated nonsquare partitions211 and31 remain unresolved here, with retained projected-degree bounds two and three. The22 sector was excluded in220;4 retains conditional recognition216. No zero-return existence, unit-speed, arbitrary-entry or unrestricted cancellation claim follows. Separate222 work and runs are excluded."
+  },
+  "goal_audit": {
+    "current_progress": "Two221 proofs exclude zero return for every nonsquare binary quartic and exclude the entire supplied squarefree rank-two sector by actual pair normalization and a Wang/Laurent contradiction. Five finite methods passed in one initially-terminal canonical execution. The remaining repeated partitions and the unrestricted goal remain open.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "actual_globally_sliced_exact1122_frame_required": true,
+    "entire_initial_kernel_required": true,
+    "zero_return_nonsquare_excluded": true,
+    "polynomial_degree_at_most_four_required_for_square_equivalence": true,
+    "projective_infinity_cases_included": true,
+    "zero_return_square_frame_existence_claim": false,
+    "nonzero_return_asserted_root_free": false,
+    "squarefree_whole_projected_line_proved": true,
+    "actual_GL2_pair_transport_proved": true,
+    "literal_selected_partial_preserved": true,
+    "full_initial_ideal_and_exact_profile_preserved": true,
+    "coefficient_field_rationality_assumed": false,
+    "coefficient_field_factors_assumed_regular": false,
+    "primitive_gcd_E_invariance_assumed": false,
+    "Wang_exact_two_alternatives_used": true,
+    "field_coordinate_lifted_to_original_ring": false,
+    "uniform_Laurent_argument_written_not_sampled": true,
+    "supplied_squarefree_sector_empty": true,
+    "all_nonsquare_quartic_sectors_excluded": false,
+    "partition211_or31_endpoint_proved_here": false,
+    "unit_speed_assumed": false,
+    "arbitrary_entry_proved": false,
+    "global_minimum_profile_claim": false,
+    "unrestricted_cancellation_proved": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/rank-two-nonsquare-quartic-zero-return-exclusion-pass221-working.md",
+      "sha256": "f139d89e9e2f0c1ada22f66b1ea105b26041c044025a89f85e76dc40347555e8",
+      "bytes": 7775,
+      "lines": 220,
+      "equations": 14,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank-two-squarefree-quartic-line-exclusion-pass221-working.md",
+      "sha256": "d98de0ca794c6e851113ff19024a40acb58f2ebf20cc41ef28da8727d5566b11",
+      "bytes": 14147,
+      "lines": 368,
+      "equations": 22,
+      "test_methods": 0
+    },
+    {
+      "path": "research/binary_quartic_zero_return_line_controls_pass221.py",
+      "sha256": "19481b495180d3df5a280deb05e6b22a4adab847e47de1845808563d70b7dea0",
+      "bytes": 11045,
+      "lines": 228,
+      "equations": 0,
+      "test_methods": 5
+    },
+    {
+      "path": "research/verification-pass221-working.json",
+      "sha256": "eafd34fa6322311f3835d4878a9638252cbd0dd95ad11f5903e2f32c7afe7c99",
+      "bytes": 12823,
+      "lines": 135,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "chain_record_count_after_including_this_checkpoint": 1361,
+  "record_count_convention": "1356 held predecessor records plus two221 proof notes, one checker source, verification221 and this checkpoint: five new records. Mutable indices, retained sources, separate222 work and unsaved exploration are not counted.",
+  "verification": {
+    "capture": "research/verification-pass221-working.json",
+    "canonical_runs": [
+      {
+        "suite": "binary_quartic_zero_return_line_controls221",
+        "path": "research/binary_quartic_zero_return_line_controls_pass221.py",
+        "pre_execution_read": "Jet complete final authorbcba20/metadata1877a3; Root complete saved preread7ad379 and unchanged hash19481b49...0b7dea0 rechecked immediately before execution. General's independent full peer read1cfbca was reported after the canonical completion and is not attributed as a pre-run review.",
+        "initial_output": "b74166",
+        "session_id": null,
+        "terminal_output": "b74166",
+        "methods": 5,
+        "unittest_seconds": 0.42,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "completion_via_original_handle": false,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/binary_quartic_zero_return_line_controls_pass221.py",
+        "preceding_read_only_hash_check_in_same_shell": true,
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "shell": "/bin/zsh",
+        "login": false,
+        "initial_yield_time_ms": 1000,
+        "initial_max_output_tokens": 5000,
+        "completion_note": "The same shell first performed a read-only shasum check, then the one Python command. Outputb74166 returned the five-test0.420s summary,OK and exit0 initially terminal. No session, poll or rerun."
+      }
+    ],
+    "new_suites": 1,
+    "new_methods": 5,
+    "tagged_equations": 36,
+    "scope": "Five finite methods control the cubic obstruction, square/root/infinity identities, directional potentials and auxiliary rows, both actual GL2 inverse orders and full projected transport, and uniform leading Laurent forms. They do not establish actual whole-line return, primitive LND or Wang results, transcendence or universal Laurent completeness. Author and Root full source reads preceded the one initially-terminal b74166 execution: five tests0.420s,OK,exit0,no session or rerun. General's source-review report was received afterward and is not treated as pre-run."
+  },
+  "next_bounded_task": "Study the actual degree-two and degree-three projected branches for repeated nonsquare partitions211 and31, or another explicitly bounded entry question. Preserve all supplied-frame hypotheses and keep separate222 work outside this packet. No221 rerun is authorized."
+}

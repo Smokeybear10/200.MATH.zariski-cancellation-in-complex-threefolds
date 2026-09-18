@@ -1,0 +1,489 @@
+{
+  "status": "AI-reviewed working88: actual invariant plane, universal generator pencil, global volume denominator, generic degree and conical good-direction constraints. No general cancellation proof.",
+  "working_question": "Unconfirmed corrected complex-threefold cancellation: A[s]≅C^[4] implies A≅C^[3]. Intended field, dimension and typo correction await professor confirmation.",
+  "previous_working_checkpoint": "research/checkpoint-pass87-working.json",
+  "previous_working_checkpoint_sha256": "52bccf47a76cd14a79d1e48b63365cad2d0566988ed5304803518592cec66ffd",
+  "previous_integrated_checkpoint": "consistency-pass-60.json",
+  "previous_goal_turn_classification": "Verified wait/status check: list_agents confirmed live Geometry work and Root inspected the saved pencil proof. The status response was not a new mathematical result.",
+  "current_research_pass_classification": "Progress: new actual-frame lemmas, explicit algebra-only countercontrols, primary-source gates, independent reconstructions and executed four-method targeted verification. Full goal unchanged.",
+  "synthesis": "research/invariant-plane-pencil-frontier-pass88.md",
+  "proof_audit": "research/proof-audits-pass88-working.md",
+  "verification_record": "research/verification-pass88-working.json",
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "targeted_verification": {
+    "path": "research/verification-pass88-working.json",
+    "sha256": "7992a7eec78835c6e0b6348d79e9767d2260cd57b10c4fdca16e7bd0c9c23caf",
+    "suites": 4,
+    "test_methods": 4,
+    "all_passed": true,
+    "started_at_utc": "2026-09-14T12:00:18.844979+00:00",
+    "finished_at_utc": "2026-09-14T12:00:19.333909+00:00",
+    "monotonic_wall_seconds": 0.488809,
+    "unittest_seconds": [
+      0.027,
+      0.025,
+      0.023,
+      0.084
+    ],
+    "tracked_inputs": 6,
+    "retained_complete_outputs": 4
+  },
+  "new88_suites": 4,
+  "new88_test_methods": 4,
+  "fresh_full88_regression_performed": false,
+  "bounded_action_search_executed": false,
+  "central_registry_integrated": false,
+  "historical_claim_count": 544,
+  "actual_hypotheses": [
+    "Actual globally sliced LND E on original B=C[x1,x2,x3,z]=A[u], with E(x_i)=b_i∈A, E(z)=qu, E(u)=1, q∈C*.",
+    "The three E-affine original companions and nonzero constant acceleration are genuine restrictions, not an established normal form for arbitrary cancellation.",
+    "S is the actual kernel on A of a nonzero highest-adjoint LND W killing u and b, not an abstract chosen polynomial plane.",
+    "Completion over S is a module operation yielding algebra equalities, not an asserted ambient coordinate automorphism."
+  ],
+  "completed_deductions": [
+    "An actual highest J-power partial adjoint is locally nilpotent via Laurent conjugation/scaling/specialization, fixes every velocity, and restricts nontrivially to A.",
+    "Retained intrinsic quotient hypotheses give S=C2, S→A faithfully flat and b_i∈S. Actual E-orbit injectivity gives the unit speed ideal in S.",
+    "Quillen–Suslin completion gives actual sigma,A1,A2,c with R=S[A1,A2], A=R[c], h=u−sigma, and universal A[tau]=R[tau,c+tau h].",
+    "The universal pencil forces h∈Frac(R) in both generic cases. The actual transcendental-c branch gives R=S and A=S[c]=C3.",
+    "The entire tensor square retains a nilpotent h-difference; cancellation occurs only modulo Ann(delta c). Neither exact tensor agreement nor integrality is automatic.",
+    "An exact cusp has nonzero square-zero h-difference. A Laurent localization has exact tensor agreement but nonintegral h and is not faithfully flat.",
+    "The normal control S=C[a,t], R=S[a²c], A=S[c], h=ac has the universal pencil, constant units, normal polynomial three-rings and S-flatness, but nonintegral h.",
+    "That normal control has an actual sliced polynomial cylinder and constant-acceleration identities, but z=c+2a sigma c+sigma² is not a coordinate because B/(z) has an explicit nonconstant unit.",
+    "Original preserved coordinate volume gives L·(x−bu)∈S for L=b_s1×b_s2 and hence Ωh∈S+SA1+SA2 globally. If Ω≠0, h∈R_Ω.",
+    "In the remaining algebraic-c case, Ω≠0 forces Frac(R)=Frac(A) using the actual localized coordinate Jacobian and the exact arbitrary-field polynomial-factorization theorem.",
+    "Rank-two speeds with Ω=0 put P in im J and give J²e4=0, so the actual original z-partial is good. The nonzero derived field has the same kernel as the highest W.",
+    "An exact normal relation gives conditional A=S[Y,c] if a suitable normal row is unimodular. This additional premise is not discharged within the frozen88 packet.",
+    "Rank-zero speeds yield an actual coordinate slice; rank-one speeds also give the original good z-partial, but no general recognition of that branch is asserted."
+  ],
+  "proof_reviews": {
+    "invariant_plane": "Jet author; Root, General and Geometry full independent EOF reviews.",
+    "universal_pencil": "Jet author with Root proposals; Root, General and Geometry full saved-file reconstructions, including original-ring branch conditions.",
+    "laurent_control": "Root proposal; Jet author; Root and General full proof/code reviews and independent executions.",
+    "normal_control": "Root proposal; Jet author; Root, General and Geometry full proof/code reviews; Root and General independent executions.",
+    "generic_degree": "Geometry author; Root, General and Jet full written reconstructions. Exact selected de Bondt reads by Root, General and Geometry; Jet retained-statement scope only.",
+    "conical_good_direction": "General author; Root, Geometry and Jet full independent EOF reviews.",
+    "global_volume": "Jet author with Root refinement; Root, General and Geometry full independent proofs, including orientation signs.",
+    "source_gate": "Root author; Geometry full independent EOF review and fresh selected primary definitions.",
+    "volume_checker": "Root author and one-method run; Jet full independent code review and one-method execution.",
+    "synthesis_runner_capture": "Root full reads; Jet full independent EOF audit, six disk inputs and four complete outputs verified; two precision wording suggestions subsequently applied."
+  },
+  "remaining_mathematical_obligations": [
+    "Prove the full corrected cancellation target for arbitrary sliced actions; the actual three-good constant-acceleration frame is not universally supplied.",
+    "Recognize the remaining actual A, rather than proving only fraction-field equality or local h membership.",
+    "Control the zero locus Ω=0, including the identically-zero case, and any remaining generator or quotient-fiber obstruction.",
+    "Preserve the original-coordinate hypothesis: the explicit normal-ring control shows the abstract algebra/S-flat/cylinder conditions are insufficient.",
+    "Confirm professor's intended statement and obtain human expert review, formal verification where feasible and a statement-level novelty audit before a publication claim."
+  ],
+  "next_bounded_actions": [
+    "Independently audit the separately developed pass89 conical normal-unit factorization from de Bondt Theorem2.7 before integrating it.",
+    "Test the resulting two-relative-generator problem against the actual-coordinate constraints, without promoting a module completion to an ambient coordinate change.",
+    "Explore the nonconical Ω-zero support using the exact global volume identity and original coordinate fibers."
+  ],
+  "separate_unintegrated_work": {
+    "path": "research/constant-acceleration-conical-normal-pass89.md",
+    "status": "Author-saved eight-equation deduction, separately requested peer review; not included in the16 artifacts,58 equations or4 methods of88."
+  },
+  "general_conjecture_solved": false,
+  "new_unconditional_general_recognition": false,
+  "constant_acceleration_unconditionally_recognized": false,
+  "professor_interpretation_confirmed": false,
+  "historical_novelty_verified": false,
+  "human_expert_review_completed": false,
+  "formal_verification_completed": false,
+  "external_contact_made": false,
+  "submission_or_publication_made": false,
+  "predecessor_audit": {
+    "checked_at_utc": "2026-09-14T12:07:56.820Z",
+    "all_passed": true,
+    "prior_hash_records": 461,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "52bccf47a76cd14a79d1e48b63365cad2d0566988ed5304803518592cec66ffd",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "primary_source_audit": {
+    "checked_at_utc": "2026-09-14T12:07:56.648Z",
+    "all_passed": true,
+    "files": [
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.pdf",
+        "sha256": "b4df87f9a4042c1110915f50779be26decb6473fc13fccb99038a91bcb9f3a03",
+        "bytes": 2153645
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.txt",
+        "sha256": "31b95df36405d2cf9b50cf24e649bc75a40b490a0f2caebdca0de0416bf85816",
+        "bytes": 862237
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77-source.md",
+        "sha256": "4a8edfdd91fd0ef6441384a92b5aa45b2cc39f19958abcc7fbe363c89f237b83",
+        "bytes": 1170
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.sha256",
+        "sha256": "243073116eef79c9fd0d28c06add2c602bf7aeae3797e10373be8252b35ddd00",
+        "bytes": 214
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.txt",
+        "sha256": "2450cbb34179187172a6c81dfedba9752ecb32b067c5a62ffcb2decab7f236d9",
+        "bytes": 98069
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.pdf",
+        "sha256": "31cec362bd10fbe65e2a4622979fbcf4fbff2bcd585bae9dd3fe78bc330d49cc",
+        "bytes": 387538
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.pdf",
+        "sha256": "c7922ecd2cdeacabf12eee7bd8115920bc0e2f2d4b0c64282a66f8c47fb42e01",
+        "bytes": 177030
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.txt",
+        "sha256": "37430e92c0d66c5b1f33615ea4375b3be8b23503c54a7c6e6daf286d40d01c92",
+        "bytes": 16562
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82-source.md",
+        "sha256": "99865a4259f8ca7455ab163829290c5bb111b1c6153c5a4e7861fd4e78e5a437",
+        "bytes": 1083
+      },
+      {
+        "path": "tmp/pdfs/lipman-sathaye-briancon-skoda-pass83.pdf",
+        "sha256": "70a614756d88f14da18a2cebccb316c2e2c42d0b1ded94168a63e0660e0cc8ff",
+        "bytes": 678125
+      },
+      {
+        "path": "tmp/pdfs/hickel-jacobian-socle-pass83.pdf",
+        "sha256": "26413534d1feac31dab1ae0436d02083e14cdf3589276b57775a9c57d281de60",
+        "bytes": 218873
+      },
+      {
+        "path": "tmp/pdfs/hickel-jacobian-socle-pass83.txt",
+        "sha256": "0369ac31141870e864a509a0dbd5dec9ed18804651691e2b09ef31b992371e05",
+        "bytes": 59607
+      },
+      {
+        "path": "tmp/pdfs/general-dasgupta-lahiri-pass85.pdf",
+        "sha256": "15fe6cbd898ca7c0ca16e5bfa5186f64212c11b97aa476a579a37f58777305a2",
+        "bytes": 347896
+      },
+      {
+        "path": "tmp/pdfs/general-dasgupta-lahiri-pass85.txt",
+        "sha256": "f2df8d0b33245de4b0b4b36a4306567a59d6f15dd6f5dbf32b593fdd4d378fb0",
+        "bytes": 49828
+      },
+      {
+        "path": "tmp/pdfs/general-epstein-hochster-pass85.pdf",
+        "sha256": "1ba544cb49a75699f4cf73191e563383f20a4b1e31bf45abc8af61c7f32111da",
+        "bytes": 1137226
+      },
+      {
+        "path": "tmp/pdfs/general-epstein-hochster-pass85.txt",
+        "sha256": "8c06d9c9280f730aa119973de8ccc19ef5f83442cf36520cb48d7f27510435e1",
+        "bytes": 172630
+      },
+      {
+        "path": "tmp/pdfs/general-das-cancellation-pass86.pdf",
+        "sha256": "51988960879b0c4e3673635309e8c286fd47f2d74420d919923001748cbbc002",
+        "bytes": 141542
+      },
+      {
+        "path": "tmp/pdfs/general-dutta-lahiri-residual-pass86.pdf",
+        "sha256": "796c98f55ffa7d4b36ac848145a645e6c49d1c74ede433cadd7d34db8f28a4b4",
+        "bytes": 156952
+      },
+      {
+        "path": "tmp/pdfs/general-kaliman-zaidenberg-modification-pass86.pdf",
+        "sha256": "4a34c5511e8ab464a9094d409a41ecb1a60d43ce1ec962ee92acbabac5739a76",
+        "bytes": 481658
+      },
+      {
+        "path": "tmp/pdfs/general-jurkiewicz-reynolds-pass87.pdf",
+        "sha256": "98754b6eaf8fad7c8177604228e436e2cfc21315de26af7954d3859ee4fa697d",
+        "bytes": 276235
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.06046v4.pdf",
+        "sha256": "75b598e2e8cad4ec07e9e97ba027c89df659999137e70b22c96596b6003d7698",
+        "bytes": 339107
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.06046v4.txt",
+        "sha256": "aff7b6b02c41b507f58e37a15a6ecab34565f0606fdf10178e1f3963de86d7f5",
+        "bytes": 88771
+      }
+    ]
+  },
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-14T12:07:56.648Z",
+    "all_passed": true,
+    "current_artifacts": 16,
+    "current_numbered_equations": 58,
+    "artifacts": [
+      {
+        "path": "research/constant-acceleration-invariant-plane-pass88.md",
+        "sha256": "85a71df99246b5aef18faa425514244b9ae7f97efb4576ce0649fe882528f361",
+        "bytes": 11129,
+        "lines": 245,
+        "numbered_equations": 11
+      },
+      {
+        "path": "research/universal-generator-pencil-pass88.md",
+        "sha256": "84ce7ec6d9f981769b311b4836fa066a2c9796fb5389f537d2d77c53bf0b929d",
+        "bytes": 9180,
+        "lines": 205,
+        "numbered_equations": 9
+      },
+      {
+        "path": "research/nonintegral-generator-pencil-control-pass88.md",
+        "sha256": "864d3804de178bf54ead38a36345290dcb70d4544ce90cf3fba60230002733a7",
+        "bytes": 4167,
+        "lines": 98,
+        "numbered_equations": 4
+      },
+      {
+        "path": "research/normal-generator-pencil-coordinate-boundary-pass88.md",
+        "sha256": "011a8df7ecb0ad6351fbbe8e767e550795bfd9288bed98e3475250f618e33fc1",
+        "bytes": 5316,
+        "lines": 126,
+        "numbered_equations": 6
+      },
+      {
+        "path": "research/constant-acceleration-generic-degree-pass88.md",
+        "sha256": "f401271b456e91ba2795d851044d5857b9b3ecc04ebd3a3d7e9a10fce3a4a409",
+        "bytes": 6620,
+        "lines": 156,
+        "numbered_equations": 6
+      },
+      {
+        "path": "research/constant-acceleration-conical-good-direction-pass88.md",
+        "sha256": "969ddbb1c1ddca7ba3d539e329a7cf42939157ab3512ee5cbefc26b9b2f0cd98",
+        "bytes": 9528,
+        "lines": 214,
+        "numbered_equations": 7
+      },
+      {
+        "path": "research/constant-acceleration-volume-descent-pass88.md",
+        "sha256": "9288fa4b7861349db6d45115fea3c50a7d9ef03ddac13e2f0e6c291655b4c223",
+        "bytes": 5681,
+        "lines": 129,
+        "numbered_equations": 6
+      },
+      {
+        "path": "research/pencil-descent-source-gate-pass88.md",
+        "sha256": "6e65c986734ab3233bbeb493ca1a33017e047aed136875b4859c0e491257ccdf",
+        "bytes": 4908,
+        "lines": 93,
+        "numbered_equations": 2
+      },
+      {
+        "path": "research/invariant-plane-pencil-frontier-pass88.md",
+        "sha256": "0dc09117cedcb8fbe6508354f0313522be602dc730ed6d2db156487ceca19f32",
+        "bytes": 10972,
+        "lines": 236,
+        "numbered_equations": 7
+      },
+      {
+        "path": "research/universal_generator_pencil_checks_pass88.py",
+        "sha256": "c3c437491a9d81bef73fe1ceab48ff557f4022329be4d189a958d05654d8571d",
+        "bytes": 1983,
+        "lines": 50,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/nonintegral_generator_pencil_checks_pass88.py",
+        "sha256": "d3a8b38aaace708049aae50adc1d9dc1d0212a227d93aa92a8ec41ae767e258c",
+        "bytes": 1882,
+        "lines": 44,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/normal_generator_pencil_checks_pass88.py",
+        "sha256": "cd4493a7d841491d738be71545825a92b04e52d1a05a89d4e7b19369e45b02a3",
+        "bytes": 1973,
+        "lines": 48,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/constant_acceleration_volume_checks_pass88.py",
+        "sha256": "b046c6178d356ffd2866eefbf035f1087654d1064bca623777b1dd84e0661633",
+        "bytes": 1659,
+        "lines": 38,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/run_targeted_pass88.py",
+        "sha256": "041e8821fbf25f6842b02e2b4ad6f452c4a656b16ef30a1af709a7dc36bb7c46",
+        "bytes": 4105,
+        "lines": 107,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/verification-pass88-working.json",
+        "sha256": "7992a7eec78835c6e0b6348d79e9767d2260cd57b10c4fdca16e7bd0c9c23caf",
+        "bytes": 6298,
+        "lines": 114,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/proof-audits-pass88-working.md",
+        "sha256": "41f33e885f0b1187b4092d70222569cd2bbc6b42a7e721c0d1d55a1075162588",
+        "bytes": 9560,
+        "lines": 137,
+        "numbered_equations": 0
+      }
+    ],
+    "local_link_paths_checked": 723,
+    "deferred_checkpoint_links": [
+      {
+        "source": "research/invariant-plane-pencil-frontier-pass88.md",
+        "target": "research/checkpoint-pass88-working.json"
+      },
+      {
+        "source": "research/proof-audits-pass88-working.md",
+        "target": "research/checkpoint-pass88-working.json"
+      },
+      {
+        "source": "README.md",
+        "target": "research/checkpoint-pass88-working.json"
+      },
+      {
+        "source": "research-ledger.md",
+        "target": "research/checkpoint-pass88-working.json"
+      }
+    ],
+    "link_anchors_checked": false,
+    "targeted_suites": 4,
+    "targeted_methods": 4,
+    "current_run_sources_checked": 6,
+    "retained_output_hashes_checked": 4,
+    "primary_source_files_checked": 22,
+    "primary_source_files": [
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.pdf",
+        "sha256": "b4df87f9a4042c1110915f50779be26decb6473fc13fccb99038a91bcb9f3a03",
+        "bytes": 2153645
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.txt",
+        "sha256": "31b95df36405d2cf9b50cf24e649bc75a40b490a0f2caebdca0de0416bf85816",
+        "bytes": 862237
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77-source.md",
+        "sha256": "4a8edfdd91fd0ef6441384a92b5aa45b2cc39f19958abcc7fbe363c89f237b83",
+        "bytes": 1170
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.sha256",
+        "sha256": "243073116eef79c9fd0d28c06add2c602bf7aeae3797e10373be8252b35ddd00",
+        "bytes": 214
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.txt",
+        "sha256": "2450cbb34179187172a6c81dfedba9752ecb32b067c5a62ffcb2decab7f236d9",
+        "bytes": 98069
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.pdf",
+        "sha256": "31cec362bd10fbe65e2a4622979fbcf4fbff2bcd585bae9dd3fe78bc330d49cc",
+        "bytes": 387538
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.pdf",
+        "sha256": "c7922ecd2cdeacabf12eee7bd8115920bc0e2f2d4b0c64282a66f8c47fb42e01",
+        "bytes": 177030
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.txt",
+        "sha256": "37430e92c0d66c5b1f33615ea4375b3be8b23503c54a7c6e6daf286d40d01c92",
+        "bytes": 16562
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82-source.md",
+        "sha256": "99865a4259f8ca7455ab163829290c5bb111b1c6153c5a4e7861fd4e78e5a437",
+        "bytes": 1083
+      },
+      {
+        "path": "tmp/pdfs/lipman-sathaye-briancon-skoda-pass83.pdf",
+        "sha256": "70a614756d88f14da18a2cebccb316c2e2c42d0b1ded94168a63e0660e0cc8ff",
+        "bytes": 678125
+      },
+      {
+        "path": "tmp/pdfs/hickel-jacobian-socle-pass83.pdf",
+        "sha256": "26413534d1feac31dab1ae0436d02083e14cdf3589276b57775a9c57d281de60",
+        "bytes": 218873
+      },
+      {
+        "path": "tmp/pdfs/hickel-jacobian-socle-pass83.txt",
+        "sha256": "0369ac31141870e864a509a0dbd5dec9ed18804651691e2b09ef31b992371e05",
+        "bytes": 59607
+      },
+      {
+        "path": "tmp/pdfs/general-dasgupta-lahiri-pass85.pdf",
+        "sha256": "15fe6cbd898ca7c0ca16e5bfa5186f64212c11b97aa476a579a37f58777305a2",
+        "bytes": 347896
+      },
+      {
+        "path": "tmp/pdfs/general-dasgupta-lahiri-pass85.txt",
+        "sha256": "f2df8d0b33245de4b0b4b36a4306567a59d6f15dd6f5dbf32b593fdd4d378fb0",
+        "bytes": 49828
+      },
+      {
+        "path": "tmp/pdfs/general-epstein-hochster-pass85.pdf",
+        "sha256": "1ba544cb49a75699f4cf73191e563383f20a4b1e31bf45abc8af61c7f32111da",
+        "bytes": 1137226
+      },
+      {
+        "path": "tmp/pdfs/general-epstein-hochster-pass85.txt",
+        "sha256": "8c06d9c9280f730aa119973de8ccc19ef5f83442cf36520cb48d7f27510435e1",
+        "bytes": 172630
+      },
+      {
+        "path": "tmp/pdfs/general-das-cancellation-pass86.pdf",
+        "sha256": "51988960879b0c4e3673635309e8c286fd47f2d74420d919923001748cbbc002",
+        "bytes": 141542
+      },
+      {
+        "path": "tmp/pdfs/general-dutta-lahiri-residual-pass86.pdf",
+        "sha256": "796c98f55ffa7d4b36ac848145a645e6c49d1c74ede433cadd7d34db8f28a4b4",
+        "bytes": 156952
+      },
+      {
+        "path": "tmp/pdfs/general-kaliman-zaidenberg-modification-pass86.pdf",
+        "sha256": "4a34c5511e8ab464a9094d409a41ecb1a60d43ce1ec962ee92acbabac5739a76",
+        "bytes": 481658
+      },
+      {
+        "path": "tmp/pdfs/general-jurkiewicz-reynolds-pass87.pdf",
+        "sha256": "98754b6eaf8fad7c8177604228e436e2cfc21315de26af7954d3859ee4fa697d",
+        "bytes": 276235
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.06046v4.pdf",
+        "sha256": "75b598e2e8cad4ec07e9e97ba027c89df659999137e70b22c96596b6003d7698",
+        "bytes": 339107
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.06046v4.txt",
+        "sha256": "aff7b6b02c41b507f58e37a15a6ecab34565f0606fdf10178e1f3963de86d7f5",
+        "bytes": 88771
+      }
+    ],
+    "central_claim_count": 544,
+    "mathematical_suites_executed": 0,
+    "scope": "Read-only file hashes, equation numbering, local paths, whitespace and saved-run accounting; not proof verification."
+  },
+  "scope": "Sixteen current artifacts and58 numbered equations.461 predecessor records plus16 artifacts and this checkpoint give478 retained records. Four pre-save self-links require post-save path checks. Hashes and finite exact methods do not prove general cancellation."
+}

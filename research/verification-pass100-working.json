@@ -1,0 +1,29 @@
+{
+  "started_at_utc": "2026-09-14T18:33:56.702Z",
+  "finished_at_utc": "2026-09-14T18:33:57.182Z",
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.quadratic_whole_fiber_checks_pass100"
+  ],
+  "exit_code": 0,
+  "suites": 1,
+  "test_methods": 1,
+  "wall_seconds": 0.474934792,
+  "unittest_seconds": 0.276,
+  "input_files": [
+    {
+      "path": "research/quadratic_whole_fiber_checks_pass100.py",
+      "sha256": "978f7e9d354bdea3e65743a2b77d71fd64e7d535c968e7d9ea0082f141cea0a6"
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "stdout": "",
+  "stderr": "test_weighted_coefficient_and_nilpotent_fiber_actions (research.quadratic_whole_fiber_checks_pass100.QuadraticWholeFiberChecks.test_weighted_coefficient_and_nilpotent_fiber_actions) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.276s\n\nOK\n",
+  "output_hash_convention": "stdout + one newline + stderr",
+  "complete_output_sha256": "0dcd91ecc2a102b8ba069f6a18950b6b77f03926268e7b92c874f4a2fc65e2d8",
+  "all_passed": true,
+  "scope": "One finite symbolic method: weighted beta coefficients, explicit double and mixed Artin-ring derivations, commutators, and polynomial inverse controls. Not verification of actual original-frame existence, conormal-transition units, the geometric filtration hypotheses, recognition, or cancellation."
+}

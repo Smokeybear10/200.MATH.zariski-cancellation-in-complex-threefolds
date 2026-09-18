@@ -1,0 +1,181 @@
+{
+  "pass": 194,
+  "grouped_passes": [
+    193,
+    194
+  ],
+  "status": "restricted_full_split_and_zero_bad_quadratic_part_weight_four_recognition; unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass192-working.json",
+    "sha256": "518527a7a60b20dd1698c0768fcf446f2b21bca35b5ca444658a5dade19fe859",
+    "records": 1190
+  },
+  "results": {
+    "full_split": "For a supplied actual globally sliced polynomial four-ring, exact E-degrees (1,1,2,2), and full weighted initial kernel (XYZ+X^4+Y^4), the retained zero-R proof192 and the new nonzero-R branch proofs produce an original invariant ambient coordinate I. Regularity from the global slice and Bhatwadekar-Gupta-Lokhande Theorem 3.5 give A=C[I]^[2].",
+    "nonzero_R_reduction": "Actual constant-projection exclusion, exact coefficient fields, whole-plane generation and a unit evaluated cofactor reduce the branch to a pure quartic graph or one of two square-completion alternatives. No pure eliminant or whole-line assertion is assumed without its saved gate.",
+    "square_exclusion": "Both square alternatives satisfy the first differential equation and an independent actual-Jacobian gate J3=0. The general highest-rho formula is independent of lower potentials. A local expansion at infinity over the exact finite coefficient field proves the two equations incompatible. In particular f=t^5+3*t still solves the first necessary ODE but fails the additional actual gate.",
+    "pure_quartic": "Both allowed reciprocal branches are retained. Exact field return forces the remaining pencil slope to be complex; the full determinant transports the correction into C[X,Y]. Two original polynomial shears, with both inverse orders, give the invariant coordinate.",
+    "zero_bad_quadratic_part_corollary": "The actual degree-preserving normalizations184 exhaust full irreducible weight-four generators F=P2(X,Y)Z+Q2(X,Y)W+H4(X,Y), with no quadratic terms in Z,W. The coprime row is excluded185; common-factor186, absent-variable190 and split194 rows are recognized. Thus every supplied actual global-slice exact1122 frame with that full kernel has polynomial invariant ring. This is not a claim that every weight-four kernel has zero bad quadratic part.",
+    "remaining_scope": "Positive bad quadratic rank, height-two initial kernels, higher minimum time profiles, arbitrary coordinate entry and unrestricted corrected cancellation remain open. No minimum or entry theorem is supplied. The professor has not confirmed the corrected target. Separate195 work is excluded."
+  },
+  "goal_audit": {
+    "prior_status_turn": "Status communication and the frozen192 handoff are retained as such; this packet does not relabel an earlier check-in as a new mathematical theorem.",
+    "current_continuation": "The saved193-194 reduction, general scalar-Jacobian gate, algebraic-function exclusion and original-ring recognition have been composed and source-reviewed. The three once-only canonical suites are complete, including the final pure-quartic run. This closes the stated restricted stratum, not the general goal.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Investigate the remaining positive bad quadratic rank under the same actual hypotheses, retaining exact coefficient fields and actual original-ring return. Do not extrapolate the split two-gate exclusion or infer arbitrary entry.",
+  "artifacts": [
+    {
+      "path": "research/weight-four-split-nonzero-r-three-alternatives-pass193-working.md",
+      "sha256": "2f0b079f3a2a88e2ac1190287ee7b05140ed3c62c0e8cf7bfcf3ef7b6fee57fe",
+      "bytes": 11726,
+      "lines": 304,
+      "equations": 12,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-split-pure-quartic-coordinate-recognition-pass193-working.md",
+      "sha256": "41124fd929c4762b248bb345975b88777085e881d3df49fb2bc4105def87d91e",
+      "bytes": 17106,
+      "lines": 538,
+      "equations": 27,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-split-square-candidate-jacobian-obstruction-pass193-working.md",
+      "sha256": "d22a9a71f2fbaafe27154552d4b1f5e972c9e35d0122f7d17209e654d8cb5f65",
+      "bytes": 10490,
+      "lines": 307,
+      "equations": 20,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-split-two-gate-algebraic-exclusion-pass194-working.md",
+      "sha256": "a72c367c6612eb54a5e963d757b77157f6109de7f28192d90cfcd079b02bed1f",
+      "bytes": 9335,
+      "lines": 292,
+      "equations": 15,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-split-initial-recognition-synthesis-pass194-working.md",
+      "sha256": "cc37559a309132046bb4bd2f6c4df44bfc81d402fdc906b673446b4babfc7aad",
+      "bytes": 11843,
+      "lines": 255,
+      "equations": 9,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight_four_split_three_alternatives_controls_pass193.py",
+      "sha256": "f22d1226b159d3bfce9c55699d3b04b35411bcb41e3b3a70fe1336a61d66823b",
+      "bytes": 8029,
+      "lines": 171,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/weight_four_split_pure_quartic_controls_pass193.py",
+      "sha256": "eabb1f36122e5fdfab2e98033ae036a2599c825a089ed4ef60a708579e99dd21",
+      "bytes": 10025,
+      "lines": 216,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/weight_four_split_two_gate_controls_pass194.py",
+      "sha256": "0415904dee430796089cbf22b2c0b4ae1431d2181a54a9456bcb52c55a8d1abe",
+      "bytes": 9786,
+      "lines": 200,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/verification-pass194-working.json",
+      "sha256": "de9e363257e57e8d4f3a84dfdca2fe7fc102415d557800f24550aabf41d8190f",
+      "bytes": 14034,
+      "lines": 233,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "chain_record_count_after_including_this_checkpoint": 1200,
+  "record_count_convention": "1190 frozen predecessor records plus five proof/synthesis notes, three checker sources, verification194 and this checkpoint: ten new records. README and ledger are not records. No195 source, proof or run is counted.",
+  "verification": {
+    "capture": "research/verification-pass194-working.json",
+    "canonical_runs": [
+      {
+        "suite": "split_three_alternatives193",
+        "path": "research/weight_four_split_three_alternatives_controls_pass193.py",
+        "pre_execution_read": "Root1c738e",
+        "initial_output": "72548d",
+        "terminal_output": "72548d",
+        "methods": 3,
+        "unittest_seconds": 0.091,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/weight_four_split_three_alternatives_controls_pass193.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "login": false,
+        "initial_yield_time_ms": 1000
+      },
+      {
+        "suite": "split_two_gate194",
+        "path": "research/weight_four_split_two_gate_controls_pass194.py",
+        "pre_execution_read": "Root7819e8",
+        "initial_output": "133ec1",
+        "terminal_output": "583a97",
+        "methods": 3,
+        "unittest_seconds": 1.382,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": false,
+        "initial_session_id": 34980,
+        "completion_method": "write_stdin on the same session; terminal result closed the original handle",
+        "pending_execution_handle": false,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/weight_four_split_two_gate_controls_pass194.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "login": false,
+        "initial_yield_time_ms": 1000
+      },
+      {
+        "suite": "split_pure_quartic193",
+        "path": "research/weight_four_split_pure_quartic_controls_pass193.py",
+        "pre_execution_read": "Root0a06a0",
+        "initial_output": "e61e08",
+        "terminal_output": "e61e08",
+        "methods": 3,
+        "unittest_seconds": 0.301,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/weight_four_split_pure_quartic_controls_pass193.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "login": false,
+        "initial_yield_time_ms": 1000
+      }
+    ],
+    "new_suites": 3,
+    "new_methods": 9,
+    "tagged_equations": 83,
+    "scope": "Independent saved-source AI reviews plus finite exact controls. The completed recognition is restricted to the supplied actual global-slice exact1122/full weight-four hypotheses. No human expert review, formal verification, novelty clearance, minimum/entry theorem or unrestricted cancellation."
+  }
+}

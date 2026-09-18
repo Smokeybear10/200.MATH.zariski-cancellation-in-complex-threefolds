@@ -1,0 +1,27 @@
+{
+  "status": "Actual targeted finite coefficient checks; no fresh full68 regression.",
+  "started_at_utc": "2026-09-14 01:24:31 UTC",
+  "finished_at_utc": "2026-09-14 01:24:31 UTC",
+  "clock_precision_seconds": 1,
+  "scope": "Two formal coefficient methods. Does not verify actual frame existence, all-instance proof arguments, external source theorems, novelty, human review, formal proof or general cancellation.",
+  "suite": {
+    "name": "independent_higher_constant_checks_pass68",
+    "command": "/opt/anaconda3/bin/python research/independent_higher_constant_checks_pass68.py",
+    "test_methods": 2,
+    "exit_code": 0,
+    "all_passed": true,
+    "unittest_seconds": 0.064,
+    "output": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.064s\n\nOK\n",
+    "tool_chunk_id": "bcc2e2"
+  },
+  "last_full_regression": {
+    "path": "research/verification-pass67-working.json",
+    "test_methods": 1011,
+    "suites": 132
+  },
+  "new_targeted_methods": 2,
+  "new_targeted_suites": 1,
+  "fresh_full_regression_performed": false,
+  "central_registry_integrated": false,
+  "general_cancellation_verified": false
+}

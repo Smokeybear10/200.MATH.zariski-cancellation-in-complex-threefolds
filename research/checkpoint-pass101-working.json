@@ -1,0 +1,198 @@
+{
+  "pass": 101,
+  "status": "working_partial_results; unrestricted cancellation unsolved",
+  "working_target": "A[u] isomorphic to C^[4] implies A isomorphic to C^[3]; professor's corrected scope unconfirmed",
+  "summary": "An exact all-polynomial degree-two module excludes nonconstant nilpotent slice corrections in a specified primitive triangular family, including a stated degree-four shear control. The actual nonzero-first-normal frame yields N²h in m² and N²F in m³, with a sharp intrinsic noniteration control. An explicit tame family proves no dimension-only spatial-degree cutoff for invariant coordinates/slices. None gives an unrestricted frame reduction.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass100-working.json",
+    "sha256": "b6bf8adb7d95c9b9201f6cfe101b8b3c0accf60246f63a9d767b36f84e345b71",
+    "verified_hash_records": 607,
+    "start_audit_tool": "ac1e1d",
+    "end_audit_tool": "68a528",
+    "independent_previous_checkpoint_audit": {
+      "read": "1dbd85",
+      "audit": "dfe051",
+      "sha": "b6bf8adb7d95c9b9201f6cfe101b8b3c0accf60246f63a9d767b36f84e345b71",
+      "artifacts": 4,
+      "tags": 8,
+      "links": 779,
+      "missing": 0,
+      "deferred": 0,
+      "records": 607,
+      "input_methods": 1,
+      "verdict": "Clean independent read-only complete checkpoint/synthesis and live-delta accounting audit. No rerun, no all-predecessor rehash by reviewer. Root separately verified607-chain."
+    }
+  },
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-14T18:49:25.129Z",
+    "all_passed": true,
+    "artifacts": [
+      {
+        "path": "research/quadratic-double-polynomial-lift-obstruction-pass101.md",
+        "sha256": "a1c07da88e65a285ca776705c329a4e86592c9062f26df41b86ae93f5cc5df45",
+        "bytes": 9445,
+        "content_lines": 229,
+        "equation_tags": 8
+      },
+      {
+        "path": "research/quadratic-commutator-lift-pass101.md",
+        "sha256": "b6a5b851f156e98e28430b8b9532763528c6695324ec0c1dc3e72a1881cebdfc",
+        "bytes": 7926,
+        "content_lines": 173,
+        "equation_tags": 4
+      },
+      {
+        "path": "research/global-reduction-audit-pass101.md",
+        "sha256": "917c853b9d7c6b73d39320c0b89a414196646262e91cd5c4b3b8d64f346a7d4c",
+        "bytes": 10885,
+        "content_lines": 224,
+        "equation_tags": 6
+      },
+      {
+        "path": "research/quadratic_polynomial_lift_checks_pass101.py",
+        "sha256": "48d56c7f5bd46d7de88aead280653aa730559b2843bb1fceddb770db13cb780f",
+        "bytes": 7635,
+        "content_lines": 167,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/verification-pass101-working.json",
+        "sha256": "f4fce6311af198399631a2022055966ba31e351610bb0c3af910012a4f1ac8c0",
+        "bytes": 1620,
+        "content_lines": 29,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/polynomial-lift-and-global-entry-frontier-pass101.md",
+        "sha256": "8c89e3bb35545b882196325accf8ecd46857b9f8d21102788a998e0486d4cfa6",
+        "bytes": 9665,
+        "content_lines": 170,
+        "equation_tags": 0
+      }
+    ],
+    "equation_tags": 18,
+    "captured_methods": 2,
+    "ast_methods": 2,
+    "complete_output_verified": true,
+    "local_markdown_links_checked": 801,
+    "missing_links": [],
+    "deferred_checkpoint_links": [
+      {
+        "from": "README.md",
+        "target": "research/checkpoint-pass101-working.json"
+      }
+    ]
+  },
+  "chain_record_count_after_including_this_checkpoint": 614,
+  "record_count_convention": "607 predecessor records + 6 frozen current artifacts + this checkpoint; primary recognition source is a remote comparison, not a frozen download",
+  "proof_reviews": [
+    {
+      "reviewer": "Root",
+      "scope": "Complete saved three mathematical notes and final two-method checker, final provenance deltas, complete94/96 dependencies; complete synthesis and live index deltas",
+      "evidence": [
+        "43b822",
+        "2fd733",
+        "5f8a3e",
+        "4b1370",
+        "2ae807",
+        "413d76",
+        "20cb27",
+        "19f06c",
+        "ac83f8",
+        "24497f",
+        "ef7db0",
+        "4daaef",
+        "1e0d7a"
+      ]
+    },
+    {
+      "reviewer": "Jet",
+      "scope": "Author of full polynomial module proof and finite checker; symbolic noniteration control supplied by Geometry; final proof/code EOF audit",
+      "evidence": [
+        "a9d804"
+      ],
+      "module_proof_sha256": "a1c07da88e65a285ca776705c329a4e86592c9062f26df41b86ae93f5cc5df45",
+      "checker_sha256": "48d56c7f5bd46d7de88aead280653aa730559b2843bb1fceddb770db13cb780f"
+    },
+    {
+      "reviewer": "Geometry",
+      "scope": "Author of four-equation additional-order proof; independent complete EOF reconstructions of Jet's eight-equation polynomial module proof, its final two-method checker, and General's six-equation degree-cutoff proof",
+      "evidence": "Final saved-file review messages in current turn; no numerical execution or fresh BGL dependency audit"
+    },
+    {
+      "reviewer": "General",
+      "scope": "Author of global-entry audit; independent complete four-equation additional-order proof and all-power contraction94 reconstructed, prior to citation/provenance-only final delta",
+      "evidence": [
+        "1e7ef5"
+      ],
+      "additional_order_pre_delta_sha256": "a790ebcf164d034d72ad9e3b3c77dc5256cdb0993f71c4a8dd1477a221a5bd93"
+    }
+  ],
+  "canonical_verification": {
+    "path": "research/verification-pass101-working.json",
+    "sha256": "f4fce6311af198399631a2022055966ba31e351610bb0c3af910012a4f1ac8c0",
+    "tool": "5fba2c",
+    "suites": 1,
+    "test_methods": 2,
+    "scope": "Two finite symbolic methods: intrinsic polynomial lifting controls at m=1,2,3, exact shear/inverse formulas and finite parity table; sharp intrinsic noniteration and ideal equality control. Not an all-polynomial saturation proof, an arbitrary original four-coordinate frame, the universal degree-cutoff proof, recognition, or cancellation."
+  },
+  "author_executions": [
+    {
+      "tool": "aa922a",
+      "test_methods": 1,
+      "unittest_seconds": 0.333,
+      "wall_seconds": 0.585151042,
+      "scope": "Historical version before adding noniteration method; not counted as another current method"
+    },
+    {
+      "tool": "bd5e73",
+      "test_methods": 2,
+      "unittest_seconds": 0.34,
+      "wall_seconds": 0.59254475,
+      "scope": "Final author run; repetition of canonical two methods, not extra coverage"
+    }
+  ],
+  "historical_full_verification": {
+    "pass": 75,
+    "suites": 146,
+    "test_methods": 1047,
+    "rerun": false,
+    "registry_claims": 544,
+    "registry_expanded": false
+  },
+  "sources": [
+    {
+      "title": "Some K-theoretic properties of the kernel of a locally nilpotent derivation on k[X1,...,X4]",
+      "authors": [
+        "S. M. Bhatwadekar",
+        "Neena Gupta",
+        "Swapnil A. Lokhande"
+      ],
+      "url": "https://arxiv.org/html/1501.01438v1#S3.Thmtheorem3.5",
+      "primary_sections_read": "Theorem3.5 and complete displayed short proof",
+      "root_evidence": "turn3576view0",
+      "scope": "Known invariant-coordinate endpoint; deeper DVR/patching inputs not newly reconstructed, no universal entry result or exhaustive novelty screen"
+    }
+  ],
+  "proof_limits": [
+    "The module proof is all-polynomial only in its stated intrinsic family and specified shear",
+    "The sharp-order control does not satisfy an asserted original four-coordinate inverse frame",
+    "Full original J/commutator lifting attempt remains inconclusive",
+    "The cutoff theorem rules out a dimension-only spatial-degree cutoff, not an action-dependent bound or nonlinear frame existence",
+    "Separate AI reconstructions are not human expert review or formal verification"
+  ],
+  "open_obligations": [
+    "Transfer denominator removal to the actual remaining low-N-degree module without assuming polynomial coordinates on A",
+    "Remaining actual quadratic sectors and relative cubic branch",
+    "Recognition of the full supplied constant-acceleration frame",
+    "Unrestricted sliced-action entry to a recognized frame or a frame-free recognition proof",
+    "Human expert review and historical priority audit"
+  ],
+  "integrity_note": "Precheck deferred one README link to this checkpoint; post-write verification must resolve it. A checkpoint cannot include its own hash.",
+  "authorization": {
+    "external_contact": false,
+    "publication": false,
+    "submission": false
+  },
+  "completion": false
+}

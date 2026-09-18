@@ -1,0 +1,81 @@
+{
+  "pass": 167,
+  "status": "working_cubic_coefficient_forcing_and_projected_coordinate; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/cusp-cubic-field-forcing-pass167-working.md",
+      "sha256": "6fa75404c71ae2af8259304d212ad437be3af3311218d5a4e8adbe71575d7d60",
+      "bytes": 11545,
+      "lines": 292,
+      "equations": 15,
+      "test_methods": 0
+    }
+  ],
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass166-working.json",
+    "sha256": "0e0003046ee332e5d50968646e90a3d814b8226c86142914ddac66b9c7f578d3",
+    "records": 1066
+  },
+  "results": {
+    "hypotheses": "Retains the actual159 sliced four-frame, exact E-time(1,1,2,2), full initial ideal(XZ-Y^3), nonzero r=k_rho, and a fixed-axis cubic graph theta=P(y) over the exact coefficient field. The full selected relation is Phi-m=lambda(V-P(U)); no coefficient-dependent original coordinate change is assumed.",
+    "coefficient_rigidity": "The vanishing quartic potential forces r in C*. The literal coefficients force s=n_rho in C, chi=1/lambda=A*tau+B with A,B complex and not both zero, p3=C/chi^3 with C nonzero complex, and k0'''=6s/r-6C/chi^4. Exact constants are used without assuming K rational.",
+    "pencil_forcing": "Actual projected field return gives L=K(rho). After the constant projected change w_star=w+(s/r^2)z, the two coordinates form a line pencil with slope -r^2*A*y-r^2*H, H=chi(e+s/r). The exact pencil lemma166, full coefficient-field intersection and the quadratic coefficient identity force H in C. The argument includes A=0.",
+    "projected_coordinate": "All nonconstant-y coefficients of the resulting g are complex. Thus g=P_star(y)+g0, with P_star in C[y] and g0=(1+sH)n0+r*d+r*H*ell0. Actual field return then proves K=C(g0), L=C(g0,rho), and C[y,z,w]=C[y,w_star,g0], with both polynomial inverse orders explicitly given.",
+    "localization": "The projected coordinate satisfies g0 in S_a; membership in A is not proved in167. If A!=0, the explicit formula k0=(s/r)tau^3+C/(A^3 chi)+Q2(tau) makes chi a unit in S_a. It does not make a or the speed combination A*EY+B*EX a unit in S.",
+    "scope": "This is a working projected-coordinate and coefficient-field result only. It constructs no global coordinate of the original four-ring and gives no global kernel recognition by itself. The separately saved168 extension, its checker and all later work are excluded from this packet."
+  },
+  "canonical_execution": {
+    "performed": false,
+    "command": null,
+    "source_sha256": null,
+    "terminal_output": null,
+    "methods": 0,
+    "seconds": null,
+    "exit_code": null,
+    "pending_execution_handle": false,
+    "rerun": false,
+    "scope": "Proof-only packet. No pass167 checker exists and no pass167 test execution is claimed. Pass168 controls, including any later canonical result, belong only to the separate168 packet."
+  },
+  "reviews": {
+    "root": "Complete saved proof49adf1 clean at final6fa75404; independent reconstruction retained.",
+    "geometry": "Author complete source817525 with introduction/scope delta70144f, final6fa75404. No checker authored or executed for167.",
+    "general": "Complete independent saved-source review a74aa8, final hash7dba3f. Reconstructed every cubic coefficient equation, H-constant pencil argument including A=0, all coefficient cancellations, exact K=C(g0), both projected inverse orders and the localized chi-unit conclusion. No execution.",
+    "jet": "Complete independent saved-proof review69b807 clean at final6fa75404, as confirmed by Root before predecessor freeze. No execution."
+  },
+  "proof_dependencies": {
+    "retained": [
+      "research/cusp-generic-chart-first-reductions-pass159-working.md",
+      "research/cusp-generic-selected-factor-reduction-pass159-working.md",
+      "research/cusp-quartic-actual-field-recognition-pass166-working.md"
+    ],
+    "scope": "Uses the elementary pencil-degree lemma proved in166, not its quartic classification. Bhatwadekar-Gupta-Lokhande global recognition is not an input or conclusion of167. No new external theorem or recursive source audit is claimed."
+  },
+  "predecessor_metadata_repair": {
+    "authorized": true,
+    "scope": "Root's packet audit identified that canonical166 command59470e omitted -v. Verification166 was corrected to the exact no-flag command and supplemented with Root's confirmed proof reads f9996f/b80551; checkpoint166 was rehashed before this link was created. No proof/checker source, canonical outcome or record count changed.",
+    "verification166_sha256": "6ab29884d95a5028f528c4c3b2a80f5f7de6b0e4ad585a617af0908be40ae6be",
+    "checkpoint166_sha256": "0e0003046ee332e5d50968646e90a3d814b8226c86142914ddac66b9c7f578d3",
+    "full_reads": "b3943b/3702e3"
+  },
+  "goal_audit": {
+    "previous_goal_turn": "Progress, not merely status-only: the preceding goal turn included a status check and canonical16659470e, which passed3methods0.174sOKexit0 terminally. The167 derivation belongs to the current continuation.",
+    "current_continuation": "Derived and independently reconstructed the cubic field-forcing proof167, then closed its proof-only record. No pass167 test execution is created or inferred; the separate168 global extension remains excluded from this packet. The full cancellation target is unproved.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_proofs_or_checkers_edited": false,
+    "authorized_predecessor_metadata_repair": true,
+    "readme_or_ledger_updated": false
+  },
+  "next_bounded_task": "Finish independent review and canonical controls of the separate168 global cubic extension before updating README or ledger. Retain lower graph degrees, other initial configurations and arbitrary coordinate entry as separate unresolved obligations."
+}

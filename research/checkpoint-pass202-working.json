@@ -1,0 +1,98 @@
+{
+  "pass": 202,
+  "status": "complete_actual_lower_normalizations_for_all_three_two_root_families; recognition_is_separate203; unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass201-working.json",
+    "sha256": "96f34ec01d4f9d3e721c1190e5616948e32cb788b71b7826027eb9442f2853dc",
+    "records": 1245
+  },
+  "results": {
+    "monomial": "For actual global slice, exact1122 and full kernel Z^2-X^2Y(X-Y), f=cq reduces through polynomial maps to k=rho/q, n=-rho^2/(2q^3), ell=-rho^3/(2q^5)+ell0. A fifth-order equation with a full Wronskian basis, exact primitive subtraction, and an actual X translation remove all lower modes.",
+    "reciprocal_pair": "The actual involution Y -> X-Y and W scaling reduce both cq/t and cq/(t-1) to q/t. A complete six-state system, actual Y translation, shears and final translations give k=r*rho, n=-r*(1+r^2)*rho^2/2, ell=-r*(1+r^2)^2*rho^3/2+ell0.",
+    "scope": "Both proofs retain arbitrary allowed finite coefficient fields, selected partial, exact initial kernel and actual inverse maps. Only the graph forces ell0 to be a complex multiple of R. Normalization alone neither realizes, excludes nor recognizes any remaining branch. Separate203 work is not included."
+  },
+  "goal_audit": {
+    "previous_turn": "The user's status-check response made no new mathematical progress. The current continuation revalidated saved sources, completed the original live checker session, and proceeded to new proof review.",
+    "current_progress": "Two actual normalizations and their six-method finite checker are now packaged with complete saved-source AI reviews and one passing canonical run.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/weight-four-two-root-monomial-actual-normalization-pass202-working.md",
+      "sha256": "fed284f9faf8514ee49e8cc23600e07b95745baf313d75f5293937305677d9f6",
+      "bytes": 13137,
+      "lines": 360,
+      "equations": 23,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-two-root-reciprocal-actual-normalization-pass202-working.md",
+      "sha256": "906aca0ded05730acd63fdb69222c57fb8a51f230a64c58d2c53a6eb41e7be5d",
+      "bytes": 12671,
+      "lines": 319,
+      "equations": 20,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight_four_two_root_normalization_controls_pass202.py",
+      "sha256": "db346396d770e356e08cae2e5084923cc40154dfbc2f191bb026c4e63d273ef2",
+      "bytes": 12421,
+      "lines": 280,
+      "equations": 0,
+      "test_methods": 6
+    },
+    {
+      "path": "research/verification-pass202-working.json",
+      "sha256": "4a051b62de9a89a8cafdde4683c1b9af98ba218836f820bb6ca979c36ac4988f",
+      "bytes": 5824,
+      "lines": 99,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "chain_record_count_after_including_this_checkpoint": 1250,
+  "record_count_convention": "1245 frozen predecessor records plus two proof notes, one checker source, verification202 and this checkpoint: five new records. Mutable README/ledger indices are not records. No203 work or prior canonical execution is counted.",
+  "verification": {
+    "capture": "research/verification-pass202-working.json",
+    "canonical_runs": [
+      {
+        "suite": "two_root_actual_normalizations202",
+        "path": "research/weight_four_two_root_normalization_controls_pass202.py",
+        "pre_execution_read": "Author complete e9b001+eb2b10; Root complete b338ce.",
+        "initial_output": "eb6cdf",
+        "session_id": 52648,
+        "terminal_output": "e128e3",
+        "methods": 6,
+        "unittest_seconds": 1.952,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": false,
+        "pending_execution_handle": false,
+        "completion_via_original_handle": true,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/weight_four_two_root_normalization_controls_pass202.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "login": false,
+        "initial_yield_time_ms": 1000
+      }
+    ],
+    "new_suites": 1,
+    "new_methods": 6,
+    "tagged_equations": 43,
+    "scope": "Six finite exact-algebra methods supplement written completeness and coordinate-preservation proofs. They are not proof-assistant verification or expert certification."
+  },
+  "next_bounded_task": "Use the actual normal forms to close the scalar and projected-field-return alternatives; the separate203 proof drafts await full review and their own checker. Do not rerun202."
+}

@@ -1,0 +1,70 @@
+{
+  "pass": 172,
+  "status": "working_exclusion_of_zero_r_zero_n_rho_actual_cusp_branch; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/cusp-zero-r-constant-projection-exclusion-pass172-working.md",
+      "sha256": "23645210b78010e0aa4f91ea0991da1c411c22ca36159ce4d3e4bbd40dd63c5c",
+      "bytes": 11818,
+      "lines": 307,
+      "equations": 15,
+      "test_methods": 0
+    },
+    {
+      "path": "research/verification-pass172-working.json",
+      "sha256": "f670fd9c6d083627edf739d012e5619be7d47323a3451efb82a9f1f258f489b0",
+      "bytes": 7964,
+      "lines": 83,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass171-working.json",
+    "sha256": "e12af3c22f3abd5a0cb1a1cf98e65c692dc45eb1bb022f945c9001ba0766d8f9",
+    "records": 1088
+  },
+  "results": {
+    "actual_hypotheses": "Retains the actual159 globally sliced complex polynomial four-frame with exact E-time(1,1,2,2), full weighted initial kernel(XZ-Y^3), selected N=[u^3](partial_Z|A), exact coefficient field L, whole line A_L=L[v], and independent ratios t=EY/EX and rho=(E^2W/2)/(EX)^2. Assumes precisely r=k_rho=0 and n_rho=0.",
+    "constant_projection": "The monic X^2 potential makes y algebraic over L inside L[v], hence y in L. The chart then puts z and sigma in L. The calibrated determinant factors as M(X)*(w_v+theta_v X)=-a^3, so theta in L and w is an affine parameter over L.",
+    "exact_coefficient_field": "The actual polynomial inverse supplies Frac(A)=C(y,z,w)=L(w). Intersecting this equality with L, with w transcendental over L, proves L=C(y,z). This does not identify S with C[y,z] or make the projected entries global coordinates.",
+    "commuting_partial": "On the actual common fraction field L(X,w), the derivation partial_w fixing L and X annihilates X,Y,Z and sends W to1. It is therefore the actual partial_W. Since E=a partial_X with a in L, these derivations commute. Thus all original polynomial coefficients of E are independent of W, and E=D+f partial_W on C[X,Y,Z][W], with D a nonzero LND of the actual three-ring, D^2X=D^2Y=0, and time degrees(1,1,2). No slice on D or unit f is inferred.",
+    "primitive_division": "Dividing the coefficient vector of D by its polynomial gcd delta yields D0. The LND degree argument makes delta invariant, so D^j=delta^j D0^j on the three-ring, D0 is irreducible and locally nilpotent, and degrees are unchanged. With a*=D0X,b*=D0Y,e*=D0^2Z/2, the actual cusp law becomes a*e*=b*^3 and t=b*/a* remains transcendental.",
+    "classification_case_one": "Wang's Theorem4.1, as reproduced by Dasgupta-Gupta over a characteristic-zero field, applies to the actual primitive three-variable D0. Its first alternative gives a nonzero complex linear combination of X,Y in the kernel, forcing t complex and contradicting ratio independence.",
+    "classification_case_two": "The second alternative gives an actual coordinate xi with C[xi,X,Y]=C[X,Y,Z], D0xi=0 and a*,b* in C[xi]. The fixed-X,Y coordinate equality makes xi=cZ+h(X,Y), c in C*. Irreducibility forces a*,b* coprime in C[xi], so the cusp divisibility makes a* a complex unit. Then b* is transcendental over C. Every nonzero homogeneous h_d evaluates nontrivially at(a*,b*), giving deg(D0,h)=deg(h)=2. Hence e*=-h2(a*,b*)/c has degree at most2 in b*, contradicting a*e*=b*^3.",
+    "conclusion": "The branch k_rho=n_rho=0 cannot occur under the actual cusp159 hypotheses. This is exclusion, not just recognition. It does not exclude all constant-y branches or all zero-r branches, and does not solve arbitrary coordinate entry or unrestricted cancellation.",
+    "dependency_scope": "The new field, commuting-partial and coefficient arguments are explicit. The only classification endpoint is the exact two-coordinate Wang theorem over C, not a theorem over a localized invariant surface. Daigle's weaker coordinate endpoint and the BGL regular-kernel theorem are not needed for this final contradiction."
+  },
+  "chain_record_count_after_including_this_checkpoint": 1091,
+  "record_count_convention": "1088 prior records plus one exclusion proof, verification172 and this checkpoint. README and ledger are not records. No independent172 checker or172 execution exists; the six171 methods remain predecessor evidence only.",
+  "verification": {
+    "capture": "research/verification-pass172-working.json",
+    "performed": false,
+    "canonical_terminal": null,
+    "methods": 0,
+    "seconds": null,
+    "exit_code": null,
+    "pending_execution_handle": false,
+    "rerun": false,
+    "tagged_equations": 15
+  },
+  "goal_audit": {
+    "prior_completed_evidence": "Retains the frozen171 packet at1088 records, including its two distinct canonical runs d5bb62 and398f57. Their six methods are not counted again.",
+    "current_continuation": "Reconstructed the actual field-return and commuting-partial reduction, then strengthened an initial recognition endpoint to a contradiction using both cases of Wang's exact three-variable theorem. The saved exclusion received independent mathematical reconstruction. This record adds proof evidence, not a new numerical execution.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Analyze the remaining actual cusp branches: r=0 with n_rho!=0, where171 shows a genuine quadratic coefficient cover can occur, and r!=0 with y in L. Do not assume s_rho=0, collapse L to the ratio field, or infer an integral coordinate from a projected generic parameter. Other initial profiles and unrestricted entry remain separate."
+}

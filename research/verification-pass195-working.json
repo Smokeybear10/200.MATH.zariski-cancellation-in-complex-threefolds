@@ -1,0 +1,203 @@
+{
+  "pass": 195,
+  "status": "restricted_double_root_zero_R_recognition_and_double_cover_reductions; surviving_actual_square_branches_and_unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass194-working.json",
+    "sha256": "e42c53bb24f7ec14dab22f8930f4ec79b655f1f848b54e772629754be05bd191",
+    "records": 1200
+  },
+  "results": {
+    "zero_R_recognition": "Under a supplied actual global-slice exact1122 frame with full initial kernel (Z^2-X^3Y), the R=k_rho=0 branch has an original invariant coordinate I=W-lambda*Z^2/2-(alpha*Y+beta*X+D)*Z-Q0(X,Y), with complex coefficients and both polynomial inverse orders. Exact field return excludes the quadratic cover and the second linear-cover power. The global slice gives regularity; Bhatwadekar-Gupta-Lokhande Theorem 3.5 gives A=C[I]^[2].",
+    "pure_quartic_rationality": "For any algebraic leading ratio q in the exact finite coefficient field, the stated actual pure-quartic branch forces D*T^5 to be a nonzero complex constant with affine T. Trace and explicit homogeneous primitives then force q in C(t). This excludes that branch for q^2=t and q^2=t(1-t).",
+    "nonzero_R_reductions": "For each full kernel (Z^2-X^3Y) and (Z^2-X^2*Y*(X-Y)), actual constant-projection exclusion, general-q rigidity, curvature and whole-plane/cofactor arguments leave only the quadratic-graph and quadratic-projection square-completion alternatives. No actual realization or exclusion of these remaining branches is proved here.",
+    "complete_two_gate_list": "For q^2=t, the nondegenerate solutions of the two necessary differential gates are exactly f=a*t+b*q with a complex and b nonzero complex, or f=b/q with b nonzero complex. The logarithmic-jet factorization and exact Euler integrations do not assume rational K. These displayed coefficients lie in C(q), but the ambient coefficient field need not equal C(q).",
+    "remaining_scope": "The two actual square branches for q^2=t remain unresolved after the necessary-equation classification. For q^2=t(1-t), the zero-R branch and the remaining square coefficient equations are not settled by this packet. Neither full double-cover configuration nor the entire positive bad quadratic rank stratum is recognized. Height-two kernels, higher minimum profiles, arbitrary coordinate entry and unrestricted cancellation remain open; there is no minimum or entry theorem. Separate196 work is excluded."
+  },
+  "goal_audit": {
+    "prior_status_turn": "The frozen194 restricted theorem and final audit remain prior completed progress and are not counted again in195.",
+    "current_continuation": "The new195 proof composition records one original-ring branch recognition, a general pure-quartic rationality obstruction, and a complete list for two necessary differential equations. Both final finite suites were executed once by Root after saved-source reviews. Actual square-frame realization or recognition remains a next task, not a completed result.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Enforce lower-potential equations, all scalar-Jacobian coefficients, actual field return and original-ring descent for the classified q^2=t square graph and quadratic-projection families; do not mistake formal coefficient systems for actual frames.",
+  "artifacts": [
+    {
+      "path": "research/weight-four-double-cover-nonzero-r-reduction-pass195-working.md",
+      "sha256": "ac250a89a3a9833ef650062fa3f14289b3d8f4c07237e93572c7d2e4061e9a64",
+      "bytes": 10707,
+      "lines": 282,
+      "equations": 16,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-double-root-zero-r-coordinate-recognition-pass195-working.md",
+      "sha256": "aaaca0338bbafe789f8a8a7b8715fad221aa231aa84b7dd34269783644375d9f",
+      "bytes": 15642,
+      "lines": 408,
+      "equations": 23,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-square-root-two-gate-classification-pass195-working.md",
+      "sha256": "45c14cd85e8944ea3a4c51525ca508abe235cbba3a29bc060a658405a57d7600",
+      "bytes": 11724,
+      "lines": 345,
+      "equations": 21,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-double-cover-frontier-synthesis-pass195-working.md",
+      "sha256": "5311ac6df2674651cf4e7f2f1a8e0355ead12a3efe9e172b82861f2a82133a84",
+      "bytes": 9254,
+      "lines": 207,
+      "equations": 6,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight_four_double_cover_controls_pass195.py",
+      "sha256": "2f4cba70c97e46a486a4611397eff12e3eb553ef2906b69be9e2c1007886a4ce",
+      "bytes": 8786,
+      "lines": 195,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/weight_four_double_root_two_gate_controls_pass195.py",
+      "sha256": "3d3ba1edc18402118587b2a8427c1123ee7ba2efcb65a16f8c7c7e0c10d2b318",
+      "bytes": 4755,
+      "lines": 124,
+      "equations": 0,
+      "test_methods": 2
+    }
+  ],
+  "canonical_executions": [
+    {
+      "suite": "double_cover195",
+      "path": "research/weight_four_double_cover_controls_pass195.py",
+      "pre_execution_read": "Rootca270a",
+      "initial_output": "db1a89",
+      "terminal_output": "db1a89",
+      "methods": 3,
+      "unittest_seconds": 0.293,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/weight_four_double_cover_controls_pass195.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "login": false,
+      "initial_yield_time_ms": 1000
+    },
+    {
+      "suite": "double_root_two_gate195",
+      "path": "research/weight_four_double_root_two_gate_controls_pass195.py",
+      "pre_execution_read": "Root882d0c",
+      "initial_output": "c79c2f",
+      "terminal_output": "c79c2f",
+      "methods": 2,
+      "unittest_seconds": 0.39,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/weight_four_double_root_two_gate_controls_pass195.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "login": false,
+      "initial_yield_time_ms": 1000
+    }
+  ],
+  "tagged_equations": 66,
+  "total_new_test_methods": 5,
+  "reviews": {
+    "nonzero_R_reduction": "Root full a24884 at ac250a89; Geometry complete1de068 with metadata345a76 and Jet d27417/8c5d4b independently reconstruct the trace lemma, both curvature formulas and constant-projection substitutions. No square exclusion is imported from194.",
+    "zero_R_recognition": "Jet complete author3de2e7 at aaaca033; Root full d196cb+ca5c1f, with retained pencil read5eb816; General70f841; Geometry full7c30b2+5a5f9f and metadata9b8537 reconstruct both pole-degree contradictions, exact L=K(n), residual pencil and original shear.",
+    "two_gate_classification": "General author05316e with definition-only delta bbea85 at45c14cd8; Root fullc3c1f2; Geometry fullfa5f07+118a83 and metadata1efd0e; Jet full90802f/hashb9664c. The logarithmic jets, L3/J3 grouping, Euler factors, exact-constant integrations and both directions of the list were reviewed.",
+    "synthesis": "Geometry full author2246bf at5311ac6d; Root full53722b; Jet full3b3618/hashdfcd0a. The synthesis explicitly separates all four branches of the two supplied double-cover forms and retains the unresolved actual square systems.",
+    "checker_sources": "Double-cover checker: Jet author522dc0, Geometry3afb5e/04fa07 and Rootca270a before canonical db1a89. Two-gate checker: Root full882d0c and General7142fc before canonical c79c2f; Geometry a919af/1efd0e subsequently. Source reviews did not execute, import or compile.",
+    "metadata": "Geometry64b2ec revalidated all six source records and frozen194 predecessor hashes. The synthesis has six tagged equations; the four notes total66 and the two checkers contain five methods."
+  },
+  "external_dependencies": [
+    {
+      "source": "Bhatwadekar-Gupta-Lokhande Theorem 3.5",
+      "url": "https://arxiv.org/html/1501.01438v1",
+      "primary_reads": [
+        "Geometry4264view1, lines286-291",
+        "Root4263view3"
+      ],
+      "use": "Regular kernel of a nonzero LND fixing an actual ambient coordinate is a polynomial two-ring over that coordinate.",
+      "scope": "Exact statement and displayed proof checked; no recursive reproof of structural inputs."
+    },
+    {
+      "source": "Dasgupta-Gupta Lemma 2.3(i) and Wang's theorem reproduced as Theorem 4.1",
+      "url": "https://arxiv.org/pdf/1701.03635v1",
+      "retained_primary_reads": [
+        "Geometry4257view0 for Lemma 2.3(i)",
+        "Geometry4250view1 for Theorem 4.1"
+      ],
+      "use": "Actual primitive-LND and constant-projection exclusion, after the written kernel-contraction gates.",
+      "scope": "Previously retained Geometry visits are not recast as new195 browsing; the separate fresh Root read is listed. No claim about arbitrary coefficient derivations.",
+      "fresh_primary_reads": [
+        "Root4262view0"
+      ]
+    },
+    {
+      "source": "Projective coefficient curves and rational-function pole degree",
+      "urls": [
+        "https://stacks.math.columbia.edu/tag/0BY1",
+        "https://stacks.math.columbia.edu/tag/0AYZ",
+        "https://stacks.math.columbia.edu/tag/02NY"
+      ],
+      "retained_primary_reads": [
+        "Root4245view0:0BY1",
+        "Root4245view1:0AYZ",
+        "Root4245view2:02NY"
+      ],
+      "use": "After exact field return and extension by independent y,z, a pole of order greater than one contradicts the degree-one function-field equality.",
+      "scope": "Retained curve inputs from190/191; finite pole arithmetic controls do not prove these theorems.",
+      "fresh_primary_reads": [
+        "Root4263view0/1/2"
+      ]
+    }
+  ],
+  "proof_dependencies": {
+    "new": [
+      "research/weight-four-double-cover-nonzero-r-reduction-pass195-working.md",
+      "research/weight-four-double-root-zero-r-coordinate-recognition-pass195-working.md",
+      "research/weight-four-square-root-two-gate-classification-pass195-working.md",
+      "research/weight-four-double-cover-frontier-synthesis-pass195-working.md"
+    ],
+    "retained": [
+      "research/weight-four-universal-chart-potentials-pass184-working.md",
+      "research/weight-four-positive-bad-rank-normal-forms-pass184-working.md",
+      "research/weight-four-absent-variable-constant-projection-exclusion-pass188-working.md",
+      "research/weight-four-absent-variable-nonzero-r-rigidity-pass188-working.md",
+      "research/weight-four-absent-zero-r-field-normal-form-pass190-working.md",
+      "research/weight-four-split-coefficient-ode-lemmas-pass191-working.md",
+      "research/weight-four-split-zero-r-coordinate-recognition-pass192-working.md",
+      "research/weight-four-split-nonzero-r-ode-counterexample-pass192-working.md",
+      "research/weight-four-split-nonzero-r-three-alternatives-pass193-working.md",
+      "research/weight-four-split-pure-quartic-coordinate-recognition-pass193-working.md",
+      "research/weight-four-split-square-candidate-jacobian-obstruction-pass193-working.md"
+    ],
+    "scope": "Only the general-q chart, coefficient, actual-field, local-function and derivative arguments identified in the new proofs are transferred. The split-specific exclusion194 is not transferred. Frozen earlier sources are not edited or recursively claimed reverified."
+  },
+  "finite_control_scope": {
+    "double_cover195": "Exact quotient-field curvature arithmetic, rational homogeneous primitives, Euler/gamma constants, projected square subtraction and D' identities, original coefficient columns, transport decomposition and both inverse orders. Formal coefficient fixtures are not asserted actual.",
+    "two_gate195": "Raw rational differential identities modulo the first equation, factored J3, Euler operators and both surviving families including the excluded mixed Euler family. Completeness over finite fields remains the written constant-field argument.",
+    "boundary": "No finite suite establishes actual field return, all pole-degree consequences, actual square-frame realization, original-ring descent, the recognition endpoint, historical novelty or unrestricted cancellation."
+  }
+}

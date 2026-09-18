@@ -1,0 +1,22 @@
+{
+  "started_at_utc": "2026-09-13T23:03:27.513108+00:00",
+  "completed_at_utc": "2026-09-13T23:03:28.014734+00:00",
+  "all_passed": true,
+  "standalone_command": "/opt/anaconda3/bin/python research/square_speed_leading_checks_pass61.py",
+  "new_test_methods": 1,
+  "new_suites": 1,
+  "exit_code": 0,
+  "raw_stdout": "",
+  "raw_stderr": "test_all_quartics_have_the_exact_rank_one_leading_factor (__main__.SquareSpeedLeadingChecks.test_all_quartics_have_the_exact_rank_one_leading_factor) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.183s\n\nOK\n",
+  "scratch_exact_controls": [
+    "quartic derivatives",
+    "combined quadratic relation",
+    "direct full base Jacobian",
+    "determinant minus one",
+    "both inverse orders",
+    "sign involution"
+  ],
+  "scratch_controls_counted_as_test_methods": false,
+  "full_project_regression_rerun": false,
+  "scope": "Standalone symbolic identities plus written proof reconstruction, not a formal proof or unrestricted cancellation result."
+}

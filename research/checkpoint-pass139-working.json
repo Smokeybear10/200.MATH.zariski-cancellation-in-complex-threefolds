@@ -1,0 +1,96 @@
+{
+  "pass": 139,
+  "status": "degree_controlled_generic_line; unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass138-working.json",
+    "sha256": "38906b96bf361a8195458ab11799a46842792806bdaf1918be4a1b4c37f3e437",
+    "records": 908
+  },
+  "chain_record_count_after_including_this_checkpoint": 915,
+  "record_count_convention": "908 prior records plus four notes, one checker, verification139 and this checkpoint. Live indexes excluded.",
+  "artifacts": [
+    {
+      "path": "research/dense-all-degree-taylor-chart-pass139-working.md",
+      "sha256": "df415e61225a8d1b13d8b025248a7a78b9a9df74059709f4a10f94e7194d5e70",
+      "bytes": 13690,
+      "lines": 345,
+      "equations": 14,
+      "test_methods": 0
+    },
+    {
+      "path": "research/dense-negative-tail-relations-pass139-working.md",
+      "sha256": "64f4ec9058d583e700c651e9d0f7305841e16199e7fbc35c0ab21e4ac88b2e1f",
+      "bytes": 9619,
+      "lines": 251,
+      "equations": 10,
+      "test_methods": 0
+    },
+    {
+      "path": "research/dense-generic-embedded-line-pass139-working.md",
+      "sha256": "35bc2895cb02ff6e35c5176e4099d638728a789026256e8c7055c7eb310f5f1f",
+      "bytes": 10511,
+      "lines": 253,
+      "equations": 10,
+      "test_methods": 0
+    },
+    {
+      "path": "research/dense-sliced-controls-pass139.md",
+      "sha256": "a8d3bd974e67e39c991a378299139a69b09479451f339c288441c3247dfa784d",
+      "bytes": 5476,
+      "lines": 135,
+      "equations": 6,
+      "test_methods": 0
+    },
+    {
+      "path": "research/dense_taylor_tail_controls_pass139.py",
+      "sha256": "078c312f17d04fd4968a5096c03844841c1c14cbdedaca12bbb41925e22b8961",
+      "bytes": 9785,
+      "lines": 204,
+      "equations": 0,
+      "test_methods": 4
+    },
+    {
+      "path": "research/verification-pass139-working.json",
+      "sha256": "cea94ab66688057dbd72ea9bb35a64053130a04074c6855668e3d7f11e319f9e",
+      "bytes": 2830,
+      "lines": 65,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "results": [
+    "Exact dense chart and formal Taylor peeling at arbitrary last degree m.",
+    "First relation degree at most m+1 and explicit generic-line parameter degree at most m+2.",
+    "Implicit degree equals maximum projected coordinate degree, bounded by m+1. Coefficient w_j has generic degree at most (m-j)(m+1).",
+    "Classical plane epimorphism gives a coordinate over L, not over C. The particular second tail need not be a complement."
+  ],
+  "verification": {
+    "capture": "research/verification-pass139-working.json",
+    "execution": "784b37",
+    "exit_code": 0,
+    "methods": 4,
+    "seconds": 0.267,
+    "scope": "Finite exact controls, not universal theorem verification."
+  },
+  "remaining_gaps": [
+    "Actual polynomial descent from the generic coefficient field.",
+    "Unrestricted supplied three-good recognition and arbitrary coordinate entry.",
+    "Full cancellation, human review, formal verification and novelty determination."
+  ],
+  "next_bounded_task": "Test whether actual inverse conditions force first-tail primitivity, distinguish that question from the false formal-only implication, and test proposed coefficient-field simplifications against actual polynomial examples.",
+  "goal_audit": {
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "earlier_frozen_files_edited": false
+  }
+}

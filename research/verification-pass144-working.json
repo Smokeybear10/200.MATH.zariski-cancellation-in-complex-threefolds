@@ -1,0 +1,128 @@
+{
+  "pass": 144,
+  "status": "trace_removes_constant_field_restriction; exact_compatible_factor_classification; full_cancellation_unsolved",
+  "environment": {
+    "python": "3.13.5",
+    "sympy": "1.13.3",
+    "read_evidence": "6bc4bb"
+  },
+  "executions": [
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.two_recovery_coupling_controls_pass144 -v",
+      "source_sha256": "40e0b90e4716265268a033f199be7a8789af0f5f556eafde2eef7e6c4cf47c12",
+      "full_source_read": "c221ea",
+      "completion_output": "9e775e",
+      "state": "completed_in_initial_call",
+      "exit_code": 0,
+      "methods": 3,
+      "reported_seconds": 0.461
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.projected_ring_formal_boundary_controls_pass144 -v",
+      "source_sha256": "1658c6d3465f313f9ea3a6c006e43a1a1be02ce043e4679c4b81289f18828845",
+      "full_source_read": "5525d4",
+      "completion_output": "afb4d2",
+      "state": "completed_in_initial_call",
+      "exit_code": 0,
+      "methods": 3,
+      "reported_seconds": 0.084
+    }
+  ],
+  "test_scope": [
+    "Two-recovery suite: eight genuinely invertible coupled frames that fail the three-good condition; four exact zero-coupling survivors, cubic/quartic last-degree checks; coefficient separation and both principal hypothesis boundaries.",
+    "Projected-ring suite: two actual inverse-verified constant/nonconstant selected-speed fixtures, including the explicit projected slice outside the original invariant ring.",
+    "Formal polynomial boundary: the polynomial pulled-back partial, four finite iterates checked against the all-n written induction, original versus relative Jacobians, dense speeds, intrinsic leading LND and conditional rational inverse residual.",
+    "Quadratic target shear: independent signed Taylor calculations, unchanged negative tails, exact E-degree two and failed first base-return row. The formal tuple is explicitly nonactual.",
+    "These six methods check identities in finite examples. They do not prove the universal trace lemma, the classical parallel-lines theorem, automatic compatibility or cancellation."
+  ],
+  "proof_reviews": {
+    "root": [
+      "974079: full saved 13-equation trace proof through EOF, during the user check-in.",
+      "c221ea: complete two-recovery proof and source-only checker before execution; full writing guide also read.",
+      "6cfc46: complete retained143 degree/norm and polynomial-fiber inputs, and139 generic embedded-line source.",
+      "6b6176: complete saved closed-fiber/parallel-factor proof through EOF.",
+      "9cec42: full projected-ring and formal-boundary proof; two TeX defects reported to author.",
+      "5525d4: corrected equation4/equation5 text and complete final second checker before execution.",
+      "ad870b: final raw artifact hashes, byte/line counts, 35 numbered equations and six test methods."
+    ],
+    "geometry": [
+      "Trace author full EOF052953 at SHA8bed6eeb542794cab31e6dc49c699dceca6c2b0446f83964af596bd4248bb878.",
+      "99ca55 and3c358a: complete two-recovery proof and checker; hashes8803ec.",
+      "1cace0: complete closed-fiber proof; final hash0ec5eb matches1ae1e32c58bc400a0f90bec923d2dd60044c02df22d0cafa6a3611ebc1f22720; metadata81f6b9 and32d8c8.",
+      "Independent outline derivation of the first-order normal forms and their formal residual-factor boundary.",
+      "2af573 andc04695: full projected-ring proof and second-checker source; final hashes983919."
+    ],
+    "general": [
+      "Two-recovery author full EOF9a63c9 plus scope clarification2461b2; checker full sourcee574dc and AST-only94ae60.",
+      "45fc40: full trace144 reconstruction, including vanished leading-trace coefficient and the proper target subfield.",
+      "23418d: full closed-fiber proof and selected primary statement passage turn4056view0; final hash1ae1e32c58bc400a0f90bec923d2dd60044c02df22d0cafa6a3611ebc1f22720.",
+      "49835d: complete projected-ring proof and second checker with final hashes6b1bd1490d2b2ab98290460a815e300c78e262ebe16047cbab7247c9b12c6a22 and1658c6d3465f313f9ea3a6c006e43a1a1be02ce043e4679c4b81289f18828845."
+    ],
+    "jet": [
+      "fef978: full trace144 reconstruction at SHA8bed6eeb542794cab31e6dc49c699dceca6c2b0446f83964af596bd4248bb878.",
+      "Projected-ring author final full EOFdcd3b6; checker full source96244c; final hashes629e14.",
+      "bcf052 and94893c: full two-recovery proof and checker; final hashes verifiede66844. No execution.",
+      "527a9b: full closed-tail-field proof; final hashc0ff3d, plus selected primary-text statement readturn4057view0. Screenshot attempts timed out and are not evidence of visual inspection."
+    ]
+  },
+  "results": [
+    "For every active component, base-ratio return is equivalent to the exact normalized source-derivation comparison, with no equal-constant-field hypothesis. A finite trace plus a finite-conjugate averaging lemma replaces finite-order telescoping.",
+    "The actual polynomial primitive-element return proves L0[y,z]=L[v]. A published Parallel Lines Lemma gives g=G-a and g0=minpoly_a(G), with G a coordinate over L0 and L=L0(a).",
+    "The base-compatible active factors are exactly the L-irreducible factors of g0. Their component ring is C_h[v_h]; their degree and ambient-to-target field index account exactly for enlarged constants.",
+    "The first tails have explicit first-order forms modulo the minimal source polynomial. These forms and the differential identities still allow the recorded formal residual branch, so they do not prove automatic compatibility.",
+    "For an actual sliced coordinate frame, projected-ring equality is equivalent to membership of the projected slice in A, and to the selected speed being a nonzero constant. A polynomial formal boundary shows why actualness cannot be replaced by the weaker projection and leading-LND data.",
+    "The two-recovery construction is an actual polynomial automorphism for arbitrary coupling, but its three-good condition forces the coupling to vanish under the stated nonlinear hypotheses, without a last-degree bound."
+  ],
+  "literature_scope": {
+    "primary_url": "https://www.ms.uky.edu/~sohum/ma561/affgeom/vars_in_k3.pdf",
+    "primary_title": "Peter Russell and Avinash Sathaye, On Finding and Cancelling Variables in k[X,Y,Z], Journal of Algebra57 (1979),151-166",
+    "exact_input": "Section1.2.1 Parallel Lines Lemma, printed153-154, characteristic-zero alternative.",
+    "root_read": "turn4054view0",
+    "independent_read": "turn4055view0",
+    "novelty_status": "The coordinate normal form is an explicit application of a published lemma, not new mathematics. No comprehensive novelty audit for the chart deductions is claimed.",
+    "scope": "The original Abhyankar-Moh and separately cited descent proofs are not claimed newly reconstructed. Exploratory searches before the check-in supplied no additional applicable primary theorem."
+  },
+  "retained_input_scope": "The actual139 chart,141 persistence and142/143 source compatibility are retained working inputs, not a recursive human or formal audit of the entire chain.",
+  "rejected_degree_shortcut": {
+    "scope": "Polynomial inverse, sliced actions, dense affine goods and the identity X=s*u+a0 alone do not force coefficient return. This is not a canonical active first-tail component for the fixed source.",
+    "actual_source_frame": "X=v+a^n*u,Y=a+b*u,Z=b+u,W=u, n>=2. Inverse u=W,b=Z-W,a=Y-(Z-W)W,v=X-a^nW.",
+    "actual_target_substitution": "X=x,Y=y+z*x,Z=z+w*x,W=w+x. Inverse x=X,w=W-X,z=Z-X(W-X),y=Y-Xz.",
+    "source_images": "u_h=w+x; b_h=(z-w)+(w-1)x; a_h=y-wz+w^2+(2w-w^2)x+(1-w)x^2; s_h=a_h^n; a0_h=v_h=x-s_h*u_h.",
+    "all_degree_reason": "For n>=2, degrees in x are deg(s_h)=2n,deg(u_h)=1,deg(a0_h)=2n+1, with exact cancellation. The nonzero leading coefficient is controlled by 1-w. Also derivative_x(b_h)=w-1 is nonzero.",
+    "finite_check": "cf77de: both target triangular inverse orders and unit Jacobian; n=3 degree values6,1,7 and exact identity. Completed exit0. This exploratory check is not counted as a unittest method.",
+    "missing_input": "The target tuple was independently chosen rather than built from the fixed source's peeling coefficients and a factor of its Phi. Full coefficient/Taylor matching is essential."
+  },
+  "integrity": {
+    "frozen143_check": "1961f2 matched all eight frozen artifact hashes and checkpoint4a17da8f2dafb25142545bce4248db6911564dbab7e4952f646fb01a7c147d32.",
+    "old_suites_rerun": false,
+    "pending_test_execution_handles": false
+  },
+  "goal_audit": {
+    "previous_turn_classification": "verified_wait",
+    "previous_turn_evidence": "User check-in polled the specific existing agents and confirmed General and Geometry live; it did not claim a new solution.",
+    "current_turn_classification": "progress",
+    "current_turn_evidence": "Full proof/source reviews, a new closed-fiber and exact-factor argument, a primary-source attribution correction, and six canonically passing new test methods.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "next_task": "Analyze how the fixed source's full peeling coefficients and first-tail factor equation constrain the polynomial inverse curve. The bare polynomial-curve degree shortcut now has an actual coordinate countercontrol, so any useful degree or divisibility theorem must retain that fixed-source Taylor matching. Seek a source-return identity forced by this additional structure or an actual inverse-verified canonical violation.",
+  "remaining_obligations": [
+    "No automatic base-ratio return for arbitrary active actual first-tail factors.",
+    "No actual extra-factor example, full primitivity proof, or exclusion of all missing coefficient extensions and inactive factors.",
+    "No global polynomial descent for every remaining dense higher-degree supplied profile.",
+    "No arbitrary three-good coordinate entry or full corrected complex-threefold cancellation proof.",
+    "Professor-intent confirmation, independent human review, proof-assistant verification and novelty assessment remain outstanding."
+  ],
+  "boundaries": {
+    "human_review": false,
+    "proof_assistant_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "paid_sources": false,
+    "new_automation": false,
+    "earlier_frozen_files_edited": false
+  }
+}

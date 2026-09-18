@@ -1,0 +1,294 @@
+{
+  "status": "AI-audited working81: exact obstructions to scalar filters, acceleration-field extraction, coordinate flow boxes and pointwise-fixed rank-one shears. No general quadratic-time recognition or unrestricted cancellation proof.",
+  "working_question": "Unconfirmed corrected complex-threefold interpretation: A[s] isomorphic to C^[4] implies A isomorphic to C^[3]. The professor has not confirmed the intended correction, field or dimension.",
+  "previous_working_checkpoint": "research/checkpoint-pass80-working.json",
+  "previous_working_checkpoint_sha256": "02a0589e3a555dbfc97bc538c145c5839ed6a87eccdd0905a9530d18cbf8ea68",
+  "previous_integrated_checkpoint": "consistency-pass-60.json",
+  "previous_goal_turn_classification": "No progress: the preceding user check-in received a status-only response.",
+  "current_research_pass_classification": "progress",
+  "synthesis": "research/quadratic-reduction-frontier-pass81.md",
+  "proof_audit": "research/proof-audits-pass81-working.md",
+  "verification_record": "research/verification-pass81-working.json",
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "targeted_verification": {
+    "path": "research/verification-pass81-working.json",
+    "sha256": "9926fc9f72d7f4402e48576b0a512d9b602760b5731477365295a2ad94a077a3",
+    "suites": 2,
+    "test_methods": 6,
+    "all_passed": true,
+    "started_at_utc": "2026-09-14T09:09:42.927718+00:00",
+    "finished_at_utc": "2026-09-14T09:09:43.615358+00:00",
+    "monotonic_wall_seconds": 0.687334,
+    "unittest_seconds_by_suite": [
+      {
+        "path": "research/quadratic_flow_filter_checks_pass81.py",
+        "seconds": 0.346
+      },
+      {
+        "path": "research/quadratic_reduction_controls_pass81.py",
+        "seconds": 0.101
+      }
+    ],
+    "tracked_inputs": 4,
+    "retained_complete_outputs": 2
+  },
+  "new81_suites": 2,
+  "new81_test_methods": 6,
+  "fresh_full81_regression_performed": false,
+  "central_registry_integrated": false,
+  "historical_claim_count": 544,
+  "completed_deductions": [
+    "For every fixed d>=2, a scalar filter sum_{j=0}^d c_j*s^j*E^j, c_0=1, preserves every actual sliced coordinate frame of E-degree at most d if and only if c_j=(k-1)^j/j! with k nonzero. It agrees on those generators with slice dilation and cannot lower their E-degree.",
+    "One actual triangular quadratic-time frame rejects every scalar degree-lowering pair. The same action can admit a successful formula after a different slice is chosen; universal formulas and adaptive choices remain distinct.",
+    "The acceleration derivation H=(E^2 x) dot partial may have unit coefficient ideal and send a polynomial to one without being locally nilpotent, nice, or commuting with E. Explicit actual polynomial inverses establish all control hypotheses.",
+    "For any actual coordinate ell of positive E-degree m, the coordinate flow box has exact generic degree m. It is globally polynomially invertible if and only if E(ell) is a nonzero constant. A local holomorphic straightening theorem supplies no stronger endpoint.",
+    "For rank-one acceleration with three nice coordinate generators, the exact Hessian equation E^2 F=q gives a sufficient triangular reduction to the retained nice-action theorem. Membership in the speed-ideal square is only necessary for such a reduction, not asserted sufficient.",
+    "The actual sliced translation E=a^2 partial_x+(1+ax)partial_y has q=a^3 outside I^2=(a^4), so no automorphism fixing the three good coordinates (a,x,c) pointwise can make it nice. Both adapted inverse maps are polynomial at a=0 and necessarily change x.",
+    "The original slice implies q belongs to the radical of the good-speed ideal in the rank-one branch, by the absence of a zero velocity anywhere on an actual orbit. This cannot be upgraded to square-ideal membership."
+  ],
+  "superseded_live_obligations": [
+    "Do not continue treating fixed scalar Taylor filters as a universal orbit-degree-lowering mechanism; the all-degree obstruction proves they cannot serve that purpose.",
+    "Do not infer an auxiliary LND or commuting action solely from invariant acceleration coefficients, coefficient primitivity, a unit coefficient, or a polynomial sent to one.",
+    "Do not infer global polynomial coordinates from a local holomorphic flow box, or from generic degree one alone.",
+    "Do not insist on keeping all three good coordinates pointwise fixed in a general rank-one acceleration reduction."
+  ],
+  "remaining_mathematical_obligations": [
+    "Prove the unrestricted corrected complex-threefold cancellation implication. Neither arbitrary quadratic-time recognition nor arbitrary nice-frame existence is established.",
+    "Investigate actual simultaneous coordinate changes in the rank-one or general quadratic-time branch, with global polynomial inverses and exact treatment of nonreduced speed-ideal fibers.",
+    "Alternatively establish an actual invariant ambient coordinate or a separate recognition route with every fixed-base/proper-action premise verified.",
+    "Confirm the professor's intended statement, correction, field and dimension.",
+    "Obtain historical novelty assessment and human expert review; no claimed formal verification exists. External outreach and public submission remain outside this packet's authorization."
+  ],
+  "next_bounded_actions": [
+    "Work on a coordinate-dependent or simultaneous-coordinate reduction which handles the frozen rank-one ideal-square countercontrol, rather than reopening the excluded pointwise-fixed shear.",
+    "Examine exact reduction over speed-ideal thickenings and denominator cancellation, retaining both polynomial inverse orders rather than passing only to an invariant localization.",
+    "Keep the actual E-degree-two hypothesis distinct from adjoint-height assumptions and from ordinary spatial degree. If another route is chosen, state its separate premises explicitly."
+  ],
+  "proof_review_kind": "Separate complete written AI reconstructions, selected primary-proof reads, finite exact controls and file-integrity checks. Not human expert or formal verification.",
+  "arbitrary_nice_action_recognized": true,
+  "arbitrary_nice_action_scope": "Retained frozen80 working proof: actual complex polynomial four-ring, global polynomial slice, and niceness in a supplied actual polynomial coordinate frame.",
+  "all_degree_scalar_filter_classification_proved": true,
+  "universal_scalar_filter_degree_lowering_possible": false,
+  "automatic_acceleration_lnd_extraction_proved": false,
+  "coordinate_flow_box_generic_degree_proved": true,
+  "coordinate_flow_box_global_inverse_criterion_proved": true,
+  "automatic_rank_one_fixed_good_coordinate_reduction_proved": false,
+  "rank_one_acceleration_radical_speed_membership_proved": true,
+  "rank_one_acceleration_square_speed_membership_proved": false,
+  "all_quadratic_time_sliced_actions_recognized": false,
+  "all_rank_one_acceleration_sliced_actions_recognized": false,
+  "universal_nice_frame_existence_proved": false,
+  "universal_frame_existence_proved": false,
+  "all_profile_height_threshold": 10,
+  "conditional_nonpolynomial_kernel_minimum_height_lower_bound": 11,
+  "general_conjecture_solved": false,
+  "professor_interpretation_confirmed": false,
+  "historical_novelty_verified": false,
+  "human_expert_review_completed": false,
+  "formal_verification_completed": false,
+  "external_contact_made": false,
+  "submission_or_publication_made": false,
+  "predecessor_audit": {
+    "checked_at_utc": "2026-09-14T09:05:03.194Z",
+    "all_passed": true,
+    "prior_hash_records": 380,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "02a0589e3a555dbfc97bc538c145c5839ed6a87eccdd0905a9530d18cbf8ea68",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "final_predecessor_audit": {
+    "checked_at_utc": "2026-09-14T09:13:48.696Z",
+    "all_passed": true,
+    "prior_hash_records": 380,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "02a0589e3a555dbfc97bc538c145c5839ed6a87eccdd0905a9530d18cbf8ea68",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "primary_source_audit": {
+    "checked_at_utc": "2026-09-14T09:13:48.511Z",
+    "all_passed": true,
+    "files": [
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.pdf",
+        "sha256": "b4df87f9a4042c1110915f50779be26decb6473fc13fccb99038a91bcb9f3a03",
+        "bytes": 2153645
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.txt",
+        "sha256": "31b95df36405d2cf9b50cf24e649bc75a40b490a0f2caebdca0de0416bf85816",
+        "bytes": 862237
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77-source.md",
+        "sha256": "4a8edfdd91fd0ef6441384a92b5aa45b2cc39f19958abcc7fbe363c89f237b83",
+        "bytes": 1170
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.sha256",
+        "sha256": "243073116eef79c9fd0d28c06add2c602bf7aeae3797e10373be8252b35ddd00",
+        "bytes": 214
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.txt",
+        "sha256": "2450cbb34179187172a6c81dfedba9752ecb32b067c5a62ffcb2decab7f236d9",
+        "bytes": 98069
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.pdf",
+        "sha256": "31cec362bd10fbe65e2a4622979fbcf4fbff2bcd585bae9dd3fe78bc330d49cc",
+        "bytes": 387538
+      }
+    ],
+    "scope": "Six retained durable primary files rehashed, not freshly read in full. New81 time-polynomial source was inspected through its public primary HTML and version record; no new durable full-source file is claimed."
+  },
+  "selected_primary_reads": [
+    {
+      "title": "Holomorphic vector fields with a barycentric condition",
+      "authors": "Dominique Cerveau, Julie Déserti and Alcides Lins Neto",
+      "url": "https://arxiv.org/html/2206.06475v2",
+      "version_record": "https://arxiv.org/abs/2206.06475",
+      "version_date": "2023-05-12",
+      "journal_reference": "Publicacions Matematiques 68 (2024), no. 1, 287-330",
+      "scope": "Root, Geometry and General separately read Definition4.1 and complete displayed Proposition4.2 and Theorems4.5/4.8 proofs. Root and Geometry also read the complete displayed4.3 proof. No final-journal-version comparison, whole-paper dependency audit or exhaustive novelty audit. Exact local/global applicability is in the source note."
+    }
+  ],
+  "artifact_integrity": {
+    "checked_at_utc": "2026-09-14T09:13:48.511Z",
+    "all_passed": true,
+    "current_artifacts": 12,
+    "current_numbered_equations": 50,
+    "local_link_paths_checked": 652,
+    "deferred_checkpoint_links": [
+      {
+        "source": "research/quadratic-reduction-frontier-pass81.md",
+        "target": "research/checkpoint-pass81-working.json"
+      },
+      {
+        "source": "research/proof-audits-pass81-working.md",
+        "target": "research/checkpoint-pass81-working.json"
+      },
+      {
+        "source": "README.md",
+        "target": "research/checkpoint-pass81-working.json"
+      },
+      {
+        "source": "research-ledger.md",
+        "target": "research/checkpoint-pass81-working.json"
+      }
+    ],
+    "link_anchors_checked": false,
+    "artifacts": [
+      {
+        "path": "research/universal-slice-filter-obstruction-pass81.md",
+        "sha256": "9b05b336e084b24d847923567c5cee4ee44a0058f514772ce38ad8c49633e0dc",
+        "bytes": 6664,
+        "lines": 156,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/quadratic-flow-filter-obstruction-pass81.md",
+        "sha256": "06f413e7296546064a3cb7b780c0f04c36282818d1a629dffcd01b7ee679540a",
+        "bytes": 8064,
+        "lines": 182,
+        "numbered_equations": 9
+      },
+      {
+        "path": "research/acceleration-field-obstruction-pass81.md",
+        "sha256": "0e451d73772f2a51c9ce1d7e1bb45e833810304757ebe3eeb1f9a26e1fb04e37",
+        "bytes": 6382,
+        "lines": 161,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/quadratic-flow-box-source-boundary-pass81.md",
+        "sha256": "6c49e3e92f52b6aa8eab5709c3ae3033a62f65c1bd6adff6ca8f0277dc382d02",
+        "bytes": 9240,
+        "lines": 202,
+        "numbered_equations": 9
+      },
+      {
+        "path": "research/rank-one-acceleration-shear-boundary-pass81.md",
+        "sha256": "7fd77d92706bfac7fdc32ee9c435e6fea9f3d5a5b232077898e4e61b3e5daf47",
+        "bytes": 6319,
+        "lines": 148,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/quadratic-reduction-controls-pass81.md",
+        "sha256": "3e1111fdd5bf5907ef878a389f96a1e4dfc573772d1ede92fff31f8f4c80eaf9",
+        "bytes": 4609,
+        "lines": 102,
+        "numbered_equations": 4
+      },
+      {
+        "path": "research/quadratic-reduction-frontier-pass81.md",
+        "sha256": "be5b9adba0e6a6d01af6f15f119e8566dd83b28dd62c4e726c37ed788629fa8f",
+        "bytes": 7565,
+        "lines": 158,
+        "numbered_equations": 4
+      },
+      {
+        "path": "research/quadratic_flow_filter_checks_pass81.py",
+        "sha256": "16252d686e623751a0ad600bfe6f6e526c47928c6781e74cbbec850f057dda9f",
+        "bytes": 6260,
+        "lines": 108,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/quadratic_reduction_controls_pass81.py",
+        "sha256": "acd5a30dcd28367dc43241bc71b9f41673539e7f87ac8fb2066da2c28983b2d8",
+        "bytes": 6728,
+        "lines": 113,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/run_targeted_pass81.py",
+        "sha256": "d8ffffd7590a9cd53e0a450f9931f68cae3702ddc506def38c80fcc1d4f0ba49",
+        "bytes": 3790,
+        "lines": 101,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/verification-pass81-working.json",
+        "sha256": "9926fc9f72d7f4402e48576b0a512d9b602760b5731477365295a2ad94a077a3",
+        "bytes": 4406,
+        "lines": 72,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/proof-audits-pass81-working.md",
+        "sha256": "8b1954fa7522ebe851a343d6f188180556faf905ea36e206890fa852e283c81e",
+        "bytes": 10083,
+        "lines": 178,
+        "numbered_equations": 0
+      }
+    ],
+    "targeted_suites": 2,
+    "targeted_methods": 6,
+    "new81_suites": 2,
+    "new81_methods": 6,
+    "current_run_sources_checked": 4,
+    "retained_output_hashes_checked": 2,
+    "primary_source_files_checked": 6,
+    "central_claim_count": 544,
+    "mathematical_suites_executed": 0,
+    "scope": "Read-only file hashes, equation numbering, local paths, whitespace and saved run accounting; not proof verification.",
+    "prior_hash_records": 380,
+    "total_hash_records": 392,
+    "records_including_this_checkpoint_when_frozen": 393
+  },
+  "scope": "The twelve artifacts and fifty numbered equations record completed bounded proofs and decisive controls. The persistent unrestricted goal is not completed or redefined."
+}

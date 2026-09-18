@@ -1,0 +1,221 @@
+{
+  "status": "AI-audited working75: exact two-sliced-actions obstruction, uniform conic-family slice/primitive criteria, slice-independent quotient test, and an all-degree triangular candidate obstruction. Unrestricted cancellation and arbitrary nice-action recognition remain unproved.",
+  "previous_working_checkpoint": "research/checkpoint-pass74-working.json",
+  "previous_integrated_checkpoint": "consistency-pass-60.json",
+  "current_research_pass_classification": "progress",
+  "previous_check_in_classification": "Status response retrieving the successful completion of a specific checker handle. Conservatively no new root mathematical result; this continuation revalidated authoritative files and took the next proof and verification actions.",
+  "synthesis": "research/good-partial-frontier-pass75.md",
+  "proof_audit": "research/proof-audits-pass75-working.md",
+  "verification_record": "research/verification-pass75-working.json",
+  "historical_integrated_counts": {
+    "claims": 544,
+    "test_methods": 1000,
+    "suites": 126
+  },
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047,
+    "all_passed": true,
+    "started_at_utc": "2026-09-14T05:16:06.484506+00:00",
+    "finished_at_utc": "2026-09-14T05:17:54.705695+00:00",
+    "monotonic_wall_seconds": 100.184486,
+    "utc_timestamp_difference_seconds": 108.221189,
+    "clock_difference_cause_inferred": false
+  },
+  "new75_suites": 3,
+  "new75_test_methods": 6,
+  "fresh_full75_regression_performed": true,
+  "central_registry_integrated": false,
+  "completed_deductions": [
+    "An explicit actual nice sliced four-variable action has exactly one constant good partial whose derived commuting LND is itself globally sliced, but no E-slice is fixed by that unchanged Q. Complete polynomial inverse coordinates recognize the example; it is not a cancellation counterexample.",
+    "For the explicit conic family, E is sliced exactly for coprime u,v in C[a]. In the nonconstant branch, Q is sliced exactly when gcd(u',v')=1, and a Q-invariant E-slice exists exactly when the complex span of u,v contains a nonzero constant. All constant and zero-component boundaries are handled.",
+    "For every supplied E-slice in every nonconstant coprime conic member, the slice-adjusted Q divided by its exact common factor is a genuine global coordinate partial. This uses explicit inverse coordinates and is not a universal primitive-freeness theorem.",
+    "For any independent commuting Q on an actual cylinder, the primitive intrinsic direction and fixed-locus ideal are independent of the E-slice. The ambient test is the wedge ideal divided once by the gcd of its minors, not infinite saturation. The previously retained free-action theorem recognizes A if this ideal is the unit ideal.",
+    "The triangular sliced T=partial_A+sA partial_B+2sB partial_C has a primitive intrinsic fixed line, but every T-invariant E-nice polynomial belongs to C+Cs+Cb. Hence no coordinate frame preserving this T as a coordinate partial makes E nice, even after changing the T-slice.",
+    "With an actual affine slice, nice frames give actual invertible polynomial line families and exact constant-good coefficient tests. Every single elementary shear preserving niceness of the retained seed retains a good direction; the limited two-shear nonnice-intermediate repair is impossible.",
+    "General slice adjustment preserves local nilpotence but may produce arbitrarily large coordinate flow degree even from a short-flow actual good-partial action."
+  ],
+  "remaining_mathematical_obligations": [
+    "Recognize an arbitrary original sliced action under the unconfirmed complex-threefold interpretation, without assuming a nice frame or missing coordinate.",
+    "Determine whether an actual nice sliced action with a nonzero derived good-partial field necessarily has a unit primitive intrinsic fixed-locus ideal, or construct an example meeting those exact hypotheses where it is proper.",
+    "Resolve constant good-direction existence or another recognition route for arbitrary-degree nice actions with G1=0 and G2 of dimension zero or one.",
+    "The universal Q^3-on-original-coordinates assertion is unproved; the conic cases and reduction identities do not establish it.",
+    "Confirm the professor's intended field, dimension and corrected statement.",
+    "Historical novelty, human expert review and formal verification remain incomplete."
+  ],
+  "next_bounded_actions": [
+    "Attack the primitive fixed-locus ideal using the actual coordinate-partial equations and niceness. Do not reuse the excluded triangular candidate or an arbitrary commuting-field control as if it met them.",
+    "Investigate actual inverse line families with trivial constant-good kernel, or prove that kernel is nonzero under stronger usable hypotheses. Single-shear and two-shear detours already excluded here should not be repeated without a new mechanism.",
+    "Preserve full75 artifacts; any further lemma or counterexample belongs to a new working pass. Keep the unrestricted objective rather than redefine success by these bounded criteria."
+  ],
+  "proof_review_kind": "Separate complete AI reconstructions and changed-section audits. Author review, finite symbolic checks, source dependencies and file integrity are distinct. Not human expert or formal proof verification.",
+  "common_slice_selection_shortcut_disproved": true,
+  "conic_parameter_family_classified": true,
+  "general_nice_sliced_good_partial_primitive_freeness_proved": false,
+  "universal_good_partial_Q_cube_bound_proved": false,
+  "nice_sliced_jacobian_cube_zero_proved": true,
+  "arbitrary_nice_action_recognized": false,
+  "all_profile_height_threshold": 10,
+  "conditional_nonpolynomial_kernel_minimum_height_lower_bound": 11,
+  "universal_frame_existence_proved": false,
+  "universal_nice_frame_existence_proved": false,
+  "general_conjecture_solved": false,
+  "novelty_claimed": false,
+  "human_expert_review": false,
+  "proof_assistant_verified": false,
+  "interpretation_confirmed_by_professor": false,
+  "external_contact_or_submission": false,
+  "predecessor_audit": {
+    "checked_at_utc": "2026-09-14T05:20:54.666Z",
+    "all_passed": true,
+    "prior_hash_records": 297,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "95cd034bf88ed421c0fc64daf538f3ad8ff34caafef5d7a157b3f059f47f822a",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "artifact_integrity": {
+    "checked_at_utc": "2026-09-14T05:26:52.544Z",
+    "all_passed": true,
+    "prior_hash_records": 297,
+    "current_artifacts": 14,
+    "total_hash_records": 311,
+    "local_link_paths_checked": 584,
+    "deferred_checkpoint_links": [
+      {
+        "source": "research/good-partial-frontier-pass75.md",
+        "target": "research/checkpoint-pass75-working.json"
+      },
+      {
+        "source": "research/proof-audits-pass75-working.md",
+        "target": "research/checkpoint-pass75-working.json"
+      },
+      {
+        "source": "README.md",
+        "target": "research/checkpoint-pass75-working.json"
+      },
+      {
+        "source": "research-ledger.md",
+        "target": "research/checkpoint-pass75-working.json"
+      }
+    ],
+    "link_anchors_checked": false,
+    "link_scan_ignores_tex_math": true,
+    "current_numbered_equations": 84,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "new75_suites": 3,
+    "new75_methods": 6,
+    "retained_output_hashes_checked": 6,
+    "current_run_sources_checked": 9,
+    "central_claim_count": 544,
+    "mathematical_suites_executed": 0,
+    "regression_runners_executed": 0,
+    "scope": "Read-only current hashes, equation numbering, local paths, text hygiene and saved run accounting. Predecessor hashes were checked separately. Not mathematical proof verification.",
+    "artifacts": [
+      {
+        "path": "research/nice-good-partial-boundary-pass75.md",
+        "sha256": "657918b4f5b2b41b964e7ab1ffc370cbdae40451911bbfc803524477fdf95242",
+        "bytes": 5609,
+        "lines": 144,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/nice_good_partial_checks_pass75.py",
+        "sha256": "882c34a3437e1fc4ff3d8fe4332b5e00827c1635f992ed22f456aea3bd746710",
+        "bytes": 3788,
+        "lines": 78,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/good-partial-slice-adjustment-scope-pass75.md",
+        "sha256": "02d986979611de82e0da379b6c0c68ea7743f799189aa898ade1286c39a70de8",
+        "bytes": 9374,
+        "lines": 217,
+        "numbered_equations": 7
+      },
+      {
+        "path": "research/nice-good-direction-construction-boundary-pass75.md",
+        "sha256": "3656b145e0ffa5daaef81e0eb6df93ec2b1efe36120d345eacbdf5c523d2f2e3",
+        "bytes": 11068,
+        "lines": 296,
+        "numbered_equations": 16
+      },
+      {
+        "path": "research/nice-common-slice-obstruction-pass75.md",
+        "sha256": "7fe2e93b190f8f375ae4202991954d5e9d52dae1e0011ba42f6bdcadc128131e",
+        "bytes": 8117,
+        "lines": 221,
+        "numbered_equations": 15
+      },
+      {
+        "path": "research/nice_common_slice_checks_pass75.py",
+        "sha256": "cfc10a9aaa181fdfe42b2090b43c9e1d5bf4b28b60db2c64ccc2e187e21e2d8e",
+        "bytes": 5012,
+        "lines": 117,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/conic-nice-pair-classification-pass75.md",
+        "sha256": "8a4002d00218e63753ce15bc84c7256f9aac3aa57a50635181eef4921e11ff0e",
+        "bytes": 12160,
+        "lines": 309,
+        "numbered_equations": 15
+      },
+      {
+        "path": "research/conic_slice_family_checks_pass75.py",
+        "sha256": "d05af4bd2ceb0e6330852e0af08528cde7a473fd9754c43f9a11e2d37ebf1c5d",
+        "bytes": 9635,
+        "lines": 200,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/primitive-good-quotient-scope-pass75.md",
+        "sha256": "983905742b5c31c0942ab50256b1c6184636680893068503cec011c5fd7eaf4b",
+        "bytes": 8834,
+        "lines": 196,
+        "numbered_equations": 7
+      },
+      {
+        "path": "research/triangular-primitive-candidate-obstruction-pass75.md",
+        "sha256": "4a628d0ab5a385f80d3b54791c88db5ab1a6b593559d86fade54765b3650e368",
+        "bytes": 6991,
+        "lines": 187,
+        "numbered_equations": 12
+      },
+      {
+        "path": "research/good-partial-frontier-pass75.md",
+        "sha256": "bcbdc4f392b89d7f4813791e840f2073d1e17bc8c2c1a8ba07c9a2e344ec6871",
+        "bytes": 9230,
+        "lines": 192,
+        "numbered_equations": 4
+      },
+      {
+        "path": "research/run_regression_pass75.py",
+        "sha256": "0a0189be9fbbe4545f7eaa59b38a05c9c0de4e33877dee9c076d2b905258c886",
+        "bytes": 5068,
+        "lines": 115,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/verification-pass75-working.json",
+        "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+        "bytes": 112443,
+        "lines": 2827,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/proof-audits-pass75-working.md",
+        "sha256": "1f6f376a7e20eedfea990dd731e0838d071aa9ce93bfebddef4b0804b5b1209a",
+        "bytes": 10926,
+        "lines": 158,
+        "numbered_equations": 0
+      }
+    ]
+  }
+}

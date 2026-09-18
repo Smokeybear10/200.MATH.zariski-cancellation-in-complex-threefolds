@@ -1,0 +1,60 @@
+{
+  "started_at_utc": "2026-09-15T02:02:33.515Z",
+  "finished_at_utc": "2026-09-15T02:02:34.796Z",
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.cubic_pullback_transfer_checks_pass118",
+    "research.cubic_moving_frame_checks_pass118",
+    "research.quadratic_velocity_shear_checks_pass117",
+    "research.nonconical_quadratic_potential_checks_pass90"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 1.280320375,
+  "suites": 4,
+  "test_methods": 7,
+  "new_methods": 4,
+  "retained_methods": 3,
+  "ast_method_counts": {
+    "research/cubic_pullback_transfer_checks_pass118.py": 1,
+    "research/cubic_moving_frame_checks_pass118.py": 3,
+    "research/quadratic_velocity_shear_checks_pass117.py": 2,
+    "research/nonconical_quadratic_potential_checks_pass90.py": 1
+  },
+  "input_files": [
+    {
+      "path": "research/cubic_pullback_transfer_checks_pass118.py",
+      "sha256": "782cab2abe1be015084fb6a427c37c2cd2eb4d72b5f2c10260a390f0964b8aa9"
+    },
+    {
+      "path": "research/cubic_moving_frame_checks_pass118.py",
+      "sha256": "37309d71d65224db7f5530758ca7dad58775f649d3e0ba785716de9b7ab0e881"
+    },
+    {
+      "path": "research/quadratic_velocity_shear_checks_pass117.py",
+      "sha256": "f3048f3d72fad78990184ff27eb013a46ab3773097c418f6fdc1da689e95930c"
+    },
+    {
+      "path": "research/nonconical_quadratic_potential_checks_pass90.py",
+      "sha256": "d429f7e80321c813d0745bd61834a26a642750ffeff3b31a2965c78bc94bc966"
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "stdout": "",
+  "stderr": "test_birational_and_degree_two_rational_base_transfer (research.cubic_pullback_transfer_checks_pass118.CubicPullbackTransferChecks.test_birational_and_degree_two_rational_base_transfer) ... ok\ntest_affine_block_and_moving_basis_coefficients (research.cubic_moving_frame_checks_pass118.CubicMovingFrameChecks.test_affine_block_and_moving_basis_coefficients) ... ok\ntest_finite_cylinder_residual_coefficients (research.cubic_moving_frame_checks_pass118.CubicMovingFrameChecks.test_finite_cylinder_residual_coefficients) ... ok\ntest_principal_open_inverse_geometry_and_global_pole (research.cubic_moving_frame_checks_pass118.CubicMovingFrameChecks.test_principal_open_inverse_geometry_and_global_pole) ... ok\ntest_formal_moving_metric_connection_identity (research.quadratic_velocity_shear_checks_pass117.QuadraticVelocityShearChecks.test_formal_moving_metric_connection_identity) ... ok\ntest_nonplanar_velocity_constant_form_and_shear (research.quadratic_velocity_shear_checks_pass117.QuadraticVelocityShearChecks.test_nonplanar_velocity_constant_form_and_shear) ... ok\ntest_generic_volume_coefficient_and_symmetric_potential (research.nonconical_quadratic_potential_checks_pass90.NonconicalQuadraticPotentialChecks.test_generic_volume_coefficient_and_symmetric_potential) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.954s\n\nOK\n",
+  "output_hash_convention": "stdout + one newline + stderr",
+  "complete_output_sha256": "8ffd81b0a74b9f411ca7f74c794ef1e9b411b2f9956638c0c0252c9de7693407",
+  "all_passed": true,
+  "scope": "New birational and degree-two rational-base transfer/reconstruction controls; affine/nonholonomic coefficient and rank-one metric identities; actual principal-open inverses, both moving connections and global pole witnesses; bounded cylinder Laurent controls. Retained117 metric/shear and90 volume controls. No test proves the all-degree Riccati argument, general rational constant-field transfer, global coordinate irreducibility endpoint, rational first-integral field theorem, source-dependent nice80, arbitrary-frame entry, general cancellation or novelty.",
+  "superseded_capture": {
+    "tool_evidence": "0c36d7",
+    "suites": 3,
+    "test_methods": 6,
+    "new_methods": 3,
+    "retained_methods": 3,
+    "complete_output_sha256": "c20a4e4a820c3f40ed11f946875c5cceff473520965c10222e87693fb63486c4",
+    "reason": "Added the separate one-method rational-base transfer control before pass118 freeze. Earlier passing run is not additional method coverage."
+  }
+}

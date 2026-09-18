@@ -1,0 +1,292 @@
+{
+  "pass": 107,
+  "status": "working_partial_branch_exclusion_not_cancellation",
+  "working_target": "Unconfirmed intended complex-threefold cancellation: A[u] isomorphic to C^[4] implies A isomorphic to C^[3]. Literal emailed A^1 conclusion has a dimension mismatch for general r.",
+  "summary": "The actual quadratic constant divisor has a complete DVR conic and all-degree image valuations. In the supplied collapsed mixed quadratic sector with L(m) nonzero, purity of the full second-degree residue basis enables nonreduced parameter-ideal quartic divisions. A unit determinant and exact presentation force a surface fiber, excluding W2=D. Thus dim W2=2 remains, not full cancellation.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass106-working.json",
+    "sha256": "d1cb573287e9773d66904afc0cb238982d6c64a7785542041949b5ddcc992a77",
+    "frozen_records": 652,
+    "full_revalidation_evidence": "7c8525",
+    "all_unchanged": true,
+    "preceding_goal_turn": "no_progress: status-only check-in with live reviews observed and current divisor proof read, but no new mathematical conclusion or artifact recorded in that check-in.",
+    "prior_independent_final_audit": {
+      "agent": "jet_checker17",
+      "status": "clean",
+      "evidence": [
+        "9e81a3",
+        "72682a",
+        "c558be"
+      ],
+      "checkpoint_sha256": "d1cb573287e9773d66904afc0cb238982d6c64a7785542041949b5ddcc992a77",
+      "artifacts": 7,
+      "equationTags": 28,
+      "suites": 3,
+      "methods": 4,
+      "newMethods": 2,
+      "retainedMethods": 2,
+      "frozenRecords": 652,
+      "localLinks": 823,
+      "missingLinks": 0
+    }
+  },
+  "chain_record_count_after_including_this_checkpoint": 663,
+  "record_count_convention": "652 predecessor frozen records + ten current artifact hash records + this checkpoint = 663. README and research-ledger remain live and are excluded. Repeated checks are not new coverage.",
+  "canonical_verification": {
+    "path": "research/verification-pass107-working.json",
+    "tool_evidence": "99c1b6",
+    "suites": 4,
+    "test_methods": 7,
+    "new_methods": 2,
+    "retained_methods": 5,
+    "elapsed_seconds": 1.821055458,
+    "unittest_seconds": 1.398,
+    "complete_output_sha256": "57d5fc44b96fa1ffa68724d512fe648b63fe0c45c0d786682055eff02751c429",
+    "all_passed": true,
+    "scope": "New finite divisor-filtration and matrix/nonreduced-parameter controls plus retained quartic-division and presentation controls. Does not verify universal DVR classification, purity, full-Artin exclusion, flatness, source-frame assumptions or cancellation."
+  },
+  "author_executions": [
+    {
+      "author": "Jet",
+      "command": "/opt/anaconda3/bin/python research/quadratic_divisor_filtration_checks_pass107.py",
+      "evidence": [
+        "3be311",
+        "309b20"
+      ],
+      "methods": 1,
+      "unittest_seconds": 1.018,
+      "exit_code": 0,
+      "wall_seconds": null
+    },
+    {
+      "author": "Jet",
+      "command": "/opt/anaconda3/bin/python research/quadratic_parameter_ideal_checks_pass107.py",
+      "evidence": "5d6585",
+      "methods": 1,
+      "unittest_seconds": 0.099,
+      "wall_seconds": 0.27964025,
+      "exit_code": 0
+    }
+  ],
+  "historical_full_verification": {
+    "path": "research/verification-pass75-working.json",
+    "suites": 146,
+    "methods": 1047,
+    "claim_registry_count": 544,
+    "rerun_this_pass": false,
+    "revalidation": "7c8525 revalidated retained source/output hashes and counts, not a new full execution."
+  },
+  "sources": [
+    {
+      "url": "https://stacks.math.columbia.edu/tag/058G",
+      "use": "Lazard finite-free directed-colimit theorem for the nonfinite flat ambient module.",
+      "root_evidence": "turn3626view0",
+      "scope": "Complete displayed theorem and proof."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/058C",
+      "use": "Finite-factorization criterion and complete displayed construction underlying Lazard.",
+      "root_evidence": "turn3626view1",
+      "scope": "Complete displayed section; deeper equational-flatness and filtered-colimit foundations not rebuilt."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/02JN",
+      "use": "Expected dimension gives a regular sequence in the local complete-intersection presentation.",
+      "root_evidence": "turn3629view0",
+      "scope": "Complete displayed statement and proof."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/00N6",
+      "use": "Displayed proof input for the regular-sequence criterion.",
+      "root_evidence": "turn3629view1",
+      "scope": "Complete displayed statement and proof; deeper dimension/depth foundations not rebuilt."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/0BUS",
+      "use": "Cohen-Macaulay quotient has no embedded associated primes, giving base-torsion freeness.",
+      "root_evidence": "turn3629view2",
+      "scope": "Complete displayed statement and proof."
+    }
+  ],
+  "proof_limits": [
+    "The final exclusion assumes the supplied original quadratic frame, collapsed mixed profile(2,1), and L(m) nonzero. Arbitrary-frame entry is unproved.",
+    "Only the full W2=D branch is excluded. The dimension-two W2 branch remains possible in this argument.",
+    "The exact DVR theorem requires whole quadratic residue constants, nonzero induced derivation, and an actual surviving F2 parameter. The latter is supplied by the current good-generator noncollapse theorem.",
+    "Generic quartic degree alone does not make N4c generate the divisor image. Its sharp selected-c valuation uses the separate actual boundary input.",
+    "Purity applies to finite pieces with independent whole-fiber residues, not to every free degree module.",
+    "In the remaining W2 dimension-two branch only the rank-two piece R+RG is used for purity. The bound P in m² does not imply full F2 purity or properness of J2.",
+    "The quartic presentation is proved exact before its raw surface fiber is compared to the actual curve fiber. No vertical component is discarded by declaration.",
+    "Finite test outputs do not prove universal DVR classification, purity, exact presentation, branch exclusion, source-frame validity, or cancellation.",
+    "Separate AI reconstructions are not human expert review, Lean formalization, or novelty clearance.",
+    "Whole-double fibers, L(m)=0, global recognition and the unconfirmed original target remain unresolved."
+  ],
+  "draft_corrections": [
+    "A tentative restriction to the reduced ideal J2=m was removed only after the all-ideal purity proof and unit-determinant argument established the nonreduced case.",
+    "The determinant sign in one preliminary message was corrected to the positive final value4epsilon/theta; the saved proof and exact polynomial certificates agree.",
+    "The matrix checker's initial structural-expression equality failed despite algebraic equality; it was changed to expanded polynomial difference. The final checker and canonical run pass.",
+    "A stray plus sign in the synthesis and an out-of-range older-section citation were corrected before freezing; no mathematical formula changed.",
+    "Pre-checkpoint integrity4d470f had exactly three links to the not-yet-created checkpoint. The final post-creation audit resolves all844 checked local Markdown links."
+  ],
+  "next_bounded_tasks": [
+    "Analyze the remaining W2=span(1,G) branch using the rank-two pure piece R+RG, with F2=R+RG+RH and H having zero whole residue. Do not assume purity of all F2.",
+    "Separate J2=R and proper maximal-primary J2 in that branch; W1=C and P in m² do not distinguish them.",
+    "Use the exact all-degree divisor filtration to control higher lifts of the missing second-degree residue direction and the nonprincipal fourth image.",
+    "Retain the independent whole-double, zero-normal, global recognition and arbitrary-frame-entry problems."
+  ],
+  "goal_status": "active",
+  "authorization_boundary": "Private local research, public-source reading and symbolic checks only. No expert outreach, submission, public posting, new automation, trading or paid resource action.",
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-14T21:15:40.350Z",
+    "all_passed": true,
+    "artifacts": [
+      {
+        "path": "research/quadratic-constant-divisor-filtration-pass107.md",
+        "sha256": "88c267afb37f394ae1603c367beeb14bf3bca0342af6413f6f2cba0bfaf272d6",
+        "bytes": 8065,
+        "content_lines": 194,
+        "equation_tags": 6
+      },
+      {
+        "path": "research/quadratic-divisor-normal-form-gates-pass107.md",
+        "sha256": "14b1554b156165c7c7095bc2bf63eb2d376ac0fedb7e12a8081d26b6f571303f",
+        "bytes": 10347,
+        "content_lines": 244,
+        "equation_tags": 7
+      },
+      {
+        "path": "research/quadratic-divisor-filtration-controls-pass107.md",
+        "sha256": "dbc3269544b58a1a5ba4c13a50cdd5f280ae277f66d20f5435d96921b63f3a0d",
+        "bytes": 7338,
+        "content_lines": 185,
+        "equation_tags": 6
+      },
+      {
+        "path": "research/quadratic_divisor_filtration_checks_pass107.py",
+        "sha256": "87c7052e3e165f0d1ebc8faabc8f49d178c2c55a3cfe6daf0ef6d97e817e1a38",
+        "bytes": 5631,
+        "content_lines": 131,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/residue-basis-purity-pass107.md",
+        "sha256": "2aa336c213ea9318f4f48fbffbc8b175d90bd85715ba352a4db3dc4f739534a7",
+        "bytes": 4983,
+        "content_lines": 123,
+        "equation_tags": 4
+      },
+      {
+        "path": "research/mixed-normalized-image-ideals-pass107.md",
+        "sha256": "3fcd72dba3e67ed2d0f314805df5fd77db0bb5d5631c8112c76d04c320e85d15",
+        "bytes": 7382,
+        "content_lines": 167,
+        "equation_tags": 8
+      },
+      {
+        "path": "research/quadratic_parameter_ideal_checks_pass107.py",
+        "sha256": "4d96a63eaeec54559b8d133fd867da2863d7bbee9d5ed1143517730ce6cba61c",
+        "bytes": 4708,
+        "content_lines": 123,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/mixed-full-artin-quartic-exclusion-pass107.md",
+        "sha256": "a4b204ab33bc4e5d1510fe0b7c98cc70a04c291260ed6de8971ac8fd9fb2489e",
+        "bytes": 12480,
+        "content_lines": 253,
+        "equation_tags": 7
+      },
+      {
+        "path": "research/verification-pass107-working.json",
+        "sha256": "cd01f028599d5f1fedfae95effcfb93926650cb6f044b3c35a592df2872a60d8",
+        "bytes": 3414,
+        "content_lines": 51,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/mixed-full-artin-exclusion-frontier-pass107.md",
+        "sha256": "e48dae3ec58b370c41f1702bdfc2e1312dbda9d2d9f736a87bac38a534a12c94",
+        "bytes": 9582,
+        "content_lines": 206,
+        "equation_tags": 0
+      }
+    ],
+    "equation_tags": 38,
+    "captured_methods": 7,
+    "ast_methods": {
+      "research/quadratic_divisor_filtration_checks_pass107.py": 1,
+      "research/quadratic_parameter_ideal_checks_pass107.py": 1,
+      "research/triple_point_quartic_checks_pass51.py": 3,
+      "research/quartic_fiber_gate_checks_pass52.py": 2
+    },
+    "new_test_methods": 2,
+    "complete_output_verified": true,
+    "input_files_unchanged": true,
+    "local_markdown_links_checked": 844,
+    "missing_links": [],
+    "tool_evidence": "4f0c06"
+  },
+  "proof_reviews": [
+    {
+      "reviewer": "Root",
+      "scope": "Complete actual divisor classification, independent normal form, control proof/code, purity, normalized-image note, generalized quartic proof, synthesis and final source/dependency deltas. Independently derived ideal normalizations, pure J² extraction, direct cubic T and determinant argument. Fresh selected primary proofs and affected canonical execution.",
+      "evidence": [
+        "7fb250",
+        "284101",
+        "0b81b0",
+        "df2e4a",
+        "280a61",
+        "9a0198",
+        "772282",
+        "a6a10a",
+        "24f332",
+        "97cbd3"
+      ]
+    },
+    {
+      "reviewer": "General",
+      "scope": "Author of direct actual DVR classification; independent purity, normalized images, quartic divisions, unit determinant and whole exact-presentation proof. Full saved proof/synthesis reviews and final citation/dependency deltas. Independently derived the remaining rank-two P in m² bound. Capture validation was read-only.",
+      "evidence": [
+        "b9c91a",
+        "3453fe",
+        "8e20fd",
+        "2ecf84",
+        "5bcc79",
+        "04d9d5",
+        "00f2fa",
+        "f4bfff",
+        "e246e5"
+      ],
+      "capture_evidence": "5369b5"
+    },
+    {
+      "reviewer": "Geometry",
+      "scope": "Author of independent DVR normal form and selected-c gate, and generalized full-Artin quartic exclusion. Complete independent classification/control/checker/purity/synthesis mathematical review. Saved full proof and final citation/dependency deltas read; no numerical rerun.",
+      "evidence": [
+        "bb7c20",
+        "b11ec2",
+        "d7692c",
+        "752536",
+        "03f52b",
+        "c6780f",
+        "953a02"
+      ],
+      "quartic_proof_sha256": "a4b204ab33bc4e5d1510fe0b7c98cc70a04c291260ed6de8971ac8fd9fb2489e"
+    },
+    {
+      "reviewer": "Jet",
+      "scope": "Author of full conic control, purity lemma and two separate one-method checkers. Independent whole classification, normal-form selected-c gate, normalized images, full generalized quartic proof, synthesis and capture. Final quartic mathematical audit preceded only citation/dependency wording refinements, independently checked by General.",
+      "evidence": [
+        "a428f8",
+        "a221d0",
+        "f863e0",
+        "331e23",
+        "628f9b",
+        "52a347",
+        "8bb720",
+        "8c8846",
+        "b865b2"
+      ],
+      "capture_evidence": "cfac4f"
+    }
+  ]
+}

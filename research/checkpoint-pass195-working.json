@@ -1,0 +1,140 @@
+{
+  "pass": 195,
+  "status": "restricted_double_root_zero_R_recognition_and_double_cover_reductions; surviving_actual_square_branches_and_unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass194-working.json",
+    "sha256": "e42c53bb24f7ec14dab22f8930f4ec79b655f1f848b54e772629754be05bd191",
+    "records": 1200
+  },
+  "results": {
+    "zero_R_recognition": "Under a supplied actual global-slice exact1122 frame with full initial kernel (Z^2-X^3Y), the R=k_rho=0 branch has an original invariant coordinate I=W-lambda*Z^2/2-(alpha*Y+beta*X+D)*Z-Q0(X,Y), with complex coefficients and both polynomial inverse orders. Exact field return excludes the quadratic cover and the second linear-cover power. The global slice gives regularity; Bhatwadekar-Gupta-Lokhande Theorem 3.5 gives A=C[I]^[2].",
+    "pure_quartic_rationality": "For any algebraic leading ratio q in the exact finite coefficient field, the stated actual pure-quartic branch forces D*T^5 to be a nonzero complex constant with affine T. Trace and explicit homogeneous primitives then force q in C(t). This excludes that branch for q^2=t and q^2=t(1-t).",
+    "nonzero_R_reductions": "For each full kernel (Z^2-X^3Y) and (Z^2-X^2*Y*(X-Y)), actual constant-projection exclusion, general-q rigidity, curvature and whole-plane/cofactor arguments leave only the quadratic-graph and quadratic-projection square-completion alternatives. No actual realization or exclusion of these remaining branches is proved here.",
+    "complete_two_gate_list": "For q^2=t, the nondegenerate solutions of the two necessary differential gates are exactly f=a*t+b*q with a complex and b nonzero complex, or f=b/q with b nonzero complex. The logarithmic-jet factorization and exact Euler integrations do not assume rational K. These displayed coefficients lie in C(q), but the ambient coefficient field need not equal C(q).",
+    "remaining_scope": "The two actual square branches for q^2=t remain unresolved after the necessary-equation classification. For q^2=t(1-t), the zero-R branch and the remaining square coefficient equations are not settled by this packet. Neither full double-cover configuration nor the entire positive bad quadratic rank stratum is recognized. Height-two kernels, higher minimum profiles, arbitrary coordinate entry and unrestricted cancellation remain open; there is no minimum or entry theorem. Separate196 work is excluded."
+  },
+  "goal_audit": {
+    "prior_status_turn": "The frozen194 restricted theorem and final audit remain prior completed progress and are not counted again in195.",
+    "current_continuation": "The new195 proof composition records one original-ring branch recognition, a general pure-quartic rationality obstruction, and a complete list for two necessary differential equations. Both final finite suites were executed once by Root after saved-source reviews. Actual square-frame realization or recognition remains a next task, not a completed result.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Enforce lower-potential equations, all scalar-Jacobian coefficients, actual field return and original-ring descent for the classified q^2=t square graph and quadratic-projection families; do not mistake formal coefficient systems for actual frames.",
+  "artifacts": [
+    {
+      "path": "research/weight-four-double-cover-nonzero-r-reduction-pass195-working.md",
+      "sha256": "ac250a89a3a9833ef650062fa3f14289b3d8f4c07237e93572c7d2e4061e9a64",
+      "bytes": 10707,
+      "lines": 282,
+      "equations": 16,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-double-root-zero-r-coordinate-recognition-pass195-working.md",
+      "sha256": "aaaca0338bbafe789f8a8a7b8715fad221aa231aa84b7dd34269783644375d9f",
+      "bytes": 15642,
+      "lines": 408,
+      "equations": 23,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-square-root-two-gate-classification-pass195-working.md",
+      "sha256": "45c14cd85e8944ea3a4c51525ca508abe235cbba3a29bc060a658405a57d7600",
+      "bytes": 11724,
+      "lines": 345,
+      "equations": 21,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-double-cover-frontier-synthesis-pass195-working.md",
+      "sha256": "5311ac6df2674651cf4e7f2f1a8e0355ead12a3efe9e172b82861f2a82133a84",
+      "bytes": 9254,
+      "lines": 207,
+      "equations": 6,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight_four_double_cover_controls_pass195.py",
+      "sha256": "2f4cba70c97e46a486a4611397eff12e3eb553ef2906b69be9e2c1007886a4ce",
+      "bytes": 8786,
+      "lines": 195,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/weight_four_double_root_two_gate_controls_pass195.py",
+      "sha256": "3d3ba1edc18402118587b2a8427c1123ee7ba2efcb65a16f8c7c7e0c10d2b318",
+      "bytes": 4755,
+      "lines": 124,
+      "equations": 0,
+      "test_methods": 2
+    },
+    {
+      "path": "research/verification-pass195-working.json",
+      "sha256": "860b6ed3e35d5c7ae6dbb2b5c527b152618a607992aee6f261e656b5c0868058",
+      "bytes": 12869,
+      "lines": 203,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "chain_record_count_after_including_this_checkpoint": 1208,
+  "record_count_convention": "1200 frozen predecessor records plus four proof/synthesis notes, two checker sources, verification195 and this checkpoint: eight new records. README and ledger are not records. No196 source, proof or run is counted.",
+  "verification": {
+    "capture": "research/verification-pass195-working.json",
+    "canonical_runs": [
+      {
+        "suite": "double_cover195",
+        "path": "research/weight_four_double_cover_controls_pass195.py",
+        "pre_execution_read": "Rootca270a",
+        "initial_output": "db1a89",
+        "terminal_output": "db1a89",
+        "methods": 3,
+        "unittest_seconds": 0.293,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/weight_four_double_cover_controls_pass195.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "login": false,
+        "initial_yield_time_ms": 1000
+      },
+      {
+        "suite": "double_root_two_gate195",
+        "path": "research/weight_four_double_root_two_gate_controls_pass195.py",
+        "pre_execution_read": "Root882d0c",
+        "initial_output": "c79c2f",
+        "terminal_output": "c79c2f",
+        "methods": 2,
+        "unittest_seconds": 0.39,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/weight_four_double_root_two_gate_controls_pass195.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "login": false,
+        "initial_yield_time_ms": 1000
+      }
+    ],
+    "new_suites": 2,
+    "new_methods": 5,
+    "tagged_equations": 66,
+    "scope": "Working recognition of only the stated zero-R branch plus differential and nonzero-R reductions. The surviving actual square families remain unresolved. Saved-source AI reviews and finite controls are not human expert review, formal verification, novelty clearance, a minimum/entry theorem or unrestricted cancellation."
+  }
+}

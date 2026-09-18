@@ -1,0 +1,63 @@
+{
+  "started_at_utc": "2026-09-14T22:44:31.582Z",
+  "finished_at_utc": "2026-09-14T22:44:33.294Z",
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.whole_double_nilrank_checks_pass111",
+    "research.whole_double_coordinate_checks_pass111",
+    "research.quadratic_degree_module_checks_pass102",
+    "research.quadratic_divisor_filtration_checks_pass107",
+    "research.mixed_pure_quartic_checks_pass108",
+    "research.mixed_singular_coefficient_checks_pass110"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 1.708044708,
+  "suites": 6,
+  "test_methods": 10,
+  "new_methods": 3,
+  "retained_methods": 7,
+  "ast_method_counts": {
+    "research/whole_double_nilrank_checks_pass111.py": 2,
+    "research/whole_double_coordinate_checks_pass111.py": 1,
+    "research/quadratic_degree_module_checks_pass102.py": 1,
+    "research/quadratic_divisor_filtration_checks_pass107.py": 1,
+    "research/mixed_pure_quartic_checks_pass108.py": 2,
+    "research/mixed_singular_coefficient_checks_pass110.py": 3
+  },
+  "input_files": [
+    {
+      "path": "research/whole_double_nilrank_checks_pass111.py",
+      "sha256": "222e54b86d9dd1272f513a773eb742e3a009b2aa79200acc71203d6f428e0f85"
+    },
+    {
+      "path": "research/whole_double_coordinate_checks_pass111.py",
+      "sha256": "b8a29767649dfcc488f2882424744ab140c1fdec54fe2c9f026a163d302d7601"
+    },
+    {
+      "path": "research/quadratic_degree_module_checks_pass102.py",
+      "sha256": "dd701dc05fe10c4ce5189ab848bfde4f0ea7bb724f27d4317b69f38c91613362"
+    },
+    {
+      "path": "research/quadratic_divisor_filtration_checks_pass107.py",
+      "sha256": "87c7052e3e165f0d1ebc8faabc8f49d178c2c55a3cfe6daf0ef6d97e817e1a38"
+    },
+    {
+      "path": "research/mixed_pure_quartic_checks_pass108.py",
+      "sha256": "b6d4bca801664a82bc829a42a26abc4a03ffaf700aec5125ac6b17d54bf5c80e"
+    },
+    {
+      "path": "research/mixed_singular_coefficient_checks_pass110.py",
+      "sha256": "0ed599a8611aff602dcbc967335e88676ff4f6817182eef7a023b946014054e6"
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "stdout": "",
+  "stderr": "test_conic_and_cyclic_invariants (research.whole_double_nilrank_checks_pass111.WholeDoubleNilrankChecks.test_conic_and_cyclic_invariants) ... ok\ntest_variable_volume_weighted_connection (research.whole_double_nilrank_checks_pass111.WholeDoubleNilrankChecks.test_variable_volume_weighted_connection) ... ok\ntest_coordinate_degree_and_residue_controls (research.whole_double_coordinate_checks_pass111.WholeDoubleCoordinateChecks.test_coordinate_degree_and_residue_controls) ... ok\ntest_conic_first_coefficients_and_weight_comparison (research.quadratic_degree_module_checks_pass102.QuadraticDegreeModuleChecks.test_conic_first_coefficients_and_weight_comparison) ... ok\ntest_conic_filtration_and_hypothesis_controls (research.quadratic_divisor_filtration_checks_pass107.QuadraticDivisorFiltrationChecks.test_conic_filtration_and_hypothesis_controls) ... ok\ntest_quartic_row_and_mixed_artin_coefficients (research.mixed_pure_quartic_checks_pass108.MixedPureQuarticChecks.test_quartic_row_and_mixed_artin_coefficients) ... ok\ntest_sharp_conic_and_divided_quartic_identities (research.mixed_pure_quartic_checks_pass108.MixedPureQuarticChecks.test_sharp_conic_and_divided_quartic_identities) ... ok\ntest_general_divided_W_and_determinant_identity (research.mixed_singular_coefficient_checks_pass110.MixedSingularCoefficientChecks.test_general_divided_W_and_determinant_identity) ... ok\ntest_general_shear_conic_and_derivative_identity (research.mixed_singular_coefficient_checks_pass110.MixedSingularCoefficientChecks.test_general_shear_conic_and_derivative_identity) ... ok\ntest_singular_coefficient_and_artin_nonmembership (research.mixed_singular_coefficient_checks_pass110.MixedSingularCoefficientChecks.test_singular_coefficient_and_artin_nonmembership) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 1.343s\n\nOK\n",
+  "output_hash_convention": "stdout + one newline + stderr",
+  "complete_output_sha256": "1e0e8e4e06739ab585e30557278ec373a136e817eb1ee0ea932e4a19d54943d7",
+  "all_passed": true,
+  "scope": "New conic-invariant, variable-volume connection and intrinsic whole-double coordinate/degree/residue controls; retained102 conic module identities,107 divisor filtration,108 quartic row,110 divided-W determinant and derivative-ideal identities. Does not verify flatness, actual chart selection, all-point Jacobian action, all-height-one noncollapse, module purity, the universal mixed-sector exclusion, frame existence or cancellation."
+}

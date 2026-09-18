@@ -1,0 +1,75 @@
+{
+  "pass_number": 122,
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.cubic_null_reconstruction_checks_pass122",
+    "research.cubic_nonnull_reciprocal_checks_pass122",
+    "research.cubic_nonnull_reconstruction_checks_pass122",
+    "research.cubic_null_axis_checks_pass121",
+    "research.cubic_nonnull_axis_checks_pass121",
+    "research.cubic_null_polynomial_speed_checks_pass121"
+  ],
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+  "suites": 6,
+  "test_methods": 8,
+  "new_methods": 4,
+  "retained_methods": 4,
+  "elapsed_seconds": 2.6984937922097743,
+  "exit_code": 0,
+  "inputs": [
+    {
+      "module": "research.cubic_null_reconstruction_checks_pass122",
+      "path": "research/cubic_null_reconstruction_checks_pass122.py",
+      "sha256_before": "1467c0a4a84ac7b06cbe59b4b3b9c5f38174d71c34f126489a013e2ba4a944cd",
+      "test_methods": 1,
+      "sha256_after": "1467c0a4a84ac7b06cbe59b4b3b9c5f38174d71c34f126489a013e2ba4a944cd",
+      "unchanged": true
+    },
+    {
+      "module": "research.cubic_nonnull_reciprocal_checks_pass122",
+      "path": "research/cubic_nonnull_reciprocal_checks_pass122.py",
+      "sha256_before": "3389e7a64b90ab637f14ef003cc010c0a7c7d678568f56d0adb93d177b9c9aca",
+      "test_methods": 1,
+      "sha256_after": "3389e7a64b90ab637f14ef003cc010c0a7c7d678568f56d0adb93d177b9c9aca",
+      "unchanged": true
+    },
+    {
+      "module": "research.cubic_nonnull_reconstruction_checks_pass122",
+      "path": "research/cubic_nonnull_reconstruction_checks_pass122.py",
+      "sha256_before": "a8a739ce22d42d00946924e30cc41c4dde31ad7e8ff0a0bb5e485e5d02fb1dfb",
+      "test_methods": 2,
+      "sha256_after": "a8a739ce22d42d00946924e30cc41c4dde31ad7e8ff0a0bb5e485e5d02fb1dfb",
+      "unchanged": true
+    },
+    {
+      "module": "research.cubic_null_axis_checks_pass121",
+      "path": "research/cubic_null_axis_checks_pass121.py",
+      "sha256_before": "f72e88e1da70efaf2b26d085e627443e02af2dbf7daf876b1f907433425ae03f",
+      "test_methods": 1,
+      "sha256_after": "f72e88e1da70efaf2b26d085e627443e02af2dbf7daf876b1f907433425ae03f",
+      "unchanged": true
+    },
+    {
+      "module": "research.cubic_nonnull_axis_checks_pass121",
+      "path": "research/cubic_nonnull_axis_checks_pass121.py",
+      "sha256_before": "7802b5c81182daf0124d3517a0a1a919a36803c2e1ceda44bf49b0937e04f653",
+      "test_methods": 2,
+      "sha256_after": "7802b5c81182daf0124d3517a0a1a919a36803c2e1ceda44bf49b0937e04f653",
+      "unchanged": true
+    },
+    {
+      "module": "research.cubic_null_polynomial_speed_checks_pass121",
+      "path": "research/cubic_null_polynomial_speed_checks_pass121.py",
+      "sha256_before": "0a1f4ea2abf826fc004be7a246210b508cab00d453b9dbbb7b2ce8606b0bd01f",
+      "test_methods": 1,
+      "sha256_after": "0a1f4ea2abf826fc004be7a246210b508cab00d453b9dbbb7b2ce8606b0bd01f",
+      "unchanged": true
+    }
+  ],
+  "complete_output": "\ntest_original_coordinate_row_and_polynomial_absorption (research.cubic_null_reconstruction_checks_pass122.NullReconstructionChecks.test_original_coordinate_row_and_polynomial_absorption) ... ok\ntest_constant_congruence_and_reciprocal_cubic (research.cubic_nonnull_reciprocal_checks_pass122.NonnullReciprocalEquivalenceChecks.test_constant_congruence_and_reciprocal_cubic) ... ok\ntest_connection_potential_and_polynomial_reconstruction (research.cubic_nonnull_reconstruction_checks_pass122.NonnullReconstructionChecks.test_connection_potential_and_polynomial_reconstruction) ... ok\ntest_polynomial_speed_control_with_strict_divisor_orders (research.cubic_nonnull_reconstruction_checks_pass122.NonnullReconstructionChecks.test_polynomial_speed_control_with_strict_divisor_orders) ... ok\ntest_null_connection_lower_volume_and_generic_control (research.cubic_null_axis_checks_pass121.NullAxisChecks.test_null_connection_lower_volume_and_generic_control) ... ok\ntest_normalized_potential_and_all_volume_coefficients (research.cubic_nonnull_axis_checks_pass121.NonnullAxisChecks.test_normalized_potential_and_all_volume_coefficients) ... ok\ntest_scalar_derivative_conversion_and_first_integral (research.cubic_nonnull_axis_checks_pass121.NonnullAxisChecks.test_scalar_derivative_conversion_and_first_integral) ... ok\ntest_reciprocal_certificates_and_cubic_speed_control (research.cubic_null_polynomial_speed_checks_pass121.NullPolynomialSpeedChecks.test_reciprocal_certificates_and_cubic_speed_control) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 2.333s\n\nOK\n",
+  "complete_output_sha256": "ea74fb2b4081acf4b4b0526e4c08baf6f29045b97c41054f96e2f4e68a550f59",
+  "scope": "Targeted exact algebraic identity and polynomial-control checks. Not a full historical rerun, formal proof, global frame realization, cancellation theorem, human expert review, or novelty clearance."
+}

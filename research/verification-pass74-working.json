@@ -1,0 +1,78 @@
+{
+  "started_at_utc": "2026-09-14T04:42:12.042829+00:00",
+  "finished_at_utc": "2026-09-14T04:42:16.690357+00:00",
+  "wall_seconds": 4.647301,
+  "kind": "Fresh targeted74 canonical capture, not a full regression",
+  "total_suites": 3,
+  "total_test_methods": 7,
+  "all_passed": true,
+  "last_full_regression": {
+    "path": "research/verification-pass73-working.json",
+    "sha256": "18035cf02d2aad2fa33c82c09ee3bb885cb638cba6e11f419d826601867d95a1",
+    "suites": 140,
+    "test_methods": 1034
+  },
+  "fresh_full74_regression_performed": false,
+  "central_registry_integrated": false,
+  "general_cancellation_verified": false,
+  "scope": "Finite exact examples only. Written mathematical statements, source theorems, novelty and expert/formal review are not computationally verified. Repeated author/reviewer/capture runs are not additional test methods.",
+  "suites": [
+    {
+      "path": "research/affine_linear_adapted_checks_pass74.py",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/affine_linear_adapted_checks_pass74.py"
+      ],
+      "source_sha256": "367c49a364008bcc01ebe96b6b93dfe5bfd28ed83e148a639263ecb8b7c175c6",
+      "source_unchanged_during_run": true,
+      "started_at_utc": "2026-09-14T04:42:12.043149+00:00",
+      "finished_at_utc": "2026-09-14T04:42:14.585937+00:00",
+      "wall_seconds": 2.542827,
+      "exit_code": 0,
+      "expected_methods": 2,
+      "test_methods": 2,
+      "unittest_seconds": 2.35,
+      "all_passed": true,
+      "output": "..\n----------------------------------------------------------------------\nRan 2 tests in 2.350s\n\nOK\n",
+      "output_sha256": "b82add1ccd3d64f2034aff5b90f18a0429eca417d0ed1f6b8ce8bdec26ecda52"
+    },
+    {
+      "path": "research/nice_slice_adjoint_checks_pass74.py",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/nice_slice_adjoint_checks_pass74.py"
+      ],
+      "source_sha256": "4a1d045a832c255de228633e04b134b267674e932593ed396e1afda20e7f732e",
+      "source_unchanged_during_run": true,
+      "started_at_utc": "2026-09-14T04:42:14.586853+00:00",
+      "finished_at_utc": "2026-09-14T04:42:16.397334+00:00",
+      "wall_seconds": 1.810516,
+      "exit_code": 0,
+      "expected_methods": 3,
+      "test_methods": 3,
+      "unittest_seconds": 1.61,
+      "all_passed": true,
+      "output": "test_actual_nice_flows_and_all_partial_adjoint_formulas (__main__.NiceSliceAdjointChecks.test_actual_nice_flows_and_all_partial_adjoint_formulas) ... ok\ntest_actual_nonslice_replica_realizes_the_forbidden_four_block (__main__.NiceSliceAdjointChecks.test_actual_nonslice_replica_realizes_the_forbidden_four_block) ... ok\ntest_jordan_data_and_exact_constant_good_boundary (__main__.NiceSliceAdjointChecks.test_jordan_data_and_exact_constant_good_boundary) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 1.610s\n\nOK\n",
+      "output_sha256": "8d83d9927ef85a813ff063c84ce27691b2fcdb5ae194afd19916a2c3bff565d0"
+    },
+    {
+      "path": "research/slice_projection_checks_pass74.py",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/slice_projection_checks_pass74.py"
+      ],
+      "source_sha256": "297c0286b3b725753a8683a3dfe09d7b98b07ec5805dfda4e5c1dedc92816a1f",
+      "source_unchanged_during_run": true,
+      "started_at_utc": "2026-09-14T04:42:16.398265+00:00",
+      "finished_at_utc": "2026-09-14T04:42:16.690292+00:00",
+      "wall_seconds": 0.292058,
+      "exit_code": 0,
+      "expected_methods": 2,
+      "test_methods": 2,
+      "unittest_seconds": 0.088,
+      "all_passed": true,
+      "output": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.088s\n\nOK\n",
+      "output_sha256": "188b408a64f26e077a165fd3c2a5fea6cd582f1b68fe093f3813ad511d79d3ac"
+    }
+  ]
+}

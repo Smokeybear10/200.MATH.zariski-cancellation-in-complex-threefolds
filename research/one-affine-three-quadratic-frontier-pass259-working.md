@@ -1,0 +1,401 @@
+# One affine coordinate and three quadratic coordinates
+
+Status: bounded recognition and an exact remaining intrinsic-rank split
+for an actual globally sliced E-time profile \((1,2,2,2)\).
+If a selected bad partial has shift zero, or all three selected bad
+partials have shift one, the invariant ring is recognized.
+In every remaining case their nonzero leading intrinsic LNDs are
+proportional over their common invariant field.
+
+The all-shift-one proof uses the actual localized polynomial ring, not
+just a rational parametrization or a nonzero Jacobian. It forces the
+three normalized quadratic leaders onto a complex affine line and
+then makes an actual polynomial shear. The higher-shift branch is not
+recognized here. No earlier source or checker is changed.
+
+## 1. Actual frame and the selected shifts
+
+Let
+\[
+\begin{gathered}
+B=\mathbb C[X,Y_1,Y_2,Y_3]=A[u],\qquad E=\partial_u,\qquad A=\ker E,\\
+X=x_0+au,\qquad
+Y_i=b_{i0}+b_{i1}u+e_i u^2,\qquad
+a,e_i\in A\setminus\{0\},\qquad K=\operatorname{Frac}A .
+\end{gathered}
+\tag{1}
+\]
+The equality \(E=\partial_u\) is in the given slice presentation,
+not in the displayed actual coordinates. In particular \(EX=a\)
+is not presumed a unit. The ring \(A\) is a UFD with units
+\(\mathbb C^*\), since \(A[u]\) is a polynomial four-ring.
+
+For the literal partial \(T_i=\partial_{Y_i}\), the complete
+[positive-weight bound158](arbitrary-positive-weight-initial-bound-pass158-working.md)
+gives its exact shift and top:
+\[
+\begin{gathered}
+0\le k_i\le4,\qquad
+T_i(A)\subset A[u]_{\le k_i},\qquad \deg_uT_i(u)\le k_i,\\
+0\ne N_i=[u^{k_i}]T_i|_A\in\operatorname{LND}(A),\qquad
+N_i(a)=N_i(e_1)=N_i(e_2)=N_i(e_3)=0.
+\end{gathered}
+\tag{2}
+\]
+These are actual exact shifts, not upper bounds substituted for shifts.
+If the full initial image has transcendence degree at most two,
+the same source improves every bad-partial bound to \(k_i\le3\).
+
+If \(a\in\mathbb C^*\), then \(B=A[X]\) and
+\(A\simeq B/(X)=\mathbb C^{[3]}\). We do not otherwise divide by \(a\)
+in the original polynomial ring.
+
+## 2. The exact fixed-\(X\) localization
+
+Inverting the invariant \(a\) gives \(B_a=A_a[X]\). Write
+\[
+Y_i=p_i+\sigma_iX+q_iX^2,\qquad
+p_i,\sigma_i,q_i\in A_a,\qquad q_i=e_i/a^2 .
+\tag{3}
+\]
+Evaluation at \(X=0\) in the two actual presentations of \(B_a\) proves
+\[
+A_a=\mathbb C[p_1,p_2,p_3]_{a_0},\qquad
+a=a_0(p_1,p_2,p_3),\qquad K=\mathbb C(p_1,p_2,p_3).
+\tag{4}
+\]
+Here \(a_0\) is the evaluation of the actual polynomial \(a(X,Y)\).
+The three \(p_i\) are algebraically independent because the left
+side has transcendence degree three. In particular each
+\(\partial_{p_i}\) preserves \(A_a\). This ring statement, stronger
+than the fraction-field equality, is essential below.
+
+All differentials in the next formulas hold the actual \(X\) fixed.
+The invariant-volume calculation from158 makes
+\(d_XY_1\wedge d_XY_2\wedge d_XY_3\) independent of \(X\).
+Its value at \(X=0\) is \(dp_1\wedge dp_2\wedge dp_3\). Thus
+\[
+M(X):=\frac{\partial(Y_1,Y_2,Y_3)}{\partial(p_1,p_2,p_3)}
+ =I+X B_1+X^2 C_1,\qquad \det M(X)=1,
+\tag{5}
+\]
+where \(B_1=D_p\sigma\), \(C_1=D_pq\). These matrices are over \(K\).
+The columns of \(M(X)^{-1}\) are the restrictions of the literal
+\(T_i\) to \(K[X]\). Their exact degrees in \(X\) are \(k_i\), with
+leading coefficients \(a^{-k_i}N_i\).
+
+For completeness, independence of the horizontal determinant follows
+by writing the actual four-form in a separating basis of \(K\) and
+\(du\). Translation \(u\mapsto u+c\) is the flow of an LND on the
+actual polynomial four-ring and has Jacobian one. Its four-form
+coefficient is therefore independent of \(u\). Replacing \(u\) by
+\((X-x_0)/a\) divides that coefficient by the nonzero element \(a\in K\).
+The resulting horizontal determinant is independent of \(X\), and
+evaluation at zero gives (5).
+
+## 3. Wedges, commutation and elementary recognition gates
+
+Put \(\omega=dp_1\wedge dp_2\wedge dp_3\). For distinct \(i,j,k\),
+contraction of (5) gives, with the permutation sign,
+\[
+\iota_{T_j}\iota_{T_i}\omega
+ =\pm(dp_k+X\,d\sigma_k+X^2dq_k).
+\tag{6}
+\]
+If \(q_k\notin\mathbb C\), this has exact \(X\)-degree two.
+The three leading fields commute:
+\[
+[N_i,N_j]=0.
+\tag{7}
+\]
+Indeed the actual partials commute and fix \(X\). Comparing the
+coefficient of \(X^{k_i+k_j}\) uses \(N_i(a)=N_j(a)=0\) and gives (7).
+No vertical derivative in \(X\) is omitted.
+
+If any \(q_i=c\in\mathbb C\), the actual shear
+\(Y_i\mapsto Y_i-cX^2\), with its evident polynomial inverse,
+lowers that coordinate's E-time degree to at most one.
+If the degree becomes one, the remaining exact1122 case is recognized
+by [257](full-exact1122-recognition-synthesis-pass257-working.md).
+If it becomes zero, it is an invariant actual ambient coordinate,
+and the regular-kernel endpoint used in257 applies.
+
+A selected shift zero also recognizes \(A\). For \(k_i=0\), (2)
+gives \([E,T_i]=0\). The actual polynomial three-ring generated by
+the other three coordinates is E-stable and contains the actual
+nonfixed degree-one coordinate \(X\). Divide its restricted LND by
+the gcd of its coordinate values. That gcd is invariant, because
+it divides the nonzero invariant value \(EX\), so primitive division
+preserves the degree-one condition. Daigle's theorem, precisely
+restated as Dasgupta--Gupta Theorem4.8, supplies an invariant coordinate
+of this actual three-ring. It is also an ambient coordinate of \(B\).
+The regular-kernel theorem of Bhatwadekar--Gupta--Lokhande then gives
+\(A\simeq\mathbb C^{[3]}\). This is exactly the argument fully written
+in [249, Section5](height-two-selected-partial-wedge-rank-pass249-working.md);
+neither the omitted coordinate's degree nor the other two degrees
+enter that argument.
+
+We may consequently restrict attention to
+\[
+q_i\notin\mathbb C\quad(1\le i\le3),\qquad k_i\ge1 .
+\tag{8}
+\]
+If all \(k_i=1\), (6) says every pair \(N_i,N_j\) is independent.
+Their common rank is two: their triple wedge has zero leading term
+because the determinant of the inverse in (5) is one.
+If some \(k_i\ge2\), its wedge with each other top must vanish,
+since \(k_i+k_j>2\). All three tops are then proportional.
+
+## 4. Matrix identities in the all-shift-one case
+
+Assume now \(k_1=k_2=k_3=1\). Since the constant term of the inverse
+matrix is \(I\), multiplying (5) by its linear inverse gives
+\[
+M(X)^{-1}=I-X B_1,\qquad
+C_1=B_1^2,\qquad B_1^3=0,\qquad N_i=-a(B_1)_{\bullet i}.
+\tag{9}
+\]
+This is a conditional nilpotent-Jacobian statement about \(\sigma\)
+in this selected-shift case. It is not a consequence of quadratic
+E-time alone and does not contradict the actual negative control251.
+Because \(q\) is nonconstant, \(B_1^2\ne0\); hence
+\(\operatorname{rank}B_1=2\) and \(\operatorname{rank}B_1^2=1\).
+
+Two independent commuting tops have common invariant ring
+\(\mathbb C[t]\), with exact rational constant field \(\mathbb C(t)\).
+Here is the elementary part of the retained
+[rank-two-action proof](rank-two-action-pass.md) that is needed.
+Successive local-slice arguments give a common invariant field
+of transcendence degree one. The common invariant ring is
+factorially closed in the UFD \(A\), hence is a UFD with only
+complex units. Choose a nonconstant invariant \(t\) of least positive
+ordinary total degree in the original polynomial four-ring.
+Every \(t-c\) is irreducible. Any irreducible invariant \(h\) is
+algebraically dependent on \(t\); a relation with nonzero constant
+coefficient in \(h\) shows \(h\mid P(t)\). Thus \(h\) is associate
+to some \(t-c\), proving the ring is \(\mathbb C[t]\).
+The local-slice argument also gives equality of rational constants,
+not just algebraicity over this field.
+
+The third top kills \(t\) as well: it kills the nonconstant rational
+function \(q_1\in\mathbb C(t)\). Thus the common constants of all
+three tops are the same field. Write
+\[
+F=\mathbb C(t),\qquad q=Q(t)\in F^3,\qquad
+\mathcal R=A\otimes_{\mathbb C[t]}F=F[p_1,p_2,p_3].
+\tag{10}
+\]
+The last equality follows from (4), since the common invariant
+\(a\) lies in \(\mathbb C[t]\) and becomes invertible in \(F\).
+No rationality of an arbitrary LND invariant surface is used.
+From (9),
+\[
+B_1^2=Q'(t)\,dt .
+\tag{11}
+\]
+We regard \(dt\) as its row in the \(p\)-basis. Since \(B_1^3=0\),
+\(\operatorname{im}B_1=\ker dt\) and \(\ker B_1=KQ'\).
+
+On the tangent plane \(\ker dt\), the image of \(d\sigma=B_1\)
+therefore lies in \(KQ'\). Choose \(j\) with \(Q'_j\ne0\) and set
+\(r=\sigma_j/Q'_j\in\mathcal R\).
+For each \(i\), the difference \(\sigma_i-Q'_i r\) is killed by
+all the \(N_i\). Consequently
+\[
+\sigma=Q'r+S(t),\qquad S\in F^3,\qquad
+B_1=Q'\,dr+(Q''r+S')\,dt .
+\tag{12}
+\]
+In particular \(t,r\) are algebraically independent and the two
+displayed column vectors are independent; otherwise \(B_1\)
+would have rank at most one.
+
+## 5. A polynomial generic-plane parametrization
+
+Define derivations on \(K\), initially in its actual \(p\)-basis, by
+\[
+D=\sum_i Q'_i\,\partial_{p_i},\qquad
+V=\sum_i(Q''_i r+S'_i)\,\partial_{p_i}.
+\tag{13}
+\]
+Equations (11)--(12) and \(B_1^3=0\) imply
+\[
+Dt=Dr=Vt=0,\qquad Vr=1.
+\tag{14}
+\]
+Explicitly \(B_1Q'=0\), and independence of the two columns in
+(12) gives \(Dt=Dr=0\). Also \(dtB_1=0\), while
+\(drB_1=dt\) by (11); these give \(Vt=0,Vr=1\).
+
+Every \(\partial_{p_i}\) preserves \(A_a\), hence also its localization
+\(\mathcal R\). Thus \(D,V\) preserve \(\mathcal R\), kill \(F\),
+and are locally nilpotent there:
+\(D^2p_i=0\), \(V^3p_i=0\), and \(\mathcal R=F[p]\).
+They commute, directly from their values on \(F,p_i\).
+Set
+\[
+s=\frac{p_j-Q''_j r^2/2-S'_j r}{Q'_j}\in\mathcal R .
+\tag{15}
+\]
+Then \(Ds=1,Vs=0\). The fields \(D,V\) span the same \(K\)-plane
+of derivations as the \(N_i\), namely the derivations killing \(t\).
+Their common rational constants are therefore exactly \(F\).
+It follows that, for some \(T(t)\in F^3\),
+\[
+\boxed{\quad
+p=T+S'r+\frac{Q''}{2}r^2+Q's,\qquad
+\mathcal R=F[r,s].
+\quad}
+\tag{16}
+\]
+Indeed the difference in (16) is killed by both \(D,V\).
+Both ring inclusions follow from (15), \(r\in\mathcal R\), and
+the displayed formulas for the \(p_i\). The relations \(Vr=Ds=1\)
+and \(Dr=Vs=0\) also prove that \(r,s\) are independent over \(F\).
+This is an exact localized ring result. It is not an actual coordinate
+change of the original four-ring.
+
+## 6. The actual localization forces the leading curve to be a line
+
+Put \(J=\det(\partial p/\partial(t,r,s))\).
+The map in (16) gives a matrix with entries in \(F[r,s]\).
+Its inverse has entries in the same ring. To check this crucial claim,
+\(t\in A\subset A_a\), so all \(\partial_{p_i}t\) lie in \(A_a\).
+The derivations \(\partial_{p_i}\) then preserve the further
+localization \(\mathcal R\), including all denominators in
+\(\mathbb C[t]\). Since \(r,s\in\mathcal R\), the entries
+\(\partial_{p_i}(t,r,s)\) also lie in \(\mathcal R=F[r,s]\).
+The chain rule makes the two matrices inverses. Hence
+\[
+J\in F[r,s]^*=F^* .
+\tag{17}
+\]
+A mere rational parametrization would not establish (17).
+No preservation of \(dt\wedge dr\wedge ds\) by an unverified
+vector field is being assumed.
+
+The three columns of the first matrix are
+\[
+p_t=T'+S''r+\frac{Q'''}2r^2+Q''s,\qquad
+p_r=S'+Q''r,\qquad p_s=Q'.
+\tag{18}
+\]
+At \(r=s=0\), (17) gives
+\(\det(T',S',Q')\ne0\). The coefficient of \(s\) in \(J\) is
+\(\det(Q'',S',Q')\), and is zero. Therefore
+\[
+Q''=\alpha S'+\beta Q',\qquad \alpha,\beta\in F .
+\tag{19}
+\]
+Substituting into the second column of (18) makes the polynomial
+determinant divisible by \(1+\alpha r\):
+\[
+J=(1+\alpha r)\det(p_t,S',Q').
+\tag{20}
+\]
+Since \(J\) is a unit in \(F[r,s]\), \(\alpha=0\).
+Thus \(Q''=\beta Q'\). For \(Q'_j\ne0\), each
+\((Q'_i/Q'_j)'=0\), and rational functions of \(t\) have constant
+field \(\mathbb C\). Integration gives
+\[
+Q_i=c_iQ_j+d_i,\qquad c_i,d_i\in\mathbb C .
+\tag{21}
+\]
+The normalized leader curve is a complex affine line.
+
+Write \(Q=vQ_j+d\), with \(v,d\in\mathbb C^3\) and \(v\ne0\).
+Choose a nonzero constant row \(c\) annihilating \(v\), and complete
+it to an invertible three-row matrix whose other two rows do not
+annihilate \(v\). Apply this constant matrix to the actual \(Y_i\),
+then subtract \((c\cdot d)X^2\) from its first slot.
+The first slot has E-time at most one; the other two have exact
+time two because their normalized leaders are nonconstant.
+The linear map and the single shear have polynomial inverses
+over \(\mathbb C\). Thus the exact1122 or invariant-coordinate
+recognition gates of Section3 apply. We have proved
+\[
+\boxed{\quad
+k_1=k_2=k_3=1\quad\Longrightarrow\quad A\simeq\mathbb C^{[3]} .
+\quad}
+\tag{22}
+\]
+No coefficient of the generic \(r,s\) parametrization was lifted
+to an ambient coordinate. Only the complex constants in (21)
+were used for the actual final shear.
+
+## 7. What remains and an actual higher-shift control
+
+Combining Sections3 and6, every still-unrecognized actual1222 frame
+in these coordinates satisfies
+\[
+\begin{gathered}
+q_i\notin\mathbb C,\qquad k_i\in\{1,2,3,4\},\qquad
+\max_i k_i\ge2,\\
+[N_i,N_j]=0,\qquad
+\dim_K\operatorname{span}_K(N_1,N_2,N_3)=1 .
+\end{gathered}
+\tag{23}
+\]
+The nonzero proportionality ratios belong to the fraction field
+of the common LND kernel, of transcendence degree two, by
+commutation and the local-slice theorem. They are not shown to
+be rational functions of a chosen leading ratio. If the initial
+image has transcendence degree at most two, replace the upper
+shift bound four in (23) by three.
+
+This residual shift pattern really occurs in recognized examples.
+On \(\mathbb C[u,t,y,z]\), with \(E=\partial_u\), set
+\[
+X=u,\quad Y=y+tu^2,\quad Z=z+t^2u^2,\quad
+W=t+X^2Z-Y^2 .
+\tag{24}
+\]
+The polynomial inverse is
+\[
+t=W-X^2Z+Y^2,\qquad y=Y-tX^2,\qquad z=Z-t^2X^2,\qquad u=X.
+\tag{25}
+\]
+In the slice presentation \(W=t-y^2+(z-2ty)u^2\), so the time
+profile is exactly1222. Its leaders are
+\((1,t,t^2,z-2ty)\), and its full initial kernel is
+\((X^2Z-Y^2)\). Indeed this weighted-homogeneous binomial is
+irreducible, and the initial image has fraction field generated
+by the independent elements \(u,t,z-2ty\), hence dimension three.
+The literal bad partials have exact shifts
+\[
+(k_Y,k_Z,k_W)=(4,4,2),\qquad
+(N_Y,N_Z,N_W)=(-2tN,N,-N),\qquad
+N=\partial_y+2t\partial_z .
+\tag{26}
+\]
+These follow by differentiating the inverse (25) at fixed \(X\).
+This is a nonvacuity control for the higher-shift proportional-top
+pattern, not an obstruction to recognition: here \(EX=1\).
+
+Finally,158 gives a small independent height-one restriction.
+Its principal full initial relation has weight at most five.
+For weights \((1,2,2,2)\), every odd-weight polynomial is divisible
+by \(X\). An irreducible kernel generator cannot be \(X\), whose
+initial evaluation is nonzero. Its weight is therefore two or four.
+Weight two is an actual bad-linear/\(X^2\) degree-lowering shear.
+Only a weighted-quartic principal relation remains outside that
+elementary reduction; no classification or recognition of all
+such quartics is asserted here.
+
+## Sources and limits
+
+The full sources158,249,251,257 and the retained rank-two-action
+proof were read for the exact uses above. The only portion of the
+rank-two-action result used here is its common-ring and common-field
+calculation, reconstructed in Section4. No theorem removing degenerate
+fibers of a saturated action is used.
+
+The shift-zero endpoint uses the precise published inputs already
+fully specified in249:
+[Dasgupta--Gupta Theorem4.8](https://arxiv.org/html/1701.03635v1)
+and [Bhatwadekar--Gupta--Lokhande Theorem3.5](https://arxiv.org/html/1501.01438v1).
+The final actual degree reduction uses the retained recognition257,
+not a new claim that a generic coordinate descends.
+
+No saved checker was executed, imported or compiled. There is no
+claim of arbitrary1222 recognition, arbitrary-entry closure, or novelty.

@@ -1,0 +1,48 @@
+{
+  "kind": "Fresh targeted77 capture, not a full regression",
+  "started_at_utc": "2026-09-14T06:44:02.007183+00:00",
+  "finished_at_utc": "2026-09-14T06:44:02.737938+00:00",
+  "wall_seconds": 0.730322,
+  "total_suites": 1,
+  "total_test_methods": 5,
+  "all_passed": true,
+  "new77_suites": 1,
+  "new77_test_methods": 5,
+  "fresh_full77_regression_performed": false,
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "source_hashes_before": {
+    "research/nice_binary_scheme_checks_pass77.py": "670f65c6fabf2594d7f8878260595480ea4203d77cabe5541b3b1fd04fe81967",
+    "research/run_targeted_pass77.py": "8f6b4b7c52cd75a298022be43c9ce0998b00b9cec672fafbd25a754cad4f577f",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_hashes_after": {
+    "research/nice_binary_scheme_checks_pass77.py": "670f65c6fabf2594d7f8878260595480ea4203d77cabe5541b3b1fd04fe81967",
+    "research/run_targeted_pass77.py": "8f6b4b7c52cd75a298022be43c9ce0998b00b9cec672fafbd25a754cad4f577f",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_inputs_unchanged": true,
+  "central_registry_integrated": false,
+  "general_cancellation_verified": false,
+  "scope": "Finite exact examples, inverse maps, ideal reductions and operator identities. Not verification of universal proofs, primary geometric inputs, historical novelty or cancellation. Repeated runs are not additional test methods.",
+  "suites": [
+    {
+      "path": "research/nice_binary_scheme_checks_pass77.py",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/nice_binary_scheme_checks_pass77.py"
+      ],
+      "exit_code": 0,
+      "expected_methods": 5,
+      "test_methods": 5,
+      "all_passed": true,
+      "unittest_seconds": 0.457,
+      "output": "test_actual_scheme_jets_reduced_and_nonreduced (__main__.NiceBinarySchemeChecks.test_actual_scheme_jets_reduced_and_nonreduced) ... ok\ntest_bare_conormal_inverse_is_not_a_full_frame (__main__.NiceBinarySchemeChecks.test_bare_conormal_inverse_is_not_a_full_frame) ... ok\ntest_graph_hessian_and_higher_degree_square_zero (__main__.NiceBinarySchemeChecks.test_graph_hessian_and_higher_degree_square_zero) ... ok\ntest_representative_binary_ideal_power_bounds (__main__.NiceBinarySchemeChecks.test_representative_binary_ideal_power_bounds) ... ok\ntest_stationary_two_shear_omission_coefficients (__main__.NiceBinarySchemeChecks.test_stationary_two_shear_omission_coefficients) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.457s\n\nOK\n",
+      "output_sha256": "97052bbca2d0f165de20046640feb95ca808eab4dc428fc7f66f7c2108dad058"
+    }
+  ]
+}

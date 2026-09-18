@@ -1,0 +1,115 @@
+{
+  "pass": 198,
+  "status": "restricted_full_reciprocal_square_root_family_exclusion; nonmonomial_and_unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass197-working.json",
+    "sha256": "3adc2a1451187ea5902878076a87ac1477a9f890d76a062ad536557e62d3e16e",
+    "records": 1222
+  },
+  "results": {
+    "actual_normalization": "Under the supplied actual global-slice exact1122 frame and full initial kernel (Z^2-X^3Y), the reciprocal family f=beta0/q, beta0 in C*, q^2=t, admits original polynomial changes giving k=q*rho, n=-q*rho^2/2 and ell=-q*rho^3/2+l with l in the exact coefficient field K. Both inverse orders, fixed-rho derivative corrections and preservation of the selected partial_Z, N, fields, generic degrees, exact time profile and full initial ideal are proved. Only the graph alternative permits l=C*q.",
+    "graph_exclusion": "The normalized graph scalar, with Ny retained, forces zeta=gamma in K*, b=q*gamma and b_q nonzero. Exact projected return yields L=K(rho) and K=C(b^2), contradicting b in K and the index-two extension C(b)/C(b^2). Independently, Z^2-X^3Y-2Y(W-C)=b^2 contradicts original-ring normality and primitive-linear irreducibility. The original identity also excludes gamma=0.",
+    "quadratic_projection_exclusion": "The normalized quadratic-projection scalar forces g=l/q=alpha/q^2+beta/q^3+gamma with complex constants and beta nonzero. An explicit projected change gives all entries in C(y,xi,T), T=alpha/q^2+beta/q^3. The full actual field-inclusion chain gives L=K(rho) and K=C(T); p=1/q in K contradicts the exact cubic degree of alpha*p^2+beta*p^3.",
+    "entire_reciprocal_family": "The actual normalization and the two exclusions exhaust the alternatives retained from reduction195, excluding the entire nonzero-R reciprocal family f=beta0/q. This is an impossibility theorem under the supplied actual hypotheses, not a formal coefficient classification or arbitrary-entry result.",
+    "remaining_scope": "For this full square-root initial kernel, zero-R is recognized in195 and the monomial f=beta*q in197; the nonmonomial family f=a*t+b*q with a,b nonzero remains unresolved. Two-root nonzero-R cases, other positive bad quadratic rank configurations, height-two initial kernels, higher minimum profiles, arbitrary entry and unrestricted cancellation remain open. Separate199 literature audit is not included."
+  },
+  "goal_audit": {
+    "prior_progress": "Frozen197 original-ring inverse, actual examples and full monomial recognition remain prior completed progress, not new198 results.",
+    "current_continuation": "The new198 actual normalization and two independent branch obstructions exclude the entire reciprocal family. Root executed the new four-method suite once after source reviews; its initial response was terminal and successful, without a session handle or rerun.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Investigate the remaining actual nonmonomial f=a*t+b*q square-root family with a,b nonzero, preserving all lower-potential, scalar-Jacobian, exact-field and original-ring gates. The two-root nonzero-R alternatives remain separate.",
+  "artifacts": [
+    {
+      "path": "research/weight-four-reciprocal-square-root-actual-normalization-pass198-working.md",
+      "sha256": "28dbb0c26541bfd43971ee86c249e38af40689944c9074e3412a73d592d1e67b",
+      "bytes": 13482,
+      "lines": 372,
+      "equations": 23,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-normalized-reciprocal-square-root-graph-obstruction-pass198-working.md",
+      "sha256": "ebace08bc83cfb529cae6bb69cb960e2099ea053f4fdd33743a2ae55de4d9860",
+      "bytes": 9712,
+      "lines": 273,
+      "equations": 16,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-normalized-reciprocal-quadratic-field-obstruction-pass198-working.md",
+      "sha256": "41fdac6b320dda67df8aaa7e0af047d1cc60f7b93dfc3eda3128f227a9a3988c",
+      "bytes": 9130,
+      "lines": 267,
+      "equations": 16,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-reciprocal-square-root-frontier-synthesis-pass198-working.md",
+      "sha256": "51713deab092aae52edd51316d91e804a98b114da49b3a8e2a05fd5a2282c34e",
+      "bytes": 5302,
+      "lines": 119,
+      "equations": 4,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight_four_reciprocal_square_root_controls_pass198.py",
+      "sha256": "63bde3181ce82792418444bfeb9c8607117fe36360ee2655fdbd5b5f678029e9",
+      "bytes": 12933,
+      "lines": 237,
+      "equations": 0,
+      "test_methods": 4
+    },
+    {
+      "path": "research/verification-pass198-working.json",
+      "sha256": "abb23c1b2aca14d13a9ff1ed9239914e823398c56db5c56293b707cd72d757f6",
+      "bytes": 10078,
+      "lines": 132,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "chain_record_count_after_including_this_checkpoint": 1229,
+  "record_count_convention": "1222 frozen predecessor records plus four proof/synthesis notes, one checker source, verification198 and this checkpoint: seven new records. README and ledger are not records. The separate199 literature audit and any later research are not counted.",
+  "verification": {
+    "capture": "research/verification-pass198-working.json",
+    "canonical_runs": [
+      {
+        "suite": "reciprocal_square_root198",
+        "path": "research/weight_four_reciprocal_square_root_controls_pass198.py",
+        "pre_execution_read": "Jet full author22e25b+091e9d; General complete12c96e/hash910679; Root fulld9afcd",
+        "initial_output": "124301",
+        "terminal_output": "124301",
+        "methods": 4,
+        "unittest_seconds": 0.435,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "completion_via_original_handle": false,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/weight_four_reciprocal_square_root_controls_pass198.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "login": false,
+        "initial_yield_time_ms": 1000
+      }
+    ],
+    "new_suites": 1,
+    "new_methods": 4,
+    "tagged_equations": 59,
+    "scope": "The entire reciprocal family f=beta0/q is excluded under the supplied actual global-slice exact1122/full-kernel hypotheses. The sole canonical run returned terminal success initially, with no session handle or rerun. The nonmonomial square-root family, other initial configurations and general cancellation remain unresolved. AI source review and finite controls are not expert/formal/novelty certification."
+  }
+}

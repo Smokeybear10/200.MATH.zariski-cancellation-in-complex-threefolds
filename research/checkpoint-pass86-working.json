@@ -1,0 +1,415 @@
+{
+  "status": "AI-reviewed working86: smooth critical values and exact coordinate-fiber/discriminant/modification constraints from one quadratic-slice-degree coordinate. No general cancellation proof.",
+  "working_question": "Unconfirmed corrected complex-threefold cancellation: A[s]≅C^[4] implies A≅C^[3]. Intended field, dimension and typo correction await professor confirmation.",
+  "previous_working_checkpoint": "research/checkpoint-pass85-working.json",
+  "previous_working_checkpoint_sha256": "55fb6d52954f6f99946df52d66c297f62e0f25e61e22d7a4905a6678cfa85c45",
+  "previous_integrated_checkpoint": "consistency-pass-60.json",
+  "previous_goal_turn_classification": "No progress: immediately preceding user check-in was status only.",
+  "current_research_pass_classification": "Progress: this continuation integrated85, proved broader86 coordinate constraints, tested exact actual countercontrols, and checked primary theorem gates.",
+  "synthesis": "research/coordinate-quadratic-frontier-pass86.md",
+  "proof_audit": "research/proof-audits-pass86-working.md",
+  "verification_record": "research/verification-pass86-working.json",
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "targeted_verification": {
+    "path": "research/verification-pass86-working.json",
+    "sha256": "0ede6a15f5c17ad06696ae0bf34e06e4e2fc3af1fd46a5e87b419ac8fef557e4",
+    "suites": 1,
+    "test_methods": 2,
+    "actual_actions": 3,
+    "first_method_subtests": 2,
+    "all_passed": true,
+    "started_at_utc": "2026-09-14T10:58:23.425828+00:00",
+    "finished_at_utc": "2026-09-14T10:58:24.273863+00:00",
+    "monotonic_wall_seconds": 0.847596,
+    "unittest_seconds": [
+      0.561
+    ],
+    "tracked_inputs": 3,
+    "retained_complete_outputs": 1
+  },
+  "new86_suites": 1,
+  "new86_test_methods": 2,
+  "fresh_full86_regression_performed": false,
+  "bounded_action_search_executed": false,
+  "central_registry_integrated": false,
+  "historical_claim_count": 544,
+  "actual_action_hypotheses": [
+    "B=A[s]=C[x1,x2,x3,z] with actual original coordinate z, E locally nilpotent and E(s)=1.",
+    "Only z has required E-degree2: E³z=0 and q=E²z≠0. No bound on the E-degrees of the other original coordinates is assumed.",
+    "A=ker E is smooth factorial affine of dimension3; g=gcd(q,Ez), h=q/g, v=Ez/g-hs and w=z-(Ez)s+qs²/2 all lie in A, with g,h nonzero and gcd(h,v)=1.",
+    "The earlier good-speed-ideal/zero results are not asserted under these broader hypotheses."
+  ],
+  "completed_deductions": [
+    "The original coordinate partial decomposes into finitely many coefficient derivations of A plus a vertical part. Evaluation at s=-v/h gives a derivation D_* of A_h sending r=w-gv²/(2h) to1, without inverting g.",
+    "The differential of r is unimodular on D(h). For every λ, Lλ=2h(w-λ)-gv²=2h(r-λ) cuts out a smooth or empty hypersurface there, and Lλ is squarefree in A_h.",
+    "Evaluating the coordinate differential at s0 gives j(dw)+(gv)=A. At a closed point g0, the exact pointwise covector constraints in the differential note hold; they do not make g reduced.",
+    "For every λ, A embeds in Bλ=B/(z-λ)≅C3 by positive s-degree. The generic localization is a quadratic field, hence -gLλ is a nonzero nonsquare in Frac A.",
+    "Primitivity of every coordinate equation gives gcd_A(g,w-λ)=1, and therefore gcd_Ah(g,Lλ)=1. A squarefree Lλ does not imply a squarefree raw discriminant -gLλ.",
+    "The actual repeated-common-factor action g=(a-1)² has polynomial inverse pairs, global slice, h=a³ and Lλ at a1 equal to -2(V+λ). It exhibits a genuine repeated raw discriminant factor.",
+    "The actual two-speed localized base C[a±1,b±1,c] has smooth r quadratic in c. Every LND fixes units a,b, so no LND can send r to1. Smooth critical value does not imply an LND slice.",
+    "On R=A_h, Bλ_h=R[y]/(g y²+Lλ) is the exact saturated affine modification Sλ[Y/g] of Sλ=R[Y]/(Y²+gLλ). It is not automatically a normalization or a polynomial presentation of R.",
+    "The checked residual-coordinate and Das cancellation statements retain actual base and relative-dimension hypotheses not supplied here. No source recognition theorem was established."
+  ],
+  "proof_reviews": {
+    "differential": "Jet author; Root, Geometry and General full final EOF reconstructions, including broader scope and repeated-g addition.",
+    "fiber": "Geometry author; Root, Jet and General full EOF independent reviews.",
+    "modification_source": "General author; Root and Geometry full reviews. Localized polynomial wording corrected. Primary-source read scopes explicit.",
+    "synthesis": "Root author/full EOF; General full independent EOF clean, four equations.",
+    "checker": "Jet author; Root, Geometry and General full final code reads; Root and General independent final runs.",
+    "runner_and_capture": "Root author/full saved read and canonical run; General independently fully read runner and saved capture, no runner execution by General."
+  },
+  "closed_invalid_promotions": [
+    "Smooth r on A_h does not imply r is an LND slice, as shown in an actual frame.",
+    "Squarefreeness of Lλ on D(h) does not imply squarefreeness of -gLλ, even for an actual coordinate fiber.",
+    "Absolute coordinatehood over C is not residual coordinatehood over A: it fails already over Frac A by degree2.",
+    "An affine-modification presentation is not automatically an integral normalization; unsaturated equations need not give the correct chart."
+  ],
+  "remaining_mathematical_obligations": [
+    "Prove the full corrected cancellation implication without a quadratic-coordinate hypothesis.",
+    "Obtain actual kernel recognition from the broader one-quadratic-coordinate constraints, or establish a decisive actual obstruction.",
+    "The speed-ideal membership/coordinate-reduction gaps retained in85 remain unresolved in their original narrower scope.",
+    "Use any finite-involution or linearization theorem only after checking its hypotheses, especially in the proposed constant-q subcase.",
+    "Confirm intended statement, certify novelty and obtain human review before any publication claim; no formal verification completed."
+  ],
+  "next_bounded_actions": [
+    "Audit the constant-nonzero-q reduction to regular involutions on original C3 coordinate fibers and distinguish global from only localized quotients.",
+    "Check primary three-dimensional involution linearization/tameness statements and the special smooth-quotient hypothesis, not a plane theorem.",
+    "Seek a genuine invariant ambient coordinate or reduction rather than another necessary differential identity."
+  ],
+  "one_quadratic_coordinate_critical_value_smooth_on_Dh_proved": true,
+  "other_coordinate_degree_restrictions_required": false,
+  "all_coordinate_fiber_generic_degree_two_proved": true,
+  "normalized_discriminant_squarefree_on_Dh_proved": true,
+  "raw_discriminant_always_squarefree": false,
+  "critical_value_always_LND_slice": false,
+  "new_unconditional_recognition_result": false,
+  "general_conjecture_solved": false,
+  "professor_interpretation_confirmed": false,
+  "historical_novelty_verified": false,
+  "human_expert_review_completed": false,
+  "formal_verification_completed": false,
+  "external_contact_made": false,
+  "submission_or_publication_made": false,
+  "predecessor_audit": {
+    "checked_at_utc": "2026-09-14T10:56:30.360Z",
+    "all_passed": true,
+    "prior_hash_records": 438,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "55fb6d52954f6f99946df52d66c297f62e0f25e61e22d7a4905a6678cfa85c45",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "final_predecessor_audit": {
+    "checked_at_utc": "2026-09-14T11:04:51.466Z",
+    "all_passed": true,
+    "prior_hash_records": 438,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "55fb6d52954f6f99946df52d66c297f62e0f25e61e22d7a4905a6678cfa85c45",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "primary_source_audit": {
+    "checked_at_utc": "2026-09-14T11:04:51.571Z",
+    "all_passed": true,
+    "files": [
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.pdf",
+        "sha256": "b4df87f9a4042c1110915f50779be26decb6473fc13fccb99038a91bcb9f3a03",
+        "bytes": 2153645
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.txt",
+        "sha256": "31b95df36405d2cf9b50cf24e649bc75a40b490a0f2caebdca0de0416bf85816",
+        "bytes": 862237
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77-source.md",
+        "sha256": "4a8edfdd91fd0ef6441384a92b5aa45b2cc39f19958abcc7fbe363c89f237b83",
+        "bytes": 1170
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.sha256",
+        "sha256": "243073116eef79c9fd0d28c06add2c602bf7aeae3797e10373be8252b35ddd00",
+        "bytes": 214
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.txt",
+        "sha256": "2450cbb34179187172a6c81dfedba9752ecb32b067c5a62ffcb2decab7f236d9",
+        "bytes": 98069
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.pdf",
+        "sha256": "31cec362bd10fbe65e2a4622979fbcf4fbff2bcd585bae9dd3fe78bc330d49cc",
+        "bytes": 387538
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.pdf",
+        "sha256": "c7922ecd2cdeacabf12eee7bd8115920bc0e2f2d4b0c64282a66f8c47fb42e01",
+        "bytes": 177030
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.txt",
+        "sha256": "37430e92c0d66c5b1f33615ea4375b3be8b23503c54a7c6e6daf286d40d01c92",
+        "bytes": 16562
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82-source.md",
+        "sha256": "99865a4259f8ca7455ab163829290c5bb111b1c6153c5a4e7861fd4e78e5a437",
+        "bytes": 1083
+      },
+      {
+        "path": "tmp/pdfs/lipman-sathaye-briancon-skoda-pass83.pdf",
+        "sha256": "70a614756d88f14da18a2cebccb316c2e2c42d0b1ded94168a63e0660e0cc8ff",
+        "bytes": 678125
+      },
+      {
+        "path": "tmp/pdfs/hickel-jacobian-socle-pass83.pdf",
+        "sha256": "26413534d1feac31dab1ae0436d02083e14cdf3589276b57775a9c57d281de60",
+        "bytes": 218873
+      },
+      {
+        "path": "tmp/pdfs/hickel-jacobian-socle-pass83.txt",
+        "sha256": "0369ac31141870e864a509a0dbd5dec9ed18804651691e2b09ef31b992371e05",
+        "bytes": 59607
+      },
+      {
+        "path": "tmp/pdfs/general-dasgupta-lahiri-pass85.pdf",
+        "sha256": "15fe6cbd898ca7c0ca16e5bfa5186f64212c11b97aa476a579a37f58777305a2",
+        "bytes": 347896
+      },
+      {
+        "path": "tmp/pdfs/general-dasgupta-lahiri-pass85.txt",
+        "sha256": "f2df8d0b33245de4b0b4b36a4306567a59d6f15dd6f5dbf32b593fdd4d378fb0",
+        "bytes": 49828
+      },
+      {
+        "path": "tmp/pdfs/general-epstein-hochster-pass85.pdf",
+        "sha256": "1ba544cb49a75699f4cf73191e563383f20a4b1e31bf45abc8af61c7f32111da",
+        "bytes": 1137226
+      },
+      {
+        "path": "tmp/pdfs/general-epstein-hochster-pass85.txt",
+        "sha256": "8c06d9c9280f730aa119973de8ccc19ef5f83442cf36520cb48d7f27510435e1",
+        "bytes": 172630
+      },
+      {
+        "path": "tmp/pdfs/general-das-cancellation-pass86.pdf",
+        "sha256": "51988960879b0c4e3673635309e8c286fd47f2d74420d919923001748cbbc002",
+        "bytes": 141542
+      },
+      {
+        "path": "tmp/pdfs/general-dutta-lahiri-residual-pass86.pdf",
+        "sha256": "796c98f55ffa7d4b36ac848145a645e6c49d1c74ede433cadd7d34db8f28a4b4",
+        "bytes": 156952
+      },
+      {
+        "path": "tmp/pdfs/general-kaliman-zaidenberg-modification-pass86.pdf",
+        "sha256": "4a34c5511e8ab464a9094d409a41ecb1a60d43ce1ec962ee92acbabac5739a76",
+        "bytes": 481658
+      }
+    ]
+  },
+  "artifact_integrity": {
+    "checked_at_utc": "2026-09-14T11:04:51.571Z",
+    "all_passed": true,
+    "current_artifacts": 8,
+    "current_numbered_equations": 28,
+    "local_link_paths_checked": 680,
+    "deferred_checkpoint_links": [
+      {
+        "source": "research/coordinate-quadratic-frontier-pass86.md",
+        "target": "research/checkpoint-pass86-working.json"
+      },
+      {
+        "source": "research/proof-audits-pass86-working.md",
+        "target": "research/checkpoint-pass86-working.json"
+      },
+      {
+        "source": "README.md",
+        "target": "research/checkpoint-pass86-working.json"
+      },
+      {
+        "source": "research-ledger.md",
+        "target": "research/checkpoint-pass86-working.json"
+      }
+    ],
+    "link_anchors_checked": false,
+    "artifacts": [
+      {
+        "path": "research/coordinate-critical-value-constraints-pass86.md",
+        "sha256": "13e02196b66a1b6328130f52dee92325de6fe556f5b08996d42c93976c47ca8f",
+        "bytes": 9778,
+        "lines": 213,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/coordinate-fiber-discriminant-pass86.md",
+        "sha256": "297fa154202fbaf9e98cd6aa5c47354825edb20700a9551caba4856a0be68c1c",
+        "bytes": 8060,
+        "lines": 196,
+        "numbered_equations": 9
+      },
+      {
+        "path": "research/quadratic-coordinate-modification-source-pass86.md",
+        "sha256": "eef1294e52e2d79525da4acb7986798e9329b83d315ba15657e0facefe5580ef",
+        "bytes": 11664,
+        "lines": 224,
+        "numbered_equations": 7
+      },
+      {
+        "path": "research/coordinate-quadratic-frontier-pass86.md",
+        "sha256": "850ce5291b2276248ed8a93a4b3c7afd1e78e326536346552c498a3048d34baf",
+        "bytes": 6704,
+        "lines": 148,
+        "numbered_equations": 4
+      },
+      {
+        "path": "research/coordinate_critical_value_checks_pass86.py",
+        "sha256": "6bbc22f085e971adfd626c7597d283b30c90a705c6f63f0c203322504c003fdc",
+        "bytes": 4484,
+        "lines": 103,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/run_targeted_pass86.py",
+        "sha256": "7a85df634b298cfbeb80228e02a006d4d5065e1a16943d941948a2596d5b9e9b",
+        "bytes": 3963,
+        "lines": 104,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/verification-pass86-working.json",
+        "sha256": "0ede6a15f5c17ad06696ae0bf34e06e4e2fc3af1fd46a5e87b419ac8fef557e4",
+        "bytes": 2961,
+        "lines": 54,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/proof-audits-pass86-working.md",
+        "sha256": "ff94506fb027f85e93ad1f7ebca8ef6430b24f7084058e494d14003c41699a79",
+        "bytes": 7354,
+        "lines": 141,
+        "numbered_equations": 0
+      }
+    ],
+    "targeted_suites": 1,
+    "targeted_methods": 2,
+    "new86_suites": 1,
+    "new86_methods": 2,
+    "current_run_sources_checked": 3,
+    "retained_output_hashes_checked": 1,
+    "primary_source_files_checked": 19,
+    "primary_source_files": [
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.pdf",
+        "sha256": "b4df87f9a4042c1110915f50779be26decb6473fc13fccb99038a91bcb9f3a03",
+        "bytes": 2153645
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.txt",
+        "sha256": "31b95df36405d2cf9b50cf24e649bc75a40b490a0f2caebdca0de0416bf85816",
+        "bytes": 862237
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77-source.md",
+        "sha256": "4a8edfdd91fd0ef6441384a92b5aa45b2cc39f19958abcc7fbe363c89f237b83",
+        "bytes": 1170
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.sha256",
+        "sha256": "243073116eef79c9fd0d28c06add2c602bf7aeae3797e10373be8252b35ddd00",
+        "bytes": 214
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.txt",
+        "sha256": "2450cbb34179187172a6c81dfedba9752ecb32b067c5a62ffcb2decab7f236d9",
+        "bytes": 98069
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.pdf",
+        "sha256": "31cec362bd10fbe65e2a4622979fbcf4fbff2bcd585bae9dd3fe78bc330d49cc",
+        "bytes": 387538
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.pdf",
+        "sha256": "c7922ecd2cdeacabf12eee7bd8115920bc0e2f2d4b0c64282a66f8c47fb42e01",
+        "bytes": 177030
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.txt",
+        "sha256": "37430e92c0d66c5b1f33615ea4375b3be8b23503c54a7c6e6daf286d40d01c92",
+        "bytes": 16562
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82-source.md",
+        "sha256": "99865a4259f8ca7455ab163829290c5bb111b1c6153c5a4e7861fd4e78e5a437",
+        "bytes": 1083
+      },
+      {
+        "path": "tmp/pdfs/lipman-sathaye-briancon-skoda-pass83.pdf",
+        "sha256": "70a614756d88f14da18a2cebccb316c2e2c42d0b1ded94168a63e0660e0cc8ff",
+        "bytes": 678125
+      },
+      {
+        "path": "tmp/pdfs/hickel-jacobian-socle-pass83.pdf",
+        "sha256": "26413534d1feac31dab1ae0436d02083e14cdf3589276b57775a9c57d281de60",
+        "bytes": 218873
+      },
+      {
+        "path": "tmp/pdfs/hickel-jacobian-socle-pass83.txt",
+        "sha256": "0369ac31141870e864a509a0dbd5dec9ed18804651691e2b09ef31b992371e05",
+        "bytes": 59607
+      },
+      {
+        "path": "tmp/pdfs/general-dasgupta-lahiri-pass85.pdf",
+        "sha256": "15fe6cbd898ca7c0ca16e5bfa5186f64212c11b97aa476a579a37f58777305a2",
+        "bytes": 347896
+      },
+      {
+        "path": "tmp/pdfs/general-dasgupta-lahiri-pass85.txt",
+        "sha256": "f2df8d0b33245de4b0b4b36a4306567a59d6f15dd6f5dbf32b593fdd4d378fb0",
+        "bytes": 49828
+      },
+      {
+        "path": "tmp/pdfs/general-epstein-hochster-pass85.pdf",
+        "sha256": "1ba544cb49a75699f4cf73191e563383f20a4b1e31bf45abc8af61c7f32111da",
+        "bytes": 1137226
+      },
+      {
+        "path": "tmp/pdfs/general-epstein-hochster-pass85.txt",
+        "sha256": "8c06d9c9280f730aa119973de8ccc19ef5f83442cf36520cb48d7f27510435e1",
+        "bytes": 172630
+      },
+      {
+        "path": "tmp/pdfs/general-das-cancellation-pass86.pdf",
+        "sha256": "51988960879b0c4e3673635309e8c286fd47f2d74420d919923001748cbbc002",
+        "bytes": 141542
+      },
+      {
+        "path": "tmp/pdfs/general-dutta-lahiri-residual-pass86.pdf",
+        "sha256": "796c98f55ffa7d4b36ac848145a645e6c49d1c74ede433cadd7d34db8f28a4b4",
+        "bytes": 156952
+      },
+      {
+        "path": "tmp/pdfs/general-kaliman-zaidenberg-modification-pass86.pdf",
+        "sha256": "4a34c5511e8ab464a9094d409a41ecb1a60d43ce1ec962ee92acbabac5739a76",
+        "bytes": 481658
+      }
+    ],
+    "central_claim_count": 544,
+    "mathematical_suites_executed": 0,
+    "scope": "Read-only file hashes, equation numbering, local paths, whitespace and saved run accounting; not proof verification."
+  },
+  "scope": "Eight current artifacts and28 numbered equations.438 predecessor hash records plus8 current artifacts and this checkpoint give447 retained records. Four pre-save self-links are checked after saving. Two methods and file hashes do not prove unrestricted cancellation."
+}

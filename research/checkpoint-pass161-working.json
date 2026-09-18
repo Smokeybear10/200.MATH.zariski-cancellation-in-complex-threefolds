@@ -1,0 +1,75 @@
+{
+  "pass": 161,
+  "status": "actual_cusp_nongraph_quartic_excluded; generic_projected_y_has_N_degree_at_most_one; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/cusp-nongraph-quartic-exclusion-pass161-working.md",
+      "sha256": "5b61e8638f10f427c1c932558f978a24daba340f7e26c6710317cd6c73ac38f4",
+      "bytes": 14338,
+      "lines": 398,
+      "equations": 16,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp_quartic_exclusion_controls_pass161.py",
+      "sha256": "073efe8aabbfdf146edab3f6356c642c04aca64aa749da9baad94a50e053372f",
+      "bytes": 5637,
+      "lines": 141,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/verification-pass161-working.json",
+      "sha256": "f28d650b90ec0e2f653badf1b9fb3a9f46f01653d6f337c8c94d6236e60e06ae",
+      "bytes": 6002,
+      "lines": 75,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "results": {
+    "inherited": "Under every actual159 cusp chart hypothesis, the putative r!=0, deg_v y>=2 branch has the whole nested quartic and fifth-power reciprocal established in160. No arbitrary formal quartic is substituted for the actual chart.",
+    "parity": "The generic parameter zeta=theta-Q(y) is affine in v. Its actual determinant is -a^3/zeta_v in L*. Writing y=A0*zeta²+B0 and A0=-kappa/lambda, the even part of the tensorial quotient-gradient identity forces S(U)=lambda_rho/(2N), where N=2kappa=n_rhorho and N_rho=0.",
+    "coefficient_field": "K0=ker_L partial_rho is stable under partial_tau and rho is transcendental over K0. Subtracting finite polynomial primitives gives k=r*rho+k0 and n=N*rho²/2+n1*rho+n0. The U² square-completion condition forces ell into K0[rho] of degree<=3. This does not assume L=K0(rho) or coefficient antiderivatives in tau.",
+    "contradiction": "Highest-rho extraction gives necessary S2=3L3/(2N). For t=tau-C2, F=C0+C1*t^5, C1!=0, exact rational calculation instead gives L3=-35C1/(t²F^4), S2=21/(2t^4F), and S2-3L3/(2N)=63/(4t^4F)!=0. All lower integration coefficients are excluded by proved rho-degree bounds. C0=0 is included. Thus the putative actual nongraph branch cannot occur.",
+    "corollary": "Combining this with zero-r160, every actual cusp chart159 has y in L or y=alpha*v+beta with alpha in L*, beta in L. Equivalently N²y=0 in A_L. If r!=0 and y in L, theta is an affine generic parameter. This is about projected y in A_a, not an original ambient coordinate.",
+    "remaining": "No integral denominator removal, invariant coordinate construction, global cusp recognition, arbitrary-coordinate entry or unrestricted cancellation. Possible low-weight-invariant parameter restrictions are separate162 work, excluded from this packet."
+  },
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass160-working.json",
+    "sha256": "c4e598b427695347c849942054a252ac9e67ffda6b96df5ffe94f37e2db142a6",
+    "records": 1039
+  },
+  "goal_audit": {
+    "previous_goal_turn": "Status-only response, no new mathematical result; live-agent state was confirmed.",
+    "current_continuation": "Progress: completed159/160 reductions, then derived a new exact contradiction excluding the remaining nonlinear generic cusp branch; full written161 proof and three terminal independent finite methods. The full requested goal is not achieved.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "chain_record_count_after_including_this_checkpoint": 1043,
+  "record_count_convention": "1039 prior records plus one proof161, one checker161, verification161 and this checkpoint. Live indexes and all162 work excluded. Counts do not measure significance.",
+  "verification": {
+    "capture": "research/verification-pass161-working.json",
+    "canonical_initial": "dd34d7",
+    "canonical_terminal": "96f8ce",
+    "closed_session": 13150,
+    "methods": 3,
+    "seconds": 1.808,
+    "exit_code": 0,
+    "numbered_equations": 16,
+    "pending_execution_handle": false
+  },
+  "next_bounded_task": "Investigate global integral consequences of the generic N²y=0 restriction. First verify separate162 necessary conditions for a low-weight invariant so a false uniform existence route is not pursued. Then test actual coordinate shears, higher-weight invariant recognition, or plinth/denominator removal; generic affine parameters alone do not suffice. All other initial-profile and arbitrary-entry cases remain in the full goal."
+}

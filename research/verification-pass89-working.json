@@ -1,0 +1,74 @@
+{
+  "kind": "Fresh targeted89 capture, not a full regression",
+  "started_at_utc": "2026-09-14T12:34:48.490210+00:00",
+  "finished_at_utc": "2026-09-14T12:34:49.042789+00:00",
+  "wall_seconds": 0.552434,
+  "total_suites": 2,
+  "total_test_methods": 2,
+  "all_passed": true,
+  "new89_suites": 2,
+  "new89_test_methods": 2,
+  "fresh_full89_regression_performed": false,
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "source_hashes_before": {
+    "research/binary_normal_unit_checks_pass89.py": "4e890c12f544cfe14d922e0b1193585ea7fe116bb98752913e3299c220b2b093",
+    "research/generator_pencil_valuation_checks_pass89.py": "a8d2cee9fb60d6a941c6935f6afbb90bc4610b8f6d825975cd9480a89cdba625",
+    "research/run_targeted_pass89.py": "68b785646eb6fc822d2d0b72448e72e5cbc83416e5cf111ba64bfdadb71c2f2d",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_hashes_after": {
+    "research/binary_normal_unit_checks_pass89.py": "4e890c12f544cfe14d922e0b1193585ea7fe116bb98752913e3299c220b2b093",
+    "research/generator_pencil_valuation_checks_pass89.py": "a8d2cee9fb60d6a941c6935f6afbb90bc4610b8f6d825975cd9480a89cdba625",
+    "research/run_targeted_pass89.py": "68b785646eb6fc822d2d0b72448e72e5cbc83416e5cf111ba64bfdadb71c2f2d",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_inputs_unchanged": true,
+  "bounded_search_executed": false,
+  "search_candidates_are_test_methods": false,
+  "central_registry_integrated": false,
+  "general_cancellation_verified": false,
+  "scope": "Two finite exact methods check a binary unit-normal control and selected cases of the all-integer pole-order family. They do not certify the arbitrary-ring valuation theorem or the actual-action recognition proof. No full regression or exhaustive action search ran.",
+  "suites": [
+    {
+      "path": "research/binary_normal_unit_checks_pass89.py",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/binary_normal_unit_checks_pass89.py"
+      ],
+      "started_at_utc": "2026-09-14T12:34:48.490462+00:00",
+      "finished_at_utc": "2026-09-14T12:34:49.042071+00:00",
+      "wall_seconds": 0.551618,
+      "exit_code": 0,
+      "expected_methods": 1,
+      "test_methods": 1,
+      "method_count_matches": true,
+      "all_passed": true,
+      "unittest_seconds": 0.144,
+      "output": "test_cubic_ramification_and_explicit_unit_normal (__main__.BinaryNormalUnitChecks.test_cubic_ramification_and_explicit_unit_normal) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.144s\n\nOK\n",
+      "output_sha256": "99f2aa18edea5a5a15ac485dd26da1ad0c9c57f66158c01d49f8a9eb096adeb9"
+    },
+    {
+      "path": "research/generator_pencil_valuation_checks_pass89.py",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/generator_pencil_valuation_checks_pass89.py"
+      ],
+      "started_at_utc": "2026-09-14T12:34:48.490579+00:00",
+      "finished_at_utc": "2026-09-14T12:34:48.912803+00:00",
+      "wall_seconds": 0.422257,
+      "exit_code": 0,
+      "expected_methods": 1,
+      "test_methods": 1,
+      "method_count_matches": true,
+      "all_passed": true,
+      "unittest_seconds": 0.03,
+      "output": "test_pole_orders_geometric_recovery_and_boundaries (__main__.GeneratorPencilValuationChecks.test_pole_orders_geometric_recovery_and_boundaries) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.030s\n\nOK\n",
+      "output_sha256": "fd418b1c2893ad5d51f746c3576c98548a1b56dda73d2913f142dcd398fdbd9f"
+    }
+  ]
+}

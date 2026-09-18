@@ -1,0 +1,89 @@
+{
+  "pass": 156,
+  "status": "all_supplied_three_good_frames_recognized_under_retained_working_proofs; unrestricted_entry_and_full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/arbitrary-chain-gradient-obstruction-pass156-working.md",
+      "sha256": "35fea8f4bf69a953e9cbd1f92e76aff49466b6a2f7f3954adef487b183d14e6d",
+      "bytes": 12273,
+      "lines": 320,
+      "equations": 12,
+      "test_methods": 0
+    },
+    {
+      "path": "research/dense-all-degree-chain-recognition-pass156-working.md",
+      "sha256": "da7a0665d963534bdd5ff311e5ff1ee4982d213bbd3f843ae93404a5369ae7e5",
+      "bytes": 11913,
+      "lines": 274,
+      "equations": 9,
+      "test_methods": 0
+    },
+    {
+      "path": "research/three-good-all-degree-recognition-pass156-working.md",
+      "sha256": "128b6c3f91e8edf83b90375e64fa8705dfbff95313f3eed23bd4283fb7e0af6b",
+      "bytes": 12809,
+      "lines": 259,
+      "equations": 6,
+      "test_methods": 0
+    },
+    {
+      "path": "research/arbitrary_chain_controls_pass156.py",
+      "sha256": "95d69f4d7085d2675c7332eb3cd08a93f869f3b7f4ecd7d3f6fc9e587da1ddca",
+      "bytes": 11283,
+      "lines": 215,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/verification-pass156-working.json",
+      "sha256": "4ac6124718286637080dae1f0bbff164f2e7228b9bc49d0429bee9ce0f51f936",
+      "bytes": 5761,
+      "lines": 88,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "results": {
+    "algebraic_theorem": "Over a characteristic-zero differential field, every fixed-axis alternating chain of n>=3 nonlinear stages is incompatible with delta(Phi)=partial_U(alpha*P_(n-1)+beta+c*Phi), alpha!=0. The first residual chart forces deg(c*A1'-A1_delta)<=degA1-1; on a critical fiber of the final polynomial, the two sides then have incompatible degrees.",
+    "dense_exhaustion": "Exact-field AMS leading subtraction produces a finite literal chain for any nongraph in the retained normalized dense axes. Whole-tail primitivity and degPsi<=degPhi give the canonical complement. Length two is excluded154; every longer chain is excluded here. The remaining graph has the retained actual recognition153.",
+    "three_good_synthesis": "For actual B=C[x1,x2,x3,z]=A[u], E=partial_u and E^2xi=0 for i=1,2,3, retained results125/127/135/138/80/139/145/153/154 and new156 cover all ranks and all fixed-good last-degree minima. Hence A=C^[3], conditional on these working proofs, without a last-degree bound.",
+    "remaining": "No theorem supplies three good coordinates for an arbitrary sliced action. A hypothetical nonpolynomial kernel has true global minimum degree sum >=6; at equality only the E-time tuple(1,1,2,2) is possible. This is not a universal upper bound, not the old adjoint-height tuple, and not existence of a counterexample."
+  },
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass155-working.json",
+    "sha256": "635b80acce5050b106daa745dbdb4794bc0a97cd1eadd16ce18dfdb48901c046",
+    "records": 1009
+  },
+  "goal_audit": {
+    "previous_user_status_turn": "no progress: read and reported already established state; not treated as a new theorem or live wait",
+    "current_continuation": "progress: complete saved156 synthesis and packet; independent157 structural and weighted-initial proof work underway",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "chain_record_count_after_including_this_checkpoint": 1015,
+  "record_count_convention": "1009 prior records plus three proof notes156, checker156, verification156 and this checkpoint. Live indexes and all157 work excluded. Counts do not measure mathematical significance.",
+  "verification": {
+    "capture": "research/verification-pass156-working.json",
+    "initial_output": "35a67a",
+    "canonical_completion": "3b15ad",
+    "exit_code": 0,
+    "methods": 3,
+    "seconds": 0.735,
+    "numbered_equations": 27,
+    "pending_execution_handle": false,
+    "scope": "Written proofs with explicit retained dependencies, separate AI reconstructions and finite exact controls. No human expert review, formal proof-assistant certification or novelty clearance."
+  },
+  "next_bounded_task": "Prove and independently check the actual E-time(1,1,2,2) weighted-initial restrictions in separate157 work, then attack weight-three/four hypersurface relations or the lower-rank initial cone. This does not establish a universal degree-sum bound or entry into any recognized frame."
+}

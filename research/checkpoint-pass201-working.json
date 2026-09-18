@@ -1,0 +1,99 @@
+{
+  "pass": 201,
+  "status": "complete_two_root_necessary_differential_gate_classification; actual_families_unresolved; unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass200-working.json",
+    "sha256": "a01eb0a3d59ae97719c90d5edb8bd70ec77434188eaf626d3ac1519d99a74a27",
+    "records": 1240
+  },
+  "results": {
+    "linear_factor": "For q^2=t(1-t), the specified linear differential equation alone forces f=c*q in every finite algebraic coefficient field. Writing f=q*h gives L(q*h)=-2p^2(q*s*h')'; field trace to C(t,q)=C(r), r=t/q, would turn any other solution into a rational primitive of 2dr/(1-r^2), whose residues are nonzero.",
+    "complete_two_gate_classification": "Under f*f''*D0 nonzero, the two general-q square-completion equations have exactly f=c*q, c*q/t, or c*q/(t-1), with c a nonzero complex constant. The exact -56 factor of J3 splits into linear and quadratic factors; differentiating the quadratic factor and using two explicit resultants excludes its residual algebraic factor. The three remaining candidates satisfy both equations and all nonzero gates.",
+    "exact_field_scope": "The ambient finite coefficient field is not assumed rational. Constant-field arguments, the trace obstruction and resultant specialization are written proofs. The parametrization of the subfield C(t,q) does not identify the ambient K with it.",
+    "remaining_scope": "These are necessary differential families for the two-root configuration, not actual normalization, realization, recognition or exclusion of those families. Their lower potentials, scalar Jacobians, actual field return and original-coordinate problem remain outside this packet. Other initial kernels, height-two kernels, higher profiles, arbitrary coordinate entry and unrestricted cancellation remain open."
+  },
+  "goal_audit": {
+    "prior_progress": "Frozen200 records restricted recognition for the different supplied full kernel (Z^2-X^3Y). Its proofs, checker and canonical run are retained prior evidence, not new201 records or tests.",
+    "current_continuation": "Two differential notes and one standalone checker were completed. Root executed the four-method201 suite once after its author's full saved-source read and Root's full pre-execution read; the initial nonterminal response was completed through the original session. This packet assembly is source-only.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Investigate actual lower-potential normalization and the remaining scalar/field-return gates for the three two-root coefficient families. Work from202 or later is not included in this packet.",
+  "artifacts": [
+    {
+      "path": "research/weight-four-two-root-linear-factor-rigidity-pass201-working.md",
+      "sha256": "bff83e148eb813197a65382f19fe7443f51824bf73830cf991794e8e75e6f0d2",
+      "bytes": 6884,
+      "lines": 213,
+      "equations": 14,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-two-root-two-gate-classification-pass201-working.md",
+      "sha256": "cfd84b5477700fa69363d43104dc8bfc83feea4ee1248931a8b374c89fb87173",
+      "bytes": 8490,
+      "lines": 260,
+      "equations": 19,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight_four_two_root_gate_controls_pass201.py",
+      "sha256": "cced2afdd574ad581942af2a28dc32c1e6b53e988af4771648109f4ad0044801",
+      "bytes": 7852,
+      "lines": 183,
+      "equations": 0,
+      "test_methods": 4
+    },
+    {
+      "path": "research/verification-pass201-working.json",
+      "sha256": "c1cd0488dd739027280e5958d1a664fd01a3182e5f1455bcb489e0a52724b48f",
+      "bytes": 8113,
+      "lines": 113,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "chain_record_count_after_including_this_checkpoint": 1245,
+  "record_count_convention": "1240 frozen predecessor records plus two differential notes, one checker source, verification201 and this checkpoint: five new records. README and ledger are mutable indices, not records. No prior canonical execution is recounted, and no202 or later work is included.",
+  "verification": {
+    "capture": "research/verification-pass201-working.json",
+    "canonical_runs": [
+      {
+        "suite": "two_root_differential_gates201",
+        "path": "research/weight_four_two_root_gate_controls_pass201.py",
+        "pre_execution_read": "Author complete564270+082a0c; Root complete0b4441.",
+        "initial_output": "b1f0dd",
+        "session_id": 26971,
+        "terminal_output": "884b62",
+        "methods": 4,
+        "unittest_seconds": 1.516,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": false,
+        "pending_execution_handle": false,
+        "completion_via_original_handle": true,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/weight_four_two_root_gate_controls_pass201.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "login": false,
+        "initial_yield_time_ms": 1000
+      }
+    ],
+    "new_suites": 1,
+    "new_methods": 4,
+    "tagged_equations": 33,
+    "scope": "The complete three-family classification concerns the two displayed necessary differential gates over finite algebraic coefficient fields. It does not normalize or realize an actual two-root frame. The only new run completed original session26971 after a nonterminal initial response, with no rerun or pending handle. Trace and field-completeness arguments remain written proofs. Historical source status lines are unchanged, and the full goal remains active and unsolved."
+  }
+}

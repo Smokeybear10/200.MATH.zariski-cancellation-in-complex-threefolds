@@ -1,0 +1,448 @@
+{
+  "status": "AI-reviewed working87: actual constant-acceleration fiber involutions, exact coordinate/linearization gates, invalid-averaging controls and stronger-frame adjoint constraints. No general cancellation proof.",
+  "working_question": "Unconfirmed corrected complex-threefold cancellation: A[s]≅C^[4] implies A≅C^[3]. Intended field, dimension and typo correction await professor confirmation.",
+  "previous_working_checkpoint": "research/checkpoint-pass86-working.json",
+  "previous_working_checkpoint_sha256": "da65967e80343a8ed282cc6b2bfe6a2dedaa10c9a17838127d9eeb0889156efa",
+  "previous_integrated_checkpoint": "consistency-pass-60.json",
+  "previous_goal_turn_classification": "The immediately preceding user check-in verified live General/Geometry agent status using list_agents; it added no mathematical proof. The preceding mathematical continuation developed87 and was progress.",
+  "current_research_pass_classification": "Progress: actual written deductions, independent source/proof audits, executed exact controls and completed87 packet; full objective unchanged.",
+  "synthesis": "research/constant-acceleration-frontier-pass87.md",
+  "proof_audit": "research/proof-audits-pass87-working.md",
+  "verification_record": "research/verification-pass87-working.json",
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "targeted_verification": {
+    "path": "research/verification-pass87-working.json",
+    "sha256": "a382448e500e289e1093e96b6efe90ef38c7b534519cd547a1cf16f1e65f541a",
+    "suites": 3,
+    "test_methods": 3,
+    "all_passed": true,
+    "started_at_utc": "2026-09-14T11:28:42.171815+00:00",
+    "finished_at_utc": "2026-09-14T11:28:42.693319+00:00",
+    "monotonic_wall_seconds": 0.521032,
+    "unittest_seconds": [
+      0.155,
+      0.071,
+      0.055
+    ],
+    "tracked_inputs": 5,
+    "retained_complete_outputs": 3
+  },
+  "new87_suites": 3,
+  "new87_test_methods": 3,
+  "fresh_full87_regression_performed": false,
+  "bounded_action_search_executed": false,
+  "central_registry_integrated": false,
+  "historical_claim_count": 544,
+  "actual_hypotheses": [
+    "Broad reduction: actual B=A[s]=C4, E LND with slice, one original coordinate z with q=E²z∈C*. Other coordinate degrees unrestricted.",
+    "Centered u=Ez/q is an actual slice but not assumed an ambient coordinate; z=r+q u²/2 with r∈A.",
+    "Stronger-frame section only: E²x_i=0 for the three actual companions of z. These assumptions are not imposed on the two broad averaging countercontrols."
+  ],
+  "completed_deductions": [
+    "For every λ, Cλ=B/(z−λ)=A⊕Au is actual C3 with involution u↦−u, fixed ring A and nonempty smooth fixed surface Spec A/(r−λ).",
+    "An actual coordinate odd generator on one fiber is equivalent to linearizability of that fiber involution. The forward proof checks all closed and generic plane fibers and invokes the stated Kambayashi/PID fibration results.",
+    "Linearizing one fiber or proving its tame conjugacy suffices to recognize A, but neither premise is supplied automatically.",
+    "Every actual fiber coordinate decomposition x_i=P_i+uQ_i gives (Q_i)A=A, du(Q)=1 mod u and (JQ)Q=0 mod u.",
+    "The explicit tame two-shear frame has non-LND associated odd-row derivation and a noninvertible Reynolds/module-completion map with Jacobian1+u², despite actual linearizability.",
+    "An actual original z-partial with q2 has a non-LND Reynolds average. A monic polynomial recurrence proves infinitely many nonzero iterates; six finite instances are checks only.",
+    "Jurkiewicz's exact homogeneous degree band d through2d−2 is not ordinary finite Taylor length and is not automatically supplied in the actual frame.",
+    "With three good companions, JP=q e4, E(J)=−J², J⁴=0 and all adjoint columns are (−1)^j j!J^j e_i; J³e4=0 gives ad_E³ T_z=0.",
+    "An actual triangular three-good constant-q frame has rankJ3 and J³nonzero. The nice-action rank cap cannot be imported.",
+    "The exact bad-partial split has T|A=D0+uD1+u²D2, Tu=h0+u h1 and D2 an LND possibly zero. In the rank3 control D2≠0 but D2r0.",
+    "The good-velocity differential image has rank rankJ−1≤2; rankJ1 is recognized by a constant nonzero original good-coordinate velocity."
+  ],
+  "proof_reviews": {
+    "core": "Jet author; Root, Geometry and General full independent EOF reviews.",
+    "fiber_row": "Geometry author; Root and General full reviews, final Reynolds connection checked; all accidental plus joins fixed before freeze.",
+    "averaging": "Jet author; Root, Geometry and General full note/code reviews; Root and General independent runs.",
+    "sources": "General author; Root and Geometry complete notes, selected primary reads only as listed in audit.",
+    "odd_coordinate": "General author; Root and Geometry full reconstruction with primary statement gates, not original theorem proof audits.",
+    "stronger_frame": "Jet author with Root proposals; Root, General and Geometry full final proof/code reviews; Root and General independent final runs.",
+    "synthesis_runner_capture": "Root author and complete reads; General full independent final reads and input/output hash check."
+  },
+  "remaining_mathematical_obligations": [
+    "Prove full corrected cancellation for arbitrary sliced actions, without assuming a quadratic coordinate or three-good frame.",
+    "Establish an actual coordinate or linearization premise for arbitrary constant-acceleration fibers if pursuing this subcase.",
+    "Determine whether highest-adjoint LNDs and the genuine common invariant plane can force global polynomial generation; do not confuse a module completion with an ambient coordinate change.",
+    "Confirm intended professor statement and obtain formal/expert review and novelty certification before any publication claim."
+  ],
+  "next_bounded_actions": [
+    "Develop the88 highest-adjoint argument: choose nonzero maximal J-power column, show its LND kills all P and restricts nontrivially to A.",
+    "Check retained Kaliman–Saveliev hypotheses for the common invariant plane containing all good velocities.",
+    "Use actual good-speed unit ideal and faithful flatness to justify a relative generation statement; then attack the remaining global coordinate/fiber gap."
+  ],
+  "general_conjecture_solved": false,
+  "new_unconditional_general_recognition": false,
+  "constant_acceleration_unconditionally_recognized": false,
+  "professor_interpretation_confirmed": false,
+  "historical_novelty_verified": false,
+  "human_expert_review_completed": false,
+  "formal_verification_completed": false,
+  "external_contact_made": false,
+  "submission_or_publication_made": false,
+  "predecessor_audit": {
+    "checked_at_utc": "2026-09-14T11:21:49.693Z",
+    "all_passed": true,
+    "prior_hash_records": 447,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "da65967e80343a8ed282cc6b2bfe6a2dedaa10c9a17838127d9eeb0889156efa",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "final_predecessor_audit": {
+    "checked_at_utc": "2026-09-14T11:33:45.311Z",
+    "all_passed": true,
+    "prior_hash_records": 447,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "da65967e80343a8ed282cc6b2bfe6a2dedaa10c9a17838127d9eeb0889156efa",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "primary_source_audit": {
+    "checked_at_utc": "2026-09-14T11:32:39.243Z",
+    "all_passed": true,
+    "files": [
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.pdf",
+        "sha256": "b4df87f9a4042c1110915f50779be26decb6473fc13fccb99038a91bcb9f3a03",
+        "bytes": 2153645
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.txt",
+        "sha256": "31b95df36405d2cf9b50cf24e649bc75a40b490a0f2caebdca0de0416bf85816",
+        "bytes": 862237
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77-source.md",
+        "sha256": "4a8edfdd91fd0ef6441384a92b5aa45b2cc39f19958abcc7fbe363c89f237b83",
+        "bytes": 1170
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.sha256",
+        "sha256": "243073116eef79c9fd0d28c06add2c602bf7aeae3797e10373be8252b35ddd00",
+        "bytes": 214
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.txt",
+        "sha256": "2450cbb34179187172a6c81dfedba9752ecb32b067c5a62ffcb2decab7f236d9",
+        "bytes": 98069
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.pdf",
+        "sha256": "31cec362bd10fbe65e2a4622979fbcf4fbff2bcd585bae9dd3fe78bc330d49cc",
+        "bytes": 387538
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.pdf",
+        "sha256": "c7922ecd2cdeacabf12eee7bd8115920bc0e2f2d4b0c64282a66f8c47fb42e01",
+        "bytes": 177030
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.txt",
+        "sha256": "37430e92c0d66c5b1f33615ea4375b3be8b23503c54a7c6e6daf286d40d01c92",
+        "bytes": 16562
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82-source.md",
+        "sha256": "99865a4259f8ca7455ab163829290c5bb111b1c6153c5a4e7861fd4e78e5a437",
+        "bytes": 1083
+      },
+      {
+        "path": "tmp/pdfs/lipman-sathaye-briancon-skoda-pass83.pdf",
+        "sha256": "70a614756d88f14da18a2cebccb316c2e2c42d0b1ded94168a63e0660e0cc8ff",
+        "bytes": 678125
+      },
+      {
+        "path": "tmp/pdfs/hickel-jacobian-socle-pass83.pdf",
+        "sha256": "26413534d1feac31dab1ae0436d02083e14cdf3589276b57775a9c57d281de60",
+        "bytes": 218873
+      },
+      {
+        "path": "tmp/pdfs/hickel-jacobian-socle-pass83.txt",
+        "sha256": "0369ac31141870e864a509a0dbd5dec9ed18804651691e2b09ef31b992371e05",
+        "bytes": 59607
+      },
+      {
+        "path": "tmp/pdfs/general-dasgupta-lahiri-pass85.pdf",
+        "sha256": "15fe6cbd898ca7c0ca16e5bfa5186f64212c11b97aa476a579a37f58777305a2",
+        "bytes": 347896
+      },
+      {
+        "path": "tmp/pdfs/general-dasgupta-lahiri-pass85.txt",
+        "sha256": "f2df8d0b33245de4b0b4b36a4306567a59d6f15dd6f5dbf32b593fdd4d378fb0",
+        "bytes": 49828
+      },
+      {
+        "path": "tmp/pdfs/general-epstein-hochster-pass85.pdf",
+        "sha256": "1ba544cb49a75699f4cf73191e563383f20a4b1e31bf45abc8af61c7f32111da",
+        "bytes": 1137226
+      },
+      {
+        "path": "tmp/pdfs/general-epstein-hochster-pass85.txt",
+        "sha256": "8c06d9c9280f730aa119973de8ccc19ef5f83442cf36520cb48d7f27510435e1",
+        "bytes": 172630
+      },
+      {
+        "path": "tmp/pdfs/general-das-cancellation-pass86.pdf",
+        "sha256": "51988960879b0c4e3673635309e8c286fd47f2d74420d919923001748cbbc002",
+        "bytes": 141542
+      },
+      {
+        "path": "tmp/pdfs/general-dutta-lahiri-residual-pass86.pdf",
+        "sha256": "796c98f55ffa7d4b36ac848145a645e6c49d1c74ede433cadd7d34db8f28a4b4",
+        "bytes": 156952
+      },
+      {
+        "path": "tmp/pdfs/general-kaliman-zaidenberg-modification-pass86.pdf",
+        "sha256": "4a34c5511e8ab464a9094d409a41ecb1a60d43ce1ec962ee92acbabac5739a76",
+        "bytes": 481658
+      },
+      {
+        "path": "tmp/pdfs/general-jurkiewicz-reynolds-pass87.pdf",
+        "sha256": "98754b6eaf8fad7c8177604228e436e2cfc21315de26af7954d3859ee4fa697d",
+        "bytes": 276235
+      }
+    ]
+  },
+  "artifact_integrity": {
+    "checked_at_utc": "2026-09-14T11:32:39.243Z",
+    "all_passed": true,
+    "current_artifacts": 13,
+    "current_numbered_equations": 47,
+    "artifacts": [
+      {
+        "path": "research/constant-acceleration-involution-boundary-pass87.md",
+        "sha256": "33f209fded12b6e14b5e10885d72e20468d1162cc6016de72421e020b4dc57ba",
+        "bytes": 8917,
+        "lines": 185,
+        "numbered_equations": 7
+      },
+      {
+        "path": "research/constant-acceleration-fiber-row-pass87.md",
+        "sha256": "40240d997e657505b638e26901915bdb078d6f333226d1a9d709ebf07070a1c2",
+        "bytes": 8506,
+        "lines": 193,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/constant-acceleration-averaging-obstruction-pass87.md",
+        "sha256": "b5a753bea3770545bb6f27358b57358584f59b74aacd1266cf10bde2ddc4dda0",
+        "bytes": 5598,
+        "lines": 130,
+        "numbered_equations": 6
+      },
+      {
+        "path": "research/involution-reynolds-source-gate-pass87.md",
+        "sha256": "6cf3a19b11ee6295d1239d7f38c0da0c2fa9591db54c4c8600c8123fe7df6f98",
+        "bytes": 7633,
+        "lines": 163,
+        "numbered_equations": 6
+      },
+      {
+        "path": "research/coordinate-odd-generator-recognition-pass87.md",
+        "sha256": "784a4d1a68c4cc5ceb1c59c9c0009df03e4fbf69147ce45eaddf495accb647f9",
+        "bytes": 6444,
+        "lines": 140,
+        "numbered_equations": 5
+      },
+      {
+        "path": "research/constant-acceleration-three-good-frame-pass87.md",
+        "sha256": "7e61a43886b85f206730bd4744f95bae8169472520b8b55ca5e29e84d4175b3d",
+        "bytes": 8810,
+        "lines": 202,
+        "numbered_equations": 10
+      },
+      {
+        "path": "research/constant-acceleration-frontier-pass87.md",
+        "sha256": "cda110d4a2bf661f6fafb461eadf4a2c537ce43fdc34b3bd3cc024bd3cdfb585",
+        "bytes": 8965,
+        "lines": 178,
+        "numbered_equations": 5
+      },
+      {
+        "path": "research/constant_acceleration_average_checks_pass87.py",
+        "sha256": "f9259e459b3d933336055355c0f005290e74deea1e5b4ac722060d55a516dbfc",
+        "bytes": 3910,
+        "lines": 102,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/constant_acceleration_row_checks_pass87.py",
+        "sha256": "5db2459822ff66228e5c594dcfe8782adc4fd974a7d3e892f587292454b319be",
+        "bytes": 4558,
+        "lines": 102,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/constant_acceleration_frame_checks_pass87.py",
+        "sha256": "0efa132db7c269a46869aa7714304e76f15daa4a68bb73c52d22f75ddf99925f",
+        "bytes": 3735,
+        "lines": 87,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/run_targeted_pass87.py",
+        "sha256": "2500561e203114b83e789204c72a82a5ed142828f8b986fe8fd572e32afbecc5",
+        "bytes": 4019,
+        "lines": 106,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/verification-pass87-working.json",
+        "sha256": "a382448e500e289e1093e96b6efe90ef38c7b534519cd547a1cf16f1e65f541a",
+        "bytes": 5150,
+        "lines": 94,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/proof-audits-pass87-working.md",
+        "sha256": "d0b888880670b2539d0da54b2e8e230ed96ac756560b3bd532d7f708960c94b0",
+        "bytes": 8065,
+        "lines": 147,
+        "numbered_equations": 0
+      }
+    ],
+    "local_link_paths_checked": 700,
+    "deferred_checkpoint_links": [
+      {
+        "source": "research/constant-acceleration-frontier-pass87.md",
+        "target": "research/checkpoint-pass87-working.json"
+      },
+      {
+        "source": "research/proof-audits-pass87-working.md",
+        "target": "research/checkpoint-pass87-working.json"
+      },
+      {
+        "source": "README.md",
+        "target": "research/checkpoint-pass87-working.json"
+      },
+      {
+        "source": "research-ledger.md",
+        "target": "research/checkpoint-pass87-working.json"
+      }
+    ],
+    "link_anchors_checked": false,
+    "targeted_suites": 3,
+    "targeted_methods": 3,
+    "current_run_sources_checked": 5,
+    "retained_output_hashes_checked": 3,
+    "primary_source_files_checked": 20,
+    "primary_source_files": [
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.pdf",
+        "sha256": "b4df87f9a4042c1110915f50779be26decb6473fc13fccb99038a91bcb9f3a03",
+        "bytes": 2153645
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.txt",
+        "sha256": "31b95df36405d2cf9b50cf24e649bc75a40b490a0f2caebdca0de0416bf85816",
+        "bytes": 862237
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77-source.md",
+        "sha256": "4a8edfdd91fd0ef6441384a92b5aa45b2cc39f19958abcc7fbe363c89f237b83",
+        "bytes": 1170
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.sha256",
+        "sha256": "243073116eef79c9fd0d28c06add2c602bf7aeae3797e10373be8252b35ddd00",
+        "bytes": 214
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.txt",
+        "sha256": "2450cbb34179187172a6c81dfedba9752ecb32b067c5a62ffcb2decab7f236d9",
+        "bytes": 98069
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.pdf",
+        "sha256": "31cec362bd10fbe65e2a4622979fbcf4fbff2bcd585bae9dd3fe78bc330d49cc",
+        "bytes": 387538
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.pdf",
+        "sha256": "c7922ecd2cdeacabf12eee7bd8115920bc0e2f2d4b0c64282a66f8c47fb42e01",
+        "bytes": 177030
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.txt",
+        "sha256": "37430e92c0d66c5b1f33615ea4375b3be8b23503c54a7c6e6daf286d40d01c92",
+        "bytes": 16562
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82-source.md",
+        "sha256": "99865a4259f8ca7455ab163829290c5bb111b1c6153c5a4e7861fd4e78e5a437",
+        "bytes": 1083
+      },
+      {
+        "path": "tmp/pdfs/lipman-sathaye-briancon-skoda-pass83.pdf",
+        "sha256": "70a614756d88f14da18a2cebccb316c2e2c42d0b1ded94168a63e0660e0cc8ff",
+        "bytes": 678125
+      },
+      {
+        "path": "tmp/pdfs/hickel-jacobian-socle-pass83.pdf",
+        "sha256": "26413534d1feac31dab1ae0436d02083e14cdf3589276b57775a9c57d281de60",
+        "bytes": 218873
+      },
+      {
+        "path": "tmp/pdfs/hickel-jacobian-socle-pass83.txt",
+        "sha256": "0369ac31141870e864a509a0dbd5dec9ed18804651691e2b09ef31b992371e05",
+        "bytes": 59607
+      },
+      {
+        "path": "tmp/pdfs/general-dasgupta-lahiri-pass85.pdf",
+        "sha256": "15fe6cbd898ca7c0ca16e5bfa5186f64212c11b97aa476a579a37f58777305a2",
+        "bytes": 347896
+      },
+      {
+        "path": "tmp/pdfs/general-dasgupta-lahiri-pass85.txt",
+        "sha256": "f2df8d0b33245de4b0b4b36a4306567a59d6f15dd6f5dbf32b593fdd4d378fb0",
+        "bytes": 49828
+      },
+      {
+        "path": "tmp/pdfs/general-epstein-hochster-pass85.pdf",
+        "sha256": "1ba544cb49a75699f4cf73191e563383f20a4b1e31bf45abc8af61c7f32111da",
+        "bytes": 1137226
+      },
+      {
+        "path": "tmp/pdfs/general-epstein-hochster-pass85.txt",
+        "sha256": "8c06d9c9280f730aa119973de8ccc19ef5f83442cf36520cb48d7f27510435e1",
+        "bytes": 172630
+      },
+      {
+        "path": "tmp/pdfs/general-das-cancellation-pass86.pdf",
+        "sha256": "51988960879b0c4e3673635309e8c286fd47f2d74420d919923001748cbbc002",
+        "bytes": 141542
+      },
+      {
+        "path": "tmp/pdfs/general-dutta-lahiri-residual-pass86.pdf",
+        "sha256": "796c98f55ffa7d4b36ac848145a645e6c49d1c74ede433cadd7d34db8f28a4b4",
+        "bytes": 156952
+      },
+      {
+        "path": "tmp/pdfs/general-kaliman-zaidenberg-modification-pass86.pdf",
+        "sha256": "4a34c5511e8ab464a9094d409a41ecb1a60d43ce1ec962ee92acbabac5739a76",
+        "bytes": 481658
+      },
+      {
+        "path": "tmp/pdfs/general-jurkiewicz-reynolds-pass87.pdf",
+        "sha256": "98754b6eaf8fad7c8177604228e436e2cfc21315de26af7954d3859ee4fa697d",
+        "bytes": 276235
+      }
+    ],
+    "central_claim_count": 544,
+    "mathematical_suites_executed": 0,
+    "scope": "Read-only file hashes, equation numbering, local paths, whitespace and saved-run accounting; not proof verification."
+  },
+  "scope": "Thirteen current artifacts and47 numbered equations.447 predecessor records plus13 artifacts and this checkpoint give461 retained records. Four pre-save self-links require post-save path check. Hashes and three finite methods do not prove general cancellation."
+}

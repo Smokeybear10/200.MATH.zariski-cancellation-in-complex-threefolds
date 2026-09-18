@@ -1,0 +1,203 @@
+{
+  "status": "AI-audited working74 deduction: an actual nice sliced action has Jacobian cube zero and rank at most two in dimension four. Exact boundary controls and degree-bounded coordinate certificates are recorded. Unrestricted cancellation and arbitrary nice-action recognition remain unproved.",
+  "previous_working_checkpoint": "research/checkpoint-pass73-working.json",
+  "previous_integrated_checkpoint": "consistency-pass-60.json",
+  "current_research_pass_classification": "progress",
+  "previous_check_in_classification": "Status response with live reviewers confirmed; no new root mathematical result. Authoritative files and worker state revalidated before this continuation.",
+  "synthesis": "research/nonlinear-frontier-pass74.md",
+  "proof_audit": "research/proof-audits-pass74-working.md",
+  "verification_record": "research/verification-pass74-working.json",
+  "historical_integrated_counts": {
+    "claims": 544,
+    "test_methods": 1000,
+    "suites": 126
+  },
+  "last_full_regression": {
+    "path": "research/verification-pass73-working.json",
+    "sha256": "18035cf02d2aad2fa33c82c09ee3bb885cb638cba6e11f419d826601867d95a1",
+    "suites": 140,
+    "test_methods": 1034,
+    "all_passed": true,
+    "started_at_utc": "2026-09-14T04:03:41.142995+00:00",
+    "finished_at_utc": "2026-09-14T04:05:28.113399+00:00",
+    "wall_seconds": 106.970404
+  },
+  "current_targeted_capture": {
+    "path": "research/verification-pass74-working.json",
+    "sha256": "808a7ceb5c544ac265f35efe297eda78d9ffc25c2b8824cb9a5e3b35ca8025a6",
+    "suites": 3,
+    "test_methods": 7,
+    "all_passed": true,
+    "started_at_utc": "2026-09-14T04:42:12.042829+00:00",
+    "finished_at_utc": "2026-09-14T04:42:16.690357+00:00",
+    "wall_seconds": 4.647301
+  },
+  "fresh_full74_regression_performed": false,
+  "central_registry_integrated": false,
+  "completed_deductions": [
+    "Every actual nice sliced action on k^[n] in characteristic zero and n>=2 satisfies J^(n-1)=0 and rankJ<=n-2. In dimension four this gives J^3=0 and rankJ<=2. No existence of a nice frame for arbitrary actions is proved.",
+    "The quadratic nice sliced subfamily follows from this rank bound and published constant triangularization. A separate published Sun theorem plus justified homogenization yields another route; its original proof was not accessed.",
+    "The retained recognized nice sliced example has exactly one constant good direction, so rank-one square Jacobian does not give two constant good coordinate directions.",
+    "An actual nonslice invariant replica has rankJ=3, J^3=gP e_z^t and a nonzero vertical highest third adjoint. Its localized slice does not preserve local nilpotence of the original coordinate partial.",
+    "Affine actions, quadratic slice projections and specified single-homogeneous-layer slice projections have explicit adapted inverse-degree certificates. The last support hypothesis splits into a supplied linear slice or a constant action, so these are quantitative certificates rather than claimed new recognition families."
+  ],
+  "remaining_mathematical_obligations": [
+    "Recognize an arbitrary sliced action over the unconfirmed complex-threefold working interpretation, without assuming the missing actual frame or coordinate.",
+    "For arbitrary-degree nice actions, close the type(3,1) residual with G1=0 and constant good-space dimension zero or one, or provide another coordinate-existence argument.",
+    "No change of slice or frame putting an arbitrary projection into the sparse certificate is constructed.",
+    "The intended field, dimension and corrected statement remain unconfirmed by the professor.",
+    "Historical novelty review, human expert review and formal verification remain incomplete."
+  ],
+  "proof_review_kind": "Separate full and changed-section AI reconstructions, explicitly distinguished from author review, finite controls, published source dependencies and file integrity.",
+  "nice_sliced_jacobian_cube_zero_proved": true,
+  "arbitrary_nice_action_recognized": false,
+  "quadratic_nice_slice_subfamily_source_recognized": true,
+  "entire_two_quadratic_profile_recognized": true,
+  "all_profile_height_threshold": 10,
+  "conditional_nonpolynomial_kernel_minimum_height_lower_bound": 11,
+  "universal_frame_existence_proved": false,
+  "universal_nice_frame_existence_proved": false,
+  "universal_bounded_family_witness_existence_proved": false,
+  "general_conjecture_solved": false,
+  "novelty_claimed": false,
+  "human_expert_review": false,
+  "proof_assistant_verified": false,
+  "interpretation_confirmed_by_professor": false,
+  "external_contact_or_submission": false,
+  "pass75_drafts_excluded": true,
+  "predecessor_audit": {
+    "checked_at_utc": "2026-09-14T04:44:33.367Z",
+    "all_passed": true,
+    "prior_hash_records": 284,
+    "canonical_suites": 3,
+    "canonical_methods": 7,
+    "retained_output_hashes_checked": 3,
+    "claims": 544,
+    "previous_checkpoint_sha256": "f3116975ea22b144b38a8d0d5a36e51abc0ac1dbc61822265f96e0849cdb3e78",
+    "verification_sha256": "808a7ceb5c544ac265f35efe297eda78d9ffc25c2b8824cb9a5e3b35ca8025a6"
+  },
+  "artifact_integrity": {
+    "checked_at_utc": "2026-09-14T04:46:41.073Z",
+    "all_passed": true,
+    "prior_hash_records": 284,
+    "current_artifacts": 12,
+    "total_hash_records": 296,
+    "local_link_paths_checked": 561,
+    "deferred_checkpoint_links": [
+      {
+        "source": "research/nonlinear-frontier-pass74.md",
+        "target": "research/checkpoint-pass74-working.json"
+      },
+      {
+        "source": "research/proof-audits-pass74-working.md",
+        "target": "research/checkpoint-pass74-working.json"
+      },
+      {
+        "source": "README.md",
+        "target": "research/checkpoint-pass74-working.json"
+      },
+      {
+        "source": "research-ledger.md",
+        "target": "research/checkpoint-pass74-working.json"
+      }
+    ],
+    "link_anchors_checked": false,
+    "link_scan_ignores_tex_math": true,
+    "current_numbered_equations": 70,
+    "targeted_suites": 3,
+    "targeted_methods": 7,
+    "retained_output_hashes_checked": 3,
+    "central_claim_count": 544,
+    "mathematical_suites_executed": 0,
+    "regression_runners_executed": 0,
+    "fresh_full74_regression_performed": false,
+    "pass75_drafts_excluded": true,
+    "scope": "Read-only current hashes, equation numbering, local paths, text hygiene and saved run accounting. Predecessor hashes were checked in the separate immediately preceding audit. Not mathematical proof verification.",
+    "artifacts": [
+      {
+        "path": "research/affine-slice-degree-bound-pass74.md",
+        "sha256": "710eb0431a49d59ef1b115b1d2db60a4c5e0e045a2c4585073b68f0ec396bd46",
+        "bytes": 9494,
+        "lines": 250,
+        "numbered_equations": 11
+      },
+      {
+        "path": "research/affine_linear_adapted_checks_pass74.py",
+        "sha256": "367c49a364008bcc01ebe96b6b93dfe5bfd28ed83e148a639263ecb8b7c175c6",
+        "bytes": 6727,
+        "lines": 133,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/affine-linear-adapted-controls-pass74.md",
+        "sha256": "48b8fde53837d5906d6f9364a48d319b6e6bb08a210396c726b35aff0b50a2fe",
+        "bytes": 3634,
+        "lines": 86,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/nice-slice-adjoint-rank-pass74.md",
+        "sha256": "cd5e8c4da16824d0296b6ec68fa42c1fcf69370203248d685e2cbb30cb503d1a",
+        "bytes": 13622,
+        "lines": 310,
+        "numbered_equations": 15
+      },
+      {
+        "path": "research/nice_slice_adjoint_checks_pass74.py",
+        "sha256": "4a1d045a832c255de228633e04b134b267674e932593ed396e1afda20e7f732e",
+        "bytes": 9373,
+        "lines": 189,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/quadratic-nice-source-scope-pass74.md",
+        "sha256": "ee45b08d45190e454b7ba6d34ac011b2669ecc53ca5593ebbd1dd70ac2ddb17f",
+        "bytes": 13340,
+        "lines": 259,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/quadratic-slice-projection-pass74.md",
+        "sha256": "3b761f1d6a947ffc10e4022d3261bc535555182f7d1e688377aa430f95f6ba58",
+        "bytes": 10574,
+        "lines": 289,
+        "numbered_equations": 17
+      },
+      {
+        "path": "research/single-layer-slice-projection-pass74.md",
+        "sha256": "7e91d793f340b82d3559d58e8937741487f8e1b32e9bf9bd3ca1731691ca4fcf",
+        "bytes": 9307,
+        "lines": 244,
+        "numbered_equations": 12
+      },
+      {
+        "path": "research/slice_projection_checks_pass74.py",
+        "sha256": "297c0286b3b725753a8683a3dfe09d7b98b07ec5805dfda4e5c1dedc92816a1f",
+        "bytes": 6773,
+        "lines": 128,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/nonlinear-frontier-pass74.md",
+        "sha256": "8fdec013afae361873e4cd5f8d8855e75c65735174c88600ba641a6ec14e3b51",
+        "bytes": 8630,
+        "lines": 178,
+        "numbered_equations": 7
+      },
+      {
+        "path": "research/verification-pass74-working.json",
+        "sha256": "808a7ceb5c544ac265f35efe297eda78d9ffc25c2b8824cb9a5e3b35ca8025a6",
+        "bytes": 3835,
+        "lines": 78,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/proof-audits-pass74-working.md",
+        "sha256": "2e8dfe31b13c1bd9cb99ffdf73f02a389b2ba4091634965cf281c42e627a64e2",
+        "bytes": 9217,
+        "lines": 134,
+        "numbered_equations": 0
+      }
+    ]
+  }
+}

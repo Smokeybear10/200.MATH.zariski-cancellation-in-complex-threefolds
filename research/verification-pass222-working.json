@@ -1,0 +1,104 @@
+{
+  "pass": 222,
+  "status": "direct_quadratic_constant_second_excluded; saturated_pair_bound_and_partition211_nonrealizability_proved; cubic_equality_and_global_goal_open_at_this_packet",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass221-working.json",
+    "sha256": "a41674e63ccde25d9b02c3026bf3c873c92020ae49498ed8873260dbbcb00574",
+    "records": 1361
+  },
+  "results": {
+    "direct_quadratic_obstruction": "For the actual chart q=(alpha t^2+beta t+gamma)/rho with alpha nonzero complex, a constant second projection and whole projected line give affine w and quadratic z in the first projection. Six coefficients of the literal full Jacobian sequentially force lambda_t, eta, kappa_t, omega_t, H and zeta_t to vanish. After the first five gates the entire determinant is zeta_t times W_rho; the sixth makes it zero, contradicting actual scalar calibration. This requires neither Wang's theorem nor division by a lower projected polynomial.",
+    "universal_cofactor": "The arbitrary-q formal eliminant is H=(q_rhorho/2)T^2+Rformal f_rho T+Rformal^2 Q. Both complete potentials give evaluated gradients HU=-R(C1 B1+R Lambda_t), HV=-R(C1^2+R Lambda_rho). The undivided calibrated wedge R^3 J0=DU HU+DV HV makes the selected component simple and its evaluated cofactor q1 nonzero with q1 dividing R^3 in L[v]. This is polynomial divisibility, not invertibility of R or an original-ring coordinate claim.",
+    "saturated_degree_comparison": "If the selected plane component has degree g and its pure leading line exhausts the corresponding sextic multiplicity m=g, the cofactor evaluates to exact degree (6-g)g. Since R is affine in the projected pair, q1 dividing R^3 implies (6-g)g <= 3g. Thus saturated g=m<3 is impossible. At g=m=3 the comparison is equality, not a contradiction. The latter boundary is retained explicitly and is not resolved by this packet.",
+    "partition211": "The retained nonsquare zero-return exclusion makes R nonzero. Saturated simple-factor lines and multiplicity-two conics are excluded by the new bound. The remaining double/simple pair lines admit an actual constant good-GL2 normalization to f=alpha0 t^3+beta0 t^2, with both coefficients nonzero. Its directional H2, H3 and return coefficient agree with the normalized221 cubic-line argument at zero linear term. The primitive Wang/Laurent contradiction still applies because it requires alpha0 nonzero, not a nonzero linear coefficient. Hence the supplied entire-kernel211 sector is empty. The same saturated bound independently excludes squarefree1111 without invoking Wang.",
+    "scope": "All statements require the actual globally sliced exact1122 frame and the entire initial ideal. They do not furnish arbitrary entry, rationality of the coefficient field, regularity of individual coefficient-field factors, or unrestricted cancellation. Separate223/224/225 and later proofs or computations are not included, even where they subsequently strengthen the cubic frontier."
+  },
+  "goal_audit": {
+    "current_progress": "Two222 proofs establish a direct scalar-Jacobian exclusion and a universal saturated-cofactor comparison, closing the supplied211 sector. Five finite methods passed once. The cubic equality boundary is intentionally unresolved at this packet stage, and the unrestricted goal remains open.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "actual_globally_sliced_exact1122_frame_required": true,
+    "entire_initial_kernel_required": true,
+    "constant_second_quadratic_ratio_excluded": true,
+    "both_prior_potentials_retained": true,
+    "undivided_R_cubed_wedge_identity": true,
+    "selected_component_simple_and_evaluated_cofactor_nonzero": true,
+    "cofactor_divisibility_not_unit_R": true,
+    "saturated_degree_hypothesis_essential": true,
+    "cubic_equality_excluded_here": false,
+    "partition211_nonrealizable": true,
+    "partition31_endpoint_proved_here": false,
+    "formal_degree_fixtures_are_actual_frames": false,
+    "coefficient_field_rationality_assumed": false,
+    "coefficient_field_factors_assumed_regular": false,
+    "actual_GL2_inverse_and_full_kernel_preservation_required": true,
+    "arbitrary_entry_proved": false,
+    "unrestricted_cancellation_proved": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/rank-two-quadratic-ratio-constant-second-exclusion-pass222-working.md",
+      "sha256": "3f6c2808ebc1398eaf4782873f94a50cb889904d7fb1671f993d8f0fae220758",
+      "bytes": 8161, "lines": 229, "equations": 14, "test_methods": 0
+    },
+    {
+      "path": "research/rank-two-saturated-pair-cofactor-exclusion-pass222-working.md",
+      "sha256": "64f1064f55261e6ca0d793c82354f69a4695530403605bdb1ac7109f1296d1d3",
+      "bytes": 15893, "lines": 399, "equations": 23, "test_methods": 0
+    },
+    {
+      "path": "research/binary_quartic_cofactor_controls_pass222.py",
+      "sha256": "0178d386ce1318fe06146e9653bfb3a89fa33259f894f02ee263e04f33b938fd",
+      "bytes": 12024, "lines": 238, "equations": 0, "test_methods": 5
+    }
+  ],
+  "canonical_executions": [
+    {
+      "suite": "binary_quartic_cofactor_controls222",
+      "path": "research/binary_quartic_cofactor_controls_pass222.py",
+      "pre_execution_read": "Jet full final author045192 and metadatad38fe1; Root complete saved sourceec7e1b and unchanged hash4ddae9 preceded the sole execution. No additional checker peer-review timing is inferred.",
+      "initial_output": "bbb2a1", "session_id": null, "terminal_output": "bbb2a1",
+      "methods": 5, "unittest_seconds": 0.464, "result": "OK", "exit_code": 0,
+      "initial_response_terminal": true, "pending_execution_handle": false,
+      "completion_via_original_handle": false, "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/binary_quartic_cofactor_controls_pass222.py",
+      "preceding_read_only_hash_check_in_same_shell": true,
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "shell": "/bin/zsh", "login": false, "initial_yield_time_ms": 1000,
+      "initial_max_output_tokens": 5000,
+      "completion_note": "Root's shell performed read-only shasum then one Python execution. Outputbbb2a1 was initially terminal: five tests0.464s,OK,exit0. No session, poll, pending handle or rerun."
+    }
+  ],
+  "tagged_equations": 37,
+  "total_new_test_methods": 5,
+  "reviews": {
+    "direct_quadratic": "Author completec4ef51; Root full7ad379/hashb74166; Geometry full5c548b; Jet completedebd8d. Independent raw determinant reconstructions a748bf/6a761b are unsaved algebra, not canonical saved-suite runs. All six raw coefficients and the exact full collapse reconstruct.",
+    "saturated_pair": "Author finalb456a8; Root initial3b17c8 identified only two missing TeX backslashes and full final58c2a1 confirmed the held64f1064f hash. Jet complete012a40 and metadata998c3e reconstruct the arbitrary-q identities, simple selected component, exact saturated degree, equality boundary and zero-linear-term extension. Root unrestricted wedgec33923 is separate unsaved algebra. General and Root mathematical reconstructions are recorded without inventing an additional complete-source peer identifier.",
+    "checker": "Jet complete final045192 and Rootec7e1b were pre-run. Source imports only math, unittest and SymPy. Explicit e3/e4 prior-potential residuals and the undivided differential residual are checked before their zero substitutions. Formal saturated and unsaturated examples are clearly separated from actual maps. No saved source was executed, imported or compiled by Jet.",
+    "metadata_and_history": "Fresh metadata998c3e and75c879 confirm both held proofs and the unchanged checker. Ledger full relevant reads75c879 supplies prior source-review provenance; its pending-execution wording is historical and is superseded only by Root's explicit bbb2a1 canonical completion report. No223 or later artifact, theorem or execution enters the inventory."
+  },
+  "proof_dependencies": {
+    "retained": [
+      "research/weight-four-universal-chart-potentials-pass184-working.md",
+      "research/rank-two-binary-quartic-leading-sextic-pass220-working.md",
+      "research/rank-two-nonsquare-quartic-zero-return-exclusion-pass221-working.md",
+      "research/rank-two-squarefree-quartic-line-exclusion-pass221-working.md"
+    ],
+    "primary": ["https://arxiv.org/html/1701.03635v1#S4.Thm1"],
+    "scope": "The actual chart and field return, sextic pair multiplicities, nonsquare zero-return theorem and normalized cubic-line Wang/Laurent proof are retained written dependencies, not new records or consequences of the finite suite. No new primary-source consultation is claimed by this packet."
+  },
+  "finite_control_scope": "Five methods reconstruct arbitrary-q Taylor identities and both prior-potential gradient residuals; the undivided R^3J identity with a full differential residual; six literal quadratic-map Jacobian coefficients and sequential determinant collapse; formal saturated g1/g2/g3 examples, the noncontradictory g=m=3 equality and an unsaturated degree-loss boundary; and the zero-linear-term cubic direction plus actual constant GL2 both inverse orders and pair transport. The checks do not prove actual field return, irreducibility or simplicity by tests, geometric realizability, universal degree bounds, LND/Wang results, arbitrary entry or cancellation.",
+  "next_bounded_task": "Study the saturated cubic equality with full actual identities. All separate223 and later research remains outside this historical222 packet. No222 rerun is authorized."
+}

@@ -1,0 +1,130 @@
+{
+  "pass": 220,
+  "status": "supplied_full_mixed_quartic_sector_nonrealizable; general_binary_quartic_pair_factorization_and_nonzero_return_degree_bounds; global_goal_open",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass219-working.json",
+    "sha256": "8e7fe7f5dd69c25128e0cf9e704e1ffaf6f2772c025534c439f5f2d9c79d3ded",
+    "records": 1351
+  },
+  "results": {
+    "mixed_nonrealizability": "In the actual mixed line chart, the UFD-base lemma puts DY in S=C[X,U] and DZ in S[Y]. The weighted leading argument gives S intersect ker E=C. Its first use makes DY=d complex nonzero; its second applies to the original polynomial D^2Z=2d^2/rho in S and forces rho complex, impossible. Combined with retained zero-return and conic exclusions, the entire supplied exact1122 full mixed-kernel sector is empty. Earlier219 conditional recognition is sharpened without retroactive editing.",
+    "formal_vs_actual": "The formal mixed leader map has the exact principal ideal and is algebraically consistent. It is not an actual translation frame, and no nonexistence of other globally sliced actions is asserted.",
+    "general_quartic_reduction": "The universal degree-six top factors into six nonzero projective root-pair linear forms. The identity and multiplicity classification include infinity and repeated roots. Under actual nonzero return, exact birational return and the pure-top degree theorem give projected bounds1,2,4,3,6 for partitions1111,211,22,31,4. The squarefree nonzero-return case has projected ring L[v].",
+    "remaining_scope": "General zero return and the original-ring endpoint of a squarefree projected line are not settled in220. The full supplied-frame and full-initial-ideal hypotheses are essential. Separate221/222 work and runs are excluded. Arbitrary entry and unrestricted cancellation remain open."
+  },
+  "goal_audit": {
+    "current_progress": "Two220 notes sharpen the supplied mixed sector to nonrealizability and give a universal six-pair sextic identity with actual nonzero-return degree bounds for general binary quartics. Four finite methods passed in one canonical execution. The unrestricted goal remains unresolved.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "actual_globally_sliced_exact1122_frame_required": true,
+    "entire_initial_kernel_required": true,
+    "mixed_line_excluded_before_recognition_endpoint": true,
+    "mixed_sector_empty_under_supplied_hypotheses": true,
+    "formal_leading_data_separately_consistent": true,
+    "formal_leaders_asserted_actual_frame": false,
+    "UFD_base_not_PID_theorem_used": true,
+    "raw_speed_and_rho_independence_assumed": false,
+    "D_squared_Z_original_polynomial_proved": true,
+    "coefficient_field_factors_assumed_regular": false,
+    "general_sextic_identity_includes_infinity_and_repetitions": true,
+    "general_degree_bounds_require_nonzero_return": true,
+    "nonzero_return_asserted_root_free": false,
+    "general_zero_return_excluded_here": false,
+    "squarefree_general_original_ring_endpoint_proved_here": false,
+    "projected_line_asserted_ambient_coordinate": false,
+    "coefficient_field_rationality_assumed": false,
+    "arbitrary_entry_proved": false,
+    "other_initial_kernels_excluded_here": false,
+    "unrestricted_cancellation_proved": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/mixed-quartic-line-nonrealizability-pass220-working.md",
+      "sha256": "3c284b24c0be56e2979c51d42cb0e46ccdf852ce4d8466ad91d9532095f5bee3",
+      "bytes": 10758,
+      "lines": 256,
+      "equations": 14,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank-two-binary-quartic-leading-sextic-pass220-working.md",
+      "sha256": "fe8e7c9912486824ade81fd51be2df36c159413effc1390e006f36748d4927fc",
+      "bytes": 13146,
+      "lines": 357,
+      "equations": 20,
+      "test_methods": 0
+    },
+    {
+      "path": "research/binary_quartic_pair_factor_controls_pass220.py",
+      "sha256": "5d53bc51076697bc1614a00ab340a857ddaa0a95e03502263801f597f0231101",
+      "bytes": 9512,
+      "lines": 210,
+      "equations": 0,
+      "test_methods": 4
+    },
+    {
+      "path": "research/verification-pass220-working.json",
+      "sha256": "8317e071a4a111ca979cac31d459d82af45ad6bb077e0d1b12a474027464f61d",
+      "bytes": 11819,
+      "lines": 139,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "chain_record_count_after_including_this_checkpoint": 1356,
+  "record_count_convention": "1351 held predecessor records plus two220 proof notes, one checker source, verification220 and this checkpoint: five new records. Mutable indices, retained inputs, separate221/222 sources or runs and unsaved exploration are not counted.",
+  "verification": {
+    "capture": "research/verification-pass220-working.json",
+    "canonical_runs": [
+      {
+        "suite": "binary_quartic_pair_factor_controls220",
+        "path": "research/binary_quartic_pair_factor_controls_pass220.py",
+        "pre_execution_read": "Jet complete final author e3f280/metadatad07063; Root complete saved preread886540 with unchanged SHA5d53bc51...f0231101. These reads preceded the sole canonical execution. No unreported peer checker read is attributed.",
+        "initial_output": "986800",
+        "session_id": 46960,
+        "terminal_output": "c89e27",
+        "methods": 4,
+        "unittest_seconds": 1.057,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": false,
+        "initial_output_description": "Three progress dots and a live session handle.",
+        "pending_execution_handle": false,
+        "completion_via_original_handle": true,
+        "original_handle_poll_count": 1,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/binary_quartic_pair_factor_controls_pass220.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "shell": "/bin/zsh",
+        "login": false,
+        "initial_yield_time_ms": 1000,
+        "initial_max_output_tokens": 5000,
+        "completion_poll": {
+          "tool": "write_stdin",
+          "session_id": 46960,
+          "chars": "",
+          "yield_time_ms": 1000,
+          "max_output_tokens": 5000
+        },
+        "completion_note": "Initial986800 returned live session46960. Root resumed the same original handle once; c89e27 returned the four-test1.057s summary,OK and exit0. One execution, no rerun."
+      }
+    ],
+    "new_suites": 1,
+    "new_methods": 4,
+    "tagged_equations": 34,
+    "scope": "Four finite methods check the general sextic algebra, not the new universal original-ring mixed-line obstruction. Author and Root complete saved-source reads preceded the sole execution. Initial986800 was live session46960; original-handle c89e27 completed four tests1.057s,OK,exit0. One run, no pending handle. Actual field-return, degree, LND and weighted coefficient-ring arguments remain written-proof inputs."
+  },
+  "next_bounded_task": "Investigate the still-open general quartic zero-return and original-ring projected branches in a separate continuation. Preserve the actual-frame and entire-initial-ideal hypotheses. No220 rerun is authorized."
+}

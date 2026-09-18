@@ -1,0 +1,202 @@
+{
+  "pass": 122,
+  "status": "conditional_null_axis_exclusion_and_nonnull_cubic_divisor_restrictions; general_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3]. The literal emailed affine-line conclusion has a dimensional mismatch for general r.",
+  "summary": "In the supplied actual exact cubic framework, the null axis is excluded. A constant ambient coordinate change turns the nonnull reciprocal scalar into an exact cubic. The remaining nonnull cubic has strict polynomial speed-divisor bounds and a reducible special fiber of its axis speed. A polynomial unimodular speed control survives these restrictions without supplying an actual frame.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass121-working.json",
+    "sha256": "b082209cb22a2d95c558f7542a1e3aa64b33bc032f358d26a79c8bcf39f7c8e8",
+    "records": 781,
+    "hash_check_evidence": "ebf7eb",
+    "scope": "The previous checkpoint hash was checked. This packaging audit does not claim a fresh rehash of all 781 historical records."
+  },
+  "chain_record_count_after_including_this_checkpoint": 791,
+  "record_count_convention": "781 prior frozen records plus nine current artifacts plus this checkpoint. README and research-ledger are live indexes; the current checkpoint hash is recorded externally.",
+  "current_integrity_audit": {
+    "artifacts": [
+      {
+        "path": "research/cubic-global-axis-frontier-pass122.md",
+        "sha256": "e5f5198f01e658ab75cc1d40406ced40a6771fe1a62951a22d1f8ed7cf2c9505",
+        "bytes": 7047,
+        "lines": 137,
+        "equations": 0,
+        "test_methods": 0
+      },
+      {
+        "path": "research/cubic-nonnull-divisor-restriction-pass122.md",
+        "sha256": "3a948d61912679f75b90f222fb820ac78fa8d63365a6b6d86bffd08998af19b6",
+        "bytes": 9361,
+        "lines": 230,
+        "equations": 6,
+        "test_methods": 0
+      },
+      {
+        "path": "research/cubic-nonnull-reciprocal-equivalence-pass122.md",
+        "sha256": "5e97f47aa319ace43720fbe9cf557229ce01294607b5c756141bc13a24c62ba7",
+        "bytes": 10107,
+        "lines": 252,
+        "equations": 7,
+        "test_methods": 0
+      },
+      {
+        "path": "research/cubic-null-axis-exclusion-pass122.md",
+        "sha256": "f9aa6a5b8e9ab2bc2b8a241f733819c439504a06ebbe70318ab334adbf1d91cf",
+        "bytes": 7032,
+        "lines": 166,
+        "equations": 5,
+        "test_methods": 0
+      },
+      {
+        "path": "research/cubic-null-global-reconstruction-pass122.md",
+        "sha256": "7fa74406e22f7787660c4277f32dfa95f400a6c14cb0d65a69331c95e8eeecb2",
+        "bytes": 7459,
+        "lines": 167,
+        "equations": 5,
+        "test_methods": 0
+      },
+      {
+        "path": "research/cubic_nonnull_reciprocal_checks_pass122.py",
+        "sha256": "3389e7a64b90ab637f14ef003cc010c0a7c7d678568f56d0adb93d177b9c9aca",
+        "bytes": 3790,
+        "lines": 104,
+        "equations": 0,
+        "test_methods": 1
+      },
+      {
+        "path": "research/cubic_nonnull_reconstruction_checks_pass122.py",
+        "sha256": "a8a739ce22d42d00946924e30cc41c4dde31ad7e8ff0a0bb5e485e5d02fb1dfb",
+        "bytes": 5337,
+        "lines": 121,
+        "equations": 0,
+        "test_methods": 2
+      },
+      {
+        "path": "research/cubic_null_reconstruction_checks_pass122.py",
+        "sha256": "1467c0a4a84ac7b06cbe59b4b3b9c5f38174d71c34f126489a013e2ba4a944cd",
+        "bytes": 2318,
+        "lines": 60,
+        "equations": 0,
+        "test_methods": 1
+      },
+      {
+        "path": "research/verification-pass122-working.json",
+        "sha256": "1b678262b7c3f34c5cbcee55bdf168b506ee5f5959535988f1c91cabd4a6e770",
+        "bytes": 4916,
+        "lines": 75,
+        "equations": 0,
+        "test_methods": 0
+      }
+    ],
+    "equations": 23,
+    "local_markdown_links": 25,
+    "new_test_methods": 4,
+    "metadata_evidence": ["c53927"],
+    "scope": "Nine current artifact hashes, byte and line counts, numbered equation tags and checker AST counts. The initial c53927 link audit had only the not-yet-created checkpoint link pending; the final checkpoint/link audit is recorded externally. Two synthesis displays are unnumbered."
+  },
+  "canonical_verification": {
+    "path": "research/verification-pass122-working.json",
+    "tool_evidence": "e33429",
+    "suites": 6,
+    "test_methods": 8,
+    "new_methods": 4,
+    "retained_methods": 4,
+    "elapsed_seconds": 2.6984937922097743,
+    "unittest_seconds": 2.333,
+    "exit_code": 0,
+    "complete_output_sha256": "ea74fb2b4081acf4b4b0526e4c08baf6f29045b97c41054f96e2f4e68a550f59",
+    "output_hash_convention": "SHA256 of the exact UTF-8 complete_output string stored in the capture, including its leading and trailing newlines.",
+    "all_input_hashes_unchanged": true,
+    "all_passed": true,
+    "review_evidence": ["aa20ec", "c53927"],
+    "review_scope": "Full capture read; command-to-input mapping; six before, after and current hashes; AST [1,1,2,1,2,1]; eight recorded successes; exact output hash. Geometry did not rerun the tests.",
+    "coverage_scope": "Targeted algebraic identities and polynomial controls only. No full historical rerun, invariant-kernel or finite-field proof, global original-frame realization, cancellation proof, human expert review or novelty clearance."
+  },
+  "status_checkin": {
+    "evidence": "a6c9c2",
+    "test_methods": 8,
+    "classification": "verification_progress_only",
+    "new_theorem": false,
+    "scope": "The user-status turn reran eight tests and reread a proof. It was not a new discovery. The canonical e33429 capture supersedes it; the runs are not additive coverage."
+  },
+  "proof_reviews": [
+    {
+      "artifact": "research/cubic-null-global-reconstruction-pass122.md",
+      "author": ["a15f68", "af7bef", "d887de"],
+      "independent": [{"reviewer": "Geometry", "evidence": ["422c18", "f568b8"], "scope": "Full five-equation proof and final checker/provenance tail. Exact global row, full-kernel contraction and arbitrary finite-place residue lemma. No primary-source reread or test execution."}]
+    },
+    {
+      "artifact": "research/cubic-null-axis-exclusion-pass122.md",
+      "independent": [{"reviewer": "Geometry", "evidence": ["f568b8"], "scope": "Full five-equation proof, actual original-coordinate divisibility contradiction and combined null-reciprocal status. No primary-source reread or test execution."}]
+    },
+    {
+      "artifact": "research/cubic-nonnull-reciprocal-equivalence-pass122.md",
+      "independent": [{"reviewer": "Geometry", "evidence": ["859a5a"], "scope": "Full seven-equation proof and one-method code. Constant congruence, finite-field derivative law, exact cubic expansion, actual potential and N_new=N/Lambda. No primary-source reread or test execution."}]
+    },
+    {
+      "artifact": "research/cubic-nonnull-divisor-restriction-pass122.md",
+      "root_read": ["e44e57", "a79256"],
+      "independent": [
+        {"reviewer": "Geometry", "evidence": ["27d622", "15508c"], "scope": "Full six-equation proof plus final notation/global-N-link delta. Connection first integrals, global row, factorial closure, strict valuation, reducible fiber and surviving control."},
+        {"reviewer": "Jet", "evidence": ["38b5c2"], "scope": "Reported full saved-file six-equation reconstruction; the surviving control is not an actual frame."}
+      ]
+    }
+  ],
+  "code_reviews": [
+    {"artifact": "research/cubic_null_reconstruction_checks_pass122.py", "methods": 1, "reviewer": "Geometry", "evidence": "f568b8", "scope": "Complete 60-line code-only review; retained speed-relation residual, row and contraction identity certificates. No execution."},
+    {"artifact": "research/cubic_nonnull_reciprocal_checks_pass122.py", "methods": 1, "reviewer": "Geometry", "evidence": "859a5a", "scope": "Complete 104-line code-only review of constant congruence, inverse and volume normalization. No execution."},
+    {"artifact": "research/cubic_nonnull_reconstruction_checks_pass122.py", "methods": 2, "reviewer": "Geometry", "evidence": "5e2685", "root_read": "883518", "scope": "Complete 121-line code-only review; connection/rho equations, residual row certificates and all four prime-support multiplicities. No execution."}
+  ],
+  "source_dependencies": {
+    "fresh_primary_reported_by_root": {
+      "source": "The Stacks Project, Lemma 15.113.2, tag09E5",
+      "url": "https://stacks.math.columbia.edu/tag/09E5",
+      "evidence": "turn3795view0",
+      "reader": "Root",
+      "scope": "Full displayed statement and proof, reported by Root. Consistency citation for finite residue-field extensions only. The new proof includes its own normalized-polynomial argument; Geometry did not newly read this primary source."
+    },
+    "retained_framework": [
+      "research/nonconical-quadratic-potential-pass90.md",
+      "research/nonconical-cubic-relation-pass90.md",
+      "research/nonconical-global-jacobian-field-pass91.md",
+      "research/cubic-nondegenerate-conic-axis-pass120.md",
+      "research/cubic-axis-scalar-normal-forms-pass121.md",
+      "research/cubic-null-axis-scalar-constraint-pass121.md",
+      "research/cubic-nonnull-axis-scalar-constraint-pass121.md",
+      "research/cubic-null-axis-polynomial-speed-pass121.md"
+    ]
+  },
+  "new_result_scope": [
+    "The null cubic scalar contradicts actual original-coordinate irreducibility; together with121, the entire null-axis alternative is excluded.",
+    "A supplied nonnull reciprocal frame is ambient-equivalent to a supplied nonnull cubic frame through a constant linear coordinate change.",
+    "Every prime p dividing Y satisfies 0<v_p(Y)<3v_p(P) and p divides g^2-1. The axis speed is nonconstant, with at least one reducible fiber at 1 or -1; in particular it is not a coordinate of S.",
+    "A polynomial unimodular speed control satisfies these new restrictions. It supplies no actual potential, original-coordinate inverse or cancellation counterexample."
+  ],
+  "unresolved_obligations": [
+    "Original-coordinate realization or exclusion of the remaining nonnull cubic type, beyond speed, metric and divisor conditions.",
+    "Entry from an arbitrary sliced polynomial cylinder into the supplied original-coordinate constant-acceleration framework.",
+    "Confirmation of the professor's intended field, dimension and conclusion.",
+    "Human expert review, formal proof checking if sought, and statement-level novelty clearance."
+  ],
+  "goal_audit": {
+    "objective": "keep going until u solved it",
+    "status": "active",
+    "pass_mathematics_classification": "progress",
+    "latest_user_status_turn_classification": "verification_progress_only",
+    "archival_task_classification": "packaging_and_verification_only",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false
+  },
+  "boundaries": {
+    "human_expert_review": false,
+    "formal_verification": false,
+    "novelty_cleared": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "paid_resources": false,
+    "new_automation": false,
+    "files_through121_frozen": true,
+    "later_pass123_developments_included": false
+  },
+  "live_indexes": ["README.md", "research-ledger.md"]
+}

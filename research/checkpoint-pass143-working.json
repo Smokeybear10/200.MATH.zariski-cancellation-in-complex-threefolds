@@ -1,0 +1,130 @@
+{
+  "pass": 143,
+  "status": "closed_polynomial_coefficient_fiber; conditional_stabilizer_and_degree_bound; unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass142-working.json",
+    "sha256": "5c7d8fb358ee27cb4faecf9688e1954ef77ee65d04285c91118cc1cd0f3a8f08",
+    "records": 935
+  },
+  "chain_record_count_after_including_this_checkpoint": 944,
+  "record_count_convention": "935 prior records plus five mathematical notes,two checkers,verification143 and this checkpoint. Live indexes excluded.",
+  "artifacts": [
+    {
+      "path": "research/polynomial-coefficient-fiber-presentation-pass143-working.md",
+      "sha256": "4019dc389218690bd90396f12f525f62257ac59644e84793f844605a5db99723",
+      "bytes": 9223,
+      "lines": 213,
+      "equations": 8,
+      "test_methods": 0
+    },
+    {
+      "path": "research/dense-base-compatible-component-stabilizer-pass143-working.md",
+      "sha256": "9dc6ba6e2c5387e30e23242b96dc30399ee30dd971deda6fd345e701c002d91c",
+      "bytes": 12723,
+      "lines": 312,
+      "equations": 10,
+      "test_methods": 0
+    },
+    {
+      "path": "research/tail-coefficient-field-degree-pass143-working.md",
+      "sha256": "6eb04a8c41e6dc519d69736a2fb8539775609e2e249453ddc9d5fe90aedc6658",
+      "bytes": 9801,
+      "lines": 238,
+      "equations": 7,
+      "test_methods": 0
+    },
+    {
+      "path": "research/formal-base-incompatible-tail-pass143-working.md",
+      "sha256": "f0fc5075debcf51d4c5a4b701e6bd830f1ad27ea3a1fd391258de4df2e56593c",
+      "bytes": 5412,
+      "lines": 140,
+      "equations": 5,
+      "test_methods": 0
+    },
+    {
+      "path": "research/recovered-invariant-template-rigidity-pass143-working.md",
+      "sha256": "47032c874c59273d9022565ed306e670d1dc6909c8ea8641c3f58900d4829688",
+      "bytes": 10856,
+      "lines": 289,
+      "equations": 9,
+      "test_methods": 0
+    },
+    {
+      "path": "research/polynomial_coefficient_fiber_controls_pass143.py",
+      "sha256": "581e31ee87ae03eaecf69a6337d595b0f54e440aa754b512788adaf64ab4b5a3",
+      "bytes": 6492,
+      "lines": 134,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/tail_field_degree_controls_pass143.py",
+      "sha256": "d44af89bae85795b99dc92907ed3f15641b214c291b27eca63fbde291bf7dc64",
+      "bytes": 12866,
+      "lines": 236,
+      "equations": 0,
+      "test_methods": 4
+    },
+    {
+      "path": "research/verification-pass143-working.json",
+      "sha256": "18dd61144e7f245392ef7c2adff7382bce153542338370404776d8d0940b9401",
+      "bytes": 8588,
+      "lines": 119,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "results": [
+    "Four actual polynomial invariant-return equations generate the selected prime ideal without denominators or saturation.",
+    "On active components with constant field L, the two initial speed identities are equivalent to the normalized source derivation comparison; these components correspond to the finite stabilizer of the tail coefficients.",
+    "The coefficient norm of the selected equation is the minimal equation over L0, and [L:L0]deg(g)<=deg(Phi). The bound concerns missing tail coefficients, not the whole extension L/K.",
+    "Formal examples separate enlarged constants from failed base-ratio return. Both explicitly fail actual inversion.",
+    "The recovered-invariant divided-difference template is classified exactly; every dense surviving actual frame has primitive first tails, including nonconstant selected speeds."
+  ],
+  "verification": {
+    "capture": "research/verification-pass143-working.json",
+    "executions": [
+      {
+        "completion": "b5be0b",
+        "initial": "f2956d",
+        "exit_code": 0,
+        "methods": 3,
+        "seconds": 3.473
+      },
+      {
+        "completion": "8f762e",
+        "exit_code": 0,
+        "methods": 4,
+        "seconds": 0.403
+      }
+    ],
+    "total_new_test_methods": 7,
+    "numbered_equations_in_notes": 39,
+    "pending_execution_handles": false,
+    "scope": "Written deductions with independent AI reconstructions and finite exact symbolic controls. No human expert review, proof-assistant verification or historical novelty clearance."
+  },
+  "next_bounded_task": "Attack initial base-ratio return on arbitrary active first-tail components using the actual polynomial invariant projection, or construct an actual inverse-verified violation. Keep algebraic-constant enlargement separate: extending constants can destroy the rational-good-field step in the stabilizer argument. Do not repeat formal-only counterexamples as if they met the actual inverse premise.",
+  "remaining_gaps": [
+    "No proof that all actual first tails are primitive and no actual extra-factor example.",
+    "No global polynomial descent for all remaining dense higher-degree supplied profiles.",
+    "No arbitrary three-good coordinate-entry theorem or full cancellation proof.",
+    "Professor's intended field/dimension/correction unconfirmed; human review and novelty assessment outstanding."
+  ],
+  "goal_audit": {
+    "previous_goal_turn": "Progress through authoritative completion of confirmed142 test process.",
+    "current_goal_turn": "Progress through closed142 packet,five new143 arguments and seven passing143 methods.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "earlier_frozen_files_edited": false
+  }
+}

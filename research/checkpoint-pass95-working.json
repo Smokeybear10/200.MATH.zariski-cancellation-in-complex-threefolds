@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "pass": 95,
+  "created_at_utc": "2026-09-14 16:25:47 UTC",
+  "active_goal": "keep going until u solved it",
+  "working_question": "Unconfirmed corrected complex-threefold cancellation: A[s] isomorphic to C^[4] implies A isomorphic to C^[3].",
+  "general_conjecture_solved": false,
+  "goal_status": "active",
+  "this_pass_classification": "progress",
+  "preceding_turn_classification": "Substantive pass94 was progress. The intervening user check-in was status-only and is no progress; this continuation revalidated the saved work and continued proof and dependency work.",
+  "summary": "In the supplied actual quadratic frame, all reduced fiber components are smooth and disjoint and the quotient differential has rank at least one everywhere. The packet also gives an exact noncollapsed local model under nonzero first normal action, a restricted cubic leading-pencil classification, and an actual all-coefficient obstruction to constant-linear projected-generator extraction for one specified slice.",
+  "scope_assumptions": [
+    "Actual original-coordinate nonconical constant-acceleration frame B=A[u]=C^[4], E sliced, three E-affine original coordinates, a fourth with nonzero constant E-second derivative, and the retained cyclic nilpotent Jacobian identities.",
+    "Actual canonical primitive Jacobian LND N, kernel S=C^[2], faithfully flat quotient, A=S[A1,A2,c], generic A_K=K[w]; quadratic relative degrees at most2,2,4 or cubic at most3,3,6.",
+    "Everywhere quadratic rank proof uses the whole-irreducible-fiber ramification92 exclusion of multiplicity4, not only the earlier generic-rank corollary.",
+    "Exact noncollapsed local parameters require nonzero first normal action. Cubic classification concerns the literal graded ring, and its independent-pencil normal form assumes multiplicity5 or6.",
+    "No arbitrary sliced-action reduction or global recognition theorem is supplied."
+  ],
+  "completed_deductions": [
+    "Two quadratic multiplicity-two reduced components are disjoint; either intersection rank would yield a nonnilpotent polynomial leading Jacobian derivation.",
+    "The collapsed multiplicity-two nonzero-first-normal power-column alternative is excluded. The surviving column span is {1,c}; its weighted normal coefficients are complex constants.",
+    "Every quadratic reduced fiber component is a smooth open affine line and the components are pairwise disjoint.",
+    "Each whole component thickening contains an actual parameter PID and is finite free of rank its generic multiplicity, at most3.",
+    "A local transverse section at any quadratic point has length at most3, while quotient rank zero would force length at least4; hence quotient rank is at least1 at every point.",
+    "A surviving noncollapsed good generator U gives multiplicity2 and a reduced open affine line. If its first normal action is nonzero, r=N²U,v=NU,eta=2rU-v² supply actual generic-component and local-base parameters with N=r∂v+v∂U.",
+    "Independent quadratic initials at cubic rank-zero components of multiplicity5 or6 reduce to (P²,PQ), with (P,Q)=M(c)(xi,eta), M invertible over C[c], det constant nonzero and degree at most3. This is a leading-model conclusion.",
+    "The cubic degree-three normal-frame bound is sharp as a graded control, and two Artin complete intersections of lengths5 and6 share one leading pencil.",
+    "An explicit polynomial automorphism gives a specified slice projection with no coordinate among any nonzero constant linear combination of its four projected generators. Nonlinear recovery and a different slice work in that same polynomial example."
+  ],
+  "proof_reviews": {
+    "double_components": "Root author; General, Geometry, Jet saved-proof reviews plus final ninth-equation extension review.",
+    "noncollapsed_local_model": "Jet author; Root, General, Geometry complete saved-proof reviews.",
+    "cubic_pencil": "Geometry author; Root, General, Jet complete saved-proof reviews and final provenance/control delta reviews.",
+    "projected_generator_obstruction": "General author; Root, Geometry, Jet complete proof/code reviews.",
+    "everywhere_rank": "Jet author; Root, General, Geometry complete seven-equation saved-proof reviews. General's final saved-proof review is separate from its outline review.",
+    "synthesis": "Root author; Root full saved read and General complete independent four-equation review with source footnotes.",
+    "limit": "Separate AI mathematical reconstructions, not human expert review, formal proof-assistant verification or historical novelty clearance."
+  },
+  "targeted_verification": {
+    "path": "research/verification-pass95-working.json",
+    "sha256": "a951a28bc9d4d2dd0fdfee92e4c964750fcda12a8bfa4c17680e7437656cde6a",
+    "all_passed": true,
+    "suites": 3,
+    "test_methods": 3,
+    "started_at_utc": "2026-09-14T16:07:34.066Z",
+    "finished_at_utc": "2026-09-14T16:07:34.688Z",
+    "wall_seconds": 0.615537166,
+    "unittest_seconds": 0.177,
+    "input_files": 3,
+    "input_hashes_unchanged": true,
+    "complete_output_sha256": "11801a403c48cab8e7a95159aa4e8237a03e878211506a094b111c1de1a80dbd",
+    "output_hash_convention": "stdout + one newline + stderr",
+    "canonical_tool_chunk": "c09b52",
+    "current_input_output_audit": "Root81e2e7 verified all three final input hashes and complete-output digest without rerun.",
+    "scope": "Finite exact initial-operator and normal-frame controls, two Artin algebras, and an actual inverse/projection/critical-curve example. Not a formal verifier of universal geometry, the all-coefficient existence proof or cancellation."
+  },
+  "predecessor_audit": {
+    "checked_at_utc": "2026-09-14T16:18:12.318Z",
+    "all_passed": true,
+    "prior_hash_records": 552,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "9471dabbf3f9f8b8a8099b7705b8dee6660ab4ece50fbc693bee276c5af6ce2b",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "tool_chunk": "fd23e7",
+    "unchanged": true
+  },
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-14T16:24:27.378Z",
+    "all_passed": true,
+    "artifact_count": 11,
+    "numbered_equations": 46,
+    "local_links_checked": 776,
+    "missing_links": [],
+    "deferred_links": [
+      {
+        "from": "research/nonconical-quadratic-rank-frontier-pass95.md",
+        "target": "checkpoint-pass95-working.json"
+      },
+      {
+        "from": "README.md",
+        "target": "research/checkpoint-pass95-working.json"
+      },
+      {
+        "from": "research-ledger.md",
+        "target": "research/checkpoint-pass95-working.json"
+      }
+    ],
+    "targeted_inputs_checked": 3,
+    "targeted_complete_outputs_checked": 1,
+    "artifacts": [
+      {
+        "path": "research/cubic_quadratic_pencil_checks_pass95.py",
+        "sha256": "dc59941e7c7ae875a706d80adf2c3b5378a573a6ec5d2bd707b954b1c881d4d1",
+        "bytes": 6187,
+        "content_lines": 136,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/double_component_initial_checks_pass95.py",
+        "sha256": "ba08d2304141b49c6b23e86cc3624cb67b9757d941ebefad55f3741c99afe51b",
+        "bytes": 3436,
+        "content_lines": 94,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/noncollapsed-quadratic-local-translation-model-pass95.md",
+        "sha256": "b19a1e77980dc3750c80b3ae8ab7e28741f9a7e8b0dc83588283b99c38304509",
+        "bytes": 9065,
+        "content_lines": 231,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/nonconical-cubic-quadratic-pencil-pass95.md",
+        "sha256": "c3787d1eea1fcf709cdddfc5d0891d0435f5d7d03b607e698aab053883bb291c",
+        "bytes": 14357,
+        "content_lines": 330,
+        "numbered_equations": 12
+      },
+      {
+        "path": "research/nonconical-quadratic-rank-frontier-pass95.md",
+        "sha256": "6c8642120c8c32e73e29ee623f0b4c1bd1e0ce228a0f327dc3b361af73516c8c",
+        "bytes": 13167,
+        "content_lines": 301,
+        "numbered_equations": 4
+      },
+      {
+        "path": "research/projected-generator-linear-extraction-obstruction-pass95.md",
+        "sha256": "6a6485e65f3f2417e1cc62943da34b49cd2c254344de134a4a8adb311925676f",
+        "bytes": 7494,
+        "content_lines": 173,
+        "numbered_equations": 6
+      },
+      {
+        "path": "research/projected_generator_extraction_checks_pass95.py",
+        "sha256": "5d1b11a2624e504984456e0bdbac4ba774eb8e3493fd4194c827263163dfea16",
+        "bytes": 3334,
+        "content_lines": 82,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/proof-audits-pass95-working.md",
+        "sha256": "02c06105480eba9feb5511f2e624201a39f91918440eb37aa05b94f147f1269e",
+        "bytes": 9056,
+        "content_lines": 196,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/quadratic-double-components-disjoint-pass95.md",
+        "sha256": "50bee3c10ccfd21a336a314de86ab3dbed9c700af8458002644d16ae9e1fb87a",
+        "bytes": 14240,
+        "content_lines": 335,
+        "numbered_equations": 9
+      },
+      {
+        "path": "research/quadratic-quotient-rank-everywhere-pass95.md",
+        "sha256": "505d47c2ace88864da1ffb4816d5dc5ffd8637a74503c22928cc59bca300ba5a",
+        "bytes": 10320,
+        "content_lines": 247,
+        "numbered_equations": 7
+      },
+      {
+        "path": "research/verification-pass95-working.json",
+        "sha256": "a951a28bc9d4d2dd0fdfee92e4c964750fcda12a8bfa4c17680e7437656cde6a",
+        "bytes": 2147,
+        "content_lines": 39,
+        "numbered_equations": 0
+      }
+    ],
+    "tool_chunk": "81e2e7",
+    "scope": "Eleven saved artifacts and README/ledger local links. Three checkpoint links deferred until save; postsave audit resolves them."
+  },
+  "selected_primary_sources": [
+    {
+      "url": "https://stacks.math.columbia.edu/tag/0C0S",
+      "scope": "Complete displayed statement and proof checked for coefficient-compatible power-series coordinates; no complete Cohen-structure dependency reconstruction."
+    },
+    {
+      "url": "https://www.math.miami.edu/~kaliman/library/KaSa.michigan.2004.quotient.pdf",
+      "scope": "Complete Corollary2.8 statement/proof checked. Geometry additionally read the complete displayed Theorem2.7 proof; Root's partial theorem extract is not recorded as a complete fresh theorem proof read. Applied only to literal graded affine3."
+    }
+  ],
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "fresh_full95_regression_performed": false,
+  "central_registry_integrated": false,
+  "historical_claim_count": 544,
+  "record_accounting": {
+    "prior_frozen_records": 552,
+    "new_artifacts": 11,
+    "new_checkpoint_self": 1,
+    "records_after_checkpoint_freeze": 564,
+    "note": "Checkpoint self hash is held externally and verified after saving."
+  },
+  "rejected_shortcuts": [
+    "Rank at least1 is not rank2, a free action or polynomial-ring recognition.",
+    "Finite free whole thickenings are module statements, not products of truncated polynomial algebras.",
+    "Generic-component local parameters need not be global base coordinates.",
+    "The nonzero first normal action hypothesis is not automatic in the local-model proof.",
+    "Local nilpotence on a polynomial associated-graded ring does not assert local nilpotence after localization or completion.",
+    "Cubic leading models and Artin examples are not actual original-frame lifts.",
+    "The all-coefficient obstruction concerns one specified slice projection; nonlinear extraction and change of slice remain possible."
+  ],
+  "next_bounded_actions": [
+    "Adversarially audit the exact whole-irreducible topological multiplicity dependency and seek a proof with fewer source hypotheses.",
+    "Use actual saturated transverse lengths to test whether a (2,2) fiber can mix a collapsed and a noncollapsed component; do not assume every first normal action is nonzero.",
+    "Seek a coordinate-slice or other global recognition criterion using the original speed row and full frame, rather than only rank>=1 quotient properties.",
+    "Keep the arbitrary sliced-action-to-frame obligation separately open."
+  ],
+  "arbitrary_constant_acceleration_recognized": false,
+  "arbitrary_sliced_action_reduced_to_frame": false,
+  "professor_interpretation_confirmed": false,
+  "historical_novelty_verified": false,
+  "human_expert_review_completed": false,
+  "formal_verification_completed": false,
+  "external_contact_made": false,
+  "submission_or_publication_made": false
+}

@@ -1,0 +1,259 @@
+# Recognition of every supplied three-good frame, in every last degree
+
+**Status: synthesis of the explicitly retained working proofs.**
+
+The recorded results now recognize every sliced complex polynomial
+four-ring supplied with three coordinates affine in the slice parameter.
+There is no bound on the time degree of the fourth coordinate.
+The new156 dense recognition supplies the last case of this exhaustive
+split; it does not subsume the separate speed-curve or conical arguments.
+
+This statement inherits the mathematical and source dependencies below.
+The present audit read the relevant saved proofs, not every historical
+dependency recursively. It makes no claim of human expert certification,
+proof-assistant verification, historical novelty, or unrestricted
+complex-threefold cancellation.
+
+## 1. Actual hypotheses and conclusion
+
+Let the four displayed generators be actual polynomial coordinates, and
+assume
+\[
+B=\mathbb C[x_1,x_2,x_3,z],\qquad
+E\in\operatorname{LND}_{\mathbb C}(B),\qquad Eu=1,\qquad
+E^2x_i=0\quad(1\le i\le3),\qquad A=\ker E .
+\tag{1}
+\]
+The global slice theorem gives \(B=A[u]\). Neither \(u\) nor an
+invariant parameter is assumed to be an ambient coordinate.
+No condition of the form \(E^kz=0\) for a specified \(k\) is imposed:
+the finite degree supplied by local nilpotence is enough.
+
+Under the retained working results listed in this note,
+\[
+A\simeq\mathbb C^{[3]},\qquad
+B=\mathbb C[p_1,p_2,p_3,u]
+\quad\text{for polynomial generators }p_1,p_2,p_3\text{ of }A .
+\tag{2}
+\]
+In particular the given slice becomes part of an actual coordinate
+system as a conclusion.
+
+Write \(a_i=Ex_i\in A\). The all-degree speed-rank theorem125 gives
+\[
+r:=\operatorname{trdeg}_{\mathbb C}\mathbb C(a_1,a_2,a_3)\le2 .
+\tag{3}
+\]
+Its proof uses the actual last-coordinate partial and its leading
+locally nilpotent degeneration. It has no last-coordinate degree
+hypothesis and does not require a quotient-plane recognition theorem
+to establish (3).[^1]
+
+## 2. Exhaustive proof-dependency table
+
+At rank two, call the speed cone *dense* when there is no nonzero
+homogeneous polynomial relation among the three speeds.
+The fixed-good minimum \(\mu\) used in the last three rows is defined
+in Section 4.
+
+| Condition | Resolution | Exact working input |
+| --- | --- | --- |
+| \(r=0\) | A nonzero constant speed gives an actual coordinate slice. If all three speeds vanish, the last speed is a unit. Both cases recognize \(A\). | The direct argument below and speed-curve127, Section 2. |
+| \(r=1\) | An invariant actual coordinate is constructed, and regular-kernel recognition gives \(A\simeq\mathbb C^{[3]}\). | Speed-curve127, Sections 1--7, explicitly with arbitrary last-coordinate degree. |
+| \(r=2\), a homogeneous linear speed relation exists | Its constant linear combination of the goods is an invariant actual coordinate; regular-kernel recognition applies. | Section 3 below and the retained Bhatwadekar--Gupta--Lokhande Theorem 3.5 gate. |
+| \(r=2\), a homogeneous relation exists but none is linear | This nonlinear conical case is impossible under the actual slice hypotheses. | All-degree conical exclusion138, using selected-partial135 and the complete138 chart and weighted lemma. |
+| \(r=2\), dense, \(\mu=0\) | A fixed-good shear produces an invariant actual bad coordinate; regular-kernel recognition applies. | Section 4 and the same invariant-coordinate gate. |
+| \(r=2\), dense, \(\mu=1\) | The minimizing shear makes all four actual coordinates nice; hence recognize. | Nice-slice80, Sections 1--2. |
+| \(r=2\), dense, \(\mu\ge2\) | Exact leading normalization, literal chain extraction and chain exclusion force the generic graph case; its actual correction recognizes \(A\). | Leading normalization153 and dense chain recognition156, with the graph and suspension endpoints153. |
+
+The rank bound rules out a missing rank-three row.
+The next sections justify that every rank-two case appears in the
+table and that all transformations used at its endpoints are actual
+coordinate transformations.
+
+For the rank-zero row, algebraicity over \(\mathbb C\) makes each
+\(a_i\) a complex constant. If some \(a_i\ne0\), \(x_i/a_i\) is
+an actual coordinate slice, and
+\(A\simeq B/(x_i)\simeq\mathbb C^{[3]}\).
+If all \(a_i=0\), write \(E=b\partial_z\) over
+\(\mathbb C[x_1,x_2,x_3]\). Local nilpotence forces \(b\) to belong
+to that coefficient ring. The slice equation gives \(1\in bB\),
+so \(b\in\mathbb C^*\) and \(A=\mathbb C[x_1,x_2,x_3]\).
+
+The rank-one row is stronger than its old quadratic applications:
+the theorem statement127 explicitly removes every bound on the
+last degree. Its proof constructs either an invariant linear
+coordinate or an invariant triangular coordinate
+\(z+P(x_1,x_2,x_3)\), not merely a rational invariant parameter.[^2]
+
+## 3. The two conical cases and the dense complement
+
+At rank two the evaluation kernel in
+\(\mathbb C[T_1,T_2,T_3]\) is a height-one prime, generated by an
+irreducible polynomial \(H\).
+If the kernel contains a nonzero homogeneous polynomial, \(H\)
+is homogeneous: every irreducible factor of a homogeneous polynomial
+in this positively graded ring is homogeneous.
+Its degree is either one or at least two. These are precisely the
+two conical rows.
+
+For a linear relation \(\sum c_i a_i=0\), the nonzero constant row
+\((c_i)\) makes \(v=\sum c_i x_i\) an actual invariant coordinate.
+The kernel \(A\) is regular: \(A\simeq B/(u)\), and \(Eu=1\)
+makes the partial derivatives of the defining polynomial \(u\)
+generate the unit ideal. Thus the nonzero \(\mathbb C[v]\)-linear
+LND on \(B=\mathbb C[v]^{[3]}\) satisfies the retained regular-kernel
+theorem, which gives \(A=\mathbb C[v]^{[2]}\).[^3]
+
+For nonlinear homogeneous \(H\), it is essential to use138, not
+only the earlier quadratic synthesis137.
+The selected-degree theorem135 applies in every last degree.
+The actual chart138 then derives all last-coordinate coefficients
+from its determinant recurrence before changing the generic-line
+parameter. Its weighted differential-field lemma yields a monic
+relation for the original bad coordinate over an exact field of
+transcendence degree one.
+The exact monic-pencil descent gives an invariant actual coordinate.
+The slice and the nonlinear cone then contradict speed rank two,
+as proved in138, Sections 3--4.[^4]
+There is no acceleration or resonance exception left in this row.
+
+Finally, if no homogeneous speed relation exists, let \(\eta\) be
+independent over \(A\). The elements \(\eta a_1,\eta a_2,\eta a_3\)
+are algebraically independent: separating any proposed relation
+into its powers of \(\eta\) would produce a homogeneous speed
+relation. Conversely such a homogeneous relation immediately
+gives a relation among the \(\eta a_i\).
+This is exactly the dense homogeneous-cone condition in139/153/156.
+It is not an assumption that every rank-two speed image is dense.
+
+## 4. The dense case has no remaining last-degree restriction
+
+Fix the good coordinates and set
+\[
+\mu=\min_{P\in\mathbb C[x_1,x_2,x_3]}
+       \deg_E\bigl(z+P(x_1,x_2,x_3)\bigr).
+\tag{4}
+\]
+The set is nonempty, consists of nonnegative integers, and hence
+has an attained minimum. Every shear in (4) has the explicit
+inverse \(z=z'-P(x_1,x_2,x_3)\). It preserves the goods, their
+speeds, the slice, and the actual dense hypotheses.
+
+If \(\mu=0\), the minimizing bad coordinate is invariant, so the
+regular-kernel gate applies.
+If \(\mu=1\), all four minimizing coordinates satisfy \(E^2=0\);
+the retained nice-slice theorem80 applies without any bound on
+their ordinary polynomial degrees.[^5]
+
+For \(\mu\ge2\), the actual leading normalization153 supplies
+the normalized dense hypotheses of156 by proved constant good
+reframes and polynomial bad shears.
+The exact-field chain extraction156 applies AMS degree divisibility
+over the actual coefficient field, preserves the original formal
+axes, and identifies the literal whole first tail and its canonical
+complement.
+Length two is ruled out by the separate actual-coordinate
+exclusion154; every length at least three is ruled out by the new
+differential-field obstruction156.
+The remaining graph case gives an actual invariant correction
+and the normalized-suspension recognition153.[^6]
+
+This application retains the actual whole-line and first-tail
+primitivity results139/145. Formal relative Jacobians or generic
+plane coordinates alone are not substituted for those hypotheses.
+It proves (2) in the last row of the table.
+
+## 5. The next possible true minimum is an E-time profile
+
+For a hypothetical sliced \(E\) on \(\mathbb C^{[4]}\) with
+nonpolynomial kernel, consider
+\[
+\mathcal M(E)=
+\min_{(q_1,q_2,q_3,q_4)\text{ an actual polynomial coordinate frame}}
+\ \sum_{i=1}^4\deg_E q_i .
+\tag{5}
+\]
+This is a true minimum over all polynomial frames, not a local
+minimum for elementary shears. It exists by well-ordering.
+The distinction was already necessary in124, where a strict
+elementary descent can fail even on a polynomial translation.[^7]
+
+No frame of the hypothetical action can have a degree-zero
+coordinate: that invariant ambient coordinate and the slice's
+regular kernel would invoke the BGL gate and recognize \(A\).
+Thus all four degrees are positive.
+By (2), no frame can have three degree-one coordinates either.
+Consequently
+\[
+\mathcal M(E)\ge6,\qquad
+\mathcal M(E)=6
+\ \Longrightarrow\
+(\deg_Eq_1,\deg_Eq_2,\deg_Eq_3,\deg_Eq_4)_{\rm sorted}
+=(1,1,2,2)
+\quad\text{in every minimizing frame}.
+\tag{6}
+\]
+Indeed the other positive sorted partition of six is \((1,1,1,3)\),
+which has three good slots and is recognized above. Sums four and
+five also necessarily have three good slots.
+
+Equation (6) does not assert \(\mathcal M(E)\le6\), does not
+construct a frame with that tuple, and does not assert that such
+a counterexample exists. A hypothetical minimum may be larger.
+The numerical tuple here is the degree in the flow parameter of
+\(E\). It is not any older selected-partial or adjoint-height
+\((1,1,2,2)\) profile, and no theorem about those different
+measurements is used.
+
+The general remaining obligation is entry into a recognized
+coordinate frame, or recognition of genuinely different profiles.
+There is no remaining last-degree problem within the supplied
+three-good profile itself.
+
+## Sources and inherited scope
+
+1. [All-degree speed-rank bound125](three-good-speed-rank-bound-pass125.md),
+   Sections 1--6. The rank bound, not a quotient-plane conclusion.
+2. [All-degree speed-curve recognition127](three-good-speed-curve-recognition-pass127.md),
+   Sections 1--7. The source-dependent curve factorization and
+   actual invariant-coordinate construction.
+3. [Invariant-coordinate endpoint127](three-good-speed-curve-recognition-pass127.md),
+   Section 7, and [case split137](three-good-quadratic-profile-recognition-pass137.md),
+   Section 3. These retain the exact applicability of
+   Bhatwadekar--Gupta--Lokhande,
+   [Theorem 3.5](https://arxiv.org/html/1501.01438v1).
+   The present synthesis does not newly re-audit that primary
+   theorem's complete dependency chain.
+4. [All-degree conical exclusion138](all-degree-conical-exclusion-pass138-working.md),
+   with its [actual chart138](all-degree-conical-chart-pass138-working.md),
+   [weighted lemma138](weighted-coefficient-polynomiality-pass138.md)
+   and [selected-partial135](conical-three-good-adjoint-degree-pass135.md).
+   Quadratic conical137 alone would not supply this row.
+5. [Nice-slice recognition80](nice-slice-recognition-pass80.md),
+   Sections 1--2, with its explicitly retained geometric inputs.
+6. [Leading normalization153](dense-all-degree-leading-normalization-pass153-working.md),
+   [dense chain recognition156](dense-all-degree-chain-recognition-pass156-working.md),
+   [arbitrary-chain obstruction156](arbitrary-chain-gradient-obstruction-pass156-working.md),
+   [two-stage exclusion154](two-stage-nongraph-continuation-pass154-working.md),
+   [graph correction153](dense-all-degree-graph-correction-pass153-working.md)
+   and [normalized suspension153](normalized-suspension-recognition-pass153-working.md).
+   These retain the exact actual chart139 and first-tail145 inputs.
+7. [True-minimum and entry frontier124](unrestricted-entry-frontier-pass124.md),
+   Sections 1 and 5. Its then-current lower threshold is superseded
+   here only by the newly exhaustive supplied-profile recognition;
+   its warning against greedy elementary minima is unchanged.
+
+No frozen source is edited by this synthesis. It does not perform
+a historical novelty survey, a recursive audit of all retained
+proofs, or a numerical certification of their universal conclusions.
+The restricted working theorem (2) is not a proof of unrestricted
+complex-threefold cancellation.
+
+[^1]: Source 1.
+[^2]: Source 2.
+[^3]: Source 3.
+[^4]: Source 4.
+[^5]: Source 5.
+[^6]: Source 6.
+[^7]: Source 7.

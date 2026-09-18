@@ -1,0 +1,263 @@
+{
+  "pass": 112,
+  "status": "proved_conditional_whole_double_conormal_and_cubic_restrictions_plus_triangular_family_not_cancellation",
+  "working_target": "Unconfirmed intended complex-threefold cancellation: A[u] isomorphic to C^[4] implies A isomorphic to C^[3]. Literal emailed A^1 conclusion has a dimension mismatch for general r.",
+  "summary": "The supplied actual proper whole-double branch forces b² in (h)+a(a,b), h nonzero and gcd(h,a)=1. Its cubic derivative image lies in mF2. A global conormal and canonical-volume argument supplies a constant leading weighted chart for any speed normal, yielding W3=span{1,G} when h has nonzero first base jet and W3 contained in span{1,G,Gc} otherwise. Finite monic preparation separately proves a hidden quadratic parameter for every polynomial triangular perturbation. The proper branch and global cancellation remain open.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass111-working.json",
+    "sha256": "414dd7d37288aab25244e16705f6c3bd32fc1c5a3a1312bf68976cafbe3708f4",
+    "frozen_records": 694,
+    "full_revalidation_evidence": "fd5cf7",
+    "all_unchanged": true,
+    "preceding_goal_turn": "no progress: user check-in read goal/current saved proof status, with no new proof or verified live-process poll.",
+    "previous_completed_research_turn": "progress:111 finished conditional all-normal mixed exclusion and whole-double dichotomy. Pending112 product/triangular arguments were finalized in this continuation."
+  },
+  "chain_record_count_after_including_this_checkpoint": 702,
+  "record_count_convention": "694 predecessor frozen records + seven current artifact records + this checkpoint =702. README and research-ledger stay live and excluded. AI reviews and repeat executions add no distinct mathematical coverage.",
+  "canonical_verification": {
+    "path": "research/verification-pass112-working.json",
+    "tool_evidence": "459b6b",
+    "suites": 6,
+    "test_methods": 8,
+    "new_methods": 3,
+    "retained_methods": 5,
+    "elapsed_seconds": 3.422076459,
+    "unittest_seconds": 3.054,
+    "complete_output_sha256": "375dcaed52886b3132ec6d00e5048a993f80d9c5ab66e4c7cd91ecb83e9aa43a",
+    "all_passed": true,
+    "scope": "New product-index determinant and conormal/weighted identities; finite triangular monic preparation with odd and quartic perturbations, e=1..4 and leading derivative instances n=0..6. Retained111 nilrank/coordinate,102 conic module and107 divisor filtration identities. Does not verify the geometric chart, module purity, divisor classifications, the all-Q/all-e/all-n triangular theorem, proper-branch exclusion, arbitrary-frame entry, cancellation or novelty."
+  },
+  "author_executions": [
+    {
+      "author": "Jet",
+      "command": "/opt/anaconda3/bin/python research/triangular_whole_double_checks_pass112.py",
+      "evidence": "14256d",
+      "methods": 1,
+      "unittest_seconds": 1.753,
+      "tool_wall_seconds": 2.010415875,
+      "exit_code": 0
+    },
+    {
+      "author": "Jet",
+      "command": "/opt/anaconda3/bin/python research/whole_double_conormal_checks_pass112.py",
+      "evidence": "f98892",
+      "methods": 2,
+      "unittest_seconds": 0.148,
+      "tool_wall_seconds": 0.4379125,
+      "exit_code": 0
+    }
+  ],
+  "historical_full_verification": {
+    "path": "research/verification-pass75-working.json",
+    "suites": 146,
+    "methods": 1047,
+    "claim_registry_count": 544,
+    "rerun_this_pass": false,
+    "revalidation": "fd5cf7 checked frozen hashes and retained counts, not a full execution."
+  },
+  "sources": [
+    {
+      "url": "https://stacks.math.columbia.edu/tag/0E9J",
+      "title": "Lemma31.22.12: regular immersions of regular schemes",
+      "use": "Regular immersion for the reduced smooth line in the actual smooth threefold.",
+      "root_evidence": "turn3672view0",
+      "scope": "Complete selected statement and displayed proof, not all deeper references."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/063M",
+      "title": "Lemma31.22.5: conormal characterization",
+      "use": "Locally free conormal and symmetric associated-graded algebra for the regular immersion.",
+      "root_evidence": "turn3672view1",
+      "scope": "Complete selected statement and displayed proof, not all deeper references."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/0632",
+      "title": "Equation31.20.1.2: symmetric conormal-algebra map",
+      "use": "The exact map used in the associated-graded step.",
+      "root_evidence": "turn3672view2",
+      "scope": "Complete displayed equation."
+    }
+  ],
+  "proof_limits": [
+    "The original actual constant-acceleration quadratic frame, invariant plane, selected-good divisor noncollapse, smoothness and exact all-divisor degree classifications are supplied, not established for arbitrary cancellation input.",
+    "The product module has index determinant a unit times b²; its adjugate annihilation does not make it a basis or its cokernel cyclic.",
+    "The surviving coefficient restriction is b² in (h)+a(a,b), with gcd(h,a)=1. It does not give mixed sharp a² extraction or gcd(h,b)=1.",
+    "The conormal completion uses the actual C[c] section and regular immersion. No global equality q=(F,G) in A is asserted.",
+    "The initial Bezout generator F may not be invariant. An invariant constant-base x is obtained only after the conormal vector is proved affine.",
+    "The formal Jacobian has a constant reduced volume coefficient, not a globally constant full multiplier or a polynomial normal form.",
+    "No completed or non-invariant-localized derivation is assumed locally nilpotent.",
+    "The zero-first-jet W3 inclusion does not assert that Gc has an actual cubic lift.",
+    "The whole-double proper branch remains open. Its quartic c is not contradicted by the new restrictions.",
+    "The triangular family begins with an ambient polynomial ring and a specified invariant coordinate/formula; no arbitrary frame is put in that family.",
+    "Finite tests check identities and instances, not geometric assumptions, all-polynomial quantifiers, proper-branch exclusion or cancellation.",
+    "Quadratic normalization of the formal base equation alone does not produce a parameter of N-degree two; a variable canonical unit multiplier must be controlled.",
+    "Commuting ker N³ with base-ideal completion is unproved; N is not A-linear and A is not finite over R.",
+    "Separate AI reconstructions are not human expert review, formal verification or novelty clearance. No new general cancellation literature audit was performed."
+  ],
+  "proof_reviews": [
+    {
+      "reviewer": "Root",
+      "scope": "Complete saved product, triangular and global conormal proofs, both new checkers, synthesis and canonical capture; current fixed-fiber111 and nilpotent-rank111 proofs; fixed-scheme92 Section1 volume gate. Canonical six-suite run.",
+      "evidence": [
+        "0a313b",
+        "f049f8",
+        "22cd27",
+        "74fde1",
+        "8ac250",
+        "6ddf4b",
+        "acf589",
+        "884978",
+        "126deb",
+        "08491a"
+      ],
+      "canonical_evidence": "459b6b"
+    },
+    {
+      "reviewer": "General",
+      "scope": "Full product-index eight-equation proof and global-conormal eight-equation proof, with shared two-method checker. Smooth-h continuation gives no contradiction; quotient integrality lacks a maximal-ideal conclusion. Complete triangular seven-equation proof and one-method checker also reconstructed.",
+      "evidence": [
+        "b4f7f4",
+        "b1dd9a",
+        "4f7709",
+        "7ab2bb",
+        "1a7463"
+      ],
+      "execution": false
+    },
+    {
+      "reviewer": "Geometry",
+      "scope": "Full triangular seven-equation proof and one-method checker; full conormal eight-equation proof and shared checker. Independent completion and global-volume reconstruction.",
+      "evidence": [
+        "dcb449",
+        "43b693",
+        "c6da8b",
+        "4c7384",
+        "0a83ed",
+        "1b34e4"
+      ],
+      "execution": false,
+      "provenance_note": "The triangular proof hash changed only to record its author run after the initial review; root8ac250 read final file."
+    },
+    {
+      "reviewer": "Jet",
+      "scope": "Full product-index eight-equation proof and root conormal eight-equation proof, own triangular theorem/checker and shared checker. Fresh selected conormal references including regular/quasi-regular equivalence063L.",
+      "evidence": [
+        "7c9a03",
+        "4486a6",
+        "6da264",
+        "b90b60",
+        "999c3e",
+        "988719"
+      ],
+      "author_executions": [
+        "14256d",
+        "f98892"
+      ],
+      "source_evidence": [
+        "turn3673view0",
+        "turn3673view1",
+        "turn3673view2",
+        "turn3675view0"
+      ]
+    },
+    {
+      "reviewer": "Jet",
+      "scope": "Complete synthesis, canonical capture and new README/ledger tops; independently verified six input hashes, AST counts, eight distinct passed lines,3new5retained, timing and complete output hash.",
+      "evidence": [
+        "834cc9",
+        "6f1328",
+        "a2ce4b",
+        "40cc52",
+        "2e7e3d"
+      ],
+      "execution": false
+    }
+  ],
+  "next_bounded_tasks": [
+    "Attack the actual proper whole-double branch using its new constant leading chart and exact W3 bounds. Prove a hidden quadratic parameter or an actual-frame obstruction; a compatible coefficient tuple is not enough.",
+    "First construct a volume-compatible formal Uhat of N-degree two if possible, retaining the generally variable canonical unit multiplier. Then investigate formal-to-actual descent with all actual prime-divisor data and the connected ramified whole double. Neither existence nor ker(N³ on completion)=F2 tensor completed R is established.",
+    "Audit a diagnostic completion control suggested by General: R=C[x,y]_(x,y), A=R[r,t]/(xt-r²+r), Nr=x,Nt=2r-1. Its completion admits formal invariant idempotent (1+(2r-1)/sqrt(1+4xt))/2. This was a checked outline, not a new saved theorem or test: it has two reduced fiber components and fails the actual prime-divisor fiber gate. It only warns against descent from free Fn and flatness alone.",
+    "Do not repeat triangular coefficient searches within f=y²+xQ+x^e z as candidate proper-image examples: the all-polynomial finite preparation theorem excludes that entire class. Proving an actual normal-form entry into the class would be new work.",
+    "Maintain the arbitrary-action entry and global recognition lane separately. No supplied quadratic frame or stable coordinate construction settles those tasks. Relative cubic remains open.",
+    "A diagnostic formal field (1+Y)(x partial_Y+2Y partial_C) preserves x and xC-Y² and has constant reduced volume factor, but N³C=2x²(1+Y)(3+4Y). This is not an actual LND/frame and fails G in F2; audit only as a warning that base normalization without degree/volume control is insufficient."
+  ],
+  "draft_corrections": [
+    "An attempted fixed-scheme92 filename did not exist; the correct nonconical-fixed-scheme-structure92 Section1 was then read completely for the volume gate.",
+    "Precreation integrity df7ad6 found exactly three pending links to this checkpoint; no mathematical artifact or input hash discrepancy.",
+    "The next-task statement now separates volume-compatible formal degree-two existence from subsequent algebraic descent; neither follows merely from formal quadratic base normalization."
+  ],
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-14T23:18:50.372Z",
+    "all_passed": true,
+    "artifacts": [
+      {
+        "path": "research/whole-double-product-index-pass112.md",
+        "sha256": "4cba29e0f708bfe56d25a5d85fa0b37dfa51a6dbcde3517f071f146ffc227aef",
+        "bytes": 9770,
+        "content_lines": 226,
+        "equation_tags": 8
+      },
+      {
+        "path": "research/whole-double-global-conormal-chart-pass112.md",
+        "sha256": "5748701b757a8b38d5daf28d8c3bd121e4d6e500335635f882a8b0b96a37fb92",
+        "bytes": 10806,
+        "content_lines": 244,
+        "equation_tags": 8
+      },
+      {
+        "path": "research/triangular-whole-double-preparation-pass112.md",
+        "sha256": "b1e4e63c91a8ddf11bb074a6cf7b20bb40d2bb808acc52b8020b4a76090e39a2",
+        "bytes": 8724,
+        "content_lines": 202,
+        "equation_tags": 7
+      },
+      {
+        "path": "research/whole_double_conormal_checks_pass112.py",
+        "sha256": "ea5fdc95e9297c2807c119e3ef2674edbcf39e0f8c754861fb4c5f2a37ecab52",
+        "bytes": 5003,
+        "content_lines": 117,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/triangular_whole_double_checks_pass112.py",
+        "sha256": "d38940770500ffc4a757031edad780ea727b0bb04917410a1644000c94e3ec35",
+        "bytes": 3634,
+        "content_lines": 83,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/verification-pass112-working.json",
+        "sha256": "03338fd0521b4e425e08da27ffbc06db0f96ecd3fe4394cfe93b8681d8503b78",
+        "bytes": 4217,
+        "content_lines": 63,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/whole-double-conormal-frontier-pass112.md",
+        "sha256": "6b9062b5a5648a6b305c4320b1e8f4988166eba35a373ac1a79cef4c12507866",
+        "bytes": 9356,
+        "content_lines": 179,
+        "equation_tags": 0
+      }
+    ],
+    "equation_tags": 23,
+    "captured_methods": 8,
+    "ast_methods": {
+      "research/whole_double_conormal_checks_pass112.py": 2,
+      "research/triangular_whole_double_checks_pass112.py": 1,
+      "research/whole_double_nilrank_checks_pass111.py": 2,
+      "research/whole_double_coordinate_checks_pass111.py": 1,
+      "research/quadratic_degree_module_checks_pass102.py": 1,
+      "research/quadratic_divisor_filtration_checks_pass107.py": 1
+    },
+    "new_test_methods": 3,
+    "complete_output_verified": true,
+    "input_files_unchanged": true,
+    "local_markdown_links_checked": 857,
+    "missing_links": [],
+    "tool_evidence": "641395",
+    "stage": "postcreation: seven artifacts,23equations,capture inputs/output and857local Markdown links verified"
+  },
+  "goal_status": "active",
+  "authorization_boundary": "Private local research, public-source reading and symbolic checks only. No external contact, submission, posting, paid resource, new automation or financial action."
+}

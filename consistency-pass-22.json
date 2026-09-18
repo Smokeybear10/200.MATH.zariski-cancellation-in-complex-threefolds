@@ -1,0 +1,284 @@
+{
+  "checked_at_utc": "2026-09-13 06:01:11 UTC",
+  "all_passed": true,
+  "claim_count": 206,
+  "last_claim": "Z206",
+  "test_method_count": 473,
+  "suite_count": 36,
+  "new_checker_imports": {
+    "research/radical_nonlinear_checks_pass22.py": [
+      "unittest",
+      "sympy"
+    ],
+    "research/nodal_generators_checks_pass22.py": [
+      "unittest",
+      "sympy"
+    ]
+  },
+  "current_local_links_checked": 143,
+  "report_line_count": 337,
+  "report_numbered_equations": 18,
+  "report_footnotes": 3,
+  "artifact_count": 19,
+  "artifacts": [
+    {
+      "path": "README.md",
+      "sha256": "72a56a10d86322810988b8acaeb37de45a9e48059ae886f6adae433b7be9ca96"
+    },
+    {
+      "path": "research-ledger.md",
+      "sha256": "d1c5422e8a191c97e7ff65f1581c75edff419b3fe1718005f4c264353d782f94"
+    },
+    {
+      "path": "claims.json",
+      "sha256": "2ae1f6f560525f7b7b50a61d3deb3cd0e8aaf21055cf0ae266e5df7b7adbba2d"
+    },
+    {
+      "path": "experiment-manifest.json",
+      "sha256": "08b0bb3a77d528f9c2321079fcfc76260f7502fcf8dc76f02280ac603e03fd71"
+    },
+    {
+      "path": "verification-pass-22.json",
+      "sha256": "035c846844085a9254a4b6d6260aac53429cb857430dbeb27ea8c59388aeaf9d"
+    },
+    {
+      "path": "deep-pass-22.md",
+      "sha256": "8c1bcf21e16ded291b9572747e8e5d2b041aa78daf023c576d6abd04d33072cc"
+    },
+    {
+      "path": "research/radical-noninvariant-pass22.md",
+      "sha256": "2dd1e002c0e773cab2b06df785d126b6409fd25d8953131c1d9a0af8a8556285"
+    },
+    {
+      "path": "research/center-recognition-pass22.md",
+      "sha256": "0916726a7821a65c02bccafb04cc53b5006b24d3006cc67d83e68380935c670d"
+    },
+    {
+      "path": "research/nonlinear-frame-pass22.md",
+      "sha256": "1dbd10d4c31b87e1de2438f3790ca88fd8fb4049c8f91785c1cc906da9844441"
+    },
+    {
+      "path": "research/nodal-generators-pass22.md",
+      "sha256": "42df8e0f76d2f21bc6cdfc5d87ed66a8b29dda17a810009df45320848e740dbc"
+    },
+    {
+      "path": "research/radical-noninvariant-audit-pass22.md",
+      "sha256": "ec3aff9f253b7466863902adb6d94c9d5e838a398c70a936db341194e61e4c75"
+    },
+    {
+      "path": "research/all-q-bridge-audit-pass22.md",
+      "sha256": "199c827379d3909119e5f44234e4806fa5a1d609db8ce83e4c768cfc03fef77f"
+    },
+    {
+      "path": "research/nodal-generators-audit-pass22.md",
+      "sha256": "dcd4c93c5aa36e8feedfcf00ebf41749061982517db507cef77184516a2d8c62"
+    },
+    {
+      "path": "research/proof-audits-pass22.md",
+      "sha256": "0752140937d4732163d12faf042fa3d7a5f265536e9e341a63aafb744c8f76fc"
+    },
+    {
+      "path": "research/priority-comparison-pass22.md",
+      "sha256": "25de0effd756853f8c36272f72981b1566dc38a395029aab45d8c482a4d66acb"
+    },
+    {
+      "path": "research/radical_nonlinear_checks_pass22.py",
+      "sha256": "d38357919d81a67101343f9653d301c94a1461d9b2b1c31035d654311941d4cc"
+    },
+    {
+      "path": "research/nodal_generators_checks_pass22.py",
+      "sha256": "6f94b9a1136aa4afc1cdaa68792c21caedaf2be4f2ff84f148c4b8eb1154e72b"
+    },
+    {
+      "path": "research/run_regression_pass22.py",
+      "sha256": "fcca7425a8b0d53d3445fbb3c73841b61a8db4f9a20ad99b91563ae4b91d151c"
+    },
+    {
+      "path": "research/consistency_checks_pass22.py",
+      "sha256": "5cc7e370c56c35819cfc8d271948e51c74bc6da7d1fa92e3a57259e98c9e85e2"
+    }
+  ],
+  "suite_sources": [
+    {
+      "path": "verify_exact.py",
+      "test_methods": 19,
+      "sha256": "e48cba8df391f50e605429a5dd8d3af4f462dd89f074026387f18799be396566"
+    },
+    {
+      "path": "verify_extension.py",
+      "test_methods": 16,
+      "sha256": "7516187695ebad26ffaa6da2701782d3b91b13df26170aab8a789db91988ce78"
+    },
+    {
+      "path": "verify_first_pole.py",
+      "test_methods": 16,
+      "sha256": "22e96fd993612cf1d52ea224ddc0439c62678d6c49db862bf1cecbf94e5d6af4"
+    },
+    {
+      "path": "verify_nonlinear.py",
+      "test_methods": 18,
+      "sha256": "8d1ba092b8a36ff26d7c47bfacc0e79c89c35384fac4c3b54abcae7d0c37e56e"
+    },
+    {
+      "path": "verify_higher_poles.py",
+      "test_methods": 9,
+      "sha256": "353a3b79f45f5e1c2ca745170d2a6af1a07124a190638ea3f9b28e1467b5e040"
+    },
+    {
+      "path": "verify_outside_coefficients.py",
+      "test_methods": 3,
+      "sha256": "9cb71cc689d40a79184c5684dc5d9e0f6e1fcc5590f83265b60315db344ee893"
+    },
+    {
+      "path": "research/primitive_classifier.py",
+      "test_methods": 17,
+      "sha256": "f6f5b0c122193d326b5bbb06cedbcecc5ea9adef041a84cf30a43d968bbb8992"
+    },
+    {
+      "path": "research/full_coefficient_classifier.py",
+      "test_methods": 9,
+      "sha256": "a71b727263069cf9aeb23c7ed48fb91e02856e1b98ebd7f68fc0b4960e8e7be7"
+    },
+    {
+      "path": "verify_global_filtration.py",
+      "test_methods": 19,
+      "sha256": "51dd6ce593b9f34f9b34b4cf36f2fe9be521dce4e116592d29bf52691e194e7b"
+    },
+    {
+      "path": "verify_linear_variable.py",
+      "test_methods": 9,
+      "sha256": "872c994232d4a9565f6eb58f3e970fc459f8a7347f26e6a692624966b27d6f50"
+    },
+    {
+      "path": "verify_quadratic_pencils.py",
+      "test_methods": 17,
+      "sha256": "a3b0347dec79a8334e402aee713f965f92f44e07e8731a351c91d5622fde472b"
+    },
+    {
+      "path": "verify_quadratic_coefficients.py",
+      "test_methods": 8,
+      "sha256": "0d6b2561e988f46407404f5516f132bb9418dfe673e3c24469ea1ff859f2a274"
+    },
+    {
+      "path": "verify_repeated_crossing.py",
+      "test_methods": 15,
+      "sha256": "c796f5a1927e4583dc06eaefc7bd2007834a0cb95fb9e292f49b85311b33fa42"
+    },
+    {
+      "path": "verify_central_arrangements.py",
+      "test_methods": 14,
+      "sha256": "190264c6d82d7a28e6f6681c31467aacee0b714ecd3f3321fcca9124472fb140"
+    },
+    {
+      "path": "verify_quadratic_obstructions.py",
+      "test_methods": 13,
+      "sha256": "d8310b372b2c2986e072af4c18e0400647760a5ae7c17fa8b05f9172863e7da1"
+    },
+    {
+      "path": "verify_torsion_monodromy.py",
+      "test_methods": 6,
+      "sha256": "ff55aa1f01c351f07d496aeb2b7ce4944c18de407d7f81e494f110b739bd4b78"
+    },
+    {
+      "path": "verify_two_power_slices.py",
+      "test_methods": 17,
+      "sha256": "f09204b7efa7ff8cf4b3848883f8885941dcdbcd683a904ff1cf74885775aa37"
+    },
+    {
+      "path": "verify_intrinsic_quotients.py",
+      "test_methods": 12,
+      "sha256": "3c00bae6b1083a2e104bb0e39eb042013acd02bc0119a3b7fe1a63754abd8047"
+    },
+    {
+      "path": "research/frame_height_checks.py",
+      "test_methods": 16,
+      "sha256": "d9f3d6b53dc19f9b169184e170fb0656dc83df89e08a30f2de52e05055efa882"
+    },
+    {
+      "path": "research/height_eight_algebra_checks.py",
+      "test_methods": 7,
+      "sha256": "2c2435e4c2e32acba93bc786c8585fcb77a698f1e2d42890fa36bf7d52c786ac"
+    },
+    {
+      "path": "research/mixed_height_checks.py",
+      "test_methods": 22,
+      "sha256": "70482d888a78f3616b3c094c28551220597f83f0202e0bcb2f0ed7c8d577efff"
+    },
+    {
+      "path": "research/projective_plane_checks.py",
+      "test_methods": 25,
+      "sha256": "7c0e0102a293e08580467c6c7262d723d8b3758f37787c71005f8a20757f13a3"
+    },
+    {
+      "path": "research/invariant_mixing_verifier.py",
+      "test_methods": 23,
+      "sha256": "74c0fd012c783280379ae1067a6739e84219f33c39bca8b35dc0811d1b8549b7"
+    },
+    {
+      "path": "research/invariant_slice_checks.py",
+      "test_methods": 22,
+      "sha256": "38ce4c202a3bcae92610bf8614922c02ac24471b77bf5c2720a9f70acb03df37"
+    },
+    {
+      "path": "research/rank_three_image_checks_pass17.py",
+      "test_methods": 8,
+      "sha256": "99a32c624bd0e711c4014455635e5cc73e5a48c2f29869a3000e956db413fe85"
+    },
+    {
+      "path": "research/nonreduced_jet_checks.py",
+      "test_methods": 18,
+      "sha256": "89f39064bad2372b2d8a0ae163d83f3cc0366d4d0f1af5330028a4faf8ffa190"
+    },
+    {
+      "path": "research/general_jet_lift_checks.py",
+      "test_methods": 8,
+      "sha256": "7bbf4673094fa92d673e27f4c4ac2d40d4e5c11b568759b35f32ac20bafd10f6"
+    },
+    {
+      "path": "research/polynomial_fiber_checks_pass18.py",
+      "test_methods": 8,
+      "sha256": "e341cf2a73f33aeac54c341c8f48309dc04db2b2fcf549509d1d20f1f07b9dae"
+    },
+    {
+      "path": "research/rescaling_curve_controls_pass18.py",
+      "test_methods": 10,
+      "sha256": "1288701ab3bbf4633806a666b99735380639b0bd01735cc985362361902a48a5"
+    },
+    {
+      "path": "research/global_bridge_checks_pass19.py",
+      "test_methods": 12,
+      "sha256": "7551407dfc7de79ce16264a457d1f805d0ffa9193e69e14631d0bee46dd7bdf2"
+    },
+    {
+      "path": "research/iterated_local_slice_checks_pass19.py",
+      "test_methods": 4,
+      "sha256": "40fe8894c63ff05e0ee0f7b1df1804260cdd77d8e1ff78ced2e05bd13e01f458"
+    },
+    {
+      "path": "research/multiplier_surface_controls_pass20.py",
+      "test_methods": 11,
+      "sha256": "b45183d4f8a67f9b0a90616fd6e54e7b581001d69c9c0587ae6775cc1e81ab3b"
+    },
+    {
+      "path": "research/nonunit_local_slice_checks_pass20.py",
+      "test_methods": 6,
+      "sha256": "dd7a008456eb0bce92ead8fcc0fdffebe7d91c1b117eb95fc8a75aaf16b4cf28"
+    },
+    {
+      "path": "research/primitive_bridge_checks_pass21.py",
+      "test_methods": 14,
+      "sha256": "db79d129fac7a8a98b4c2425bee53ba873b141c72c7f703cf24ded83ab812cc2"
+    },
+    {
+      "path": "research/radical_nonlinear_checks_pass22.py",
+      "test_methods": 15,
+      "sha256": "d38357919d81a67101343f9653d301c94a1461d9b2b1c31035d654311941d4cc"
+    },
+    {
+      "path": "research/nodal_generators_checks_pass22.py",
+      "test_methods": 7,
+      "sha256": "6f94b9a1136aa4afc1cdaa68792c21caedaf2be4f2ff84f148c4b8eb1154e72b"
+    }
+  ],
+  "scope": "JSON, AST counts, flags, whitespace, links, numbering and SHA256 integrity. Not mathematical proof verification."
+}

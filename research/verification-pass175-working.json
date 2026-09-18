@@ -1,0 +1,162 @@
+{
+  "pass": 175,
+  "status": "working_whole_generic_plane_embedding_under_full_actual_split_initial_kernel; split_recognition_and_unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/split-cubic-generic-chart-pass175-working.md",
+      "sha256": "17d54b0b881d2ce8eb5aec167e07aff6cfbdd3bc2ad8d7905a820bd3aa18c638",
+      "bytes": 10471,
+      "lines": 293,
+      "equations": 14,
+      "test_methods": 0
+    },
+    {
+      "path": "research/split-zero-R-exclusion-pass175-working.md",
+      "sha256": "a84b55a0a8bf73b974bace9f9628a68f0867665b70d3e4877162ef8f1ea0f14b",
+      "bytes": 4995,
+      "lines": 139,
+      "equations": 7,
+      "test_methods": 0
+    },
+    {
+      "path": "research/split-cubic-projected-quartic-bound-pass175-working.md",
+      "sha256": "b18afbb2a4143fc9c72b7aafeec0279e82070edbc5e13f89fa74f3a6ac1da0fc",
+      "bytes": 10039,
+      "lines": 267,
+      "equations": 12,
+      "test_methods": 0
+    },
+    {
+      "path": "research/split-vertex-free-quartic-cone-lemma-pass175-working.md",
+      "sha256": "b4b0f2325f34dc48c2acc78b9c308886020913da23eb7c1461b44dd0f9903580",
+      "bytes": 7575,
+      "lines": 204,
+      "equations": 12,
+      "test_methods": 0
+    },
+    {
+      "path": "research/split-projection-exceptional-cone-pass175-working.md",
+      "sha256": "7cdb11488697fc98757f3d96aa12e5f2dd0060c5a5ce7f25988c52e9485efc9c",
+      "bytes": 9008,
+      "lines": 249,
+      "equations": 16,
+      "test_methods": 0
+    },
+    {
+      "path": "research/split_cubic_generic_chart_controls_pass175.py",
+      "sha256": "0c283643e562039704727b4d87d4f08f0b89c5ad13ee953ed353e7ce452d74f6",
+      "bytes": 9284,
+      "lines": 206,
+      "equations": 0,
+      "test_methods": 4
+    },
+    {
+      "path": "research/split_projection_completion_controls_pass175.py",
+      "sha256": "d7b1faaa42c6f56b6478c0be3cbea9f984ed2a8b902abb296d41bfb616d747b5",
+      "bytes": 9988,
+      "lines": 209,
+      "equations": 0,
+      "test_methods": 3
+    }
+  ],
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass174-working.json",
+    "sha256": "ed1a974844cc34deab292c2e3b2a043fa7d03e278a023c8d06f1065490e3a107",
+    "records": 1103
+  },
+  "results": {
+    "actual_hypotheses": "Retains an actual globally sliced complex polynomial frame B=C[X,Y,Z,W]=A[u], exact E-time(1,1,2,2), and full weighted initial kernel(XZ+YW). The selected top N of the original partial_Z is nonzero, kills all speeds, and supplies A_L=L[v] with Nv=1. The ratio field L is finite separable over C(t,rho); neither rationality of L nor a globally unit speed is assumed.",
+    "actual_chart": "The single invariant-speed localization gives Y=y+tX, Z=z+sigma X-t*rho*X^2, W=w+theta X+rho X^2, with y,z,w and all coefficients in L[v]. Actual inverse and selected-top calibration force the fixed-X determinant J(X)=J0=-a^3 in L*. The whole three-generator equality is L[y,theta,w]=L[v].",
+    "denominator_free_potentials": "Successive determinant coefficients give sigma=-t*theta-rho*y+k and z+t*w=k_t*y+k_rho*theta-y*theta+n. With r=k_rho, R=r-y, f=H2(k)+H1(n), the two later potentials are R*w+f(y,theta)=ell and f_V(y,theta)*w+H3(k)(y,theta)+H2(n)(y,theta)-ell_t*y-ell_rho*theta=m. Their derivation never divides by R.",
+    "zero_R_exclusion": "If R vanishes identically then y is in L, z=A0-t*w, and constant J forces y_rho!=0. The explicit determinant is w_v*(y_t*A0_rho-y_rho*A0_t+y_rho*w), which has positive v-degree 2*deg(w)-1. This contradicts J0 in L*. Finite zeros of nonzero R are not excluded.",
+    "projected_quartic_bound": "Eliminating w creates a polynomial H(U,V) of degree at most four. The exact identity R^2*J0=C_U*H_U(y,theta)+C_V*H_V(y,theta) proves H!=0. Its selected irreducible factor G occurs simply, and for H=GQ the evaluated cofactor Q(y,theta) divides R^2, with zeros confined to R=f_V=0. Rational recovery of w proves L(y,theta)=L(v); an elementary generic-linear-projection degree argument over exact L gives deg G=max(deg_v y,deg_v theta)<=4 without presuming a closed embedding.",
+    "vertex_free_cone_lemma": "For any characteristic-zero field F, nonzero P and polynomials P,Q,S with PS=Q^2, F[P,Q,S]=F[v], unit ideal(P,Q,S), and max(deg P,deg Q)<=4 satisfy F[P,Q]=F[v]. Over an algebraic closure, coprime square factorization reduces to deg a=0,1,2; the quadratic case contradicts point separation and the linear case explicitly recovers the parameter. Faithful field-extension descent returns the conclusion to F.",
+    "whole_plane_generation": "Set C=L[y,theta], O=L[v]=C[w]. A nonconstant projected polynomial makes O finite integral over C. Both R*w and f_V(y,theta)*w lie in C. For q(V)=f(r,V)-ell, the zero case directly returns w to C. In the nonzero squarefree case, Bezout yields 1=i0+i1*w with i0,i1 in (R,f_V)C; substituting this into a monic relation for w proves that ideal is the unit ideal in C, hence w lies in C.",
+    "repeated_center": "The only remaining q is a nonzero repeated quadratic over L. Completing its square gives R*(w-D)=-kappa*(theta-theta0)^2. The actual constant determinant forbids the normalized triple from meeting the cone vertex. The quartic bound and full three-generator equality therefore satisfy the vertex-free cone lemma, proving L[y,theta]=L[v] also in this case.",
+    "actual_and_formal_boundaries": "The inverse-verified retained157 split fixture has nonunit R with a zero on the generic line, and its literal XZ+YW is not invariant. Its retained158 constant translation has nonzero k and a literal quadratic term, so even E-affineness is not automatic. The formal nodal cone triple P=v(v-1)^2,Q=v(v-1),S=v obeys the degree and full-ring conditions but fails plane generation because it meets the vertex; it is not an actual calibrated split chart.",
+    "scope": "Every actual split chart under these retained hypotheses has a whole polynomial plane embedding over exact L of degree at most four. This does not construct a global invariant coordinate or recognize the original kernel A; it does not prove the selected quartic cofactor is a unit. Split-case recognition, weight-four height-one initial relations, height-two initial kernels, and arbitrary coordinate entry remain unresolved. No176 result is included."
+  },
+  "canonical_executions": [
+    {
+      "performed": true,
+      "command": "/opt/anaconda3/bin/python research/split_cubic_generic_chart_controls_pass175.py -v",
+      "source_sha256": "0c283643e562039704727b4d87d4f08f0b89c5ad13ee953ed353e7ce452d74f6",
+      "terminal_output": "e10087",
+      "methods": 4,
+      "seconds": 0.316,
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "rerun": false,
+      "scope": "One canonical run by Root after full source review4ac50a. This run occurred during the preceding status turn and is not being executed again for packet assembly. The initial response was terminal."
+    },
+    {
+      "performed": true,
+      "command": "/opt/anaconda3/bin/python research/split_projection_completion_controls_pass175.py -v",
+      "source_sha256": "d7b1faaa42c6f56b6478c0be3cbea9f984ed2a8b902abb296d41bfb616d747b5",
+      "terminal_output": "67e0d9",
+      "methods": 3,
+      "seconds": 0.128,
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "rerun": false,
+      "scope": "One distinct canonical run by Root after full source review5e6ad9. The initial response was terminal. It did not rerun the first175 suite or any frozen checker."
+    }
+  ],
+  "tagged_equations": 61,
+  "reviews": {
+    "chart": "Jet full author b08398 plus wording delta3c886c at b2937e59; Geometry complete de46f3. Root freshly read the mathematical body029d08 and applied only the status change from pending review to saved-source AI reviews, giving final17d54b0b with metadata715677. Geometry read that exact status delta6ec03a. No formula or test source changed.",
+    "zero_R": "General full author50cfe8 after full chart3f8fc3; Root full526cf8, Geometry complete243271, and Jet complete5f0617. The argument excludes identically zero R, not its finite zeros.",
+    "quartic": "Geometry complete author0bd9bd and metadata cb7f52 at b18afbb2; Root complete5affb0, General complete7387d3 and Jet complete29debe. The R^2*J signs, cofactor support and exact generic-projection degree were independently reconstructed.",
+    "cone": "General complete authorb0a28e at b4b0f232; Root complete8285c1 and Geometry complete96b19f with exact metadata c99b4c/9392e3. All degree cases, the vector-space descent, and the evaluated-gradient vertex gate were checked.",
+    "whole_plane": "Root complete author1bf911 at7cdb1148; General complete5e7e4f and Geometry complete7cb9ea with metadata b44191/691080/4b93eb. The explicit monic-polynomial unit-ideal contraction and exhaustive center-polynomial cases were reconstructed.",
+    "first_checker": "Jet complete authorf3bd45 plus scope wording delta868ab3. Root complete source4ac50a preceded canonical e10087. Geometry source-only complete77eaec and fresh23a2e6, with exact hash c4435a, did not execute, import or compile it. The fresh review followed the canonical run.",
+    "retained_sources": "Geometry freshly read157 initial-bound main aff7fc,157 normal forms bb063a and158 split obstruction273bde. These confirm the actual chart's leading derivation, full-kernel scope and retained actual boundaries. The new projection and cone proofs invoke no new external theorem; this is not recursive certification of the complete historical chain.",
+    "second_checker": "Jet complete author f86759 and metadata20feda at d7b1faaa; Root full5e6ad9 before canonical67e0d9. Geometry complete source-only b23464 with exact hash c0b964 independently checks the three methods. Geometry did not execute, import or compile the source.",
+    "final_metadata": "Geometry read-only metadata8df9ae validates the five proof notes, first checker and unchanged174 predecessor; final second-checker metadata is independently read before writing this capture. Source pattern counts are checked separately without executing a checker."
+  },
+  "proof_dependencies": {
+    "new": [
+      "research/split-cubic-generic-chart-pass175-working.md",
+      "research/split-zero-R-exclusion-pass175-working.md",
+      "research/split-cubic-projected-quartic-bound-pass175-working.md",
+      "research/split-vertex-free-quartic-cone-lemma-pass175-working.md",
+      "research/split-projection-exceptional-cone-pass175-working.md"
+    ],
+    "retained": [
+      "research/two-linear-two-quadratic-initial-bound-pass157-working.md",
+      "research/two-linear-cubic-normal-forms-pass157-working.md",
+      "research/split-cubic-invariant-correction-obstruction-pass158-working.md",
+      "research/cusp-generic-chart-first-reductions-pass159-working.md"
+    ],
+    "scope": "The new chart retains the actual initial-bound and normal-form hypotheses and only the general actual projection and exact-field mechanism from159, not its cusp-specific formulas. This dependency inventory does not claim a fresh recursive review of159. The subsequent four175 notes complete the zero-R, quartic, cone and whole-plane chain. No generic plane equality is silently assumed at an earlier step."
+  },
+  "external_dependencies": [],
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Use the now-proved whole-plane embedding and its degree bound to study actual split-cubic coefficient branches and possible original-ring recognition. Any176 constant-projection result is separate, not part of175. Do not assume arbitrary entry into1122 or the split initial form.",
+  "goal_audit": {
+    "prior_completed_evidence": "Frozen174 remains at1103 records and recognizes the supplied full cusp initial kernel. Its prior canonical run is neither repeated nor counted as175 evidence.",
+    "current_continuation": "Completed saved-source reviews of the quartic/cone/whole-plane chain and the distinct second checker. Root's second canonical67e0d9 passed three methods in0.128 seconds. Packet assembly records these proofs and the two distinct runs; it is not another theorem or execution.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active",
+    "preceding_goal_turn": "The preceding goal/status turn supplied the new canonical four-method run e10087, passing in0.316 seconds with an initial-terminal response. That concrete verification progress is included exactly once in this175 packet, not dismissed as a status-only turn and not repeated."
+  },
+  "total_new_test_methods": 7,
+  "finite_controls": {
+    "first_suite": "Four methods separately check the literal top two determinant integrations; exact denominator-free potential residuals before prior relations are imposed; both inverse stages of the retained actual157 frame and its retained158 translation; and formal zero-R determinant-degree arithmetic.",
+    "second_suite": "Three methods check the cleared quartic elimination and gradient residuals, independent denominator-free differential rows, low-degree square-factor reconstruction and collision identities, the evaluated cone gradient, both cone-coordinate inverse orders, and a formal nodal normalization boundary.",
+    "limits": "These finite controls do not prove universal integrality, factorization, the exact degree argument, field-extension descent, or the exhaustive whole-plane theorem. They do not establish original-ring recognition or actual realization of the formal nodal/contradiction controls. No old checker was imported, compiled or rerun."
+  }
+}

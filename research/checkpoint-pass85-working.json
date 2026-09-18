@@ -1,0 +1,396 @@
+{
+  "status": "AI-reviewed working85: exact return regular locus, polynomial fixed-ring descent, finiteness criterion and bounded source-gate audit. Unrestricted cancellation remains unproved.",
+  "working_question": "Unconfirmed corrected complex-threefold interpretation: A[s] isomorphic to C^[4] implies A isomorphic to C^[3]. The professor has not confirmed the intended correction, field or dimension.",
+  "previous_working_checkpoint": "research/checkpoint-pass84-working.json",
+  "previous_working_checkpoint_sha256": "dcf8b9ef172cc15181da38f3331bfacefc6f0dbc15c9ab7fbf2bf7e9314211be",
+  "previous_integrated_checkpoint": "consistency-pass-60.json",
+  "previous_goal_turn_classification": "No progress: the immediately preceding user check-in was status only.",
+  "current_research_pass_classification": "Progress: integrated completed85 written deductions, independently checked the final actual-action controls, saved canonical execution and developed subsequent coordinate-fiber constraints.",
+  "synthesis": "research/rank-one-return-domain-frontier-pass85.md",
+  "proof_audit": "research/proof-audits-pass85-working.md",
+  "verification_record": "research/verification-pass85-working.json",
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "targeted_verification": {
+    "path": "research/verification-pass85-working.json",
+    "sha256": "114921755366f6ea422c60690a64b040a34ee54755558c59c5e20a4c71c8181f",
+    "suites": 1,
+    "test_methods": 2,
+    "all_passed": true,
+    "started_at_utc": "2026-09-14T10:48:50.300288+00:00",
+    "finished_at_utc": "2026-09-14T10:48:50.866485+00:00",
+    "monotonic_wall_seconds": 0.565861,
+    "unittest_seconds": [
+      0.208
+    ],
+    "tracked_inputs": 3,
+    "retained_complete_outputs": 1
+  },
+  "new85_suites": 1,
+  "new85_test_methods": 2,
+  "fresh_full85_regression_performed": false,
+  "bounded_action_search_executed": false,
+  "central_registry_integrated": false,
+  "historical_claim_count": 544,
+  "actual_action_hypotheses": [
+    "B=C[x1,x2,x3,z] in actual original polynomial coordinates; E is locally nilpotent with supplied global polynomial slice E(s)=1; A=ker E and B=A[s].",
+    "E squared kills each x_i, E squared z=q, E(q)=0 and q is nonzero. This is one-quadratic-coordinate, not rank one in the standard invariant-coordinate sense.",
+    "a_i=E x_i, b=E z and I=(a_i)B; proper I is required for the automatic nonfinite-global-map conclusion. The specialized rho0 statement assumes q0 is not identically zero."
+  ],
+  "completed_deductions": [
+    "For g=gcd(q,b) and h=q/g, every component of rho=(x-2ba/q,z) lies in B_p iff b/q lies in B_p, by the original slice-time identity. Therefore Reg(rho)=D(h), at every prime.",
+    "The reduced denominator h is invariant; rho is a regular involution on B_h. Since b is a unit modulo I and q belongs to radical(I), V(I) is disjoint from Reg(rho). The specialized statement holds only when q0 is nonzero.",
+    "Thus automatic regularity at speed zeros cannot activate the earlier83 sufficient local return-regularity gate. The sufficient implication itself remains valid.",
+    "A is factorial without a cancellation assumption. With v=b/g-hs and w=z-bs+qs²/2, both invariant, T=hs²+2vs has z=w+gT/2 and polynomial fixed functions exactly A[T].",
+    "The relative presentation B=A[T,S]/(T-hS²-2vS) is finite iff h is a unit, and is finite free of rank2 after h inversion. Proper I forces h nonunit. The global fixed-polynomial intersection is not then a finite-group quotient action on B.",
+    "The normalized pair h,v is coprime but may have common zeros. Actual speed zeros are in the linear residue-field branch h=0,v nonzero, not the constant branch h=v=0.",
+    "The new actual control has gcd(q,b)=a-1, reduced denominator a³ and return (a,-x-2/a,c,z); it extends across a=1 but not a=0. The retained two-speed control checks the three residue-field cases.",
+    "The strict power certificate contracts to I_A in A. Existing inner, natural and continuous closure terminology does not prove polynomial membership. Existing recognition theorems retain actual invariant-coordinate or stable-good-subring premises."
+  ],
+  "proof_reviews": {
+    "regular_locus": "Geometry author; Root, General and Jet complete separate reads/reconstructions.",
+    "centered_fixed_ring": "Geometry author; Root, General and Jet full independent reviews.",
+    "actual_control": "Jet author; Root and General full final note/code reads and independent runs.",
+    "source_scope": "General author; Geometry full note scope review and Root full note read, with selected fresh Root primary statements.",
+    "synthesis": "Root author/full EOF and Geometry full EOF; unit-h branch and local-ring-source wording corrected before freezing.",
+    "runner": "Root adapted and read full saved runner; General full independent read; Root canonical execution."
+  },
+  "superseded_live_obligations": [
+    "Do not attempt to prove regularity of rho at actual speed zeros in the nonzero-acceleration branch; the exact locus excludes it.",
+    "Do not infer a global regular finite-group action from the rational reflection or polynomial fixed-ring intersection when h is nonunit.",
+    "Do not infer unimodularity of h,v from coprimality, or cancellation from the abstract polynomial-cylinder isomorphism A[T]≅A[s]."
+  ],
+  "remaining_mathematical_obligations": [
+    "Prove the full corrected cancellation implication, without assuming the one-quadratic-coordinate frame.",
+    "Recognize the original invariant ring even within the full restricted one-quadratic-coordinate class.",
+    "Prove q in I, or construct an actual sliced action violating it; universal q² in I is also unproved.",
+    "Produce a valid invariant ambient coordinate or simultaneous coordinate reduction from actual hypotheses, not from smoothness or rational reflection alone.",
+    "Confirm intended statement with the professor when authorized; establish novelty and obtain human review. No external contact or formal verification has occurred."
+  ],
+  "next_bounded_actions": [
+    "Use z=w+gvs+(gh/2)s² being an original ambient coordinate to obtain exact differential and coordinate-fiber constraints.",
+    "Test whether those constraints supply recognition or merely necessary conditions; require actual polynomial-frame countercontrols for invalid upgrades.",
+    "Audit affine-modification and residual-coordinate primary statements against the actual coefficient ring, not an assumed polynomial presentation."
+  ],
+  "exact_return_regular_locus_proved": true,
+  "return_regular_at_actual_speed_zero_excluded": true,
+  "polynomial_fixed_ring_descent_proved": true,
+  "finite_global_return_quotient_requires_unit_denominator": true,
+  "normalized_invariant_pair_unimodularity_proved": false,
+  "rank_one_acceleration_inner_integral_containment_proved": true,
+  "degree_two_supplied_slice_acceleration_in_ideal_square_proved": true,
+  "rank_one_acceleration_cube_speed_membership_proved": true,
+  "rank_one_acceleration_speed_membership_proved": false,
+  "rank_one_acceleration_square_speed_membership_proved": false,
+  "embedded_good_speed_points_excluded": false,
+  "all_rank_one_acceleration_sliced_actions_recognized": false,
+  "all_quadratic_time_sliced_actions_recognized": false,
+  "arbitrary_nice_action_recognized": true,
+  "arbitrary_nice_action_scope": "Retained frozen80 working proof only: actual complex polynomial four-ring, global slice, E² zero on all supplied coordinates.",
+  "universal_nice_frame_existence_proved": false,
+  "general_conjecture_solved": false,
+  "professor_interpretation_confirmed": false,
+  "historical_novelty_verified": false,
+  "human_expert_review_completed": false,
+  "formal_verification_completed": false,
+  "external_contact_made": false,
+  "submission_or_publication_made": false,
+  "predecessor_audit": {
+    "checked_at_utc": "2026-09-14T10:44:52.806Z",
+    "all_passed": true,
+    "prior_hash_records": 428,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "dcf8b9ef172cc15181da38f3331bfacefc6f0dbc15c9ab7fbf2bf7e9314211be",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "final_predecessor_audit": {
+    "checked_at_utc": "2026-09-14T10:53:01.110Z",
+    "all_passed": true,
+    "prior_hash_records": 428,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "dcf8b9ef172cc15181da38f3331bfacefc6f0dbc15c9ab7fbf2bf7e9314211be",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "primary_source_audit": {
+    "checked_at_utc": "2026-09-14T10:53:01.223Z",
+    "all_passed": true,
+    "files": [
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.pdf",
+        "sha256": "b4df87f9a4042c1110915f50779be26decb6473fc13fccb99038a91bcb9f3a03",
+        "bytes": 2153645
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.txt",
+        "sha256": "31b95df36405d2cf9b50cf24e649bc75a40b490a0f2caebdca0de0416bf85816",
+        "bytes": 862237
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77-source.md",
+        "sha256": "4a8edfdd91fd0ef6441384a92b5aa45b2cc39f19958abcc7fbe363c89f237b83",
+        "bytes": 1170
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.sha256",
+        "sha256": "243073116eef79c9fd0d28c06add2c602bf7aeae3797e10373be8252b35ddd00",
+        "bytes": 214
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.txt",
+        "sha256": "2450cbb34179187172a6c81dfedba9752ecb32b067c5a62ffcb2decab7f236d9",
+        "bytes": 98069
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.pdf",
+        "sha256": "31cec362bd10fbe65e2a4622979fbcf4fbff2bcd585bae9dd3fe78bc330d49cc",
+        "bytes": 387538
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.pdf",
+        "sha256": "c7922ecd2cdeacabf12eee7bd8115920bc0e2f2d4b0c64282a66f8c47fb42e01",
+        "bytes": 177030
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.txt",
+        "sha256": "37430e92c0d66c5b1f33615ea4375b3be8b23503c54a7c6e6daf286d40d01c92",
+        "bytes": 16562
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82-source.md",
+        "sha256": "99865a4259f8ca7455ab163829290c5bb111b1c6153c5a4e7861fd4e78e5a437",
+        "bytes": 1083
+      },
+      {
+        "path": "tmp/pdfs/lipman-sathaye-briancon-skoda-pass83.pdf",
+        "sha256": "70a614756d88f14da18a2cebccb316c2e2c42d0b1ded94168a63e0660e0cc8ff",
+        "bytes": 678125
+      },
+      {
+        "path": "tmp/pdfs/hickel-jacobian-socle-pass83.pdf",
+        "sha256": "26413534d1feac31dab1ae0436d02083e14cdf3589276b57775a9c57d281de60",
+        "bytes": 218873
+      },
+      {
+        "path": "tmp/pdfs/hickel-jacobian-socle-pass83.txt",
+        "sha256": "0369ac31141870e864a509a0dbd5dec9ed18804651691e2b09ef31b992371e05",
+        "bytes": 59607
+      },
+      {
+        "path": "tmp/pdfs/general-dasgupta-lahiri-pass85.pdf",
+        "sha256": "15fe6cbd898ca7c0ca16e5bfa5186f64212c11b97aa476a579a37f58777305a2",
+        "bytes": 347896
+      },
+      {
+        "path": "tmp/pdfs/general-dasgupta-lahiri-pass85.txt",
+        "sha256": "f2df8d0b33245de4b0b4b36a4306567a59d6f15dd6f5dbf32b593fdd4d378fb0",
+        "bytes": 49828
+      },
+      {
+        "path": "tmp/pdfs/general-epstein-hochster-pass85.pdf",
+        "sha256": "1ba544cb49a75699f4cf73191e563383f20a4b1e31bf45abc8af61c7f32111da",
+        "bytes": 1137226
+      },
+      {
+        "path": "tmp/pdfs/general-epstein-hochster-pass85.txt",
+        "sha256": "8c06d9c9280f730aa119973de8ccc19ef5f83442cf36520cb48d7f27510435e1",
+        "bytes": 172630
+      }
+    ]
+  },
+  "artifact_integrity": {
+    "checked_at_utc": "2026-09-14T10:53:01.223Z",
+    "all_passed": true,
+    "current_artifacts": 9,
+    "current_numbered_equations": 32,
+    "local_link_paths_checked": 676,
+    "deferred_checkpoint_links": [
+      {
+        "source": "research/rank-one-return-domain-frontier-pass85.md",
+        "target": "research/checkpoint-pass85-working.json"
+      },
+      {
+        "source": "research/proof-audits-pass85-working.md",
+        "target": "research/checkpoint-pass85-working.json"
+      },
+      {
+        "source": "README.md",
+        "target": "research/checkpoint-pass85-working.json"
+      },
+      {
+        "source": "research-ledger.md",
+        "target": "research/checkpoint-pass85-working.json"
+      }
+    ],
+    "link_anchors_checked": false,
+    "artifacts": [
+      {
+        "path": "research/rank-one-return-regular-locus-pass85.md",
+        "sha256": "aff5a8ad4315f301042cb0b34ccbff66269bd27e9f2c3ab46a4ff7544f0ba190",
+        "bytes": 7028,
+        "lines": 159,
+        "numbered_equations": 7
+      },
+      {
+        "path": "research/rank-one-centered-return-quotient-pass85.md",
+        "sha256": "59140f7b8aa0f0fd7a90661fb889df1bbd675cdb4927cbb9af7ec7f2d955d18b",
+        "bytes": 7634,
+        "lines": 171,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/rank-one-quasi-nice-source-scope-pass85.md",
+        "sha256": "cb179b73812643a7c81aa7ad13bf5d2fbef16206ca3e896fa1356c35cbdf03ff",
+        "bytes": 10267,
+        "lines": 212,
+        "numbered_equations": 5
+      },
+      {
+        "path": "research/return-denominator-cancellation-control-pass85.md",
+        "sha256": "c9803147ccfbb4d191141d4af377da2c93ee4e0b8e9eabc11c4bed65ad8bb337",
+        "bytes": 6588,
+        "lines": 151,
+        "numbered_equations": 7
+      },
+      {
+        "path": "research/rank-one-return-domain-frontier-pass85.md",
+        "sha256": "a4b14e4462bf5416bed62cf7a6dd8fbc338311d752e054035df4734c6a6eae27",
+        "bytes": 8560,
+        "lines": 186,
+        "numbered_equations": 5
+      },
+      {
+        "path": "research/return_denominator_checks_pass85.py",
+        "sha256": "807f5f306f75c802ffb807d257a876204cd91a63895f21061910fe0ca519244e",
+        "bytes": 4926,
+        "lines": 114,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/run_targeted_pass85.py",
+        "sha256": "d48faa86ffc09527a18bfa347b9320274e6f3c5649375b382606db1a07515d9e",
+        "bytes": 3891,
+        "lines": 103,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/verification-pass85-working.json",
+        "sha256": "114921755366f6ea422c60690a64b040a34ee54755558c59c5e20a4c71c8181f",
+        "bytes": 2890,
+        "lines": 54,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/proof-audits-pass85-working.md",
+        "sha256": "745ff41049154a90e6295a788be57d1c8715ac0f9360ba424444726605603672",
+        "bytes": 7578,
+        "lines": 141,
+        "numbered_equations": 0
+      }
+    ],
+    "targeted_suites": 1,
+    "targeted_methods": 2,
+    "new85_suites": 1,
+    "new85_methods": 2,
+    "current_run_sources_checked": 3,
+    "retained_output_hashes_checked": 1,
+    "primary_source_files_checked": 16,
+    "primary_source_files": [
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.pdf",
+        "sha256": "b4df87f9a4042c1110915f50779be26decb6473fc13fccb99038a91bcb9f3a03",
+        "bytes": 2153645
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.txt",
+        "sha256": "31b95df36405d2cf9b50cf24e649bc75a40b490a0f2caebdca0de0416bf85816",
+        "bytes": 862237
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77-source.md",
+        "sha256": "4a8edfdd91fd0ef6441384a92b5aa45b2cc39f19958abcc7fbe363c89f237b83",
+        "bytes": 1170
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.sha256",
+        "sha256": "243073116eef79c9fd0d28c06add2c602bf7aeae3797e10373be8252b35ddd00",
+        "bytes": 214
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.txt",
+        "sha256": "2450cbb34179187172a6c81dfedba9752ecb32b067c5a62ffcb2decab7f236d9",
+        "bytes": 98069
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.pdf",
+        "sha256": "31cec362bd10fbe65e2a4622979fbcf4fbff2bcd585bae9dd3fe78bc330d49cc",
+        "bytes": 387538
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.pdf",
+        "sha256": "c7922ecd2cdeacabf12eee7bd8115920bc0e2f2d4b0c64282a66f8c47fb42e01",
+        "bytes": 177030
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.txt",
+        "sha256": "37430e92c0d66c5b1f33615ea4375b3be8b23503c54a7c6e6daf286d40d01c92",
+        "bytes": 16562
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82-source.md",
+        "sha256": "99865a4259f8ca7455ab163829290c5bb111b1c6153c5a4e7861fd4e78e5a437",
+        "bytes": 1083
+      },
+      {
+        "path": "tmp/pdfs/lipman-sathaye-briancon-skoda-pass83.pdf",
+        "sha256": "70a614756d88f14da18a2cebccb316c2e2c42d0b1ded94168a63e0660e0cc8ff",
+        "bytes": 678125
+      },
+      {
+        "path": "tmp/pdfs/hickel-jacobian-socle-pass83.pdf",
+        "sha256": "26413534d1feac31dab1ae0436d02083e14cdf3589276b57775a9c57d281de60",
+        "bytes": 218873
+      },
+      {
+        "path": "tmp/pdfs/hickel-jacobian-socle-pass83.txt",
+        "sha256": "0369ac31141870e864a509a0dbd5dec9ed18804651691e2b09ef31b992371e05",
+        "bytes": 59607
+      },
+      {
+        "path": "tmp/pdfs/general-dasgupta-lahiri-pass85.pdf",
+        "sha256": "15fe6cbd898ca7c0ca16e5bfa5186f64212c11b97aa476a579a37f58777305a2",
+        "bytes": 347896
+      },
+      {
+        "path": "tmp/pdfs/general-dasgupta-lahiri-pass85.txt",
+        "sha256": "f2df8d0b33245de4b0b4b36a4306567a59d6f15dd6f5dbf32b593fdd4d378fb0",
+        "bytes": 49828
+      },
+      {
+        "path": "tmp/pdfs/general-epstein-hochster-pass85.pdf",
+        "sha256": "1ba544cb49a75699f4cf73191e563383f20a4b1e31bf45abc8af61c7f32111da",
+        "bytes": 1137226
+      },
+      {
+        "path": "tmp/pdfs/general-epstein-hochster-pass85.txt",
+        "sha256": "8c06d9c9280f730aa119973de8ccc19ef5f83442cf36520cb48d7f27510435e1",
+        "bytes": 172630
+      }
+    ],
+    "central_claim_count": 544,
+    "mathematical_suites_executed": 0,
+    "scope": "Read-only file hashes, equation numbering, local paths, whitespace and saved run accounting; not proof verification."
+  },
+  "scope": "Nine current artifacts and32 numbered equations.428 predecessor hash records plus9 current artifact records and this checkpoint give438 retained records. Four pre-save self-links are checked after saving. File integrity and two exact methods do not prove unrestricted cancellation."
+}

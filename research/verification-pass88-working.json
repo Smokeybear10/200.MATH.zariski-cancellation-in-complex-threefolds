@@ -1,0 +1,114 @@
+{
+  "kind": "Fresh targeted88 capture, not a full regression",
+  "started_at_utc": "2026-09-14T12:00:18.844979+00:00",
+  "finished_at_utc": "2026-09-14T12:00:19.333909+00:00",
+  "wall_seconds": 0.488809,
+  "total_suites": 4,
+  "total_test_methods": 4,
+  "all_passed": true,
+  "new88_suites": 4,
+  "new88_test_methods": 4,
+  "fresh_full88_regression_performed": false,
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "source_hashes_before": {
+    "research/universal_generator_pencil_checks_pass88.py": "c3c437491a9d81bef73fe1ceab48ff557f4022329be4d189a958d05654d8571d",
+    "research/nonintegral_generator_pencil_checks_pass88.py": "d3a8b38aaace708049aae50adc1d9dc1d0212a227d93aa92a8ec41ae767e258c",
+    "research/normal_generator_pencil_checks_pass88.py": "cd4493a7d841491d738be71545825a92b04e52d1a05a89d4e7b19369e45b02a3",
+    "research/constant_acceleration_volume_checks_pass88.py": "b046c6178d356ffd2866eefbf035f1087654d1064bca623777b1dd84e0661633",
+    "research/run_targeted_pass88.py": "041e8821fbf25f6842b02e2b4ad6f452c4a656b16ef30a1af709a7dc36bb7c46",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_hashes_after": {
+    "research/universal_generator_pencil_checks_pass88.py": "c3c437491a9d81bef73fe1ceab48ff557f4022329be4d189a958d05654d8571d",
+    "research/nonintegral_generator_pencil_checks_pass88.py": "d3a8b38aaace708049aae50adc1d9dc1d0212a227d93aa92a8ec41ae767e258c",
+    "research/normal_generator_pencil_checks_pass88.py": "cd4493a7d841491d738be71545825a92b04e52d1a05a89d4e7b19369e45b02a3",
+    "research/constant_acceleration_volume_checks_pass88.py": "b046c6178d356ffd2866eefbf035f1087654d1064bca623777b1dd84e0661633",
+    "research/run_targeted_pass88.py": "041e8821fbf25f6842b02e2b4ad6f452c4a656b16ef30a1af709a7dc36bb7c46",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_inputs_unchanged": true,
+  "bounded_search_executed": false,
+  "search_candidates_are_test_methods": false,
+  "central_registry_integrated": false,
+  "general_cancellation_verified": false,
+  "scope": "Four finite exact methods in four standalone suites check the cusp, Laurent and normal polynomial-ring generator pencils, and formal coordinate-volume coefficients. The normal control explicitly fails the original-coordinate hypothesis. These are not universal action, descent or recognition proofs. No full regression or exhaustive search.",
+  "suites": [
+    {
+      "path": "research/universal_generator_pencil_checks_pass88.py",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/universal_generator_pencil_checks_pass88.py"
+      ],
+      "started_at_utc": "2026-09-14T12:00:18.845185+00:00",
+      "finished_at_utc": "2026-09-14T12:00:19.061552+00:00",
+      "wall_seconds": 0.216391,
+      "exit_code": 0,
+      "expected_methods": 1,
+      "test_methods": 1,
+      "method_count_matches": true,
+      "all_passed": true,
+      "unittest_seconds": 0.027,
+      "output": "test_cusp_relative_generation_and_nonreduced_tensor (__main__.UniversalGeneratorPencilChecks.test_cusp_relative_generation_and_nonreduced_tensor) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.027s\n\nOK\n",
+      "output_sha256": "b2c71687aa0cdd3a48e316c7ecc5b88b8ebc9d260eed0825cc91a410bf9ed8d3"
+    },
+    {
+      "path": "research/nonintegral_generator_pencil_checks_pass88.py",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/nonintegral_generator_pencil_checks_pass88.py"
+      ],
+      "started_at_utc": "2026-09-14T12:00:18.846151+00:00",
+      "finished_at_utc": "2026-09-14T12:00:19.063877+00:00",
+      "wall_seconds": 0.217732,
+      "exit_code": 0,
+      "expected_methods": 1,
+      "test_methods": 1,
+      "method_count_matches": true,
+      "all_passed": true,
+      "unittest_seconds": 0.025,
+      "output": "test_laurent_recovery_localization_and_order (__main__.NonintegralGeneratorPencilChecks.test_laurent_recovery_localization_and_order) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.025s\n\nOK\n",
+      "output_sha256": "e6684e30f36da8ab5423c4669b38276ac3d16bf0f553584033eac913fa12030d"
+    },
+    {
+      "path": "research/normal_generator_pencil_checks_pass88.py",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/normal_generator_pencil_checks_pass88.py"
+      ],
+      "started_at_utc": "2026-09-14T12:00:19.061664+00:00",
+      "finished_at_utc": "2026-09-14T12:00:19.271882+00:00",
+      "wall_seconds": 0.210244,
+      "exit_code": 0,
+      "expected_methods": 1,
+      "test_methods": 1,
+      "method_count_matches": true,
+      "all_passed": true,
+      "unittest_seconds": 0.023,
+      "output": "test_relative_modification_and_failed_coordinate (__main__.NormalGeneratorPencilChecks.test_relative_modification_and_failed_coordinate) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.023s\n\nOK\n",
+      "output_sha256": "7e941eb6c09750b98d8b39719c3845417dae08fedd7c338b6754b185aa6c1ab7"
+    },
+    {
+      "path": "research/constant_acceleration_volume_checks_pass88.py",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/constant_acceleration_volume_checks_pass88.py"
+      ],
+      "started_at_utc": "2026-09-14T12:00:19.063941+00:00",
+      "finished_at_utc": "2026-09-14T12:00:19.333373+00:00",
+      "wall_seconds": 0.269442,
+      "exit_code": 0,
+      "expected_methods": 1,
+      "test_methods": 1,
+      "method_count_matches": true,
+      "all_passed": true,
+      "unittest_seconds": 0.084,
+      "output": "test_formal_volume_coefficients_and_critical_specialization (__main__.ConstantAccelerationVolumeChecks.test_formal_volume_coefficients_and_critical_specialization) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.084s\n\nOK\n",
+      "output_sha256": "53e599e3069680df79e751ec77ed2061550cd1e69c7348033ac72e0e71a1fbf6"
+    }
+  ]
+}

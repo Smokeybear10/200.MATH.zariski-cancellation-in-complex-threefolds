@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "pass": 99,
+  "created_at_utc": "2026-09-14 18:22:33 UTC",
+  "active_goal": "keep going until u solved it",
+  "working_question": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic to C^[4] implies A isomorphic to C^[3].",
+  "general_conjecture_solved": false,
+  "goal_status": "active",
+  "this_pass_classification": "progress",
+  "preceding_turn_classification": "The user check-in was status-only. This continuation first completed98 and then obtained the stronger99 volume-normal and whole-fiber theorems after revalidating593 frozen records.",
+  "summary": "Exact global volume puts a shared original normal coordinate ell inside the whole fiber ideal. For a collapsed double with L(m) nonzero, a constant conormal left inverse forces a constant row and an affine normalized column; the nonconstant zero-normal-row sector is excluded. The whole ideals are (ell,Y^2) or(ell,Y^2(Y-1)), descending to(F,G^2) or(F,G^2(G-1)) and to the actual fiber ring C[G,c]/H(G). No remaining fiber exclusion, recognition or arbitrary-frame reduction is proved.",
+  "scope_assumptions": [
+    "All original nonconical constant-acceleration hypotheses of checkpoint98: B=A[u]=C^[4], canonical u=Ez/q0, three good original coordinates killed by E^2, E^2z=q0 nonzero constant, specified primitive canonical N, Nu=0, [N,E]=0, full kernel S=C^[2].",
+    "Retained smooth factorial contractible A, faithful flatness over S, actual relative generators A1,A2,c and their generic degrees2,2,4, actual prime-divisor constant extensions, and whole fixed-profile reductions through97.",
+    "The new splitting and whole-fiber claims assume a collapsed fixed double component overm and L(m) nonzero. For the mixed(2,1) case, the simple companion is collapsed by98.",
+    "Zero first normal action is not assumed for the normal-row splitting, affine column, whole-ideal theorem, or common NF inclusion; it distinguishes the constant-column case afterward.",
+    "The fiber ring presentation uses the specified actual G,c and alternative original slice sigma, not chosen abstract parameters. No field or dimension correction has been confirmed by Luo."
+  ],
+  "completed_deductions": [
+    "Global L(s) dot a=kappa(s), a=x_tr-u b, gives F=(L0-L) dot a+kappa-kappa0 in mA and ell=F+uEell in mB. The original coordinate ell has nonzero speed Eell in m^2.",
+    "At each collapsed double, the actual centered normal class F equals d dot(s-m) moduloq^2 for a nonzero constant base row d. Thus dC(c)=(1,0), and the rank-one quotient conormal matrix has constant row direction.",
+    "A constant base change normalizes C=[[1,0],[a(c),0]]. Whole-thickening length2 forces the transverse quadratic coefficient of f-a(c)x to be a nonzero constant b.",
+    "The exact weighted cubic coefficient is2nu^3*b*a'*a'' on x^2. Actual N^3G=0 forces a(c)=a0+a1c. Zero first normal action is exactlya1=0, so its entire conormal matrix is constant.",
+    "All three nonconstant zero-normal row spans from98 are impossible when L(m) nonzero, including a whole collapsed double. The early99 compatibility sector is explicitly marked empty and its former NF consequence superseded.",
+    "Differentiating the global identity gives NF in mA*q at a collapsed component, N^2a in mS^3 and N^2F in m^2S. If all components are collapsed, NF lies mA*rad(mA), without a first-normal-action premise.",
+    "Because ell belongs to mB, quotienting by ell gives a polynomial UFD of dimension3. CM whole-fiber primary decomposition has no embedded terms; each height-one primary ideal contracts from its DVR as the exact prime power dictated by the actual Artin length.",
+    "The entire ideals are mB=(ell,H(Y)),mA=(F,H(G)), H=T^2 for whole collapsed double andT^2(T-1) for mixed(2,1). These are nonreduced scheme equalities, not radical statements.",
+    "The actual original alternative slice sigma and c=z-q0*u*sigma+q0*sigma^2/2 give A/mA=C[G,c]/H(G). Ordinary sigma=0 evaluation proves injectivity over the nonreduced coefficient ring.",
+    "The original partial d_z preserves the whole mB ideal. This does not assert that it preserves A or commutes with E on the whole quotient.",
+    "The retained99 plane-Jacobian calculation distinguishes the simple plane's nonzero constant transverse coefficients from zero product on the double plane. Its restricted spatial divisibility cannot erase a nonzero linear ell term.",
+    "An intrinsic polynomial inverse-pair control has leading D*^2G=0 but full N^2G=-2X^2 nonzero. It is not a supplied original-frame example."
+  ],
+  "proof_reviews": {
+    "volume_normal": "Root author and complete saved read f003e2 with final literal TeX spacing correction; full retained reads b68f24(volume88),45eb68(plane92),c22519(globalJac91). Geometry and Jet full saved eight-equation reconstructions clean. General full saved proof/code/hash audit dc8722 clean, including all-point coefficient and m^2S second derivative.",
+    "whole_fiber": "Geometry author; Root full saved read f8a24a; Jet full saved seven-equation reconstruction; General5c8a07 full saved seven-equation/hash audit. All check CM/primary/DVR contraction, polynomial-extension Artin lengths and actual-c nilpotent-safe injection.",
+    "plane_normal": "Geometry author; Root b5ddf1, General76bab1 with canonical orientation c56359, and Jet saved EOF reconstructions clean, all six equations.",
+    "compatibility": "Jet author; Root32384b, General76bab1 and Geometry full six-equation reconstructions. Root4d84b6 and General2b7164 verify final forward-status note making its actual nonconstant-zero-normal sector empty under the new volume theorem.",
+    "integration": "Root complete synthesis/audit/README/ledger reads c3f17d,bbbd01,8ffc67,97f2b6. General full integration a9fd0d,fbdc5e,f156eb clean and read-only single AST method/input/output checks. Final audit adds dc8722/5c8a07/2b7164 evidence and minor clarity/spacing changes.",
+    "limit": "Independent AI reconstructions and finite symbolic controls, not expert review, formal proof verification, historical novelty clearance or a new reconstruction of all foundational topology."
+  },
+  "targeted_verification": {
+    "path": "research/verification-pass99-working.json",
+    "sha256": "3b137cba288d0c099c123e6d82e08ca4647ab583f898dac3139246c6ae1fb899",
+    "all_passed": true,
+    "suites": 1,
+    "test_methods": 1,
+    "started_at_utc": "2026-09-14T18:13:04.897Z",
+    "finished_at_utc": "2026-09-14T18:13:05.574Z",
+    "wall_seconds": 0.670470625,
+    "unittest_seconds": 0.073,
+    "input_files": 1,
+    "input_hashes_unchanged": true,
+    "complete_output_sha256": "2173d15ee4d741adc43f2daa5aea56ddd29a921c0bb5977da8852d6380ed08b8",
+    "output_hash_convention": "stdout + one newline + stderr",
+    "canonical_tool_chunk": "3d24bd",
+    "independent_repeats": "Author9eb9f6:one method0.039s,wall0.308369041. Same method, not additional coverage. General final verification was read-only, not a rerun.",
+    "scope": "One finite symbolic method: cubic weighted-column identities, affine positive and higher-degree negative controls, constant-left-inverse matrix algebra, and an intrinsic polynomial inverse-pair boundary. Not verification of actual global volume, conormal or fiber geometry, universal primary contraction, recognition, or cancellation."
+  },
+  "predecessor_audit": {
+    "checked_at_utc": "2026-09-14T18:21:03.139Z",
+    "all_passed": true,
+    "prior_hash_records": 593,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "8af8a62ec4e5e431b1ea75a70d3d3dee72ec46ec5e135f49a99fdb0ab2ef6ebd",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "tool_chunk": "da080c",
+    "unchanged": true,
+    "earlier_checks": [
+      "e4ce90",
+      "a43031"
+    ]
+  },
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-14T18:21:03.235Z",
+    "all_passed": true,
+    "artifact_count": 8,
+    "numbered_equations": 31,
+    "local_links_checked": 796,
+    "missing_links": [],
+    "deferred_links": [
+      {
+        "from": "research/proof-audits-pass99-working.md",
+        "target": "checkpoint-pass99-working.json"
+      },
+      {
+        "from": "research/quadratic-whole-fiber-frontier-pass99.md",
+        "target": "checkpoint-pass99-working.json"
+      },
+      {
+        "from": "README.md",
+        "target": "research/checkpoint-pass99-working.json"
+      },
+      {
+        "from": "research-ledger.md",
+        "target": "research/checkpoint-pass99-working.json"
+      }
+    ],
+    "targeted_inputs_checked": 1,
+    "targeted_complete_outputs_checked": 1,
+    "artifacts": [
+      {
+        "path": "research/proof-audits-pass99-working.md",
+        "sha256": "3a40cb95f78274dc2d06758df8ff8ece397992b510af7c76f3255e888973da69",
+        "bytes": 6780,
+        "content_lines": 134,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/quadratic-parallel-plane-normal-pass99.md",
+        "sha256": "abf4da95bfd8adfb0790766fa4dec44c084ef29c3f3d165bdc347b42a86f99c1",
+        "bytes": 7980,
+        "content_lines": 192,
+        "numbered_equations": 6
+      },
+      {
+        "path": "research/quadratic-volume-normal-splitting-pass99.md",
+        "sha256": "ff7360eced28f2f863cf668e8f20207e1700e80d67e23228eb284fba64677e73",
+        "bytes": 11642,
+        "content_lines": 276,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/quadratic-whole-fiber-frontier-pass99.md",
+        "sha256": "a32254bdbb36945ae1364929a52228ac79639f911495f15b807023b58fdf3b01",
+        "bytes": 8262,
+        "content_lines": 187,
+        "numbered_equations": 4
+      },
+      {
+        "path": "research/quadratic-whole-plane-fiber-pass99.md",
+        "sha256": "b395ca4050c1b2eb82e745ba585237bd50f34e584e74fb5191ded91689e0af6a",
+        "bytes": 9509,
+        "content_lines": 225,
+        "numbered_equations": 7
+      },
+      {
+        "path": "research/quadratic-zero-normal-companion-compatibility-pass99.md",
+        "sha256": "ce6d8427a2df8c7a89f97932fea1218f06a29bcfc622e04398b80a0d80a16661",
+        "bytes": 8355,
+        "content_lines": 200,
+        "numbered_equations": 6
+      },
+      {
+        "path": "research/quadratic_volume_normal_checks_pass99.py",
+        "sha256": "44f260454d3c4c2e0936a5304cc546794dd12b686b11a336543ff5fb6a36dbc5",
+        "bytes": 4238,
+        "content_lines": 106,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/verification-pass99-working.json",
+        "sha256": "3b137cba288d0c099c123e6d82e08ca4647ab583f898dac3139246c6ae1fb899",
+        "bytes": 1419,
+        "content_lines": 29,
+        "numbered_equations": 0
+      }
+    ],
+    "tool_chunk": "c6e362",
+    "scope": "Eight saved99 artifacts plus live README/ledger real local links. Four checkpoint-self links intentionally deferred until save and checked afterward. Later100 scratch work is excluded."
+  },
+  "selected_primary_sources": [
+    {
+      "url": "https://stacks.math.columbia.edu/tag/0BUS",
+      "title": "Lemma10.103.7: Cohen-Macaulay modules have no embedded associated primes",
+      "scope": "Root freshly read the complete displayed statement and proof for the local CM gate. Referenced background lemmas and the whole foundational theory were not newly reconstructed. No new recognition or novelty theorem is asserted."
+    }
+  ],
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "fresh_full99_regression_performed": false,
+  "central_registry_integrated": false,
+  "historical_claim_count": 544,
+  "record_accounting": {
+    "prior_frozen_records": 593,
+    "new_artifacts": 8,
+    "new_checkpoint_self": 1,
+    "records_after_checkpoint_freeze": 602,
+    "note": "Checkpoint self hash retained externally and checked independently. README/ledger and100 scratch work excluded from frozen counts."
+  },
+  "rejected_shortcuts": [
+    "A conormal left inverse is not a global coordinate inverse, and ell in mB is not E-invariance: Eell is nonzero.",
+    "Exact whole-fiber equations do not present A as a polynomial ring.",
+    "The earlier nonconstant zero-normal compatibility calculations are vacuous in the actual L(m) nonzero sector and must not be counted as surviving cases.",
+    "The affine leading operator's square-zero identity is not the full N^2G identity.",
+    "Preservation of the entire fiber by the original partial is not preservation of A or commutation with E on the nonreduced quotient.",
+    "A finite symbolic method and artifact hashes do not verify universal geometry or the general conjecture.",
+    "Recognizing the supplied frame would still leave the arbitrary sliced-action reduction."
+  ],
+  "next_bounded_actions": [
+    "Finish and independently audit the new100 whole-fiber action investigation: determine induced N and original d_z, including nilpotent coefficients, and use N^3h=0 for the third good generator. Outlines are in progress and are not99 completed deductions.",
+    "Test whether the stronger whole-fiber and normal data eliminate either first-normal branch or yield an actual global recognition argument. Do not lift quotient commutators or identities without proof.",
+    "Continue the L(m)=0 and noncollapsed whole-double sectors. Keep these outside the current conditional results.",
+    "Keep the full cancellation objective and the arbitrary-frame reduction intact and unresolved."
+  ],
+  "arbitrary_constant_acceleration_recognized": false,
+  "arbitrary_sliced_action_reduced_to_frame": false,
+  "professor_interpretation_confirmed": false,
+  "historical_novelty_verified": false,
+  "human_expert_review_completed": false,
+  "formal_verification_completed": false,
+  "external_contact_made": false,
+  "submission_or_publication_made": false
+}

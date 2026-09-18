@@ -1,0 +1,237 @@
+{
+  "pass": 134,
+  "status": "twenty_nine_targeted_exact_methods_passed; primitive_corrections_proved_in_working_derivation; general_cancellation_unsolved",
+  "working_directory": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+  "execution_owner": "Root",
+  "environment": {
+    "python": "3.13.5, Anaconda, Clang14.0.6",
+    "sympy": "1.13.3",
+    "evidence": "41ff87"
+  },
+  "unittest": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.primitive_graph_descent_controls_pass134 research.rational_pencil_weight_controls_pass134 research.low_weight_localization_controls_pass134 research.binary_cubic_rigidity_controls_pass134 research.weighted_subduction_controls_pass133 research.commuting_good_quadratic_controls_pass133 research.three_good_unit_row_and_two_shear_checks_pass132 research.three_good_primitive_profile_orbit_checks_pass131 research.three_good_mixed_cubic_gate_checks_pass130 -v",
+    "initial_execution": "832778",
+    "completion": "365ec8",
+    "session_id": 67635,
+    "session_state": "completed",
+    "exit_code": 0,
+    "test_methods": 29,
+    "new_methods": 10,
+    "retained_methods": 19,
+    "unittest_reported_seconds": 1.827,
+    "inputs": [
+      {
+        "path": "research/primitive_graph_descent_controls_pass134.py",
+        "sha256": "8ff4c26794df8f8bd3d7707b132642f2acc7e0cc2fb81c6826a80c0cf6307b53",
+        "methods": 3
+      },
+      {
+        "path": "research/rational_pencil_weight_controls_pass134.py",
+        "sha256": "68546f8c7b6e1c01590b8cc92b361103d39c21d20d8883902d27b8e06b25b858",
+        "methods": 2
+      },
+      {
+        "path": "research/low_weight_localization_controls_pass134.py",
+        "sha256": "13effb0682ee5ad96aa6c4a7715ec44da54508b53d88fe3fb75f76ea8a9ed22f",
+        "methods": 2
+      },
+      {
+        "path": "research/binary_cubic_rigidity_controls_pass134.py",
+        "sha256": "8b110580bd0f8cf112dc2736f89d976a2ce9fa7c6382c37399b34cd4a13cb580",
+        "methods": 3
+      },
+      {
+        "path": "research/weighted_subduction_controls_pass133.py",
+        "sha256": "b14ac236eead1230c37f5c7b8aee599e96d9e47cdbaa8efc4dc8a8bf36479ca0",
+        "methods": 3
+      },
+      {
+        "path": "research/commuting_good_quadratic_controls_pass133.py",
+        "sha256": "bd7f855d7cd4dca112f14554c7b1cd5cb1a05d53e4b8f1580b191ced0a5f36d7",
+        "methods": 3
+      },
+      {
+        "path": "research/three_good_unit_row_and_two_shear_checks_pass132.py",
+        "sha256": "374d2f6cb2dfb39134e8f6f799e17774eb77297081ede1725f4a27d7e2bbfd53",
+        "methods": 6
+      },
+      {
+        "path": "research/three_good_primitive_profile_orbit_checks_pass131.py",
+        "sha256": "c6a47aa0ecf201b073b48625ef5717856aa5cba1ca5238ec52322b87503abe1e",
+        "methods": 3
+      },
+      {
+        "path": "research/three_good_mixed_cubic_gate_checks_pass130.py",
+        "sha256": "0a04163d0f80a226343dfb8e2ff4477c0c3c5858245d2d471392eb510162b058",
+        "methods": 4
+      }
+    ],
+    "root_source_reads": {
+      "binary": "c1bf98 and f78fc8 complete source",
+      "low_weight_localization": "1c9835 complete source",
+      "rational_pencil": "01e308 complete source",
+      "graph": "401c20 complete two-method source;fe41eb complete new third method and docstring"
+    },
+    "final_hash_validation": "714c31",
+    "coverage_limits": "Finite exact identities, actual inverse fixtures, formal nonrealizable controls and boundary examples. No finite suite proves generalized Luroth, the generic-component classification, universal invariant existence or full cancellation."
+  },
+  "intermediate_suites": [
+    {
+      "methods": 22,
+      "initial": "2e52f4",
+      "completion": "2f7cff",
+      "session_id": 98526,
+      "exit_code": 0,
+      "seconds": 1.576
+    },
+    {
+      "methods": 24,
+      "initial": "70ad7e",
+      "completion": "229307",
+      "session_id": 70804,
+      "exit_code": 0,
+      "seconds": 1.644
+    },
+    {
+      "methods": 28,
+      "initial": "5a3ad2",
+      "completion": "dbd294",
+      "session_id": 1749,
+      "exit_code": 0,
+      "seconds": 1.742,
+      "graph_checker_sha256": "a1fd319f4f5301604be3bde74d115c22c224c3561014823fd256ddefd8757e91",
+      "scope": "Before the third direct-normalization method."
+    }
+  ],
+  "search": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python research/primitive_seed_commutator_search_pass134.py --seconds 25 --max-words 1296 --term-cap 10000",
+    "wrapper_sha256": "fc19d15ee4f8b3c76b88f051d61fd3ab821fe3d9e7270b99f38644c056fb1a5b",
+    "pinned_engine_sha256": "192bb828fbe777bcbce7e4a0f9c4cdab0775d236e338db9728cdf03ad5d08424",
+    "source_audit": "Root d68d24/b0ab56 and complete final1c9835; Jet wrapperaa8850 and frozen engine0774da; hashesb89412.",
+    "initial_execution": "b0ab56",
+    "completion": "65dde6",
+    "session_id": 45166,
+    "session_state": "completed",
+    "exit_code": 0,
+    "attempted_words": 1296,
+    "attempted_words_changing_X": 648,
+    "inverse_verified_both_orders": 1296,
+    "unique_endpoints": 507,
+    "counts": {
+      "duplicate": 789,
+      "profile_rejected": 432,
+      "both_gates_pass": 75
+    },
+    "per_seed_counts": {
+      "primitive_linear_speed": {
+        "duplicate": 263,
+        "profile_rejected": 144,
+        "both_gates_pass": 25
+      },
+      "primitive_quadratic_speed": {
+        "duplicate": 263,
+        "profile_rejected": 144,
+        "both_gates_pass": 25
+      },
+      "primitive_quadratic_bad_shear": {
+        "duplicate": 263,
+        "profile_rejected": 144,
+        "both_gates_pass": 25
+      }
+    },
+    "elapsed_script_seconds": 6.012331125093624,
+    "stop_reason": "exhausted_family",
+    "cutoffs": 0,
+    "findings": [],
+    "scope": "This completed finite search predates the universal correction proof. All75 distinct primitive endpoints pass, but the search proves no absence theorem. The wrapper intentionally imports the frozen exploration engine and is not an independent checker. Jet's source audit did not independently rerun or inspect the raw completion output."
+  },
+  "initial_search_timeout": {
+    "sha256": "b1a0d5c520b06c5c0328018c134b3c737b345b670aae8ac432f6216143721d8c",
+    "initial_execution": "d68d24",
+    "poll": "bff689",
+    "completion": "5ba955",
+    "session_id": 56211,
+    "session_state": "completed",
+    "exit_code": 0,
+    "elapsed_script_seconds": 25.01836916594766,
+    "stop_reason": "time_limit",
+    "attempted_words": 0,
+    "completed_seed_list": false,
+    "findings": [],
+    "limit": "Timed out during seed inverse expansion, before testing a candidate. Not negative mathematical evidence and not a verified completed seed set.",
+    "repair": "Replaced monolithic seed substitution with staged exact identities in both inverse orders, including a formal independent speed placeholder before specialization. Word inverse verification remained unchanged."
+  },
+  "proof_reviews": {
+    "central_final_sha256": "c1a4c2650bdaefab6aba85d9c3d26c615bee0128c15a28b088d0f0f593c8001f",
+    "central_equations": 17,
+    "Root": "01e308 complete fourteen-equation proof;914ac2 scope/link delta;5fe488 complete direct-normalization change and Sources.",
+    "General": "b88951/93f7ed complete original;af4d99/fa03b9 scope/link delta;52b033 final direct-normalization change;35b3ff final hash.",
+    "Geometry": "148e06 complete original;94b35c scope/link delta;313cba final Sections6/7 and Sources;4e51d8 final hash.",
+    "Jet": "cb9914 and af0d94 complete earlier versions;3832c5 final Sections6/7 and Sources;6157fe final hash.",
+    "localization": "Root237ff7 full;Geometryb68ce1 full;Jet738159+a22711 full mathematical body. Scope-only wording updated914ac2; all eight equations unchanged.",
+    "generic_line": "Root6652bd full;Geometry96c18e plus7f2f8f source-title delta;General0ce166 full;Jet5ddbb3 full.",
+    "rational_pencil": "Root01e308 full;Jetf6076c full;Geometry75f54a full.",
+    "low_weight": "Rootc1bf98 and1c9835;Generald912cc;Jet41fd92, complete proof reads.",
+    "constant_speed": "Root6de0b9 and121962 full;Generalauthor8d4dab+dbd09e;Geometrya6db20;Jet9c369a full. Header only changed914ac2.",
+    "checker_final_graph": "Root401c20+fe41eb;Jet authorc39276+050c8e+012264;Geometry9b6e1b+ebb8a6+7a0767;General5be5ba+01a5d9. Source-only peer reviews.",
+    "limit": "Independent AI mathematical reconstructions and exact finite controls, not human expert review, proof-assistant verification or historical novelty clearance."
+  },
+  "source_reads": {
+    "luroth": {
+      "url": "https://arxiv.org/pdf/1501.06046v4",
+      "author": "Michiel de Bondt",
+      "title": "Rational maps H for which K(tH) has transcendence degree2 over K",
+      "location": "Theorem1.1 and classical attribution, printedp4",
+      "Root": "turn3992view0",
+      "General": "turn3993view0",
+      "Geometry": "turn3996view0",
+      "Jet": "turn3995view0"
+    },
+    "luroth_reduction": {
+      "url": "https://www.numdam.org/item/JTNB_1989__1_1_27_0.pdf",
+      "author": "Jack Ohm",
+      "title": "On ruled fields",
+      "year": 1989,
+      "location": "Section1.2, printedp29",
+      "Root": "turn3990view0",
+      "Geometry": "turn3997view0"
+    },
+    "wang": {
+      "url": "https://arxiv.org/pdf/1701.03635v1",
+      "authors": "Nikhilesh Dasgupta and Neena Gupta",
+      "title": "Nice derivations over principal ideal domains",
+      "location": "Theorem4.1, printedp9",
+      "Root": "turn3988view0",
+      "scope": "Exact attributed Wang alternatives; original-thesis review retained in132, not a new recursive audit."
+    },
+    "limits": "The rationality and classification inputs are classical. No new full reconstruction of classical Luroth/Igusa/Samuel proofs or comprehensive statement-level novelty audit is claimed."
+  },
+  "bounded_novelty_search": {
+    "evidence": [
+      "turn3986search results",
+      "turn3994search results"
+    ],
+    "queries": [
+      "\"locally nilpotent\" \"nice\" \"four variables\" quadratic",
+      "\"locally nilpotent\" \"1,1,1,2\"",
+      "\"locally nilpotent\" \"cubic\" \"rank\" four variables",
+      "\"quasi-nice\" \"four\" \"slice\"",
+      "\"locally nilpotent\" \"D^3\" \"D^2\" \"slice\" four",
+      "\"locally nilpotent\" \"three\" \"quadratic\" \"four-space\""
+    ],
+    "result": "No comprehensive novelty conclusion. Search results were not substituted for inspected primary theorem statements."
+  },
+  "scope_audit": {
+    "owner": "General, read-only saved-theorem comparison",
+    "covered": "Rank0/1 via127; quadratic-span acceleration via nice80; dense rank2 via133/134. Linear homogeneous speed relations retain the invariant-coordinate gate; nonlinear conical constant acceleration retains89.",
+    "remaining": "Nonlinear conical speed-rank2 with nonconstant acceleration q outside C+W2; arbitrary coordinate-profile entry and unrestricted cancellation.",
+    "evidence": "125 selected7e6e2a;127af228f+d7928b;nice800d81e2;constant-acceleration-relative-slice-descent89343452;126 explicit limitationf14cfc.",
+    "limit": "This bounded audit locates a remaining recorded sector; it does not assert impossibility of an uninspected alternate proof."
+  },
+  "frozen_integrity": {
+    "checkpoint133_sha256": "0348b6deb296cf94577dee31ffd61acdbcf97a287edf1eceb38cb5ad5908c04e",
+    "all_seven_artifacts_match": "c2de61 and714c31",
+    "intentionally_edited": false
+  },
+  "limits": "Full goal remains unachieved. No human review, formal verification, historical novelty clearance, external contact, public posting, submission or new automation."
+}

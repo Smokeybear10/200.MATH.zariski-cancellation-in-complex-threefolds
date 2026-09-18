@@ -1,0 +1,51 @@
+{
+  "started_at_utc": "2026-09-14T21:08:56.794Z",
+  "finished_at_utc": "2026-09-14T21:08:58.621Z",
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.quadratic_divisor_filtration_checks_pass107",
+    "research.quadratic_parameter_ideal_checks_pass107",
+    "research.triple_point_quartic_checks_pass51",
+    "research.quartic_fiber_gate_checks_pass52"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 1.821055458,
+  "suites": 4,
+  "test_methods": 7,
+  "new_methods": 2,
+  "retained_methods": 5,
+  "ast_method_counts": {
+    "research/quadratic_divisor_filtration_checks_pass107.py": 1,
+    "research/quadratic_parameter_ideal_checks_pass107.py": 1,
+    "research/triple_point_quartic_checks_pass51.py": 3,
+    "research/quartic_fiber_gate_checks_pass52.py": 2
+  },
+  "input_files": [
+    {
+      "path": "research/quadratic_divisor_filtration_checks_pass107.py",
+      "sha256": "87c7052e3e165f0d1ebc8faabc8f49d178c2c55a3cfe6daf0ef6d97e817e1a38"
+    },
+    {
+      "path": "research/quadratic_parameter_ideal_checks_pass107.py",
+      "sha256": "4d96a63eaeec54559b8d133fd867da2863d7bbee9d5ed1143517730ce6cba61c"
+    },
+    {
+      "path": "research/triple_point_quartic_checks_pass51.py",
+      "sha256": "fd5476d48025f2d9f3d938e0fafd5e1ab453b572ecf9c83855ce90466c999631"
+    },
+    {
+      "path": "research/quartic_fiber_gate_checks_pass52.py",
+      "sha256": "9e93803195f8707bacb2019b84c44df7e459fedd0dd87ba33a6b4ce55c0ddad3"
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "stdout": "",
+  "stderr": "test_conic_filtration_and_hypothesis_controls (research.quadratic_divisor_filtration_checks_pass107.QuadraticDivisorFiltrationChecks.test_conic_filtration_and_hypothesis_controls) ... ok\ntest_matrix_certificates_and_nonreduced_conic_identities (research.quadratic_parameter_ideal_checks_pass107.QuadraticParameterIdealChecks.test_matrix_certificates_and_nonreduced_conic_identities) ... ok\ntest_full_divisor_basis_and_basis_change_covariance (research.triple_point_quartic_checks_pass51.TriplePointQuarticChecks.test_full_divisor_basis_and_basis_change_covariance) ... ok\ntest_two_independent_quartic_divisions_and_derivatives (research.triple_point_quartic_checks_pass51.TriplePointQuarticChecks.test_two_independent_quartic_divisions_and_derivatives) ... ok\ntest_weak_conic_does_not_allow_either_actual_division (research.triple_point_quartic_checks_pass51.TriplePointQuarticChecks.test_weak_conic_does_not_allow_either_actual_division) ... ok\ntest_generic_eliminations_recover_the_complete_conic (research.quartic_fiber_gate_checks_pass52.QuarticFiberGateChecks.test_generic_eliminations_recover_the_complete_conic) ... ok\ntest_independent_saturations_and_full_scheme_fibers (research.quartic_fiber_gate_checks_pass52.QuarticFiberGateChecks.test_independent_saturations_and_full_scheme_fibers) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 1.398s\n\nOK\n",
+  "output_hash_convention": "stdout + one newline + stderr",
+  "complete_output_sha256": "57d5fc44b96fa1ffa68724d512fe648b63fe0c45c0d786682055eff02751c429",
+  "all_passed": true,
+  "scope": "New finite divisor-filtration and matrix/nonreduced-parameter controls plus retained quartic-division and presentation controls. Does not verify universal DVR classification, purity, full-Artin exclusion, flatness, source-frame assumptions or cancellation."
+}

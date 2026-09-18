@@ -1,0 +1,168 @@
+{
+  "status": "Audited working66 proof packet with a fresh full regression. Central claim-registry integration remains at historical full60.",
+  "previous_working_checkpoint": "research/checkpoint-pass65-working.json",
+  "previous_integrated_checkpoint": "consistency-pass-60.json",
+  "preceding_goal_turn_classification": "progress",
+  "synthesis": "research/low-flow-closure-pass66.md",
+  "proof_audit": "research/proof-audits-pass66-working.md",
+  "verification_record": "research/verification-pass66-working.json",
+  "historical_integrated_counts": {
+    "claims": 544,
+    "test_methods": 1000,
+    "suites": 126
+  },
+  "fresh_full_regression": {
+    "test_methods": 1008,
+    "suites": 130,
+    "all_passed": true,
+    "started_at_utc": "2026-09-14T00:23:50.783439+00:00",
+    "finished_at_utc": "2026-09-14T00:25:34.624379+00:00"
+  },
+  "new_current_methods": 3,
+  "new_current_suites": 1,
+  "all_working61_through66_additions": {
+    "methods": 8,
+    "suites": 4
+  },
+  "central_registry_integrated": false,
+  "completed_deductions": [
+    "Every dependent-defect flow-degree-two instance with no complex constant defect relation has joint leading rank at most two. The final proof needs no speed-rank, projective-direction or polynomial-curve premise.",
+    "The full five-dimensional Jordan preimage argument excludes the last low-flow sector. Together with the earlier case exhaustion, all flow degrees at most two in the supplied two-quadratic coordinate frame are recognized.",
+    "In the dependent constant-top cubic case, the full acceleration is c*sigma+e for constant vectors and an actual polynomial slice. The reduced bad velocities satisfy an exact differential relation and a polynomial tangent-curve normal form.",
+    "Zero bad acceleration and a constant residual pair give recognition in that dependent cubic case; the nonzero-acceleration nonconstant tangent-curve sector remains open.",
+    "In the independent constant-top cubic normal form, the two good leading fields form a rational basis of the defect distribution with the same actual kernel k[t,f]. The corrected field's defect coefficients lie in k(t)."
+  ],
+  "proof_strengthenings": [
+    "An initially valid speed-curve/Wronskian exclusion was strengthened by M^{-1}(im M^2)=im M for Jordan type (3,2), removing all speed hypotheses.",
+    "The span of the actual highest vector and its ordinary derivative columns removed the polynomial-curve classification input from the rank-cap proof."
+  ],
+  "remaining_mathematical_obligations": [
+    "Dependent constant-top cubic: nonzero bad acceleration with nonconstant residual tangent curve; actual coordinate recognition not proved.",
+    "Independent constant-top cubic: sufficient actual good-partial preservation of k[t,f] remains unproved.",
+    "Other higher constant-top and moving-top sectors of the supplied (1,1,2,2) frame.",
+    "Existence of an applicable actual coordinate frame for an arbitrary sliced polynomial four-ring action, or an unrestricted alternative recognition theorem."
+  ],
+  "all_supplied_two_quadratic_low_flow_recognized": true,
+  "entire_two_quadratic_profile_recognized": false,
+  "all_profile_height_threshold": 9,
+  "general_conjecture_solved": false,
+  "universal_frame_existence_proved": false,
+  "novelty_claimed": false,
+  "human_expert_review": false,
+  "proof_assistant_verified": false,
+  "interpretation_confirmed_by_professor": false,
+  "external_contact_or_submission": false,
+  "artifact_integrity": {
+    "checked_at_utc": "2026-09-14T00:31:57.567707+00:00",
+    "all_passed": true,
+    "old_full60_nonmutable_records": 168,
+    "prior_working64_artifacts": 13,
+    "prior_working65_artifacts": 11,
+    "prior_packets": [
+      {
+        "path": "research/checkpoint-pass64-working.json",
+        "sha256": "79837b5bcdd9291d9f145e9ff4a59645a08d4612f47d2cf1884d8cf25545c79f"
+      },
+      {
+        "path": "research/checkpoint-pass65-working.json",
+        "sha256": "48937ab0c218c0db8790f9572cb0f07bebd9d969ac09119a24baa6dddebd4f68"
+      }
+    ],
+    "local_link_paths_checked": 30,
+    "link_anchors_checked": false,
+    "current_new_checker": {
+      "path": "research/dependent_low_flow_rank_checks_pass66.py",
+      "methods": [
+        "test_five_dimensional_cube_zero_rank_alternatives",
+        "test_full_companions_and_horizontal_preimage_gate",
+        "test_actual_rank_two_boundary_and_its_weighted_companion"
+      ],
+      "imports": [
+        "unittest",
+        "sympy"
+      ]
+    },
+    "regression": {
+      "suites": 130,
+      "methods": 1008,
+      "all_passed": true
+    },
+    "central_claim_registry_integrated": false,
+    "general_cancellation_verified": false,
+    "scope": "Artifact integrity and captured finite-test accounting, not mathematical proof verification.",
+    "artifacts": [
+      {
+        "path": "research/rank-three-speed-curve-pass66.md",
+        "bytes": 9977,
+        "sha256": "3ac65901cc95bdd185a12b49595c59170d2c572d552e60e51effb3f290eb97e0",
+        "lines": 301,
+        "numbered_equations": 21,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/dependent-constant-cubic-pass66.md",
+        "bytes": 8987,
+        "sha256": "1648d17cb45c07d85f6988e7075d20f5bd874560230f2aa8b16ea4f59a550d0a",
+        "lines": 244,
+        "numbered_equations": 16,
+        "source_footnotes": 1
+      },
+      {
+        "path": "research/constant-top-cubic-good-fields-pass66.md",
+        "bytes": 7179,
+        "sha256": "ee0bb60757ab91b810e9b35dad4396cf2aec29bee5c7027e1215b529ed6ad3df",
+        "lines": 210,
+        "numbered_equations": 9,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/dependent_low_flow_rank_checks_pass66.py",
+        "bytes": 7507,
+        "sha256": "77d2aedffced9168767e85468ba7b76ec9d2229c7051562a2eaaccdeae1f443e",
+        "lines": 167,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/run_regression_pass66.py",
+        "bytes": 3824,
+        "sha256": "29e0ebbb5cde4b7d0651b84a6299b727c6f2c5afaf45e1b31928e1011a29736e",
+        "lines": 99,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/verification-pass66-working.json",
+        "bytes": 79499,
+        "sha256": "f264b322e41b42fb1eabb3fb1bbc591b629c02c937dba4c681985eee85d5e98b",
+        "lines": 1968,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/low-flow-closure-pass66.md",
+        "bytes": 10239,
+        "sha256": "baeaf0356ceb7018f17ba9c6d74050ccdbc6ce8c712c41de9fc55c07a74e4d51",
+        "lines": 254,
+        "numbered_equations": 9,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/proof-audits-pass66-working.md",
+        "bytes": 10718,
+        "sha256": "3c436a1eb435621d45dab86c15829a741e21ddca5fe21276577cd5b0d8e90b89",
+        "lines": 228,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/consistency_checks_pass66.py",
+        "bytes": 6331,
+        "sha256": "6df0eb4ceb652a941f3067e74f7311163aadc13bd68c2b5dd6147049e5678cb9",
+        "lines": 155,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      }
+    ]
+  }
+}

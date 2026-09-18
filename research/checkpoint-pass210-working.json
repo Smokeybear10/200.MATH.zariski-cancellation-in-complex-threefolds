@@ -1,0 +1,127 @@
+{
+  "pass": 210,
+  "status": "supplied_radical_chart_reduced_to_affine_projected_pair_or_recognized; affine_pair_and_general_cancellation_frontiers_open",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass209-working.json",
+    "sha256": "2d5ec48e77c43aac39f771f101b76a276f2a98bf8937bc83efc4a2904e62ea47",
+    "records": 1289
+  },
+  "results": {
+    "recognition": "A constant second projection under the actual q_t=0, q_rhorho nonzero hypotheses forces affine projected entries and supplies a genuine nice commuting invariant-coefficient derivation. Criterion205 recognizes the invariant ring. In particular a zero radical center is recognized after its determinant factor forces constant second projection.",
+    "exclusions": "A repeated quadratic center and both nonlinear squarefree whole-plane degree branches are excluded. Exact finite-fiber/cofactor and coefficient arguments precede verified actual normalizations. The final contradictions make primitive irreducible original polynomials into squares in the original fraction field; generic parameters are not presumed regular or ambient coordinates.",
+    "remaining_alternative": "Together with retained zero-return205 and proper-plane209, the supplied full radical initial kernel and exact (1,1,2,2) chart are recognized or have a whole projected plane with y and theta both affine nonconstant, w of degree at most1 and z of degree2. The latter form is not a counterexample and may overlap recognized actions.",
+    "boundaries": "The residual P satisfies P^2 Z=2a^2(Ntheta)^2 nonzero and E(PW)=a^2Ntheta nonzero, so criterion205 is not yet applicable to it. Recognition of the affine pair, other leading sectors, arbitrary entry, global minimum profiles and unrestricted cancellation remain unresolved. Separate211 work is excluded."
+  },
+  "goal_audit": {
+    "current_progress": "Five written notes and one five-method finite exact-algebra suite are packaged with source reviews and one passing canonical execution. This records a restricted frontier reduction, not completion of the full goal.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "restricted_branch_recognition_only": true,
+    "remaining_affine_pair_recognition_proved": false,
+    "arbitrary_entry_proved": false,
+    "global_minimum_profile_claim": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/radical-squarefree-whole-plane-reduction-pass210-working.md",
+      "sha256": "f36351308b44d3e594343df76d9b25e02949393637fef654589446cb2d8f72b0",
+      "bytes": 11580,
+      "lines": 307,
+      "equations": 18,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-constant-second-projection-recognition-pass210-working.md",
+      "sha256": "d236f826a937df546bda399c6ea054284b109e9574813c9a3040456f885920d7",
+      "bytes": 8487,
+      "lines": 229,
+      "equations": 15,
+      "test_methods": 0
+    },
+    {
+      "path": "research/radical-affine-second-quadratic-first-exclusion-pass210-working.md",
+      "sha256": "d786d001934e0b7b912a7703a7928ceafc57964413ea2901bb454b31983929c8",
+      "bytes": 10395,
+      "lines": 273,
+      "equations": 18,
+      "test_methods": 0
+    },
+    {
+      "path": "research/radical-zero-and-repeated-center-reduction-pass210-working.md",
+      "sha256": "881ad75f954a555c7ca045b2ef4797935e8692a731c009ca263b143cc4b11897",
+      "bytes": 14452,
+      "lines": 376,
+      "equations": 22,
+      "test_methods": 0
+    },
+    {
+      "path": "research/radical-affine-pair-frontier-synthesis-pass210-working.md",
+      "sha256": "2ce3ceb2d09b3467d0405e20afc7ecd5edb25844256f0fbdd7ce9c89d62d9ef7",
+      "bytes": 6910,
+      "lines": 178,
+      "equations": 8,
+      "test_methods": 0
+    },
+    {
+      "path": "research/radical_whole_plane_reduction_controls_pass210.py",
+      "sha256": "a9cdf3dc02f5020ffa01528bafdcfd06945960d5849e39c45af0a592cd3600c4",
+      "bytes": 14895,
+      "lines": 310,
+      "equations": 0,
+      "test_methods": 5
+    },
+    {
+      "path": "research/verification-pass210-working.json",
+      "sha256": "e4da2a56f0f4b04bee2751d7ffe46c95049e0c8c7a9f622619a88a651b647816",
+      "bytes": 10654,
+      "lines": 136,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "chain_record_count_after_including_this_checkpoint": 1297,
+  "record_count_convention": "1289 frozen predecessor records plus five proof notes, one checker source, verification210 and this checkpoint: eight new records. Mutable indices are not records. No211 source, unsaved research, retained proof input or earlier canonical run is counted.",
+  "verification": {
+    "capture": "research/verification-pass210-working.json",
+    "canonical_runs": [
+      {
+        "suite": "radical_whole_plane_reduction_controls210",
+        "path": "research/radical_whole_plane_reduction_controls_pass210.py",
+        "pre_execution_read": "Author complete EOF/hash/count769fbe; Root complete9dc5db.",
+        "initial_output": "655586",
+        "session_id": null,
+        "terminal_output": "655586",
+        "methods": 5,
+        "unittest_seconds": 0.225,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "completion_via_original_handle": false,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/radical_whole_plane_reduction_controls_pass210.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "login": false,
+        "initial_yield_time_ms": 1000,
+        "initial_max_output_tokens": 6000
+      }
+    ],
+    "new_suites": 1,
+    "new_methods": 5,
+    "tagged_equations": 81,
+    "scope": "Finite exact center, jet, coefficient, transport, gcd and inverse-map controls, not universal field, cone, conductor, immersion, cofactor, irreducibility/valuation or recognition proofs. The affine-pair P^2 Z and E(PW) failures are retained as limitations. Complete author and Root checker reads preceded the sole saved execution; no additional full peer checker review is claimed."
+  },
+  "next_bounded_task": "Investigate an actual recognition mechanism for the residual affine projected pair. The existing P is not nice and lacks invariant W-coefficient; generic affine parameters and P squared cannot replace the missing actual argument. Do not rerun210."
+}

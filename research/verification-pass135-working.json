@@ -1,0 +1,147 @@
+{
+  "pass": 135,
+  "status": "conical_adjoint_and_radial_case_restrictions_proved_in_working_derivations; four_targeted_tests_passed; full_cancellation_unsolved",
+  "unittest": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.conical_cofactor_resonance_controls_pass135 research.three_good_controls_pass125.ThreeGoodControls.test_arbitrary_last_degree_and_positive_shift -v",
+    "execution": "427335",
+    "state": "completed_in_initial_call",
+    "exit_code": 0,
+    "methods": 4,
+    "new_methods": 3,
+    "retained_methods": 1,
+    "reported_seconds": 0.36,
+    "inputs": [
+      {
+        "path": "research/conical_cofactor_resonance_controls_pass135.py",
+        "sha256": "a2c9e55411cf08029e2c2c91ede3d66826c072f21db4bf97a116ff502c73f987",
+        "methods": 3
+      },
+      {
+        "path": "research/three_good_controls_pass125.py",
+        "sha256": "bd4ed1a8d89cdb472349959fef06ab66f4c95ee93b6d5723667f05856ee4ac53",
+        "selected_method": "ThreeGoodControls.test_arbitrary_last_degree_and_positive_shift",
+        "methods": 1
+      }
+    ],
+    "root_source_reads": "fb1bec complete new checker;f9e5a6 complete retained125 checker",
+    "retained_test_reason": "The inverse-verified family with last degrees2,3,5 is directly relevant to the newly proved no-last-degree-bound conical selected-partial lemma. Other unrelated125 methods and the unchanged134 suite were not rerun.",
+    "coverage_limits": "Three formal-jet methods check signed cofactor numerators, radial defect and finite initial-rank examples, with a vertical non-LND boundary. They assert no actual realization of those jets. One separate retained method checks actual polynomial inverses in both orders for last degrees2,3,5. No finite test proves universal local nilpotence, multiplicity/growth, a full initial-kernel theorem, or cancellation."
+  },
+  "proof_reviews": {
+    "selected": {
+      "Root": "bd5d0b full",
+      "General": "author e5b235;fe3e25 hash",
+      "Geometry": "9a3f65 full;0f8fdd hash",
+      "Jet": "c594e8 full;c8fb83 hash"
+    },
+    "nonradial": {
+      "Root": "ffa979 full original;d119e2 final one-line q-nonzero clarification readback",
+      "General": "author2b5f62 plus36cd19/95912c field-scope delta;1b04ac q-nonzero clarification readback;fcf67f final hash",
+      "Geometry": "64ed7c full;ee7eaf hash",
+      "Jet": "d617b8 full;9f0dc0 hash"
+    },
+    "resonant": {
+      "Root": "8783e5 full mathematical body;bfa13a full final formatting version",
+      "Geometry": "author89a134 full final body plus28e1b7 reference delta;ee7eaf hash",
+      "General": "ad20d8 full mathematical body before formatting-only repair;b17d93+fe14bb final equation-reference formatting delta",
+      "Jet": "a22e5d full body;875631 full formatting repair"
+    },
+    "frontier": {
+      "Root": "bfa13a full synthesis before q-nonzero clarification;db44d1 exact clarification;d119e2 exact conical-opening scope clarification",
+      "Geometry": "c67834 full final;c1ed1b hash",
+      "General": "8487dc full original;407561 full q-nonzero clarification version"
+    },
+    "checker": {
+      "Root": "fb1bec full",
+      "Jet": "authora6ebe1 full;f92da3 AST/hash",
+      "Geometry": "fedc91 full;edff4e hash"
+    },
+    "limits": "Independent AI reconstructions and source reviews, not human expert review, formal proof-assistant verification or historical novelty clearance."
+  },
+  "primary_reads": [
+    {
+      "author": "Daniel Daigle",
+      "title": "Tame and wild degree functions",
+      "version": "arXiv1007.0508v1,July3,2010",
+      "url": "https://arxiv.org/html/1007.0508v1",
+      "scope": "Theorem1.7 and Section1.9, including finite-degree prerequisite and homogeneous leading LND statement",
+      "evidence": "turn3999view0;turn4000view0"
+    },
+    {
+      "author": "Stephane Venereau",
+      "title": "A parachute for the degree of a polynomial in algebraically independent ones",
+      "version": "arXiv0704.1561v2,May7,2007",
+      "url": "https://arxiv.org/pdf/0704.1561",
+      "scope": "pp1–3, Property(2), main theorem, exact multiplicity lemma and displayed proofs",
+      "evidence": "turn4001view0;turn4002view0"
+    }
+  ],
+  "source_limits": "The leading-derivation and multiplicity techniques are classical. The original-ring specializations are reconstructed in the notes. The retained height-ten theorem is an additional working input only for the last profile consequence. No comprehensive statement-level novelty audit was completed.",
+  "searches": {
+    "web_evidence": "turn3998search results",
+    "queries": [
+      "\"locally nilpotent\" \"commutator\" \"slice\" rank",
+      "\"quasi-nice\" \"four\" derivation"
+    ],
+    "scope": "No comprehensive novelty conclusion; noisy secondary hits were not used as mathematical inputs. No new coordinate-word or counterexample enumeration ran."
+  },
+  "scope_boundaries": [
+    "All results assume actual original polynomial coordinates and a global slice. General coordinate entry is not proved.",
+    "The conical selected-adjoint result needs no degree bound on the last coordinate; the radial split assumes a quadratic last coordinate.",
+    "The initial-kernel comparison is restricted to q nonzero when speaking about the genuine leading initial of the last coordinate. Zero acceleration is handled separately by the retained nice-frame theorem.",
+    "The radial-mismatch branch leaves quadratic and cubic nonlinear cones unresolved; the resonant branch leaves height-eleven recognition unresolved.",
+    "Degree one sends the selected intrinsic kernel into A but does not automatically preserve that kernel. The commutator's coefficient on u need not vanish."
+  ],
+  "goal_audit": {
+    "previous_turn": "No progress: informational user check-in, not a live process wait.",
+    "current_turn": "Closed missing134 checkpoint and derived three new restricted135 lemmas, independently reconstructed, with completed targeted verification.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_cleared": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false
+  },
+  "edit_notes": "A root duplicate scope patch failed atomically because the assigned author had just saved the requested one-line change. Root read back the actual final file; no content was reverted or overwritten.",
+  "proof_artifacts": [
+    {
+      "path": "research/conical-branch-frontier-pass135-working.md",
+      "sha256": "c69c5f16e8d1f65efa9bfbde102bf92c412aafd5bc8ad0b8780e3cc88e0892f9",
+      "bytes": 6997,
+      "lines": 129,
+      "equations": 0
+    },
+    {
+      "path": "research/conical-nonradial-degree-bound-pass135.md",
+      "sha256": "2b887bda172e725294f54ba90de222b56e67309fd882ff544ab082ac58492f43",
+      "bytes": 10636,
+      "lines": 234,
+      "equations": 8
+    },
+    {
+      "path": "research/conical-resonant-good-partial-bounds-pass135.md",
+      "sha256": "0dfa31e3e9c2235d7dbe3a50cade792d1dd8769730247050a7a47a55863cbb4e",
+      "bytes": 8638,
+      "lines": 200,
+      "equations": 7
+    },
+    {
+      "path": "research/conical-three-good-adjoint-degree-pass135.md",
+      "sha256": "9671e2085bbba846fd6395c9051ab36ff30aea74c4e64297335f6c6d12a26f58",
+      "bytes": 10804,
+      "lines": 245,
+      "equations": 8
+    }
+  ],
+  "frozen_integrity": {
+    "pass134_artifacts_verified": 13,
+    "evidence": "99e2e5",
+    "checkpoint134_sha256": "6caccb3a420cf50362ec357ab49348db04953e3a78e27cd2299bc270e0430aa0",
+    "intentionally_edited": false
+  }
+}

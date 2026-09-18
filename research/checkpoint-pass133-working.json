@@ -1,0 +1,157 @@
+{
+  "pass": 133,
+  "status": "leading_relation_existence_proved_in_working_derivation_for_supplied_dense_quadratic_three_good_frames; correction_gates_and_general_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3]. Professor's intended correction, field and dimension remain unconfirmed.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass132-working.json",
+    "sha256": "c3ba0433ccc8e8e69462743f4b3afcba35e9f5b675ae1dee09639ff3bc8d32a3",
+    "records": 859,
+    "root_hash_evidence": "3dfe11"
+  },
+  "chain_record_count_after_including_this_checkpoint": 867,
+  "record_count_convention": "859 previous records plus seven listed artifacts plus this checkpoint. Live indexes and any provisional134 draft are excluded.",
+  "artifacts": [
+    {
+      "path": "research/three-good-quadratic-cubic-leading-dichotomy-pass133.md",
+      "sha256": "5a7f8a2b5365f854385842075f689d97a84ce4ee8c9a044ec600d89ec13ea468",
+      "bytes": 8673,
+      "lines": 212,
+      "equations": 12
+    },
+    {
+      "path": "research/three-good-multiplicity-degree-bound-pass133.md",
+      "sha256": "98d3035694a58a673348f0349169255ba351eff17a46b1696ab09c1ad2af0aba",
+      "bytes": 10661,
+      "lines": 232,
+      "equations": 7
+    },
+    {
+      "path": "research/three-good-commuting-direction-quadratic-invariant-pass133.md",
+      "sha256": "fd43fded77487d5ba225f7a0344a86a4a628544d8b3e73d86681db3ce3fcc8b4",
+      "bytes": 8938,
+      "lines": 234,
+      "equations": 9
+    },
+    {
+      "path": "research/primitive-gate-search-pass133.py",
+      "sha256": "192bb828fbe777bcbce7e4a0f9c4cdab0775d236e338db9728cdf03ad5d08424",
+      "bytes": 14056,
+      "lines": 310
+    },
+    {
+      "path": "research/commuting_good_quadratic_controls_pass133.py",
+      "sha256": "bd7f855d7cd4dca112f14554c7b1cd5cb1a05d53e4b8f1580b191ced0a5f36d7",
+      "bytes": 9612,
+      "lines": 185
+    },
+    {
+      "path": "research/weighted_subduction_controls_pass133.py",
+      "sha256": "b14ac236eead1230c37f5c7b8aee599e96d9e47cdbaa8efc4dc8a8bf36479ca0",
+      "bytes": 9759,
+      "lines": 187
+    },
+    {
+      "path": "research/verification-pass133-working.json",
+      "sha256": "67ca89605d69beb0b858be3a2a0de8201d95fa0a788ef196894284c83b1ef0a0",
+      "bytes": 7669,
+      "lines": 147
+    }
+  ],
+  "new_results": [
+    "In every actual sliced dense rank-two three-good quadratic frame, the coordinate-initial relation has weighted degree2 or3. Either q belongs to the constant quadratic speed span and an elementary shear removes the acceleration, or the unique primitive mixed-cubic relation L(a)q=2F3(a) exists. This closes leading-relation existence inside the supplied class, not either correction test or general frame entry.",
+    "The actual bad partial and its exact degree shift give deg_E(P)>=wt(P)-4*k, with k the exact multiplicity of the coordinate-initial relation in the original-weight top of P. The coefficient refinement and sharpness for every k are proved; finite controls test k1 through4.",
+    "Applying the estimate to all invariants excludes relation degree above4. Degree4 would force each original-weight invariant graded piece to be at most one-dimensional, contradicting the cubic growth of three algebraically independent invariants. No finite initial-basis or associated-graded generation assumption is made.",
+    "A nonzero constant ambient translation commuting with an actual dense three-good quadratic action forces an invariant bad coordinate z+K(goods) with deg K<=2. No global slice is needed for this conditional lemma. It sharpens a previously recognized commuting-direction sector, not a new cancellation recognition sector."
+  ],
+  "proof_reviews": {
+    "dichotomy": {
+      "Root": "11f538 complete saved12-equation proof",
+      "General": "e2927b complete saved proof;827f71 hash",
+      "Geometry": "e3b90d complete saved proof and independent growth reconstruction",
+      "Jet": "510272 complete saved proof"
+    },
+    "multiplicity": {
+      "Root": "16c6a0 complete initial proof;fc527b complete final source/scope revision",
+      "Geometry_author": "9a2066 complete revised proof plus58cfd8 final connective change;1e5a0f hash",
+      "Jet": "983212 full initial seven-equation proof; later final source/scope delta review is source-only"
+    },
+    "commuting": {
+      "Root": "b93e0b complete nine-equation proof",
+      "General_author": "32b8cd complete final proof;37d37c hash",
+      "Geometry": "84ae94 complete saved proof",
+      "Jet": "770439 complete saved proof"
+    },
+    "limits": "Independent AI mathematical reconstructions, not human expert approval, Lean/formal verification, or historical novelty clearance."
+  },
+  "verification": {
+    "capture": "research/verification-pass133-working.json",
+    "unittest": {
+      "initial": "fc527b",
+      "completion": "62afcf",
+      "exit_code": 0,
+      "methods": 19,
+      "new_methods": 6,
+      "retained_methods": 13,
+      "seconds": 1.426
+    },
+    "search": {
+      "initial": "0e5c1b",
+      "completion": "793875",
+      "exit_code": 0,
+      "words": 1296,
+      "both_inverse_orders": 1296,
+      "unique_endpoints": 507,
+      "cutoffs": 0,
+      "primitive_endpoints": 0
+    },
+    "limits": "Finite search did not reach the correction branches. Two known successful implementation smoke fixtures do reach them. Universal statements rest on written proofs, not these examples."
+  },
+  "source_comparison": {
+    "Wang_input": {
+      "url": "https://arxiv.org/pdf/1701.03635v1",
+      "authors": "Nikhilesh Dasgupta and Neena Gupta",
+      "title": "Nice derivations over principal ideal domains",
+      "location": "Theorem4.1, printedp9",
+      "Root": "turn3977view1 exact alternatives",
+      "General": "turn3976view0",
+      "scope": "Exact characteristic-zero three-variable classification input for the commuting lemma. Original thesis audit remains recorded in132; no new recursive original-proof audit."
+    },
+    "classical_multiplicity_method": {
+      "url": "https://arxiv.org/pdf/0704.1561",
+      "author": "Stephane Venereau",
+      "title": "A parachute for the degree of a polynomial in algebraically independent ones",
+      "version": "arXiv0704.1561v2,7May2007",
+      "location": "pp1--3,Property(2),main theorem,multiplicity lemma and proofs",
+      "Root": "turn3983view0",
+      "Geometry": "turn3984view0",
+      "scope": "The derivative/multiplicity method is classical. Its ordinary-degree theorem is not silently applied to the E-filtration; the needed specialization is proved directly."
+    },
+    "novelty_limit": "No comprehensive statement-level novelty audit or historical priority determination for the dichotomy has been completed."
+  },
+  "remaining_gaps": [
+    "Passage of both lower-degree correction conditions for a supplied primitive dense quadratic frame, or an actual inverse-verified counterexample to the proposed correction method.",
+    "Entry or reduction for arbitrary sliced polynomial fourfolds outside the supplied three-good quadratic profile.",
+    "Full cancellation; expert review; formal verification; historical novelty determination."
+  ],
+  "next_bounded_task": "Use the now-guaranteed primitive relation to attack correction passage or necessary constancy of L(a). A provisional constant-leading binary-cubic rigidity proof is next-pass134 work, not part of this frozen packet and not a new cancellation sector. Do not continue searching for absence of a cubic relation in an actual dense nonquadratic frame unless explicitly testing the dichotomy for an error.",
+  "goal_audit": {
+    "previous_goal_turn": "Informational check-in, no new mathematical progress; it observed General's live agent but did not itself change a proof or result.",
+    "current_turn": "New written leading-relation existence proof, independently reconstructed, plus completed exact verification and negative finite search.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false
+  },
+  "boundaries": {
+    "prior_frozen_artifacts_intentionally_edited": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_cleared": false,
+    "external_contact": false,
+    "submission": false,
+    "public_posting": false,
+    "new_automation": false
+  },
+  "live_indexes": [
+    "README.md",
+    "research-ledger.md"
+  ]
+}

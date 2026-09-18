@@ -1,0 +1,139 @@
+{
+  "pass": 220,
+  "status": "supplied_full_mixed_quartic_sector_nonrealizable; general_binary_quartic_pair_factorization_and_nonzero_return_degree_bounds; global_goal_open",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass219-working.json",
+    "sha256": "8e7fe7f5dd69c25128e0cf9e704e1ffaf6f2772c025534c439f5f2d9c79d3ded",
+    "records": 1351
+  },
+  "results": {
+    "mixed_line_obstruction": "In the retained actual constant-second-projection line chart, lambda is complex and U=W-lambda Y is an actual coordinate. Primitive division of P=aN-(NX)E gives an irreducible locally nilpotent derivation D over S=C[X,U], commuting with E. The UFD-base two-variable lemma gives DY in S and DZ in S[Y]. The weighted-leading identity with leaders a and a^2 rho proves S intersect ker E=C without assuming a and rho are independent. Its first use gives DY=d in C*. Since D^3Z=0, DZ is affine in Y over S, hence D^2Z lies in S. The literal identity D^2Z=2d^2/rho is nonzero and E-fixed. A second use of the same weighted argument makes it complex, forcing rho complex and contradicting the actual full-kernel ratio independence.",
+    "mixed_sector_empty": "The actual line contradiction includes the retained swapped line direction and precedes the auxiliary-slice recognition endpoint. Combined with retained217 zero-return exclusion, its exhaustive line/conic reduction and the complete219 conic exclusion, no actual globally sliced exact1122 frame with entire initial kernel(ZW-X^2Y^2) exists. The earlier conditional recognition219 remains logically valid but has an empty hypothesis class. No frozen source is amended.",
+    "formal_leader_boundary": "The formal map(X,Y,Z,W)=(s,lm s,l^2 s^2,m^2 s^2) has exactly the mixed principal kernel by irreducibility and a three-dimensional fraction field. Thus the formal leaders are algebraically consistent. Nonrealizability uses the additional actual polynomial action, primitive coefficient ring and potential/scalar gates, not the leading relation alone.",
+    "general_universal_sextic": "For any supplied actual full kernel(ZW-F4(X,Y)), put f(t)=F4(1,t) and q=f(t)/rho. The undivided eliminant has degree-six top -rho^(-11) times the product, over all six unordered root pairs, of Dij=li(t)lj(t)V-rho(li'lj+li lj')U. The exact identity is proved first with four independent logarithmic slopes and then as a polynomial identity, so it includes coincident pair sums, repeated roots and factors at infinity. Every Dij has a nonzero V coefficient, so the homogeneous sextic never vanishes.",
+    "multiplicity_and_actual_degree": "Two pair factors are proportional precisely when they encode the same unordered pair multiset of projective roots. Their multiplicities for partitions1111,211,22,31,4 are respectively(1,1,1,1,1,1),(2,2,1,1),(4,1,1),(3,3),(6). Under the additional actual condition that R is not identically zero, the full potentials give O=C+Cw, R O contained in C and Frac C=L(v). The pure leading-line degree argument therefore bounds the projected degree by1,2,4,3,6 in those rows. A squarefree quartic with nonzero return gives L[y,theta]=L[v] and projected degree one.",
+    "remaining_scope": "The general quartic note does not handle R=0 or turn a projected line into an ambient coordinate. Its actual nonzero-return condition is retained at this packet stage, not removed retroactively by221. The mixed-sector exclusion does not exclude other initial kernels, all exact1122 frames or globally sliced actions. Arbitrary entry and unrestricted cancellation remain open. Separate221 and222 artifacts and runs are excluded."
+  },
+  "goal_audit": {
+    "current_progress": "Two220 notes sharpen the supplied mixed sector to nonrealizability and give a universal six-pair sextic identity with actual nonzero-return degree bounds for general binary quartics. Four finite methods passed in one canonical execution. The unrestricted goal remains unresolved.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "actual_globally_sliced_exact1122_frame_required": true,
+    "entire_initial_kernel_required": true,
+    "mixed_line_excluded_before_recognition_endpoint": true,
+    "mixed_sector_empty_under_supplied_hypotheses": true,
+    "formal_leading_data_separately_consistent": true,
+    "formal_leaders_asserted_actual_frame": false,
+    "UFD_base_not_PID_theorem_used": true,
+    "raw_speed_and_rho_independence_assumed": false,
+    "D_squared_Z_original_polynomial_proved": true,
+    "coefficient_field_factors_assumed_regular": false,
+    "general_sextic_identity_includes_infinity_and_repetitions": true,
+    "general_degree_bounds_require_nonzero_return": true,
+    "nonzero_return_asserted_root_free": false,
+    "general_zero_return_excluded_here": false,
+    "squarefree_general_original_ring_endpoint_proved_here": false,
+    "projected_line_asserted_ambient_coordinate": false,
+    "coefficient_field_rationality_assumed": false,
+    "arbitrary_entry_proved": false,
+    "other_initial_kernels_excluded_here": false,
+    "unrestricted_cancellation_proved": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/mixed-quartic-line-nonrealizability-pass220-working.md",
+      "sha256": "3c284b24c0be56e2979c51d42cb0e46ccdf852ce4d8466ad91d9532095f5bee3",
+      "bytes": 10758,
+      "lines": 256,
+      "equations": 14,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank-two-binary-quartic-leading-sextic-pass220-working.md",
+      "sha256": "fe8e7c9912486824ade81fd51be2df36c159413effc1390e006f36748d4927fc",
+      "bytes": 13146,
+      "lines": 357,
+      "equations": 20,
+      "test_methods": 0
+    },
+    {
+      "path": "research/binary_quartic_pair_factor_controls_pass220.py",
+      "sha256": "5d53bc51076697bc1614a00ab340a857ddaa0a95e03502263801f597f0231101",
+      "bytes": 9512,
+      "lines": 210,
+      "equations": 0,
+      "test_methods": 4
+    }
+  ],
+  "canonical_executions": [
+    {
+      "suite": "binary_quartic_pair_factor_controls220",
+      "path": "research/binary_quartic_pair_factor_controls_pass220.py",
+      "pre_execution_read": "Jet complete final author e3f280/metadatad07063; Root complete saved preread886540 with unchanged SHA5d53bc51...f0231101. These reads preceded the sole canonical execution. No unreported peer checker read is attributed.",
+      "initial_output": "986800",
+      "session_id": 46960,
+      "terminal_output": "c89e27",
+      "methods": 4,
+      "unittest_seconds": 1.057,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": false,
+      "initial_output_description": "Three progress dots and a live session handle.",
+      "pending_execution_handle": false,
+      "completion_via_original_handle": true,
+      "original_handle_poll_count": 1,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/binary_quartic_pair_factor_controls_pass220.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "shell": "/bin/zsh",
+      "login": false,
+      "initial_yield_time_ms": 1000,
+      "initial_max_output_tokens": 5000,
+      "completion_poll": {
+        "tool": "write_stdin",
+        "session_id": 46960,
+        "chars": "",
+        "yield_time_ms": 1000,
+        "max_output_tokens": 5000
+      },
+      "completion_note": "Initial986800 returned live session46960. Root resumed the same original handle once; c89e27 returned the four-test1.057s summary,OK and exit0. One execution, no rerun."
+    }
+  ],
+  "tagged_equations": 34,
+  "total_new_test_methods": 4,
+  "reviews": {
+    "mixed_line": "Geometry final complete author35d20e/hash758e57; Root complete b3c4c3/hash10a0d1 and later statement/end de5be5 plus full intermediate383bee; General complete independent1ac47f/hash4811ed. Jet complete d1fdcb with metadata6f324a is a post-canonical source review. All reconstruct primitive invariance, the UFD-base lemma, exact weighted leading values, the second application to D^2Z, actual swapped-direction coverage and the distinction between formal leaders and an actual frame.",
+    "general_sextic": "General final complete author654768+18552c/metadata9039b0; Root complete0b7405+383bee with fresh universal18424478d+30f09a; Geometry complete747244+1e4a60/hash37e55e; Jet complete5b94eb+3304a7. The full universal top sign/scaling, unrestricted independent-slope identity, infinity and multiplicity classification, actual birational return and pure-top degree argument reconstruct.",
+    "checker": "Jet final author e3f280/metadatad07063 and Root886540 were pre-run. The standalone source imports only standard Python and SymPy. It constructs literal coefficient derivatives, an unrestricted four-slope identity and affine-factor derivative bridge, all five multiplicity partitions with finite and infinity fixtures, and formal negative controls for a non-affine factor and specializing t. Its run does not test the new mixed original-ring line obstruction. No additional saved suite was executed for that proof.",
+    "primary_scope": "Root fresh4358view1 verifies the precise UFD-base Dasgupta--Gupta Lemma2.3(i); Jet later4364view0 includes the same exact statement at lines98–108. These are primary statement/applicability checks, not a direct original Wang-article read or finite-test certification.",
+    "metadata_and_history": "Fresh Jet metadata6f324a verifies all three artifacts,34 equations and four methods. Ledger full segmentfdc420 supplies the final proof peer references and the exact220 max5000 execution/poll options. Its historical statement that221 had not run is superseded only by the separate later221 packet, not counted here. Predecessor219 hashes remain unchanged. Unsaved inlinea8541d and other exploratory reconstructions are not saved-suite runs."
+  },
+  "proof_dependencies": {
+    "retained": [
+      "research/weight-four-universal-chart-potentials-pass184-working.md",
+      "research/rank-two-mixed-ratio-line-recognition-pass217-working.md",
+      "research/rank-two-mixed-ratio-zero-return-exclusion-pass217-working.md",
+      "research/rank-two-mixed-ratio-projection-reduction-pass217-working.md",
+      "research/rank-two-mixed-ratio-quadratic-graph-reduction-pass217-working.md",
+      "research/mixed-conic-final-jacobian-exclusion-pass219-working.md"
+    ],
+    "primary": [
+      "https://arxiv.org/html/1701.03635v1"
+    ],
+    "scope": "Actual selected-chart, field-return, scalar, LND and original-ring gates remain written inputs. The mixed nonrealizability note adds no saved test of its universal UFD/weighted theorem argument."
+  },
+  "finite_control_scope": "Four methods control literal q=f(t)/rho Taylor derivatives and rho^11 homogeneous scaling; the unrestricted independent-logarithmic-slope six-factor identity and generic affine-factor derivative bridge; exact multiplicities of representatives of every projective root partition, including infinity; and failures of a non-affine factor or parameter specialization. They do not prove the actual field-return or plane-degree theorems, all multiplicity classification by sampling, the new original-ring mixed-line contradiction, arbitrary entry or cancellation.",
+  "next_bounded_task": "Investigate the still-open general quartic zero-return and original-ring projected branches in a separate continuation. Preserve the actual-frame and entire-initial-ideal hypotheses. No220 rerun is authorized."
+}

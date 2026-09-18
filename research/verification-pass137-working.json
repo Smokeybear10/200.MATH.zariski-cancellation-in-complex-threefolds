@@ -1,0 +1,128 @@
+{
+  "pass": 137,
+  "status": "universal_nonlinear_conical_quadratic_exclusion_and_supplied_profile_coverage_in_working_proofs; unrestricted_cancellation_unsolved",
+  "goal_turn_classification": "Progress: continued in the same goal turn after closing136; generalized the conical proof, verified an actual omitted-slice boundary, and completed the supplied-profile case split.",
+  "proofs": [
+    {
+      "path": "research/universal-conical-tangent-reduction-pass137.md",
+      "sha256": "f90e55eb50f8080cae912da9aad73b5f0c6bbe688356dfc283ca4a3cdd17b1b7",
+      "bytes": 14681,
+      "lines": 355,
+      "equations": 13,
+      "author": "general_affine17",
+      "root_complete_read": "adf2a1",
+      "independent_complete_reads": {
+        "geometry_audit17": ["5c1ad5", "51240f"],
+        "jet_checker17": ["e2ab32", "8d9f50"]
+      },
+      "scope": "Speed-based coefficient field and actual chart; selected cofactor forces tangency without acceleration independence; normalized kappa system for arbitrary sigma; exact monic descent and invariant-coordinate obstruction exclude the supplied nonlinear conical rank-two quadratic profile, including resonance and q=0."
+    },
+    {
+      "path": "research/conical-no-slice-boundary-pass137.md",
+      "sha256": "2ab7e8b0e3f47da155ab48400c47b9666ee968e9d45f10f1737b6653e6acbe1f",
+      "bytes": 4509,
+      "lines": 125,
+      "equations": 6,
+      "author": "root",
+      "construction": "jet_checker17 supplied an actual polynomial inverse for the resonant formal fixture; root reconstructed the action, derivative ideal and invariant-coordinate obstruction boundary.",
+      "root_complete_read": "db82f0",
+      "independent_complete_read": {
+        "jet_checker17": "2155f8"
+      },
+      "scope": "Explicit actual E=xi*d/dx in a polynomial frame, both inverse orders, nonlinear cone, resonance, proper derivative ideal(xi), invariant bad shear and actual coefficient-field instability. No slice exists; not a cancellation counterexample."
+    },
+    {
+      "path": "research/three-good-quadratic-profile-recognition-pass137.md",
+      "sha256": "ad5ff8842d3694d6a44adc4b54b974507c80938977c82d17e642dc887caaf2a4",
+      "bytes": 8810,
+      "lines": 158,
+      "equations": 3,
+      "author": "general_affine17",
+      "root_complete_read": "2372a1",
+      "independent_complete_read": {
+        "jet_checker17": "078465"
+      },
+      "scope": "Exhaustive supplied-profile synthesis: q=0; rank<=1; rank2 linear homogeneous relation; rank2 nonlinear homogeneous relation; dense rank2 with q in or outside the constant quadratic span. Inherits the named working proofs; does not replace them with the new finite checker."
+    }
+  ],
+  "case_coverage_dependency_audit": {
+    "general_complete_math_reads": {
+      "intrinsic125": "f9d610",
+      "speed_curve127": "55637b",
+      "nice80": "ea0631",
+      "dichotomy133": "8cfedb",
+      "central_correction134": "1cee24",
+      "normalized132_sections1_to5": "d1bc05"
+    },
+    "root_selected_statement_and_endpoint_reads": ["82c3d0", "013835", "7ba12d"],
+    "jet_selected_statement_and_endpoint_reads": {
+      "nice80_complete": "6f5790",
+      "speed_curve127": "7a937b",
+      "intrinsic125": ["e50802", "8b10bb"],
+      "dichotomy133": ["ff241e", "8b31ad"],
+      "correction134": ["1a0aea", "d802a6"],
+      "normalized132": ["d3ffe6", "033728"]
+    },
+    "qualification": "Actual theorem premises and case endpoints were checked. This is not a fresh complete reconstruction of every historical proof or source dependency. Nice80 retains its geometric inputs, and rank-one/dense recognition retain their own stated dependencies."
+  },
+  "tests": {
+    "path": "research/conical_speed_chart_controls_pass137.py",
+    "sha256": "fb5993d5ee1dccc2b54ecf5b1311bfdbbe3ff9cf19ca795ebaff43f99a4945be",
+    "bytes": 7708,
+    "lines": 169,
+    "methods": 3,
+    "root_source_read_before_execution": "87a323",
+    "author_source_read_before_execution": "43c21c",
+    "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.conical_speed_chart_controls_pass137 -v",
+    "execution": "2a1187",
+    "state": "completed_in_initial_call",
+    "exit_code": 0,
+    "reported_seconds": 0.094,
+    "result": "All three methods passed.",
+    "formal_methods": 2,
+    "actual_boundary_methods": 1,
+    "scope": "All general sigma_tau/sigma_xi determinant coefficients and selected cofactors; fixed-y and kappa changes; both actual polynomial inverse orders, derivative bounds/cone/resonance, invariant coordinate, proper derivative ideal and transported selected partial for the omitted-slice boundary.",
+    "not_covered": "No universal field theorem, source theorem, arbitrary coordinate realization, exhaustive example search, or complete historical proof certification is supplied by these tests.",
+    "retained_methods_rerun": 0,
+    "live_session": false,
+    "runtime": {
+      "python": "3.13.5",
+      "sympy": "1.13.3",
+      "version_evidence": "b40875"
+    }
+  },
+  "source_and_novelty_scope": {
+    "classical_inputs": "General monic-field descent136 uses de Bondt1501.06046v4 Theorem1.1; the actual invariant-coordinate obstruction uses the Wang linear-invariant statement in Dasgupta-Gupta1701.03635v1 Theorem3.1(i). Their exact primary statements were freshly read during136 in this same goal turn.",
+    "fresh_source_record": "research/verification-pass136-working.json",
+    "additional_searches": ["turn4019", "turn4020"],
+    "qualification": "Additional keyword searches about quasi-nice four-variable actions and quadratic sliced derivations returned mostly unrelated or already-inspected material. They do not establish novelty or comprehensive absence of prior work. No new external theorem was inferred from those results."
+  },
+  "predecessor_integrity": {
+    "checkpoint": "research/checkpoint-pass136-working.json",
+    "sha256": "d164f1eb565fd8cd8eddb5d41a958a5aee15d20f1e22de9d01be06a82982f35f",
+    "records": 895,
+    "root_metadata_check": "f1c09e",
+    "root_full_checkpoint_and_capture_read": "519280",
+    "independent_complete_checkpoint_read": "e3dc32",
+    "independent_complete_capture_read": "8b3aa0",
+    "independent_integrity_audit": "f23b42",
+    "scope": "All six136 artifact hashes/bytes/lines,34 equation tags,six methods,two completed executions, predecessor135,895-record arithmetic and23 parsed local links verified. No proposed137 file included in136."
+  },
+  "new_core_metadata": "709690",
+  "boundaries": {
+    "unrestricted_cancellation_solved": false,
+    "arbitrary_three_good_quadratic_entry_proved": false,
+    "all_abstract_height_eleven_profiles_recognized": false,
+    "supplied_three_good_quadratic_profile_covered_by_working_proofs": true,
+    "human_expert_review": false,
+    "proof_assistant_verification": false,
+    "novelty_cleared": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "frozen_predecessors_intentionally_edited": false,
+    "genuine_external_blocker": false
+  },
+  "next_bounded_task": "Investigate what is needed beyond the covered coordinate profile. In an actual three-good frame with last time degree at least3, derive the speed-based determinant recurrence and test whether it still gives a monic equation over a one-variable invariant field. Keep the separate arbitrary-three-good-entry problem explicit. Do not assume local nilpotence gives a low-degree coordinate frame."
+}

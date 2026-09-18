@@ -1,0 +1,90 @@
+{
+  "pass": 124,
+  "status": "coordinate_reduction_controls_and_source_audit; general_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3]. The professor's intended field, dimension and conclusion remain unconfirmed.",
+  "summary": "Known translations supply unbounded-height frames with no single elementary degree decrease, an explicit six-shear bypass with a temporary increase, and a quadratic-time frame with full constant-linear acceleration span. These restrict reduction strategies but recognize no new arbitrary class. The true-minimum bound and first profile in the synthesis are conditional consequences of retained recognition results, not a universal reduction to height five.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass123-working.json",
+    "sha256": "2027fea5de1e50ac51090140f5aa73349ea364e86ded1f0c09302945270dc90a",
+    "records": 802,
+    "evidence": "d8d9a6",
+    "scope": "Previous checkpoint hash and recorded count checked; no fresh rehash of all 802 historical records is claimed."
+  },
+  "chain_record_count_after_including_this_checkpoint": 811,
+  "record_count_convention": "802 prior frozen records plus eight current artifacts plus this checkpoint. README and research-ledger remain live indexes. This checkpoint's hash is recorded externally.",
+  "current_integrity_audit": {
+    "artifacts": [
+      {"path": "research/coordinate-degree-elementary-descent-obstruction-pass124.md", "sha256": "57c47914de0c0cad616ccccdcdd8aa5615ff15bfc83785e1c6fc908777573dc2", "bytes": 8742, "lines": 187, "equations": 6, "test_methods": 0},
+      {"path": "research/nagata-stabilized-degree-bypass-pass124.md", "sha256": "8bb74213fcea0e77ad441340abf394a9dd75697f8fc806110c9d56c9466aa583", "bytes": 6591, "lines": 161, "equations": 6, "test_methods": 0},
+      {"path": "research/quasi-nice-full-acceleration-span-pass124.md", "sha256": "0c66fac901609b38c290eda2fb53235d6f64f5cdc323bfdb7d014bfed2c5298e", "bytes": 5046, "lines": 123, "equations": 5, "test_methods": 0},
+      {"path": "research/source-audit-pass124.md", "sha256": "21a5bb5b4bba5e0622b7d11cb45d299a040211c9c3c74fa3fc5501cf8387ec8a", "bytes": 9494, "lines": 180, "equations": 2, "test_methods": 0},
+      {"path": "research/nagata_degree_bypass_checks_pass124.py", "sha256": "8d1ad87d6c5de59c5e96f6e0638eb10e60f317d483c42bfab51ddf8b255720e6", "bytes": 4693, "lines": 100, "equations": 0, "test_methods": 3},
+      {"path": "research/quasi_nice_full_acceleration_checks_pass124.py", "sha256": "e0af287bb6936e1dfc0df0299ba7f6c1d94ea0b5e132c9cdbabed357f53c9736", "bytes": 3317, "lines": 74, "equations": 0, "test_methods": 1},
+      {"path": "research/unrestricted-entry-frontier-pass124.md", "sha256": "2218ba3e1f6263c970e0b81bd05f1586f116fd01a3778d6f6a5d8d38f5392487", "bytes": 8755, "lines": 186, "equations": 0, "test_methods": 0},
+      {"path": "research/verification-pass124-working.json", "sha256": "5ffdf83fcec2b70980e0a6e5d30c01239a9b6650e31395f86ac9fed1c585c61b", "bytes": 3603, "lines": 48, "equations": 0, "test_methods": 0}
+    ],
+    "artifact_count": 8,
+    "proof_artifacts": 3,
+    "source_audits": 1,
+    "equations": 19,
+    "new_test_methods": 4,
+    "local_markdown_links": 21,
+    "evidence": ["d8d9a6", "844bd4"],
+    "scope": "Current artifact hashes, bytes, lines, numbered tags, checker AST methods and all local Markdown links checked. The synthesis contains unnumbered displays. Final checkpoint validation and its own hash are recorded externally."
+  },
+  "canonical_verification": {
+    "path": "research/verification-pass124-working.json",
+    "root_execution_evidence": ["4f842e", "ef5dc2"],
+    "suites": 3, "test_methods": 8, "new_methods": 4, "retained_methods": 4,
+    "elapsed_seconds": 5.385752958012745,
+    "unittest_seconds": 5.094,
+    "exit_code": 0,
+    "complete_output_sha256": "0f55dd6c6e588d40b85af79b7d257c5163cbb4646624de8c460213b60a48f126",
+    "output_hash_convention": "SHA256 of the exact UTF-8 complete_output string in the capture. It has no leading newline and ends with the newline after OK.",
+    "all_input_hashes_unchanged": true,
+    "all_passed": true,
+    "review_evidence": ["2a8b80", "d8d9a6"],
+    "review_scope": "Complete capture read; command-to-input mapping; all three before, after and current hashes; AST method counts [3,1,4]; eight recorded successes; exact output hash. Geometry did not import test modules or execute tests.",
+    "coverage_scope": "Actual inverse, elementary-move, flow and coefficient identities, plus four retained scalar identities from123. No all-polynomial theorem certification, universal descent, historical full regression, cancellation or primary-source proof verification. Earlier author captures are superseded, not additive coverage."
+  },
+  "proof_reviews": [
+    {"artifact": "research/coordinate-degree-elementary-descent-obstruction-pass124.md", "reviewer": "Geometry", "evidence": ["cb53ac", "ea80af", "87e0e0"], "scope": "Complete all-m inverse and one-step degree obstruction; final equation-format and bypass-link deltas. Plateau paths remain unexcluded. No fresh Maubach-Poloni source read or test execution by this reviewer."},
+    {"artifact": "research/nagata-stabilized-degree-bypass-pass124.md", "reviewer": "Geometry", "evidence": ["cb53ac", "09a58e"], "scope": "Complete final six-shear identity and arbitrary-polynomial replica proof. Every degree tuple, polynomial inverse and upper-bound-only scope checked. The classical commutator attribution was independently read in the selected Drensky-Yu proof."},
+    {"artifact": "research/quasi-nice-full-acceleration-span-pass124.md", "reviewer": "Geometry", "evidence": ["87e0e0", "a77be5", "d8d9a6"], "scope": "Complete actual elementary construction, inverse, derivatives, full complex acceleration span and affine-linear obstruction; final provenance and quadratic-time terminology deltas. No obstruction to nonlinear recognition is inferred."}
+  ],
+  "source_audit_review": {
+    "artifact": "research/source-audit-pass124.md",
+    "author_evidence": ["167c16", "ec4c46"],
+    "independent_reports": [
+      {"reviewer": "Root", "evidence": "9cef34", "scope": "Reported complete source-note reconstruction, with selected independent primary reads of the quasi-nice definitions, DG Example4.5 and Drensky-Yu commutator."},
+      {"reviewer": "General", "evidence": ["8866d6", "92194e"], "scope": "Reported complete saved-note algebra and applicability-scope review, not a fresh primary-source audit."}
+    ],
+    "scope": "Fresh selected definitions, theorem statements and proof passages are itemized in the source note. Predecessor proofs were not all reread. Smith attribution is through the accessible Drensky-Yu research paper; the original Smith article was not read. The bounded unsuccessful search supplies no exhaustive open-status or novelty conclusion. Retained stable-coordinate and scalar-filter facts are not new124 discoveries."
+  },
+  "code_reviews": [
+    {"artifact": "research/nagata_degree_bypass_checks_pass124.py", "reviewer": "Geometry", "evidence": "ea80af", "scope": "Complete three-method code-only review: simultaneous inverse substitution, each elementary inverse and Jacobian, five replica controls and every degree tuple. No execution."},
+    {"artifact": "research/quasi_nice_full_acceleration_checks_pass124.py", "reviewer": "Geometry", "evidence": ["87e0e0", "d8d9a6"], "scope": "Complete one-method code-only review plus terminology-only docstring delta. Both inverse orders, Jacobian, translation flow, derivatives and coefficient extraction match the single actual control. No execution."}
+  ],
+  "synthesis_review": {
+    "artifact": "research/unrestricted-entry-frontier-pass124.md",
+    "reviewer": "Geometry",
+    "evidence": ["2a8b80", "844bd4"],
+    "scope": "Complete synthesis and final exact-cancellation-identity wording delta. Section5 correctly distinguishes true global minima from elementary local minima. Its lower bound, first profile and velocity/shear gates inherit retained recognition, not a new proof that every counterexample has height five. No fresh full audit of the retained nice80 dependency tree is claimed."
+  },
+  "mathematical_scope": [
+    "For each m>=1, a known translation has an actual Nagata replica frame of height3m with no single strictly decreasing elementary coordinate replacement, although the global minimum is1. Arbitrary degree-preserving paths are not excluded.",
+    "Six actual shears straighten these frames and more general polynomial replicas with sums3m,4m,2m+1,m+1,1,1,1. This is one path's upper bound, not a minimal peak, shortest path or new stable-tameness theorem.",
+    "A second recognized translation has four exact quadratic-time coordinates and full complex-linear acceleration span. No nonconstant affine-linear good direction exists in that supplied frame. Its explicit nonlinear inverse still recognizes the action.",
+    "Conditional on retained invariant-coordinate, nice and constant-acceleration recognition, a hypothetical counterexample has true minimum height at least5. At height5 its profile is(2,1,1,1), with nonconstant q, independent1,a1,a2,a3, and q outside E^2(C[x1,x2,x3]). No reduction of all higher minima to5 is proved.",
+    "No new class of arbitrary sliced derivations is recognized. Universal entry into a recognized actual polynomial frame and general cancellation remain unresolved."
+  ],
+  "unresolved_obligations": [
+    "Unrestricted complex-threefold cancellation or a sufficient actual-coordinate entry theorem, with invertibility and termination justified.",
+    "Confirmation of the professor's intended field, dimension and conclusion.",
+    "Human expert review, formal proof checking if sought, and statement-level novelty clearance."
+  ],
+  "goal_audit": {"status": "active", "pass_mathematics_classification": "strategy_progress", "archival_task_classification": "packaging_and_verification_only", "full_goal_achieved": false, "genuine_external_blocker": false},
+  "boundaries": {"human_expert_review": false, "formal_verification": false, "novelty_cleared": false, "external_contact": false, "public_posting": false, "submission": false, "paid_resources": false, "new_automation": false, "files_through123_frozen": true, "all_historical_tests_rerun": false},
+  "live_indexes": ["README.md", "research-ledger.md"],
+  "live_index_review": {"reviewer": "Geometry", "evidence": "09a58e", "scope": "Current124 top entries read for consistency. Root owns the live indexes; Geometry did not edit them. No frozen index hash is asserted."}
+}

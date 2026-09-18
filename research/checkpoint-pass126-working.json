@@ -1,0 +1,57 @@
+{
+  "pass": 126,
+  "status": "cofactor_and_conditional_recognition_progress_with_unit_curve_modification_frontier; general_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3]. The professor's intended dimension, ground field and conclusion remain unconfirmed.",
+  "summary": "For a supplied three-good sliced frame, actual flow cofactors bound the bad partial by speed rank without a last-degree assumption. Quadratic acceleration bounds good partials by joint rank plus one, giving H at most15. Any commuting original partial, and any proper speed ideal of rank one, are recognized. The unit joint-curve case has a controlled commuting intrinsic action and an exact affine-modification presentation over its actual invariant plane, but its nonunit denominator and possible fixed points are not eliminated.",
+  "previous_checkpoint": {"path": "research/checkpoint-pass125-working.json", "sha256": "619244a3533de59d876d81116cda3a2e78cb3e2b1c04b30a8ace725d0da74683", "records": 819, "evidence": "a6615a", "scope": "Frozen predecessor hash and recorded count verified; no complete historical-chain rehash."},
+  "chain_record_count_after_including_this_checkpoint": 827,
+  "record_count_convention": "819 prior records plus seven current artifacts plus this checkpoint. Live indexes are not frozen records. This checkpoint's own hash is recorded externally.",
+  "current_integrity_audit": {
+    "artifacts": [
+      {"path": "research/three-good-flow-cofactor-bounds-pass126.md", "sha256": "4be54c0803cc0e159f54c22f16c21cb509b2878da6116f77cf475822b68c4dc8", "bytes": 11611, "lines": 272, "equations": 8, "test_methods": 0, "local_links": 7},
+      {"path": "research/three-good-common-leading-kernel-boundary-pass126.md", "sha256": "5ddc400080d868fb62dde40f894ba060b8b04277e4ee85484b14844ce62ab151", "bytes": 10457, "lines": 220, "equations": 7, "test_methods": 0, "local_links": 8},
+      {"path": "research/three-good-joint-curve-bound-pass126.md", "sha256": "a40466722dedc9cc80d609ab0cdec52e849a843248984a57a29c21c34c29463e", "bytes": 13836, "lines": 326, "equations": 11, "test_methods": 0, "local_links": 7},
+      {"path": "research/three-good-unit-curve-normal-form-pass126.md", "sha256": "1876a6bc26489e1a8ee238b17002ae67bec128af71deb118e494e1fe60c776d6", "bytes": 9014, "lines": 207, "equations": 7, "test_methods": 0, "local_links": 4},
+      {"path": "research/three_good_cofactor_checks_pass126.py", "sha256": "ecd8d7952a0c29e3e23d28abcbe748fb7f301c8ca9e69ceb9cb048762b58710b", "bytes": 12302, "lines": 233, "equations": 0, "test_methods": 3, "local_links": 0},
+      {"path": "research/verification-pass126-working.json", "sha256": "ef84d5b192a5a320359f9acbf4472a4069c05c2fcbf0c777ceaf262fc4d03979", "bytes": 2806, "lines": 40, "equations": 0, "test_methods": 0, "local_links": 0},
+      {"path": "research/three-good-cofactor-frontier-pass126.md", "sha256": "c4fa1fb246e59e89fb54339d335ede3a5f98bd704362f39ebb81af39b7b49eea", "bytes": 12392, "lines": 258, "equations": 5, "test_methods": 0, "local_links": 12}
+    ],
+    "artifact_count": 7, "proof_artifacts": 4, "equations": 38, "new_test_methods": 3, "local_markdown_links": 38,
+    "evidence": "a6615a",
+    "scope": "All current artifact hashes, UTF-8 bytes, lines, numbered tags, checker AST method counts and local Markdown targets verified. Two mathematical bracket expressions were excluded from link parsing; no missing actual local link. No mathematical file was edited during packaging. Checkpoint self-validation is recorded externally."
+  },
+  "canonical_verification": {
+    "path": "research/verification-pass126-working.json", "root_execution_evidence": "712098", "exit_code": 0,
+    "suites": 2, "test_methods": 6, "new_methods": 3, "retained_methods": 3,
+    "tool_wall_time_seconds": 0.558698541, "unittest_reported_seconds": 0.351,
+    "before_hash_evidence": "b3f33d", "after_hash_evidence": "1a3ec0",
+    "inputs": [
+      {"path": "research/three_good_cofactor_checks_pass126.py", "sha256": "ecd8d7952a0c29e3e23d28abcbe748fb7f301c8ca9e69ceb9cb048762b58710b", "test_methods": 3},
+      {"path": "research/three_good_controls_pass125.py", "sha256": "bd4ed1a8d89cdb472349959fef06ab66f4c95ee93b6d5723667f05856ee4ac53", "test_methods": 3}
+    ],
+    "all_input_hashes_match_recorded_before_and_after": true,
+    "review_evidence": ["3d5737", "8f619b", "a6615a"],
+    "review_scope": "Complete saved capture read; command, current input hashes and AST counts [3,3] agree. The saved capture references Root's execution output but contains no complete-output checksum, and no independent output-hash claim is made. Geometry did not import test modules or rerun tests.",
+    "coverage_scope": "Three current actual-frame controls check inverses, original partials, shifts, common leading directions, inverse-flow cofactor orientation, rank-one wedge cancellation and the joint-curve determinant/commutator identities. Three retained125 methods check actual inverse families and explicitly scoped ideal-only boundaries. These examples do not certify universal proofs or source theorems. Runs108dcd and2ead00 are superseded, not additive coverage."
+  },
+  "proof_reviews": [
+    {"artifact": "research/three-good-flow-cofactor-bounds-pass126.md", "reports": [{"reviewer": "Geometry", "evidence": "c82fd1"}], "scope": "Full saved eight-equation proof: inverse-Jacobian orientation, bad-column good-row cofactors, joint differential wedge cancellation, exact adjoint/filtration comparison and H at most15. No arbitrary degree bound on the last coordinate is inserted into the bad-column theorem."},
+    {"artifact": "research/three-good-common-leading-kernel-boundary-pass126.md", "reports": [{"reviewer": "General", "evidence": "69ff4a"}, {"reviewer": "Jet", "evidence": "3b67e0"}], "scope": "Full saved seven-equation reconstruction: relative algebraic closure of the joint field, primitive common-kernel saturation, actual control distinguishing selected tops from all intrinsic actions, and recognition from any commuting original partial. The actual invariant-coordinate and regular-kernel source hypotheses are retained."},
+    {"artifact": "research/three-good-joint-curve-bound-pass126.md", "reports": [{"reviewer": "Geometry", "evidence": ["67f0e7", "0c99dc"]}, {"reviewer": "Jet", "evidence": ["67b6bc", "d57afa"]}], "scope": "Full eleven-equation proof: joint-rank bounds, exact joint-curve H11 profile, nonunit speed recognition using the full slice ideal and original z-degree, and determinant/content proof of Qp=Qalpha=0 and Q squared z in A. No slice for Q or further vanishing on z is asserted."},
+    {"artifact": "research/three-good-unit-curve-normal-form-pass126.md", "reports": [{"reviewer": "General", "evidence": "751567"}, {"reviewer": "Root", "evidence": "c01ca8"}], "scope": "Full seven-equation proof: univariate PID split, nonzero NY, actual intrinsic plane, slice-projection equalities, generic K[Y], residual affine slope, prime/Gauss saturation of a t-F(y), and finite C(p,h) subfield extension. No freeness, unit denominator or ambient coordinate status is assumed."}
+  ],
+  "code_review": {"artifact": "research/three_good_cofactor_checks_pass126.py", "reports": [{"reviewer": "Geometry", "evidence": ["4ee4ef", "3d5737"]}, {"reviewer": "Jet", "evidence": "c5c664"}], "scope": "Full code-only reconstruction of the final three methods and their example-only limitations. Final source hash is the canonical input hash. No peer reexecution is claimed."},
+  "synthesis_review": {"artifact": "research/three-good-cofactor-frontier-pass126.md", "reports": [{"reviewer": "Root", "evidence": ["2ecec1", "166156"]}, {"reviewer": "Geometry", "evidence": "8f619b"}], "scope": "Full final five-equation synthesis, including the unit-row actual presentation and corrected C+-actions source title. Necessary H11 conditions are not examples of nonpolynomial kernels, and no provisional later volume identity is included."},
+  "source_scope": {"fresh_read_scope": "Exact Dasgupta-Gupta Theorem4.1 restatement of Wang, Bhatwadekar-Gupta-Lokhande Theorem3.5 and its complete short displayed proof, and selected de Bondt Corollary3.2/Lemma3.3 statements and proofs as recorded in the respective notes. Geometry's selected statement/proof reads are turn3856view0/1; General and Jet separately reported their selected endpoint reads.", "retained_application_scope": "The actual intrinsic quotient-surface theorem was reread through EOF5ff722 for the unit normal form. Its Kaliman-Saveliev plane/curve-fiber conclusions and miracle-flatness step remain source-dependent retained inputs, not a new full primary audit.", "not_claimed": "No fresh reconstruction of original Wang, all regular-kernel patching dependencies, de Bondt's earlier Luroth dependencies, or the complete geometric quotient source tree. No exhaustive literature or novelty clearance."},
+  "mathematical_boundary": [
+    "The last-partial bound uses only three E-affine actual coordinates and has no last-coordinate degree assumption. The all-partial bound and joint refinement require E cubed z equals zero.",
+    "The quadratic general bound is H at most15, not11. Only the joint-rank-one hypothetical nonpolynomial branch is reduced to the exact ordered partial profile (2,2,2,1) with H11 and a unit selected speed ideal.",
+    "The rank-two joint-field common kernel controls the four selected leading derivations. It does not quantify over every intrinsic LND and cannot supply an all-actions rank-one theorem.",
+    "The unit normal form requires q=g(p), not arbitrary q in S. It gives A=S[Y,F(Y)/a] over the actual plane S, with primitive relation a t-F(y); a unit denominator recognizes the kernel, but a nonunit denominator is not eliminated.",
+    "Neither a slice for the extracted intrinsic action nor S=C[p,h] nor an ambient automorphism from the invariant-coefficient matrix is proved. Rank-two joint-field recognition and unrestricted frame entry also remain open in this working argument."
+  ],
+  "goal_audit": {"pass_mathematics_classification": "rank_sensitive_structural_and_conditional_recognition_progress", "archival_task_classification": "packaging_and_verification_only", "full_goal_achieved": false, "genuine_external_blocker": false},
+  "boundaries": {"human_expert_review": false, "formal_verification": false, "historical_novelty_cleared": false, "external_contact": false, "submission": false, "public_posting": false, "new_automation": false, "files_through125_frozen": true, "all_historical_tests_rerun": false},
+  "live_indexes": ["README.md", "research-ledger.md"],
+  "live_index_scope": "Root owns and updates the live indexes separately. Geometry did not edit them or assert frozen hashes for them in this packaging task."
+}

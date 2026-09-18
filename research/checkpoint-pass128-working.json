@@ -1,0 +1,57 @@
+{
+  "pass": 128,
+  "status": "actual_rank_two_middle_commutator_stability_counterexample_and_coordinate_strategy_restrictions; general_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3]. The professor's intended dimension, ground field and conclusion remain unconfirmed.",
+  "summary": "An actual sliced three-good, unit-speed, nonconical rank-two frame with quadratic last coordinate has Q(S) not contained in S, where Q is the first commutator with the original bad partial and S is the intrinsic leading kernel. The same Q is not locally nilpotent. A primitive normalizer criterion identifies the missing stability condition. Cone density restricts good-only changes, excludes good-only invariant rational functions, and gives an exact quadratic fixed-good shear criterion. The displayed counterexample is a recognized translation and its acceleration is removable, so shear-minimal stability and general rank-two recognition remain unsettled.",
+  "previous_checkpoint": {"path": "research/checkpoint-pass127-working.json", "sha256": "0b9c105a1b14378d0269d010fb6ec9f4a01eb0f2abff2dd94535662ba98852b2", "records": 834, "evidence": ["c68540", "bd7452"], "scope": "Frozen predecessor hash and its recorded count verified; no historical-chain rehash."},
+  "chain_record_count_after_including_this_checkpoint": 838,
+  "record_count_convention": "834 prior records plus three current artifacts plus this checkpoint. Live indexes are not frozen records. The checkpoint's own hash is recorded externally.",
+  "current_integrity_audit": {
+    "artifacts": [
+      {"path": "research/three-good-rank-two-commutator-instability-pass128.md", "sha256": "fb0b4d48aeea46982e956c2de8beb0bdf7dc10e5d523e621376f14f9229c65a7", "bytes": 12974, "lines": 325, "equations": 9, "test_methods": 0, "local_links": 3},
+      {"path": "research/three_good_unit_rank_two_boundary_checks_pass128.py", "sha256": "b424611c0677deef91b9d9c95311275aa4b4d09a795160af5aabd3c255e5b8e9", "bytes": 10617, "lines": 213, "equations": 0, "test_methods": 2, "local_links": 0},
+      {"path": "research/verification-pass128-working.json", "sha256": "568a0f67372e7091e17d3261d7f1fb4d95c8a6ab89d2506814cc0c9c1d63ee63", "bytes": 2983, "lines": 34, "equations": 0, "test_methods": 0, "local_links": 0}
+    ],
+    "artifact_count": 3, "proof_and_control_artifacts": 1, "equations": 9, "new_test_methods": 2, "local_markdown_links": 3,
+    "evidence": "bd7452",
+    "scope": "All current hashes, UTF-8 bytes, line counts, numbered tags, checker AST counts and local Markdown file targets verified. Two mathematical bracket expressions ending in h were excluded from link parsing. No checker imports, test execution, artifact edits or historical-chain rehash. Checkpoint self-validation is recorded externally."
+  },
+  "canonical_verification": {
+    "path": "research/verification-pass128-working.json", "root_execution_evidence": ["7bc4a5", "8afdbd"], "execution_session_id": 29591, "exit_code": 0,
+    "suites": 2, "test_methods": 7, "new_methods": 2, "retained_methods": 5, "unittest_reported_seconds": 0.978,
+    "tool_call_wait_seconds": [1.003516792, 0.000005083], "timing_scope": "Tool waits for two output chunks, not a separately measured process wall-clock duration.",
+    "before_hash_evidence": "7bc4a5", "after_hash_evidence": "89e0ab",
+    "inputs": [
+      {"path": "research/three_good_unit_rank_two_boundary_checks_pass128.py", "sha256": "b424611c0677deef91b9d9c95311275aa4b4d09a795160af5aabd3c255e5b8e9", "test_methods": 2},
+      {"path": "research/three_good_speed_curve_checks_pass127.py", "sha256": "e8e700657a02b7228ecb31c93e17cae4390d21392b37b5f542761ec7002f1c3c", "test_methods": 5}
+    ],
+    "all_current_input_hashes_match_recorded_before_and_after": true,
+    "review_evidence": ["c68540", "bd7452"],
+    "review_scope": "Complete saved capture read and checked against Root's quoted canonical run. Command, output identifiers, session, terminal status, timings and AST method counts [2,5] agree with the capture; both current input hashes match it. No complete-output checksum is recorded or independently claimed. Geometry did not rerun the tests or retrieve an independent process capture.",
+    "coverage_scope": "Two new methods check the actual constant-shift inverse family and its middle-commutator obstruction, finite good-only degree examples, the actual removing shear, and a bare polynomial outside the quadratic speed span. The latter is explicitly not an actual acceleration. Five frozen127 methods were rerun unchanged by Root; this is not full historical-suite coverage or a finite certification of universal proofs."
+  },
+  "proof_review": {
+    "artifact": "research/three-good-rank-two-commutator-instability-pass128.md",
+    "reports": [
+      {"reviewer": "Root", "evidence": ["0653a9", "681cc9", "458acd"], "scope": "Complete original nine-equation proof, rational-intersection corollary and final centralizer-source/verification additions."},
+      {"reviewer": "Geometry", "evidence": ["a3d7ee", "c68540"], "scope": "Complete original nine-equation reconstruction plus full final Section7 additions and Sections8-9. Checked both actual inverse orders, unit/full-span/rank-two/nonconical hypotheses, exact filtered top and commutators, Q non-local-nilpotence, primitive normalizer saturation, cone-density degree identity, rational-intersection argument and exact fixed-good shear criterion. The source-reading provenance is reported, not a fresh primary-source audit by Geometry."}
+    ]
+  },
+  "code_review": {"artifact": "research/three_good_unit_rank_two_boundary_checks_pass128.py", "reports": [{"reviewer": "Geometry", "evidence": "7a1556"}, {"reviewer": "General", "evidence": "db1532"}, {"reviewer": "Jet", "evidence": "f80dea"}], "scope": "Complete two-method source-only reviews. The symbolic shift is fixed by the derivations, its unit claim is limited to nonzero complex specialization, and the nonmembership polynomial is explicitly unrealized. No peer execution is claimed."},
+  "source_scope": {
+    "reported_root_read": "The final main note reports Root's reading of the statements and complete displayed proofs in Section4 of Bedratyuk-Chapovskyi-Petravchuk, Centralizers of linear and locally nilpotent derivations, arXiv2302.02441v1. The selected comparison concerns Lemma6, Proposition2 and Theorem4.",
+    "applicability_limit": "The published centralizer conclusions assume actual commutation or describe its centralizer; they do not place the prescribed first commutator in it. The explicit nonzero bracket in this control violates the relevant commutation premise. These results are comparison material, not another classification input.",
+    "geometry_scope": "Geometry reviewed the final saved comparison and its stated scope but did not freshly read that primary section. No recursive dependency audit, exhaustive literature review or historical novelty clearance is claimed."
+  },
+  "mathematical_boundary": [
+    "The counterexample satisfies the actual supplied three-good, unit-speed, full constant span, speed-rank-two, nonconical and quadratic-last-coordinate premises. It disproves unconditional first-commutator preservation of the intrinsic plane, not recognition of the action.",
+    "The selected highest commutator is an LND in this example, while the first commutator is not. They cannot be interchanged in the rank-one content argument.",
+    "The normalizer criterion allows its scalar in A, not necessarily in S. Cone density forces good-only E-affine coordinate changes to be affine-linear and forces Frac(A) intersect Frac(Rgood) to be C.",
+    "A fixed-good shear removes nonzero quadratic acceleration exactly when it lies in the complex span of pairwise speed products. The displayed example is removable by V-Y squared, so it does not refute a stability theorem with an additional fixed-good-shear-minimality premise.",
+    "No new recognition theorem, shear-minimal counterexample, general rank-two closure, arbitrary-frame entry or unrestricted cancellation result is claimed."
+  ],
+  "goal_audit": {"pass_mathematics_classification": "actual_failed_shortcut_counterexample_and_coordinate_strategy_restriction_progress", "archival_task_classification": "packaging_and_verification_only", "full_goal_achieved": false, "genuine_external_blocker": false},
+  "boundaries": {"human_expert_review": false, "formal_verification": false, "historical_novelty_cleared": false, "external_contact": false, "submission": false, "public_posting": false, "new_automation": false, "files_through127_frozen": true, "all_historical_tests_rerun": false},
+  "live_indexes": ["README.md", "research-ledger.md"],
+  "live_index_scope": "Root owns live index updates. Geometry created only this checkpoint during packaging and did not edit other notes or assert frozen hashes for live indexes."
+}

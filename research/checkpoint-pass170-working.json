@@ -1,0 +1,66 @@
+{
+  "pass": 170,
+  "status": "working_pure_quadratic_recognition_conditional_on_linear_rho_intercept; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/cusp-pure-quadratic-linear-intercept-pass170-working.md",
+      "sha256": "f47b52685584cd5c34c0259b8a097564279111a2b0cbafee04219cc19d7e1c19",
+      "bytes": 12985,
+      "lines": 309,
+      "equations": 12,
+      "test_methods": 0
+    },
+    {
+      "path": "research/verification-pass170-working.json",
+      "sha256": "5a0a24e7af1f5d8f75ddb8d71a2dbafcab9d77ebca8c1e30959191abf1fd6f8b",
+      "bytes": 5939,
+      "lines": 78,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass169-working.json",
+    "sha256": "1624309966254425ddf3f4b4aec0cddbfd89e99076e804dbc366b9d6b9b6e98e",
+    "records": 1077
+  },
+  "results": {
+    "actual_hypotheses": "Retains the actual159 sliced cusp chart, exact E-time(1,1,2,2), full initial ideal(XZ-Y^3), r!=0, and a fixed-axis quadratic graph. Assumes the pure whole relation Phi-m=lambda(V-P(U)) and the separate intercept condition p0=e*rho+d0 with e,d0 in K=ker(partial_rho). The latter is not inferred from167 or169.",
+    "coefficient_forcing": "The literal degree-two potential forces r in C*, s=n_rho in C and k0'''=6s/r. The determinant U^3 coefficient forces lambda_rho=0. The additional linear-intercept hypothesis permits the U*rho coefficient comparison, giving chi=1/lambda=alpha*t+beta over C.",
+    "pencil_argument": "All coefficients lie in K[rho], so actual field return proves L=K(rho). The projected line pencil has slope -r^2*alpha*y-r^2*H with H=chi(e+s/r). If H were nonconstant, the exact elementary pencil lemma166 would force every coefficient of g into span_C{1,H}. Its linear coefficient q1 satisfies q1'=H'*c', c=s*k0-r*n0 and c''=2r*p2/chi!=0. The span condition would force c''=0. Hence H=h in C.",
+    "global_correction": "With b_hat=s*t^3-r*k0, b_hat'''=0, all three coefficients q1,q2,q3 are complex. The six construction recurrences168 are reconstructed with its cubic constant C3=0, giving Q(X,Y) in C[X,Y] of degree at most3. Thus I=Z+(beta*X+alpha*Y+h)*(r^2W+sZ-r(XZ-Y^3))-Q equals g0 in A intersect L.",
+    "inverse_and_recognition": "Set J=W+(s/r^2-X/r)Z. Then Z=I-r^2*L0*J-r*L0*Y^3+Q and W=J-(s/r^2-X/r)Z give both global polynomial inverse orders, with only a nonzero complex r inverted. The global slice makes A regular, and the retained Bhatwadekar-Gupta-Lokhande Theorem3.5 gives A=C[I]^[2].",
+    "scope": "This is proof-only recognition of the explicitly conditional pure quadratic subbranch. It does not prove that p0 is linear in rho for every actual pure quadratic graph. It neither requires169 nor applies the cubic theorem167 outside its hypotheses. No unrestricted cancellation, novelty or recursive certification is asserted."
+  },
+  "chain_record_count_after_including_this_checkpoint": 1080,
+  "record_count_convention": "1077 prior records plus1 conditional proof note, verification170 and this checkpoint. No independent170 checker exists. README and ledger are not records. The two distinct suites168 and169 contain6 methods total; none is a170 test.",
+  "verification": {
+    "capture": "research/verification-pass170-working.json",
+    "performed": false,
+    "canonical_terminal": null,
+    "methods": 0,
+    "seconds": null,
+    "exit_code": null,
+    "pending_execution_handle": false,
+    "rerun": false
+  },
+  "goal_audit": {
+    "prior_completed_evidence": "Retains the completed169 exclusion and terminal canonical8756da as separate evidence. Those three methods belong to169 and are not counted again as170 verification.",
+    "current_continuation": "Proved and independently reconstructed the conditional pure-quadratic result170, then prepared a proof-only record. Its extra linear-rho-intercept hypothesis remains unproved for unrestricted actual pure-quadratic charts. No pass170 test execution is created or inferred.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Remove or refute the additional p0 in K[rho] of degree at most1 hypothesis in the actual pure quadratic branch. The quadratic-rho intercept direction is unfinished and not ruled out or certified by any test. Constant/linear graphs, r=0, other initial configurations and unrestricted entry remain separate."
+}

@@ -1,0 +1,21 @@
+{
+  "started_at_utc": "2026-09-13T23:18:57.657965+00:00",
+  "completed_at_utc": "2026-09-13T23:18:58.058768+00:00",
+  "all_passed": true,
+  "standalone_command": "/opt/anaconda3/bin/python research/square_speed_leading_checks_pass61.py",
+  "new_test_methods_since_full60": 1,
+  "new_suites_since_full60": 1,
+  "exit_code": 0,
+  "raw_stdout": "",
+  "raw_stderr": "test_all_quartics_have_the_exact_rank_one_leading_factor (__main__.SquareSpeedLeadingChecks.test_all_quartics_have_the_exact_rank_one_leading_factor) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.178s\n\nOK\n",
+  "scratch_exact_controls": [
+    "unrestricted two-by-two rank-one determinant identity",
+    "all-quadratic-coefficient triangular coordinate Jacobian",
+    "both triangular inverse substitutions",
+    "both unimodular affine inverse orders"
+  ],
+  "scratch_controls_counted_as_test_methods": false,
+  "full_project_regression_rerun": false,
+  "latest_full_regression": "verification-pass-60.json",
+  "scope": "One new standalone symbolic method and scratch transcription identities. The pole-divisor proof, classical source theorems, and unrestricted cancellation are not established by these tests."
+}

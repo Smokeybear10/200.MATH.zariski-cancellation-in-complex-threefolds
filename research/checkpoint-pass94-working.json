@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "pass": 94,
+  "created_at_utc": "2026-09-14 15:41:04 UTC",
+  "active_goal": "keep going until u solved it",
+  "working_question": "Unconfirmed corrected complex-threefold cancellation: A[s] isomorphic to C^[4] implies A isomorphic to C^[3].",
+  "general_conjecture_solved": false,
+  "goal_status": "active",
+  "this_pass_classification": "progress",
+  "preceding_turn_classification": "Substantive pass93 was progress. Thomas's current check-in received a status update during the ongoing pass94 continuation; the status statement itself is not a mathematical result.",
+  "summary": "An actual weighted local argument extends quadratic collapsed rank-one conormal rigidity to all multiplicities. The original volume classifies varying polynomial columns and forces a noncollapsed fixed companion at a double-component rank drop. Saturated cubic fibers give actual finite base change, relative affine lines, whole-fiber freeness and local generator parameters. No recognition or contradiction completes the general target.",
+  "scope_assumptions": [
+    "Actual supplied nonconical constant-acceleration polynomial frame B=A[u]=C^[4], retained cyclic nilpotent original Jacobian and specified highest-adjoint invariant plane S=C^[2].",
+    "Primitive canonical Jacobian LND N with kernel S, faithfully flat quotient, A=S[A1,A2,c], A_K=K[v], and relative degree d=2 or3, with the exact hypotheses from passes90-93.",
+    "Quadratic weighted theorem additionally assumes a collapsed generically rank-one fixed component; varying-column classification assumes nonzero first normal action, and its companion corollary assumes multiplicity2.",
+    "Saturated cubic theorem assumes total generic multiplicity6 across all components of one closed fiber.",
+    "No arbitrary sliced-action-to-frame theorem or general recognition conclusion is supplied."
+  ],
+  "completed_deductions": [
+    "Weights forced by the actual local equation, w(x)=mu and w(y)=1, retain the nonzero scalar mu^2-1 in the third-derivative comparison at every mu>=2. The coefficient-field-compatible completion does not assume a global filtration or local nilpotence after completion.",
+    "The actual N-degree-two generators force the polynomial quotient conormal matrix to have constant row or constant column direction at every collapsed rank-one quadratic fixed component, with no B0 rank hypothesis.",
+    "A suitable constant good normal L0 has EL0 in P^2 and N(L0-uEL0) in q^2. In the varying-column sector, all normal powers contract to corresponding base powers; EL0 is nonzero and lies in m^2, and N^2 of the center lies in m^2.",
+    "The actual global volume turns two weighted coefficient equations into a polynomial Wronskian lying in the two-dimensional column span. That span is {1,c} or {t,t^k}, k>=2.",
+    "At multiplicity2, the power-column case's rank-zero point meets a second fixed component. Total multiplicity forces exactly (2,2); the companion is noncollapsed because distinct collapsed original planes over one base point are parallel and disjoint.",
+    "For cubic total multiplicity6, actual base change A tensor_(S[U]) T equals the semilocal finite free rank6 normalization for every admissible U.",
+    "Simultaneous degree-one projections force each reduced component to be an affine line in the actual relative generators. The entire closed fiber, including nilpotents, is finite free rank6 over every admissible projection line.",
+    "At every generically rank-zero component of a total-six fiber, the two centered relative generators form a regular system of parameters after localization at that component.",
+    "A multiplicity-one reduced relative line carries nontrivial translation and is disjoint from all other components. Profiles (5,1) and (4,1,1) therefore have pairwise-disjoint relative lines; their images in Z are not separated by this argument."
+  ],
+  "proof_reviews": {
+    "weighted_conormal": "Jet author; Root, General, Geometry full saved-proof reconstructions. Root read full checker; General independently reran its one method.",
+    "polynomial_column_classification": "Root author; General, Geometry, Jet full nine-equation reconstructions. Final formatting-only trailing space removed.",
+    "base_order_contraction": "General author; Root, Geometry, Jet full five-equation reconstructions. Final forward pointer to weighted theorem separately checked.",
+    "saturated_base_change": "Geometry author; Root, General, Jet full eight-equation reconstructions including the multiple-component parameter extension. Final multiplicity-one corollary separately checked by all three, with complete retained primitive-fiber54 rereads.",
+    "synthesis": "Root author; General and Jet full four-equation independent reviews. Generic reducedness clarified to mean along the component, not at the rank-drop point.",
+    "audit": "Root author; Jet full EOF proof-audit/capture review. Final review-record-only section added afterward.",
+    "limit": "AI mathematical reconstructions, not human expert review, formal proof-assistant verification or historical novelty certification."
+  },
+  "targeted_verification": {
+    "path": "research/verification-pass94-working.json",
+    "sha256": "9bff1555ea7e141f2097c1d3625370c41c5e8a3da365f35b3e5b3332165b9444",
+    "all_passed": true,
+    "suites": 1,
+    "test_methods": 1,
+    "started_at_utc": "2026-09-14T15:34:17.739Z",
+    "finished_at_utc": "2026-09-14T15:34:18.699Z",
+    "wall_seconds": 0.951845875,
+    "unittest_seconds": 0.544,
+    "input_files": 1,
+    "input_hashes_unchanged": true,
+    "complete_output_sha256": "738fe43754b4975ce745406258e983fbe925775265f8a159dfaa2647db2d3058",
+    "output_hash_convention": "stdout + one newline + stderr",
+    "canonical_tool_chunk": "453641",
+    "independent_capture_audit": "Jet84fabf, sole input and complete-output digest/counts checked without rerun.",
+    "author_execution": "Jet45f5db, same one method in0.587 seconds.",
+    "independent_repeat": "General973c3a, same one method in1.135 seconds, not an additional method.",
+    "scope": "Finite symbolic weighted-operator controls at multiplicities2,3,4; not a formal verifier of the all-multiplicity proof, actual geometric hypotheses or cancellation."
+  },
+  "selected_primary_sources": [
+    {
+      "url": "https://stacks.math.columbia.edu/tag/0C0S",
+      "scope": "Complete displayed statement/proof checked; part(2) gives coefficient-compatible power-series coordinates. No full Cohen-structure dependency audit."
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.17397",
+      "scope": "Current abstract and v2 record checked. Previously scoped linear-hypersurface result; no fresh full published-proof reconstruction or universal bridge."
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.26890",
+      "scope": "Current abstract and v1 record checked; earlier HTML extract truncated. Singular/Brieskorn-Pham result, not arbitrary smooth-factor cancellation."
+    }
+  ],
+  "predecessor_audit": {
+    "checked_at_utc": "2026-09-14T15:34:18.923Z",
+    "all_passed": true,
+    "prior_hash_records": 543,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "9d860f9172ccb7db7290d44751519575a0e77f6fc6d3a4caf19cdd111cffb6d6",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "tool_chunk": "ba8332",
+    "unchanged": true
+  },
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-14T15:39:47.353Z",
+    "all_passed": true,
+    "artifact_count": 8,
+    "numbered_equations": 35,
+    "local_links_checked": 745,
+    "missing_links": [],
+    "deferred_links": [
+      {
+        "from": "research/nonconical-weighted-frontier-pass94.md",
+        "target": "checkpoint-pass94-working.json"
+      },
+      {
+        "from": "README.md",
+        "target": "research/checkpoint-pass94-working.json"
+      },
+      {
+        "from": "research-ledger.md",
+        "target": "research/checkpoint-pass94-working.json"
+      }
+    ],
+    "targeted_inputs_checked": 1,
+    "targeted_complete_outputs_checked": 1,
+    "artifacts": [
+      {
+        "path": "research/nonconical-base-normal-order-contraction-pass94.md",
+        "sha256": "04dd534508c5e07da0904867344eec0eb4ea59d57baba40a2d5ef4120e5b746c",
+        "bytes": 7300,
+        "content_lines": 182,
+        "numbered_equations": 5
+      },
+      {
+        "path": "research/nonconical-conormal-column-classification-pass94.md",
+        "sha256": "055a50e81c9fac19c947078bf416a43aceb6f35fb2a7be6ec840be2a4c9ffbf2",
+        "bytes": 9833,
+        "content_lines": 242,
+        "numbered_equations": 9
+      },
+      {
+        "path": "research/nonconical-saturated-base-change-pass94.md",
+        "sha256": "7a2bbfe99a971eb564cd2159b65c052eb7f4c3781acd194e646439de693a2aeb",
+        "bytes": 13395,
+        "content_lines": 305,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/nonconical-weighted-conormal-rigidity-pass94.md",
+        "sha256": "8b89cce4dfad960c9789a9db4a8f6ab371c9101371f7dd02e668c77411272d3d",
+        "bytes": 10682,
+        "content_lines": 262,
+        "numbered_equations": 9
+      },
+      {
+        "path": "research/nonconical-weighted-frontier-pass94.md",
+        "sha256": "560effe96a821bf71cec642d99dd82b1ecd1a66ae3cccc9df9f43a54c4469168",
+        "bytes": 11770,
+        "content_lines": 263,
+        "numbered_equations": 4
+      },
+      {
+        "path": "research/proof-audits-pass94-working.md",
+        "sha256": "f38b22b3ef3cb0d2154990ce1b24536af6925ac26323cdc011fbbb22d4ecd713",
+        "bytes": 8370,
+        "content_lines": 178,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/verification-pass94-working.json",
+        "sha256": "9bff1555ea7e141f2097c1d3625370c41c5e8a3da365f35b3e5b3332165b9444",
+        "bytes": 1228,
+        "content_lines": 29,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/weighted_conormal_checks_pass94.py",
+        "sha256": "3c42853b462bf7954a2c46470bb7222d6dfbd4478bbc6c7c0b8f479133305e9f",
+        "bytes": 4790,
+        "content_lines": 112,
+        "numbered_equations": 0
+      }
+    ],
+    "tool_chunk": "05a554",
+    "scope": "Eight saved artifacts plus README/ledger local links; three checkpoint links intentionally deferred until saving. Link parser excludes inline/display TeX. Postsave audit resolves the three links."
+  },
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "fresh_full94_regression_performed": false,
+  "central_registry_integrated": false,
+  "historical_claim_count": 544,
+  "record_accounting": {
+    "prior_frozen_records": 543,
+    "new_artifacts": 8,
+    "new_checkpoint_self": 1,
+    "records_after_checkpoint_freeze": 552,
+    "note": "Checkpoint self hash is held externally and checked after saving."
+  },
+  "rejected_shortcuts": [
+    "Weighted second-iterate vanishing is not N^2G=0 on A; higher-weight terms survive.",
+    "Second normal/base order is not invariance or a common coordinate.",
+    "The (2,2) companion condition is neither its construction nor its exclusion.",
+    "Relative affine lines and module freeness do not identify the fiber algebra with a product of truncated polynomial rings.",
+    "The disjoint relative lines can still map to the same intermediate Z point; no source-normalization injectivity is proved.",
+    "Actual regular local generators do not prove that the known cleared quadratic/cubic equations generate the full presentation.",
+    "The weighted filtration is actual-derived; no earlier full-filtration assumption or universal frame reduction is inserted."
+  ],
+  "next_bounded_actions": [
+    "Use the actual original E,T, volume and generator equations to constrain or exclude the noncollapsed fixed companion required in the quadratic (2,2) power-column case.",
+    "Determine whether the two polynomial column shapes permit an actual full-ring higher-order lift compatible with the exact degree bounds; do not replace graded D_*^2y=0 by N^2G=0.",
+    "Use the actual regular relative parameters at saturated cubic rank-zero components to analyze their Jacobian and transverse presentation without assuming the known equations generate its ideal.",
+    "Test whether the actual transverse surfaces or pencil separate remaining singular-base/source-gluing configurations; multiplicity-one relative disjointness alone does not.",
+    "Keep the independent arbitrary sliced-action-to-frame obligation visible; do not count rereading already inapplicable sources as a new bridge."
+  ],
+  "arbitrary_constant_acceleration_recognized": false,
+  "arbitrary_sliced_action_reduced_to_frame": false,
+  "professor_interpretation_confirmed": false,
+  "historical_novelty_verified": false,
+  "human_expert_review_completed": false,
+  "formal_verification_completed": false,
+  "external_contact_made": false,
+  "submission_or_publication_made": false
+}

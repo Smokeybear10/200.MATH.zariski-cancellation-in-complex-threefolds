@@ -1,0 +1,54 @@
+{
+  "kind": "Fresh targeted82 capture, not a full regression",
+  "started_at_utc": "2026-09-14T09:43:14.203050+00:00",
+  "finished_at_utc": "2026-09-14T09:43:14.705090+00:00",
+  "wall_seconds": 0.501625,
+  "total_suites": 1,
+  "total_test_methods": 4,
+  "all_passed": true,
+  "new82_suites": 1,
+  "new82_test_methods": 4,
+  "fresh_full82_regression_performed": false,
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "source_hashes_before": {
+    "research/rank_one_speed_checks_pass82.py": "4e05c14b45bc1a8bbcba46fdb7df50fed205672858525ad4d63ad9a5aee19a5c",
+    "research/run_targeted_pass82.py": "42e3b02803936cd7e92129c9ff71ba1b65ca91b98e7be23ebbc38cc5d706ea78",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_hashes_after": {
+    "research/rank_one_speed_checks_pass82.py": "4e05c14b45bc1a8bbcba46fdb7df50fed205672858525ad4d63ad9a5aee19a5c",
+    "research/run_targeted_pass82.py": "42e3b02803936cd7e92129c9ff71ba1b65ca91b98e7be23ebbc38cc5d706ea78",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_inputs_unchanged": true,
+  "bounded_search_executed": false,
+  "search_candidates_are_test_methods": false,
+  "central_registry_integrated": false,
+  "general_cancellation_verified": false,
+  "scope": "Four finite exact methods: two actual polynomial-frame controls, nonreduced Catalan quotient controls, and formal ambient determinant identities. Not a proof of arbitrary ideal membership or an ambient realization of quotient models. Repeats, subtests and search candidates do not increase the method count.",
+  "suites": [
+    {
+      "path": "research/rank_one_speed_checks_pass82.py",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/rank_one_speed_checks_pass82.py"
+      ],
+      "started_at_utc": "2026-09-14T09:43:14.203050+00:00",
+      "finished_at_utc": "2026-09-14T09:43:14.705090+00:00",
+      "wall_seconds": 0.501625,
+      "exit_code": 0,
+      "expected_methods": 4,
+      "test_methods": 4,
+      "method_count_matches": true,
+      "all_passed": true,
+      "unittest_seconds": 0.287,
+      "output": "test_actual_nonprincipal_two_speed_frame_and_divergence (__main__.RankOneSpeedChecks.test_actual_nonprincipal_two_speed_frame_and_divergence) ... ok\ntest_formal_ambient_determinant_recurrence_and_nilpotence (__main__.RankOneSpeedChecks.test_formal_ambient_determinant_recurrence_and_nilpotence) ... ok\ntest_nilpotent_catalan_quotient_inverses_and_units (__main__.RankOneSpeedChecks.test_nilpotent_catalan_quotient_inverses_and_units) ... ok\ntest_retained_principal_nagata_frame (__main__.RankOneSpeedChecks.test_retained_principal_nagata_frame) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.287s\n\nOK\n",
+      "output_sha256": "769714d396f3b24d151a1bf8cdb143cc226ab9d9fdfbc4624dce70af1fc1c7e0"
+    }
+  ]
+}

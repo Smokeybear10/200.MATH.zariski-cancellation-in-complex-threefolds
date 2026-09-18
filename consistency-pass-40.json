@@ -1,0 +1,682 @@
+{
+  "checked_at_utc": "2026-09-13 15:03:40 UTC",
+  "all_passed": true,
+  "claim_count": 380,
+  "last_claim": "Z380",
+  "test_method_count": 869,
+  "suite_count": 88,
+  "new_checker_imports": {
+    "research/cubic_degree_six_checks_pass40.py": [
+      "unittest",
+      "sympy"
+    ],
+    "research/cubic_degree_five_checks_pass40.py": [
+      "unittest",
+      "sympy"
+    ],
+    "research/two_defect_critical_locus_checks_pass40.py": [
+      "unittest",
+      "sympy"
+    ],
+    "research/nice_centralizer_checks_pass40.py": [
+      "unittest",
+      "sympy"
+    ],
+    "research/two_output_cubic_checks_pass40.py": [
+      "unittest",
+      "sympy"
+    ]
+  },
+  "current_local_links_checked": 321,
+  "report_line_count": 391,
+  "report_numbered_equations": 19,
+  "report_footnotes": 3,
+  "artifact_count": 25,
+  "artifacts": [
+    {
+      "path": "README.md",
+      "sha256": "08be2883322b1c29fa7c17fb9d6bb720c356c2cf4d2b0761291c246be1e32750"
+    },
+    {
+      "path": "research-ledger.md",
+      "sha256": "9c754f443f4d4c3966237fd2fa38e31b32ff011d9e8516bf590b7c93ba9f1d17"
+    },
+    {
+      "path": "claims.json",
+      "sha256": "52c0dfeda0edd4ac09739b15d0883422c3394b3632abbabf01936accec7e323b"
+    },
+    {
+      "path": "experiment-manifest.json",
+      "sha256": "e31a9e9ff36eedc0ddf404298d5b4d63b78cc5881caa863193c0aaaf8f49e657"
+    },
+    {
+      "path": "verification-pass-40.json",
+      "sha256": "df7b07b93bb7625f4050e3fafb0d2f884cc9d1aa342bd1c3b1432f9d05d12d75"
+    },
+    {
+      "path": "deep-pass-40.md",
+      "sha256": "dd0de43208e4454356f88389125e8091eb6cc9910866576dac52faf363967d7e"
+    },
+    {
+      "path": "research/cubic-degree-six-pass40.md",
+      "sha256": "1e81a438e2c3f7978bf3134b47770991aa6e492711ad0c3b90142d5b7a392de4"
+    },
+    {
+      "path": "research/cubic-degree-five-pass40.md",
+      "sha256": "b569adb54f16c7fa47d62cd7785d770f3d1adccb5de7922fb8ac272012ef3c24"
+    },
+    {
+      "path": "research/cubic-compatibility-pass40.md",
+      "sha256": "1af99e133e3a3f21654f72a66046106377e6e790e57c64829c19729a46b35c5e"
+    },
+    {
+      "path": "research/two-output-cubic-closure-pass40.md",
+      "sha256": "fde6e45b990932801e6767162d0c74b8ea71d4ef2b34479bfcaaaecbcee70a83"
+    },
+    {
+      "path": "research/nice-centralizer-bridge-pass40.md",
+      "sha256": "c5fcd9f06c90767718851fb6ab39a95ada140e9322652ce117742b15cdab5b3b"
+    },
+    {
+      "path": "research/two-defect-critical-locus-pass40.md",
+      "sha256": "aa3e42230131e6a96bc84d901cc34ca2f362d3672705b5e1024ac4162b5cbc34"
+    },
+    {
+      "path": "research/two-defect-critical-locus-audit-pass40.md",
+      "sha256": "06150b7390e4d76034cb46435104ebfe875ed2ba7f06d8d226d3939d02d6a083"
+    },
+    {
+      "path": "research/literature-scope-pass40.md",
+      "sha256": "6f8f6234e6cc2e0b03e44b50048c4315ddc9871cc202a86cbac8bf2b4c198e3e"
+    },
+    {
+      "path": "research/proof-audits-pass40.md",
+      "sha256": "e818c208627bab2395152ff836c36b487ab46b15682455d9a5ff99b8699af5b7"
+    },
+    {
+      "path": "research/cubic_degree_six_checks_pass40.py",
+      "sha256": "c33c89175b902c3daf05c8ef24d2d82a1da67474f3dd486f4cd8e360d74dae1e"
+    },
+    {
+      "path": "research/cubic_degree_five_checks_pass40.py",
+      "sha256": "0403ab4720140ea034a32ede22c88f6651a7545ccc8cc61f26d771a75310255d"
+    },
+    {
+      "path": "research/two_defect_critical_locus_checks_pass40.py",
+      "sha256": "e952270dca917ece0df56f20cdb82b6ec49ab0ed5b7bb275a4baf34c134f13d4"
+    },
+    {
+      "path": "research/nice_centralizer_checks_pass40.py",
+      "sha256": "b3223319bd43d0c88699ed5168d052432586049ef8e66368c9d084a8eb60683f"
+    },
+    {
+      "path": "research/two_output_cubic_checks_pass40.py",
+      "sha256": "70ba2bd333b318ddc1491c5c1ad44df6f851fb66125ab88c9645a275dab5f643"
+    },
+    {
+      "path": "research/run_regression_pass40.py",
+      "sha256": "793bdaa4832367b16c0c978d4b18fbdeee49752fedf2bd5f39bd58419eb6065e"
+    },
+    {
+      "path": "research/consistency_checks_pass40.py",
+      "sha256": "73469d503e85e6e6b1fbe5080455cdad04eefed9f70ea1629ded5a83dd98a961"
+    },
+    {
+      "path": "research/whole-frame-recognition-pass39.md",
+      "sha256": "512c78136541e219f09d3174f64437c05b4839bba4d50abd78c4b5f2b772b4d0"
+    },
+    {
+      "path": "research/height-seven-audit.md",
+      "sha256": "6565051f6e1d74346275a911521b4d3e5332fb9920e42ad0e307193bf3f67cd3"
+    },
+    {
+      "path": "deep-pass-13.md",
+      "sha256": "28bf73b1648964bf1aa21b6b46b5ce4c8597776172159dd5d6e22b1e38fdf7fb"
+    }
+  ],
+  "suite_sources": [
+    {
+      "path": "verify_exact.py",
+      "test_methods": 19,
+      "sha256": "e48cba8df391f50e605429a5dd8d3af4f462dd89f074026387f18799be396566"
+    },
+    {
+      "path": "verify_extension.py",
+      "test_methods": 16,
+      "sha256": "7516187695ebad26ffaa6da2701782d3b91b13df26170aab8a789db91988ce78"
+    },
+    {
+      "path": "verify_first_pole.py",
+      "test_methods": 16,
+      "sha256": "22e96fd993612cf1d52ea224ddc0439c62678d6c49db862bf1cecbf94e5d6af4"
+    },
+    {
+      "path": "verify_nonlinear.py",
+      "test_methods": 18,
+      "sha256": "8d1ba092b8a36ff26d7c47bfacc0e79c89c35384fac4c3b54abcae7d0c37e56e"
+    },
+    {
+      "path": "verify_higher_poles.py",
+      "test_methods": 9,
+      "sha256": "353a3b79f45f5e1c2ca745170d2a6af1a07124a190638ea3f9b28e1467b5e040"
+    },
+    {
+      "path": "verify_outside_coefficients.py",
+      "test_methods": 3,
+      "sha256": "9cb71cc689d40a79184c5684dc5d9e0f6e1fcc5590f83265b60315db344ee893"
+    },
+    {
+      "path": "research/primitive_classifier.py",
+      "test_methods": 17,
+      "sha256": "f6f5b0c122193d326b5bbb06cedbcecc5ea9adef041a84cf30a43d968bbb8992"
+    },
+    {
+      "path": "research/full_coefficient_classifier.py",
+      "test_methods": 9,
+      "sha256": "a71b727263069cf9aeb23c7ed48fb91e02856e1b98ebd7f68fc0b4960e8e7be7"
+    },
+    {
+      "path": "verify_global_filtration.py",
+      "test_methods": 19,
+      "sha256": "51dd6ce593b9f34f9b34b4cf36f2fe9be521dce4e116592d29bf52691e194e7b"
+    },
+    {
+      "path": "verify_linear_variable.py",
+      "test_methods": 9,
+      "sha256": "872c994232d4a9565f6eb58f3e970fc459f8a7347f26e6a692624966b27d6f50"
+    },
+    {
+      "path": "verify_quadratic_pencils.py",
+      "test_methods": 17,
+      "sha256": "a3b0347dec79a8334e402aee713f965f92f44e07e8731a351c91d5622fde472b"
+    },
+    {
+      "path": "verify_quadratic_coefficients.py",
+      "test_methods": 8,
+      "sha256": "0d6b2561e988f46407404f5516f132bb9418dfe673e3c24469ea1ff859f2a274"
+    },
+    {
+      "path": "verify_repeated_crossing.py",
+      "test_methods": 15,
+      "sha256": "c796f5a1927e4583dc06eaefc7bd2007834a0cb95fb9e292f49b85311b33fa42"
+    },
+    {
+      "path": "verify_central_arrangements.py",
+      "test_methods": 14,
+      "sha256": "190264c6d82d7a28e6f6681c31467aacee0b714ecd3f3321fcca9124472fb140"
+    },
+    {
+      "path": "verify_quadratic_obstructions.py",
+      "test_methods": 13,
+      "sha256": "d8310b372b2c2986e072af4c18e0400647760a5ae7c17fa8b05f9172863e7da1"
+    },
+    {
+      "path": "verify_torsion_monodromy.py",
+      "test_methods": 6,
+      "sha256": "ff55aa1f01c351f07d496aeb2b7ce4944c18de407d7f81e494f110b739bd4b78"
+    },
+    {
+      "path": "verify_two_power_slices.py",
+      "test_methods": 17,
+      "sha256": "f09204b7efa7ff8cf4b3848883f8885941dcdbcd683a904ff1cf74885775aa37"
+    },
+    {
+      "path": "verify_intrinsic_quotients.py",
+      "test_methods": 12,
+      "sha256": "3c00bae6b1083a2e104bb0e39eb042013acd02bc0119a3b7fe1a63754abd8047"
+    },
+    {
+      "path": "research/frame_height_checks.py",
+      "test_methods": 16,
+      "sha256": "d9f3d6b53dc19f9b169184e170fb0656dc83df89e08a30f2de52e05055efa882"
+    },
+    {
+      "path": "research/height_eight_algebra_checks.py",
+      "test_methods": 7,
+      "sha256": "2c2435e4c2e32acba93bc786c8585fcb77a698f1e2d42890fa36bf7d52c786ac"
+    },
+    {
+      "path": "research/mixed_height_checks.py",
+      "test_methods": 22,
+      "sha256": "70482d888a78f3616b3c094c28551220597f83f0202e0bcb2f0ed7c8d577efff"
+    },
+    {
+      "path": "research/projective_plane_checks.py",
+      "test_methods": 25,
+      "sha256": "7c0e0102a293e08580467c6c7262d723d8b3758f37787c71005f8a20757f13a3"
+    },
+    {
+      "path": "research/invariant_mixing_verifier.py",
+      "test_methods": 23,
+      "sha256": "74c0fd012c783280379ae1067a6739e84219f33c39bca8b35dc0811d1b8549b7"
+    },
+    {
+      "path": "research/invariant_slice_checks.py",
+      "test_methods": 22,
+      "sha256": "38ce4c202a3bcae92610bf8614922c02ac24471b77bf5c2720a9f70acb03df37"
+    },
+    {
+      "path": "research/rank_three_image_checks_pass17.py",
+      "test_methods": 8,
+      "sha256": "99a32c624bd0e711c4014455635e5cc73e5a48c2f29869a3000e956db413fe85"
+    },
+    {
+      "path": "research/nonreduced_jet_checks.py",
+      "test_methods": 18,
+      "sha256": "89f39064bad2372b2d8a0ae163d83f3cc0366d4d0f1af5330028a4faf8ffa190"
+    },
+    {
+      "path": "research/general_jet_lift_checks.py",
+      "test_methods": 8,
+      "sha256": "7bbf4673094fa92d673e27f4c4ac2d40d4e5c11b568759b35f32ac20bafd10f6"
+    },
+    {
+      "path": "research/polynomial_fiber_checks_pass18.py",
+      "test_methods": 8,
+      "sha256": "e341cf2a73f33aeac54c341c8f48309dc04db2b2fcf549509d1d20f1f07b9dae"
+    },
+    {
+      "path": "research/rescaling_curve_controls_pass18.py",
+      "test_methods": 10,
+      "sha256": "1288701ab3bbf4633806a666b99735380639b0bd01735cc985362361902a48a5"
+    },
+    {
+      "path": "research/global_bridge_checks_pass19.py",
+      "test_methods": 12,
+      "sha256": "7551407dfc7de79ce16264a457d1f805d0ffa9193e69e14631d0bee46dd7bdf2"
+    },
+    {
+      "path": "research/iterated_local_slice_checks_pass19.py",
+      "test_methods": 4,
+      "sha256": "40fe8894c63ff05e0ee0f7b1df1804260cdd77d8e1ff78ced2e05bd13e01f458"
+    },
+    {
+      "path": "research/multiplier_surface_controls_pass20.py",
+      "test_methods": 11,
+      "sha256": "b45183d4f8a67f9b0a90616fd6e54e7b581001d69c9c0587ae6775cc1e81ab3b"
+    },
+    {
+      "path": "research/nonunit_local_slice_checks_pass20.py",
+      "test_methods": 6,
+      "sha256": "dd7a008456eb0bce92ead8fcc0fdffebe7d91c1b117eb95fc8a75aaf16b4cf28"
+    },
+    {
+      "path": "research/primitive_bridge_checks_pass21.py",
+      "test_methods": 14,
+      "sha256": "db79d129fac7a8a98b4c2425bee53ba873b141c72c7f703cf24ded83ab812cc2"
+    },
+    {
+      "path": "research/radical_nonlinear_checks_pass22.py",
+      "test_methods": 15,
+      "sha256": "d38357919d81a67101343f9653d301c94a1461d9b2b1c31035d654311941d4cc"
+    },
+    {
+      "path": "research/nodal_generators_checks_pass22.py",
+      "test_methods": 7,
+      "sha256": "6f94b9a1136aa4afc1cdaa68792c21caedaf2be4f2ff84f148c4b8eb1154e72b"
+    },
+    {
+      "path": "research/polynomial_coefficient_checks_pass23.py",
+      "test_methods": 14,
+      "sha256": "282e330534326df4d47e3b582239383f42b6f0e11182563a18f00063e1840547"
+    },
+    {
+      "path": "research/nodal_elimination_checks_pass23.py",
+      "test_methods": 7,
+      "sha256": "c3fff7f0186db9c6f496e43573766318712de135a6386c9b42a2c28a1866d88b"
+    },
+    {
+      "path": "research/reduction_controls_pass24.py",
+      "test_methods": 23,
+      "sha256": "bdd312c1688558a400fdc77651b33199791267223d8f4c28f30aa3759bf5c86f"
+    },
+    {
+      "path": "research/nodal_hypersurface_checks_pass24.py",
+      "test_methods": 8,
+      "sha256": "d7f71f73785b211907e6d1bd760aa084d48ca0ce1e797448fc2e2f83eab9061a"
+    },
+    {
+      "path": "research/commuting_leading_controls_pass25.py",
+      "test_methods": 16,
+      "sha256": "2560e88adef455c4052012397111d39e3ba918268a968190c87fdb37999e9e95"
+    },
+    {
+      "path": "research/coupled_homotopy_checks_pass25.py",
+      "test_methods": 7,
+      "sha256": "845905d14dc6dec8f8be91130169a70013ad2ae91981b4e2d9c06e4bb66eafe2"
+    },
+    {
+      "path": "research/ambient_lifting_checks_pass25.py",
+      "test_methods": 5,
+      "sha256": "9cff346c8b15c7c95cdf650ade2debb601fc50f99dbf7993ff51cda20ed65bb0"
+    },
+    {
+      "path": "research/simultaneous_frame_checks_pass26.py",
+      "test_methods": 12,
+      "sha256": "7408effeb27ffbdb10629de24f28ff4a7c102aba45ac455e324e3e3cda31b2b9"
+    },
+    {
+      "path": "research/moving_plane_lie_checks_pass26.py",
+      "test_methods": 8,
+      "sha256": "c6549ec187041267a516228e62975b1737ab7253f9beb77cba8e255d6214491d"
+    },
+    {
+      "path": "research/actual_surface_checks_pass26.py",
+      "test_methods": 7,
+      "sha256": "1cb373a06af10d198f55e0199038ba11a69fa7aaddab30510d481e3f27d76f7e"
+    },
+    {
+      "path": "research/relative_completion_checks_pass27.py",
+      "test_methods": 11,
+      "sha256": "acf4d0951311f2b9b853b00eaef92962c74d855575f422ff056de384f9e38324"
+    },
+    {
+      "path": "research/primitive_top_checks_pass27.py",
+      "test_methods": 8,
+      "sha256": "3d9b9f194112234d6d372ec9b3f1fc1427ec3a1c9d3081fcb1aa0394c59506a8"
+    },
+    {
+      "path": "research/noninvariant_surface_checks_pass27.py",
+      "test_methods": 6,
+      "sha256": "b5839ce9ed4c3c7d24927074d41620bb81d61d787cdf78e490e8c2f2602d33a8"
+    },
+    {
+      "path": "research/translation_frame_checks_pass28.py",
+      "test_methods": 10,
+      "sha256": "97ebacaec48e038690ecb6f91a2d61c83e791cbc68a461b89d741fc26aa00270"
+    },
+    {
+      "path": "research/canonical_top_checks_pass28.py",
+      "test_methods": 12,
+      "sha256": "879d5930ab417c2fce9851131ff22c1e1056dd2dc829cc4eaa971d1dedb6ec24"
+    },
+    {
+      "path": "research/changed_fiber_surface_checks_pass28.py",
+      "test_methods": 7,
+      "sha256": "7ed3fecb6dedec6a324c948c8e9e57a4d0897643b7719eb362af4a61d367783e"
+    },
+    {
+      "path": "research/finite_lie_certificate_checks_pass29.py",
+      "test_methods": 10,
+      "sha256": "e72d6c4160a4f56a10b68cfdd5dea8764804ce7681f292438775213773d3d9cf"
+    },
+    {
+      "path": "research/horizontal_selection_checks_pass29.py",
+      "test_methods": 8,
+      "sha256": "f2390ff5850d502d95614c7e0077ca0e175c5cc319f760186e3ceaee0d535348"
+    },
+    {
+      "path": "research/global_invariant_embedding_checks_pass29.py",
+      "test_methods": 7,
+      "sha256": "affcf323928c9af1b160abdb095ffae87e998cef8d83c263f6ab71ae70881ad1"
+    },
+    {
+      "path": "research/finite_closure_frame_checks_pass30.py",
+      "test_methods": 10,
+      "sha256": "3e770739e4a68e6886532c5c924d7d8c255630c5dca70b3519abc59f0ab5bc1c"
+    },
+    {
+      "path": "research/horizontal_gauge_checks_pass30.py",
+      "test_methods": 8,
+      "sha256": "13cad79fd16f5498c2df7cd6316d4256d0c76974df6647dbcae4625ae81bd2c4"
+    },
+    {
+      "path": "research/all_noninvariant_surface_checks_pass30.py",
+      "test_methods": 6,
+      "sha256": "80b1ffe78ecc0e11aa678b2d06f63fdec3b1a275fadaf5fe6330a1102f270cca"
+    },
+    {
+      "path": "research/minimal_horizontal_checks_pass31.py",
+      "test_methods": 10,
+      "sha256": "c666fbf24f11c1270e94cbde940cadd4ec9dcd34e1ce32a48763862b0c3e0791"
+    },
+    {
+      "path": "research/hypersurface_lifting_checks_pass31.py",
+      "test_methods": 5,
+      "sha256": "8fb917d4107189a41cfaec93a302d8149db4fed0ce918059eb87c017ead7c529"
+    },
+    {
+      "path": "research/finite_thickening_checks_pass31.py",
+      "test_methods": 5,
+      "sha256": "a2f345dcc69bfc5f1a68202989a719b9c50fb1630ce246802419774c8a25020e"
+    },
+    {
+      "path": "research/unrestricted_minimum_checks_pass32.py",
+      "test_methods": 10,
+      "sha256": "3346815b1c12e27f154b42c1bbe69380ff9ed3dc1ee8bef8c7c2cf37067ae304"
+    },
+    {
+      "path": "research/ambient_residue_checks_pass32.py",
+      "test_methods": 6,
+      "sha256": "e33ec8192f10261fef6db18f158cf047ac08beec3b7fd1c1bd5cdc3a7d333f52"
+    },
+    {
+      "path": "research/divergence_torsion_checks_pass32.py",
+      "test_methods": 7,
+      "sha256": "7dd81f3e0a67374d668de0f1ee054b108425571def426fbe53e736ee0b540c58"
+    },
+    {
+      "path": "research/stable_polynomial_invariants_checks_pass32.py",
+      "test_methods": 6,
+      "sha256": "ded50bf5ce5f1a0f2307ce54e65611bc3b4d9d5c69b6b4df341652270cc6062f"
+    },
+    {
+      "path": "research/minimum_top_structure_checks_pass33.py",
+      "test_methods": 8,
+      "sha256": "44d584c695f5fc2fd692756b96c3715d4a8fc6972c9140b673eb00c57a84e4d2"
+    },
+    {
+      "path": "research/all_speed_ambient_checks_pass33.py",
+      "test_methods": 6,
+      "sha256": "5705c607fb5dec55dbd5abc46d735df8743690aaaea892a7eeae8f384199ff45"
+    },
+    {
+      "path": "research/nodal_plinth_checks_pass33.py",
+      "test_methods": 5,
+      "sha256": "26dcb6b52c881ecfd87f11f61205d41b8439c683d50d1223fbb7a182f2078406"
+    },
+    {
+      "path": "research/cross_frame_saturation_checks_pass33.py",
+      "test_methods": 6,
+      "sha256": "653a20af3a5983e16bdaf5341de72bdf629ae78ae18cb70d4afc887f93a481ec"
+    },
+    {
+      "path": "research/intrinsic_rank_checks_pass34.py",
+      "test_methods": 5,
+      "sha256": "c7decb41e186a96c4b2e0238cc865b0943ae1c6034b8dfe40eabcd9662920de3"
+    },
+    {
+      "path": "research/integral_ramification_checks_pass34.py",
+      "test_methods": 4,
+      "sha256": "f201de3b8124c55e41a2962257f4cd545d1f63a019f715c1809cd62b814e9e29"
+    },
+    {
+      "path": "research/odd_realization_checks_pass34.py",
+      "test_methods": 5,
+      "sha256": "ce07e5f53b3d24177c9808b54dd70d2df9d7ab750a94664be7ea298942d12bf2"
+    },
+    {
+      "path": "research/plinth_repair_checks_pass34.py",
+      "test_methods": 6,
+      "sha256": "3e7946963c6235938c7997c65fb42d9eb5daf87569cd9a2f54a850f8f214133c"
+    },
+    {
+      "path": "research/isolated_node_checks_pass35.py",
+      "test_methods": 5,
+      "sha256": "68e39a67c327725e7d4bd200c1feea135386ba347ada0728f2c144cca91087ed"
+    },
+    {
+      "path": "research/general_q1_repair_checks_pass35.py",
+      "test_methods": 7,
+      "sha256": "abdcdc229c968ba862c46a446c732b63efd33988dcc7793084194b78520b2673"
+    },
+    {
+      "path": "research/nodal_fork_checks_pass36.py",
+      "test_methods": 5,
+      "sha256": "f095ea2cad4c061c32d07cc8df69c9cc0bbca05dfa889d2a4a77939b5decc004"
+    },
+    {
+      "path": "research/q1_integrability_checks_pass36.py",
+      "test_methods": 8,
+      "sha256": "074b912642068f41c8d6caae3945a9dc793e6603f8a7c2e1a16b84779f471937"
+    },
+    {
+      "path": "research/su_cell_checks_pass37.py",
+      "test_methods": 8,
+      "sha256": "603ff090eab4cacc3a9e89a23b318bd0efb0268f91aef166d277d5a1cb52a7b7"
+    },
+    {
+      "path": "research/actual_frame_checks_pass38.py",
+      "test_methods": 6,
+      "sha256": "80ecf158ff779dff451da880e470e397306dfd92faa7408aad1907bca735f2bb"
+    },
+    {
+      "path": "research/vanishing_plinth_integrability_checks_pass38.py",
+      "test_methods": 8,
+      "sha256": "7447bc2e9ece08ee6eb9a699e444f4b4dfe4c2ebb4633f123f9a39ec67f9507b"
+    },
+    {
+      "path": "research/one_cubic_defect_checks_pass39.py",
+      "test_methods": 8,
+      "sha256": "b945f88db5033259933b62571b424692ec16a5d97c43f2153207a37e5153ebb5"
+    },
+    {
+      "path": "research/two_quadratic_defects_checks_pass39.py",
+      "test_methods": 6,
+      "sha256": "4dbdd348fadf422a240888d0d04887d0c4fb9911295b96ea678aea0055aefd3e"
+    },
+    {
+      "path": "research/coordinate_reduction_checks_pass39.py",
+      "test_methods": 8,
+      "sha256": "ee54b9317aebb0273fe6c01a382a1c20cdb5eafe794ee9f5cce035831b0dd030"
+    },
+    {
+      "path": "research/cubic_degree_six_checks_pass40.py",
+      "test_methods": 5,
+      "sha256": "c33c89175b902c3daf05c8ef24d2d82a1da67474f3dd486f4cd8e360d74dae1e"
+    },
+    {
+      "path": "research/cubic_degree_five_checks_pass40.py",
+      "test_methods": 5,
+      "sha256": "0403ab4720140ea034a32ede22c88f6651a7545ccc8cc61f26d771a75310255d"
+    },
+    {
+      "path": "research/two_defect_critical_locus_checks_pass40.py",
+      "test_methods": 6,
+      "sha256": "e952270dca917ece0df56f20cdb82b6ec49ab0ed5b7bb275a4baf34c134f13d4"
+    },
+    {
+      "path": "research/nice_centralizer_checks_pass40.py",
+      "test_methods": 3,
+      "sha256": "b3223319bd43d0c88699ed5168d052432586049ef8e66368c9d084a8eb60683f"
+    },
+    {
+      "path": "research/two_output_cubic_checks_pass40.py",
+      "test_methods": 4,
+      "sha256": "70ba2bd333b318ddc1491c5c1ad44df6f851fb66125ab88c9645a275dab5f643"
+    }
+  ],
+  "source_inputs": [
+    {
+      "path": "tmp/pdfs/bondt-1501.04845v3.pdf",
+      "url": "https://arxiv.org/pdf/1501.04845v3",
+      "role": "homogenization and rank-two homogeneous quasi-translation primary source",
+      "bytes": 387538,
+      "sha256": "31cec362bd10fbe65e2a4622979fbcf4fbff2bcd585bae9dd3fe78bc330d49cc"
+    },
+    {
+      "path": "tmp/pdfs/bondt-1501.04845v3.txt",
+      "derived_from": "tmp/pdfs/bondt-1501.04845v3.pdf",
+      "role": "Poppler layout text; semantic theorem passages checked",
+      "bytes": 98069,
+      "sha256": "2450cbb34179187172a6c81dfedba9752ecb32b067c5a62ffcb2decab7f236d9"
+    },
+    {
+      "path": "tmp/pdfs/bgl-1501.01438v1.pdf",
+      "url": "https://arxiv.org/pdf/1501.01438v1",
+      "role": "fixed-coordinate regular-kernel recognition primary source",
+      "bytes": 324585,
+      "sha256": "841365ff79f66f5ef8b16595507ec1059fcbd7edb7a0ec23ac4d883ed5a53623"
+    },
+    {
+      "path": "tmp/pdfs/bgl-1501.01438v1.txt",
+      "derived_from": "tmp/pdfs/bgl-1501.01438v1.pdf",
+      "role": "Poppler layout text; semantic theorem passages checked",
+      "bytes": 77489,
+      "sha256": "3e4515902dcbef971d4fe7d303974ed89dbbb289654b024244313d248cc2156f"
+    },
+    {
+      "path": "tmp/pdfs/bondt-1501.05168v1.pdf",
+      "url": "https://arxiv.org/pdf/1501.05168v1",
+      "role": "nonhomogeneous rank-one quasi-translation primary theorem",
+      "bytes": 268780,
+      "sha256": "1d0d5361b6081a766699249e8767972c5bbab2ce4aeebc53ffddd421592c613d"
+    },
+    {
+      "path": "tmp/pdfs/bondt-1501.05168v1.txt",
+      "derived_from": "tmp/pdfs/bondt-1501.05168v1.pdf",
+      "role": "Poppler layout text; decisive theorem passages directly checked",
+      "bytes": 70318,
+      "sha256": "1f370ba9d620ca5f9b87a7e9ae60bdf580935c683373b9b8c43dcb85401484bc"
+    },
+    {
+      "path": "tmp/pdfs/bondt-1501.06046v4.pdf",
+      "url": "https://arxiv.org/pdf/1501.06046v4",
+      "role": "polynomial curve-factorization primary theorem",
+      "bytes": 339107,
+      "sha256": "75b598e2e8cad4ec07e9e97ba027c89df659999137e70b22c96596b6003d7698"
+    },
+    {
+      "path": "tmp/pdfs/bondt-1501.06046v4.txt",
+      "derived_from": "tmp/pdfs/bondt-1501.06046v4.pdf",
+      "role": "Poppler layout text; decisive theorem passages directly checked",
+      "bytes": 88771,
+      "sha256": "aff7b6b02c41b507f58e37a15a6ecab34565f0606fdf10178e1f3963de86d7f5"
+    },
+    {
+      "path": "tmp/pdfs/dg-2306.00510v2.pdf",
+      "url": "https://arxiv.org/pdf/2306.00510v2",
+      "role": "planar and commuting three-variable recognition theorem statements",
+      "bytes": 320439,
+      "sha256": "9723522461af45c5ff484548669890a3ca7ce6a9b7dc1cd730ec4caa4f719877"
+    },
+    {
+      "path": "tmp/pdfs/dg-2306.00510v2.txt",
+      "derived_from": "tmp/pdfs/dg-2306.00510v2.pdf",
+      "role": "Poppler layout text; decisive theorem passages directly checked",
+      "bytes": 86850,
+      "sha256": "17ac241d25c791503a876d5b4cae80ed535ffeaf69d78d07053a4c963dc3dcf0"
+    },
+    {
+      "path": "tmp/pdfs/dg-nice-1701.03635v1.pdf",
+      "url": "https://arxiv.org/pdf/1701.03635v1",
+      "role": "nice PID classification and recalled Hamann relative cancellation primary statements",
+      "bytes": 181779,
+      "sha256": "09fc312059bfc11f00ecb00de46bdafeae9b1cfd2738d6383b9de739d3628b4b"
+    },
+    {
+      "path": "tmp/pdfs/dg-nice-1701.03635v1.txt",
+      "derived_from": "tmp/pdfs/dg-nice-1701.03635v1.pdf",
+      "role": "Poppler layout text; complete decisive statements and nice classification proof directly read",
+      "bytes": 41655,
+      "sha256": "ab0ac579fa726ca4fbb55565f0412a9da2fbc1e234c481b5e47b49b9c3e29dc3"
+    },
+    {
+      "path": "tmp/pdfs/maubach-commuting-2001.pdf",
+      "url": "https://www.math.ru.nl/~maubach/Papers/The_Commuting_Dervations.pdf",
+      "role": "author manuscript dated October 5 2001; complex commuting derivation coordinate theorem",
+      "bytes": 204678,
+      "sha256": "ecfd6af926e719bf64b28c13ac756c1802af53394b0db3d4901bb9bfcd5a87d3"
+    },
+    {
+      "path": "tmp/pdfs/maubach-commuting-2001.txt",
+      "derived_from": "tmp/pdfs/maubach-commuting-2001.pdf",
+      "role": "Poppler layout text; Proposition3.5 and Theorem3.6 proof directly read",
+      "bytes": 27015,
+      "sha256": "ac06b8452204c9b96d6b53ba57f6768c1e9d0f884dfc5229f881ae68a21d765e"
+    }
+  ],
+  "link_parser_controls": 2,
+  "link_parser_controls_counted_as_mathematical_tests": false,
+  "scope": "JSON, AST counts, flags, whitespace, links, numbering and SHA256 integrity. Not mathematical proof verification."
+}

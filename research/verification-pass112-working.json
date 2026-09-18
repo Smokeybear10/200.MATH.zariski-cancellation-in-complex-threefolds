@@ -1,0 +1,63 @@
+{
+  "started_at_utc": "2026-09-14T23:11:57.078Z",
+  "finished_at_utc": "2026-09-14T23:12:00.500Z",
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.whole_double_conormal_checks_pass112",
+    "research.triangular_whole_double_checks_pass112",
+    "research.whole_double_nilrank_checks_pass111",
+    "research.whole_double_coordinate_checks_pass111",
+    "research.quadratic_degree_module_checks_pass102",
+    "research.quadratic_divisor_filtration_checks_pass107"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 3.422076459,
+  "suites": 6,
+  "test_methods": 8,
+  "new_methods": 3,
+  "retained_methods": 5,
+  "ast_method_counts": {
+    "research/whole_double_conormal_checks_pass112.py": 2,
+    "research/triangular_whole_double_checks_pass112.py": 1,
+    "research/whole_double_nilrank_checks_pass111.py": 2,
+    "research/whole_double_coordinate_checks_pass111.py": 1,
+    "research/quadratic_degree_module_checks_pass102.py": 1,
+    "research/quadratic_divisor_filtration_checks_pass107.py": 1
+  },
+  "input_files": [
+    {
+      "path": "research/whole_double_conormal_checks_pass112.py",
+      "sha256": "ea5fdc95e9297c2807c119e3ef2674edbcf39e0f8c754861fb4c5f2a37ecab52"
+    },
+    {
+      "path": "research/triangular_whole_double_checks_pass112.py",
+      "sha256": "d38940770500ffc4a757031edad780ea727b0bb04917410a1644000c94e3ec35"
+    },
+    {
+      "path": "research/whole_double_nilrank_checks_pass111.py",
+      "sha256": "222e54b86d9dd1272f513a773eb742e3a009b2aa79200acc71203d6f428e0f85"
+    },
+    {
+      "path": "research/whole_double_coordinate_checks_pass111.py",
+      "sha256": "b8a29767649dfcc488f2882424744ab140c1fdec54fe2c9f026a163d302d7601"
+    },
+    {
+      "path": "research/quadratic_degree_module_checks_pass102.py",
+      "sha256": "dd701dc05fe10c4ce5189ab848bfde4f0ea7bb724f27d4317b69f38c91613362"
+    },
+    {
+      "path": "research/quadratic_divisor_filtration_checks_pass107.py",
+      "sha256": "87c7052e3e165f0d1ebc8faabc8f49d178c2c55a3cfe6daf0ef6d97e817e1a38"
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "stdout": "",
+  "stderr": "test_conormal_and_weighted_connections (research.whole_double_conormal_checks_pass112.WholeDoubleConormalChecks.test_conormal_and_weighted_connections) ... ok\ntest_product_index_determinant (research.whole_double_conormal_checks_pass112.WholeDoubleConormalChecks.test_product_index_determinant) ... ok\ntest_finite_preparation_and_hidden_parameter (research.triangular_whole_double_checks_pass112.TriangularWholeDoubleChecks.test_finite_preparation_and_hidden_parameter) ... ok\ntest_conic_and_cyclic_invariants (research.whole_double_nilrank_checks_pass111.WholeDoubleNilrankChecks.test_conic_and_cyclic_invariants) ... ok\ntest_variable_volume_weighted_connection (research.whole_double_nilrank_checks_pass111.WholeDoubleNilrankChecks.test_variable_volume_weighted_connection) ... ok\ntest_coordinate_degree_and_residue_controls (research.whole_double_coordinate_checks_pass111.WholeDoubleCoordinateChecks.test_coordinate_degree_and_residue_controls) ... ok\ntest_conic_first_coefficients_and_weight_comparison (research.quadratic_degree_module_checks_pass102.QuadraticDegreeModuleChecks.test_conic_first_coefficients_and_weight_comparison) ... ok\ntest_conic_filtration_and_hypothesis_controls (research.quadratic_divisor_filtration_checks_pass107.QuadraticDivisorFiltrationChecks.test_conic_filtration_and_hypothesis_controls) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 3.054s\n\nOK\n",
+  "output_hash_convention": "stdout + one newline + stderr",
+  "complete_output_sha256": "375dcaed52886b3132ec6d00e5048a993f80d9c5ab66e4c7cd91ecb83e9aa43a",
+  "all_passed": true,
+  "scope": "New product-index determinant and conormal/weighted identities; finite triangular monic preparation with odd and quartic perturbations, e=1..4 and leading derivative instances n=0..6. Retained111 nilrank/coordinate,102 conic module and107 divisor filtration identities. Does not verify the geometric chart, module purity, divisor classifications, the all-Q/all-e/all-n triangular theorem, proper-branch exclusion, arbitrary-frame entry, cancellation or novelty."
+}

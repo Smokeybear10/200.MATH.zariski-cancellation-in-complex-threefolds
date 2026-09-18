@@ -1,0 +1,141 @@
+{
+  "pass": 212,
+  "status": "height_two_initial_relation_shortcuts_refuted_by_actual_family; rank_two_principal_kernel_reduced_to_nonconstant_squarefree_centers",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass211-working.json",
+    "sha256": "e639f56ec1b4cb9133757855de248dbe273c42427489da82d831fad689713770",
+    "records": 1303
+  },
+  "results": {
+    "distinct_sectors": "The actual height-two initial-ideal family and the rank-two bad-quadratic principal-kernel chart are different sectors. This packet does not identify their hypotheses or transfer a pivot between them.",
+    "actual_height_two_countercontrol": "An explicit polynomial family with exact1122 profile and unit-speed coordinate X=u has a height-two initial ideal with no weight-two relation. For the t^4 member the entire ideal is (XZ-Y^3,XW-YZ,Y^2W-Z^2). The two literal bad-coordinate shifts are2 and1 and their leading derivations are opposite, not independent.",
+    "unbounded_initial_relation_weight": "For f=t^n, the exact least relation weight outside (XZ-Y^3) is ceil(2n/3), so no uniform generating-weight cutoff follows from the supplied1122 profile. This is an all-degree written result, not a finite-enumeration inference. The same family has the actual invariant ambient coordinate t=W-XZ+Y^3 of weight3 and is already a polynomial-kernel example, not a true minimum-six frame or cancellation counterexample.",
+    "rank_two_frontier": "The actual full principal kernel (ZW-X^4) with the original pivot gives q=1/rho and nonunit speed for the supplied X. The exact sextic, conductor and degree restrictions imply e<d, d at most6 and e at most4. A new asymmetric vertex-free cone lemma and a nonreduced rank-two fiber exclude the repeated-quadratic center. Zero and constant centers are recognized by retained inputs; nonconstant squarefree centers remain open.",
+    "boundaries": "Finite identities do not prove universal cone, conductor, field or recognition theorems. The available primitive commuting derivation does not meet211's square-zero-coordinate input. Other kernels, arbitrary entry and unrestricted cancellation remain unresolved. Separate213 sources and later exploration are not included."
+  },
+  "goal_audit": {
+    "current_progress": "Two proof notes and two independent four-method finite suites are packaged with complete source reviews and two separate passing canonical executions. This records an actual shortcut countercontrol and a sharper rank-two frontier, not completion of the global goal.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "actual_height_two_family": true,
+    "actual_height_two_counterexample_to_cancellation": false,
+    "actual_family_speed_unit": true,
+    "actual_family_true_minimum_six": false,
+    "unbounded_second_relation_weight_proved": true,
+    "unbounded_invariant_recognition_complexity_claim": false,
+    "rank_two_full_principal_kernel_required": true,
+    "rank_two_repeated_center_excluded": true,
+    "rank_two_squarefree_branch_recognized": false,
+    "rank_two_squarefree_realization_claim": false,
+    "arbitrary_entry_proved": false,
+    "global_minimum_profile_claim": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/height-two-no-quadratic-relation-actual-control-pass212-working.md",
+      "sha256": "225e1b5717a4c15a31dbe162e03e62e103042a0839ae5611f014c556f8214af6",
+      "bytes": 14454,
+      "lines": 401,
+      "equations": 24,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank-two-t-independent-sextic-reduction-pass212-working.md",
+      "sha256": "cec67b33a0d3d621c43cfc1d4a6a149b22acf937cd51984dc9f3ef809f96d892",
+      "bytes": 19600,
+      "lines": 499,
+      "equations": 26,
+      "test_methods": 0
+    },
+    {
+      "path": "research/height_two_initial_family_controls_pass212.py",
+      "sha256": "db61553a103a09451ed368c843ef07be51cb44dbda113f0fd3835b8015442676",
+      "bytes": 7601,
+      "lines": 153,
+      "equations": 0,
+      "test_methods": 4
+    },
+    {
+      "path": "research/rank_two_sextic_reduction_controls_pass212.py",
+      "sha256": "241e1d20026389c2871a3db18b5a9c87ae6f0600ee70daeb382a3c3da31e8553",
+      "bytes": 10182,
+      "lines": 205,
+      "equations": 0,
+      "test_methods": 4
+    },
+    {
+      "path": "research/verification-pass212-working.json",
+      "sha256": "69ffece8c97a8c2caf83193a0d1032d2945d3108bd32bfb033337817b9a0c273",
+      "bytes": 12611,
+      "lines": 151,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "chain_record_count_after_including_this_checkpoint": 1309,
+  "record_count_convention": "1303 frozen predecessor records plus two proof notes, two checker sources, verification212 and this checkpoint: six new records. Mutable indices are not records. No213 source, unsaved exploration, retained input or previous canonical execution is counted.",
+  "verification": {
+    "capture": "research/verification-pass212-working.json",
+    "canonical_runs": [
+      {
+        "suite": "height_two_initial_family_controls212",
+        "path": "research/height_two_initial_family_controls_pass212.py",
+        "pre_execution_read": "Root complete46f0f7/hashc4ae11/metadata0256f8; Jet completea8bf24/hash1b1dfb/count07ea80.",
+        "initial_output": "bd1086",
+        "session_id": null,
+        "terminal_output": "bd1086",
+        "methods": 4,
+        "unittest_seconds": 0.088,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "completion_via_original_handle": false,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/height_two_initial_family_controls_pass212.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "login": false,
+        "initial_yield_time_ms": 1000,
+        "initial_max_output_tokens": 6000
+      },
+      {
+        "suite": "rank_two_sextic_reduction_controls212",
+        "path": "research/rank_two_sextic_reduction_controls_pass212.py",
+        "pre_execution_read": "Author complete2bad08/hashcec6aa/count124e56/method088cc9; Root completeec329c/hash4405c6.",
+        "initial_output": "65d778",
+        "session_id": null,
+        "terminal_output": "65d778",
+        "methods": 4,
+        "unittest_seconds": 0.47,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "completion_via_original_handle": false,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/rank_two_sextic_reduction_controls_pass212.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "login": false,
+        "initial_yield_time_ms": 1000,
+        "initial_max_output_tokens": 6000
+      }
+    ],
+    "new_suites": 2,
+    "new_methods": 8,
+    "tagged_equations": 50,
+    "scope": "Two separate four-method suites record finite exact identities. The height-two suite checks actual arbitrary-function maps, literal partials and finite monomial controls; the rank-two suite checks sextic/center coefficients, undivided gradient residuals, calibrated wedge, cone shear, bounded power sums and repeated-fiber/collision identities. Written proofs, not finite tests, establish the all-degree ideal, unbounded relation weight, field/conductor and asymmetric cone statements. Both canonical executions were initially terminal with no pending handle or rerun; times remain separate."
+  },
+  "next_bounded_task": "Investigate the actual nonconstant squarefree-center branches of the rank-two principal kernel, or a genuinely different height-two entry mechanism. Keep coefficient-field manipulations separate from original-ring coordinate construction. Do not rerun212; separate213 work is not incorporated."
+}

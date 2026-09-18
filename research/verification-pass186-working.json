@@ -1,0 +1,181 @@
+{
+  "pass": 186,
+  "status": "restricted_full_common_factor_quartic_recognition; unrestricted_cancellation_and_entry_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/weight-four-common-factor-constant-projection-exclusion-pass186-working.md",
+      "sha256": "0c28bf24b56be05dd6bb1368525f701ba44b9f67d19d99d77eef818af5e32175",
+      "bytes": 12194,
+      "lines": 334,
+      "equations": 21,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-common-factor-low-graph-exclusion-pass186-working.md",
+      "sha256": "09b65d53d11465581413cfab3e51b71b9a113378f32badfc62e51bf26d888ca6",
+      "bytes": 4389,
+      "lines": 114,
+      "equations": 5,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-common-factor-quadratic-graph-exclusion-pass186-working.md",
+      "sha256": "21ab598d02df07523811ca745cae4d8c96f399397aa2623f48de2cbe3fd20ff3",
+      "bytes": 11475,
+      "lines": 327,
+      "equations": 22,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-common-factor-recognition-synthesis-pass186-working.md",
+      "sha256": "9689f415df7e7f971e7ada66261fb71ca0a7a92ae44e7701abfd71a22349cb2d",
+      "bytes": 7960,
+      "lines": 175,
+      "equations": 5,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight_four_common_factor_constant_controls_pass186.py",
+      "sha256": "83841d28c8eb9f6cdcb55bf1350c4728a13b0c56a413926b6c7972f3a2ae8f9c",
+      "bytes": 7492,
+      "lines": 164,
+      "equations": 0,
+      "test_methods": 2
+    },
+    {
+      "path": "research/weight_four_common_factor_quadratic_controls_pass186.py",
+      "sha256": "14430daf0d7cb88d78f2106b501ec4bcbe9bb2f5fffb2c168a608f2e32ab1cbd",
+      "bytes": 10357,
+      "lines": 239,
+      "equations": 0,
+      "test_methods": 3
+    }
+  ],
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass185-working.json",
+    "sha256": "51e49a89249904d1e06a02372a90ef1f1cf67c777a3d007dc950b4da1cc71f88",
+    "records": 1149
+  },
+  "results": {
+    "actual_hypotheses": "Supplied actual B=C[X,Y,Z,W]=A[u] with global E=partial_u, exact E-time degrees(1,1,2,2), and full initial kernel (X^2 Z+XYW-Y^4). A single vanishing leading equation, height-two kernel, minimum-profile guess or formal coordinate description does not supply these hypotheses.",
+    "constant_projection": "The exact theta-parameter determinant retains the t^4 X^2 term and its -4t^3 coefficient. It forces R=mu*t+nu-y and w=mu*theta+g. The original commuting derivation T0=(nu-Y)partial_Z+(X+mu)partial_W has kernel C[X,Y,F], F=(X+mu)Z+(Y-nu)W. After invariant gcd division, Wang's two-coordinate classification contradicts either transcendental t or the leading identity c*t^4+Q3(1,t)=0. No ambient-coordinate claim for F or generic-to-global descent is assumed.",
+    "low_graph": "For an affine generic y with theta=P(y), graph degree zero or one is excluded because V-p1 U cannot divide the exact quintic top -U^5. This includes zero and constant P and uses only graph divisibility, not a pure eliminant.",
+    "quadratic_graph": "An evaluated unit cofactor gives the exact model H=cG+(h/2)(r-U)G^2. Coefficients force r'''=0 and a nonzero complex lambda=r''. Actual constant translations normalize r=lambda*t^2/2. The first potential and c=-(n_rho+r*r')^2 in L* then force p0_rho=2lambda*t. The U coefficient of the second potential lies in K[rho] and has nonzero rho^2 coefficient -lambda^3/4. This contradicts independence of U even if m is a nonpolynomial element of L. K is finite over C(t), not assumed rational, and rho is transcendental over K.",
+    "full_configuration": "The retained184 whole-plane and selected-component arguments leave only constant or affine y and graph degree at most five. The three new exclusions remove constant y and graph degrees at most two. The retained185 high-graph proof forces the surviving graph to have degree five, constructs an actual polynomial invariant coordinate I with a companion and both inverse orders, and gives A=C[I]^[2] by Bhatwadekar–Gupta–Lokhande Theorem3.5.",
+    "normal_form_corollary": "For any full irreducible weight-four initial generator P2(X,Y)Z+Q2(X,Y)W+H4(X,Y) with independent quadratic P2,Q2, the actual homogeneous normal forms184 reduce to the coprime pair excluded185 or the common-factor form recognized here. These changes preserve exact1122 because no nonzero weight-one/two initial can lie in a principal weight-four kernel. Thus this specified independent-coefficient class is recognized.",
+    "remaining_scope": "One-dimensional bad-coefficient span, positive quadratic bad-variable rank, height-two kernels, higher possible minimum time profiles and arbitrary coordinate entry remain open. Unrestricted cancellation is not solved; the corrected field-and-dimension interpretation of the professor's email is unconfirmed."
+  },
+  "canonical_executions": [
+    {
+      "suite": "constant_projection186",
+      "path": "research/weight_four_common_factor_constant_controls_pass186.py",
+      "command": "/opt/anaconda3/bin/python research/weight_four_common_factor_constant_controls_pass186.py -v",
+      "pre_execution_read": "Rootf8df0b",
+      "terminal_output": "664bf6",
+      "methods": 2,
+      "unittest_seconds": 0.117,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "rerun": false
+    },
+    {
+      "suite": "quadratic_graph186",
+      "path": "research/weight_four_common_factor_quadratic_controls_pass186.py",
+      "command": "/opt/anaconda3/bin/python research/weight_four_common_factor_quadratic_controls_pass186.py -v",
+      "pre_execution_read": "Rootbee382",
+      "terminal_output": "ae19ec",
+      "methods": 3,
+      "unittest_seconds": 0.126,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "rerun": false
+    }
+  ],
+  "runtime": {
+    "source": "Retained runtime evidence Root49b8b5 from183; no new runtime probe during packet assembly.",
+    "python": "3.13.5 (Anaconda)",
+    "sympy": "1.13.3"
+  },
+  "tagged_equations": 53,
+  "total_new_test_methods": 5,
+  "finite_control_scope": {
+    "constant_projection": "Two methods check the literal determinant including the quartic delta, staged theta/Burgers coefficients, original derivation components, formal commutator, localized kernel identities and the time-leading contradiction. Field transcendence, kernel contraction and Wang's classification remain written arguments.",
+    "quadratic_graph": "Three methods check the unrestricted literal eliminant and cofactor model, the r''' coefficient gate, both actual translation orders and first-potential identities, and independent rho^2 U coefficient extraction. The low-graph leading-factor identity is also controlled without adding a method.",
+    "boundary": "Five finite methods in two once-only runs are not universal proofs of the exact fields, full initial kernel, actual frame existence, every retained dependency or novelty. Source-only reviewers and packet assembly did not execute, import or compile either checker. Root's exploratory read-only symbolic calculation bcd38d is not a suite, method or canonical proof result."
+  },
+  "reviews": {
+    "constant_proof": "General complete authorf10f27 at0c28bf24; Geometry full8a5dd8 and Root full84b12e. Geometry freshly read exact Wang4.1 in4222view1; General4218view0 and Root4221view0 independently checked the primary statement.",
+    "low_graph_proof": "Jet complete author8b900a at09b65d53; Geometry full d2d08e and Root full4b6be9. No pure-eliminant assumption is introduced.",
+    "quadratic_proof": "Root complete author4b6be9 plus polynomial-scope clarification6d806a at final21ab598d; Geometry full925fc1, General full e6c6a3 and Jet full9960d5 independently reconstruct the exact-field comparisons and original translations.",
+    "synthesis": "Root complete db5d61; Geometry full95e28f and General full bf1144 at9689f415. Geometry also freshly read the complete retained zero-rank normal form in be45d5 plus untruncated tails028d77/30dbd1 and the exact BGL3.5 statement and short proof4225view1. Root primary BGL4223view1 and zero-rank read6d806a are separate checks.",
+    "checker_chronology": "General constant checker complete author042e74 and Jet quadratic complete authore350b1 preceded Root's recorded pre-run reads and canonical executions. Geometry complete constantf3fd1b and quadratic76760d, and General quadratic reviewe23031, were subsequent source-only reviews, not pre-canonical evidence or reruns.",
+    "metadata": "Geometry read-only7e0be1 matches all six source hashes, byte/line counts,53 tagged equations and five method declarations. Pending-review status wording in individual notes is historical; completed source reviews are captured here without altering the sources."
+  },
+  "proof_dependencies": {
+    "new": [
+      "research/weight-four-common-factor-constant-projection-exclusion-pass186-working.md",
+      "research/weight-four-common-factor-low-graph-exclusion-pass186-working.md",
+      "research/weight-four-common-factor-quadratic-graph-exclusion-pass186-working.md",
+      "research/weight-four-common-factor-recognition-synthesis-pass186-working.md"
+    ],
+    "retained": [
+      "research/weight-four-universal-chart-potentials-pass184-working.md",
+      "research/weight-four-bad-linear-whole-plane-projection-pass184-working.md",
+      "research/weight-four-bad-linear-selected-component-pass184-working.md",
+      "research/vertex-free-quintic-cone-projection-pass184-working.md",
+      "research/weight-four-zero-bad-rank-normal-forms-pass184-working.md",
+      "research/weight-four-common-factor-high-graph-recognition-pass185-working.md",
+      "research/weight-four-normalized-common-factor-recognition-pass185-working.md",
+      "research/weight-four-frontier-synthesis-pass185-working.md"
+    ],
+    "core_actual_inputs": [
+      "research/two-linear-two-quadratic-initial-bound-pass157-working.md",
+      "research/cusp-generic-chart-first-reductions-pass159-working.md"
+    ],
+    "scope": "The retained184 chart supplies the actual selected derivation, speed localization and exact finite coefficient field;159 is retained only for the general actual projection/field mechanism, not its cusp formulas. The constant-y proof reconstructs its own determinant and original kernel. Whole-plane/unit-cofactor inputs are used only where stated. This packet does not freshly audit every recursive historical dependency and does not import a general156 recognition endpoint."
+  },
+  "external_dependencies": [
+    {
+      "source": "Wang's two-coordinate classification as reproduced in Dasgupta–Gupta, Theorem4.1",
+      "url": "https://arxiv.org/pdf/1701.03635v1",
+      "use": "Only the constant-projection exclusion: nonzero irreducible LND of a polynomial three-ring over C with two coordinate second derivatives zero. The invariant gcd reduction and exact two alternatives are written and independently reconstructed.",
+      "fresh_primary_reads": [
+        "General4218view0",
+        "Root4221view0",
+        "Geometry4222view1"
+      ]
+    },
+    {
+      "source": "Bhatwadekar–Gupta–Lokhande, Theorem3.5",
+      "url": "https://arxiv.org/html/1501.01438v1",
+      "use": "Only the retained original-ring recognition endpoint: nonzero C[I]-linear LND of C[I]^[3] with regular kernel. The global slice supplies regularity; the earlier explicit inverse proves I an actual coordinate.",
+      "fresh_primary_reads": [
+        "Root4223view1",
+        "Geometry4225view1"
+      ]
+    }
+  ],
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Investigate the one-dimensional coefficient-span weight-four forms, retaining their absent-variable and lower selected-derivation-shift distinctions. No187 claim or unfinished proof is included here.",
+  "goal_audit": {
+    "prior_completed_evidence": "The preceding user-status continuation executed the two ready185 suites once and recorded their successful terminal outputs. Root's current independent185 freeze audit6d806a verifies the corrected final predecessor. Neither earlier execution is recounted as a186 method.",
+    "current_continuation": "Three new branch exclusions complete recognition of the supplied common-factor quartic configuration and its independent-coefficient normal-form class. Two new finite suites ran once; source reviews and packet assembly are evidence closure, not additional theorems.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  }
+}

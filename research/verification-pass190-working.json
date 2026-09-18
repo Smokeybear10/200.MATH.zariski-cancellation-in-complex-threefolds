@@ -1,0 +1,196 @@
+{
+  "pass": 190,
+  "status": "restricted_full_absent_variable_quartic_recognition; unrestricted_cancellation_and_entry_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/weight-four-absent-zero-r-coordinate-return-pass190-working.md",
+      "sha256": "4395c4e1a8f4b23257d18bfcb5ff4f2b04540d63f73ccb5fce363a460bf448b3",
+      "bytes": 7186,
+      "lines": 217,
+      "equations": 14,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-absent-zero-r-field-normal-form-pass190-working.md",
+      "sha256": "8516fef5615569bf40cb5dc33fa547314a5a8d24bd980b383bdfe54dc2c49635",
+      "bytes": 10942,
+      "lines": 316,
+      "equations": 22,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-absent-nonzero-r-coordinate-recognition-pass190-working.md",
+      "sha256": "e1df085bc538aa21082a16db357998c4098e404156d77fa3e2a03b294e4e3d3d",
+      "bytes": 15346,
+      "lines": 449,
+      "equations": 26,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-absent-variable-recognition-synthesis-pass190-working.md",
+      "sha256": "05589c446f3eb96574efe075311635516b499d64300f5c8561cd9633b51dde96",
+      "bytes": 8149,
+      "lines": 187,
+      "equations": 6,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight_four_absent_zero_r_controls_pass190.py",
+      "sha256": "f6945c3c38b3fb168f0a25db6ed3a9e3c76258ff4ab08f2d4f45203ac9d55600",
+      "bytes": 8580,
+      "lines": 186,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/weight_four_absent_nonzero_r_controls_pass190.py",
+      "sha256": "39f4d8d525eaa376a204c599813baac4452d07410df3a963b22ea24af898bbd9",
+      "bytes": 10502,
+      "lines": 224,
+      "equations": 0,
+      "test_methods": 3
+    }
+  ],
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass189-working.json",
+    "sha256": "6121855f6591a02abeaae3b8c30c348c6cea8e28e62681ba47c729553b50e8d3",
+    "records": 1172
+  },
+  "results": {
+    "supplied_configuration": "Actual B=C[X,Y,Z,W]=A[u] with E=partial_u, exact E-time degrees(1,1,2,2), and full weighted initial kernel (X^2 Z-Y^4). A single leading relation or a minimum-profile guess does not provide these hypotheses.",
+    "retained_reductions": "The actual184 chart and187–189 reductions exclude constant projected y in both branches, give the exact coefficient fields, retain Ny, and exhaust the alternatives R=k_rho=0 or nonzero. These are retained working proofs, not a claim of a fresh recursive review of every old dependency.",
+    "zero_R_field_gates": "After the constant-slope cover189, scalar coefficients give M1=alpha*t+beta and W0=D*n+g0 with alpha,beta complex, but only D,g0 in K. Actual field return first identifies the full coefficient field in an irreducible linear pencil. Its exact degree and polynomial coefficient span, combined with g2'=-6*t^2*D', force D complex. Explicit subtraction of polynomial primitives gives the displayed normal forms; K is not assumed rational.",
+    "zero_R_original_return": "The independent conditional lemma now has every coefficient gate supplied. The field derivation T=partial_t-X*partial_y-F_U(y)*partial_n fixes the actual X,Y,Z and takes W to g0'. Its n coefficient is the actual polynomial A0=bX^2+beta*X+alpha*Y+D. Subtracting A0*Z+g0 removes n, and transport through y=Y-tX makes all correction coefficients complex. I=W-A0*Z-Q0=g0 is an invariant ambient coordinate with inverse W=I+A0*Z+Q0. The coefficient proof also gives Q0 explicitly.",
+    "nonzero_R_field_gates": "Starting with reciprocal R=1/(alpha*t+beta), an exact coefficient-field element h has h_rho nonzero. The calibrated scalar determinant makes rho affine in h, then gives T''=0 and (5*alpha*t+beta)*T'+alpha*T=0, so alpha=0 and R,T are nonzero complex constants. Actual field return proves L=K(h). A polynomial two-parameter pencil has an exact coefficient pole divisor; its degree-one consequence and g3'=4*beta*t*b' force the remaining slope b complex. No unit-speed, rational-K or cube shortcut is used.",
+    "nonzero_R_original_return": "Complex polynomials B0(X)=b+T*X and lambda0(X)=X/R-c give actual successive shears J=W-lambda0*Z and Istar=Z-B0*J. They satisfy J_h=1 and Istar_h=0, with Istar in K[X,y]. The full X-independent determinant, including the coefficient-change factor -rho_h and Ny, supplies (partial_t-X*partial_y)Istar=g0'. Coefficient transport gives Q0 in C[X,Y], and I=Istar-Q0=g0 is invariant. The inverse is Z=I+Q0+B0*J, W=J+lambda0*Z.",
+    "recognition_endpoint": "Both branches give an actual invariant ambient coordinate I. The nonzero E is C[I]-linear, and its kernel is regular because Eu=1 makes u=0 a smooth hypersurface and A is isomorphic B/(u). Bhatwadekar–Gupta–Lokhande Theorem3.5 gives A=C[I]^[2]. This recognizes the supplied full absent-variable configuration, not arbitrary globally sliced actions.",
+    "remaining_scope": "The one-dimensional split bad-coefficient form XYZ+X^4+Y^4, positive quadratic bad-variable rank, height-two initial kernels, higher possible minimum time profiles and arbitrary entry remain unresolved. The professor has not confirmed the corrected interpretation. No191 example or result is included."
+  },
+  "canonical_executions": [
+    {
+      "suite": "zero_R190",
+      "path": "research/weight_four_absent_zero_r_controls_pass190.py",
+      "pre_execution_read": "Root98eec4",
+      "terminal_output": "cd1b7b",
+      "methods": 3,
+      "unittest_seconds": 0.17,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/weight_four_absent_zero_r_controls_pass190.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "login": false,
+      "initial_yield_time_ms": 1000
+    },
+    {
+      "suite": "nonzero_R190",
+      "path": "research/weight_four_absent_nonzero_r_controls_pass190.py",
+      "command": "/opt/anaconda3/bin/python research/weight_four_absent_nonzero_r_controls_pass190.py",
+      "pre_execution_read": "Root95a8a1",
+      "terminal_output": "0a4944",
+      "methods": 3,
+      "unittest_seconds": 0.202,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "rerun": false,
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "login": false,
+      "initial_yield_time_ms": 1000
+    }
+  ],
+  "runtime": {
+    "source": "Retained Root49b8b5 runtime evidence; no new runtime probe during packet assembly.",
+    "python": "3.13.5 (Anaconda)",
+    "sympy": "1.13.3"
+  },
+  "tagged_equations": 68,
+  "reviews": {
+    "conditional_return": "Geometry complete author30ed98 at4395c4e1; Root fulle1b6d6, Jet complete706f39 and General complete8d4b05 independently reconstruct the actual field derivation, polynomial n coefficient, transport and both inverse orders.",
+    "zero_R_coefficient_proof": "Root completeed0455 at8516fef5; Geometry completef03432 and Jet complete68079e. The exact field intersection, irreducible pencil degree, polynomial coefficient span, complex D gate and explicit all-constant Q0 were independently rebuilt.",
+    "nonzero_R_proof": "General complete authorf9e955 ate1df085b; Root completed54203 and Geometry complete32c5d2+b2468a. The potential coefficients, direct alpha=0 gate, exact L=K(h), maximum coefficient-pole divisor, actual shears and calibrated determinant transport were independently reconstructed.",
+    "synthesis": "Root completec5fccc and Geometry completedc706b at05589c44. The exhaustive branches compose with the retained187–189 exclusions. Original coordinates precede the published endpoint; other configurations and arbitrary entry are explicitly not recognized.",
+    "checker_chronology": "Root's canonical pre-execution reads are listed with each run. Jet's source-only zero-R author readf83fd9 and Geometry fullfd41df/hashf33c03 cover the exact finalf6945c3c source. Independent source review and packet assembly are not additional executions. Jet's final nonzero-R authorb52f63 and Geometry completee45eaa/hash2c2fc4 check final39f4d8d; that source review did not execute or import it.",
+    "retained_review_scope": "Root retained full quartic/synthesis18979aeb9 and the frozen189 packet remain inputs. Geometry reread the entire zero-R187 source480977+bd4c35 and cover189e596b1 for the new return, and the old cusp return173 in0ef6aa only as a template. Its formulas were not imported.",
+    "metadata": "Read-only Geometry2ed614 confirms the six final source hashes, byte/line counts,68 tagged equations and six method declarations. No source changed between independent reads and packet capture."
+  },
+  "proof_dependencies": {
+    "new": [
+      "research/weight-four-absent-zero-r-coordinate-return-pass190-working.md",
+      "research/weight-four-absent-zero-r-field-normal-form-pass190-working.md",
+      "research/weight-four-absent-nonzero-r-coordinate-recognition-pass190-working.md",
+      "research/weight-four-absent-variable-recognition-synthesis-pass190-working.md"
+    ],
+    "retained": [
+      "research/weight-four-universal-chart-potentials-pass184-working.md",
+      "research/weight-four-absent-variable-zero-r-reduction-pass187-working.md",
+      "research/weight-four-absent-variable-nonzero-r-rigidity-pass188-working.md",
+      "research/weight-four-absent-variable-constant-projection-exclusion-pass188-working.md",
+      "research/weight-four-absent-zero-r-cover-collapse-pass189-working.md",
+      "research/weight-four-absent-nonzero-r-quartic-graph-reduction-pass189-working.md",
+      "research/weight-four-absent-variable-frontier-synthesis-pass189-working.md"
+    ],
+    "template_only": [
+      "research/cusp-zero-r-global-coordinate-pass173-working.md",
+      "research/cusp-quartic-actual-field-recognition-pass166-working.md"
+    ],
+    "scope": "Exact actual projection, selected derivation, fields and earlier branch exclusions are retained. The new proofs rederive the needed quartic coefficient identities and original-ring transport. Old cusp sources supply templates only, not copied coefficient identities or assumed recognition of the present chart."
+  },
+  "external_dependencies": [
+    {
+      "source": "Bhatwadekar–Gupta–Lokhande Theorem3.5",
+      "url": "https://arxiv.org/html/1501.01438v1",
+      "fresh_primary_reads": [
+        "Geometry4239view0",
+        "Root4244view1",
+        "Jet4242view0",
+        "General4243view0/1"
+      ],
+      "use": "A nonzero LND of a polynomial four-ring fixes an actual coordinate and has a regular kernel. These exact hypotheses are established separately in both branches; the published theorem gives a polynomial two-ring over that coordinate.",
+      "scope": "The primary statement and its short displayed proof were freshly checked. No recursive reproof of its cited structural inputs is claimed."
+    },
+    {
+      "source": "Stacks Project curve model and degree statements",
+      "urls": [
+        "https://stacks.math.columbia.edu/tag/0BY1",
+        "https://stacks.math.columbia.edu/tag/0AYZ",
+        "https://stacks.math.columbia.edu/tag/02NY"
+      ],
+      "use": "The nonzero-R polynomial-pencil argument uses the smooth projective coefficient curve and identifies the degree of a rational function with its pole divisor degree. The exact no-cancellation and coefficient-span deductions are written in the new proof.",
+      "scope": "Root freshly checked the complete primary curve-model, pullback-degree and field-degree statements for190. Earlier Geometry4234view0/1/2, with mapping checked4237view0/1/2, remain historical evidence and are not presented as new190 visits.",
+      "fresh_primary_reads": [
+        "Root4245view0 (0BY1)",
+        "Root4245view1 (0AYZ)",
+        "Root4245view2 (02NY)"
+      ]
+    }
+  ],
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Test the remaining one-dimensional split bad-coefficient configuration and other unresolved weight-four families under their actual hypotheses; keep arbitrary entry and global minimum claims separate. No191 material is included in this capture.",
+  "goal_audit": {
+    "prior_status_turn": "The preceding status-only turn was not a new mathematical result and is not counted as one.",
+    "current_continuation": "This continuation supplies the remaining coefficient proofs and actual original-ring returns for both absent-variable branches, their restricted recognition synthesis, source reviews and the recorded canonical test evidence. Packet assembly is evidence closure, not an additional theorem.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "total_new_test_methods": 6,
+  "finite_control_scope": {
+    "zero_R190": "Three methods check unrestricted scalar residuals, D' retained before its proof, explicit polynomial normal forms and independent g2'/g1' jets, a proper-degree formal pencil boundary, exact original-chart transport and both shear inverse orders. The field-degree lemma and coefficient descent remain written arguments.",
+    "nonzero_R190": "Three methods check literal potential elimination and h-partial change, every scalar coefficient and direct alpha-zero identity, independent pencil derivative gates, actual shear inverse orders and the calibrated determinant transport. A finite polynomial correction control does not prove universal coefficient descent.",
+    "boundary": "The symbolic coefficient charts are not asserted to be realized actual frames. Only the explicitly displayed polynomial shears have their actual inverse identities checked. Neither finite suite proves exact field return, primitive or curve arguments, the retained184–189 inputs, or the published recognition theorem."
+  }
+}

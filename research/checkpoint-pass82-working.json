@@ -1,0 +1,403 @@
+{
+  "status": "AI-audited working82: full nonreduced speed scheme, exact divisorial acceleration bound, and q^4 in I for original rank-one quadratic sliced actions. General q in I and unrestricted cancellation remain unproved.",
+  "working_question": "Unconfirmed corrected complex-threefold interpretation: A[s] isomorphic to C^[4] implies A isomorphic to C^[3]. The professor has not confirmed the intended correction, field or dimension.",
+  "previous_working_checkpoint": "research/checkpoint-pass81-working.json",
+  "previous_working_checkpoint_sha256": "b0f232e322145ad275bc692a70d9501b11d40746583e2b51f49029f58830a48f",
+  "previous_integrated_checkpoint": "consistency-pass-60.json",
+  "previous_goal_turn_classification": "Progress: the preceding user check-in also completed independent mathematical reviews, clarified ground-field notation, and recorded the ambient lemma's review status.",
+  "current_research_pass_classification": "progress",
+  "synthesis": "research/rank-one-speed-frontier-pass82.md",
+  "proof_audit": "research/proof-audits-pass82-working.md",
+  "verification_record": "research/verification-pass82-working.json",
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "targeted_verification": {
+    "path": "research/verification-pass82-working.json",
+    "sha256": "565930543b8f967bc2fe7f924b731eeaa47b4981cadfca5516b411691d563ada",
+    "suites": 1,
+    "test_methods": 4,
+    "all_passed": true,
+    "started_at_utc": "2026-09-14T09:43:14.203050+00:00",
+    "finished_at_utc": "2026-09-14T09:43:14.705090+00:00",
+    "monotonic_wall_seconds": 0.501625,
+    "unittest_seconds": 0.287,
+    "tracked_inputs": 3,
+    "retained_complete_outputs": 1
+  },
+  "new82_suites": 1,
+  "new82_test_methods": 4,
+  "fresh_full82_regression_performed": false,
+  "central_registry_integrated": false,
+  "historical_claim_count": 544,
+  "completed_deductions": [
+    "Under the original polynomial LND slice and three nice coordinate hypotheses, the full good-speed ideal I is stable under partial_z and extended from the actual good-coordinate subring, without reducedness.",
+    "Writing I=gJ with primitive speed row f gives g in ker(E) intersect C[good], J extended from that same subring, and q in gB with every gcd multiplicity. The exact equivalence is q in I iff sum partial_i(f_i) belongs to J. Principal I therefore gives q in I.",
+    "The original speed quotient has actual presentations B/I=R[z]=R[s], with the same embedded invariant ring R=(ker E)/(a_i). The quadratic change z=c0+c1*s+qbar*s^2/2 has unit c1 and nilpotent qbar, with a finite Catalan inverse.",
+    "For an actual n-variable sliced LND with n-1 nice coordinates and one quadratic coordinate, the original independent-time Jacobian gives (1+td)det(Id+tL)=1 modulo the full speed ideal. Thus q^n belongs to that ideal, and the full velocity Jacobian has characteristic polynomial lambda^n and nth power zero only in the quotient.",
+    "The n=4 bound excludes quotient controls of acceleration nilpotence order at least five as exact speed quotients of the stated ambient action. It does not realize orders two through four or prove sharpness.",
+    "The relative-plane theorem in Berson, van den Essen and Maubach Report9918 cannot be applied here without its zero-relative-divergence premise; in the present quotient that premise is equivalent to the unresolved q membership."
+  ],
+  "bounded_search": {
+    "record": "research/rank-one-speed-search-evidence-pass82.json",
+    "script": "research/rank_one_speed_search_pass82.py",
+    "script_sha256": "73be64fde317324b20b1a0f8d4d5b8d9bad27860c6aa1129aeb0346b690ce948",
+    "batches": 2,
+    "initial_attempts": 3000,
+    "broader_attempts": 1239,
+    "initial_proper_nonprincipal_checks": 140,
+    "initial_distinct_nonprincipal_ideal_representations": 24,
+    "broader_proper_nonprincipal_checks": 11,
+    "broader_distinct_nonprincipal_ideal_representations": 7,
+    "distinct_counts_added_across_batches": false,
+    "counterexample_found": false,
+    "universal_membership_proved": false,
+    "new_unittest_methods": 0,
+    "initial_independently_replayed_by_root": true,
+    "broader_replayed_by_root": false,
+    "classification_correction": "The historical nonprincipal counter was only a gcd screen. Exact primitive-ideal Groebner classification supplied the final confirmed counts.",
+    "time_limit_scope": "Broader 35-second cap checked between attempts; final symbolic operation ended at41.971650 seconds. No strict per-operation timeout or exhaustion."
+  },
+  "superseded_live_obligations": [
+    "Do not treat the full good-speed ideal as only its reduced zero set or its coefficient gcd.",
+    "The principal speed-ideal membership case is now proved; do not list it as an open instance of q in I.",
+    "Do not infer LNDs kill units over nonreduced coefficient rings, or allow arbitrary nilpotence order in an ambient C4 speed quotient.",
+    "Do not use ambient divergence zero as automatic relative divergence zero after quotienting."
+  ],
+  "remaining_mathematical_obligations": [
+    "Prove the full unrestricted corrected complex-threefold cancellation implication. No universal nice-frame construction or arbitrary quadratic-time recognition is established.",
+    "Determine whether q belongs to I in every actual rank-one quadratic sliced action, or construct a genuine counterexample with original polynomial coordinates, LND and global slice.",
+    "Even after resolving membership, supply simultaneous polynomial coordinate reduction or a separate recognition argument; membership alone is not recognition.",
+    "Confirm the professor's intended conclusion, dimension and field; obtain historical novelty assessment and human expert review. No formal verification has been completed."
+  ],
+  "next_bounded_actions": [
+    "Use further original-coordinate or ideal-embedding identities to reduce the nilpotence bound, retaining exact nonreduced structure.",
+    "Investigate genuine simultaneous-coordinate lifts or exclude them through an additional integrability condition, not a formal determinant or abstract quotient alone.",
+    "Maintain the unrestricted goal; candidate lemmas and future pass83 work are not incorporated into this frozen packet before their own proof and source audit."
+  ],
+  "proof_review_kind": "Separate complete written AI reconstructions, full primary report read with bounded applicability audit, four finite exact methods, preserved bounded-search evidence, and read-only integrity checks. Not human expert or formal proof verification.",
+  "rank_one_speed_ideal_extension_proved": true,
+  "rank_one_acceleration_divisorial_membership_proved": true,
+  "rank_one_principal_speed_ideal_membership_proved": true,
+  "rank_one_primitive_divergence_equivalence_proved": true,
+  "rank_one_acceleration_fourth_power_speed_membership_proved": true,
+  "general_dimension_rank_one_acceleration_nth_power_membership_proved": true,
+  "full_velocity_jacobian_nilpotence_modulo_speed_ideal_proved": true,
+  "full_velocity_jacobian_nilpotence_in_original_ring_proved": false,
+  "rank_one_acceleration_speed_membership_proved": false,
+  "rank_one_acceleration_square_speed_membership_proved": false,
+  "fourth_power_bound_sharpness_for_actual_actions_proved": false,
+  "nonzero_quotient_acceleration_ambient_realization_constructed": false,
+  "all_rank_one_acceleration_sliced_actions_recognized": false,
+  "all_quadratic_time_sliced_actions_recognized": false,
+  "arbitrary_nice_action_recognized": true,
+  "arbitrary_nice_action_scope": "Retained frozen80 working proof only: actual complex polynomial four-ring, global slice, E squared zero on every supplied actual coordinate.",
+  "universal_nice_frame_existence_proved": false,
+  "universal_frame_existence_proved": false,
+  "all_profile_height_threshold": 10,
+  "conditional_nonpolynomial_kernel_minimum_height_lower_bound": 11,
+  "general_conjecture_solved": false,
+  "professor_interpretation_confirmed": false,
+  "historical_novelty_verified": false,
+  "human_expert_review_completed": false,
+  "formal_verification_completed": false,
+  "external_contact_made": false,
+  "submission_or_publication_made": false,
+  "predecessor_audit": {
+    "checked_at_utc": "2026-09-14T09:37:33.382Z",
+    "all_passed": true,
+    "prior_hash_records": 393,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "b0f232e322145ad275bc692a70d9501b11d40746583e2b51f49029f58830a48f",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "final_predecessor_audit": {
+    "checked_at_utc": "2026-09-14T09:48:34.320Z",
+    "all_passed": true,
+    "prior_hash_records": 393,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "b0f232e322145ad275bc692a70d9501b11d40746583e2b51f49029f58830a48f",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "primary_source_audit": {
+    "checked_at_utc": "2026-09-14T09:48:34.165Z",
+    "all_passed": true,
+    "files": [
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.pdf",
+        "sha256": "b4df87f9a4042c1110915f50779be26decb6473fc13fccb99038a91bcb9f3a03",
+        "bytes": 2153645
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.txt",
+        "sha256": "31b95df36405d2cf9b50cf24e649bc75a40b490a0f2caebdca0de0416bf85816",
+        "bytes": 862237
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77-source.md",
+        "sha256": "4a8edfdd91fd0ef6441384a92b5aa45b2cc39f19958abcc7fbe363c89f237b83",
+        "bytes": 1170
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.sha256",
+        "sha256": "243073116eef79c9fd0d28c06add2c602bf7aeae3797e10373be8252b35ddd00",
+        "bytes": 214
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.txt",
+        "sha256": "2450cbb34179187172a6c81dfedba9752ecb32b067c5a62ffcb2decab7f236d9",
+        "bytes": 98069
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.pdf",
+        "sha256": "31cec362bd10fbe65e2a4622979fbcf4fbff2bcd585bae9dd3fe78bc330d49cc",
+        "bytes": 387538
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.pdf",
+        "sha256": "c7922ecd2cdeacabf12eee7bd8115920bc0e2f2d4b0c64282a66f8c47fb42e01",
+        "bytes": 177030
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.txt",
+        "sha256": "37430e92c0d66c5b1f33615ea4375b3be8b23503c54a7c6e6daf286d40d01c92",
+        "bytes": 16562
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82-source.md",
+        "sha256": "99865a4259f8ca7455ab163829290c5bb111b1c6153c5a4e7861fd4e78e5a437",
+        "bytes": 1083
+      }
+    ]
+  },
+  "selected_primary_reads": [
+    {
+      "title": "Derivations having divergence zero on R[X,Y]",
+      "authors": "Joost Berson, Arno van den Essen, Stefan Maubach",
+      "version": "University of Nijmegen Report9918, April1999",
+      "url": "https://www.math.ru.nl/~maubach/Papers/DerivHavingDivZero.pdf",
+      "scope": "Root and Jet each read the complete eight-page report; property B(R) and Theorem3.7 used only for a bounded relative-divergence applicability boundary. No later journal-version or full novelty audit."
+    }
+  ],
+  "artifact_integrity": {
+    "checked_at_utc": "2026-09-14T09:48:34.165Z",
+    "all_passed": true,
+    "current_artifacts": 13,
+    "current_numbered_equations": 34,
+    "local_link_paths_checked": 660,
+    "deferred_checkpoint_links": [
+      {
+        "source": "research/rank-one-speed-frontier-pass82.md",
+        "target": "research/checkpoint-pass82-working.json"
+      },
+      {
+        "source": "research/proof-audits-pass82-working.md",
+        "target": "research/checkpoint-pass82-working.json"
+      },
+      {
+        "source": "README.md",
+        "target": "research/checkpoint-pass82-working.json"
+      },
+      {
+        "source": "research-ledger.md",
+        "target": "research/checkpoint-pass82-working.json"
+      }
+    ],
+    "link_anchors_checked": false,
+    "artifacts": [
+      {
+        "path": "research/rank-one-acceleration-divisorial-ideal-pass82.md",
+        "sha256": "5b4946dce1b4ff44c238479229cd9f368f5437fa90ed209b23d0753e7accdbdf",
+        "bytes": 7689,
+        "lines": 187,
+        "numbered_equations": 9
+      },
+      {
+        "path": "research/rank-one-speed-quotient-pass82.md",
+        "sha256": "a55c8ee86ad925ef025c6f8d524d0cd9bbdda05943bc3b5f45facb1ff543e454",
+        "bytes": 7480,
+        "lines": 180,
+        "numbered_equations": 9
+      },
+      {
+        "path": "research/rank-one-ambient-nilpotence-bound-pass82.md",
+        "sha256": "456ca4492d63bc9db396f09aa7cb98aa173f796ddec394716e15d66b25efb383",
+        "bytes": 6303,
+        "lines": 152,
+        "numbered_equations": 9
+      },
+      {
+        "path": "research/nonreduced-divergence-source-boundary-pass82.md",
+        "sha256": "c80fdcd182459ddcabfda60ddbb788ef8e8f45f4f21efec5c8bc431241cb3b31",
+        "bytes": 4044,
+        "lines": 89,
+        "numbered_equations": 3
+      },
+      {
+        "path": "research/rank-one-speed-controls-pass82.md",
+        "sha256": "ae430456bee8583f9f44076908ec72b791d0b9abfb1531df56a2608075b16b6a",
+        "bytes": 5416,
+        "lines": 111,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/rank-one-speed-search-scope-pass82.md",
+        "sha256": "bcd93f3335a2b55e433bc3d453c9ab7f879abbae3b24e41ea098d3f7489b1c41",
+        "bytes": 5259,
+        "lines": 99,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/rank-one-speed-frontier-pass82.md",
+        "sha256": "6a5cc71e69ed72012cedba2d1052da7c57608e37ef631409fb14625b5e5c51c2",
+        "bytes": 7060,
+        "lines": 147,
+        "numbered_equations": 4
+      },
+      {
+        "path": "research/rank_one_speed_checks_pass82.py",
+        "sha256": "4e05c14b45bc1a8bbcba46fdb7df50fed205672858525ad4d63ad9a5aee19a5c",
+        "bytes": 7176,
+        "lines": 137,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/rank_one_speed_search_pass82.py",
+        "sha256": "73be64fde317324b20b1a0f8d4d5b8d9bad27860c6aa1129aeb0346b690ce948",
+        "bytes": 7720,
+        "lines": 164,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/rank-one-speed-search-evidence-pass82.json",
+        "sha256": "ebb03ed027450ec5f3f3f27b0db1f631c43bc963c621223d2ad6e52e9e9c7902",
+        "bytes": 14679,
+        "lines": 299,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/run_targeted_pass82.py",
+        "sha256": "42e3b02803936cd7e92129c9ff71ba1b65ca91b98e7be23ebbc38cc5d706ea78",
+        "bytes": 3552,
+        "lines": 92,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/verification-pass82-working.json",
+        "sha256": "565930543b8f967bc2fe7f924b731eeaa47b4981cadfca5516b411691d563ada",
+        "bytes": 3148,
+        "lines": 54,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/proof-audits-pass82-working.md",
+        "sha256": "08cb05f85ecb7a0e959867ed4da92be68214d3b13c41bd209525aa80ca1dab2e",
+        "bytes": 10025,
+        "lines": 186,
+        "numbered_equations": 0
+      }
+    ],
+    "targeted_suites": 1,
+    "targeted_methods": 4,
+    "new82_suites": 1,
+    "new82_methods": 4,
+    "current_run_sources_checked": 3,
+    "retained_output_hashes_checked": 1,
+    "search_outputs": [
+      {
+        "label": "initial-classified-replay",
+        "sha256": "8856c1d795676e93d8ca66596d21d98bc6995528175be62cec99fc053bbe63b6",
+        "counts": {
+          "attempts": 3000,
+          "accepted": 1670,
+          "rankone": 697,
+          "nonprincipal": 391,
+          "membership": 141,
+          "proper_nonprincipal_membership": 140,
+          "distinct_proper_ideals": 25,
+          "distinct_nonprincipal_ideals": 24
+        }
+      },
+      {
+        "label": "only-broader-batch",
+        "sha256": "59a777b07e4792bd111804758931260db4e6c536384a5d53abeba7c8bb1aa658",
+        "counts": {
+          "attempts": 1239,
+          "accepted": 687,
+          "rankone": 244,
+          "nonprincipal": 43,
+          "membership": 16,
+          "proper_nonprincipal_membership": 11,
+          "distinct_proper_ideals": 10,
+          "distinct_nonprincipal_ideals": 7
+        }
+      }
+    ],
+    "primary_source_files_checked": 9,
+    "primary_source_files": [
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.pdf",
+        "sha256": "b4df87f9a4042c1110915f50779be26decb6473fc13fccb99038a91bcb9f3a03",
+        "bytes": 2153645
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.txt",
+        "sha256": "31b95df36405d2cf9b50cf24e649bc75a40b490a0f2caebdca0de0416bf85816",
+        "bytes": 862237
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77-source.md",
+        "sha256": "4a8edfdd91fd0ef6441384a92b5aa45b2cc39f19958abcc7fbe363c89f237b83",
+        "bytes": 1170
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.sha256",
+        "sha256": "243073116eef79c9fd0d28c06add2c602bf7aeae3797e10373be8252b35ddd00",
+        "bytes": 214
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.txt",
+        "sha256": "2450cbb34179187172a6c81dfedba9752ecb32b067c5a62ffcb2decab7f236d9",
+        "bytes": 98069
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.pdf",
+        "sha256": "31cec362bd10fbe65e2a4622979fbcf4fbff2bcd585bae9dd3fe78bc330d49cc",
+        "bytes": 387538
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.pdf",
+        "sha256": "c7922ecd2cdeacabf12eee7bd8115920bc0e2f2d4b0c64282a66f8c47fb42e01",
+        "bytes": 177030
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.txt",
+        "sha256": "37430e92c0d66c5b1f33615ea4375b3be8b23503c54a7c6e6daf286d40d01c92",
+        "bytes": 16562
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82-source.md",
+        "sha256": "99865a4259f8ca7455ab163829290c5bb111b1c6153c5a4e7861fd4e78e5a437",
+        "bytes": 1083
+      }
+    ],
+    "central_claim_count": 544,
+    "mathematical_suites_executed": 0,
+    "scope": "Read-only file hashes, equation numbering, local paths, whitespace and saved run accounting; not proof verification.",
+    "prior_hash_records": 393,
+    "total_hash_records": 406,
+    "records_including_this_checkpoint_when_frozen": 407
+  },
+  "scope": "Private research checkpoint for pass82 only. Original unrestricted cancellation objective remains active. File/test/search counts are verification provenance, not mathematical novelty or general proof. README/ledger are mutable indexes; through81 files are retained."
+}

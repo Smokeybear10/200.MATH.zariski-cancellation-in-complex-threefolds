@@ -1,0 +1,215 @@
+{
+  "pass": 185,
+  "status": "restricted_weight_four_exclusions_and_high_graph_recognition; unrestricted_cancellation_and_entry_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "bundle_passes": [
+    184,
+    185
+  ],
+  "artifacts": [
+    {
+      "path": "research/weight-four-positive-bad-rank-normal-forms-pass184-working.md",
+      "sha256": "1fa36f2fb2aca9d44d351e5261190e1d45a429b908db249071da37342897b7f2",
+      "bytes": 13614,
+      "lines": 324,
+      "equations": 15,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-zero-bad-rank-normal-forms-pass184-working.md",
+      "sha256": "5a2ccd849050e345f65e196ff1b4f179c973cb999c32e9e3cc51ac57b6d6b417",
+      "bytes": 10811,
+      "lines": 266,
+      "equations": 12,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-squarefree-double-cover-exclusion-pass184-working.md",
+      "sha256": "56b64f79acaa4a78f9a79e4cb1fabf44eb92d9b69fcf8518b254efdc9ddd9745",
+      "bytes": 8956,
+      "lines": 224,
+      "equations": 9,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-universal-chart-potentials-pass184-working.md",
+      "sha256": "3b490a19f5b87db5b15f074d58d589f62921dbc96c94080d3c468937de20cf6f",
+      "bytes": 12621,
+      "lines": 373,
+      "equations": 28,
+      "test_methods": 0
+    },
+    {
+      "path": "research/vertex-free-quintic-cone-projection-pass184-working.md",
+      "sha256": "8df715f6504ee948580d86d7fa04c688e95094a5d6cb555aeb61ca626eef37b3",
+      "bytes": 7502,
+      "lines": 199,
+      "equations": 11,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-bad-linear-whole-plane-projection-pass184-working.md",
+      "sha256": "f838b89bbbfb56d46a6fece60408cedf2c49071f8b0a9bc38b158931e48bed5d",
+      "bytes": 11038,
+      "lines": 312,
+      "equations": 22,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-bad-linear-selected-component-pass184-working.md",
+      "sha256": "b13999b37943fbbe19f61a7e46f85b8cae73fabdcfcaa0c8b022835f7284e80b",
+      "bytes": 9306,
+      "lines": 251,
+      "equations": 15,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-normalized-common-factor-recognition-pass185-working.md",
+      "sha256": "c4a9530645eea144231aa45ce1767389c035ed9a35dff66137c36bb6b56f5fef",
+      "bytes": 11868,
+      "lines": 335,
+      "equations": 18,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-common-factor-high-graph-recognition-pass185-working.md",
+      "sha256": "4d9cce62ae37d2b33ff55f43ad6cc5493f5959a20ace869f5b816de044ce9f97",
+      "bytes": 10174,
+      "lines": 300,
+      "equations": 22,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-coprime-constant-projection-exclusion-pass185-working.md",
+      "sha256": "ede4b5e2c88d7306413fae14ed9826868c533531010e23d501934ac9b74f805b",
+      "bytes": 7225,
+      "lines": 228,
+      "equations": 17,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-coprime-graph-degree-obstruction-pass185-working.md",
+      "sha256": "109bac113feb911cc5ec1bd455ecd1cf7fbf7db3a7f108889a5aafd250532649",
+      "bytes": 9901,
+      "lines": 264,
+      "equations": 13,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-frontier-synthesis-pass185-working.md",
+      "sha256": "1a051d82a4dddbb9f040a43364c0ba4365f40fc95ad266c7f3602efc28e9e608",
+      "bytes": 7897,
+      "lines": 155,
+      "equations": 4,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight_four_chart_controls_pass184.py",
+      "sha256": "f23c32aaab68cbc1df2e981ef6e48e7cb98cd89ebfd7b442cd2ae3ee96d9efa8",
+      "bytes": 10420,
+      "lines": 192,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/weight_four_coprime_exclusion_controls_pass185.py",
+      "sha256": "9efa7328a6af2bc6c0b9a960b809b2ca850329fd231fb365f0c136f85ef33861",
+      "bytes": 11591,
+      "lines": 241,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/weight_four_common_factor_controls_pass185.py",
+      "sha256": "f2a2e0e0472fdb4ac857b1e4989c8316f8752368f9c547f8a340da6415b4d1de",
+      "bytes": 6811,
+      "lines": 134,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/verification-pass185-working.json",
+      "sha256": "eca1a03445fb87be2ec5156791b32647786a5308a3cac9a14a6ffafea6c08927",
+      "bytes": 18298,
+      "lines": 270,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass183-working.json",
+    "sha256": "21875c81b8bbb7ff2333c6d13e5e180937af013ad43c8dbef9cd2b28b8bc408c",
+    "records": 1132
+  },
+  "results": {
+    "supplied_configuration": "Supplied globally sliced polynomial four-ring B=C[X,Y,Z,W]=A[u], exact E-time degrees(1,1,2,2), and a full principal weight-four initial kernel. One vanishing leading equation or a height-two initial kernel does not suffice. No minimum-degree or arbitrary-entry assumption is inferred.",
+    "full_coprime_exclusion": "For F_a, every affine-y graph degree is excluded. Quadratic graphs force the irrational Euler exponent 3/2±sqrt2 for an algebraic coefficient, contradicted by a proved minimal-polynomial lemma. Constant y is independently excluded by the actual theta-parameter determinant and the impossible leading coefficient -3/(8t^3) in a polynomial in transcendental R. The alternatives are exhaustive, so the full initial form and its actual homogeneous coprime coefficient-pair orbit cannot occur.",
+    "common_factor_high_graph": "For F_b, under affine y and graph degree at least three, the quintic and evaluated unit cofactor force pure graph degree five. Literal coefficients give actual complex translations with k_rho=0,n=d*rho+n0,d in C*,ell in K. The fixed-y determinant keeps Ny and forces m_rho=0 and exact complex-polynomial coefficients. The explicit I=dW-F_b+K3+N2-ell1Y-ell0X equals m and has a polynomial companion with constant determinant -d^2 and both inverse orders.",
+    "squarefree_absent_W": "For the absent-W form Z^2+H4(X,Y) with H4 squarefree, actual rational ratios restrict to a complex affine line with nonconstant t and q^2=-H4(1,t). The nonzero differential dt/q would have no pole on P1, an elementary contradiction. Repeated nonsquare root types remain; normality returns a coefficient square root but not an ambient coordinate. This exclusion does not apply to ZW+H4.",
+    "normal_forms_and_exact_plane": "Actual homogeneous normal-form changes preserve exact1122 under the full weight-four kernel. The general coefficient chart permits algebraic q and retains its w² term. For the two independent bad-linear forms, whole-plane completion and a unit evaluated cofactor leave only constant or affine y, without unproved original-ring descent.",
+    "actual_endpoint": "The invariant coordinate is in the original ring. Eu=1 makes A=B/(u) regular. The nonzero C[I]-linear LND then satisfies Bhatwadekar–Gupta–Lokhande Theorem3.5, giving A=C[I]^[2]. The separately stated normalized lemma retains all its normalization hypotheses; the high-graph note proves those hypotheses only in its stated branch.",
+    "remaining_scope": "F_b constant-y and affine graphs of degree at most two remain open in this packet, as do other quartic families, height-two initial kernels, higher possible minimum E-time profiles and arbitrary entry. Unrestricted complex-threefold cancellation remains unsolved. The corrected interpretation of the professor's email is unconfirmed. No novelty, expert or formal certification is asserted."
+  },
+  "chain_record_count_after_including_this_checkpoint": 1149,
+  "record_count_convention": "1132 frozen predecessor records plus twelve proof/synthesis sources, three checker sources, verification185 and this checkpoint. Grouped184–185 add seventeen records, not separate packets. README and ledger are not records; earlier runs are not recounted.",
+  "verification": {
+    "capture": "research/verification-pass185-working.json",
+    "canonical_runs": [
+      {
+        "suite": "chart184",
+        "terminal_output": "a6929a",
+        "methods": 3,
+        "unittest_seconds": 0.233,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "rerun": false
+      },
+      {
+        "suite": "coprime185",
+        "terminal_output": "9a65e8",
+        "methods": 3,
+        "unittest_seconds": 0.124,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "rerun": false
+      },
+      {
+        "suite": "common_factor185",
+        "terminal_output": "d60efb",
+        "methods": 3,
+        "unittest_seconds": 0.1,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "rerun": false
+      }
+    ],
+    "new_suites": 3,
+    "new_methods": 9,
+    "tagged_equations": 186,
+    "scope": "Written universal arguments have separate saved-source AI reviews. The three finite suites check exact identities and inverse formulas only. Independent source-only reviews and packet assembly added no checker execution, import or compilation."
+  },
+  "goal_audit": {
+    "prior_completed_evidence": "The preceding status/goal continuation included completed independent verification and freeze of183, ending at1132 records. That audit is real prior progress but is neither a new184 theorem nor an additional test run here.",
+    "current_continuation": "New184–185 proofs classify the weight-four frontier, exclude the full coprime quadratic-pair configuration and the squarefree absent-W double cover, and recognize the common-factor high-graph branch. Three distinct finite-control suites are captured once. Packet assembly and source reviews are not additional mathematical results.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Investigate the remaining common-factor quartic branches X^2Z+XYW-Y^4, beginning with constant y and a quadratic graph. Preserve exact coefficient fields, full initial-kernel and actual inverse hypotheses. Other quartic families, height-two kernels and unrestricted entry remain separate unresolved work."
+}

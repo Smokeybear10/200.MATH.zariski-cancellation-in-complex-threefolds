@@ -1,0 +1,76 @@
+{
+  "pass": 166,
+  "status": "working_actual_quartic_graph_recognition_via_exact_field_return; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/cusp-quartic-actual-field-recognition-pass166-working.md",
+      "sha256": "ddda84f898048b9c954fecfb58620054c064aedff175f4a06d589bde2977612c",
+      "bytes": 12455,
+      "lines": 318,
+      "equations": 15,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp_quartic_field_return_controls_pass166.py",
+      "sha256": "59dc4b2b331a440df1773c82e9bab30313982c6d6734f6fe284d0a524807b95e",
+      "bytes": 7763,
+      "lines": 167,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/verification-pass166-working.json",
+      "sha256": "6ab29884d95a5028f528c4c3b2a80f5f7de6b0e4ad585a617af0908be40ae6be",
+      "bytes": 6946,
+      "lines": 81,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass165-working.json",
+    "sha256": "419b0fa8f5a832c332691d3b564aefb70a355e0c213f372fa2f2bcda9ce78655",
+    "records": 1062
+  },
+  "results": {
+    "actual_hypotheses": "All retained159 cusp hypotheses and163 quartic graph hypotheses are retained: an actual sliced polynomial four-frame, exact E-time(1,1,2,2), full weighted initial ideal(XZ-Y^3), whole generic line, and projected y affine with theta of degree4. Normalization165 uses actual weighted polynomial inverses.",
+    "exact_field": "The164 result gives L=K(rho), with K finite over C(t), and the actual inverse gives Frac(A)=C(y,z,w)=K(rho)(y). The proof never assumes K=C(t), that a=EX is a unit, or that a generic coefficient-dependent shear is integral.",
+    "line_family": "Before assuming any degree bound on k0, the lower equations give h=delta', p2/t=-6delta^2-3t+Lambda, and z=Z0+hq, w=yZ0+V0+(yh-1)q, q=rho/t. The exact line equation G=(1-yh)z+hw has cubic y coefficient4(delta-t*h).",
+    "pencil_lemma": "If M=k(f,g), f transcendental, and W=fZ+g for Z transcendental over M, the irreducible full plane relation R(f,g)=0 gives [M(Z):k(Z,W)]=total_degree(R). A polynomial variable change T->W-ZS preserves irreducibility; the leading coefficient R_d(1,-Z) and Gauss's lemma give the exact degree. This is a written algebraic proof, not inferred from a finite example.",
+    "coefficient_forcing": "Assuming h nonconstant, actual field equality first forces K(y)=C(y)(f,g) for f=y-1/h and g=G/h. The pencil lemma forces a linear relation, so every coefficient of G is in the complex span of1,h. Its cubic coefficient gives delta-t*h=alpha+beta*h, whence h'=0, a contradiction. Exact Euler integration then yields k0=-h*t^3-4j*t^2+b*t+c+q/t with complex constants.",
+    "recognition": "The forced degree-four criterion permits the explicit165 invariant coordinate I in S and its two-sided polynomial inverse. The separately cited Bhatwadekar-Gupta-Lokhande regular-kernel theorem gives A=C[I]^[2]. This is a working recognition result for the stated actual quartic graph subcase only.",
+    "formal_boundary": "A separate generic example satisfies all lower equations with delta=t^2 and h=2t but has exact projected field index8. Its P8 numerator has leading coefficient-y^4 and constant1/224. It fails actual field return and is not an actual frame or a cancellation counterexample.",
+    "scope": "No lower graph-degree branch, other weighted initial profile, arbitrary coordinate-entry theorem or full cancellation solution is claimed. Independent AI reviews and finite checks are not expert review, formal certification or novelty clearance."
+  },
+  "chain_record_count_after_including_this_checkpoint": 1066,
+  "record_count_convention": "1062 prior records plus1 proof note,1 checker, verification166 and this checkpoint. README and ledger index entries are not records. Counts do not measure significance; all167 and later artifacts are excluded.",
+  "verification": {
+    "capture": "research/verification-pass166-working.json",
+    "canonical_terminal": "59470e",
+    "methods": 3,
+    "seconds": 0.174,
+    "exit_code": 0,
+    "pending_execution_handle": false,
+    "terminal_in_initial_response": true,
+    "rerun": false
+  },
+  "goal_audit": {
+    "previous_goal_turn": "Progress, not a status-only turn: completed the actual field-return proof166, received full saved-source AI reviews, and canonical59470e passed3methods0.174s exit0 in its initial terminal response.",
+    "current_continuation": "Administrative closure of completed165/166 evidence. The two distinct canonical suites contain6 methods total, all terminal, and this packet records the quartic subcase proof and exact index-eight failure of formal-only data. Packaging is not an additional theorem or a new test execution.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Investigate remaining lower-degree graph branches in the actual cusp chart, with exact coefficient fields and actual field return retained. Other initial configurations and unrestricted coordinate entry remain separate open obligations. All167 and later work is excluded from this packet."
+}

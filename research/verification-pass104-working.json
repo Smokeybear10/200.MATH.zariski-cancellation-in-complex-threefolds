@@ -1,0 +1,44 @@
+{
+  "started_at_utc": "2026-09-14T19:49:19.490Z",
+  "finished_at_utc": "2026-09-14T19:49:20.973Z",
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.quadratic_catalan_checks_pass104",
+    "research.adic_transverse_surface_checks_pass104",
+    "research.quadratic_degree_module_checks_pass102",
+    "research.projected_derivation_thickening_checks_pass103"
+  ],
+  "exit_code": 0,
+  "suites": 4,
+  "test_methods": 6,
+  "wall_seconds": 1.476856417,
+  "unittest_seconds": 1.056,
+  "input_files": [
+    {
+      "path": "research/quadratic_catalan_checks_pass104.py",
+      "sha256": "08cdaef3d2cfa2413ba45c395739595ac62a75a2b7c27abfee22c7bddf078e3b"
+    },
+    {
+      "path": "research/adic_transverse_surface_checks_pass104.py",
+      "sha256": "01d7a60ee9c8709f3e7c83c301449722a2a762de784e47dcf0a46a73c064fe74"
+    },
+    {
+      "path": "research/quadratic_degree_module_checks_pass102.py",
+      "sha256": "dd701dc05fe10c4ce5189ab848bfde4f0ea7bb724f27d4317b69f38c91613362"
+    },
+    {
+      "path": "research/projected_derivation_thickening_checks_pass103.py",
+      "sha256": "54109f05d3c93bbb765d36fd7b31c33cc29c3de8cf25488fa762adc5f058361c"
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "stdout": "",
+  "stderr": "test_finite_catalan_recovery_and_residues (research.quadratic_catalan_checks_pass104.CatalanHiddenParameterChecks.test_finite_catalan_recovery_and_residues) ... ok\ntest_finite_lengths_bases_and_corrected_base (research.adic_transverse_surface_checks_pass104.AdicTransverseSurfaceChecks.test_finite_lengths_bases_and_corrected_base) ... ok\ntest_mixed_ramification_truncation (research.adic_transverse_surface_checks_pass104.AdicTransverseSurfaceChecks.test_mixed_ramification_truncation) ... ok\ntest_conic_first_coefficients_and_weight_comparison (research.quadratic_degree_module_checks_pass102.QuadraticDegreeModuleChecks.test_conic_first_coefficients_and_weight_comparison) ... ok\ntest_abstract_finite_thickenings_without_global_nilpotence (research.projected_derivation_thickening_checks_pass103.ProjectedDerivationThickeningChecks.test_abstract_finite_thickenings_without_global_nilpotence) ... ok\ntest_actual_three_good_frame_with_non_lnd_zeroth_coefficient (research.projected_derivation_thickening_checks_pass103.ProjectedDerivationThickeningChecks.test_actual_three_good_frame_with_non_lnd_zeroth_coefficient) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 1.056s\n\nOK\n",
+  "output_hash_convention": "stdout + one newline + stderr",
+  "complete_output_sha256": "93f671d172c90818aea0c93f8b05fb78465a6d3541c8ced9c96988be32e0b9b5",
+  "all_passed": true,
+  "scope": "Three new finite symbolic methods in two suites (Catalan family m=1..5; transverse basis/length/base embedding k=1..6 and ramification truncations), plus three retained methods in two dependency suites from102/103. Not verification of universal actual-fiber, completion, section-obstruction, or cancellation arguments."
+}

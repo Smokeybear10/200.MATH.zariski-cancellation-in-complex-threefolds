@@ -1,0 +1,118 @@
+{
+  "pass": 141,
+  "status": "fixed_good_minimum_and_formal_component_persistence; unrestricted_cancellation_unsolved",
+  "environment": {
+    "python": "3.13.5",
+    "sympy": "1.13.3",
+    "read_evidence": "ab965b"
+  },
+  "executions": [
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.dense_shear_tail_controls_pass141 -v",
+      "source_read": "3ed11c",
+      "initial_output": "9249f7",
+      "session_id": 73154,
+      "completion_output": "191007",
+      "state": "completed",
+      "exit_code": 0,
+      "methods": 3,
+      "reported_seconds": 6.154
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.formal_inverse_branch_controls_pass141 -v",
+      "source_read": "981030",
+      "hash_and_output": "00fe28",
+      "state": "completed_in_initial_call",
+      "exit_code": 0,
+      "methods": 3,
+      "reported_seconds": 0.462
+    }
+  ],
+  "old_suites_rerun": false,
+  "test_scope": [
+    "Actual shear controls independently recover descending peeling coefficients, then compare all recovered coefficient changes with a symbolic nine-monomial good shear through degree four and recompute both signed tails.",
+    "Actual sample families: sharp divided differences of degrees 3 and 4; proper coefficient-field covers with n=2,3; a nonlinear one-slot positive control. Staged base and elementary-shear inverses are checked in both orders.",
+    "Formal samples F=t^2/2, t^3+t+2, t^4+t^2+3t-1 check polynomial divided differences, rational T, relative Jacobian one versus original nonunit F'(k), both tails, residual factors, finite squarefreeness, algebraic branch residuals and Taylor-root identities through order three.",
+    "The all-shear minimum, all-degree field extensions, component-persistence lemma and recognition criterion are written mathematical arguments. These finite tests do not formally verify their universal statements."
+  ],
+  "proof_reviews": {
+    "root": [
+      "330fae: full shear-minimum note; previous full read544a62 also retained.",
+      "3ed11c plus eeca6e: full formal inverse-branch note, including final Sources and footnotes.",
+      "3ed11c: full dense-shear checker before execution.",
+      "981030: full formal inverse-branch checker before execution, final SHA matched in00fe28.",
+      "0cfb64: full saved linear-tail recognition note.",
+      "d82e71: full eight-equation component-persistence note."
+    ],
+    "general": [
+      "Author of shear-minimum proof, full EOFb272f9 plus4dc810.",
+      "5b57bb: full formal inverse-branch proof; b51f80: full dense-shear checker.",
+      "2192fd: author full component-persistence proof, hash6bb373.",
+      "de289f: full formal inverse-branch checker."
+    ],
+    "geometry": [
+      "b55c95 and241c06: full shear-minimum proof and hash.",
+      "a2b796 plus spacing-only aa49e8: author formal inverse-branch proof, hash555fa7.",
+      "93a982 andfbc7cb: fresh hostile review of complete139 chart and tail; no gap at finite-field, Taylor-annihilation, coefficient-isolation or nonzero-tail transitions.",
+      "6bf7e1: full linear-tail recognition proof; fresh primary Corollary3.8 scope reads turn4042view0 andturn4043view0."
+    ],
+    "jet": [
+      "99fc16: full shear-minimum proof.",
+      "2ac660: author dense-shear checker.",
+      "823d63 and38d092: full formal inverse-branch proof.",
+      "3cfaff: author full formal inverse-branch checker, hash5701ed.",
+      "9fb4b4: full linear-tail recognition proof and retained primary Corollary3.8 statement db5640.",
+      "48e4ec: full component-persistence proof, hash1bb382."
+    ]
+  },
+  "evidence_changes_next_action": [
+    "Every fixed-good polynomial bad shear preserves both formal tails exactly; the minimal last-coordinate time degree is deg(Phi)-1 with an explicit polynomial minimizing shear.",
+    "The actual linear-tail regime supplies a genuine invariant coordinate and matches all hypotheses of the published nice-derivation recognition theorem. This is a sufficient criterion, not a claim that all tails can be made linear.",
+    "A uniform formal noninvertible family has first-tail degree and exact inverse-field degree n for every n>=2. Its relative Jacobian one does not repair its nonunit original Jacobian or failed polynomial return.",
+    "For any first-tail component on which Psi is transcendental over L, all later formal Taylor/cofactor recurrences persist automatically. Such a component is simple, but need not have a polynomial curve ring or the original inverse-field structure.",
+    "Thus searching for an additional formal recurrence alone cannot exclude a Psi-transcendental extra component. The next bridge must use actual source coefficient-field compatibility, polynomial return or inverse-field generation."
+  ],
+  "literature_scope": {
+    "searches": [
+      "turn4037: quasi-translations, nice derivations and line congruences",
+      "turn4038: exact nice-derivation primary source and author publication listing"
+    ],
+    "primary_statement": {
+      "authors": "Nikhilesh Dasgupta and Neena Gupta",
+      "title": "Nice derivations over principal ideal domains",
+      "url": "https://arxiv.org/pdf/1701.03635v1",
+      "statement": "Corollary 3.8, printed page 8",
+      "root_reads": [
+        "turn4039view0",
+        "turn4040view0",
+        "turn4041view0"
+      ],
+      "used_for": "Recognition only after the explicit bad shear supplies an invariant coordinate; Eu=1 supplies irreducibility and E^2 kills the three unchanged coordinates."
+    },
+    "limitations": "Targeted statement audit, not comprehensive novelty clearance. The external classification theorem is cited, not reproved. Unverified claimed-breakthrough GitHub results and nonprimary snippets are not proof inputs."
+  },
+  "goal_audit": {
+    "previous_goal_turn": "No-progress user status check with read-only validation and a status answer.",
+    "current_goal_turn": "Progress: six finite exact methods executed successfully; written shear minimum, linear-tail recognition, uniform formal inverse-branch family and component-persistence arguments completed and reviewed.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "remaining_obligations": [
+    "Actual first-tail primitivity or an actual inverse-verified counterexample.",
+    "Polynomial/global descent in the remaining dense supplied-profile cases.",
+    "Arbitrary three-good coordinate entry and full corrected cancellation.",
+    "Professor-intent confirmation, expert review, proof-assistant verification and novelty determination."
+  ],
+  "boundaries": {
+    "human_review": false,
+    "proof_assistant_verification": false,
+    "novelty_determination": false,
+    "public_posting": false,
+    "external_contact": false,
+    "submission": false,
+    "paid_sources": false,
+    "new_automation": false,
+    "earlier_frozen_files_edited": false
+  }
+}

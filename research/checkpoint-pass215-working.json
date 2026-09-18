@@ -1,0 +1,123 @@
+{
+  "pass": 215,
+  "status": "rank_two_quadratic_center_excluded; remaining_linear_center_actual_affine_reduction_with_auxiliary_degrees0211; original_recognition_open",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass214-working.json",
+    "sha256": "cd5f6325583004ff936918448980752b730a1858451ca3745977dd282f1ba610",
+    "records": 1320
+  },
+  "results": {
+    "quadratic_center_affine_second": "The inherited R^2 cofactor support bound is incompatible with the leading V-eighth and V-sixth coefficients for y quadratic in affine theta. This excludes the quadratic-center pair(2,1), without requiring squarefreeness for that argument.",
+    "quadratic_center_cubic_quadratic": "The exact cubic/quadratic plane conductor makes R a scalar multiple of x^2+c1. Its monic relation has center fiber(U-yc)^2. A distinct second center root makes the evaluated cofactor coprime to R, hence constant by actual support. The resulting identity H=A0*G^2+beta*G forces the two center roots to coincide. Thus the squarefree quadratic-center pair(3,2) is excluded, and together with214 no quadratic squarefree center survives.",
+    "linear_center_affine_reduction": "The remaining pair(2,1) has exactly q1=eta*R by the fixed-parameter local determinant. Full high coefficients and the scalar identity give Tstar=c/rho^2 and exact complex-constant integrations for K and k_t. Actual lower-time shears preserve the profile, full initial kernel and selected partial, and make both z and w affine in theta while y remains quadratic. The actual auxiliary commuting polynomial LND has exact coordinate degrees(0,2,1,1).",
+    "remaining_scope": "This is not original-ring recognition. It supplies no auxiliary slice, invariant ambient coordinate or speed-unit conclusion. Coefficient-field factors are not assumed regular; P^2Y and E(PW) are nonzero, so the direct nice/invariant-coefficient endpoints do not apply. The global goal and arbitrary entry remain unresolved. Separate216 work is excluded."
+  },
+  "goal_audit": {
+    "current_progress": "Three proof notes and one four-method finite suite are packaged with complete saved-source reads and one passing canonical execution. The remaining actual rank-two frontier is reduced to an affine original chart but its recognition endpoint is still open at this stage.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "actual_full_rank_two_frame_hypotheses_required": true,
+    "quadratic_center_affine_second_excluded": true,
+    "squarefree_quadratic_center_cubic_quadratic_excluded": true,
+    "all_quadratic_squarefree_center_pairs_excluded_with_retained214": true,
+    "remaining_linear_center_cofactor_order_exactly_one": true,
+    "actual_constant_coefficient_shears_verified": true,
+    "selected_partial_and_full_initial_kernel_preserved": true,
+    "auxiliary_coordinate_degrees_0211": true,
+    "auxiliary_nice_on_all_four_coordinates": false,
+    "auxiliary_slice_proved": false,
+    "coefficient_field_factors_assumed_regular": false,
+    "remaining_linear_center_recognized": false,
+    "speed_unit_proved": false,
+    "coefficient_field_rationality_claim": false,
+    "arbitrary_entry_proved": false,
+    "global_minimum_profile_claim": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/rank-two-quadratic-center-affine-second-exclusion-pass215-working.md",
+      "sha256": "aadb79eab030cce6939db984d2dbe93268616080a6ebfcc5c5af959382d28d7e",
+      "bytes": 4199,
+      "lines": 108,
+      "equations": 6,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank-two-quadratic-center-cubic-quadratic-exclusion-pass215-working.md",
+      "sha256": "f74c01f687ac5faf10e6b271457de118d5794ac303cd22794b72250af8e24efc",
+      "bytes": 7711,
+      "lines": 207,
+      "equations": 12,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank-two-linear-center-affine-reduction-pass215-working.md",
+      "sha256": "87fb3bdc1f002f2e6864bee9448680b70e77f4fbf4ab0fb852c98a79ade064ff",
+      "bytes": 11403,
+      "lines": 316,
+      "equations": 19,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank_two_low_degree_controls_pass215.py",
+      "sha256": "4e8672e2435a533e313101e1ef432b20cc7074a31fe24a2304e64809311e496a",
+      "bytes": 7675,
+      "lines": 149,
+      "equations": 0,
+      "test_methods": 4
+    },
+    {
+      "path": "research/verification-pass215-working.json",
+      "sha256": "29f62cadd0a85a3340b89b18c98065a86938e3d972edb4ce71be209b6ba0df80",
+      "bytes": 10410,
+      "lines": 127,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "chain_record_count_after_including_this_checkpoint": 1326,
+  "record_count_convention": "1320 frozen predecessor records plus three proof notes, one checker source, verification215 and this checkpoint: six new records. Mutable indices are not records. No216 source, unsaved exploration, retained input or earlier canonical execution is counted.",
+  "verification": {
+    "capture": "research/verification-pass215-working.json",
+    "canonical_runs": [
+      {
+        "suite": "rank_two_low_degree_controls215",
+        "path": "research/rank_two_low_degree_controls_pass215.py",
+        "pre_execution_read": "Root complete author EOFb847e2/hash397c86; Jet complete peer EOF94960f/hashf607b4. Source held unchanged before the sole canonical execution.",
+        "initial_output": "4952d5",
+        "session_id": null,
+        "terminal_output": "4952d5",
+        "methods": 4,
+        "unittest_seconds": 0.172,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "completion_via_original_handle": false,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/rank_two_low_degree_controls_pass215.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "login": false,
+        "initial_yield_time_ms": 1000,
+        "initial_max_output_tokens": 6000
+      }
+    ],
+    "new_suites": 1,
+    "new_methods": 4,
+    "tagged_equations": 37,
+    "scope": "Finite leading coefficients, cubic/quadratic conductor and center-fiber identities, local-order implications, graph coefficients, scalar Euler arithmetic, actual shear inverse orders and selected-partial columns, and auxiliary derivative identities. These controls do not prove universal field return, cofactor support, conductor geometry, finite-field constants, LND properties or original-ring recognition. Root author and Jet peer complete reads preceded the sole initially-terminal canonical run."
+  },
+  "next_bounded_task": "Analyze the remaining normalized actual linear-center chart and auxiliary degree pattern(0,2,1,1), retaining its original-ring regularity boundaries. Do not infer recognition from this reduction, and do not rerun215. Separate216 work is not incorporated."
+}

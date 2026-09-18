@@ -1,0 +1,129 @@
+{
+  "pass": 144,
+  "status": "trace_rigidity_without_equal_constants; exact_compatible_factors; unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass143-working.json",
+    "sha256": "4a17da8f2dafb25142545bce4248db6911564dbab7e4952f646fb01a7c147d32",
+    "records": 944
+  },
+  "chain_record_count_after_including_this_checkpoint": 952,
+  "record_count_convention": "944 prior records plus four mathematical notes,two checkers,verification144 and this checkpoint. Live indexes excluded.",
+  "artifacts": [
+    {
+      "path": "research/dense-base-compatible-trace-rigidity-pass144-working.md",
+      "sha256": "8bed6eeb542794cab31e6dc49c699dceca6c2b0446f83964af596bd4248bb878",
+      "bytes": 14629,
+      "lines": 367,
+      "equations": 13,
+      "test_methods": 0
+    },
+    {
+      "path": "research/closed-tail-field-parallel-fibers-pass144-working.md",
+      "sha256": "1ae1e32c58bc400a0f90bec923d2dd60044c02df22d0cafa6a3611ebc1f22720",
+      "bytes": 12336,
+      "lines": 291,
+      "equations": 8,
+      "test_methods": 0
+    },
+    {
+      "path": "research/projected-ring-equality-and-formal-boundary-pass144-working.md",
+      "sha256": "6b1bd1490d2b2ab98290460a815e300c78e262ebe16047cbab7247c9b12c6a22",
+      "bytes": 10144,
+      "lines": 228,
+      "equations": 7,
+      "test_methods": 0
+    },
+    {
+      "path": "research/two-recovery-linear-coupling-exclusion-pass144-working.md",
+      "sha256": "e1dd4fa7b25a82699c9f0f67bc9b683958fa68d9613e0fb65fe38acc76366613",
+      "bytes": 9185,
+      "lines": 282,
+      "equations": 7,
+      "test_methods": 0
+    },
+    {
+      "path": "research/two_recovery_coupling_controls_pass144.py",
+      "sha256": "40e0b90e4716265268a033f199be7a8789af0f5f556eafde2eef7e6c4cf47c12",
+      "bytes": 6977,
+      "lines": 146,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/projected_ring_formal_boundary_controls_pass144.py",
+      "sha256": "1658c6d3465f313f9ea3a6c006e43a1a1be02ce043e4679c4b81289f18828845",
+      "bytes": 7465,
+      "lines": 162,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/verification-pass144-working.json",
+      "sha256": "f281037cdf015861042155083cbdaa763c4d80abc5248f99f5a11377313d2c92",
+      "bytes": 10533,
+      "lines": 128,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "results": [
+    "Finite trace and finite-conjugate averaging remove the equal-constant-field restriction from the base-compatible source-action comparison.",
+    "Actual polynomial primitive return closes the source fiber over L0. A known Parallel Lines Lemma puts its equation in one coordinate.",
+    "An irreducible factor is active and base-compatible exactly when it divides the minimal source equation g0. Component rings and field indices retain enlarged constants.",
+    "First-order tail normal forms do not alone exclude residual factors; an explicit formal control preserves that boundary.",
+    "The projected source polynomial ring equals A exactly when the selected speed is a nonzero constant.",
+    "An arbitrary-degree two-recovery construction returns to the three-good profile only at zero coupling under the stated nonlinear hypotheses."
+  ],
+  "verification": {
+    "capture": "research/verification-pass144-working.json",
+    "executions": [
+      {
+        "completion": "9e775e",
+        "exit_code": 0,
+        "methods": 3,
+        "seconds": 0.461
+      },
+      {
+        "completion": "afb4d2",
+        "exit_code": 0,
+        "methods": 3,
+        "seconds": 0.084
+      }
+    ],
+    "exploratory_degree_control": {
+      "completion": "cf77de",
+      "exit_code": 0,
+      "counted_as_unittest": false
+    },
+    "total_new_test_methods": 6,
+    "numbered_equations_in_notes": 35,
+    "pending_test_execution_handles": false,
+    "scope": "Written chart deductions with independent AI reconstructions, one explicitly published theorem application and finite exact controls. No human expert review, proof-assistant verification or novelty clearance."
+  },
+  "next_bounded_task": "Use fixed-source Taylor coefficient matching, beyond a polynomial inverse curve, to force a base-return row or construct a canonical actual violation. A degree-only shortcut already fails on two genuine coordinate systems and must not be repeated without the missing fixed-source relation.",
+  "remaining_gaps": [
+    "No automatic base compatibility for every active actual first-tail component.",
+    "No complete actual first-tail primitivity theorem or actual extra-factor example; missing coefficient extensions and inactive factors remain.",
+    "No global polynomial descent covering every remaining dense higher-degree supplied frame.",
+    "No arbitrary three-good coordinate-entry theorem or full cancellation proof.",
+    "Professor's intended field/dimension/correction unconfirmed; human review and historical novelty assessment outstanding."
+  ],
+  "goal_audit": {
+    "previous_turn": "Verified live-agent status during the user check-in; no full-conjecture completion.",
+    "current_turn": "Progress: new closed-fiber/factor proof, primary-source attribution, full reviews and six passing new exact methods.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_files_edited": false
+  }
+}

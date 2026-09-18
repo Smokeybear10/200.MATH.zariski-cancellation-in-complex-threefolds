@@ -1,0 +1,108 @@
+{
+  "pass": 162,
+  "status": "low_weight_invariant_necessary_condition_and_actual_nonunit_selected_plinth; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/cusp-low-weight-invariant-parameter-obstruction-pass162-working.md",
+      "sha256": "0ebb4f87ea26034db7a28c685e2a39a1ca2b7c0f5886b723f8ed4ceca45f29a7",
+      "bytes": 9475,
+      "lines": 240,
+      "equations": 8,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp-selected-plinth-countercontrol-pass162-working.md",
+      "sha256": "a52391ca0365898ce9b9309374e508fdcb13a86819c15c0451a9dcef987376c9",
+      "bytes": 9316,
+      "lines": 239,
+      "equations": 8,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp_low_weight_invariant_controls_pass162.py",
+      "sha256": "d6f587cd18d26cefdc1bd8bd81a302f5a4b97d5fa53aeb84b1c81f483a4c079f",
+      "bytes": 8498,
+      "lines": 184,
+      "equations": 0,
+      "test_methods": 3
+    }
+  ],
+  "results": {
+    "low_weight": "Under every actual159 cusp hypothesis, a nonconstant invariant of original coordinate weight at most3 has form lambda*(XZ-Y^3)+alpha*Z+beta*W+Q2(X,Y), with lambda and beta nonzero complex constants. Its quadratic time coefficient and rho derivative force r=k_rho=-beta/lambda in C*. This is necessary, not sufficient.",
+    "boundary": "The actual160 zero-r frame has no nonconstant invariant of original weight<=3 and has the invariant coordinate t=W-X*(XZ-Y^3) of weight4. This is a fixed-frame result, not a minimum over all coordinate frames.",
+    "cleared_element": "The generic161 result gives h=aY-bX in A with N²h=0 and c=Nh in kerN. If c!=0, A_c=(kerN)_c[h/c]. Neither c!=0 nor c being a unit follows.",
+    "selected_plinth": "For every polynomial P(t) of degree>=2 the displayed actual cusp family has E=partial_x, selected N=P'(t)partial_v, kerN=C[t,p], full plinth (P'(t)), h=v and [C(t,p):C(P(t),p)]=degP. Both polynomial inverse orders are proved. The primitive quotient partial_v has a global slice; the example does not obstruct primitive descent.",
+    "remaining": "No global cusp recognition, arbitrary coordinate entry, full cancellation proof, formal certification, expert review, or novelty clearance."
+  },
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass161-working.json",
+    "sha256": "82cfe66a294e0ec8399778c7f03fb13538407761a2d223faa6342e1fadc246cb",
+    "records": 1043
+  },
+  "executions": [
+    {
+      "source_sha256": "9d160a7b72553a9ca2dcec88900aa1d8ad03cee8b6384a316cc19cab818f3b76",
+      "source_bytes": 6968,
+      "source_lines": 156,
+      "source_read": "f3b085",
+      "initial_output": "c65b8e",
+      "session": 19263,
+      "live_polls": [
+        "b557a4",
+        "afcf0a"
+      ],
+      "authoritative_process_check": "e75710: PID33624, elapsed2:47, CPU100%, exact checker command",
+      "intentional_interrupt": "1a9613: SIGINT to confirmed PID33624",
+      "terminal_output": "462d7c",
+      "exit_code": 130,
+      "outcome": "KeyboardInterrupt during nested inverse polynomial expansion. Session19263 closed. No completed test result; performance issue, not mathematical counterevidence."
+    },
+    {
+      "source_sha256": "d56af2c33905a3f82cee7309f708d557dfff9abb674bfd59c7fa5f33b44ffdf3",
+      "source_bytes": 8443,
+      "source_lines": 183,
+      "source_read": "e69cdd",
+      "terminal_output": "a60130",
+      "methods": 3,
+      "seconds": 0.085,
+      "exit_code": 1,
+      "outcome": "One failed subtest compared an expanded polynomial structurally with (t^3+t)^3. The polynomials agree. Fixed only that comparison to expanded-difference equality; no example or assertion scope removed."
+    },
+    {
+      "command": "/opt/anaconda3/bin/python research/cusp_low_weight_invariant_controls_pass162.py -v",
+      "source_sha256": "d6f587cd18d26cefdc1bd8bd81a302f5a4b97d5fa53aeb84b1c81f483a4c079f",
+      "source_read": "12d57d before execution",
+      "terminal_output": "961d12",
+      "methods": 3,
+      "seconds": 0.105,
+      "exit_code": 0,
+      "outcome": "All3 methods passed; terminal initial response, no pending handle. Not rerun."
+    }
+  ],
+  "verification_scope": "Three distinct final methods only, not a sum across attempts. Formal coefficient jets; exhaustive16-monomial rational linear system with rank15; staged actual inverses and full selected partials for P=t² and P=t³+t. Finite controls do not prove universal normality, full plinth, or field degree. Those arguments are written separately.",
+  "reviews": {
+    "root": "Both complete proofs reread4dbd48/33008b; final checker reread58c3ef. Prior canonical source reads and execution are retained above. Current metadata3ef6f2 matches.",
+    "general": "Author low-weight note fullbcd968; independent complete plinth review8dfb2d at exact final hash.",
+    "geometry": "Complete low-weight review1a1407; plinth author9a5bba with final formattingread5daf33. Complete final optimized checker9fc87d at final hash.",
+    "jet": "Complete proofs f52499/56bf7a at final hashes; final optimized checker completecf7ac4. No reruns."
+  },
+  "runtime": "Fresh fea26c: Python3.13.5 Anaconda, SymPy1.13.3.",
+  "goal_audit": {
+    "previous_goal_turn": "Status-only response plus saved-source inspection, classified no progress toward the full theorem; a specific reviewer was dispatched and its result is now received.",
+    "current_continuation": "Progress: independently reviewed actual163 example and final162 checker, preserved all162 execution outcomes, and derived a new necessary weight4 coefficient gate. General proof remains incomplete.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  }
+}

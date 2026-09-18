@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "scope": "Finite Artin-length controls only; not universal mathematical proof verification",
+  "command": "/opt/anaconda3/bin/python -m unittest -v research.fixed_scheme_artin_checks_pass92",
+  "started_at_utc": "2026-09-14T14:30:45.080Z",
+  "finished_at_utc": "2026-09-14T14:30:45.535Z",
+  "wall_seconds": 0.447691458,
+  "suites": 1,
+  "methods": 2,
+  "exit_code": 0,
+  "inputs": {
+    "research/fixed_scheme_artin_checks_pass92.py": "1749fb6bd2015e05e7779e74bf8ea6f48ac95b6edae8828d6261c70a79a2e1bd"
+  },
+  "inputs_unchanged": true,
+  "stdout": "",
+  "stderr": "test_fiber_length_and_fixed_scheme_thickness (research.fixed_scheme_artin_checks_pass92.ArtinLengthControls.test_fiber_length_and_fixed_scheme_thickness) ... ok\ntest_three_artin_complete_intersections (research.fixed_scheme_artin_checks_pass92.ArtinLengthControls.test_three_artin_complete_intersections) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.059s\n\nOK\n",
+  "complete_output_sha256": "ae856f6eeb5b4416368a5229edb06c35f56c756269b5155330a3f572c6e6e399"
+}

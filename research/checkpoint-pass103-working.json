@@ -1,0 +1,211 @@
+{
+  "pass": 103,
+  "status": "working_partial_results; unrestricted cancellation unsolved",
+  "working_target": "A[u] isomorphic to C^[4] implies A isomorphic to C^[3]; professor's corrected complex-threefold scope unconfirmed",
+  "summary": "In the actual collapsed L(m) nonzero sector, the projected original partial is locally nilpotent with compatible slice on every finite base-adic thickening, not necessarily globally or on the completion. A noncollapsed fixed double component determines every localized degree module and an exact conic, with both first-normal cases allowed. An actual three-good frame refutes the broader global projected-LND shortcut; an exact mixed-family module control refutes hidden degree-two parameters from flatness alone.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass102-working.json",
+    "sha256": "3e82d57915ddb354cab40ac902c78827e25b257fa4047bbb1f698d00ee4d2084",
+    "verified_hash_records": 618,
+    "full_chain_audit_tool": "9196cb",
+    "independent_checkpoint102_audit": {
+      "read": "9b96be",
+      "capture": "745ef4",
+      "audit": "05dca0",
+      "sha": "3e82d57915ddb354cab40ac902c78827e25b257fa4047bbb1f698d00ee4d2084",
+      "artifacts": 3,
+      "tags": 8,
+      "methods": 1,
+      "links": 790,
+      "missing": 0,
+      "chain_records": 618,
+      "scope": "Complete checkpoint, three current artifact hash/bytes/line counts, eight tags, one-input capture/output and predecessor anchor. No execution or all-predecessor rehash; current live-link count differs from earlier root snapshot."
+    }
+  },
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-14T19:29:31.127Z",
+    "all_passed": true,
+    "artifacts": [
+      {
+        "path": "research/quadratic-adic-projected-translation-pass103.md",
+        "sha256": "59ee6935fc69059f4f9e83ccfff45156d500b30c384c52ba663b4138a9cc19f2",
+        "bytes": 10100,
+        "content_lines": 240,
+        "equation_tags": 7
+      },
+      {
+        "path": "research/three-good-projected-partial-obstruction-pass103.md",
+        "sha256": "764b0657864b60ff7adcfa30f972b4a0b16af30de32eb1e45dd298f149a82ba9",
+        "bytes": 7209,
+        "content_lines": 175,
+        "equation_tags": 7
+      },
+      {
+        "path": "research/noncollapsed-cyclic-degree-module-pass103.md",
+        "sha256": "a892ec694331f1681c03fd5e472f03bfde51ec143911603d2a25bef1fc6fb6c4",
+        "bytes": 12955,
+        "content_lines": 288,
+        "equation_tags": 7
+      },
+      {
+        "path": "research/projected_derivation_thickening_checks_pass103.py",
+        "sha256": "54109f05d3c93bbb765d36fd7b31c33cc29c3de8cf25488fa762adc5f058361c",
+        "bytes": 6349,
+        "content_lines": 143,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/verification-pass103-working.json",
+        "sha256": "8ec93ffcbe4b84857349312f23c7c72493141785ebd1658952feba6890a04d2d",
+        "bytes": 1737,
+        "content_lines": 29,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/adic-and-cyclic-conic-frontier-pass103.md",
+        "sha256": "8d5b425009d1bf80f9cf93639334777a0f1d92298670014815ef1de75f597f1c",
+        "bytes": 11958,
+        "content_lines": 245,
+        "equation_tags": 0
+      }
+    ],
+    "equation_tags": 21,
+    "captured_methods": 2,
+    "ast_methods": 2,
+    "complete_output_verified": true,
+    "local_markdown_links_checked": 799,
+    "missing_links": []
+  },
+  "chain_record_count_after_including_this_checkpoint": 625,
+  "record_count_convention": "618 predecessor records + six current frozen artifacts + this checkpoint; remote primary comparison is not a frozen download",
+  "proof_reviews": [
+    {
+      "reviewer": "Root",
+      "scope": "Complete saved three proof notes, final two-method checker and synthesis with final normalization delta; full retained95 generic Jacobian gate. Independently reconstructed adic, cyclic conic, inverse-frame and all-e mixed-module control arguments.",
+      "evidence": [
+        "5f8ba0",
+        "2c269c",
+        "28bbb4",
+        "cfad40",
+        "6a3621",
+        "9ccc74",
+        "fc6d14",
+        "b076c3",
+        "a91966",
+        "8e0aeb",
+        "dcb8ed",
+        "6b7ff2",
+        "3d7ca3"
+      ]
+    },
+    {
+      "reviewer": "Geometry",
+      "scope": "Author of seven-equation adic proof; independent full actual-control and final cyclic-module proofs, complete retained95 dependency, complete final synthesis including canonical slice normalization and all-e mixed-family control. No numerical execution or fresh external formal-source proof reading.",
+      "evidence": ["044af6", "620032", "bef60f", "1c635d", "4c8538"],
+      "cyclic_proof_sha256": "a892ec694331f1681c03fd5e472f03bfde51ec143911603d2a25bef1fc6fb6c4",
+      "synthesis_sha256": "8d5b425009d1bf80f9cf93639334777a0f1d92298670014815ef1de75f597f1c"
+    },
+    {
+      "reviewer": "Jet",
+      "scope": "Author of actual polynomial countercontrol and two-method checker; independent complete adic proof, final cyclic-module proof and retained95 dependency.",
+      "evidence": [
+        "f7b007",
+        "b22b48",
+        "b93545",
+        "9b96be",
+        "745ef4"
+      ],
+      "cyclic_proof_sha256": "a892ec694331f1681c03fd5e472f03bfde51ec143911603d2a25bef1fc6fb6c4"
+    },
+    {
+      "reviewer": "General",
+      "scope": "Author of full cyclic-module proof; independent complete adic/actual-control proofs and two-method checker; author-supplied all-e mixed control and complete synthesis review. Requested canonical slice normalization was applied and root-read.",
+      "evidence": [
+        "04c327",
+        "9c65f2",
+        "69c791",
+        "f25909",
+        "472667",
+        "cc3cbc"
+      ],
+      "synthesis_reviewed_pre_normalization_sha256": "52b2e0a3d78c089d6a8d359ff16280649c5402d98911f07c972640a6fe0c17de"
+    }
+  ],
+  "canonical_verification": {
+    "path": "research/verification-pass103-working.json",
+    "sha256": "8ec93ffcbe4b84857349312f23c7c72493141785ebd1658952feba6890a04d2d",
+    "tool": "db1131",
+    "suites": 1,
+    "test_methods": 2,
+    "scope": "Two finite symbolic controls: finite x-adic quotient flows and formal invariant inverses in an abstract non-LND example; actual three-good polynomial inverse frame, canonical field and projected non-LND iterates with no stable closed S-fiber. Not the universal adic lifting, all-degree cyclic-module proof, unknown original-frame realization, recognition, or cancellation."
+  },
+  "author_executions": [
+    {
+      "tool": "ca655d",
+      "status": "Initial k=1 empty Python sum returned an int without .subs; abstract-control harness error. Actual-frame method passed. No universal mathematical assertion tested."
+    },
+    {
+      "tool": "1cd092",
+      "test_methods": 2,
+      "unittest_seconds": 0.513,
+      "status": "Harness corrected to symbolic zero; intermediate version passed"
+    },
+    {
+      "tool": "ff7107",
+      "test_methods": 2,
+      "unittest_seconds": 0.299,
+      "wall_seconds": 0.558049416,
+      "status": "Final two-method version with formal-invariant inverse checks passed; same coverage as canonical run"
+    }
+  ],
+  "historical_full_verification": {
+    "pass": 75,
+    "suites": 146,
+    "test_methods": 1047,
+    "rerun": false,
+    "registry_claims": 544,
+    "registry_expanded": false
+  },
+  "sources": [
+    {
+      "title": "Topologically integrable derivations and additive group actions on affine ind-schemes",
+      "authors": [
+        "Roberto Díaz",
+        "Adrien Dubouloz",
+        "Alvaro Liendo"
+      ],
+      "url": "https://arxiv.org/html/2012.14302v2",
+      "version": "arXiv:2012.14302v2, January 28, 2026",
+      "primary_sections_read": "Definition 2.4, Remark 2.5, Theorem 2.7 and displayed proof; Examples 3.4 and 4.2; Theorem 4.4 and complete displayed proof with Lemmas 4.3, 4.5 and 4.6",
+      "root_evidence": [
+        "turn3585view0",
+        "turn3585view1",
+        "turn3586view0",
+        "turn3586view1"
+      ],
+      "scope": "Known restricted-series/exponential comparison, not an algebraization theorem, a fresh proof of deeper topological/Weierstrass inputs, or exhaustive novelty clearance."
+    }
+  ],
+  "proof_limits": [
+    "The adic theorem uses actual T-stability and Tu in the whole fiber ideal; no global preservation of A or commutation is inferred.",
+    "The exact global slice is r=z-q0u²/2 for the canonical u=Ez/q0; the specified relative c need not be a global slice and its Artin shift retains nilpotents.",
+    "Local nilpotence on every finite quotient is not local nilpotence on A or on its completion; invariant transitions do not identify those kernels with the specified base quotients.",
+    "The conic is over S_m and requires a suitable actual degree-two parameter; the general hidden-U lemma does not establish that parameter in collapsed sectors.",
+    "The actual non-LND projected-field control has no stable closed S-fiber, free primitive N and already-polynomial A.",
+    "The mixed-family no-hidden-U control is an intrinsic polynomial example, not an asserted original E-frame; its proof is all-e, not an additional numerical method.",
+    "AI proof reconstructions are not human expert review or formal certification."
+  ],
+  "open_obligations": [
+    "Produce a hidden low-degree parameter or a different decisive argument using the remaining actual coordinate constraints; module freeness alone is insufficient in a mixed control.",
+    "Bridge local conic or compatible formal translations to actual algebraic recognition, or derive a decisive obstruction.",
+    "Treat remaining collapsed L=0 and relative cubic sectors.",
+    "Supply an unrestricted sliced-action entry theorem or a frame-free cancellation proof.",
+    "Expert review and historical priority audit before any novelty/publication claim."
+  ],
+  "authorization": {
+    "external_contact": false,
+    "publication": false,
+    "submission": false
+  },
+  "completion": false
+}

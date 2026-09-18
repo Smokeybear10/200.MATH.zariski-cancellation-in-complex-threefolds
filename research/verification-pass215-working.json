@@ -1,0 +1,127 @@
+{
+  "pass": 215,
+  "status": "rank_two_quadratic_center_excluded; remaining_linear_center_actual_affine_reduction_with_auxiliary_degrees0211; original_recognition_open",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass214-working.json",
+    "sha256": "cd5f6325583004ff936918448980752b730a1858451ca3745977dd282f1ba610",
+    "records": 1320
+  },
+  "results": {
+    "quadratic_center_affine_second_excluded": "The affine-parameter cofactor bound from214 applies without a linear-center assumption and gives degree q1 at most2. For y=P(theta) of degree2, the V-eighth coefficient of H(P,V) forces b32=-a4*p2. The V-sixth coefficient of H_U(P,V) is then a4*p2^3, which is nonzero and contradicts that bound. This excludes the quadratic-center pair(2,1); the argument does not require squarefreeness of that center.",
+    "quadratic_center_cubic_quadratic_excluded": "For degrees(3,2), square completion over the exact field gives C=L[x^2,x^3+c1*x], with conductor(x^2+c1)O. Actual conductor support forces R to be a scalar multiple of that generator. The selected monic relation has the exact, possibly nonreduced center fiber(U-yc)^2. Because the other center root ys differs from yc, the evaluated cofactor is nonzero at every root of R; actual support then forces that evaluation to be a nonzero constant. Total degrees give H=A0*G^2+beta*G, whose center specialization forces ys=yc. This contradiction excludes(3,2) for a squarefree quadratic center. Combined with214, no quadratic squarefree center survives.",
+    "linear_center_exact_cofactor_order": "For the remaining linear-center pair(2,1), the fixed-parameter local determinant proves C1(Vc) is nonzero. The cofactor vanishes to exactly first order at the simple root of R. Together with the actual R^2 support bound this gives q1=eta*R and the scalar polynomial identity Tcal=-(J/eta)*R. The proof differentiates coefficients with theta fixed, not along the moving center.",
+    "linear_center_actual_affine_reduction": "Full coefficient comparisons and the scalar identity give Tstar=c/rho^2, K=c/rho^2+d/rho^3 and k_t=c0-c/rho-d/(2rho^2), with complex constants and c nonzero. Actual shears W'=W+dY/2 and Z'=Z-c0Y preserve the exact1122 profile, full initial kernel and literal selected partial. In the rebuilt chart y=theta^2/(c*rho^2)+p1*theta+p0, while both z and w are affine in theta. The actual commuting auxiliary polynomial LND P=aN-(NX)E consequently has exact coordinate degrees(0,2,1,1).",
+    "remaining_scope": "The reduction supplies no ambient invariant coordinate, auxiliary slice, speed-unit conclusion or recognition of A. The coefficient-field factors, including tau and rho, are not asserted regular in the original ring. In particular P^2Y is nonzero and E(PW)=a*tau is nonzero, so neither niceness on all four coordinates nor the invariant-coefficient criterion205 follows directly. Arbitrary entry, other kernels and unrestricted cancellation remain open. Separate216 work is excluded."
+  },
+  "goal_audit": {
+    "current_progress": "Two low-degree exclusions and one actual affine-reduction note, together with a four-method finite exact-algebra suite, leave a single reduced rank-two original-ring frontier. One canonical execution passed after complete saved-source reads. The remaining recognition endpoint and global goal are unresolved at this packet stage.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "actual_full_rank_two_frame_hypotheses_required": true,
+    "quadratic_center_affine_second_excluded": true,
+    "squarefree_quadratic_center_cubic_quadratic_excluded": true,
+    "all_quadratic_squarefree_center_pairs_excluded_with_retained214": true,
+    "remaining_linear_center_cofactor_order_exactly_one": true,
+    "actual_constant_coefficient_shears_verified": true,
+    "selected_partial_and_full_initial_kernel_preserved": true,
+    "auxiliary_coordinate_degrees_0211": true,
+    "auxiliary_nice_on_all_four_coordinates": false,
+    "auxiliary_slice_proved": false,
+    "coefficient_field_factors_assumed_regular": false,
+    "remaining_linear_center_recognized": false,
+    "speed_unit_proved": false,
+    "coefficient_field_rationality_claim": false,
+    "arbitrary_entry_proved": false,
+    "global_minimum_profile_claim": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/rank-two-quadratic-center-affine-second-exclusion-pass215-working.md",
+      "sha256": "aadb79eab030cce6939db984d2dbe93268616080a6ebfcc5c5af959382d28d7e",
+      "bytes": 4199,
+      "lines": 108,
+      "equations": 6,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank-two-quadratic-center-cubic-quadratic-exclusion-pass215-working.md",
+      "sha256": "f74c01f687ac5faf10e6b271457de118d5794ac303cd22794b72250af8e24efc",
+      "bytes": 7711,
+      "lines": 207,
+      "equations": 12,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank-two-linear-center-affine-reduction-pass215-working.md",
+      "sha256": "87fb3bdc1f002f2e6864bee9448680b70e77f4fbf4ab0fb852c98a79ade064ff",
+      "bytes": 11403,
+      "lines": 316,
+      "equations": 19,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank_two_low_degree_controls_pass215.py",
+      "sha256": "4e8672e2435a533e313101e1ef432b20cc7074a31fe24a2304e64809311e496a",
+      "bytes": 7675,
+      "lines": 149,
+      "equations": 0,
+      "test_methods": 4
+    }
+  ],
+  "canonical_executions": [
+    {
+      "suite": "rank_two_low_degree_controls215",
+      "path": "research/rank_two_low_degree_controls_pass215.py",
+      "pre_execution_read": "Root complete author EOFb847e2/hash397c86; Jet complete peer EOF94960f/hashf607b4. Source held unchanged before the sole canonical execution.",
+      "initial_output": "4952d5",
+      "session_id": null,
+      "terminal_output": "4952d5",
+      "methods": 4,
+      "unittest_seconds": 0.172,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "completion_via_original_handle": false,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/rank_two_low_degree_controls_pass215.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "login": false,
+      "initial_yield_time_ms": 1000,
+      "initial_max_output_tokens": 6000
+    }
+  ],
+  "tagged_equations": 37,
+  "total_new_test_methods": 4,
+  "reviews": {
+    "quadratic_center_affine_second": "Root completebd2224; General complete0e59ca; Geometry complete25690c/hasha601bc; Jet complete431772. The inherited cofactor proof uses both full potentials and applies to this quadratic center. The two incompatible V-eighth and V-sixth coefficients reconstruct, including the h_t=0 boundary.",
+    "quadratic_center_cubic_quadratic": "Geometry final author EOF932c0e/hash88b5ce; General complete377602/hash0768c7; Root completef9d3ae; Jet complete431772. Both exact ring inclusions, conductor parity, monic discriminant with odd valuation, double center fiber, actual cofactor support, total-degree quotient and final squarefree-center contradiction reconstruct. No reduced-fiber or plane-normality assumption is used.",
+    "linear_center_affine_reduction": "Root complete9943b4; Geometry completeb679db/hashd08ea2; Jet completef607b4. The fixed-theta local order proof, unshifted cubic coefficient, both formulas for(p1)_t, joint-constant integrations, actual shear inverses and preserved center slope reconstruct. The exact auxiliary degree pattern and failure of the immediate nice/invariant-coefficient endpoint are explicit.",
+    "checker": "Root complete authorb847e2/hash397c86 and Jet complete source-only peer94960f/hashf607b4 preceded sole canonical4952d5. Four methods check bounded leading-coefficient contradictions; cubic/quadratic conductor and center-fiber polynomial identities; the center local-order implications and graph coefficients; and scalar Euler arithmetic, actual shear inverse orders, selected-partial columns and auxiliary derivative identities. No solver or retained suite was imported.",
+    "metadata": "Read-only8e628d confirms both held214 hashes, all four215 source hashes, byte/line counts,37 tagged equations and four methods. The inventory contains only the three assigned proofs and checker before packet creation. Historical source prose about no saved execution is preserved, with the later canonical event recorded here. No216 source or unsaved exploration is counted."
+  },
+  "proof_dependencies": {
+    "retained": [
+      "research/rank-two-t-independent-sextic-reduction-pass212-working.md",
+      "research/rank-two-squarefree-center-degree-pruning-pass213-working.md",
+      "research/rank-two-affine-second-high-degree-exclusion-pass214-working.md",
+      "research/rank-two-quadratic-center-six-four-exclusion-pass214-working.md",
+      "research/rank-two-linear-center-quadratic-projection-exclusion-pass214-working.md"
+    ],
+    "scope": "The retained exact field, full-potential, scalar determinant, cofactor and center-pruning arguments are prerequisites, not new215 records or reruns. No new primary-paper access, human review, formal theorem verification or novelty clearance is claimed."
+  },
+  "finite_control_scope": "Finite polynomial leading terms and discriminants; bounded conductor parity and center-fiber identities; center local-order implications; graph coefficient comparisons; scalar Euler product-rule arithmetic; actual constant-shear inverse orders and selected-partial columns; auxiliary derivative identities. These do not prove universal conductor or support theorems, actual field return, finite-field constants, LND properties or original-ring recognition.",
+  "next_bounded_task": "Analyze the remaining normalized actual linear-center chart and auxiliary degree pattern(0,2,1,1), retaining its original-ring regularity boundaries. Do not infer recognition from this reduction, and do not rerun215. Separate216 work is not incorporated."
+}

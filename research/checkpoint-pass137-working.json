@@ -1,0 +1,93 @@
+{
+  "pass": 137,
+  "status": "supplied_three_good_quadratic_profile_recognized_using_recorded_working_proofs; unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3]. Original professor statement, field and dimension remain unconfirmed.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass136-working.json",
+    "sha256": "d164f1eb565fd8cd8eddb5d41a958a5aee15d20f1e22de9d01be06a82982f35f",
+    "records": 895
+  },
+  "chain_record_count_after_including_this_checkpoint": 901,
+  "record_count_convention": "895 prior records plus three mathematical notes, one new checker, verification137 and this checkpoint. Live indexes are excluded.",
+  "artifacts": [
+    {
+      "path": "research/universal-conical-tangent-reduction-pass137.md",
+      "sha256": "f90e55eb50f8080cae912da9aad73b5f0c6bbe688356dfc283ca4a3cdd17b1b7",
+      "bytes": 14681,
+      "lines": 355,
+      "equations": 13
+    },
+    {
+      "path": "research/conical-no-slice-boundary-pass137.md",
+      "sha256": "2ab7e8b0e3f47da155ab48400c47b9666ee968e9d45f10f1737b6653e6acbe1f",
+      "bytes": 4509,
+      "lines": 125,
+      "equations": 6
+    },
+    {
+      "path": "research/three-good-quadratic-profile-recognition-pass137.md",
+      "sha256": "ad5ff8842d3694d6a44adc4b54b974507c80938977c82d17e642dc887caaf2a4",
+      "bytes": 8810,
+      "lines": 158,
+      "equations": 3
+    },
+    {
+      "path": "research/conical_speed_chart_controls_pass137.py",
+      "sha256": "fb5993d5ee1dccc2b54ecf5b1311bfdbbe3ff9cf19ca795ebaff43f99a4945be",
+      "bytes": 7708,
+      "lines": 169,
+      "test_methods": 3
+    },
+    {
+      "path": "research/verification-pass137-working.json",
+      "sha256": "ddf6b6551855542734d80fb10e64a5de6d1fe8deef94be51afb000f3d7478a21",
+      "bytes": 7470,
+      "lines": 128
+    }
+  ],
+  "results": [
+    "Using (tau,xi=s) as the coefficient basis, the selected leading coefficient fixes xi. Its Cramer identity forces the tangent graph without any independence or nonzero derivative assumption on sigma=q/s^2.",
+    "The general sigma derivative equations produce exactly the prior kappa-polynomiality system. It yields a monic quartic W relation over a one-variable invariant field, including resonance and zero acceleration.",
+    "The general exact monic-pencil descent and invariant-bad-coordinate obstruction136 then exclude every supplied nonlinear conical rank-two three-good quadratic sliced frame.",
+    "An actual polynomial-coordinate action E=xi*d/dx realizes the nonlinear resonant cone once the slice is omitted. Its derivative ideal is(xi), it has no slice, and its kernel is polynomial. This is an explicit hypothesis boundary, not a cancellation counterexample.",
+    "Combining the new exclusion with the recorded rank-one127, nice80, dense133/134 and invariant-linear-coordinate cases exhausts the supplied E^2(goods)=0,E^3(bad)=0 sliced profile. The synthesis retains those working proofs and their source dependencies."
+  ],
+  "proof_review_scope": "Root and independent AI agents reconstructed the new universal chart, the actual omitted-slice example, and the case-coverage synthesis. The historical input statements and endpoints were read for exact scope; General additionally read the listed prior central proofs completely. This is not human review, proof-assistant verification, or a new reconstruction of every historical dependency.",
+  "verification": {
+    "capture": "research/verification-pass137-working.json",
+    "execution": "2a1187",
+    "state": "completed_in_initial_call",
+    "exit_code": 0,
+    "test_methods": 3,
+    "formal_methods": 2,
+    "actual_boundary_methods": 1,
+    "reported_seconds": 0.094,
+    "all_methods_new": true,
+    "scope": "Exact general speed-chart coefficient identities, chain rules and actual omitted-slice polynomial inverse/derivative controls. Not universal theorem verification."
+  },
+  "remaining_gaps": [
+    "Prove a sufficient coordinate-entry theorem for an arbitrary sliced polynomial fourfold, without assuming the covered profile.",
+    "Handle supplied three-good frames of higher last-coordinate time degree, or prove an actual degree-reducing coordinate change. This is beyond the present quadratic theorem.",
+    "Unrestricted corrected cancellation, professor-intent confirmation, human expert review, proof-assistant verification and historical novelty determination."
+  ],
+  "next_bounded_task": "Derive the actual speed-based determinant recurrence when the last coordinate has time degree at least3. Test whether downward coefficient integration still yields a monic relation over a one-variable invariant field. Keep actual coordinate entry separate; local nilpotence alone does not bound the coordinate profile. Do not continue treating the supplied nonlinear conical quadratic resonance case as open.",
+  "goal_audit": {
+    "turn_relation": "Further mathematical progress in the same goal continuation that completed136.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "goal_status_to_preserve": "active"
+  },
+  "boundaries": {
+    "unrestricted_cancellation_solved": false,
+    "all_abstract_height_eleven_profiles_recognized": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_cleared": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_files_intentionally_edited": false
+  },
+  "live_indexes": ["README.md", "research-ledger.md"]
+}

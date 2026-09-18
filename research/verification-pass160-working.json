@@ -1,0 +1,105 @@
+{
+  "pass": 160,
+  "status": "cusp_exact_field_degree_exhaustion; nongraph_fifth_power_necessary_condition; zero_r_generic_affine_parameter; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/cusp-nongraph-quartic-restriction-pass160-working.md",
+      "sha256": "23b4b906dd7c0f33be37440b98216f2783270ab5a7b0659ca2e115c50a81c630",
+      "bytes": 16294,
+      "lines": 402,
+      "equations": 13,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp-zero-r-generic-graph-pass160-working.md",
+      "sha256": "522b99894adc6df3ff131560174d58efa3a577b9f157a17e269071893db16038",
+      "bytes": 6806,
+      "lines": 196,
+      "equations": 10,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp_quartic_restriction_controls_pass160.py",
+      "sha256": "e7072227344036d9581177e96a75ca166a646aa9c93a927e3554203c5cb15421",
+      "bytes": 9518,
+      "lines": 230,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/cusp_zero_r_controls_pass160.py",
+      "sha256": "3874c8c12ed14e49f76e6d742e22795484fa4b1bae70dba6da5a64b7ac826910",
+      "bytes": 6083,
+      "lines": 165,
+      "equations": 0,
+      "test_methods": 3
+    }
+  ],
+  "results": {
+    "nongraph": "For the actual159 cusp chart with r=k_rho!=0 and deg_v y>=2, selected-factor159 establishes whole-polynomial association. Exact implicit degree, one rational infinity point and characteristic-zero AMS degree divisibility force degPhi4 and degrees(y,theta)=(2,4). An elementary odd-part argument gives literal Phi=kappa(V-Q(U))^2+lambda U+nu over L with degQ2 and kappa*lambda!=0.",
+    "ode": "The literal coefficient identities force r_rho0, r_tau!=0, Delta=r_tautau/2-r_tau²/r!=0 and N=n_rhorho=-r Delta²/(2r_tau)!=0. A rho derivative of the cubic coefficient gives the third-order equation. With chi=1/r it becomes4chi'chi'''-3chi''²=0. A finite algebraic fourth-root adjunction and joint constants C yield1/r=C0+C1(tau-C2)^5 with C1!=0 and N=10C1(tau-C2)^2/[C0+C1(tau-C2)^5]^3.",
+    "zero_r": "For r=0,s=n_rho!=0, theta=P(y) with P cubic. The next determinant coefficient gives w=Q(y)+h, Q_U=P_tau+P_U P_rho, by formal-variable polynomial integration. Whole L[y,w]=L[v] forces y affine. The constant coefficient gives R_tau+P_U R_rho=a³/(s*y_v). Its U8 term forces partial_rho²(1/s²)=0, with integration constants only in ker_L partial_rho.",
+    "other_zero_r": "When r=s=0, chart159 already makes y,z,sigma,theta constant over L and w an affine generic parameter. A separate actual r0,s1 cusp frame with both inverse orders shows the nonzero-s branch exists and is already recognized by coordinate slice X.",
+    "remaining": "This160 packet does not exclude the fifth-power nongraph branch. The parity/coefficient contradiction is separate161. Neither generic affine parameter nor generic plane automorphism clears integral denominators, recognizes arbitrary cusp frames, supplies unrestricted coordinate entry, or solves cancellation."
+  },
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass159-working.json",
+    "sha256": "8ba5e12078436403058c0295254ff9e78e4c897425a24642af61a589ecafa225",
+    "records": 1033
+  },
+  "goal_audit": {
+    "previous_goal_turn": "Status-only check with live checker agent, no new mathematical result.",
+    "current_continuation": "Progress: two complete160 written arguments with independent reconstructions and six terminal exact tests. Stronger161 parity exclusion separately under review.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "canonical_executions": [
+    {
+      "command": "/opt/anaconda3/bin/python research/cusp_quartic_restriction_controls_pass160.py -v",
+      "source_sha256": "e7072227344036d9581177e96a75ca166a646aa9c93a927e3554203c5cb15421",
+      "source_read": "Root full EOF9dfbc7 before execution.",
+      "initial_and_terminal_output": "7f4ac8",
+      "methods": 3,
+      "seconds": 0.184,
+      "exit_code": 0,
+      "state": "Terminal in initial response; no handle; no rerun.",
+      "scope": "Formal literal coefficient and ODE jets, reciprocal and fifth-power boundaries, plus an abstract exact-field (2,4) plane automorphism in both inverse orders. Not an actual cusp realization or finite proof of degree exhaustion."
+    },
+    {
+      "command": "/opt/anaconda3/bin/python research/cusp_zero_r_controls_pass160.py -v",
+      "source_sha256": "3874c8c12ed14e49f76e6d742e22795484fa4b1bae70dba6da5a64b7ac826910",
+      "source_read": "Root author complete EOF62f7f3 before execution; proof full19a456.",
+      "initial_and_terminal_output": "1ae794",
+      "methods": 3,
+      "seconds": 0.291,
+      "exit_code": 0,
+      "state": "Terminal in initial response; no handle; no rerun.",
+      "scope": "Independent formal coefficient jets, full reduced determinant signs, polynomial primitive and highest coefficient; separate actual r0 cusp frame with both polynomial inverse orders and selected normalization. No arbitrary jet realization or integral descent."
+    }
+  ],
+  "runtime": "Python3.13.5 Anaconda and SymPy1.13.3 freshly checked1df5b9. Final hashesce2309 and metadata72d64c unchanged.",
+  "reviews": {
+    "root": "Quartic proof full062b2c; zero-r proof full19a456; both checker full reads listed at canonical executions.",
+    "general": "Quartic proof author full2adc42/hashc4292f; zero-r proof full62011c and checker fulld76aa0/hashfd18c5. No independent quartic-checker review claimed at packet creation.",
+    "geometry": "Quartic proof fullf0013e; zero-r proof/checker full d3a41a. Quartic checker separate review pending at packet creation, not claimed.",
+    "jet": "Quartic proof fullc45a63; zero-r proof full6e4669 and checker full7118b7/hash73ad56; quartic checker author full6df7c9+c8b5d0/hashabf232."
+  },
+  "primary_source_gate": {
+    "url": "https://arxiv.org/pdf/1212.0163v1",
+    "statement": "Makar-Limanov, A new proof of the Abhyankar-Moh-Suzuki Theorem, printed p1: over a characteristic-zero field K, K[f,g]=K[z] implies one positive degree divides the other.",
+    "checks": "Fresh exact statement General turn4154view0, Geometry turn4155view0, Root turn4156view0. Applied over actual exact field L only after proving whole-line equality and whole-polynomial association.",
+    "limits": "Only the degree-divisibility statement is imported. No full recursive proof or novelty audit. The finite-field constants and fixed-axis extraction are reconstructed in the new note."
+  }
+}

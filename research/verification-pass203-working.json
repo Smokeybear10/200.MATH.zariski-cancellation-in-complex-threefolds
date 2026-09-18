@@ -1,0 +1,120 @@
+{
+  "pass": 203,
+  "status": "restricted_recognition_of_full_two_root_initial_kernel_and_entire_absent_W_rank_one_boundary; unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass202-working.json",
+    "sha256": "a1f615c3be4d24cc35a90c24ff69d379b881c18e7144e987eaf09c3e32de7fb8",
+    "records": 1250
+  },
+  "results": {
+    "monomial": "After actual202 normalization, the graph forces an irreducible original polynomial to be a square. The projection scalar gives g=alpha*t+beta*q+gamma, beta nonzero, and an explicit original-ring automorphism with both polynomial inverse orders. Its coordinate G* is E-invariant; the regular-kernel BGL endpoint recognizes A.",
+    "reciprocal_pair": "After actual202 normalization, the graph contradicts degree two of the exact projected field. Projection scalarity gives the complete finite-K solution g=alpha/r^2+beta*(1+r^2)/r^3+gamma, beta nonzero. Actual field return forces K=C(T), although p=1/r satisfies T=beta*p^3+alpha*p^2+beta*p of degree three. Both reciprocal families are excluded.",
+    "synthesis": "Combining zeroR196, nonzeroR195, classification201, actual202 normalizations and new203 branches recognizes the full initial kernel Z^2-X^2Y(X-Y) under actual global slice and exact1122. Actual normalforms184, squarefree exclusion184 and square-root recognition200 extend this to the entire absent-W rank-one weight-four boundary.",
+    "remaining_scope": "No arbitrary coordinate entry, all-profile descent, remaining nonzero-radical rank-one or rank-two recognition, or unrestricted cancellation is established. Separate204 example and pivot-lemma work are not included."
+  },
+  "goal_audit": {
+    "current_progress": "New branch proofs are independently AI-reconstructed, composed into one precise restricted theorem, and supplemented by one passing standalone exact-algebra suite.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/weight-four-two-root-monomial-coordinate-recognition-pass203-working.md",
+      "sha256": "ba760e093077dad8dd27ba8c3f5991a483b6639e3e783eb3f33942b76e5bb27d",
+      "bytes": 12092,
+      "lines": 342,
+      "equations": 21,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-two-root-reciprocal-field-obstruction-pass203-working.md",
+      "sha256": "7f754c9161278f860c670f63df58a34e6672a2a2c60450b4b1abdd077d142196",
+      "bytes": 10269,
+      "lines": 264,
+      "equations": 17,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-absent-w-rank-one-recognition-synthesis-pass203-working.md",
+      "sha256": "2906eadc4c15556bd16cb3f583b2255040f4f67c1d1263519a42fffdef53d541",
+      "bytes": 8578,
+      "lines": 194,
+      "equations": 8,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight_four_two_root_branch_controls_pass203.py",
+      "sha256": "642a882d80675086af0b43c7042c28eb219520468d524e9056928f1b8ea44848",
+      "bytes": 10289,
+      "lines": 234,
+      "equations": 0,
+      "test_methods": 4
+    }
+  ],
+  "canonical_executions": [
+    {
+      "suite": "two_root_actual_branch_controls203",
+      "path": "research/weight_four_two_root_branch_controls_pass203.py",
+      "pre_execution_read": "Author complete18c2b6+2b3b8d; Root complete0c59dd.",
+      "initial_output": "dd752c",
+      "session_id": 5267,
+      "terminal_output": "f64f59",
+      "methods": 4,
+      "unittest_seconds": 16.927,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": false,
+      "pending_execution_handle": false,
+      "completion_via_original_handle": true,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/weight_four_two_root_branch_controls_pass203.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "login": false,
+      "initial_yield_time_ms": 1000
+    }
+  ],
+  "tagged_equations": 46,
+  "total_new_test_methods": 4,
+  "reviews": {
+    "monomial": "Author full efb265; Root full b67bba; Geometry full e85aa6/hashcffd59 with independent inline952e4d->5251->bbb3cf; Jet fullfbb5a8+66d991. Graph cases, scalar constants, finite-K integration and original inverse reconstruct cleanly atba760e09.",
+    "reciprocal": "Author full0189b3 plus prose deltaa5f738; Root fulld3d8c9; General fullfba865 and independent inline78e534; Jet fulled77a3+fc5f97. Both field chains, complete scalar ODE and alpha=0/delta=0 cases reconstruct cleanly at7f754c91.",
+    "synthesis": "Root authorfull e15fd8; General fullad1eb4/hashae01fa at2906eadc, additionally full reduction19530eb28,zeroR196adc35c,normalforms184e1cfa6,squarefree184 and synthesis2003e06c2. Root also freshly read zeroR196528a9d, reduction195cef02a and synthesis2000e6bc0 after authoring. No recursive audit of all deeper historical dependencies is claimed.",
+    "checker": "Complete author and Root reads preceded the sole execution. It checks literal potentials, unrestricted determinant identities, scalar jets, ODE basis arithmetic and Wronskians, both polynomial inverse orders, actual chart transport, and primitive polynomial slots. No field-completeness or irreducibility theorem is certified by the tests.",
+    "metadata": "Read-only b2d176 confirms all four source hashes, byte/line counts,46 tagged equations and four methods. Historical source status lines remain unchanged; source-review completion is recorded here."
+  },
+  "proof_dependencies": {
+    "retained": [
+      "research/weight-four-positive-bad-rank-normal-forms-pass184-working.md",
+      "research/weight-four-squarefree-double-cover-exclusion-pass184-working.md",
+      "research/weight-four-universal-chart-potentials-pass184-working.md",
+      "research/weight-four-double-cover-nonzero-r-reduction-pass195-working.md",
+      "research/weight-four-two-root-zero-r-coordinate-recognition-pass196-working.md",
+      "research/weight-four-square-root-complete-recognition-synthesis-pass200-working.md",
+      "research/weight-four-two-root-two-gate-classification-pass201-working.md",
+      "research/weight-four-two-root-monomial-actual-normalization-pass202-working.md",
+      "research/weight-four-two-root-reciprocal-actual-normalization-pass202-working.md"
+    ],
+    "scope": "Retained exact hypotheses and proof inputs. No earlier canonical test is counted as new203 evidence."
+  },
+  "external_dependencies": {
+    "endpoint": "Bhatwadekar--Gupta--Lokhande Theorem3.5: characteristic-zero nonzero k[T]-linear LND on k[T,X,Y,Z], regular kernel implies kernel=k[T]^[2].",
+    "url": "https://arxiv.org/html/1501.01438v1",
+    "fresh_reads": "Root turn4282view1 lines286-291; Geometry turn4281view0; General turn4279view0 and turn4284view0.",
+    "applicability": "Actual polynomial inverse supplies invariant ambient G*. Eu=1 supplies a regular kernel. The endpoint does not provide G* or arbitrary coordinate entry.",
+    "novelty_audit": false
+  },
+  "finite_control_scope": "Four methods in one run supplement written exact-field, normality, irreducibility and recognition arguments. They do not prove the full conjecture, expert review or historical novelty.",
+  "next_bounded_task": "Prioritize a genuine bridge to arbitrary invariant-coordinate entry using actual polynomial automorphisms. The next concrete branch is the swapped-W pivot q=rho^2 for F=Z^2-X^2W, retaining the w^2 term. An actual nonvacuity control and an R=0 commuting nice-LND reduction are separate204 work; neither is general entry. Do not rerun202/203."
+}

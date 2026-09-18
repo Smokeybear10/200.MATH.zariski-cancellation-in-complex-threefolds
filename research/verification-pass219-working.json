@@ -1,0 +1,141 @@
+{
+  "pass": 219,
+  "status": "supplied_full_mixed_quartic_initial_kernel_recognized; conic_excluded_by_original_polynomial_relation; arbitrary_entry_and_global_cancellation_open",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass218-working.json",
+    "sha256": "77a379162c0bcde5e98c3a395e0db6cbcabd80a92e1736fc43ebff9416562aab",
+    "records": 1346
+  },
+  "results": {
+    "actual_normalization_bridge": "The retained217 conic analysis has two radial branches. In one, the actual constant X/Y interchange makes every projected intercept have degree at most two. The actual chart, selected quantities and coefficient alternatives are rebuilt. Reentry into the cubic-intercept branch would contradict that degree bound, so both possibilities reach the case-II setup used in218. The change is an actual polynomial coordinate interchange, not a coefficient-field reparametrization asserted to be ambient.",
+    "complete_lower_Jacobian": "Under the fully proved218 restrictions, center the generic affine parameter, not the original ring. The complete cubic determinant coefficient is M(6h delta_hh-F_hhh+6delta_h)/(6Ch), including every constant-column contribution. Since M is nonzero, F_hh-6h delta_h=lambda is a joint constant. The complete quadratic coefficient, reduced only by this prior gate, separates a radial constant term and a radial linear term. Their exact vanishing gives h^2 F_hhhh-2hF_hhh+2F_hh-2lambda=0 and the displayed lower differential equation for n0. Neither coefficient is replaced by a leading-column shortcut.",
+    "exact_constant_form": "Differentiating explicit first integrals and using the exact joint constant field yields F=f0+f1 h+lambda h^2/2+mu h^3/6+nu h^4/12 and delta=d0+mu h/6+nu h^2/12, with complex coefficients. The remaining equation yields n0=N0+g1 lambda h/2+N2 h^2+(g1 nu/2+g2 mu)h^3/3+g2 nu h^4/4. These are complete integrations in the actual finite coefficient field, not an assumption that its elements are rational functions of h.",
+    "original_ring_conic_contradiction": "For T=X+kappa-lambda/3, define Acal=rho(s^2/C+T), Bcal=h Acal+s and Dcal=h^2 Acal+2hs+C/rho. The complete original coordinate vector factors as Q=e+v0 Acal+v1 Bcal+v2 Dcal, and Bcal^2-Acal Dcal=-CT. The determinant of the coefficient matrix (v0,v1,v2) is the monic quadratic (X+d0)(X+lambda/2-d0)-f0 nu/12, nonzero for every allowed choice of the constants. Thus three generically invertible affine-linear combinations of Y,Z,W over C(X) satisfy a nonzero quadratic relation. Exact denominator clearing, or the explicit triangular complex-coefficient shears with both inverse orders, produces a nonzero original polynomial relation. This contradicts the original independence of X,Y,Z,W and excludes the conic. The localized quantities Acal,Bcal,Dcal are not declared ambient coordinates.",
+    "restricted_recognition": "The synthesis assumes an actual globally sliced B=C[X,Y,Z,W]=A[u], E=partial_u, exact E-degrees(1,1,2,2), and the entire initial evaluation kernel(ZW-X^2Y^2). The selected chart, exact coefficient field, whole-line return and scalar calibration are retained actual inputs. Zero return is excluded by217; its nonzero-return projection is a line or conic;219 excludes the conic. The retained original-ring line proof supplies an ambient E-invariant coordinate and A isomorphic C^[3]. This is a conditional recognition theorem, not a nonvacuity or existence assertion for the supplied sector.",
+    "remaining_scope": "A single leading relation does not supply the full initial kernel. No minimum frame, unit speed, rational coefficient field, arbitrary-entry theorem, recognition of other initial ideals, human review, formal verification or novelty clearance is claimed. Unrestricted complex-threefold cancellation remains unresolved under the unconfirmed interpretation of the professor's intended question. Separate220 proof work and any later strengthening are excluded;218 is not expanded retroactively."
+  },
+  "goal_audit": {
+    "current_progress": "The complete conic exclusion and its synthesis close the retained conditional recognition statement for the supplied full mixed-quartic initial kernel. Three independent finite-algebra methods passed in one canonical execution through its original live handle. The unrestricted goal is not achieved.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "actual_globally_sliced_exact1122_frame_required": true,
+    "entire_principal_initial_kernel_required": true,
+    "single_leading_relation_sufficient": false,
+    "actual_good_swap_rebuilt_chart_bridge": true,
+    "complete_cubic_and_quadratic_Jacobian_coefficients_used": true,
+    "all_constant_column_contributions_retained": true,
+    "exact_joint_constants_used": true,
+    "coefficient_field_rationality_assumed": false,
+    "generic_parameter_centering_asserted_ambient": false,
+    "localized_structural_parameters_asserted_ambient": false,
+    "generically_invertible_affine_combinations_over_CX": true,
+    "cleared_original_polynomial_relation_nonzero": true,
+    "conic_branch_excluded": true,
+    "supplied_full_mixed_kernel_conditionally_recognized": true,
+    "ambient_E_invariant_coordinate_via_retained_line_proof": true,
+    "supplied_sector_nonvacuity_or_existence_claim": false,
+    "supplied_sector_universally_empty_claim": false,
+    "unit_speed_assumed": false,
+    "arbitrary_entry_proved": false,
+    "other_full_initial_kernels_recognized_here": false,
+    "all_height_two_initial_kernels_recognized": false,
+    "global_minimum_profile_claim": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/mixed-conic-final-jacobian-exclusion-pass219-working.md",
+      "sha256": "ef05204e0d76f7aed4203d011b841f0ddaf90109aa66162758a1f4779ef353b6",
+      "bytes": 12230,
+      "lines": 371,
+      "equations": 26,
+      "test_methods": 0
+    },
+    {
+      "path": "research/mixed-quartic-initial-kernel-recognition-synthesis-pass219-working.md",
+      "sha256": "8d5bc2a9ccc6eca6d92ed8f9da15af12b76afa6bc724239731f90ed4dbaf076d",
+      "bytes": 6776,
+      "lines": 150,
+      "equations": 5,
+      "test_methods": 0
+    },
+    {
+      "path": "research/mixed_conic_structural_exclusion_controls_pass219.py",
+      "sha256": "2a40fa8630f783c336c8a8e43db81bbad07890f6940b6868ed0f2c7baf325aa8",
+      "bytes": 11701,
+      "lines": 312,
+      "equations": 0,
+      "test_methods": 3
+    }
+  ],
+  "canonical_executions": [
+    {
+      "suite": "mixed_conic_structural_exclusion_controls219",
+      "path": "research/mixed_conic_structural_exclusion_controls_pass219.py",
+      "pre_execution_read": "General complete author EOF2ebdee/metadatac5bba8; Root full savedcc6cbb+09d9b1/hashffe916; Geometry completece0324+831895/hash5a790e. These saved-source reads preceded the sole canonical execution. Jet's complete independent checker read16c494 occurred afterward and is not a pre-run review.",
+      "initial_output": "c33dc7",
+      "session_id": 54759,
+      "terminal_output": "83ec35",
+      "methods": 3,
+      "unittest_seconds": 2.034,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": false,
+      "pending_execution_handle": false,
+      "completion_via_original_handle": true,
+      "original_handle_poll_count": 1,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/mixed_conic_structural_exclusion_controls_pass219.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "shell": "/bin/zsh",
+      "login": false,
+      "initial_yield_time_ms": 1000,
+      "initial_max_output_tokens": 6000,
+      "completion_poll": {
+        "tool": "write_stdin",
+        "session_id": 54759,
+        "chars": "",
+        "yield_time_ms": 1000,
+        "max_output_tokens": 6000
+      },
+      "completion_note": "Initial response c33dc7 returned live session54759. Root resumed that original handle once; terminal83ec35 reported three tests in2.034s, OK and exit code zero. One saved execution only."
+    }
+  ],
+  "tagged_equations": 31,
+  "total_new_test_methods": 3,
+  "reviews": {
+    "main_proof": "Root complete authorae2828+d196d2/hashe3d513 at the base version, then the exact five-line normalization-only deltae00475/hash5e84df at finalef05204e...9ef353b6. General complete final21933b+fad099/metadatac5bba8 with fresh bridgeb269d0. Geometry complete basebe4066+ca18aa, exact final delta3fcc5e/hasha88c15/metadata194ac0. Jet complete base52309a/hash329c47, exact final deltaf9c03f/hash876bfa, and fresh final metadata954971. Every equation was unchanged in the final prose delta. The independent audits reconstruct the complete determinant coefficients, exact integrations, full constant column, generic matrix determinant and nonzero cleared original relation.",
+    "independent_reconstructions": "Jet independently reduces the centered columns to A2=(rho/C)c, A1=c_h, A0=rho T0 c+(C/rho)u+e0. The identity2u-c_hh=-(6h delta_hh-F_hhh+6delta_h)(0,-h^2,1)/(6h) gives the full J3. After its gate,2u=c_hh and the full J2 is M(delta_hhh/(2rho)+b/C), with(e0)_h=b(0,-h^2,1). This separately retains the n0-dependent constant-column term. Geometry unsaved generic-column96c82d and General unsavedc2d0fe,b22a15,ebbe54 through original session6277/terminal48b14a,and b91b63 were exploratory reconstructions, not extra saved-suite executions.",
+    "synthesis": "Root complete a95a0a/hash4a681f. Geometry complete815bc1/hash30f90b/count289e51, with bridge12edf3/4dc10b. General complete49a938/hash840578, fresh retained zero-return86c99f,line da3efe,conic b269d0. Jet complete452b63/final metadata954971. The supplied-frame statement, entire initial ideal, actual chart and fresh normalization, exhaustive line/conic alternatives, original-ring contradiction and published line endpoint compose without an arbitrary-entry or nonvacuity claim.",
+    "checker": "General complete final author2ebdee/metadatac5bba8, Rootcc6cbb+09d9b1/hashffe916 and Geometryce0324+831895/hash5a790e are pre-run. Jet full independent16c494 is explicitly post-run. The standalone source imports only unittest and SymPy. It rebuilds the raw map from full218 formulas, enumerates all five cubic and all five quadratic determinant contributions, imposes only the preceding derivative gate, verifies exact first-integral identities, and checks the full structural factorization and both actual triangular-shear inverse orders. No retained checker or solver is imported.",
+    "primary_and_retained_scope": "The final conic contradiction adds no external recognition theorem. Its synthesis uses the retained217 original-ring line endpoint. General's fresh primary DG4353view0/4354view0 and BGL4354view1 accompany the fresh line bridge audit; they are reported primary statement/applicability checks, not new219 proof artifacts or an original Wang-PDF read claim. The earlier217 packet records its own primary reviews.",
+    "metadata": "Jet fresh read-only954971 confirms all three current source hashes/counts:371+150 proof lines,31 tagged equations and three methods. Predecessor218 is held at checkpoint77a37916...16562aab and verification206fa75d...e71c4d3. Source historical status prose is not retroactively rewritten. Separate220 work, mutable indices and unsaved exploratory calculations are outside the record and canonical-execution counts."
+  },
+  "proof_dependencies": {
+    "retained": [
+      "research/weight-four-universal-chart-potentials-pass184-working.md",
+      "research/rank-two-mixed-ratio-zero-return-exclusion-pass217-working.md",
+      "research/rank-two-mixed-ratio-projection-reduction-pass217-working.md",
+      "research/rank-two-mixed-ratio-quadratic-graph-reduction-pass217-working.md",
+      "research/rank-two-mixed-ratio-line-recognition-pass217-working.md",
+      "research/mixed-conic-radial-constant-leading-ratios-pass218-working.md",
+      "research/mixed-conic-next-jacobian-constant-pass218-working.md",
+      "research/mixed-conic-zero-M-jacobian-exclusion-pass218-working.md",
+      "research/mixed-conic-lower-potential-radial-restrictions-pass218-working.md"
+    ],
+    "scope": "Actual field return, scalar calibration, exact joint constants, the217 branch alternatives and original-ring line recognition are retained written inputs. The218 cofactor-order strengthening is consistent but not needed for the final structural contradiction. The conditional synthesis does not infer sector existence."
+  },
+  "finite_control_scope": "Three finite methods independently rebuild the entire raw coordinate map from218, enumerate the complete cubic/quadratic Jacobian coefficient convolutions with arbitrary formal function jets, check the exact differential identities and polynomial forms used in integration, verify the complete structural factorization, and verify both orders of the stated actual complex-coefficient triangular shears and a uniformly nonzero cleared relation. They do not prove actual-chart existence, exact constant fields, completeness of algebraic integration, polynomial-ring independence, the published line recognition theorem, arbitrary entry or global cancellation.",
+  "next_bounded_task": "Choose a separate bounded remaining initial-kernel or actual-entry investigation. Preserve the supplied-frame/full-kernel limitations and keep any later sector strengthening in its own packet. No219 rerun is authorized."
+}

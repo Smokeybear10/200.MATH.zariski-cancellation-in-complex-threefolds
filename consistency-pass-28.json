@@ -1,0 +1,356 @@
+{
+  "checked_at_utc": "2026-09-13 09:08:07 UTC",
+  "all_passed": true,
+  "claim_count": 277,
+  "last_claim": "Z277",
+  "test_method_count": 634,
+  "suite_count": 52,
+  "new_checker_imports": {
+    "research/translation_frame_checks_pass28.py": [
+      "unittest",
+      "sympy"
+    ],
+    "research/canonical_top_checks_pass28.py": [
+      "unittest",
+      "sympy"
+    ],
+    "research/changed_fiber_surface_checks_pass28.py": [
+      "unittest",
+      "sympy"
+    ]
+  },
+  "current_local_links_checked": 174,
+  "report_line_count": 361,
+  "report_numbered_equations": 14,
+  "report_footnotes": 6,
+  "artifact_count": 16,
+  "artifacts": [
+    {
+      "path": "README.md",
+      "sha256": "f0a924008a0afb6b47a31e56f31da1eadbe79e34c9e24ddb1eeb6c2e56922f3d"
+    },
+    {
+      "path": "research-ledger.md",
+      "sha256": "edbff3f196bd4c7cc6ed68c8d5bb74b0e88de277464e2b5ff3b3f3fb1c705e1f"
+    },
+    {
+      "path": "claims.json",
+      "sha256": "dd66111b397dd2ba6ae7cb10e7cfeef3edad5760576f1810aa90d74ebe38c7d3"
+    },
+    {
+      "path": "experiment-manifest.json",
+      "sha256": "56aedbf6c9f072be2142c2b9d9dac1a95d18508305dea068d6a17cf710a32ed2"
+    },
+    {
+      "path": "verification-pass-28.json",
+      "sha256": "91e92f8fc4c08cfe548d1c9de271d115a1042b7aeda429e0fa25f81f997641b4"
+    },
+    {
+      "path": "deep-pass-28.md",
+      "sha256": "500903fd9c7111f7450194f4a04dc021b2749625ca4b8f8a11b97fbd0736b156"
+    },
+    {
+      "path": "research/finite-lie-recognition-pass28.md",
+      "sha256": "46649aa7b02823b22c48a0ed44a991c9adaf41a16019132c12f1b4da20c9733a"
+    },
+    {
+      "path": "research/translation-frame-pass28.md",
+      "sha256": "49eda6a56009b2511ea4715eaf15ac7fa03c1c9a4ed90cafa1a6343eeba6b905"
+    },
+    {
+      "path": "research/canonical-top-pass28.md",
+      "sha256": "39b7f3442ae68b9e390ba4de7405ca4aa887013334f54e2e6ec546dc540a165d"
+    },
+    {
+      "path": "research/changed-fiber-surface-pass28.md",
+      "sha256": "9e845ba1a480121ca5c21999e0b148200656b84fd5d3a7c1fe35fb710dae3cbf"
+    },
+    {
+      "path": "research/proof-audits-pass28.md",
+      "sha256": "6324b953c0eee8851672b3fa105bcaaa91b3b615251e4b063dce0a9504af4dfd"
+    },
+    {
+      "path": "research/translation_frame_checks_pass28.py",
+      "sha256": "97ebacaec48e038690ecb6f91a2d61c83e791cbc68a461b89d741fc26aa00270"
+    },
+    {
+      "path": "research/canonical_top_checks_pass28.py",
+      "sha256": "879d5930ab417c2fce9851131ff22c1e1056dd2dc829cc4eaa971d1dedb6ec24"
+    },
+    {
+      "path": "research/changed_fiber_surface_checks_pass28.py",
+      "sha256": "7ed3fecb6dedec6a324c948c8e9e57a4d0897643b7719eb362af4a61d367783e"
+    },
+    {
+      "path": "research/run_regression_pass28.py",
+      "sha256": "2204f6ffd050db7fd26c5e2e5f96bc79f1bf749fbbf21a8580653fb316d1e70b"
+    },
+    {
+      "path": "research/consistency_checks_pass28.py",
+      "sha256": "f67f5235c0df11507c5add97803ff2c88a65efdae0981ea0d6ea1115e5a7e6e7"
+    }
+  ],
+  "suite_sources": [
+    {
+      "path": "verify_exact.py",
+      "test_methods": 19,
+      "sha256": "e48cba8df391f50e605429a5dd8d3af4f462dd89f074026387f18799be396566"
+    },
+    {
+      "path": "verify_extension.py",
+      "test_methods": 16,
+      "sha256": "7516187695ebad26ffaa6da2701782d3b91b13df26170aab8a789db91988ce78"
+    },
+    {
+      "path": "verify_first_pole.py",
+      "test_methods": 16,
+      "sha256": "22e96fd993612cf1d52ea224ddc0439c62678d6c49db862bf1cecbf94e5d6af4"
+    },
+    {
+      "path": "verify_nonlinear.py",
+      "test_methods": 18,
+      "sha256": "8d1ba092b8a36ff26d7c47bfacc0e79c89c35384fac4c3b54abcae7d0c37e56e"
+    },
+    {
+      "path": "verify_higher_poles.py",
+      "test_methods": 9,
+      "sha256": "353a3b79f45f5e1c2ca745170d2a6af1a07124a190638ea3f9b28e1467b5e040"
+    },
+    {
+      "path": "verify_outside_coefficients.py",
+      "test_methods": 3,
+      "sha256": "9cb71cc689d40a79184c5684dc5d9e0f6e1fcc5590f83265b60315db344ee893"
+    },
+    {
+      "path": "research/primitive_classifier.py",
+      "test_methods": 17,
+      "sha256": "f6f5b0c122193d326b5bbb06cedbcecc5ea9adef041a84cf30a43d968bbb8992"
+    },
+    {
+      "path": "research/full_coefficient_classifier.py",
+      "test_methods": 9,
+      "sha256": "a71b727263069cf9aeb23c7ed48fb91e02856e1b98ebd7f68fc0b4960e8e7be7"
+    },
+    {
+      "path": "verify_global_filtration.py",
+      "test_methods": 19,
+      "sha256": "51dd6ce593b9f34f9b34b4cf36f2fe9be521dce4e116592d29bf52691e194e7b"
+    },
+    {
+      "path": "verify_linear_variable.py",
+      "test_methods": 9,
+      "sha256": "872c994232d4a9565f6eb58f3e970fc459f8a7347f26e6a692624966b27d6f50"
+    },
+    {
+      "path": "verify_quadratic_pencils.py",
+      "test_methods": 17,
+      "sha256": "a3b0347dec79a8334e402aee713f965f92f44e07e8731a351c91d5622fde472b"
+    },
+    {
+      "path": "verify_quadratic_coefficients.py",
+      "test_methods": 8,
+      "sha256": "0d6b2561e988f46407404f5516f132bb9418dfe673e3c24469ea1ff859f2a274"
+    },
+    {
+      "path": "verify_repeated_crossing.py",
+      "test_methods": 15,
+      "sha256": "c796f5a1927e4583dc06eaefc7bd2007834a0cb95fb9e292f49b85311b33fa42"
+    },
+    {
+      "path": "verify_central_arrangements.py",
+      "test_methods": 14,
+      "sha256": "190264c6d82d7a28e6f6681c31467aacee0b714ecd3f3321fcca9124472fb140"
+    },
+    {
+      "path": "verify_quadratic_obstructions.py",
+      "test_methods": 13,
+      "sha256": "d8310b372b2c2986e072af4c18e0400647760a5ae7c17fa8b05f9172863e7da1"
+    },
+    {
+      "path": "verify_torsion_monodromy.py",
+      "test_methods": 6,
+      "sha256": "ff55aa1f01c351f07d496aeb2b7ce4944c18de407d7f81e494f110b739bd4b78"
+    },
+    {
+      "path": "verify_two_power_slices.py",
+      "test_methods": 17,
+      "sha256": "f09204b7efa7ff8cf4b3848883f8885941dcdbcd683a904ff1cf74885775aa37"
+    },
+    {
+      "path": "verify_intrinsic_quotients.py",
+      "test_methods": 12,
+      "sha256": "3c00bae6b1083a2e104bb0e39eb042013acd02bc0119a3b7fe1a63754abd8047"
+    },
+    {
+      "path": "research/frame_height_checks.py",
+      "test_methods": 16,
+      "sha256": "d9f3d6b53dc19f9b169184e170fb0656dc83df89e08a30f2de52e05055efa882"
+    },
+    {
+      "path": "research/height_eight_algebra_checks.py",
+      "test_methods": 7,
+      "sha256": "2c2435e4c2e32acba93bc786c8585fcb77a698f1e2d42890fa36bf7d52c786ac"
+    },
+    {
+      "path": "research/mixed_height_checks.py",
+      "test_methods": 22,
+      "sha256": "70482d888a78f3616b3c094c28551220597f83f0202e0bcb2f0ed7c8d577efff"
+    },
+    {
+      "path": "research/projective_plane_checks.py",
+      "test_methods": 25,
+      "sha256": "7c0e0102a293e08580467c6c7262d723d8b3758f37787c71005f8a20757f13a3"
+    },
+    {
+      "path": "research/invariant_mixing_verifier.py",
+      "test_methods": 23,
+      "sha256": "74c0fd012c783280379ae1067a6739e84219f33c39bca8b35dc0811d1b8549b7"
+    },
+    {
+      "path": "research/invariant_slice_checks.py",
+      "test_methods": 22,
+      "sha256": "38ce4c202a3bcae92610bf8614922c02ac24471b77bf5c2720a9f70acb03df37"
+    },
+    {
+      "path": "research/rank_three_image_checks_pass17.py",
+      "test_methods": 8,
+      "sha256": "99a32c624bd0e711c4014455635e5cc73e5a48c2f29869a3000e956db413fe85"
+    },
+    {
+      "path": "research/nonreduced_jet_checks.py",
+      "test_methods": 18,
+      "sha256": "89f39064bad2372b2d8a0ae163d83f3cc0366d4d0f1af5330028a4faf8ffa190"
+    },
+    {
+      "path": "research/general_jet_lift_checks.py",
+      "test_methods": 8,
+      "sha256": "7bbf4673094fa92d673e27f4c4ac2d40d4e5c11b568759b35f32ac20bafd10f6"
+    },
+    {
+      "path": "research/polynomial_fiber_checks_pass18.py",
+      "test_methods": 8,
+      "sha256": "e341cf2a73f33aeac54c341c8f48309dc04db2b2fcf549509d1d20f1f07b9dae"
+    },
+    {
+      "path": "research/rescaling_curve_controls_pass18.py",
+      "test_methods": 10,
+      "sha256": "1288701ab3bbf4633806a666b99735380639b0bd01735cc985362361902a48a5"
+    },
+    {
+      "path": "research/global_bridge_checks_pass19.py",
+      "test_methods": 12,
+      "sha256": "7551407dfc7de79ce16264a457d1f805d0ffa9193e69e14631d0bee46dd7bdf2"
+    },
+    {
+      "path": "research/iterated_local_slice_checks_pass19.py",
+      "test_methods": 4,
+      "sha256": "40fe8894c63ff05e0ee0f7b1df1804260cdd77d8e1ff78ced2e05bd13e01f458"
+    },
+    {
+      "path": "research/multiplier_surface_controls_pass20.py",
+      "test_methods": 11,
+      "sha256": "b45183d4f8a67f9b0a90616fd6e54e7b581001d69c9c0587ae6775cc1e81ab3b"
+    },
+    {
+      "path": "research/nonunit_local_slice_checks_pass20.py",
+      "test_methods": 6,
+      "sha256": "dd7a008456eb0bce92ead8fcc0fdffebe7d91c1b117eb95fc8a75aaf16b4cf28"
+    },
+    {
+      "path": "research/primitive_bridge_checks_pass21.py",
+      "test_methods": 14,
+      "sha256": "db79d129fac7a8a98b4c2425bee53ba873b141c72c7f703cf24ded83ab812cc2"
+    },
+    {
+      "path": "research/radical_nonlinear_checks_pass22.py",
+      "test_methods": 15,
+      "sha256": "d38357919d81a67101343f9653d301c94a1461d9b2b1c31035d654311941d4cc"
+    },
+    {
+      "path": "research/nodal_generators_checks_pass22.py",
+      "test_methods": 7,
+      "sha256": "6f94b9a1136aa4afc1cdaa68792c21caedaf2be4f2ff84f148c4b8eb1154e72b"
+    },
+    {
+      "path": "research/polynomial_coefficient_checks_pass23.py",
+      "test_methods": 14,
+      "sha256": "282e330534326df4d47e3b582239383f42b6f0e11182563a18f00063e1840547"
+    },
+    {
+      "path": "research/nodal_elimination_checks_pass23.py",
+      "test_methods": 7,
+      "sha256": "c3fff7f0186db9c6f496e43573766318712de135a6386c9b42a2c28a1866d88b"
+    },
+    {
+      "path": "research/reduction_controls_pass24.py",
+      "test_methods": 23,
+      "sha256": "bdd312c1688558a400fdc77651b33199791267223d8f4c28f30aa3759bf5c86f"
+    },
+    {
+      "path": "research/nodal_hypersurface_checks_pass24.py",
+      "test_methods": 8,
+      "sha256": "d7f71f73785b211907e6d1bd760aa084d48ca0ce1e797448fc2e2f83eab9061a"
+    },
+    {
+      "path": "research/commuting_leading_controls_pass25.py",
+      "test_methods": 16,
+      "sha256": "2560e88adef455c4052012397111d39e3ba918268a968190c87fdb37999e9e95"
+    },
+    {
+      "path": "research/coupled_homotopy_checks_pass25.py",
+      "test_methods": 7,
+      "sha256": "845905d14dc6dec8f8be91130169a70013ad2ae91981b4e2d9c06e4bb66eafe2"
+    },
+    {
+      "path": "research/ambient_lifting_checks_pass25.py",
+      "test_methods": 5,
+      "sha256": "9cff346c8b15c7c95cdf650ade2debb601fc50f99dbf7993ff51cda20ed65bb0"
+    },
+    {
+      "path": "research/simultaneous_frame_checks_pass26.py",
+      "test_methods": 12,
+      "sha256": "7408effeb27ffbdb10629de24f28ff4a7c102aba45ac455e324e3e3cda31b2b9"
+    },
+    {
+      "path": "research/moving_plane_lie_checks_pass26.py",
+      "test_methods": 8,
+      "sha256": "c6549ec187041267a516228e62975b1737ab7253f9beb77cba8e255d6214491d"
+    },
+    {
+      "path": "research/actual_surface_checks_pass26.py",
+      "test_methods": 7,
+      "sha256": "1cb373a06af10d198f55e0199038ba11a69fa7aaddab30510d481e3f27d76f7e"
+    },
+    {
+      "path": "research/relative_completion_checks_pass27.py",
+      "test_methods": 11,
+      "sha256": "acf4d0951311f2b9b853b00eaef92962c74d855575f422ff056de384f9e38324"
+    },
+    {
+      "path": "research/primitive_top_checks_pass27.py",
+      "test_methods": 8,
+      "sha256": "3d9b9f194112234d6d372ec9b3f1fc1427ec3a1c9d3081fcb1aa0394c59506a8"
+    },
+    {
+      "path": "research/noninvariant_surface_checks_pass27.py",
+      "test_methods": 6,
+      "sha256": "b5839ce9ed4c3c7d24927074d41620bb81d61d787cdf78e490e8c2f2602d33a8"
+    },
+    {
+      "path": "research/translation_frame_checks_pass28.py",
+      "test_methods": 10,
+      "sha256": "97ebacaec48e038690ecb6f91a2d61c83e791cbc68a461b89d741fc26aa00270"
+    },
+    {
+      "path": "research/canonical_top_checks_pass28.py",
+      "test_methods": 12,
+      "sha256": "879d5930ab417c2fce9851131ff22c1e1056dd2dc829cc4eaa971d1dedb6ec24"
+    },
+    {
+      "path": "research/changed_fiber_surface_checks_pass28.py",
+      "test_methods": 7,
+      "sha256": "7ed3fecb6dedec6a324c948c8e9e57a4d0897643b7719eb362af4a61d367783e"
+    }
+  ],
+  "scope": "JSON, AST counts, flags, whitespace, links, numbering and SHA256 integrity. Not mathematical proof verification."
+}

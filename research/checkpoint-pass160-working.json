@@ -1,0 +1,101 @@
+{
+  "pass": 160,
+  "status": "cusp_exact_field_degree_exhaustion; nongraph_fifth_power_necessary_condition; zero_r_generic_affine_parameter; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/cusp-nongraph-quartic-restriction-pass160-working.md",
+      "sha256": "23b4b906dd7c0f33be37440b98216f2783270ab5a7b0659ca2e115c50a81c630",
+      "bytes": 16294,
+      "lines": 402,
+      "equations": 13,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp-zero-r-generic-graph-pass160-working.md",
+      "sha256": "522b99894adc6df3ff131560174d58efa3a577b9f157a17e269071893db16038",
+      "bytes": 6806,
+      "lines": 196,
+      "equations": 10,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp_quartic_restriction_controls_pass160.py",
+      "sha256": "e7072227344036d9581177e96a75ca166a646aa9c93a927e3554203c5cb15421",
+      "bytes": 9518,
+      "lines": 230,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/cusp_zero_r_controls_pass160.py",
+      "sha256": "3874c8c12ed14e49f76e6d742e22795484fa4b1bae70dba6da5a64b7ac826910",
+      "bytes": 6083,
+      "lines": 165,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/verification-pass160-working.json",
+      "sha256": "01e8caf4c8706f28a83b76f8e886da088f8316a271164ac2c0e7293c42c6a4f1",
+      "bytes": 6919,
+      "lines": 105,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "results": {
+    "nongraph": "For the actual159 cusp chart with r=k_rho!=0 and deg_v y>=2, selected-factor159 establishes whole-polynomial association. Exact implicit degree, one rational infinity point and characteristic-zero AMS degree divisibility force degPhi4 and degrees(y,theta)=(2,4). An elementary odd-part argument gives literal Phi=kappa(V-Q(U))^2+lambda U+nu over L with degQ2 and kappa*lambda!=0.",
+    "ode": "The literal coefficient identities force r_rho0, r_tau!=0, Delta=r_tautau/2-r_tau²/r!=0 and N=n_rhorho=-r Delta²/(2r_tau)!=0. A rho derivative of the cubic coefficient gives the third-order equation. With chi=1/r it becomes4chi'chi'''-3chi''²=0. A finite algebraic fourth-root adjunction and joint constants C yield1/r=C0+C1(tau-C2)^5 with C1!=0 and N=10C1(tau-C2)^2/[C0+C1(tau-C2)^5]^3.",
+    "zero_r": "For r=0,s=n_rho!=0, theta=P(y) with P cubic. The next determinant coefficient gives w=Q(y)+h, Q_U=P_tau+P_U P_rho, by formal-variable polynomial integration. Whole L[y,w]=L[v] forces y affine. The constant coefficient gives R_tau+P_U R_rho=a³/(s*y_v). Its U8 term forces partial_rho²(1/s²)=0, with integration constants only in ker_L partial_rho.",
+    "other_zero_r": "When r=s=0, chart159 already makes y,z,sigma,theta constant over L and w an affine generic parameter. A separate actual r0,s1 cusp frame with both inverse orders shows the nonzero-s branch exists and is already recognized by coordinate slice X.",
+    "remaining": "This160 packet does not exclude the fifth-power nongraph branch. The parity/coefficient contradiction is separate161. Neither generic affine parameter nor generic plane automorphism clears integral denominators, recognizes arbitrary cusp frames, supplies unrestricted coordinate entry, or solves cancellation."
+  },
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass159-working.json",
+    "sha256": "8ba5e12078436403058c0295254ff9e78e4c897425a24642af61a589ecafa225",
+    "records": 1033
+  },
+  "goal_audit": {
+    "previous_goal_turn": "Status-only check with live checker agent, no new mathematical result.",
+    "current_continuation": "Progress: two complete160 written arguments with independent reconstructions and six terminal exact tests. Stronger161 parity exclusion separately under review.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "chain_record_count_after_including_this_checkpoint": 1039,
+  "record_count_convention": "1033 prior records plus two proof notes160, two checkers160, verification160 and this checkpoint. Live indexes and all161 work excluded. Counts do not measure significance.",
+  "verification": {
+    "capture": "research/verification-pass160-working.json",
+    "canonical_terminals": [
+      "7f4ac8",
+      "1ae794"
+    ],
+    "methods_by_run": [
+      3,
+      3
+    ],
+    "seconds_by_run": [
+      0.184,
+      0.291
+    ],
+    "exit_codes": [
+      0,
+      0
+    ],
+    "total_methods": 6,
+    "numbered_equations": 23,
+    "pending_execution_handle": false
+  },
+  "next_bounded_task": "Finish separate161 constant-determinant parity argument and highest-rho coefficient contradiction for the fifth-power nongraph branch. If it survives review, synthesize exact generic affine-degree consequences, then address the unresolved integral denominator and actual coordinate-change problems. Do not mark cancellation solved."
+}

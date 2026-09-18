@@ -1,0 +1,48 @@
+{
+  "kind": "Fresh targeted78 capture, not a full regression",
+  "started_at_utc": "2026-09-14T07:26:38.957997+00:00",
+  "finished_at_utc": "2026-09-14T07:26:39.560741+00:00",
+  "wall_seconds": 0.602369,
+  "total_suites": 1,
+  "total_test_methods": 4,
+  "all_passed": true,
+  "new78_suites": 1,
+  "new78_test_methods": 4,
+  "fresh_full78_regression_performed": false,
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "source_hashes_before": {
+    "research/nice_binary_ramification_checks_pass78.py": "472b2d432e92cb48fca192dff7c64ecacb3f400be13c5e6e436f6507fccc7809",
+    "research/run_targeted_pass78.py": "c695ac5284dc83ef5f9ddee5e7ac517c66e19ab77c01867f7412d7bb58623fa6",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_hashes_after": {
+    "research/nice_binary_ramification_checks_pass78.py": "472b2d432e92cb48fca192dff7c64ecacb3f400be13c5e6e436f6507fccc7809",
+    "research/run_targeted_pass78.py": "c695ac5284dc83ef5f9ddee5e7ac517c66e19ab77c01867f7412d7bb58623fa6",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_inputs_unchanged": true,
+  "central_registry_integrated": false,
+  "general_cancellation_verified": false,
+  "scope": "Finite exact examples, inverse maps, ideal reductions and operator identities. Not verification of universal proofs, primary geometric inputs, historical novelty or cancellation. Repeated runs are not additional test methods.",
+  "suites": [
+    {
+      "path": "research/nice_binary_ramification_checks_pass78.py",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/nice_binary_ramification_checks_pass78.py"
+      ],
+      "exit_code": 0,
+      "expected_methods": 4,
+      "test_methods": 4,
+      "all_passed": true,
+      "unittest_seconds": 0.28,
+      "output": "test_actual_conic_wronskian_and_nonparallel_second_iterate (__main__.NiceBinaryRamificationChecks.test_actual_conic_wronskian_and_nonparallel_second_iterate) ... ok\ntest_binary_minor_independence_and_cauchy_binet (__main__.NiceBinaryRamificationChecks.test_binary_minor_independence_and_cauchy_binet) ... ok\ntest_formal_two_by_two_euler_matrix (__main__.NiceBinaryRamificationChecks.test_formal_two_by_two_euler_matrix) ... ok\ntest_ramified_plane_derivatives_genuine_pole_and_socle (__main__.NiceBinaryRamificationChecks.test_ramified_plane_derivatives_genuine_pole_and_socle) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.280s\n\nOK\n",
+      "output_sha256": "e4397482e8089c4d596eba7c89ae90eb06974e03c78fdf4ab8e12daadd6e7c1e"
+    }
+  ]
+}

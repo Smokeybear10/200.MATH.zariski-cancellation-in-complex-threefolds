@@ -1,0 +1,283 @@
+{
+  "pass": 113,
+  "status": "proved_conditional_whole_double_smooth_coefficient_and_maximal_residual_exclusions_plus_all_degree_completion_descent_not_cancellation",
+  "working_target": "Unconfirmed intended complex-threefold cancellation: A[u] isomorphic to C^[4] implies A isomorphic to C^[3]. Literal emailed A^1 conclusion has a dimension mismatch for general r.",
+  "summary": "In the supplied actual proper whole-double branch, P is a power of one analytically irreducible prime, smooth h is excluded, and J=(a,b)=m is excluded. Scalar P-power contraction and completed invariant-kernel rigidity prove every finite-degree kernel equals F_j tensor_R Rhat, including zero first normal action. The proper branch with nonzero h in m² and J strictly contained in m, formal hidden-parameter existence, arbitrary-frame entry and general cancellation remain open.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass112-working.json",
+    "sha256": "04d67d874aa3a2f85ce53d97789ed63ac5331251751f623ca3fa4d7fdbeaf52b",
+    "frozen_records": 702,
+    "full_revalidation_evidence": "58614f",
+    "all_unchanged": true,
+    "preceding_goal_turn": "verified wait: user check-in polled identified live agents through collaboration.list_agents, and read active goal/current files; no new mathematical conclusion.",
+    "previous_completed_research_turn": "progress:112 proved the proper whole-double product-index and uniform conormal restrictions; pending113 work was completed in this continuation."
+  },
+  "chain_record_count_after_including_this_checkpoint": 709,
+  "record_count_convention": "702 predecessor frozen records + six current artifact records + this checkpoint =709. README and research-ledger stay live and excluded. Repeated executions and AI reviews do not add mathematical coverage.",
+  "canonical_verification": {
+    "path": "research/verification-pass113-working.json",
+    "tool_evidence": "707957",
+    "suites": 4,
+    "test_methods": 6,
+    "new_methods": 2,
+    "retained_methods": 4,
+    "elapsed_seconds": 1.599617709,
+    "unittest_seconds": 1.3,
+    "complete_output_sha256": "5777e447f3326b0c16cb8c2386919d5c2dde6d081dd393b2476b85ff0207064f",
+    "all_passed": true,
+    "scope": "New Hensel-shear coefficient identities and finite root lifting, plus an optional conic slice control. Retained112 conormal/product identities,102 conic module and107 divisor filtration identities. Does not verify actual-frame hypotheses, integral topology, finite normalization, infinite completion, the written special-case exclusion or invariant-kernel theorem, arbitrary-frame entry, cancellation or novelty."
+  },
+  "author_executions": [
+    {
+      "author": "Jet",
+      "command": "/opt/anaconda3/bin/python research/whole_double_hensel_slice_checks_pass113.py",
+      "evidence": "5480af",
+      "methods": 2,
+      "unittest_seconds": 0.113,
+      "tool_wall_seconds": 0.367229083,
+      "exit_code": 0,
+      "version_sha256": "876b15e290be3a1c638985fef3cc256308df1bdc6a1a3763b234f67baae54594"
+    }
+  ],
+  "historical_full_verification": {
+    "path": "research/verification-pass75-working.json",
+    "suites": 146,
+    "methods": 1047,
+    "claim_registry_count": 544,
+    "rerun_this_pass": false,
+    "revalidation": "58614f checked frozen hashes and retained counts, not a full execution."
+  },
+  "sources": [
+    {
+      "url": "https://www.math.miami.edu/~kaliman/library/Ka.invent.2004.c%2B.pdf",
+      "title": "Shulim Kaliman, Free C+-actions on C3 are translations",
+      "use": "Actual curve factorization, finiteness and integral quotient homology diagram; repaired96 supplies the supported local lattice deduction.",
+      "root_evidence": [
+        "turn3692view0",
+        "turn3693view0"
+      ],
+      "scope": "Complete selected Lemmas2.1,2.2,3.1 and Proposition3.2 with displayed proofs and diagram. The free-action conclusion and later recognition theorem are not applied."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/0C44",
+      "title": "Normalization of one dimensional schemes, Lemmas33.41.1--2",
+      "root_evidence": [
+        "turn3693view1"
+      ],
+      "use": "Finite local curve normalization; one normalized branch gives a local DVR.",
+      "scope": "Complete selected statements and displayed proofs, not all underlying Nagata/Krull-Akizuki dependencies."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/00MA",
+      "title": "Finite-module completion, Lemma10.97.1",
+      "root_evidence": [
+        "turn3693view2"
+      ],
+      "use": "Finite inclusions stay injective and finite-module completion is exact.",
+      "scope": "Complete displayed statement and proof, not a reproof of Artin-Rees."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/00MB",
+      "title": "Completion flatness, Lemma10.97.2",
+      "root_evidence": [
+        "turn3694view0"
+      ],
+      "use": "Flat completion preserves the actual primitive image ideal regular sequence.",
+      "scope": "Complete displayed statement and proof."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/00IQ",
+      "title": "Krull intersection, Lemma10.51.5",
+      "root_evidence": [
+        "turn3694view1"
+      ],
+      "use": "Injection into completion for the specified domain with nonzero closed fiber.",
+      "scope": "Complete displayed statement and proof."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/09E8",
+      "title": "DVR extensions, Remark15.113.6",
+      "root_evidence": [
+        "turn3694view2"
+      ],
+      "use": "Finite normalized degree-two extension and ramification degree formula.",
+      "scope": "Complete displayed statement and deduction."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0021869307006540",
+      "title": "Masayoshi Miyanishi, Ga-actions and completions, Journal of Algebra319(2008)2845--2854",
+      "root_evidence": [
+        "turn3695search0"
+      ],
+      "use": "Scope comparison only: point-completion kernels may grow.",
+      "scope": "Official abstract only; direct full-text access unavailable. No theorem from the unread paper is applied."
+    },
+    {
+      "url": "https://sci-tech.ksc.kwansei.ac.jp/~kayo/cmn/papers/montreal_revised2.pdf",
+      "title": "Gurjar--Koras--Masuda--Miyanishi--Russell, A1-star-fibrations on affine threefolds",
+      "root_evidence": [
+        "turn3684view0"
+      ],
+      "use": "Comparison with integral, fixed-point-free completion statements, not an input to the current proofs.",
+      "scope": "Selected Example3.3, Lemma3.5, Proposition3.6 and displayed proofs read in the earlier113 segment; full paper not claimed. Neither integral nor fixed-point-free hypotheses hold for the current double."
+    }
+  ],
+  "proof_limits": [
+    "The actual original constant-acceleration quadratic frame, invariant plane, selected-good divisor noncollapse, smoothness, primitive canonical field and exact all-divisor degree classifications remain supplied, not established for an arbitrary cancellation input.",
+    "The unique degree-two normalized branch comes from the repaired96 supported integral diagram on the whole irreducible reduced fiber. It is not asserted for one component of a reducible fiber.",
+    "Algebraic primeness alone does not imply analytic primeness. Finite normalization with one branch is used explicitly.",
+    "A'/pA' is proved a domain; p is not claimed prime in the whole-fiber completion.",
+    "Scalar contraction controls powers of P only and does not identify the whole completion with A' or assert faithful flatness of A' to its completion.",
+    "The smooth-h contradiction uses formal base factorization only. Its coefficient shear need not descend to R or A.",
+    "The J=m corollary excludes that residual ideal only, not every smooth-generator or colength-two primary ideal.",
+    "The completed kernel proof uses the whole C[c]-coefficient chart, nonzero Nc on the double, normality, finite rank-two transverse evaluation and actual primitivity.",
+    "The chosen regular-sequence elements lie in the actual image ideal but need not individually be single N-values.",
+    "All finite-degree descent is to A'=A tensor_R Rhat, not automatically to A with uncompleted coefficients.",
+    "No formal hidden quadratic parameter has been constructed in the remaining proper branch. Its existence would contradict the proved proper-case residue image even after completion.",
+    "Finite tests verify identities and finite instances, not topology, primitivity, all-order lifting, scalar contraction, kernel rigidity, proper-branch exclusion or cancellation.",
+    "Separate AI reconstructions are not human expert review, Lean verification or novelty clearance. No exhaustive new cancellation or statement-level novelty audit was completed."
+  ],
+  "proof_reviews": [
+    {
+      "reviewer": "Root",
+      "scope": "Complete saved ramified113, coefficient113 initial proof and final J=m delta, kernel-rigidity113, new checker, synthesis and canonical capture. Full retained product112, chart112 and repaired96; fixed-scheme92 Sections1--3 only. Canonical four-suite run.",
+      "evidence": [
+        "3aa779",
+        "93a872",
+        "a7d9ad",
+        "dbc454",
+        "9dda55",
+        "e03193",
+        "f5b314",
+        "986589",
+        "b7cb94"
+      ],
+      "canonical_evidence": "707957"
+    },
+    {
+      "reviewer": "General",
+      "scope": "Full repaired96 and107/92 dependencies for unique analytic branch; complete ramified113 and its final delta; all seven initial coefficient equations and final eighth-equation J=m delta; complete seven-equation kernel rigidity and final checker delta.",
+      "evidence": [
+        "78e305",
+        "ad3c99",
+        "67d5cf",
+        "b41d95",
+        "b3dc42",
+        "beb533",
+        "ebf9a7"
+      ],
+      "execution": false
+    },
+    {
+      "reviewer": "Geometry",
+      "scope": "Author complete seven-equation ramified proof and seven-equation kernel-rigidity proof; independent complete initial seven-equation smooth coefficient proof; J=m outline reconstruction.",
+      "evidence": [
+        "b8b3b5",
+        "e27db9",
+        "2d199e",
+        "59fbb7"
+      ],
+      "execution": false,
+      "provenance_note": "Main proof J=m final saved delta covered by Root, General and Jet rather than a further Geometry delta read."
+    },
+    {
+      "reviewer": "Jet",
+      "scope": "Complete ramified113 and final clarification; full initial smooth-h proof and final J=m delta; complete kernel-rigidity113; own new two-method checker final version.",
+      "evidence": [
+        "5c267b",
+        "4ea432",
+        "0ad5ce",
+        "dc4259",
+        "ca9db7",
+        "1ec05a",
+        "e04b24",
+        "e98c2d",
+        "09b9fc",
+        "383b51",
+        "c24c2c"
+      ],
+      "author_executions": [
+        "5480af"
+      ]
+    }
+  ],
+  "next_bounded_tasks": [
+    "Attack the remaining actual proper whole-double branch, now with nonzero h in m² and m-primary J strictly contained in m. A coefficient tuple or arbitrary formal derivation is not an actual realization.",
+    "Test the colength-two case with distinguished a smooth, where allowed coefficient shears and units can normalize J=(a,t²). Do not freely swap a,b: G has nonzero nilradical residue while H has zero residue. The case with only b smooth is separate.",
+    "Unproved Newton outline for that distinguished-a case: write B2=h eta+a zeta with eta in m and zeta in mJ, X=a+b eta, so P=X(h+b zeta)-b² eta zeta. On X=0 the b² membership may force order q of h to be2,3,or4; the second term has order at least8. Audit X=t^(8-q)Z lifting, its unit derivative and nondivisibility of the remaining factor. No theorem or test for this outline is claimed in113.",
+    "The formal hidden quadratic parameter route now has proven all-degree descent. The remaining obligation is a volume-compatible formal U reducing to the component coordinate and satisfying N³U=0, derived from actual hypotheses. Normalizing the base equation while ignoring the variable canonical unit is insufficient.",
+    "Keep arbitrary-action frame entry, the relative cubic branch and global algebra recognition separate. None follows from these conditional local exclusions or from a stable polynomial coordinate."
+  ],
+  "draft_corrections": [
+    "A requested added coefficient certificate initially omitted a unit factor when using unprimed k. Jet corrected it to P u²-h'[a u²+k a² xi]-k eta h'², modulo the Hensel relation. The saved main proof uses the correct k' formula and was unaffected.",
+    "One apply_patch context mismatch made no changes; the intended J=m corollary patch was then applied with the correct context and reviewed.",
+    "Precreation integrity0b3908 checked all six artifacts,22 sequential equations and the capture, with exactly three pending local links to this checkpoint. No artifact/input/output mismatch was found.",
+    "The initial113 ramified note retains its earlier gamma-nonzero restriction for completed kernels. The separate kernel-rigidity113 note explicitly strengthens it to every gamma; scalar contraction in the earlier note is unchanged.",
+    "The previous pre-addition author checker run01ab96 is not counted as additional method coverage. The final5480af run and canonical707957 cover the final checker hash."
+  ],
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-14T23:55:02.847Z",
+    "all_passed": true,
+    "artifacts": [
+      {
+        "path": "research/whole-double-ramified-completion-descent-pass113.md",
+        "sha256": "2d4cb6e5bca4180164ae9078399c906cc9b3ac2e1aca08d60673b5d0927c073d",
+        "bytes": 14669,
+        "content_lines": 290,
+        "equation_tags": 7
+      },
+      {
+        "path": "research/whole-double-smooth-coefficient-exclusion-pass113.md",
+        "sha256": "03b481b8b3ae19fa88b2af1ed2292551278e7d95c5ca08dd689c969e7a8fcbad",
+        "bytes": 11263,
+        "content_lines": 265,
+        "equation_tags": 8
+      },
+      {
+        "path": "research/whole-double-completed-kernel-rigidity-pass113.md",
+        "sha256": "af7680d90925435b9669d08b3a15ab4c2ba32ab1678acb88ba9d148d501cf2cd",
+        "bytes": 10815,
+        "content_lines": 231,
+        "equation_tags": 7
+      },
+      {
+        "path": "research/whole_double_hensel_slice_checks_pass113.py",
+        "sha256": "876b15e290be3a1c638985fef3cc256308df1bdc6a1a3763b234f67baae54594",
+        "bytes": 4664,
+        "content_lines": 104,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/verification-pass113-working.json",
+        "sha256": "8c04150d0476ec3d1c2b9b13c1f6341703513f9fb5dc8df9236e65edc59d8348",
+        "bytes": 3265,
+        "content_lines": 51,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/whole-double-completion-frontier-pass113.md",
+        "sha256": "51706170a1baa3658168c88b1f1dcae15ad2606213609c2789a1c868ab046840",
+        "bytes": 10408,
+        "content_lines": 194,
+        "equation_tags": 0
+      }
+    ],
+    "equation_tags": 22,
+    "captured_methods": 6,
+    "ast_methods": {
+      "research/whole_double_hensel_slice_checks_pass113.py": 2,
+      "research/whole_double_conormal_checks_pass112.py": 2,
+      "research/quadratic_degree_module_checks_pass102.py": 1,
+      "research/quadratic_divisor_filtration_checks_pass107.py": 1
+    },
+    "new_test_methods": 2,
+    "complete_output_verified": true,
+    "input_files_unchanged": true,
+    "local_markdown_links_checked": 873,
+    "missing_links": [],
+    "tool_evidence": "190577",
+    "stage": "postcreation: six artifacts,22equations,capture inputs/output and873local Markdown links verified"
+  },
+  "goal_status": "active",
+  "authorization_boundary": "Private local research, public-source reading and symbolic checks only. No external contact, submission, posting, paid resource, new automation or financial action."
+}

@@ -1,0 +1,391 @@
+{
+  "status": "working90-nonconical-volume-reduction-and-constant-determinant-recognition; unrestricted goal active",
+  "working_question": "Unconfirmed corrected complex-threefold cancellation: A[s] isomorphic to C^[4] implies A isomorphic to C^[3].",
+  "previous_working_checkpoint": "research/checkpoint-pass89-working.json",
+  "previous_working_checkpoint_sha256": "cf2b5cd4712817be97ebdbba20143d7b6329e3198b02697f2ac8bec3ed49f751",
+  "previous_goal_turn_classification": "no progress: user check-in/status, not a completed new proof step",
+  "current_research_pass_classification": "progress: exact open-set ring equality, relative cubic bound, free intrinsic derivation, a recognized constant-determinant subcase and two executed finite controls",
+  "synthesis": "research/nonconical-volume-frontier-pass90.md",
+  "proof_audit": "research/proof-audits-pass90-working.md",
+  "verification_record": "research/verification-pass90-working.json",
+  "restricted_theorem": {
+    "hypotheses": [
+      "E is an actual complex LND of B=C[x1,x2,x3,z].",
+      "E^2 xi=0 for i=1,2,3 and E^2 z=q is a nonzero complex constant.",
+      "Use the actual highest-adjoint invariant plane S=C[s1,s2] from invariant-plane88, with b=(Ex1,Ex2,Ex3) in S^3.",
+      "Omega=det[b,b_s1,b_s2] is a nonzero complex constant, not merely a nonzero polynomial."
+    ],
+    "conclusion": "A=ker E=S[t]=C^[3]; B=C[s1,s2,t,u] and E=partial_u for u=Ez/q.",
+    "proof": "The volume construction gives a global fixed-point-free intrinsic LND with kernel S. The entire X=Spec A is smooth and contractible by its actual polynomial cylinder. Kaliman-Saveliev Corollary 2.8(1) gives the translation product.",
+    "source": "https://www.math.miami.edu/~kaliman/library/KaSa.michigan.2004.quotient.pdf",
+    "status": "Complete written working proof with independent full-file AI reconstructions and an exact published theorem input; not human or formal certification and novelty not verified."
+  },
+  "completed_deductions": [
+    "For arbitrary nonzero Omega in the supplied frame, the u^2 volume coefficient gives a symmetric quadratic potential and exact A_Omega=R_Omega, where R=S[A1,A2].",
+    "The residual one-form is closed by equality of mixed third derivatives of b. Its cubic potential bounds the global R relation by total relative degree at most three.",
+    "Over Frac(S), a linear combination of the two relative generators generates A_K=K[v]; this is only a generic coordinate.",
+    "The actual conormal unit gives a fixed-point-free LND on A_Omega with kernel S_Omega. The cubic relation then gives a unit relative gradient and smooth relative curve morphism.",
+    "If the relative relation has degree two or three, its cofactor in the cubic potential is an actual base unit.",
+    "If Omega is a nonzero constant, the new free action is global and the established contractible-threefold translation theorem recognizes A.",
+    "A cyclic velocity vector makes E and the original last partial have common rational kernel C. The tensor-pencil argument excludes algebraic collapse of both generators on every whole generic divisor fiber.",
+    "An actual inverse-frame control disproves automatic LND status of the next commutator. A localized Weitzenbock boundary disproves a relative-section inference from smoothness, freeness and a quadratic relation alone."
+  ],
+  "proof_reviews": {
+    "quadratic_potential": "General author; Root, Jet and Geometry full EOF independent reconstructions.",
+    "cyclic_fiber": "Root author; General, Jet and Geometry full EOF independent reconstructions.",
+    "cubic_relation": "Root author; General, Jet and Geometry full EOF independent reconstructions after five explicit plus-sign transcription repairs.",
+    "open_free_derivation": "General author; Root, Jet and Geometry reconstructed eight-equation core. Final cofactor/smoothness addition independently reconstructed by Root and Jet, with Jet full final EOF reread.",
+    "constant_determinant": "Geometry author; Root, General and Jet full EOF reconstructions. All four inspected the exact KS Corollary 2.8 statement and complete displayed proof; deeper published dependencies inherited.",
+    "source_scope": "Geometry author; General full-file/delta algebra and applicability reviews; Root full final file read. Fresh primary access scopes are recorded in the source note.",
+    "synthesis": "Root author; General and Geometry full-file math/scope reviews; corrected forward link to actual constant-omega note.",
+    "limitation": "AI reviews are not independent human expert review, a formal proof certificate or historical novelty validation."
+  },
+  "targeted_verification": {
+    "all_passed": true,
+    "total_suites": 2,
+    "total_test_methods": 2,
+    "started_at_utc": "2026-09-14T13:16:17.328Z",
+    "finished_at_utc": "2026-09-14T13:16:18.274Z",
+    "wall_seconds": 0.946123334,
+    "unittest_seconds": 0.521,
+    "input_hashes_unchanged": true,
+    "input_files": 2,
+    "complete_saved_outputs": 1,
+    "canonical_tool_chunk": "26e243",
+    "output_sha256": "0635a2c3b1c7ede3a089cc705f0fd3c9f02abb260f23d2311412b9507933aa16",
+    "scope": "Actual example and formal coefficient controls only; no universal ring-theoretic or recognition proof is certified by these tests."
+  },
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "fresh_full90_regression_performed": false,
+  "bounded_action_search_executed": false,
+  "central_registry_integrated": false,
+  "historical_claim_count": 544,
+  "remaining_mathematical_obligations": [
+    "Recognize the nonconstant-Omega case under the actual three-good-coordinate constant-acceleration frame.",
+    "Control extension of the free localized intrinsic action across Omega=0, without introducing unproved freeness or slice assumptions.",
+    "Supply a reduction of arbitrary sliced four-variable actions to this frame, or a broader route that does not require the frame.",
+    "Complete the unrestricted corrected complex-threefold cancellation proof without treating a special case as success.",
+    "Determine exact prior art for the new restricted criteria and obtain human expert review; no public novelty or expert certification claim is yet warranted."
+  ],
+  "next_bounded_actions": [
+    "Use the degree-at-most-three global relative relation and actual coefficient identities to analyze primes dividing nonconstant Omega.",
+    "Track the denominator-cleared intrinsic derivation and its primitive fixed locus; the open unit ideal alone does not give global freeness.",
+    "Exploit whole-divisor noncollapse without conflating the image of R in A/pA with R/pR.",
+    "Keep the independent arbitrary-frame reduction obligation visible; another special-case theorem does not complete the user goal."
+  ],
+  "general_conjecture_solved": false,
+  "arbitrary_constant_acceleration_recognized": false,
+  "arbitrary_sliced_action_reduced_to_frame": false,
+  "professor_interpretation_confirmed": false,
+  "historical_novelty_verified": false,
+  "human_expert_review_completed": false,
+  "formal_verification_completed": false,
+  "external_contact_made": false,
+  "submission_or_publication_made": false,
+  "predecessor_audit": {
+    "checked_at_utc": "2026-09-14T13:16:17.237Z",
+    "all_passed": true,
+    "prior_hash_records": 493,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "cf2b5cd4712817be97ebdbba20143d7b6329e3198b02697f2ac8bec3ed49f751",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "primary_source_audit": {
+    "scope_note": "research/homogeneous-speed-recognition-source-scope-pass90.md",
+    "additional_exact_inputs": [
+      {
+        "source": "https://stacks.math.columbia.edu/tag/00T1",
+        "scope": "Opening hypersurface calculation and split-conormal smoothness criterion; selected complete displayed Lemma 10.137.6 proof read."
+      },
+      {
+        "source": "https://www.math.miami.edu/~kaliman/library/KaSa.michigan.2004.quotient.pdf",
+        "scope": "Complete displayed Corollary 2.8 statement/proof; free action on smooth contractible affine complex threefold. Earlier Ka03 and topology dependencies not newly audited in full."
+      }
+    ],
+    "retained_file_count": 26,
+    "file_count_is_new_paper_count": false,
+    "bounded_novelty_search": "Inconclusive, not a claim of absence or priority."
+  },
+  "integrity_events": [
+    "Five literal leading plus signs lost on first cubic-proof save were corrected in chunk 2b277e before clean final reconstructions.",
+    "A synthesis forward filename was corrected to constant-omega-recognition-pass90.md.",
+    "All 493 predecessor records through pass89 were revalidated in readonly audit c0a7aa.",
+    "The presave current audit has four deferred links to this checkpoint; a post-save path check will resolve them without rewriting this historical presave record."
+  ],
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-14T13:23:23.624Z",
+    "all_passed": true,
+    "total_artifacts": 14,
+    "total_numbered_equations": 64,
+    "line_count_convention": "content lines after trimEnd; trailing blank lines excluded",
+    "artifacts": [
+      {
+        "path": "research/constant-omega-recognition-pass90.md",
+        "sha256": "5c94f80fd70eda56f2006f2abe8c02fad6f03e0879f0f9690d11f1889d0e60dd",
+        "bytes": 6432,
+        "lines": 139,
+        "numbered_equations": 4
+      },
+      {
+        "path": "research/homogeneous-speed-recognition-source-scope-pass90.md",
+        "sha256": "0cce5efda337731e4a1a9068242e464aa03a47c956357aa88d603af467f825e8",
+        "bytes": 14711,
+        "lines": 287,
+        "numbered_equations": 6
+      },
+      {
+        "path": "research/nonconical-cubic-relation-pass90.md",
+        "sha256": "fe362ec6e3cb342ebe42f9d6b40534c9dea576b30bc9d16580cbcb9327583709",
+        "bytes": 9572,
+        "lines": 237,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/nonconical-cyclic-fiber-omission-pass90.md",
+        "sha256": "651097f8ae0c69d2994d56923931c48b3fb8275e065d1e61724e12cbeb5ec9a5",
+        "bytes": 7763,
+        "lines": 177,
+        "numbered_equations": 6
+      },
+      {
+        "path": "research/nonconical-higher-commutator-control-pass90.md",
+        "sha256": "c7bc732cd915ace9fe142c917e8c263978d2c6f8b8f1edeceb0bbba15e222fc4",
+        "bytes": 5537,
+        "lines": 136,
+        "numbered_equations": 6
+      },
+      {
+        "path": "research/nonconical-open-free-derivation-pass90.md",
+        "sha256": "2b415a21cd8caa6e82b83fcdb4ec4554b1ed877863491eb17bdf1e9e21ce4e3d",
+        "bytes": 10483,
+        "lines": 249,
+        "numbered_equations": 10
+      },
+      {
+        "path": "research/nonconical-quadratic-potential-controls-pass90.md",
+        "sha256": "98d69a5ed00ae6a56f8f31b77b19f40d38f0ab3c5ed8d6084de26d354db9dabc",
+        "bytes": 2823,
+        "lines": 68,
+        "numbered_equations": 2
+      },
+      {
+        "path": "research/nonconical-quadratic-potential-pass90.md",
+        "sha256": "53489c975dfb91047e0dbe7e88445e9408ddaa3f30b780e5d2e652c4bf59c337",
+        "bytes": 6859,
+        "lines": 180,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/nonconical-unramified-normalization-pass90.md",
+        "sha256": "51f48db56015c70049676f3a7edcd3ca8b6405a24bb635c91eb37dfdeb80a718",
+        "bytes": 10154,
+        "lines": 234,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/nonconical-volume-frontier-pass90.md",
+        "sha256": "6fb6cdc756449d999d94d34c574ed88af0ee0f6b664af92fcf3cea402bb0460b",
+        "bytes": 10746,
+        "lines": 220,
+        "numbered_equations": 6
+      },
+      {
+        "path": "research/nonconical_higher_commutator_checks_pass90.py",
+        "sha256": "d84cc10c10cb6796fd2dc542068d5c66b76489b5ebe8aea7f46d2e110a75df4f",
+        "bytes": 4613,
+        "lines": 123,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/nonconical_quadratic_potential_checks_pass90.py",
+        "sha256": "d429f7e80321c813d0745bd61834a26a642750ffeff3b31a2965c78bc94bc966",
+        "bytes": 2993,
+        "lines": 80,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/proof-audits-pass90-working.md",
+        "sha256": "0b565c8fec0966f0b2c223c278fbe32e8c51372c775e0e5bae9a32a53accb731",
+        "bytes": 7152,
+        "lines": 138,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/verification-pass90-working.json",
+        "sha256": "231018424b9ba88a7baa1953e67c2d3b32b1448c00a4542b960426c05a0636c0",
+        "bytes": 1982,
+        "lines": 34,
+        "numbered_equations": 0
+      }
+    ],
+    "local_link_paths_checked": 747,
+    "deferred_checkpoint_links": [
+      {
+        "file": "research/nonconical-volume-frontier-pass90.md",
+        "target": "checkpoint-pass90-working.json"
+      },
+      {
+        "file": "research/proof-audits-pass90-working.md",
+        "target": "checkpoint-pass90-working.json"
+      },
+      {
+        "file": "README.md",
+        "target": "research/checkpoint-pass90-working.json"
+      },
+      {
+        "file": "research-ledger.md",
+        "target": "research/checkpoint-pass90-working.json"
+      }
+    ],
+    "link_anchors_checked": false,
+    "targeted_suites": 2,
+    "targeted_methods": 2,
+    "current_run_sources_checked": 2,
+    "retained_output_hashes_checked": 1,
+    "primary_source_files_checked": 26,
+    "primary_source_files": [
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.pdf",
+        "sha256": "b4df87f9a4042c1110915f50779be26decb6473fc13fccb99038a91bcb9f3a03",
+        "bytes": 2153645
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.txt",
+        "sha256": "31b95df36405d2cf9b50cf24e649bc75a40b490a0f2caebdca0de0416bf85816",
+        "bytes": 862237
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77-source.md",
+        "sha256": "4a8edfdd91fd0ef6441384a92b5aa45b2cc39f19958abcc7fbe363c89f237b83",
+        "bytes": 1170
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.sha256",
+        "sha256": "243073116eef79c9fd0d28c06add2c602bf7aeae3797e10373be8252b35ddd00",
+        "bytes": 214
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.txt",
+        "sha256": "2450cbb34179187172a6c81dfedba9752ecb32b067c5a62ffcb2decab7f236d9",
+        "bytes": 98069
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.pdf",
+        "sha256": "31cec362bd10fbe65e2a4622979fbcf4fbff2bcd585bae9dd3fe78bc330d49cc",
+        "bytes": 387538
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.pdf",
+        "sha256": "c7922ecd2cdeacabf12eee7bd8115920bc0e2f2d4b0c64282a66f8c47fb42e01",
+        "bytes": 177030
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.txt",
+        "sha256": "37430e92c0d66c5b1f33615ea4375b3be8b23503c54a7c6e6daf286d40d01c92",
+        "bytes": 16562
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82-source.md",
+        "sha256": "99865a4259f8ca7455ab163829290c5bb111b1c6153c5a4e7861fd4e78e5a437",
+        "bytes": 1083
+      },
+      {
+        "path": "tmp/pdfs/lipman-sathaye-briancon-skoda-pass83.pdf",
+        "sha256": "70a614756d88f14da18a2cebccb316c2e2c42d0b1ded94168a63e0660e0cc8ff",
+        "bytes": 678125
+      },
+      {
+        "path": "tmp/pdfs/hickel-jacobian-socle-pass83.pdf",
+        "sha256": "26413534d1feac31dab1ae0436d02083e14cdf3589276b57775a9c57d281de60",
+        "bytes": 218873
+      },
+      {
+        "path": "tmp/pdfs/hickel-jacobian-socle-pass83.txt",
+        "sha256": "0369ac31141870e864a509a0dbd5dec9ed18804651691e2b09ef31b992371e05",
+        "bytes": 59607
+      },
+      {
+        "path": "tmp/pdfs/general-dasgupta-lahiri-pass85.pdf",
+        "sha256": "15fe6cbd898ca7c0ca16e5bfa5186f64212c11b97aa476a579a37f58777305a2",
+        "bytes": 347896
+      },
+      {
+        "path": "tmp/pdfs/general-dasgupta-lahiri-pass85.txt",
+        "sha256": "f2df8d0b33245de4b0b4b36a4306567a59d6f15dd6f5dbf32b593fdd4d378fb0",
+        "bytes": 49828
+      },
+      {
+        "path": "tmp/pdfs/general-epstein-hochster-pass85.pdf",
+        "sha256": "1ba544cb49a75699f4cf73191e563383f20a4b1e31bf45abc8af61c7f32111da",
+        "bytes": 1137226
+      },
+      {
+        "path": "tmp/pdfs/general-epstein-hochster-pass85.txt",
+        "sha256": "8c06d9c9280f730aa119973de8ccc19ef5f83442cf36520cb48d7f27510435e1",
+        "bytes": 172630
+      },
+      {
+        "path": "tmp/pdfs/general-das-cancellation-pass86.pdf",
+        "sha256": "51988960879b0c4e3673635309e8c286fd47f2d74420d919923001748cbbc002",
+        "bytes": 141542
+      },
+      {
+        "path": "tmp/pdfs/general-dutta-lahiri-residual-pass86.pdf",
+        "sha256": "796c98f55ffa7d4b36ac848145a645e6c49d1c74ede433cadd7d34db8f28a4b4",
+        "bytes": 156952
+      },
+      {
+        "path": "tmp/pdfs/general-kaliman-zaidenberg-modification-pass86.pdf",
+        "sha256": "4a34c5511e8ab464a9094d409a41ecb1a60d43ce1ec962ee92acbabac5739a76",
+        "bytes": 481658
+      },
+      {
+        "path": "tmp/pdfs/general-jurkiewicz-reynolds-pass87.pdf",
+        "sha256": "98754b6eaf8fad7c8177604228e436e2cfc21315de26af7954d3859ee4fa697d",
+        "bytes": 276235
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.06046v4.pdf",
+        "sha256": "75b598e2e8cad4ec07e9e97ba027c89df659999137e70b22c96596b6003d7698",
+        "bytes": 339107
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.06046v4.txt",
+        "sha256": "aff7b6b02c41b507f58e37a15a6ecab34565f0606fdf10178e1f3963de86d7f5",
+        "bytes": 88771
+      },
+      {
+        "path": "tmp/pdfs/dg-nice-1701.03635v1.pdf",
+        "sha256": "09fc312059bfc11f00ecb00de46bdafeae9b1cfd2738d6383b9de739d3628b4b",
+        "bytes": 181779
+      },
+      {
+        "path": "tmp/pdfs/dg-nice-1701.03635v1.txt",
+        "sha256": "ab0ac579fa726ca4fbb55565f0412a9da2fbc1e234c481b5e47b49b9c3e29dc3",
+        "bytes": 41655
+      },
+      {
+        "path": "tmp/pdfs/bgl-1501.01438v1.pdf",
+        "sha256": "841365ff79f66f5ef8b16595507ec1059fcbd7edb7a0ec23ac4d883ed5a53623",
+        "bytes": 324585
+      },
+      {
+        "path": "tmp/pdfs/bgl-1501.01438v1.txt",
+        "sha256": "3e4515902dcbef971d4fe7d303974ed89dbbb289654b024244313d248cc2156f",
+        "bytes": 77489
+      }
+    ],
+    "mathematical_suites_executed": false,
+    "scope": "Read-only integrity and link-path audit; not proof verification."
+  },
+  "scope": "Working mathematical research, public sources and local exact simulation only. No general solution, human review, formal certification, novelty clearance, external contact or submission."
+}

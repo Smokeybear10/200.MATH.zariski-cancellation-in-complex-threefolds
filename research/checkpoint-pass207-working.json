@@ -1,0 +1,94 @@
+{
+  "pass": 207,
+  "status": "actual_radical_nodal_and_cuspidal_projection_examples_with_unit_speed; general_nonzero_R_recognition_and_unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass206-working.json",
+    "sha256": "106de8466c02d87ce4a94759981ae152f442aa4c1050f6fe6c6f2ef64f4722c7",
+    "records": 1273
+  },
+  "results": {
+    "actual_family": "A uniform polynomial automorphism, with both inverse orders explicit, supplies actual globally sliced exact1122 radical frames for every complex mu. The full initial kernel is (X^2Z-W^2), the selected top coefficient is N=partial_x/2, and the normalized scalar determinant is -1.",
+    "projected_ring": "The exact plane ring L[x^2,x^3-mu*x] has normalization defect one and conductor (x^2-mu)L[x]. It is cuspidal at mu=0 and geometrically nodal at nonzero mu, despite satisfying the actual differential, field-return and scalar-Jacobian inputs.",
+    "boundaries": "These are unit-speed examples with EX=1 and known A=C[x,t,rho], not nonunit-speed examples, true-minimum frames or cancellation counterexamples. They disprove a universal projected-normality assertion only. Recognition of all radical nonzero-R frames and unrestricted cancellation remain open; separate208 sources are excluded."
+  },
+  "goal_audit": {
+    "current_progress": "One actual-family proof and one three-method finite checker are packaged with independent saved-source reviews and one passing canonical run.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "unit_speed_only": true,
+    "known_polynomial_invariant_ring": true,
+    "cancellation_counterexample": false,
+    "global_minimum_profile_claim": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/radical-nodal-cuspidal-actual-frame-pass207-working.md",
+      "sha256": "72c62a49a8246b6c0cee8bfcdcb2374a6529f1fb0a50847e4ee0f186edbf901a",
+      "bytes": 10463,
+      "lines": 293,
+      "equations": 17,
+      "test_methods": 0
+    },
+    {
+      "path": "research/radical_nodal_cuspidal_actual_controls_pass207.py",
+      "sha256": "a5c71b82d8416d5eb76fb6be44b88b85a84264c791200102d07358ca61465edc",
+      "bytes": 9714,
+      "lines": 189,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/verification-pass207-working.json",
+      "sha256": "31e9a2b4269ec3142a9f95126057039a74172b913c1c542ecc1dc8f52076bbe5",
+      "bytes": 6588,
+      "lines": 94,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "chain_record_count_after_including_this_checkpoint": 1277,
+  "record_count_convention": "1273 frozen predecessor records plus one proof note, one checker source, verification207 and this checkpoint: four new records. Mutable indices are not records. No208 source, unsaved inline calculation or earlier canonical run is counted.",
+  "verification": {
+    "capture": "research/verification-pass207-working.json",
+    "canonical_runs": [
+      {
+        "suite": "radical_nodal_cuspidal_actual_controls207",
+        "path": "research/radical_nodal_cuspidal_actual_controls_pass207.py",
+        "pre_execution_read": "Author completefa4a49, hash86a150, counts060084; Root complete5c28cd.",
+        "initial_output": "11a2d0",
+        "session_id": null,
+        "terminal_output": "11a2d0",
+        "methods": 3,
+        "unittest_seconds": 0.122,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "completion_via_original_handle": false,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/radical_nodal_cuspidal_actual_controls_pass207.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "login": false,
+        "initial_yield_time_ms": 1000,
+        "initial_max_output_tokens": 6000
+      }
+    ],
+    "new_suites": 1,
+    "new_methods": 3,
+    "tagged_equations": 17,
+    "scope": "Finite actual-family algebra controls, not proof of the full initial ideal, integral closure, all-degree conductor assertions or arbitrary-frame recognition. Complete checker author and Root reads preceded the sole saved run; unsaved inline arithmetic is recorded separately in verification207."
+  },
+  "next_bounded_task": "Investigate actual coordinate return beyond generic plane normality, keeping the unit-speed207 positive family distinct from any nonunit-speed or genuine-minimum problem. Do not rerun207."
+}

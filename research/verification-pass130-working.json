@@ -1,0 +1,49 @@
+{
+  "pass": 130,
+  "status": "targeted_exact_example_checks_passed",
+  "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.three_good_mixed_cubic_gate_checks_pass130 research.three_good_cubic_divided_difference_checks_pass129 -v",
+  "working_directory": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+  "execution_owner": "Root",
+  "execution_evidence": "2e15c4",
+  "exit_code": 0,
+  "completed_in_initial_call": true,
+  "ongoing_session": null,
+  "test_methods": 6,
+  "new_methods": 4,
+  "retained_methods": 2,
+  "unittest_reported_seconds": 0.302,
+  "tool_call_wait_seconds": 0.575014042,
+  "timing_scope": "The tool wait is not a separately measured process wall-clock duration.",
+  "before_hash_evidence": "a88bb2",
+  "after_hash_evidence": "2e15c4",
+  "inputs": [
+    {
+      "path": "research/three_good_mixed_cubic_gate_checks_pass130.py",
+      "sha256": "0a04163d0f80a226343dfb8e2ff4477c0c3c5858245d2d471392eb510162b058",
+      "test_methods": 4,
+      "root_complete_source_read": "cc266e plus complete new method and docstring delta a88bb2"
+    },
+    {
+      "path": "research/three_good_cubic_divided_difference_checks_pass129.py",
+      "sha256": "2b09ed46530732e1afb664e6b7e0c55ead8bc73674cdc494288441afd67bc1ed",
+      "test_methods": 2,
+      "source_scope": "Frozen predecessor checker, rerun unchanged. Complete source review is recorded in checkpoint129."
+    }
+  ],
+  "earlier_completed_run": {
+    "execution_evidence": "9a36b7",
+    "exit_code": 0,
+    "test_methods": 5,
+    "new_methods": 3,
+    "retained_methods": 2,
+    "unittest_reported_seconds": 0.281,
+    "tool_call_wait_seconds": 0.58070775,
+    "checker130_sha256": "c7f1bb2b1b7784b7b21025c5f42271694e52e58e8dfa0728bbed349fcf7bae61",
+    "before_hash_evidence": "9a36b7",
+    "after_hash_evidence": "79f683",
+    "scope": "Completed before adding the fourth sharpness-control method; retained129 checker unchanged. This is historical evidence for the earlier version, not the final canonical run."
+  },
+  "before_and_after_hashes_match": true,
+  "coverage": "Actual polynomial inverse orders, primitive translated-cubic affine repair, fixed-relation second-stage failure with explicitly nonprimitive leading relation, affine/quadratic bad-shear covariance, and an actual invariant coordinate with no constant ambient directional certificate. The fourth method checks three sharpness examples when the suspension recognition hypotheses are removed, including a proper image ideal, explicit zero divisors/nilpotents in plane fibers, and a triangular flow with its composition and inverse identities. The two retained methods check the cubic divided-difference frame and symbolic cubic parameters.",
+  "limits": "Finite symbolic controls do not prove the all-degree suspension recognition theorem, the topological homology calculation, universal passage of either correction gate, existence of a mixed leading relation, or general cancellation. No peer execution, output checksum, Lean verification, human expert review, or historical-suite rerun is claimed."
+}

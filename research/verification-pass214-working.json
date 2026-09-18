@@ -1,0 +1,123 @@
+{
+  "pass": 214,
+  "status": "rank_two_high_degree_squarefree_center_branches_excluded; linear_center_pair21_and_quadratic_center_pairs21_32_remain; original_recognition_open",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass213-working.json",
+    "sha256": "875c0ae070d085696cbd5b9a90cd691f5b405cb3a031db36082b2d2159d417bc",
+    "records": 1314
+  },
+  "results": {
+    "linear_center_quadratic_second_excluded": "The exact monic relation and actual cofactor support force the U-quadratic coefficient of the sextic eliminant to be constant in V. Full high-coefficient comparisons yield k_t=c_star-c/(2rho^2), with complex constants. Actual lower-time polynomial shears normalize k_t while preserving the selected partial and nonzero center slope. The normalized cubic coefficient and the degree-three discriminant force rho*B_rho/B=-1+i/2 or -1-i/2. Algebraic norm and rational logarithmic-residue arguments exclude either value over the exact finite coefficient field. All linear-center cases with quadratic second projection are therefore excluded.",
+    "quadratic_center_six_four_excluded": "For projected degrees(6,4), the weight26 coefficient first forces k_ttt=0. The four simple characteristic branches of the monic U-quartic relation make its weight24 initial form a repeated square, not merely a polynomial vanishing at one leading ratio. Comparing its coefficients with all three terms of the sextic eliminant forces the same nonreal Euler exponent for h=k_tt. A norm over L/C(t,rho), followed by the rational rho-zero residue, gives a contradiction. This uses no lower bound on the remainder of y^2-c*theta^3 and does not invalidate the formal Davenport control in213.",
+    "affine_second_high_first_degrees_excluded": "When theta is affine, both exact potentials and the calibrated scalar determinant improve evaluated-cofactor support from R^3 to R^2. The first potential alone leaves an explicit nonzero residual, which the second potential removes. In the linear-center graph, the bound on q1=2AP+D forces delta=0. Degree four then contradicts the degree-six constant coefficient. Degree three gives a discriminant relation; the unshifted cubic coefficient, including its k_rho*D4 term, forces the same impossible algebraic Euler exponent. No coefficient-field change is treated as an ambient map in this argument.",
+    "remaining_degree_lists": "Combining these three exclusions with retained212 and213 leaves only(d,e)=(2,1) for a linear squarefree center, and(2,1),(3,2) for a quadratic squarefree center. These are necessary surviving possibilities, not assertions of actual realization or original-ring recognition.",
+    "remaining_scope": "The supplied actual full rank-two principal-kernel frame and exact1122 profile remain hypotheses. This packet produces no ambient invariant coordinate, no speed-unit conclusion, no rationality claim for L, and no entry theorem. Arbitrary entry, other initial-kernel branches, unrestricted cancellation and novelty remain open. Separate215 and216 work is excluded."
+  },
+  "goal_audit": {
+    "current_progress": "Three bounded exclusion notes and one five-method finite exact-algebra suite reduce the surviving squarefree rank-two degree lists. One canonical execution passed after complete saved-source reads. The remaining original-ring recognition problem and the global goal are not completed.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "actual_full_rank_two_frame_hypotheses_required": true,
+    "linear_center_quadratic_second_excluded": true,
+    "linear_center_affine_second_high_first_excluded": true,
+    "quadratic_center_six_four_excluded": true,
+    "both_potentials_required_for_affine_cofactor_gate": true,
+    "actual_constant_coefficient_shears_verified": true,
+    "remaining_squarefree_branch_recognized": false,
+    "remaining_pairs_realized": false,
+    "speed_unit_proved": false,
+    "coefficient_field_rationality_claim": false,
+    "formal_weighted_branch_fixtures_are_actual": false,
+    "arbitrary_entry_proved": false,
+    "global_minimum_profile_claim": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/rank-two-linear-center-quadratic-projection-exclusion-pass214-working.md",
+      "sha256": "1f600ad81670bab1a7942db29aa266d9d707eccceace82a6e566ffbdc50938ee",
+      "bytes": 12195,
+      "lines": 333,
+      "equations": 22,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank-two-quadratic-center-six-four-exclusion-pass214-working.md",
+      "sha256": "1632635ea390214141c1e8ddfe16874b4f26e2e0b76a0c1e6ed46f9c68ea5264",
+      "bytes": 9918,
+      "lines": 248,
+      "equations": 12,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank-two-affine-second-high-degree-exclusion-pass214-working.md",
+      "sha256": "75de886febb829beb71a9133d40ba05fe89855720a66eb391ed826bfc12023ed",
+      "bytes": 8173,
+      "lines": 214,
+      "equations": 15,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank_two_high_degree_exclusion_controls_pass214.py",
+      "sha256": "d2cc143a93ad7523cbf6af6c33a531072ca1522d853d2c16317fcda0eeab0f9f",
+      "bytes": 12619,
+      "lines": 232,
+      "equations": 0,
+      "test_methods": 5
+    }
+  ],
+  "canonical_executions": [
+    {
+      "suite": "rank_two_high_degree_exclusion_controls214",
+      "path": "research/rank_two_high_degree_exclusion_controls_pass214.py",
+      "pre_execution_read": "Author complete EOFae402a/metadatade2145; Root complete EOF1bec22/hash0383a6. Source held unchanged between the complete reads and sole execution.",
+      "initial_output": "717c7a",
+      "session_id": null,
+      "terminal_output": "717c7a",
+      "methods": 5,
+      "unittest_seconds": 0.450,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "completion_via_original_handle": false,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/rank_two_high_degree_exclusion_controls_pass214.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "login": false,
+      "initial_yield_time_ms": 1000,
+      "initial_max_output_tokens": 6000
+    }
+  ],
+  "tagged_equations": 49,
+  "total_new_test_methods": 5,
+  "reviews": {
+    "linear_center_quadratic_second": "General author completea54ebd+f4f98f/metadata0ecc9b; Root completed66c9a; Geometry completebc6d62; Jet complete9f847a. Exact monic discriminant, all high coefficients, the actual complex lower-time shears, fixed selected-partial columns, preserved center slope, and the finite-field Euler norm obstruction reconstruct without assuming rationality of L.",
+    "quadratic_center_six_four": "Root completed3b644; complementary peer review0c4c5a; Jet completef5a48b. The separate weight26 coefficient, all weight24 contributions, four characteristic branches with their multiplicities, repeated weighted square and exact norm-residue contradiction reconstruct. The written universal branch argument is not replaced by the finite resultant control.",
+    "affine_second_high_degree": "Root complete author007625; peer full reviews32e9f9 and48a22b; Jet completee3d7bc. The R^2 cofactor gate uses both potentials. Direct unshifted coefficients retain the k_rho*D4 correction, and the degree-four and degree-three cases are separated before the exact finite-field norm contradiction. No ambient normalization is inferred from a coefficient-field graph.",
+    "checker": "Author completeae402a/metadatade2145 and Root complete1bec22/hash0383a6 preceded sole canonical717c7a. Five methods independently check full high coefficients, actual constant shears and both inverse orders, weighted pieces and the exact four-branch resultant, the first-only residual and second-potential cancellation, and finite graph-degree/Euler arithmetic. No additional full peer checker review is claimed.",
+    "metadata": "Read-onlyb60a2e confirms both frozen213 hashes, all four214 source hashes, byte/line counts,49 tagged equations and five methods. The source inventorye37127 contains exactly the three assigned proofs and checker. Historical prose about pending saved execution is not retroactively edited; this packet records the later canonical event. No215/216 material, unsaved exploration or retained execution is counted."
+  },
+  "proof_dependencies": {
+    "retained": [
+      "research/rank-two-t-independent-sextic-reduction-pass212-working.md",
+      "research/rank-two-squarefree-center-degree-pruning-pass213-working.md",
+      "research/rank-two-linear-center-quadratic-projection-pass213-working.md",
+      "research/weight-four-universal-chart-potentials-pass184-working.md"
+    ],
+    "scope": "These retained actual-chart, cofactor, finite-field, monic-specialization and projected-ring inputs are not new214 records or reruns. The new exclusions use written exact polynomial, characteristic-branch and norm arguments. No new primary-paper access, human review or novelty clearance is claimed."
+  },
+  "finite_control_scope": "Independent formal-jet coefficient extraction; constant-coefficient ambient shear inverses and selected-partial columns; exact weighted polynomial and resultant identities; an explicit determinant residual distinguishing the two potentials; bounded graph-degree and product-rule/logarithmic-residue arithmetic. The suite does not prove universal cofactor support, field return, characteristic-branch completeness, algebraic norm identities, actual realization or recognition.",
+  "next_bounded_task": "Study the surviving(2,1) linear-center and(2,1),(3,2) quadratic-center possibilities using their actual chart hypotheses. Do not infer original-ring recognition from the present exclusions and do not rerun214. Separate215/216 work is not incorporated."
+}

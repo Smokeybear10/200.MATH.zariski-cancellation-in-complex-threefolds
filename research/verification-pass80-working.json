@@ -1,0 +1,49 @@
+{
+  "kind": "Fresh targeted80 capture, not a full regression",
+  "started_at_utc": "2026-09-14T08:40:41.136520+00:00",
+  "finished_at_utc": "2026-09-14T08:40:41.890271+00:00",
+  "wall_seconds": 0.7535,
+  "total_suites": 1,
+  "total_test_methods": 4,
+  "all_passed": true,
+  "new80_suites": 1,
+  "new80_test_methods": 4,
+  "fresh_full80_regression_performed": false,
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "source_hashes_before": {
+    "research/normal_row_parameter_checks_pass80.py": "c77a2ebbf789ad6e161abd0d434cc84c7f23575848200a7a7bdfa680712f55bf",
+    "research/run_targeted_pass80.py": "4d96427e84b8d45ed3d148f0806dc968a884984339ba34c0e5af8ad18f75daaf",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_hashes_after": {
+    "research/normal_row_parameter_checks_pass80.py": "c77a2ebbf789ad6e161abd0d434cc84c7f23575848200a7a7bdfa680712f55bf",
+    "research/run_targeted_pass80.py": "4d96427e84b8d45ed3d148f0806dc968a884984339ba34c0e5af8ad18f75daaf",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_inputs_unchanged": true,
+  "central_registry_integrated": false,
+  "general_cancellation_verified": false,
+  "scope": "Finite exact examples, inverse maps, ideal reductions and operator identities. Not verification of universal proofs, primary geometric inputs, historical novelty or cancellation. Repeated runs are not additional test methods.",
+  "suites": [
+    {
+      "path": "research/normal_row_parameter_checks_pass80.py",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/normal_row_parameter_checks_pass80.py"
+      ],
+      "exit_code": 0,
+      "expected_methods": 4,
+      "test_methods": 4,
+      "all_passed": true,
+      "unittest_seconds": 0.407,
+      "output": "test_explicit_segre_frame_and_polynomial_inverse (__main__.NormalRowParameterChecks.test_explicit_segre_frame_and_polynomial_inverse) ... ok\ntest_formal_nilpotence_fails_original_partial_integrability (__main__.NormalRowParameterChecks.test_formal_nilpotence_fails_original_partial_integrability) ... ok\ntest_formal_quadric_transfer_determinant_and_linear_part (__main__.NormalRowParameterChecks.test_formal_quadric_transfer_determinant_and_linear_part) ... ok\ntest_unimodular_rows_with_proper_primitive_normals (__main__.NormalRowParameterChecks.test_unimodular_rows_with_proper_primitive_normals) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.407s\n\nOK\n",
+      "output_sha256": "291cbfe59588110442a1a6730488a4f75dd6c008bca64509801b9a44a8c56898"
+    }
+  ]
+}
+

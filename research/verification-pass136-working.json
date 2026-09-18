@@ -1,0 +1,156 @@
+{
+  "pass": 136,
+  "status": "completed_targeted_exact_checks_and_independent_AI_proof_reconstructions; unrestricted_cancellation_unsolved",
+  "previous_goal_turn_classification": "No progress: the user check-in received an accurate status report and the active goal was inspected, but no new theorem or executed verification was completed in that status turn.",
+  "current_goal_turn_classification": "Progress: completed the actual conical chart, coefficient-polynomiality and exact monic descent arguments; proved a stronger nonlinear-cone rank contradiction; ran six new targeted symbolic methods.",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation A[u] isomorphic C^[4] implies A isomorphic C^[3]. The original professor statement, dimension and field have not been confirmed.",
+  "proofs": [
+    {
+      "path": "research/conical-mismatch-tangent-graph-reduction-pass136.md",
+      "sha256": "7fc2273506cf7aa245be9289526e0364e4c714b2f485995e57a27055b384e52e",
+      "bytes": 12437,
+      "lines": 301,
+      "equations": 11,
+      "author": "general_affine17",
+      "root_complete_read": "4641b8",
+      "independent_complete_reads": {
+        "geometry_audit17": "8df598",
+        "jet_checker17": "95eb91"
+      },
+      "scope": "Actual fixed-X invariant localization, normalized intrinsic leading LND N/s, whole generic line, tangent graph, J0=k_sigma, y_v in L*, and conditional coefficient-field instability."
+    },
+    {
+      "path": "research/conical-mismatch-coefficient-polynomiality-pass136.md",
+      "sha256": "0ddb0a052f98dec42a4f93834af41a22553f58129064a8e937e60730a16ee4e8",
+      "bytes": 10250,
+      "lines": 247,
+      "equations": 8,
+      "author": "geometry_audit17",
+      "root_complete_read": "b76d07",
+      "independent_complete_reads": {
+        "general_affine17": "76d667",
+        "jet_checker17": "5baa57"
+      },
+      "scope": "Exact kappa reparameterization and constant field, polynomial primitives from y5/y3/y1 coefficients, total degree bounds, and a monic W relation over the exact one-variable field. No assumption L=K(kappa)."
+    },
+    {
+      "path": "research/conical-nonradial-quartic-coordinate-pass136-working.md",
+      "sha256": "792e728b0634cbde7f1d194e72fd565b53569cf9e273a8c85595f762a97c7417",
+      "bytes": 14812,
+      "lines": 348,
+      "equations": 15,
+      "author": "root",
+      "root_complete_saved_read": "a62b61",
+      "independent_complete_saved_reads": {
+        "geometry_audit17": "ea57b6",
+        "jet_checker17": "f520a5"
+      },
+      "additional_independent_reconstruction": "general_affine17 reconstructed monic descent and the final nonlinear-cone contradiction in messages before the final saved note; this is not counted as a complete saved-file read.",
+      "scope": "General monic rational-pencil descent without a slice; quartic invariant bad shear under the chart hypotheses; valid regular-kernel recognition implication; stronger nonexistence of the entire stated nonlinear-conical nonradial branch via Wang's generic linear invariant, cone-line intersection, PID primitive row and the slice."
+    }
+  ],
+  "tests": [
+    {
+      "path": "research/conical_localized_wedge_controls_pass136.py",
+      "sha256": "9ba5d9d1270ca79b28eaa36d4b7ae488a13d5047efea63427912aeb0e4abcfb8",
+      "bytes": 5717,
+      "lines": 127,
+      "source_reviews_before_execution": {
+        "root": "225923",
+        "general_affine17": "e77d45",
+        "geometry_audit17": "9496d7"
+      },
+      "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.conical_localized_wedge_controls_pass136 -v",
+      "execution": "9eb906",
+      "state": "completed_in_initial_call",
+      "exit_code": 0,
+      "methods": 3,
+      "reported_seconds": 0.056,
+      "result": "All three methods passed.",
+      "scope": "All five X-coefficient targets, selected cofactor, tangent chain rule, y_v=0 contradiction and a formal y_v=2 normalization control. No assertion that the formal matrix comes from an actual nonlinear-conical sliced frame."
+    },
+    {
+      "path": "research/conical_kappa_monic_controls_pass136.py",
+      "sha256": "6d11165205be035c117cbbeef09acf0ab81868fdb7ea73b9bf667064a4f48528",
+      "bytes": 7174,
+      "lines": 148,
+      "source_reviews_before_execution": {
+        "root": "b17a02",
+        "general_affine17": "128230"
+      },
+      "additional_source_review": {
+        "geometry_audit17": "e9645e"
+      },
+      "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.conical_kappa_monic_controls_pass136 -v",
+      "execution": "727010",
+      "state": "completed_in_initial_call",
+      "exit_code": 0,
+      "methods": 3,
+      "reported_seconds": 0.123,
+      "result": "All three methods passed.",
+      "scope": "Integrated graph identity and all six residual coefficients; finite degree(2,3,4) polynomial primitives satisfying only the selected equations and deliberately failing y4; monic coefficient separation, inverse-shear identities and the squared-pencil selected-component boundary."
+    }
+  ],
+  "test_totals": {
+    "methods": 6,
+    "new_methods": 6,
+    "retained_methods_rerun": 0,
+    "completed_execution_calls": 2,
+    "live_test_session": false,
+    "new_actual_nonlinear_conical_realization": false,
+    "new_exhaustive_coordinate_search": false
+  },
+  "primary_source_checks": [
+    {
+      "source": "Michiel de Bondt, Rational maps H for which K(tH) has transcendence degree 2 over K, arXiv1501.06046v4, November2 2017.",
+      "url": "https://arxiv.org/pdf/1501.06046v4",
+      "selected_statement": "Theorem1.1, printedp4: classical transcendence-degree-one subfield rationality.",
+      "root_reads": ["turn4007view1", "turn4009view1"],
+      "qualification": "Field rationality only, not a polynomial generator theorem."
+    },
+    {
+      "source": "S.M.Bhatwadekar, Neena Gupta and Swapnil A.Lokhande, Some K-theoretic properties of the kernel of a locally nilpotent derivation on k[X1,...,X4], arXiv1501.01438v1, January7 2015.",
+      "url": "https://arxiv.org/html/1501.01438v1#S3.Thmtheorem3.5",
+      "selected_statement": "Theorem3.5 and its complete short proof.",
+      "root_reads": ["turn4007view0"],
+      "qualification": "Valid intermediate recognition after an actual invariant coordinate and regularity. Not needed for the stronger final rank contradiction; no fresh recursive audit of Proposition3.3 or the historical local-global theorem."
+    },
+    {
+      "source": "Nikhilesh Dasgupta and Neena Gupta, Nice derivations over principal ideal domains, arXiv1701.03635v1, January13 2017.",
+      "url": "https://arxiv.org/pdf/1701.03635v1",
+      "selected_statement": "Theorem3.1(i), Theorem3.6 and Corollary3.8, printedpp5-8.",
+      "root_reads": ["turn4014view0", "turn4014view1", "turn4014view2"],
+      "qualification": "The linear-invariant theorem is explicitly over any characteristic-zero field. The original Wang Proposition4.6 proof was not freshly accessed. The invariant-coordinate results apply after descent, not before it."
+    },
+    {
+      "source": "Nikhilesh Dasgupta and Animesh Lahiri, On image ideals of nice and quasi-nice derivations, arXiv2302.13787v6, July24 2026.",
+      "url": "https://arxiv.org/html/2302.13787v6",
+      "selected_statement": "Definitions2.2-2.3, Theorems2.13,4.1,5.2,5.9 and selected introductory scope.",
+      "root_reads": ["turn4011view0", "turn4018view0", "turn4018view1", "turn4018view2", "turn4018view3"],
+      "qualification": "Bounded applicability comparison: actual invariant-base R[X1,X2] assumptions are not supplied by a generic coefficient field. A nonzero third iterate profile in one frame does not establish strict quasi-niceness. No direct subsumption was identified in these selected statements; this is not novelty clearance."
+    }
+  ],
+  "integrity_evidence": {
+    "root_core_metadata": "5cf50b",
+    "previous_checkpoint_path": "research/checkpoint-pass135-working.json",
+    "previous_checkpoint_sha256": "0d0e11b90b9c33bb1828cfb55c39382f83291484c828d8b52e151a78589c9697",
+    "prior_records": 888,
+    "equation_tags_in_three_new_notes": 34,
+    "prior_frozen_files_intentionally_changed": false
+  },
+  "boundaries": {
+    "full_goal_achieved": false,
+    "nonradial_branch_excluded_in_working_proof": true,
+    "resonant_branch_closed_by_this_packet": false,
+    "arbitrary_coordinate_entry_proved": false,
+    "human_expert_review": false,
+    "proof_assistant_verification": false,
+    "comprehensive_novelty_audit": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "genuine_external_blocker": false
+  },
+  "continuation": "Audit a different coefficient basis (tau,s) in the actual fixed-X chart. The selected leading coefficient kills s, so its Cramer identity may force tangency without assuming tau and q/s^2 independent. This proposed generalization is not part of the completed136 theorem or verification."
+}

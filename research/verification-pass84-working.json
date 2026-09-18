@@ -1,0 +1,74 @@
+{
+  "kind": "Fresh targeted84 capture, not a full regression",
+  "started_at_utc": "2026-09-14T10:22:18.247912+00:00",
+  "finished_at_utc": "2026-09-14T10:22:18.726973+00:00",
+  "wall_seconds": 0.478799,
+  "total_suites": 2,
+  "total_test_methods": 3,
+  "all_passed": true,
+  "new84_suites": 2,
+  "new84_test_methods": 3,
+  "fresh_full84_regression_performed": false,
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "source_hashes_before": {
+    "research/strict_slice_checks_pass84.py": "43ff529612cfc37f48833329c3b84a8c63d4400585d41bf0351e57b7a2f50d88",
+    "research/embedded_square_controls_pass84.py": "cc97022922c597dc3a428808cb1b478d4eebbf1b18791aa48e039e1cdd8714fd",
+    "research/run_targeted_pass84.py": "d622c577bfc95c44cabae40dce35352b7be1b7e44f95b90256b1747641cb4cce",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_hashes_after": {
+    "research/strict_slice_checks_pass84.py": "43ff529612cfc37f48833329c3b84a8c63d4400585d41bf0351e57b7a2f50d88",
+    "research/embedded_square_controls_pass84.py": "cc97022922c597dc3a428808cb1b478d4eebbf1b18791aa48e039e1cdd8714fd",
+    "research/run_targeted_pass84.py": "d622c577bfc95c44cabae40dce35352b7be1b7e44f95b90256b1747641cb4cce",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_inputs_unchanged": true,
+  "bounded_search_executed": false,
+  "search_candidates_are_test_methods": false,
+  "central_registry_integrated": false,
+  "general_cancellation_verified": false,
+  "scope": "Three finite exact methods in two suites: two actual sliced polynomial actions and their strict Taylor certificates, plus one ideal-only embedded-square and trace-boundary control. Not a universal proof, an action realization of the ideal data, or a full regression. Repeats and helper calculations do not add methods. No search is executed.",
+  "suites": [
+    {
+      "path": "research/strict_slice_checks_pass84.py",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/strict_slice_checks_pass84.py"
+      ],
+      "started_at_utc": "2026-09-14T10:22:18.248249+00:00",
+      "finished_at_utc": "2026-09-14T10:22:18.726333+00:00",
+      "wall_seconds": 0.478092,
+      "exit_code": 0,
+      "expected_methods": 2,
+      "test_methods": 2,
+      "method_count_matches": true,
+      "all_passed": true,
+      "unittest_seconds": 0.246,
+      "output": "test_degree_two_slice_actual_two_speed_frame (__main__.StrictSliceChecks.test_degree_two_slice_actual_two_speed_frame) ... ok\ntest_higher_degree_slice_and_sharp_extra_divisor (__main__.StrictSliceChecks.test_higher_degree_slice_and_sharp_extra_divisor) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.246s\n\nOK\n",
+      "output_sha256": "57a67da121a82c6265cdd06e19c7f521ba7a3cd16c10a63033bf65d96e4cc34d"
+    },
+    {
+      "path": "research/embedded_square_controls_pass84.py",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/embedded_square_controls_pass84.py"
+      ],
+      "started_at_utc": "2026-09-14T10:22:18.248320+00:00",
+      "finished_at_utc": "2026-09-14T10:22:18.545034+00:00",
+      "wall_seconds": 0.29675,
+      "exit_code": 0,
+      "expected_methods": 1,
+      "test_methods": 1,
+      "method_count_matches": true,
+      "all_passed": true,
+      "unittest_seconds": 0.068,
+      "output": "test_embedded_square_defect_and_trace_boundary (__main__.EmbeddedSquareControls.test_embedded_square_defect_and_trace_boundary) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.068s\n\nOK\n",
+      "output_sha256": "845117a18a94c9216717153eb0e60df64a4cb31236651335344d04bbebfab78c"
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "status": "AI-reviewed working83: explicit return-map ideal integrality, cubic acceleration membership, and no isolated good-speed zeros for the restricted actual sliced action. General cancellation remains unproved.",
+  "working_question": "Unconfirmed corrected complex-threefold interpretation: A[s] isomorphic to C^[4] implies A isomorphic to C^[3]. The professor has not confirmed the intended correction, field or dimension.",
+  "previous_working_checkpoint": "research/checkpoint-pass82-working.json",
+  "previous_working_checkpoint_sha256": "fe2b62f866137f86951fd4f81f17325dfea4d827acad44a29bea8ac94243fba2",
+  "previous_integrated_checkpoint": "consistency-pass-60.json",
+  "previous_goal_turn_classification": "No progress: immediately preceding user check-in was status only. This continuation reviews and integrates the mathematical packet and proceeds to separate pass84 work.",
+  "current_research_pass_classification": "progress",
+  "synthesis": "research/rank-one-return-frontier-pass83.md",
+  "proof_audit": "research/proof-audits-pass83-working.md",
+  "verification_record": "research/verification-pass83-working.json",
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "targeted_verification": {
+    "path": "research/verification-pass83-working.json",
+    "sha256": "677e16338d590b1ddd4e2f6521687008181f0f68a81c19ad325d358a4b228cd2",
+    "suites": 1,
+    "test_methods": 3,
+    "all_passed": true,
+    "started_at_utc": "2026-09-14T10:03:11.591812+00:00",
+    "finished_at_utc": "2026-09-14T10:03:11.910515+00:00",
+    "monotonic_wall_seconds": 0.318398,
+    "unittest_seconds": 0.138,
+    "tracked_inputs": 3,
+    "retained_complete_outputs": 1
+  },
+  "new83_suites": 1,
+  "new83_test_methods": 3,
+  "fresh_full83_regression_performed": false,
+  "bounded_search_executed": false,
+  "central_registry_integrated": false,
+  "historical_claim_count": 544,
+  "completed_deductions": [
+    "The actual second-intersection flow gives a birational involution with f and q_0 invariant and b_0 changing sign. A nonzero constant b_0 is impossible when q_0 is nonzero.",
+    "Frozen-direction Taylor expansion gives an explicit monic equation for q_0 with kth coefficient in I_0^k. Hence q_0 is integral over I_0 and q is integral over the full speed ideal I.",
+    "The Rees/Veronese power property and the three-generator Briancon--Skoda theorem imply q_0^3 in I_0 and q^3 in I.",
+    "The actual determinant and field-valued Jacobian/socle theorem identify (I_0:q_0^3) with the intersection of the isolated-point maximal ideals. Cubic membership excludes all those isolated points.",
+    "Regular extension of the return at a closed speed zero implies local first-power membership. This is sufficient, not necessary.",
+    "In the nonzero-q_0 branch, D=deg(b_0)>=1 and q^D lies in I; D=1 gives first-power membership and D<=2 gives square membership. The q_0=0 branch gives q in I separately. Such a low-degree section is not guaranteed."
+  ],
+  "superseded_live_obligations": [
+    "The fourth-power bound is no longer the best working bound for the actual four-variable rank-one quadratic class.",
+    "An isolated good-speed point is no longer an unresolved possible example in this restricted actual class.",
+    "Do not treat integral closure, a finite jet, or a rational return as ideal membership, an actual action, or a polynomial inverse."
+  ],
+  "remaining_mathematical_obligations": [
+    "Prove unrestricted corrected complex-threefold cancellation without assuming a nice or rank-one quadratic coordinate frame.",
+    "Resolve q in I, or construct a genuine sliced polynomial action violating it. Universal square membership is also unproved in this packet.",
+    "Supply valid simultaneous coordinate reduction or independent kernel recognition even if membership is obtained.",
+    "Confirm the professor's intended correction, dimension and field; establish novelty scope and obtain human expert review. Formal verification has not been completed."
+  ],
+  "next_bounded_actions": [
+    "Investigate the separate pass84 conditional square-support lemma at embedded critical points.",
+    "Exploit the original supplied slice, beyond the b_0 sign change, in the actual rational return identities.",
+    "Keep exact formal-jet or ideal-only controls distinct from full polynomial actions."
+  ],
+  "proof_review_kind": "Separate complete written AI reconstructions with bounded primary-source applicability review and three exact finite controls. Not formal or human expert proof verification.",
+  "rank_one_acceleration_integral_over_speed_ideal_proved": true,
+  "rank_one_acceleration_cube_speed_membership_proved": true,
+  "isolated_good_speed_points_excluded_in_stated_class": true,
+  "rank_one_acceleration_speed_membership_proved": false,
+  "rank_one_acceleration_square_speed_membership_proved": false,
+  "embedded_good_speed_points_excluded": false,
+  "all_rank_one_acceleration_sliced_actions_recognized": false,
+  "all_quadratic_time_sliced_actions_recognized": false,
+  "arbitrary_nice_action_recognized": true,
+  "arbitrary_nice_action_scope": "Retained frozen80 working proof only: actual complex polynomial four-ring, global slice, E squared zero on every supplied actual coordinate.",
+  "universal_nice_frame_existence_proved": false,
+  "all_profile_height_threshold": 10,
+  "conditional_nonpolynomial_kernel_minimum_height_lower_bound": 11,
+  "general_conjecture_solved": false,
+  "professor_interpretation_confirmed": false,
+  "historical_novelty_verified": false,
+  "human_expert_review_completed": false,
+  "formal_verification_completed": false,
+  "external_contact_made": false,
+  "submission_or_publication_made": false,
+  "predecessor_audit": {
+    "checked_at_utc": "2026-09-14T10:03:12.192Z",
+    "all_passed": true,
+    "prior_hash_records": 407,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "fe2b62f866137f86951fd4f81f17325dfea4d827acad44a29bea8ac94243fba2",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "final_predecessor_audit": {
+    "checked_at_utc": "2026-09-14T10:14:04.067Z",
+    "all_passed": true,
+    "prior_hash_records": 407,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "fe2b62f866137f86951fd4f81f17325dfea4d827acad44a29bea8ac94243fba2",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "primary_source_audit": {
+    "checked_at_utc": "2026-09-14T10:16:03.969Z",
+    "all_passed": true,
+    "files": [
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.pdf",
+        "sha256": "b4df87f9a4042c1110915f50779be26decb6473fc13fccb99038a91bcb9f3a03",
+        "bytes": 2153645
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.txt",
+        "sha256": "31b95df36405d2cf9b50cf24e649bc75a40b490a0f2caebdca0de0416bf85816",
+        "bytes": 862237
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77-source.md",
+        "sha256": "4a8edfdd91fd0ef6441384a92b5aa45b2cc39f19958abcc7fbe363c89f237b83",
+        "bytes": 1170
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.sha256",
+        "sha256": "243073116eef79c9fd0d28c06add2c602bf7aeae3797e10373be8252b35ddd00",
+        "bytes": 214
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.txt",
+        "sha256": "2450cbb34179187172a6c81dfedba9752ecb32b067c5a62ffcb2decab7f236d9",
+        "bytes": 98069
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.pdf",
+        "sha256": "31cec362bd10fbe65e2a4622979fbcf4fbff2bcd585bae9dd3fe78bc330d49cc",
+        "bytes": 387538
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.pdf",
+        "sha256": "c7922ecd2cdeacabf12eee7bd8115920bc0e2f2d4b0c64282a66f8c47fb42e01",
+        "bytes": 177030
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.txt",
+        "sha256": "37430e92c0d66c5b1f33615ea4375b3be8b23503c54a7c6e6daf286d40d01c92",
+        "bytes": 16562
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82-source.md",
+        "sha256": "99865a4259f8ca7455ab163829290c5bb111b1c6153c5a4e7861fd4e78e5a437",
+        "bytes": 1083
+      },
+      {
+        "path": "tmp/pdfs/lipman-sathaye-briancon-skoda-pass83.pdf",
+        "sha256": "70a614756d88f14da18a2cebccb316c2e2c42d0b1ded94168a63e0660e0cc8ff",
+        "bytes": 678125
+      },
+      {
+        "path": "tmp/pdfs/hickel-jacobian-socle-pass83.pdf",
+        "sha256": "26413534d1feac31dab1ae0436d02083e14cdf3589276b57775a9c57d281de60",
+        "bytes": 218873
+      },
+      {
+        "path": "tmp/pdfs/hickel-jacobian-socle-pass83.txt",
+        "sha256": "0369ac31141870e864a509a0dbd5dec9ed18804651691e2b09ef31b992371e05",
+        "bytes": 59607
+      }
+    ]
+  },
+  "selected_primary_reads": {
+    "lipman_sathaye": "Main83 application: Root and Geometry visually read printed199-203; Jet separately read199. Core Theorem2 proofs not freshly reconstructed.",
+    "hickel": "FieldC only: Root and General read statement, selected Section2 residue inputs and complete field-specialized Section3 proofs. No entire-paper or original-residue-source audit.",
+    "optional_valuation": "Root, Geometry and Jet read displayed Stacks00H3 and090P proofs. The main Taylor proof does not use this optional route.",
+    "source_record": "research/primary-source-scope-pass83.md"
+  },
+  "artifact_integrity": {
+    "checked_at_utc": "2026-09-14T10:16:03.969Z",
+    "all_passed": true,
+    "current_artifacts": 9,
+    "current_numbered_equations": 22,
+    "local_link_paths_checked": 657,
+    "deferred_checkpoint_links": [
+      {
+        "source": "research/rank-one-return-frontier-pass83.md",
+        "target": "research/checkpoint-pass83-working.json"
+      },
+      {
+        "source": "research/proof-audits-pass83-working.md",
+        "target": "research/checkpoint-pass83-working.json"
+      },
+      {
+        "source": "README.md",
+        "target": "research/checkpoint-pass83-working.json"
+      },
+      {
+        "source": "research-ledger.md",
+        "target": "research/checkpoint-pass83-working.json"
+      }
+    ],
+    "link_anchors_checked": false,
+    "artifacts": [
+      {
+        "path": "research/rank-one-return-map-integral-closure-pass83.md",
+        "sha256": "c4ff0878c39aa4b9ebc042e0685fcbe0ec51086c5a9a287a7605cb5ad4b1c149",
+        "bytes": 10309,
+        "lines": 231,
+        "numbered_equations": 10
+      },
+      {
+        "path": "research/rank-one-cubic-acceleration-socle-pass83.md",
+        "sha256": "7ef912104cc253f597f35c878ab63834f7089d6736443f9bdd843d41f8de5753",
+        "bytes": 8253,
+        "lines": 178,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/primary-source-scope-pass83.md",
+        "sha256": "079d2c1970936e3b1b678655bacb1ae8d237dd0601a6c41cc48a8363112ba1e4",
+        "bytes": 4695,
+        "lines": 88,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/rank-one-return-frontier-pass83.md",
+        "sha256": "25ecde8dadc05c9a86606acf0d7293935fce25bf6de1dac0c659b2c8115dd2c7",
+        "bytes": 6669,
+        "lines": 145,
+        "numbered_equations": 4
+      },
+      {
+        "path": "research/rank_one_return_checks_pass83.py",
+        "sha256": "1ef8779766686d8c324ca8074aa47814e5d04e62af2e2f1cf344af0297fb0639",
+        "bytes": 6556,
+        "lines": 140,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/rank-one-return-controls-pass83.md",
+        "sha256": "9fed8eda52f367c74ecd9f95745d3a910f8970ea428420c1d1168bcfdc26751c",
+        "bytes": 6199,
+        "lines": 139,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/run_targeted_pass83.py",
+        "sha256": "ad533ef399cde6b12991a503b357758af3f79146ef42f01db6a9de9d37ddd52e",
+        "bytes": 3585,
+        "lines": 92,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/verification-pass83-working.json",
+        "sha256": "677e16338d590b1ddd4e2f6521687008181f0f68a81c19ad325d358a4b228cd2",
+        "bytes": 3073,
+        "lines": 54,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/proof-audits-pass83-working.md",
+        "sha256": "605ccd74fe8d74ae2519be76c471878323771d5b46a0c0494c4a7c93a943b1e3",
+        "bytes": 6741,
+        "lines": 127,
+        "numbered_equations": 0
+      }
+    ],
+    "targeted_suites": 1,
+    "targeted_methods": 3,
+    "new83_suites": 1,
+    "new83_methods": 3,
+    "current_run_sources_checked": 3,
+    "retained_output_hashes_checked": 1,
+    "primary_source_files_checked": 12,
+    "primary_source_files": [
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.pdf",
+        "sha256": "b4df87f9a4042c1110915f50779be26decb6473fc13fccb99038a91bcb9f3a03",
+        "bytes": 2153645
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.txt",
+        "sha256": "31b95df36405d2cf9b50cf24e649bc75a40b490a0f2caebdca0de0416bf85816",
+        "bytes": 862237
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77-source.md",
+        "sha256": "4a8edfdd91fd0ef6441384a92b5aa45b2cc39f19958abcc7fbe363c89f237b83",
+        "bytes": 1170
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.sha256",
+        "sha256": "243073116eef79c9fd0d28c06add2c602bf7aeae3797e10373be8252b35ddd00",
+        "bytes": 214
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.txt",
+        "sha256": "2450cbb34179187172a6c81dfedba9752ecb32b067c5a62ffcb2decab7f236d9",
+        "bytes": 98069
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.pdf",
+        "sha256": "31cec362bd10fbe65e2a4622979fbcf4fbff2bcd585bae9dd3fe78bc330d49cc",
+        "bytes": 387538
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.pdf",
+        "sha256": "c7922ecd2cdeacabf12eee7bd8115920bc0e2f2d4b0c64282a66f8c47fb42e01",
+        "bytes": 177030
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.txt",
+        "sha256": "37430e92c0d66c5b1f33615ea4375b3be8b23503c54a7c6e6daf286d40d01c92",
+        "bytes": 16562
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82-source.md",
+        "sha256": "99865a4259f8ca7455ab163829290c5bb111b1c6153c5a4e7861fd4e78e5a437",
+        "bytes": 1083
+      },
+      {
+        "path": "tmp/pdfs/lipman-sathaye-briancon-skoda-pass83.pdf",
+        "sha256": "70a614756d88f14da18a2cebccb316c2e2c42d0b1ded94168a63e0660e0cc8ff",
+        "bytes": 678125
+      },
+      {
+        "path": "tmp/pdfs/hickel-jacobian-socle-pass83.pdf",
+        "sha256": "26413534d1feac31dab1ae0436d02083e14cdf3589276b57775a9c57d281de60",
+        "bytes": 218873
+      },
+      {
+        "path": "tmp/pdfs/hickel-jacobian-socle-pass83.txt",
+        "sha256": "0369ac31141870e864a509a0dbd5dec9ed18804651691e2b09ef31b992371e05",
+        "bytes": 59607
+      }
+    ],
+    "central_claim_count": 544,
+    "mathematical_suites_executed": 0,
+    "scope": "Read-only file hashes, equation numbering, local paths, whitespace and saved run accounting; not proof verification."
+  },
+  "scope": "Nine current artifacts and22 numbered equations.407 predecessor hash records plus9 artifact records and this checkpoint give417 retained records. Link checker defers four self-links until this checkpoint exists; a post-save check resolves them. Future84 results are outside this packet."
+}

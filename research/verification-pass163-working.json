@@ -1,0 +1,78 @@
+{
+  "pass": 163,
+  "status": "quartic_graph_rigidity_and_actual_polynomial_boundary; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/cusp-quartic-graph-coefficient-rigidity-pass163-working.md",
+      "sha256": "38e90725c5f21c08021dae316b41089778752f9cd87db8536722d3f1da2d1b02",
+      "bytes": 12197,
+      "lines": 336,
+      "equations": 13,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp-actual-quartic-graph-boundary-pass163-working.md",
+      "sha256": "f9b30cc9eb5d74ff5de7cac61637acfb0c4ebd97313412e65cbbe572ab159435",
+      "bytes": 9097,
+      "lines": 264,
+      "equations": 12,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp_quartic_graph_controls_pass163.py",
+      "sha256": "824d672a817b62292b3e1cc6b73a37da42b5ef0c45e70bd353ff4fe4faaa71eb",
+      "bytes": 11592,
+      "lines": 265,
+      "equations": 0,
+      "test_methods": 4
+    }
+  ],
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass162-working.json",
+    "sha256": "86ccee8c9de88c4c150aef593e74c4fb55bbca75ea41a6306a9b4d73c1d12e5c",
+    "records": 1048
+  },
+  "results": {
+    "rigidity": "Under actual159 hypotheses, y affine and theta=P(y) quartic imply r=1/(A*tau+B), A!=0 complex, n_rho=C*r², lambda=D*r² with C complex and D nonzero complex. The full coefficient conditions and the remaining S polynomial identity are derived over the exact finite field, without assuming rationality.",
+    "nonactual_boundary": "One exact generic solution has k=rho/tau,n=tau²,ell=-rho/tau² and P=-tau*U^4-3tau²*U²+(rho/tau)*U. It has the whole intrinsic line and constant relative determinant -2 but [C(tau,rho,v):C(y,z,w)]=2. It cannot be an actual polynomial frame in that source field.",
+    "actual_boundary": "Changing P by -tau³+tau² gives a different solution with evaluation constant m=1-tau. The explicit actual frame in C[x,y,t,q] has two polynomial inverse orders, E=partial_x, exact1122 profile, full cusp initial kernel, selected N=t*partial_y and invariant coordinate t=Y^4+(1-XY)Z+XW. Its projected three-ring equals C[y,t,q]. Thus actual quartic graphs cannot be excluded altogether.",
+    "scope": "The generic index-two example and the actual polynomial example are distinct. No universal graph recognition, weight4 invariant existence, arbitrary-entry theorem or cancellation result is claimed."
+  },
+  "canonical_execution": {
+    "command": "/opt/anaconda3/bin/python research/cusp_quartic_graph_controls_pass163.py -v",
+    "source_sha256": "824d672a817b62292b3e1cc6b73a37da42b5ef0c45e70bd353ff4fe4faaa71eb",
+    "root_full_source_read": "2d1612",
+    "terminal_output": "867a13",
+    "methods": 4,
+    "seconds": 0.125,
+    "exit_code": 0,
+    "pending_execution_handle": false,
+    "rerun": false,
+    "scope": "Literal potentials, full cleared chart determinants and formal top coefficient jets; rational deck and inverse arithmetic for the nonactual index-two branch; staged actual inverses, full selected partial, initial-rank control and explicit invariant-coordinate/projected-ring inverses. Finite arithmetic does not prove the universal field or coefficient arguments."
+  },
+  "reviews": {
+    "root": "Complete core rereadcc7e5d; actual note full8fedcb+7caa7c and hashbd9193; checker full2d1612 before canonical execution. Final metadatafdca26.",
+    "general": "Both proof sources completely read by author: core6acf55 and actual27a927. Actual example independently derived by root before writing.",
+    "geometry": "Complete actual note863013 at final hash; complete coreb901e6 at final hash. Reconstructed both inverse orders, full selected partial, generic rigidity and index-two obstruction.",
+    "jet": "Complete core877966, actualfe81f4; final checker author EOFbc43fc+d878c8 with hash45cf89. No executions by author."
+  },
+  "runtime": "Python3.13.5 Anaconda and SymPy1.13.3, freshfea26c.",
+  "goal_audit": {
+    "current_continuation": "Progress: four exact163 methods passed, both distinct examples independently reconstructed, and further164 actual-coordinate and algebraic-specialization lemmas developed separately. Full cancellation still unsolved.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Verify164 conditional weight4 coordinate gate and elementary contracted-prime lemma, then attack actual existence/global descent. These164 results are excluded from this packet."
+}

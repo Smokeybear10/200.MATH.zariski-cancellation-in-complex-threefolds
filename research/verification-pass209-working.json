@@ -1,0 +1,117 @@
+{
+  "pass": 209,
+  "status": "proper_radical_projected_planes_force_unit_speed; whole_plane_and_general_cancellation_frontiers_open",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass208-working.json",
+    "sha256": "f15be47fa6cf80dcb3f75d91646edaceda602cddbef21ed60304c2d5e2fe8e9d",
+    "records": 1283
+  },
+  "results": {
+    "cubic_first_quadratic_second": "In the supplied actual radical chart, proper projected degrees (3,2) force a constant selected cofactor. Actual elementary changes remove k, and the coefficient and scalar-Jacobian gates force constant parameters. The written polynomial inverse in both orders returns B=C[U,x,t,rho] in the original ring before the global slice proves EX in C* and A=C[x,t,rho].",
+    "cubic_second_exclusion": "A proper projected plane cannot have second generator degree3. The monic rank-three multiplication matrix determines the exact center fiber, including its length-two cusp contribution. Cofactor support and exact cusp/node membership reduce to two node powers. The cubic power contradicts the calibrated gradient; the quadratic power admits actual constant-coefficient normalization, after which both fixed-parameter rho gates make the scalar Jacobian divisible by an affine parameter.",
+    "proper_plane_synthesis": "Combining these new branches with the retained conductor206, local refinement208 and quartic-first208 results, every proper projected plane in the supplied radical frame has second degree2 and first degree3 or4, and forces the original speed EX to be a nonzero complex constant. The unified normal form has plane ring L[x^2,x(x^2-K)]; first degree4 is nodal and the degree3 case permits either node or cusp.",
+    "remaining_scope": "The actual full initial kernel, exact (1,1,2,2) profile, selected partial and nonzero R are hypotheses. Whole-plane recognition, other leading kernels, arbitrary frame entry, global minimum profiles and unrestricted cancellation remain open. A generic scalar determinant or L-unit is not an original-ring unit-speed proof. Separate210 work is excluded."
+  },
+  "goal_audit": {
+    "current_progress": "Two new branch proofs and their synthesis close the proper-plane sector under the retained actual radical hypotheses. One four-method finite exact-algebra suite passed once after complete author and Root source reads.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "restricted_branch_recognition_only": true,
+    "whole_plane_recognition_proved": false,
+    "arbitrary_entry_proved": false,
+    "global_minimum_profile_claim": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/radical-cubic-first-quadratic-second-unit-speed-pass209-working.md",
+      "sha256": "41b61f13e20b272ff6295fd55731f7481b6d2849b228677fbd3a9bf1ee32a310",
+      "bytes": 9802,
+      "lines": 259,
+      "equations": 17,
+      "test_methods": 0
+    },
+    {
+      "path": "research/radical-cubic-second-projection-exclusion-pass209-working.md",
+      "sha256": "59900628aa5a8a8c5101a70dce3f1a99a9608f3c9598ce7a9e54fa20eb5a0ca5",
+      "bytes": 14915,
+      "lines": 376,
+      "equations": 20,
+      "test_methods": 0
+    },
+    {
+      "path": "research/radical-proper-plane-unit-speed-synthesis-pass209-working.md",
+      "sha256": "8572fa33470d6ef13dba6a57019c03901e4fc70bf70996d88c0fc116d8c929ea",
+      "bytes": 6678,
+      "lines": 172,
+      "equations": 9,
+      "test_methods": 0
+    },
+    {
+      "path": "research/radical_proper_plane_controls_pass209.py",
+      "sha256": "13affdc75698e725e86c6682be190755321b0cc3e9830dd9c7a6dd3c71a1c14c",
+      "bytes": 11269,
+      "lines": 247,
+      "equations": 0,
+      "test_methods": 4
+    }
+  ],
+  "canonical_executions": [
+    {
+      "suite": "radical_proper_plane_controls209",
+      "path": "research/radical_proper_plane_controls_pass209.py",
+      "pre_execution_read": "Author complete EOF/hash/count81067e; Root complete d68502.",
+      "initial_output": "0daf83",
+      "session_id": null,
+      "terminal_output": "0daf83",
+      "methods": 4,
+      "unittest_seconds": 0.191,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "completion_via_original_handle": false,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/radical_proper_plane_controls_pass209.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "login": false,
+      "initial_yield_time_ms": 1000,
+      "initial_max_output_tokens": 6000
+    }
+  ],
+  "tagged_equations": 46,
+  "total_new_test_methods": 4,
+  "reviews": {
+    "cubic_first_quadratic_second": "General author complete6bf15f; Root complete05f1d1; Jet completeb9e6e3/hash07a8c6 and fresh complete3aa9d5. The constant-cofactor and actual normalization gates, fixed-parameter determinant, both actual polynomial inverse orders and global-slice unit-speed endpoint reconstruct cleanly.",
+    "cubic_second_exclusion": "Geometry author complete0ccccd+226a46 with sole TeX repair/read d7f2de; Root completee75d35; General complete39e8bf+ad8d1c/hash710192; Jet completeb8e9a9 plus fresh completeed70cb+0f49bc, hash/count4d216b. The finite-free center specialization handles the cusp's nonreduced fiber. Exact cofactor membership, the cubic-node gradient contradiction, actual normalization and both fixed-x rho derivative gates precede the final Jacobian divisibility contradiction.",
+    "synthesis": "Root complete1e1277 and7187d5; General complete7c56af; Jet complete4d216b and fresh complete3aa9d5. Coverage is exhaustive within the proper-plane hypotheses, the unified lambda=0 specialization matches the new degree3 branch, and the original slice is used only after the polynomial inverse. Whole-plane and arbitrary-entry statements remain explicitly unresolved.",
+    "foundation_audit": "Jet independently reread initial157 through6cbabf+bc78b1 and universal184 through3346fc, with hashes aac492; Root complete1574e4670+af3e67 and184e6f4f8+cf7722. The actual selected horizontal shift is exactly3, N kills the leading coefficients, and a local N-slice gives K=L(v). Finite L/C(t,rho) follows by finite field-degree comparison without finite generation of ker N. Comparing the actual selected cofactor with Nv=1 yields J0=-a^3; it is not assumed as a chart normalization. This is retained-source consistency review, not a new artifact or theorem.",
+    "checker": "Author complete81067e and Root completed68502 preceded the sole canonical0daf83. Four methods independently construct the quotient multiplication matrix, literal coefficient and fixed-parameter identities, and staged exact inverse formulas. No additional full peer checker review is claimed.",
+    "metadata": "Read-only405b42 confirms all four source hashes and byte/line counts, and the frozen verification208/checkpoint208 hashes. The source notes' historical no-run status is preserved; the later sole saved run is recorded here."
+  },
+  "proof_dependencies": {
+    "retained": [
+      "research/two-linear-two-quadratic-initial-bound-pass157-working.md",
+      "research/weight-four-universal-chart-potentials-pass184-working.md",
+      "research/weight-four-radical-nonzero-r-eliminant-pass206-working.md",
+      "research/radical-projection-conductor-cubic-reduction-pass206-working.md",
+      "research/radical-nodal-cuspidal-actual-frame-pass207-working.md",
+      "research/radical-proper-projection-degree-refinement-pass208-working.md",
+      "research/radical-quartic-first-projection-unit-speed-pass208-working.md"
+    ],
+    "scope": "The actual selected chart and exact field return, conductor classification, local degree bound and earlier degree4 recognition are retained inputs. The actual207 defects are compatible unit-speed boundaries. Earlier canonical runs and separate210 work are excluded; no fresh primary-paper access, human review or novelty clearance is claimed."
+  },
+  "finite_control_scope": "Four finite methods check rank-three center multiplication matrices and cusp/node membership, the cubic-node local gradient and literal-top contradictions, the retained-kappa quadratic-center eliminant and fixed-parameter Jacobian gates, and both actual degree3 inverse orders with affine return and unified lambda=0 identities. They do not prove universal field return, conductor geometry, factor simplicity, irreducibility, finite-field constants, exhaustive branch classification, or the global-slice recognition theorem.",
+  "next_bounded_task": "Investigate the remaining whole projected plane in the actual radical chart, preserving the exact field and original-ring return requirements. Do not infer an invariant coordinate from whole-plane genericity or rerun209."
+}

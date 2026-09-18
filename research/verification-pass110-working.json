@@ -1,0 +1,51 @@
+{
+  "started_at_utc": "2026-09-14T22:12:54.202Z",
+  "finished_at_utc": "2026-09-14T22:12:58.565Z",
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.mixed_singular_coefficient_checks_pass110",
+    "research.mixed_divisor_determinant_checks_pass109",
+    "research.mixed_pure_quartic_checks_pass108",
+    "research.quadratic_divisor_filtration_checks_pass107"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 4.356164083,
+  "suites": 4,
+  "test_methods": 8,
+  "new_methods": 3,
+  "retained_methods": 5,
+  "ast_method_counts": {
+    "research/mixed_singular_coefficient_checks_pass110.py": 3,
+    "research/mixed_divisor_determinant_checks_pass109.py": 2,
+    "research/mixed_pure_quartic_checks_pass108.py": 2,
+    "research/quadratic_divisor_filtration_checks_pass107.py": 1
+  },
+  "input_files": [
+    {
+      "path": "research/mixed_singular_coefficient_checks_pass110.py",
+      "sha256": "0ed599a8611aff602dcbc967335e88676ff4f6817182eef7a023b946014054e6"
+    },
+    {
+      "path": "research/mixed_divisor_determinant_checks_pass109.py",
+      "sha256": "cec89d16bb631e2593aef910a3b6b87085d5a18033d668a5c1c683333914b829"
+    },
+    {
+      "path": "research/mixed_pure_quartic_checks_pass108.py",
+      "sha256": "b6d4bca801664a82bc829a42a26abc4a03ffaf700aec5125ac6b17d54bf5c80e"
+    },
+    {
+      "path": "research/quadratic_divisor_filtration_checks_pass107.py",
+      "sha256": "87c7052e3e165f0d1ebc8faabc8f49d178c2c55a3cfe6daf0ef6d97e817e1a38"
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "stdout": "",
+  "stderr": "test_general_divided_W_and_determinant_identity (research.mixed_singular_coefficient_checks_pass110.MixedSingularCoefficientChecks.test_general_divided_W_and_determinant_identity) ... ok\ntest_general_shear_conic_and_derivative_identity (research.mixed_singular_coefficient_checks_pass110.MixedSingularCoefficientChecks.test_general_shear_conic_and_derivative_identity) ... ok\ntest_singular_coefficient_and_artin_nonmembership (research.mixed_singular_coefficient_checks_pass110.MixedSingularCoefficientChecks.test_singular_coefficient_and_artin_nonmembership) ... ok\ntest_actual_frame_two_point_strong_nilpotence_failure (research.mixed_divisor_determinant_checks_pass109.MixedDivisorDeterminantChecks.test_actual_frame_two_point_strong_nilpotence_failure) ... ok\ntest_divided_conic_and_divisor_basis_determinants (research.mixed_divisor_determinant_checks_pass109.MixedDivisorDeterminantChecks.test_divided_conic_and_divisor_basis_determinants) ... ok\ntest_quartic_row_and_mixed_artin_coefficients (research.mixed_pure_quartic_checks_pass108.MixedPureQuarticChecks.test_quartic_row_and_mixed_artin_coefficients) ... ok\ntest_sharp_conic_and_divided_quartic_identities (research.mixed_pure_quartic_checks_pass108.MixedPureQuarticChecks.test_sharp_conic_and_divided_quartic_identities) ... ok\ntest_conic_filtration_and_hypothesis_controls (research.quadratic_divisor_filtration_checks_pass107.QuadraticDivisorFiltrationChecks.test_conic_filtration_and_hypothesis_controls) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 3.499s\n\nOK\n",
+  "output_hash_convention": "stdout + one newline + stderr",
+  "complete_output_sha256": "5693696c3e4a06b25055275461919caf41338897a4d4c1f502bfc91bc945551b",
+  "all_passed": true,
+  "scope": "New singular coefficient and ideal controls, general-shear derivative, divided-W conic/determinant and unit-absorption identities; retained109 determinant and strong-nilpotence control,108 conic/row checks, and107 divisor checks. Does not verify actual flatness, division, all-divisor descent, purity, full-sector hypothesis reduction, frame existence or cancellation."
+}

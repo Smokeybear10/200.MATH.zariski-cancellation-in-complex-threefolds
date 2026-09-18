@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+
+# Local downloads, generated previews, and machine-specific files.
+/tmp/
+.DS_Store
+.venv/
+.env
+.env.*

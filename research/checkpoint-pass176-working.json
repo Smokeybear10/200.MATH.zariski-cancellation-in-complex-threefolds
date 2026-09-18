@@ -1,0 +1,87 @@
+{
+  "pass": 176,
+  "status": "working_constant_projection_exclusion_and_unit_selected_cofactor; split_recognition_and_unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/split-constant-projection-exclusion-pass176-working.md",
+      "sha256": "d17d398e386b30d2f7117fe1830c6f83f02280423ca2048d2868e47269cb3eee",
+      "bytes": 11894,
+      "lines": 328,
+      "equations": 20,
+      "test_methods": 0
+    },
+    {
+      "path": "research/split-cubic-simple-selected-component-pass176-working.md",
+      "sha256": "00f8a631129ba556cfe28d1592ac97ea3e78b20955768bb12fb2482e44cb013e",
+      "bytes": 8803,
+      "lines": 252,
+      "equations": 17,
+      "test_methods": 0
+    },
+    {
+      "path": "research/split_constant_projection_controls_pass176.py",
+      "sha256": "91c7e4cf7ab9a54d55c2d7a5490113f7b148dde028f32d868bf2fc85f434e832",
+      "bytes": 10496,
+      "lines": 219,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/verification-pass176-working.json",
+      "sha256": "a70eb7fde9dc245b2106cd7eb14c88008ae33928a3df606a5086dd2974e59a0a",
+      "bytes": 11269,
+      "lines": 118,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass175-working.json",
+    "sha256": "6df8116bb1814696569be47d5d5315e85e329e4555e011fdf1e81c90ae9da965",
+    "records": 1112
+  },
+  "results": {
+    "actual_hypotheses": "Retains an actual globally sliced complex polynomial frame B=C[X,Y,Z,W]=A[u], exact E-time(1,1,2,2), and full weighted initial kernel(XZ+YW). The selected top N of the original partial_Z supplies the exact field L and A_L=L[v]. Independent t,rho and finite separability are retained. Neither a globally unit speed nor a rational coefficient field is assumed.",
+    "constant_projection_parameter": "Assuming y in L, the calibrated determinant forces its old rho derivative nonzero, so t,y form a separating transcendence basis for L. The nonzero R=k_rho(old)-y now belongs to L*. The first potential puts w in L[theta] with degree at most two; the actual whole three-generator equality gives L[theta]=L[v]. This uses only the basic chart and zero-R exclusion, not whole-plane completion or the quartic/cone bounds.",
+    "unified_determinant": "After changing coefficient partials to t,y and fixing theta, write w=alpha*theta^2+beta*theta+g. One literal determinant forces alpha=0, R_y=-1, beta-R_t-R*beta_y=0 and beta_t+beta*beta_y=0. With K=ker(partial_y), explicit primitive subtraction gives beta=r_t+d/R. Transcendence of R over K makes r_tt*R^3+d_t*R^2+d^2=0 imply d=0 and r_tt=0. Exact joint constants yield r=mu*t+nu and beta=mu, with mu,nu complex; mu=0 is included.",
+    "actual_commuting_derivation": "The genuine parameter derivative partial_theta is exactly T0=(nu-Y)partial_Z+(X+mu)partial_W on B. It commutes with E and is an actual LND, not asserted a coordinate partial. Its kernel is the polynomial three-ring C=C[X,Y,F], F=(X+mu)Z+(Y-nu)W. Localization at p=X+mu plus the injective reduction F maps to -(nu-Y)W modulo p proves the unlocalized kernel equality.",
+    "constant_projection_exclusion": "E restricts to a nonzero LND D on C with D^2X=D^2Y=0. Invariant coefficient-gcd division gives the irreducible LND required by Wang4.1. Its linear-invariant alternative contradicts independent t. The other alternative supplies xi=cF+Q(X,Y), c a nonzero complex constant, with E xi=0. This polynomial has one critical point and invertible Hessian of determinant c^4 for arbitrary Q. Differentiating E xi=0 there forces E to vanish, contradicting the original global slice. Hence y is not in L. No ambient-coordinate assertion for F or xi is needed.",
+    "common_zero_exclusion": "Separately retain the whole-plane equality L[y,theta]=L[v] proved in175. A common zero of R and f_V forces the center q(V)=f(r,V)-ell to vanish identically or be a repeated quadratic. The zero case makes all three first-potential gradient entries vanish, contrary to J0. In the repeated case the moving-center coefficient derivative gives C_rho=-r_rho*B!=0. The two parameter derivatives then force y_v=theta_v=0, contradicting the derivative of a polynomial inverse. Thus (R,f_V)L[v]=L[v].",
+    "selected_component": "The175 cofactor support lies over that now-empty common-zero locus, so for H=GQ the evaluated cofactor Q(y,theta) belongs to L*. Consequently (G,Q)=L[U,V]. This does not assert that Q itself is constant or H irreducible: a disjoint extra component can remain.",
+    "degree_bound": "For nonconstant y, q is nonzero squarefree of degree one or two; a nonzero constant q is excluded by q(theta)=R(D-w). At a root of R, f_V!=0 and the derivative inverse force y_v!=0, so all roots of R are simple. Distinct roots have distinct theta values by the polynomial inverse, and those values are roots of q. Hence 1<=deg_v y<=deg q<=2. Combining with the independent constant-projection exclusion leaves deg_v y in{1,2}.",
+    "scope": "The two176 notes exclude constant y and establish a unit evaluated cofactor and first projected degree one or two. They do not exclude quadratic y within this packet, construct an original invariant coordinate, or recognize the remaining split action. No177 or178 result is included. Other initial profiles, arbitrary entry and unrestricted cancellation remain unresolved."
+  },
+  "chain_record_count_after_including_this_checkpoint": 1117,
+  "record_count_convention": "1112 prior records plus two proof notes, one checker, verification176 and this checkpoint. README and ledger are not records. No177 or178 artifact or result is included.",
+  "verification": {
+    "capture": "research/verification-pass176-working.json",
+    "performed": true,
+    "canonical_terminal": "433ea0",
+    "methods": 3,
+    "seconds": 0.158,
+    "exit_code": 0,
+    "initial_response_terminal": true,
+    "pending_execution_handle": false,
+    "rerun": false,
+    "tagged_equations": 37
+  },
+  "goal_audit": {
+    "prior_completed_evidence": "Frozen175 remains at1112 records with its two distinct canonical suites. Those runs are not repeated or counted as176 evidence.",
+    "current_continuation": "Replaced the unfrozen longer constant-projection argument by a single theta determinant, completed the actual commuting-kernel/Wang/critical-point exclusion, proved the unit cofactor and degree bound, and recorded one new three-method canonical run. Packet assembly adds no theorem or execution.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Investigate the surviving degrees one and two of the first projected polynomial in the actual split chart. The separate proof-only177 quadratic exclusion is not imported into176. No arbitrary1122 entry or recognition conclusion is assumed."
+}

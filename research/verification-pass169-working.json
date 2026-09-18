@@ -1,0 +1,93 @@
+{
+  "pass": 169,
+  "status": "working_actual_quadratic_extra_factor_exclusion; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/cusp-quadratic-extra-factor-exclusion-pass169-working.md",
+      "sha256": "e6c98bb9d72c51952cec3d012f26775308b52912699fae89e6b7cab2fe29d6b7",
+      "bytes": 11141,
+      "lines": 279,
+      "equations": 14,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp_quadratic_extra_factor_controls_pass169.py",
+      "sha256": "c4a5ff62c9cd755ed92334740814128b3cef0a4f4215caa9911dbbfd00c3f083",
+      "bytes": 8797,
+      "lines": 200,
+      "equations": 0,
+      "test_methods": 3
+    }
+  ],
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass168-working.json",
+    "sha256": "8c8f4bde5a84e94337ad2100b6222c7a44670f2b6265f965c4c1cd6e31f999bb",
+    "records": 1073
+  },
+  "results": {
+    "actual_hypotheses": "Retains the actual159 sliced four-ring, exact E-time(1,1,2,2), full initial ideal(XZ-Y^3), nonzero r=k_rho, and a fixed-axis quadratic graph theta=P(y) with p2!=0. The whole-line equality makes y an affine parameter. The extra-factor alternative159 is Phi-m=lambda G+kappa G^2 for G=V-P(U), lambda and kappa nonzero.",
+    "coefficient_restriction": "The literal potential forces r_rho=0, r'!=0, Delta!=0, kappa=-r Delta^2/(4r'), p2=2r'/(r Delta), and kappa,p2 in K=ker(partial_rho). The positive determinant coefficients yield 4chi'chi'''-3chi''^2=0 for chi=1/r. Solving q=chi''/chi' gives the fifth-power expression without root extraction or algebraic field enlargement.",
+    "exact_polynomiality": "With zeta=tau-C2 and F=C0+C1*zeta^5, r=1/F, kappa=5C1*zeta^2/F^3, p2=zeta F. The U coefficient of the full determinant forces p0=d2*rho^2+e*rho+d over K. Coefficient comparison then makes lambda polynomial in rho with quadratic coefficient zero; ell is polynomial in rho of degree at most3. Each primitive is explicit, with its residual constant in K; no arbitrary algebraic antiderivative is assumed.",
+    "leading_coefficients": "The projected z,w have exact rho degrees2,3 with leading coefficients a2=-3/(2*zeta^3*F^2), b3=10*C1/(zeta*F^3). Their ratio b3^2/a2^3=-(800/27)*C1^2*zeta^7 is transcendental over C(y). Every coefficient lies in K[rho], and actual projected field return proves L=K(rho).",
+    "residue_lemma": "For degree2 and degree3 polynomials over M, if the leading coefficient ratio b^2/a^3 is transcendental over k, the degree-at-infinity residue field of k(z,w) is exactly k(b^2/a^3). Each weighted(2,3) initial part is a nonzero Laurent polynomial in that ratio after removing a monomial, so no leading cancellation occurs. The converse inclusion is realized by w^2/z^3.",
+    "contradiction": "Actual C(y,z,w)=K(y)(rho) makes the residue field both K(y) and C(y,zeta^7). Intersection gives K=C(zeta^7), impossible because zeta belongs to K but not C(zeta^7). Thus the nonconstant quadratic extra factor is excluded. This does not construct a coordinate for the remaining pure quadratic graph.",
+    "scope": "No unit selected speed, rational coefficient field, polynomial quotient surface, external classification or full cancellation conclusion is assumed. The constant-y extra-factor case, pure quadratic recognition without additional hypotheses, lower graph degrees, r=0 and other initial configurations remain outside this result."
+  },
+  "reviews": {
+    "root": "Complete saved proof ddae15 clean at e6c98bb9. Complete checker cb2a5e before canonical cfe8ae/8756da; the sole running session61708 was polled once to terminal completion.",
+    "general": "Complete saved-source hostile review964b44 at final e6c98bb9. Fresh full159 chart and factor premise reads046d0a+d06810. Reconstructed every coefficient, root-free differential solution, polynomiality, exact leading terms and both residue-field inclusions. No edits or execution. Complete independent checker32e0b7 at c4a5ff62, with no execution or import.",
+    "geometry": "Complete author source9f9955 with ambient-field wording delta029e12 at final e6c98bb9. No execution by author. Complete independent checker cb8db4 clean at final c4a5ff62; no execution.",
+    "jet": "Complete saved proof0d89f8 clean. Complete author checker842a70 at c4a5ff62; no execution by author."
+  },
+  "proof_dependencies": {
+    "retained": [
+      "research/cusp-generic-chart-first-reductions-pass159-working.md",
+      "research/cusp-generic-selected-factor-reduction-pass159-working.md"
+    ],
+    "scope": "The new differential equation solution, polynomiality and residue-field lemma are proved in169. No new external theorem or recursive dependency audit is claimed."
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Analyze the remaining pure quadratic graph. The separate170 note recognizes it only under the extra condition p0 in K[rho] of degree at most1. Whether actualness forces that condition remains open. Constant/linear graphs, r=0, other initial profiles and unrestricted coordinate entry remain separate obligations.",
+  "canonical_execution": {
+    "performed": true,
+    "command": "/opt/anaconda3/bin/python research/cusp_quadratic_extra_factor_controls_pass169.py -v",
+    "source_sha256": "c4a5ff62c9cd755ed92334740814128b3cef0a4f4215caa9911dbbfd00c3f083",
+    "root_full_source_read": "cb2a5e",
+    "initial_output": "cfe8ae",
+    "initial_session_id": 61708,
+    "terminal_output": "8756da",
+    "methods": 3,
+    "seconds": 0.788,
+    "exit_code": 0,
+    "terminal_in_initial_response": false,
+    "same_session_terminal_polls": 1,
+    "pending_execution_handle": false,
+    "interrupted": false,
+    "restarted": false,
+    "rerun": false,
+    "scope": "Formal coefficient jets, reciprocal differential identities, all-C0 leading formulas, finite weighted residue controls and a constant-leading-ratio failure. No test data is asserted to be an actual four-frame. These bounded controls do not replace the written exact-field, polynomiality or residue-field proof."
+  },
+  "runtime": {
+    "read": "185fec",
+    "python": "3.13.5",
+    "sympy": "1.13.3",
+    "command_interpreter": "/opt/anaconda3/bin/python"
+  },
+  "goal_audit": {
+    "prior_completed_evidence": "Frozen168 contains the preceding actual cubic-graph recognition and terminal canonical73fa48. Its goal-turn progress classification is preserved; no earlier run is relabeled or rerun.",
+    "current_continuation": "Derived and independently reconstructed the quadratic extra-factor exclusion169, completed canonical8756da with3methods0.788sOKexit0 after one same-session poll, and prepared the separate conditional proof-only170 result. Packet closure is not an additional theorem or test execution.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  }
+}

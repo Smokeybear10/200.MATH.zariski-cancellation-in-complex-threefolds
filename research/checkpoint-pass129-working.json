@@ -1,0 +1,59 @@
+{
+  "pass": 129,
+  "status": "actual_cubic_acceleration_and_shear_minimal_commutator_counterexample_progress; general_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3]. The professor's intended dimension, ground field and conclusion remain unconfirmed.",
+  "summary": "A polynomial divided-difference construction gives actual three-good translation frames. Its cubic specialization has unit full-span rank-two speeds, nonconical determinant one, and acceleration outside the constant quadratic speed span. It cannot be reduced by a fixed-good shear, yet Q(S) is not contained in S even though Q and N both have actual slices. The exact weight-three initial relation has a nonconstant coefficient on the bad initial; the coordinate-initial algebra is strictly smaller than the full graded ring. This is an explicit already recognized action, not a globally minimal frame or a new general recognition theorem.",
+  "previous_checkpoint": {"path": "research/checkpoint-pass128-working.json", "sha256": "958dd25ac6842262229cc616d8e11209947004ef7948a382331ac00537908351", "records": 838, "evidence": "2c19e3", "scope": "Frozen predecessor hash and recorded count verified, without rehashing the historical chain."},
+  "chain_record_count_after_including_this_checkpoint": 842,
+  "record_count_convention": "838 prior records plus three current artifacts plus this checkpoint. Live indexes are not frozen records; this checkpoint's own hash is recorded externally.",
+  "current_integrity_audit": {
+    "artifacts": [
+      {"path": "research/three-good-cubic-acceleration-span-obstruction-pass129.md", "sha256": "bc5993bf8d223fd67064d9281de6e4deb0b0b477dcab3fa66a9747d2a1fa2431", "bytes": 11354, "lines": 295, "equations": 9, "test_methods": 0, "local_links": 3},
+      {"path": "research/three_good_cubic_divided_difference_checks_pass129.py", "sha256": "2b09ed46530732e1afb664e6b7e0c55ead8bc73674cdc494288441afd67bc1ed", "bytes": 8071, "lines": 157, "equations": 0, "test_methods": 2, "local_links": 0},
+      {"path": "research/verification-pass129-working.json", "sha256": "7f0877d9a54beeb296205ed35ccfcd57ce411b49e6523360f4a43e0694704eab", "bytes": 2894, "lines": 34, "equations": 0, "test_methods": 0, "local_links": 0}
+    ],
+    "artifact_count": 3, "equations": 9, "new_test_methods": 2, "local_markdown_links": 3,
+    "evidence": "2c19e3",
+    "scope": "All current hashes, UTF-8 bytes, lines, numbered tags, checker AST method counts and local Markdown file targets verified. No checker imports, test execution, historical-chain rehash or other-note edits. Checkpoint self-validation is recorded externally."
+  },
+  "canonical_verification": {
+    "path": "research/verification-pass129-working.json", "root_execution_evidence": ["cba446"], "exit_code": 0, "completed_in_initial_call": true,
+    "suites": 2, "test_methods": 4, "new_methods": 2, "retained_methods": 2, "unittest_reported_seconds": 0.408,
+    "tool_call_wait_seconds": [0.691356792], "timing_scope": "Tool wait, not a separately measured process wall-clock duration. The run completed without an ongoing session handle.",
+    "before_hash_evidence": "cba446", "after_hash_evidence": "f5e520",
+    "inputs": [
+      {"path": "research/three_good_cubic_divided_difference_checks_pass129.py", "sha256": "2b09ed46530732e1afb664e6b7e0c55ead8bc73674cdc494288441afd67bc1ed", "test_methods": 2},
+      {"path": "research/three_good_unit_rank_two_boundary_checks_pass128.py", "sha256": "b424611c0677deef91b9d9c95311275aa4b4d09a795160af5aabd3c255e5b8e9", "test_methods": 2}
+    ],
+    "all_current_input_hashes_match_recorded_before_and_after": true,
+    "review_evidence": "2c19e3",
+    "review_scope": "Complete saved capture read against Root's quoted run; command, output identifier, exit status, timings and current input hashes agree. AST counts are [2,2]. No complete-output checksum or peer execution is recorded or claimed.",
+    "coverage_scope": "Two new methods check both cubic inverse orders, the exact original partial and commutators, realized cubic acceleration and quadratic-span nonmembership, and symbolic constant-coefficient cubic identities. Two frozen128 methods were rerun unchanged by Root. Finite controls do not prove the all-polynomial divided-difference theorem, initial-algebra kernel calculation or any global-minimum assertion."
+  },
+  "proof_reviews": {
+    "artifact": "research/three-good-cubic-acceleration-span-obstruction-pass129.md",
+    "reports": [
+      {"reviewer": "General", "role": "author", "evidence": ["61f637", "2efd8c"]},
+      {"reviewer": "Root", "evidence": ["31fce3", "ba5147", "25e499"]},
+      {"reviewer": "Geometry", "evidence": ["35e101", "2c19e3"]}
+    ],
+    "scope": "Complete nine-equation reconstruction, followed by the final source/format delta. Checked the all-F polynomial divided difference, both actual inverse orders including u=0, exact T/Q/R, Q and N slices, cubic span nonmembership, fixed-good nonremovability, and the prime weighted initial relation with the strict graded-algebra dimension gap. Final source-reading provenance is reported, not freshly audited at the primary source by Geometry."
+  },
+  "code_review": {"artifact": "research/three_good_cubic_divided_difference_checks_pass129.py", "reports": [{"reviewer": "Root", "evidence": "a6762e"}, {"reviewer": "Geometry", "evidence": "35e101"}], "scope": "Complete two-method source-only reconstruction. The generic cubic control is distinct from the all-F proof. No peer execution or global-minimality certification is claimed."},
+  "source_scope": {
+    "reported_root_read": "Root reported selected primary reading in Dasgupta-Lahiri, On image ideals of nice and quasi-nice derivations on R[X1,X2], Section3, in turn3891view0/1. The final proof compares Lemmas3.1-3.2, Corollary3.3 and Proposition3.4 with its coordinate-initial algebra.",
+    "applicability_boundary": "Those filtration constructions also use known kernel and plinth data and have proper-filtration or top-ideal hypotheses. They do not identify the algebra of only the four coordinate initials with the full associated graded ring or force a constant coefficient on the bad initial. The explicit construction and obstruction require none of those classification inputs.",
+    "audit_limit": "Geometry reviewed the saved comparison and its scope, not the primary passages afresh. No recursive source audit, exhaustive literature search, novelty clearance or external certification is claimed."
+  },
+  "mathematical_boundary": [
+    "The realized acceleration q=a cubed lies outside the six-dimensional constant quadratic good-speed span. Unit-ideal membership does not imply that span membership.",
+    "Q and N are LNDs with actual slices, but Q(S) is not contained in S. This failure persists with fixed-good shear nonremovability and nonconical determinant one.",
+    "The coordinate-initial kernel is generated by 2 xi omega minus eta cubed: it is linear in the bad initial with nonconstant coefficient, not a monic weight-two expression. Actual cancellation recovers hidden invariant generators.",
+    "The frame has the original coordinate slice X=u and a full polynomial inverse. Fixed-good shear minimality is not global coordinate-frame minimality, and no cancellation counterexample or new general recognition theorem follows.",
+    "General speed-rank-two recognition, unrestricted coordinate entry and full cancellation remain unresolved."
+  ],
+  "goal_audit": {"pass_mathematics_classification": "actual_failed_shortcut_counterexample_and_weighted_initial_algebra_obstruction_progress", "archival_task_classification": "packaging_and_verification_only", "full_goal_achieved": false, "genuine_external_blocker": false},
+  "boundaries": {"human_expert_review": false, "formal_verification": false, "historical_novelty_cleared": false, "external_contact": false, "submission": false, "public_posting": false, "new_automation": false, "files_through128_frozen": true, "all_historical_tests_rerun": false},
+  "live_indexes": ["README.md", "research-ledger.md"],
+  "live_index_scope": "Root owns live index updates. Geometry created only this checkpoint during packaging and did not edit other notes or assert frozen hashes for live indexes."
+}

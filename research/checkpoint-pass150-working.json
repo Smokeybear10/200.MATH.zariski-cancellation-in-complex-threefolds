@@ -1,0 +1,86 @@
+{
+  "pass": 150,
+  "status": "all_H_coefficient_subring_exclusion_and_rational_classification; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass149-working.json",
+    "sha256": "af6f1f5ab195e0f3f8542337916924b327a4c3df469137f051b58488a96e0257",
+    "records": 978
+  },
+  "chain_record_count_after_including_this_checkpoint": 983,
+  "record_count_convention": "978 previous records plus two notes, one checker, verification150 and this checkpoint. Live indexes excluded; record counts do not measure mathematical significance.",
+  "artifacts": [
+    {
+      "path": "research/base-dependent-nonlinear-intercept-exclusion-pass150-working.md",
+      "sha256": "fcb6fa15991b1b1f62ff0d1d50314c0d0ec0f352654a8602060b259b06004271",
+      "bytes": 15980,
+      "lines": 403,
+      "equations": 12,
+      "test_methods": 0
+    },
+    {
+      "path": "research/selected-divisor-and-entry-gaps-pass150-working.md",
+      "sha256": "a035068686c157c5dac0ef808ac0460b0cb06ad45e2cc0eb049dec1cc7b11cd1",
+      "bytes": 11365,
+      "lines": 219,
+      "equations": 6,
+      "test_methods": 0
+    },
+    {
+      "path": "research/nonlinear_intercept_rank_two_controls_pass150.py",
+      "sha256": "3e95c73f3bff3733aa9c7007b905fe2f059ee425283881755a5b76a22633f603",
+      "bytes": 10682,
+      "lines": 259,
+      "equations": 0,
+      "test_methods": 4
+    },
+    {
+      "path": "research/verification-pass150-working.json",
+      "sha256": "e2560a1f56fccca2e67f8ba9864dc58e60bc19e95745775b848f418332eec380",
+      "bytes": 8225,
+      "lines": 126,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "results": [
+    "Let p=y-R(x), q=a(p)z-H(p,x), R in C[x] of degree at least2, a in C[p] nonconstant, H arbitrary in C[p,x]. If f,g,h belong to C[p,q] and their original (x,y,z) Jacobian is nilpotent, their speed field has transcendence degree at most1.",
+    "All rational coefficient rank2 solutions are quadratic: R=(r/2)x^2+s*x+t, H=k*a*R+B*x+C, D=B/a with D' nonzero; f=f0-c*D/r, g=g0+c*(q+C)/a-c*k*p-c*s*D/r, h=h0+k*g-c*D^2/(2*r), with r,c nonzero constants.",
+    "The rational rank2 tuple is polynomial in original coordinates exactly when D is polynomial in p, but its speed g is not in the specified polynomial coefficient subring. A displayed actual inverse proves this distinction is necessary.",
+    "The structural audit identifies an open sufficient selected-divisor lemma and its exact conditional published endpoint. Arbitrary three-good entry remains a separate unsolved step."
+  ],
+  "verification": {
+    "capture": "research/verification-pass150-working.json",
+    "completion_output": "d596bb",
+    "exit_code": 0,
+    "test_methods": 4,
+    "seconds": 0.207,
+    "numbered_equations": 18,
+    "pending_test_execution_handles": false,
+    "scope": "Conditional written all-degree classifications with separate AI reconstructions and finite exact controls. No full cancellation, human review, formal verification or novelty clearance."
+  },
+  "next_bounded_task": "Attack a full divisor of an actual all-degree frame without a triangular or W=u assumption, using the original inverse, or produce an inverse-verified selected-action counterexample to this sufficient strategy. Do not reopen the now-classified coefficient-subring family.",
+  "closed_family": "The displayed p=y-R(x),q=a(p)z-H(p,x) nilpotent polynomial-coefficient rank2 question is closed for all H under nonlinear R and nonconstant a. The rational rank2 boundary is classified. Do not substitute further cases of this already solved diagnostic family for the unrestricted goal.",
+  "remaining_gaps": [
+    "Unrestricted actual selected-divisor triviality, or an alternative descent mechanism.",
+    "Entry into the supplied three-good setting from an arbitrary sliced action and its other profiles.",
+    "Professor-intent confirmation, human expert reconstruction and statement-level historical priority."
+  ],
+  "goal_audit": {
+    "previous_turn_classification": "progress: new149 exact verification eeaa45",
+    "current_turn_classification": "progress:149 frozen, arbitrary-H rank2 exclusion and rational classification proved within their displayed hypotheses, final affected tests passed, general dependency gaps audited",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  }
+}

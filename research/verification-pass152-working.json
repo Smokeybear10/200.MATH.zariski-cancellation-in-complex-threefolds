@@ -1,0 +1,68 @@
+{
+  "pass": 152,
+  "status": "effective_primitive_plinth_exponent_bound; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/effective-selected-plinth-bound-pass152-working.md",
+      "sha256": "0bf6bfaf81783fb5f053e0db5c136b7a3797c4d75b374684c4e61adc68fa5105",
+      "bytes": 12041,
+      "lines": 288,
+      "equations": 9,
+      "test_methods": 0
+    },
+    {
+      "path": "research/effective_plinth_controls_pass152.py",
+      "sha256": "c6acf378e0655cc5232deea98bd1099827e390e66945d8457f51b9568a8f6c67",
+      "bytes": 7087,
+      "lines": 150,
+      "equations": 0,
+      "test_methods": 2
+    }
+  ],
+  "theorem": {
+    "hypotheses": "Actual dense three-good frame139/151 with S=C[P,Q], N=Omega*D, primitive D, principal first-image plinth alpha*S and fixed-good minimum mu.",
+    "conclusion": "alpha divides (Omega*rad(Omega))^(mu+1); in particular Omega^(2*(mu+1)) belongs to D(A) intersect S.",
+    "proof": "Coefficient partials at p|Omega cost e on a first derivative and e+1 subsequently. Descending canonical Taylor peeling bounds the corrected second tail. Multiplication by Omega/s^2 clears to a derivative value of p^((mu+1)*(e+1)). Localizing the principal plinth and using151 off-Omega support gives the global divisor bound.",
+    "limits": "A nonconstant derivative value is not a slice. No sharpness or preimage-degree bound, full residue-field exclusion, arbitrary coordinate entry, or cancellation solution."
+  },
+  "canonical_execution": {
+    "command": "/opt/anaconda3/bin/python research/effective_plinth_controls_pass152.py -v",
+    "source_read": "Root complete698e3e before execution",
+    "output": "e305b8",
+    "exit_code": 0,
+    "methods": 2,
+    "seconds": 0.276,
+    "state": "terminal; no session handle",
+    "runtime": "/opt/anaconda3/bin/python, 3.13.5 Anaconda, SymPy1.13.3 freshly read in e305b8",
+    "scope": "Finite derivative-word controls and actual inverse-verified noncontracted critical-divisor examples n=2,3 of true minimum mu=0. These are not examples of the unresolved higher-minimum case."
+  },
+  "reviews": {
+    "root": "Proof complete4c31f0 and current f446c6; corrected checker full698e3e; final metadata765a69.",
+    "general": "Independent full proof b43f84 and checker1d3071 before scope-only mu>=3 correction; no mathematical gap identified.",
+    "geometry": "Independent complete34533b+848f9b and source dependenciesd4c5ae; no mathematical gap identified.",
+    "jet": "Author fullproofcb2771; corrected checker full1fd411, hash c6acf378; did not execute."
+  },
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass151-working.json",
+    "sha256": "da056b55702d6919f1c90b715b0eac274a5eb00761a5fb955d6810c3d80301d3",
+    "records": 989
+  },
+  "goal_audit": {
+    "previous_turn_classification": "no progress: user-requested status update; no claim that the status message advanced the proof",
+    "current_turn_classification": "progress: canonical152 checks completed and new153 structural arguments being developed separately",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "formal_verification": false,
+    "human_review": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next": "The153 all-degree leading normalization and graph/nested recognition investigations are separate new work. They are not included in this152 checkpoint."
+}

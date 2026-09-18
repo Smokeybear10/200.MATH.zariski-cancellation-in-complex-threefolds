@@ -1,0 +1,114 @@
+{
+  "pass": 211,
+  "status": "supplied_exact_radical_initial_kernel_recognized; arbitrary_entry_other_kernels_and_general_cancellation_remain_open",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass210-working.json",
+    "sha256": "1df2d4072253369698a46d664f0643232b210e65702fa4484cb6d96611bafc56",
+    "records": 1297
+  },
+  "results": {
+    "recognized_frame": "For a supplied actual globally sliced polynomial four-ring with exact E-degrees (1,1,2,2) and entire initial evaluation kernel (X^2 Z-W^2), the invariant ring is a polynomial three-ring and the original action fixes an ambient coordinate. The retained210 reductions are exhaustive and their sole remaining affine-pair branch is resolved here.",
+    "constant_slope": "For constant nonzero mu, an actual shear gives a nice primitive auxiliary derivation. The PID-linear invariant, weighted common-speed argument and invariant-base coefficient form yield an explicit auxiliary slice and polynomial three-variable kernel. The degree-one coordinate permits Daigle's theorem, and the actual original slice supplies regularity for the four-variable kernel theorem.",
+    "nonconstant_slope": "The generic Wang II relation-ideal analysis retains its valid linear exception. Actual elementary changes preserve the fixed-coordinate presentation and produce F0=X^2 Z-W^2+2dXY. Normality returns the nonzero E-invariant tau0 to the original ring. Polynomial contraction and odd/even reduction force X to divide tau0, contradicting EX nonzero.",
+    "boundaries": "Full initial-kernel equality and the actual sliced frame are essential. No speed-unit conclusion, rational coefficient field, arbitrary frame entry or global minimum profile is proved. Other leading sectors and unrestricted cancellation remain open. Separate212 research and all its claims are excluded."
+  },
+  "goal_audit": {
+    "current_progress": "Three written notes and one four-method finite exact-algebra suite are packaged with saved-source reviews and one passing canonical execution. This closes the supplied radical initial-kernel frame, not the unrestricted goal.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "restricted_frame_recognition_only": true,
+    "remaining_affine_pair_recognition_proved": true,
+    "supplied_full_radical_initial_kernel_recognition_proved": true,
+    "arbitrary_entry_proved": false,
+    "original_speed_unit_claim": false,
+    "coefficient_field_rationality_claim": false,
+    "global_minimum_profile_claim": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/radical-wang-second-case-fiber-obstruction-pass211-working.md",
+      "sha256": "55a9c4776570d1218cc749343dda69ec9a61972d00fdaab779a7e1b065366e72",
+      "bytes": 4832,
+      "lines": 130,
+      "equations": 8,
+      "test_methods": 0
+    },
+    {
+      "path": "research/radical-affine-pair-coordinate-recognition-pass211-working.md",
+      "sha256": "3bdd6882bd7c2bdbe3017a8a55dbbad15b67da1a2ca8f842a7032209fa9102bb",
+      "bytes": 14885,
+      "lines": 402,
+      "equations": 27,
+      "test_methods": 0
+    },
+    {
+      "path": "research/radical-initial-kernel-recognition-synthesis-pass211-working.md",
+      "sha256": "d57c4cbfddec6a94456d306a2d765dc947bac1b097772a5d0c0969fd6161f1b1",
+      "bytes": 5789,
+      "lines": 136,
+      "equations": 5,
+      "test_methods": 0
+    },
+    {
+      "path": "research/radical_affine_pair_recognition_controls_pass211.py",
+      "sha256": "d68347f6fa8ed574a245a32543ab411c0837eaefd3d578b254da738270e00c46",
+      "bytes": 10597,
+      "lines": 218,
+      "equations": 0,
+      "test_methods": 4
+    },
+    {
+      "path": "research/verification-pass211-working.json",
+      "sha256": "4edb5d0e717a74fa842b614a54f395dfe54e7263a12ffc93a4d5b3a0f4349785",
+      "bytes": 11073,
+      "lines": 133,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "chain_record_count_after_including_this_checkpoint": 1303,
+  "record_count_convention": "1297 frozen predecessor records plus three proof notes, one checker source, verification211 and this checkpoint: six new records. Mutable indices are not records. No212 source, unsaved research, retained input or earlier canonical run is counted.",
+  "verification": {
+    "capture": "research/verification-pass211-working.json",
+    "canonical_runs": [
+      {
+        "suite": "radical_affine_pair_recognition_controls211",
+        "path": "research/radical_affine_pair_recognition_controls_pass211.py",
+        "pre_execution_read": "Author complete EOF882111/hash5222fc/count07519c/method00e734; Root complete5c61a8/hashaccf44.",
+        "initial_output": "aab71b",
+        "session_id": null,
+        "terminal_output": "aab71b",
+        "methods": 4,
+        "unittest_seconds": 0.11,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "completion_via_original_handle": false,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/radical_affine_pair_recognition_controls_pass211.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "login": false,
+        "initial_yield_time_ms": 1000,
+        "initial_max_output_tokens": 6000
+      }
+    ],
+    "new_suites": 1,
+    "new_methods": 4,
+    "tagged_equations": 40,
+    "scope": "Finite literal auxiliary-column, polynomial inverse, slice, weighted-leader, normalization, fixed-polynomial and parity controls. The valid formal linear relation is retained as a countercontrol, not asserted to be an actual frame. These controls do not prove the universal field, LND, normality, contraction, factorial-closure or classification/recognition arguments. Author and Root complete reads preceded the sole saved execution; no additional full peer checker review is claimed."
+  },
+  "next_bounded_task": "Investigate a distinct remaining actual leading-kernel sector or an entry obstruction, keeping supplied-frame recognition separate from arbitrary cancellation. Do not rerun211. Separate212 work is not incorporated."
+}

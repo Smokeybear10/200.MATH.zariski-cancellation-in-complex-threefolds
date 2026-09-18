@@ -1,0 +1,112 @@
+{
+  "pass": 142,
+  "status": "exact_coefficient_compatibility_and_full_generic_fiber_saturation; unrestricted_cancellation_unsolved",
+  "executions": [
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.dense_tail_compatibility_controls_pass142 -v",
+      "source_sha256": "46bda17344905e3c2f1f4c673e744de3e1e6c75caf47324da08044547702771c",
+      "source_read": "c98b61",
+      "initial_output": "cde3bd",
+      "session_id": 39566,
+      "intermediate_live_poll": "111bbc",
+      "completion_output": "1e497b",
+      "state": "completed",
+      "exit_code": 0,
+      "methods": 4,
+      "reported_seconds": 14.503
+    }
+  ],
+  "test_scope": [
+    "Actual sharp cubic: both inverse orders, rational source reconstruction, independently formed Taylor coefficients and signed first tail, compatibility gcd, and redundant denominators.",
+    "Actual coefficient covers n=2,3: both inverse orders; two base equations retain conjugate choices while the primitive element selects the actual coefficient. Their actual first tail is already primitive.",
+    "Formal noninvertible quadratic and cubic controls: the base identities plus Phi retain unwanted factors; primitive-element compatibility selects the specified factor. Not actual-frame counterexamples.",
+    "Small exact Groebner saturations include an actual nonunit denominator with generic fiber L[v,v^-1], an actual cover, and a separately labelled synthetic repeated denominator factor. Finite samples do not prove universal identities."
+  ],
+  "proof_reviews": {
+    "root": [
+      "a1a888: complete current coefficient-compatibility and autonomous notes.",
+      "860887: complete final nine-equation generic-fiber saturation note including actual all-n illustration.",
+      "c98b61: complete checker before canonical execution.",
+      "58b691: all four current source hashes and metadata; all seven frozen141 artifact hashes and checkpoint digest unchanged."
+    ],
+    "general": [
+      "Author compatibility note, final SHA49594c761919bf30536ff0ace4b23cf23ad729eaa2f1a5746aab84a050618548, corrected paragraph delta5b760b and2f2ef2.",
+      "Author stronger saturation note, complete EOFdd9802 plus format-only delta bbe787, final SHA7c778cbc8235e92a29e3eb41756219d511e1db026f88d52e5d30755b991fadb3.",
+      "90318a: autonomous note full independent read.",
+      "0654ce: full checker independent source review; no execution."
+    ],
+    "geometry": [
+      "ef4ba8: autonomous full independent read.",
+      "2d7176: final full saturation proof; all-n coefficient illustration clean.",
+      "459956: corrected compatibility paragraph and final hashes.",
+      "661589: full checker source, no execution."
+    ],
+    "jet": [
+      "a6f18f: autonomous full independent read.",
+      "205ec9: complete final compatibility note.",
+      "0901f6: complete earlier saturation proof;500986 and2d614c: final added all-n illustration and final hash.",
+      "3a05fe: author complete checker source;7df820 hash, no author execution."
+    ]
+  },
+  "correction": "An initial142 draft warned that lower-dimensional remnants might remain after full ideal saturation. The exact graph presentation proves they cannot remain under the stated source-ring hypotheses. The draft was corrected before freezing. No <=141 proof was altered.",
+  "results": [
+    "Three source identities for tau,rho and a primitive element e characterize the selected component. The finite denominator-stripped gcd selects g without a prior factorization.",
+    "The exact source graph, including all relations in S=C[tau,rho,e], gives (A_tau,A_rho,A_e):Delta^infinity=(g), without Phi. The localized quotient is L[v,q0(v)^-1], not necessarily the whole affine line.",
+    "A finite saturation membership certificate exists, but no uniform scheme-level exponent bound is asserted.",
+    "A published two-quasi classification excludes autonomous exponential suspensions as a source of a nonprimitive actual dense tail: an invariant bad-slot shear gives degree(Phi)=1.",
+    "The full first-tail equation has not been proved to force these compatibility identities."
+  ],
+  "literature_scope": {
+    "primary": {
+      "authors": "Nikhilesh Dasgupta and Neena Gupta",
+      "title": "Nice derivations over principal ideal domains",
+      "url": "https://arxiv.org/pdf/1701.03635v1",
+      "statement": "Theorem 4.1, printed page9, attributed there to Wang",
+      "current_root_reads": [
+        "turn4050view0",
+        "turn4051view0",
+        "turn4052view0"
+      ],
+      "earlier142_reads": [
+        "turn4046view0",
+        "turn4048view0",
+        "turn4049view0"
+      ],
+      "used_for": "Autonomous two-quasi suspension boundary only"
+    },
+    "targeted_search": "turn4047 found no applicable new primary theorem; no comprehensive novelty clearance",
+    "original_Wang_proof_reconstructed": false
+  },
+  "deferred141_packet_audit": {
+    "reviewer": "geometry",
+    "metadata": "683c89",
+    "checkpoint_full_read": "07ac3b",
+    "capture_and_indexes_full_read": "6d7f6f",
+    "result": "All seven hashes and metadata,31 equation tags,six test methods,929 record count and links checked clean. Both141 processes terminal. No141 files edited."
+  },
+  "goal_audit": {
+    "previous_goal_turn": "Progress: the user status turn polled the confirmed live session39566 to authoritative terminal success in1e497b, establishing all four test methods passed.",
+    "current_goal_turn": "Progress: final proof review and saved verification/checkpoint close142; ongoing143 investigation targets actual inverse compatibility.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "remaining_obligations": [
+    "Actual first-tail primitivity or an actual inverse-verified counterexample.",
+    "Global polynomial descent for remaining dense supplied profiles.",
+    "Arbitrary coordinate entry and the unrestricted corrected cancellation implication.",
+    "Professor-intent confirmation, human expert review and historical novelty assessment."
+  ],
+  "boundaries": {
+    "human_review": false,
+    "proof_assistant_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "paid_sources": false,
+    "new_automation": false,
+    "earlier_frozen_files_edited": false
+  },
+  "old_suites_rerun": false
+}

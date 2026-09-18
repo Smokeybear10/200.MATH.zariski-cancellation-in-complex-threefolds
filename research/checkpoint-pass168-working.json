@@ -1,0 +1,84 @@
+{
+  "pass": 168,
+  "status": "working_actual_cubic_graph_recognition_via_global_polynomial_coordinate; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/cusp-cubic-global-coordinate-pass168-working.md",
+      "sha256": "90b55ad8d392722beb436f3cb73c9147094917dfc46260eb28e96f9d1ae2df30",
+      "bytes": 9406,
+      "lines": 272,
+      "equations": 16,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp_cubic_global_coordinate_controls_pass168.py",
+      "sha256": "2b6ba24c19c7a2a7158fa0b6299df13658579af66401bbab7e86d3fcf794c6e9",
+      "bytes": 8456,
+      "lines": 204,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/verification-pass168-working.json",
+      "sha256": "eea40eb9ebb888ec186f5d981933c4ff75f9764127d94fe544d138339b85af0d",
+      "bytes": 7874,
+      "lines": 95,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass167-working.json",
+    "sha256": "ece869b495c3017a09c9ba4a257b74f432aa0e12bdcc0743aa864ab0c7416cf4",
+    "records": 1069
+  },
+  "results": {
+    "hypotheses": "Retains the actual159 sliced polynomial four-frame, exact E-time(1,1,2,2), full weighted initial ideal(XZ-Y^3), nonzero r=k_rho and the fixed-axis cubic graph theta=P(y). Uses the exact167 coefficient-field and projected-coordinate conclusions. No generic coordinate change is asserted integral.",
+    "coefficient_input": "With t=tau, r and C3 nonzero complex, s,alpha,beta,h complex, chi=alpha*t+beta nonzero, the167 identities hold over the exact field K. In particular the projected invariant is g0 in K and K=C(g0). The argument covers alpha=0 and alpha!=0.",
+    "literal_expansion": "For F=XZ-Y^3, L0=beta*X+alpha*Y+h and I_star=Z+L0*(r^2*W+s*Z-r*F), literal substitution cancels every rho coefficient. The residual polynomial has the corrected mixed coefficient A2=alpha*b'+chi*b''/2. Three already constant coefficients and six differential recurrences give (partial_t-X*partial_y)Q_cal=0.",
+    "constant_polynomial_descent": "Substitution y=Y-tX gives Q(X,Y)=Q_cal(X,Y-tX) with every coefficient in the exact derivative-constant field C. Thus Q is an actual complex polynomial of total degree at most3. This uses no arbitrary algebraic antiderivative or unproved localization descent.",
+    "global_coordinate": "I=I_star-Q equals g0 in the fraction field, hence belongs to A intersect L=S. Set J=W+(s/r^2-X/r)Z. Then I=Z+r^2*L0*J+r*L0*Y^3-Q, so Z=I-r^2*L0*J-r*L0*Y^3+Q and W=J-(s/r^2-X/r)Z give both polynomial inverse orders. Only the nonzero complex constant r is inverted. Consequently B=C[X,Y,I,J].",
+    "recognition": "The global slice makes A=B/(u) regular. The cited Bhatwadekar-Gupta-Lokhande Theorem3.5 gives A=C[I]^[2]. This is working recognition of the stated actual cubic graph branch, not merely a localized projected coordinate.",
+    "actual_boundary": "The proof gives an actual frame with exact E-time(1,1,2,2), full cusp initial ideal, cubic generic graph, and I=(1-X^2)Z+XW+(X-1)Y^3=t. Its staged polynomial inverse is explicit. A distinct nonconstant-chi control is formal only.",
+    "scope": "Together with166, cubic and quartic graph branches are recognized under their retained actual hypotheses. Lower graph degrees, other initial configurations and arbitrary coordinate entry remain separate obligations. The full cancellation conjecture, historical novelty and recursive dependency certification are not established."
+  },
+  "chain_record_count_after_including_this_checkpoint": 1073,
+  "record_count_convention": "1069 prior records plus1 proof note,1 standalone checker, verification168 and this checkpoint. The167 proof-only packet contributes3 records, not4. README and ledger entries are not records. All169 and later artifacts are excluded.",
+  "verification": {
+    "capture": "research/verification-pass168-working.json",
+    "performed": true,
+    "canonical_terminal": "73fa48",
+    "methods": 3,
+    "seconds": 0.686,
+    "exit_code": 0,
+    "pending_execution_handle": false,
+    "terminal_in_initial_response": true,
+    "interrupted": false,
+    "rerun": false
+  },
+  "correction_history": {
+    "mathematical": "An earlier unsaved obstruction omitted chi*b''/2 from the mixed X*y^2 coefficient. Section5 of the final proof explicitly withdraws that mistaken obstruction and gives the corrected coefficient and recurrence. This was an algebraic derivation repair, not a failed canonical test.",
+    "predecessor_metadata": "Root authorized the166 capture-command repair: canonical59470e had no -v flag. Verification166 and checkpoint166 were rehashed before167; no proof/checker, canonical outcome or record count changed.",
+    "literature": "Root made brief broad literature queries and found no scope-changing primary result to import. This is not a novelty audit, clearance or claim of originality."
+  },
+  "goal_audit": {
+    "previous_goal_turn": "Progress, not merely status-only: the preceding goal turn included a status check and canonical16659470e, which passed3methods0.174sOKexit0 terminally. The167/168 derivations belong to the current continuation, not that preceding turn.",
+    "current_continuation": "Derived and independently reconstructed the cubic coefficient-field proof167 and global polynomial coordinate168, corrected the discarded mixed-coefficient obstruction, completed canonical73fa48 with3methods0.686sOKexit0, and packaged the evidence. Proof-only167 has no test suite. Packaging and metadata repair do not count as additional mathematical results or test executions.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_proofs_or_checkers_edited": false,
+    "authorized_predecessor_metadata_repair": true
+  },
+  "next_bounded_task": "Investigate the remaining lower-degree graph branches and possible extra factors under the full actual cusp hypotheses. Preserve distinct other initial configurations and unrestricted coordinate entry. All169 and later work is excluded from count1073."
+}

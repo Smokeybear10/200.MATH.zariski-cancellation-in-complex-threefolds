@@ -1,0 +1,78 @@
+{
+  "pass": 145,
+  "status": "first_tail_primitivity_in_retained_chart; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass144-working.json",
+    "sha256": "a555a6295c4a72e1acf86434b19f71a35bd80d2e9430c24d4c9503f57f5074d9",
+    "records": 952
+  },
+  "chain_record_count_after_including_this_checkpoint": 956,
+  "record_count_convention": "952 previous records plus one mathematical note, one checker, verification145 and this checkpoint. Live indexes excluded. Counts are not measures of mathematical significance.",
+  "artifacts": [
+    {
+      "path": "research/common-gauss-integrality-tail-primitivity-pass145-working.md",
+      "sha256": "d07b10759eea004d22f4ce39cad459c7ebb3dd291f4fb1c24664530f374ab859",
+      "bytes": 18061,
+      "lines": 447,
+      "equations": 15,
+      "test_methods": 0
+    },
+    {
+      "path": "research/common_gauss_valuation_controls_pass145.py",
+      "sha256": "45e448df6ea925c3906de3046a8b0897f845a3f77b6b1e047e7bdfee5295f7db",
+      "bytes": 15732,
+      "lines": 269,
+      "equations": 0,
+      "test_methods": 4
+    },
+    {
+      "path": "research/verification-pass145-working.json",
+      "sha256": "e8918f3e5e15e155314eecc040f91c443f8481e04fa0d7aa7790ab628d3c6871",
+      "bytes": 6204,
+      "lines": 92,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "results": [
+    "The common target-field Gauss valuation forces stationarity and exact coefficient return on active factors.",
+    "Polynomial integrality of actual invariant expressions works before a field embedding is known; the three affine identities force every factor to be active.",
+    "Phi is a coefficient-field unit times the selected simple irreducible g. The fixed tail data recover all of L.",
+    "Together with retained139/141, the fixed-good shear minimum is deg(g)-1."
+  ],
+  "verification": {
+    "capture": "research/verification-pass145-working.json",
+    "completion_output": "565a12",
+    "exit_code": 0,
+    "test_methods": 4,
+    "seconds": 0.707,
+    "numbered_equations": 15,
+    "pending_test_execution_handles": false,
+    "scope": "Written argument conditional on retained chart inputs, separate AI reviews, and exact finite examples. No human expert or proof-assistant verification."
+  },
+  "next_bounded_task": "Test and analyze polynomial descent after generic primitivity. In particular, do not assume that a generic plane coordinate remains a coordinate modulo every divisor of the coefficient ring; inspect actual inverse-verified examples and the projected overring.",
+  "remaining_gaps": [
+    "Global polynomial descent, including selected-speed divisors.",
+    "Arbitrary three-good coordinate entry or another route covering arbitrary cylinders.",
+    "Full corrected complex-threefold cancellation.",
+    "Professor-intent confirmation, human review and historical novelty assessment."
+  ],
+  "goal_audit": {
+    "previous_turn_classification": "progress",
+    "evidence": "Final source-matched four-method test execution completed565a12; this continuation records its result and advances to descent.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_files_edited": false
+  }
+}

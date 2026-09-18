@@ -1,0 +1,119 @@
+{
+  "pass": 143,
+  "status": "polynomial_coefficient_fiber_and_conditional_stabilizer; unrestricted_cancellation_unsolved",
+  "environment": {
+    "python": "3.13.5",
+    "sympy": "1.13.3",
+    "read_evidence": "06d3b8"
+  },
+  "executions": [
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.polynomial_coefficient_fiber_controls_pass143 -v",
+      "source_sha256": "581e31ee87ae03eaecf69a6337d595b0f54e440aa754b512788adaf64ab4b5a3",
+      "source_read": "eae50e",
+      "initial_output": "f2956d",
+      "session_id": 57874,
+      "completion_output": "b5be0b",
+      "state": "completed",
+      "exit_code": 0,
+      "methods": 3,
+      "reported_seconds": 3.473
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.tail_field_degree_controls_pass143 -v",
+      "source_sha256": "d44af89bae85795b99dc92907ed3f15641b214c291b27eca63fbde291bf7dc64",
+      "source_read": "113ddd",
+      "hash_and_completion_output": "8f762e",
+      "state": "completed_in_initial_call",
+      "exit_code": 0,
+      "methods": 4,
+      "reported_seconds": 0.403
+    }
+  ],
+  "test_scope": [
+    "First suite: actual sharp cubic, actual covers n=2,3 and constant-first-speed129 projections; exact four-invariant ideals, three equations in the constant-speed case, and common-denominator powers1,2,3 after retaining speed return.",
+    "Second suite synthetic field examples n=2,3 and embedded degree2,3: exact source field identities, resultants/norms, selected simple factors and generic projection degrees. Not realized Taylor or fourfold examples.",
+    "Formal cubic: exact residual quadratic, simple-root nonsquare discriminant, source ratio return, nonunit original Jacobian and affine automorphism coefficient comparison. The nonsquare/function-field proof is written, not inferred from finite roots.",
+    "Formal base flip: normalized versus original Jacobian, signed tails, rational bad partial, failed first base ratio, and branch-reconstruction residual for an index-two target field. Not actual coordinates.",
+    "Actual recovered-template samples F cubic and quartic, P(a)=a^2+a+1, G=av+v^2, symbolic c nonzero: both inverse orders including staged reverse residual, Jacobian sign, selected partial and leading invariant derivative, calibrated parameter, and independently differentiated Taylor tails."
+  ],
+  "proof_reviews": {
+    "root": [
+      "eae50e: full polynomial-fiber proof and first checker before execution.",
+      "bc6226: complete stabilizer and six-equation coefficient-degree proofs.",
+      "06d3b8 and65f476: final degree/norm and nonnormal addendum through unchanged Sources/footnotes.",
+      "0e02a7: complete saved formal base-incompatible proof.",
+      "03f58c: complete recovered-invariant template proof; second checker then still incomplete and not run.",
+      "113ddd: complete final four-method second checker before execution.",
+      "15e0d1: metadata/hashes for all seven raw143 artifacts."
+    ],
+    "general": [
+      "Author template fullEOF294318 plus final Eq9/source delta ba3c73; final SHA47032c874c59273d9022565ed306e670d1dc6909c8ea8641c3f58900d4829688.",
+      "07e549: complete polynomial-fiber proof and first checker.",
+      "d26760: complete ten-equation stabilizer proof.",
+      "d1c18b: complete final seven-equation degree/norm proof and five-equation formal base-flip proof.",
+      "958716: complete final second checker, no execution;236lines/12866bytes and final hash match."
+    ],
+    "geometry": [
+      "Author stabilizer EOF795844 plus speed premise/format delta7e64d0; final SHA9dc6ba6e2c5387e30e23242b96dc30399ee30dd971deda6fd345e701c002d91c.",
+      "585a16 andb111ac: full polynomial-fiber proof and first checker; no execution.",
+      "71e531: full coefficient-degree proof;28b175: nonnormal addendum and final SHA6eb04a8c41e6dc519d69736a2fb8539775609e2e249453ddc9d5fe90aedc6658.",
+      "b40ec1: full recovered-invariant template proof.",
+      "5cbdf8: complete saved formal base-incompatible proof.",
+      "289c2e andde5cdf: final second checker full source review and AST/hash; no execution."
+    ],
+    "jet": [
+      "Author polynomial-fiber EOF691ad0 and first-checker EOFeb56fc; no author execution.",
+      "0fb166 ande77a6a: complete stabilizer reconstruction and final hash.",
+      "023808 and1801f4: full coefficient-degree proof; aee1aa and66e7ac: final nonnormal addendum.",
+      "d2c5b5: full recovered-invariant template proof.",
+      "46361e: complete saved formal base-incompatible proof.",
+      "Author second checker full final1a8ada, hash11c45b and metadatae090f8; canonical execution performed by Root only."
+    ]
+  },
+  "results": [
+    "Actual slice projection puts every invariant in the polynomial projected source ring, without asserting the reverse inclusion. A polynomial primitive coefficient element can be selected from ker_A N.",
+    "The four unnormalized invariant-return equations generate (g) exactly with no saturation. First-tail primitivity is equivalent to divisibility of all four rows by Phi, but those divisibilities are not proved automatic.",
+    "On an active component with algebraic constant field exactly L, the two initial source ratios force an exact normalized derivation comparison. The two initial Jacobians first prove unit slope of the intrinsic parameters.",
+    "Such base-compatible components are in bijection with Aut_K(L) elements fixing all peeling coefficients and fminus. This is conditional, not a claim all components satisfy the hypotheses.",
+    "For L0=K(f0,...,fm,fminus), actual F=L0(y,z) gives deg(g0)=[L:L0]deg(g). The normalized coefficient norm equals g0 and divides Phi, so missing coefficient degree is at most deg(Phi)/deg(g).",
+    "The cubic formal example has trivial coefficient automorphism group but an active component with enlarged constants. A different formal quadratic example has L=L0 and constant field L but changes the first source speed ratio. Both fail actual inversion.",
+    "An explicit recovered-invariant template has a polynomial inverse iff f=P(a) and g=cb+G(a,v) with c nonzero. Every dense surviving member has primitive tails, including a varying selected speed and arbitrary finite coefficient-cover degree."
+  ],
+  "retained_input_scope": "Exact139 chart/tail,141 shear minimum/component persistence and142 source compatibility are stated inputs. This turn reread the141 component and139 tail in16d883 but does not claim a recursive audit of every earlier reduction or independent human validation.",
+  "literature_scope": {
+    "new_external_classification_input": false,
+    "novelty_search_for_143_claims": false,
+    "statement": "New143 deductions are elementary arguments from retained working inputs. The current-turn primary theorem check belongs to the autonomous142 boundary, recorded there. No historical novelty inference."
+  },
+  "integrity": {
+    "frozen142_check": "65f476 matched all five artifact hashes and checkpoint5c7d8fb358ee27cb4faecf9688e1954ef77ee65d04285c91118cc1cd0f3a8f08",
+    "old_suites_rerun": false,
+    "pending_execution_handles": false
+  },
+  "next_task": "Use actual polynomial invariant return to attack the two base-ratio identities on arbitrary active components. Alternatively construct and verify an actual frame violating them or having enlarged component constants. Do not repeat the formal-only implications now disproved or infer a field isomorphism after enlarging constants.",
+  "goal_audit": {
+    "previous_goal_turn": "Progress: the status check completed the confirmed running142 checker.",
+    "current_goal_turn": "Progress:142 packet closed; five143 written results independently reviewed and seven143 test methods passed.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "remaining_obligations": [
+    "No universal actual first-tail primitivity proof or actual extra-factor example.",
+    "No global descent covering remaining dense higher-degree supplied profiles.",
+    "No arbitrary three-good coordinate-entry theorem or full corrected complex-threefold cancellation proof.",
+    "Professor-intent confirmation, human expert review and novelty assessment outstanding."
+  ],
+  "boundaries": {
+    "human_review": false,
+    "proof_assistant_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "paid_sources": false,
+    "new_automation": false,
+    "earlier_frozen_files_edited": false
+  }
+}

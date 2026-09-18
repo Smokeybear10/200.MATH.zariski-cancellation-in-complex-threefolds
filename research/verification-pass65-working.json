@@ -1,0 +1,101 @@
+{
+  "started_at_utc": "2026-09-13T23:54:18.521Z",
+  "finished_at_utc": "2026-09-13T23:54:22.470Z",
+  "all_passed": true,
+  "new_methods": 4,
+  "new_suites": 2,
+  "inherited_methods_rerun": 26,
+  "inherited_suites_rerun": 6,
+  "full_project_regression": false,
+  "scope": "Finite exact coefficient and explicit-model checks, not a formal proof or a new full-project regression.",
+  "results": [
+    {
+      "path": "research/moving_frame_divisibility_checks_pass65.py",
+      "new_suite": true,
+      "started_at_utc": "2026-09-13T23:54:18.526Z",
+      "finished_at_utc": "2026-09-13T23:54:19.061Z",
+      "exit_code": 0,
+      "methods": 2,
+      "reported_seconds": 0.153,
+      "stdout": "",
+      "stderr": "test_actual_inverse_and_all_four_exact_adjoint_columns (__main__.MovingFrameDivisibilityChecks.test_actual_inverse_and_all_four_exact_adjoint_columns) ... ok\ntest_canonical_layers_failed_divisibility_and_zero_repair (__main__.MovingFrameDivisibilityChecks.test_canonical_layers_failed_divisibility_and_zero_repair) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.153s\n\nOK\n"
+    },
+    {
+      "path": "research/speed_curve_graph_checks_pass65.py",
+      "new_suite": true,
+      "started_at_utc": "2026-09-13T23:54:19.061Z",
+      "finished_at_utc": "2026-09-13T23:54:19.607Z",
+      "exit_code": 0,
+      "methods": 2,
+      "reported_seconds": 0.353,
+      "stdout": "",
+      "stderr": "test_fixed_bad_derivatives_and_arbitrary_scalar_integrations (__main__.SpeedCurveGraphChecks.test_fixed_bad_derivatives_and_arbitrary_scalar_integrations) ... ok\ntest_rational_speed_basis_and_nonlinear_parameter_schur_coefficients (__main__.SpeedCurveGraphChecks.test_rational_speed_basis_and_nonlinear_parameter_schur_coefficients) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.353s\n\nOK\n"
+    },
+    {
+      "path": "research/dependent_quadratic_defects_checks_pass42.py",
+      "new_suite": false,
+      "started_at_utc": "2026-09-13T23:54:19.607Z",
+      "finished_at_utc": "2026-09-13T23:54:20.007Z",
+      "exit_code": 0,
+      "methods": 5,
+      "reported_seconds": 0.203,
+      "stdout": "",
+      "stderr": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.203s\n\nOK\n"
+    },
+    {
+      "path": "research/dependent_defect_top_line_checks_pass43.py",
+      "new_suite": false,
+      "started_at_utc": "2026-09-13T23:54:20.007Z",
+      "finished_at_utc": "2026-09-13T23:54:20.456Z",
+      "exit_code": 0,
+      "methods": 5,
+      "reported_seconds": 0.25,
+      "stdout": "",
+      "stderr": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.250s\n\nOK\n"
+    },
+    {
+      "path": "research/two_quadratic_top_line_checks_pass42.py",
+      "new_suite": false,
+      "started_at_utc": "2026-09-13T23:54:20.456Z",
+      "finished_at_utc": "2026-09-13T23:54:20.842Z",
+      "exit_code": 0,
+      "methods": 5,
+      "reported_seconds": 0.197,
+      "stdout": "",
+      "stderr": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.197s\n\nOK\n"
+    },
+    {
+      "path": "research/bad_projection_determinant_checks_pass43.py",
+      "new_suite": false,
+      "started_at_utc": "2026-09-13T23:54:20.842Z",
+      "finished_at_utc": "2026-09-13T23:54:21.583Z",
+      "exit_code": 0,
+      "methods": 4,
+      "reported_seconds": 0.554,
+      "stdout": "",
+      "stderr": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.554s\n\nOK\n"
+    },
+    {
+      "path": "research/bad_projection_rank_closure_checks_pass43.py",
+      "new_suite": false,
+      "started_at_utc": "2026-09-13T23:54:21.583Z",
+      "finished_at_utc": "2026-09-13T23:54:21.962Z",
+      "exit_code": 0,
+      "methods": 3,
+      "reported_seconds": 0.193,
+      "stdout": "",
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.193s\n\nOK\n"
+    },
+    {
+      "path": "research/generic_bad_pair_checks_pass44.py",
+      "new_suite": false,
+      "started_at_utc": "2026-09-13T23:54:21.962Z",
+      "finished_at_utc": "2026-09-13T23:54:22.470Z",
+      "exit_code": 0,
+      "methods": 4,
+      "reported_seconds": 0.311,
+      "stdout": "",
+      "stderr": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.311s\n\nOK\n"
+    }
+  ]
+}

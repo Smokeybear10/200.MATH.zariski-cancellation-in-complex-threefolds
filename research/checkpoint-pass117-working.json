@@ -1,0 +1,125 @@
+{
+  "pass": 117,
+  "status": "explicit_global_nice_frame_reduction_for_supplied_exact_quadratic_branch; recognition_uses_retained_working_theorem80; general_cancellation_unsolved",
+  "working_target": "Unconfirmed intended complex-threefold cancellation A[u] isomorphic C^[4] implies A isomorphic C^[3]. Literal emailed A^1 conclusion has dimensional mismatch for general r.",
+  "summary": "Actual unit determinant kills the quadratic relation's cubic multiplier; vanishing symmetric tensor gives a constant complex quadratic velocity form and a global triangular shear to a nice coordinate frame. Recognition follows from retained AI-working theorem80, not a newly cited published universal theorem. No conic/fiber91-116 dependency.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass116-working.json",
+    "sha256": "ac60576c795e64bf9a1d7c46d0d46eb3e3133d1b000bf65846f1e7dd59b4f430",
+    "records": 737,
+    "revalidations": [
+      "cad204"
+    ]
+  },
+  "chain_record_count_after_including_this_checkpoint": 742,
+  "record_count_convention": "737 previous frozen hash records plus four current artifacts plus this checkpoint. README and research-ledger remain live. Current checkpoint hash is external.",
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-15T01:45:21.240Z",
+    "artifacts": [
+      {
+        "path": "research/quadratic-velocity-shear-pass117.md",
+        "sha256": "d68b95f15b979c1387485f4dcd39fc7431853df06a361b8110bbdfcd313405f1",
+        "bytes": 8239,
+        "lines": 209,
+        "equations": 6
+      },
+      {
+        "path": "research/quadratic_velocity_shear_checks_pass117.py",
+        "sha256": "f3048f3d72fad78990184ff27eb013a46ab3773097c418f6fdc1da689e95930c",
+        "bytes": 4710,
+        "lines": 101,
+        "equations": 0
+      },
+      {
+        "path": "research/verification-pass117-working.json",
+        "sha256": "05df044d4260d5fbf990316c40a59fc39c7f3d558c519c1d2e7553b3d64cdb96",
+        "bytes": 3281,
+        "lines": 45,
+        "equations": 0
+      },
+      {
+        "path": "research/quadratic-shear-frontier-pass117.md",
+        "sha256": "3bca99bcc58f197b6452b26c4bd29f4f1070679c9a330f6542203d30ec96e4b7",
+        "bytes": 4292,
+        "lines": 91,
+        "equations": 0
+      }
+    ],
+    "equations": 6,
+    "all_passed": true,
+    "metadata_evidence": "65470e",
+    "scope": "Artifact SHA256, bytes, lines, six sequential equation labels and whitespace; capture output and inputs validated. Full prior737 hashes checked separately."
+  },
+  "canonical_verification": {
+    "path": "research/verification-pass117-working.json",
+    "tool_evidence": "a4fe53",
+    "suites": 3,
+    "test_methods": 7,
+    "new_methods": 2,
+    "retained_methods": 5,
+    "elapsed_seconds": 1.012664333,
+    "unittest_seconds": 0.651,
+    "complete_output_sha256": "320a266401306edd655a61b64aedb6b42ed7c6723f2fb8806d5e0781d8ce8d96",
+    "all_passed": true,
+    "scope": "New formal moving-metric identity and nonplanar coefficient/shear control; retained90 volume and80 matrix controls. Not actual-frame entry, universal volume or degree proof, full recognition80, general cancellation or novelty."
+  },
+  "proof_reviews": [
+    {
+      "reviewer": "Root",
+      "evidence": [
+        "1258bf",
+        "2f36db",
+        "37d30e",
+        "186b7d"
+      ],
+      "scope": "Full saved117 proof/checker plus full90 volume/potential and recognition80."
+    },
+    {
+      "reviewer": "General",
+      "evidence": [
+        "d631c2",
+        "f361a2",
+        "07957d"
+      ],
+      "scope": "Independent full saved proof and code reconstruction, base-only localization, formal multiplier, metric signs without nondegeneracy, constant coefficients and polynomial inverse;90 and80 dependencies read. Deeper source dependencies not newly all audited."
+    },
+    {
+      "reviewer": "Geometry",
+      "evidence": [
+        "f50cc2",
+        "f7cb17",
+        "8b1e6b",
+        "4d8ac1"
+      ],
+      "scope": "Independent full saved117 proof and checker, actual localization and inverse, recognition80 distinct from new reduction; cubic/general limitations."
+    }
+  ],
+  "historical_full_verification": {
+    "pass": 75,
+    "suites": 146,
+    "methods": 1047,
+    "claims_registry": 544,
+    "rerun_this_pass": false
+  },
+  "dependency_boundary": {
+    "reduction": [
+      "actual invariant-plane/volume framework90",
+      "exact relative degree two",
+      "elementary polynomial units and degree",
+      "moving-frame matrix identities"
+    ],
+    "recognition_endpoint": "retained nice-slice-recognition-pass80.md, AI-working written theorem with source dependencies, not human/formal verification",
+    "not_used": "global conic or exceptional-fiber arguments91 through116"
+  },
+  "unresolved": [
+    "exact cubic relative branch",
+    "entry from arbitrary cylinder into supplied constant-acceleration frame",
+    "general complex-threefold cancellation",
+    "Luo's intended field and dimension",
+    "human expert verification",
+    "historical novelty"
+  ],
+  "next_task": "Test cubic graph determinant constraints with actual base compatibility; independently challenge retained nice80 source-dependent endpoint.",
+  "permissions": "Private local research and public primary-source reads only; no public post, submission, expert contact, paid access or new automation.",
+  "confidence": "Independent AI reconstructions and exact finite symbolic controls are not human expert review or formal proof verification."
+}

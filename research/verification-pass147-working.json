@@ -1,0 +1,82 @@
+{
+  "pass": 147,
+  "status": "all_degree_divisor_residue_bound_in_supplied_dense_chart; cancellation_unsolved",
+  "theorem": {
+    "path": "research/dense-all-degree-divisor-residue-bound-pass147-working.md",
+    "sha256": "1a69ab30311cd671af4021410584b79c6a1bde5c7f4611be1b37e239393abcd4",
+    "bytes": 13571,
+    "lines": 301,
+    "equations": 9,
+    "conclusions": [
+      "For every prime divisor p of S=ker_A N, the full fiber A_(p)/pA_(p) is ell_p[xi], where ell_p is finite over k(p).",
+      "Some reselected projected good U survives transcendently and [ell_p:k(p)] deg_xi(Ubar) <= deg_v U <= deg(g_reselected)=mu+1.",
+      "After algebraic closure of the coefficient residue field, the full fiber is exactly [ell_p:k(p)] disjoint affine lines.",
+      "A surviving projected good of generic degree one gives A_(p)=S_(p)[U]."
+    ],
+    "dependencies": "Actual139 dense three-good chart;134 invariant-divisor injection and gcd-one speeds;139/141 degree bound with145 equality; the separately retained Kaliman-Saveliev quotient application gives S isomorphic C^[2]. This last geometric input was not needed by145's purely generic-field proof.",
+    "new_scope": "Extends retained91 beyond constant acceleration and a low-degree bound, replaces its globally primitive field hypothesis by local prime-content division, and covers every prime divisor by good-coordinate reselection. The curve-LND and valuation arguments are retained mechanisms, not new general valuation theorems.",
+    "remaining_gap": "The estimate does not prove ell_p=k(p) when mu>0, global polynomial descent, arbitrary three-good entry or full cancellation."
+  },
+  "canonical_execution": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.divisor_residue_controls_pass147 -v",
+    "source_sha256": "9c7f16919f457941e1856d136fc35d2486f3a783d0ae6bd0a11c5f5a611a8ebc",
+    "bytes": 6751,
+    "lines": 134,
+    "full_source_read": "af3501, followed by final comment-only clarification72f575",
+    "completion_output": "72f575",
+    "exit_code": 0,
+    "methods": 2,
+    "reported_seconds": 0.084,
+    "state": "completed_in_initial_call",
+    "python": "3.13.5 Anaconda",
+    "sympy": "1.13.3",
+    "pending_execution_handles": false
+  },
+  "test_scope": [
+    "Actual146 frame: both inverse orders, dense speeds, selected T, N=-h^2 partial_a and valid division by h^2, surviving residue ybar=a and constant zbar=k, generic degree2 versus residual degree1.",
+    "Abstract triangular LND p partial_U+d U^(d-1) partial_V for d=2,3: invariance, nilpotent iterates, generic localization, quotient arithmetic, residual slice and degree-product equality.",
+    "The triangular family is not claimed to be the selected intrinsic derivation of an actual dense four-coordinate frame. Its finite checks do not prove the universal theorem or establish field irreducibility.",
+    "The separate elementary irreducibility argument is Eisenstein at eta for U^d+eta over C[eta]; the final source comment makes its independence from finite checks explicit."
+  ],
+  "abstract_control_kernel_argument": "Writing eta=pV-U^d, localization at p gives invariant kernel C[p,p^-1,eta]. A reduced p^-m F(p,eta) with m>0 cannot be polynomial in p,U,V: reduction would force the nonzero polynomial F(0,-U^d) to vanish. Thus the actual kernel of this abstract triangular LND is C[p,eta]. This argument does not supply a dense selected-frame realization.",
+  "reviews": {
+    "root": "Full theorem EOFde119b plus geometric-component delta12eb14; full checkeraf3501 plus final comment72f575. Full prior91 proof read during this turn;134 fully read a3976a; intrinsic quotient note fully read76a3b8+702c5f, foundation51 Sections1-3 read79b9db.",
+    "general": "Theorem author fullfc9d38, final component delta952c7b/hashaec3f7. Full checker sourceec579b plus final comment697915.",
+    "geometry": "Full theorem aa4856, final component delta ca3c1e. Independent global-reselection reconstruction and actual134 premises checked.",
+    "jet": "Full theorem5bb0dc at final hash835caa, full134 source0f8466. Checker author full835caa plus comment/readback8c3e01.",
+    "limits": "AI agreement and finite symbolic checks are not human expert review or proof-assistant verification. The cited geometric theorem and earlier actual-chart reductions remain explicit dependencies."
+  },
+  "primary_source": {
+    "url": "https://www.math.miami.edu/~kaliman/library/KaSa.michigan.2004.quotient.pdf",
+    "title": "Kaliman and Saveliev, C+-actions on contractible threefolds",
+    "input": "Lemma2.1 and Corollary2.8(2), applied by the retained intrinsic-quotient note and foundation51 audit",
+    "root_statement_checks": "turn4083view0 and turn4084view0-2",
+    "general_statement_check": "turn4085view0",
+    "scope": "Fresh selected primary statements and local application checked. No new recursive audit of the source's topology or surface-classification dependencies."
+  },
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass146-working.json",
+    "sha256": "04fb3d846c4826ebee5e3c1f97744712c3def95bdb72deee0a827210efacca14",
+    "records": 962,
+    "root_check": "d45de3",
+    "independent_check": "Geometry84f1b6/ea7991"
+  },
+  "goal_audit": {
+    "previous_goal_turn": "progress: source-matched final145 execution565a12",
+    "current_goal_turn": "progress: froze145, derived and verified146 counterexamples, then proved and checked147 all-degree divisor bound",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "next_task": "Attack nontrivial residue constants for actual selected intrinsic N, starting with degree-two extensions. Preserve the full invariant algebra and permit prime-dependent good-coordinate selection. An auxiliary LND or a projected-order split alone is not an actual counterexample. A proof of trivial constants must use the special original polynomial frame beyond ordinary intrinsic quotient facts.",
+  "boundaries": {
+    "human_review": false,
+    "proof_assistant_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "frozen_earlier_files_edited": false
+  }
+}

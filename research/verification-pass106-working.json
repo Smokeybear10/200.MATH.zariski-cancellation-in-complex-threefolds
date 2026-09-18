@@ -1,0 +1,45 @@
+{
+  "started_at_utc": "2026-09-14T20:46:41.647Z",
+  "finished_at_utc": "2026-09-14T20:46:43.371Z",
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.fourth_image_module_checks_pass106",
+    "research.mixed_quartic_cubic_checks_pass105",
+    "research.quadratic_degree_module_checks_pass102"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 1.719275333,
+  "suites": 3,
+  "test_methods": 4,
+  "new_methods": 2,
+  "retained_methods": 2,
+  "ast_method_counts": {
+    "research/fourth_image_module_checks_pass106.py": 2,
+    "research/mixed_quartic_cubic_checks_pass105.py": 1,
+    "research/quadratic_degree_module_checks_pass102.py": 1
+  },
+  "input_files": [
+    {
+      "path": "research/fourth_image_module_checks_pass106.py",
+      "sha256": "a53999d3f4a83abad55bef5acbee323651b722594a11ec66a06647bbb32bc817"
+    },
+    {
+      "path": "research/mixed_quartic_cubic_checks_pass105.py",
+      "sha256": "c3bc62a6c6fc407ced97bd0806bf717d5e7aaf3df4c94410947862fc839adac8"
+    },
+    {
+      "path": "research/quadratic_degree_module_checks_pass102.py",
+      "sha256": "dd701dc05fe10c4ce5189ab848bfde4f0ea7bb724f27d4317b69f38c91613362"
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "stdout": "",
+  "stderr": "test_dual_number_and_simple_parameter_inverses (research.fourth_image_module_checks_pass106.FourthImageModuleChecks.test_dual_number_and_simple_parameter_inverses) ... ok\ntest_intrinsic_ring_matrix_and_products (research.fourth_image_module_checks_pass106.FourthImageModuleChecks.test_intrinsic_ring_matrix_and_products) ... ok\ntest_mixed_quartic_cubic_preparation_controls (research.mixed_quartic_cubic_checks_pass105.MixedQuarticCubicChecks.test_mixed_quartic_cubic_preparation_controls) ... ok\ntest_conic_first_coefficients_and_weight_comparison (research.quadratic_degree_module_checks_pass102.QuadraticDegreeModuleChecks.test_conic_first_coefficients_and_weight_comparison) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 1.341s\n\nOK\n",
+  "output_hash_convention": "stdout + one newline + stderr",
+  "complete_output_sha256": "d44d98dde9c38b67d46bf589edaaa437bdef7b8634691fcff3b410effcf8cfc0",
+  "all_passed": true,
+  "scope": "New finite algebraic controls plus retained quartic-recovery and conic-matrix controls. Does not verify universal normalization, image-ideal, whole-module, flatness or cancellation theorems."
+}

@@ -1,0 +1,404 @@
+{
+  "status": "working89-restricted-recognition-proof; unrestricted goal active",
+  "working_question": "Unconfirmed corrected complex-threefold cancellation: A[s] isomorphic to C^[4] implies A isomorphic to C^[3].",
+  "previous_working_checkpoint": "research/checkpoint-pass88-working.json",
+  "previous_working_checkpoint_sha256": "f439cc796327f9ee85d4bc14d25efbab30344e596501a717b8eb4abe8d30ebf6",
+  "previous_goal_turn_classification": "no progress: status-only user check-in; revalidated and resumed proof work",
+  "current_research_pass_classification": "progress: a complete written restricted recognition argument, independent AI reconstructions, two exact finite methods and preserved source/evidence hashes",
+  "synthesis": "research/homogeneous-speed-recognition-frontier-pass89.md",
+  "proof_audit": "research/proof-audits-pass89-working.md",
+  "verification_record": "research/verification-pass89-working.json",
+  "restricted_theorem": {
+    "hypotheses": [
+      "E is an actual complex LND of C[x1,x2,x3,z].",
+      "E^2 xi=0 for i=1,2,3.",
+      "E^2 z=q is a nonzero complex constant; u=Ez/q is automatically a polynomial slice.",
+      "A nonzero homogeneous F over C satisfies F(Ex1,Ex2,Ex3)=0."
+    ],
+    "conclusion": "ker E is isomorphic to C^[3].",
+    "status": "Complete written working proof under the retained source theorems; full-file AI reviews completed, not formal or human expert certification.",
+    "equivalent_speed_condition": "trdeg_C C(tb1,tb2,tb3)<=2 for independent t; at speed rank two this is Omega=det[b,b_s1,b_s2]=0.",
+    "exhausted_cases": [
+      "Constant nonzero speed gives an original linear coordinate slice.",
+      "Rank-one speed, including already recognized dependent-speed and stable-good-ring subcases.",
+      "Rank-two conical speed, including a linear-cone invariant coordinate and the nonlinear-cone proof."
+    ]
+  },
+  "completed_deductions": [
+    "A unit normal in both nontrivial speed cases gives actual A=S[Y,c] over the intrinsic polynomial plane, without assuming an invariant-coefficient matrix is an ambient automorphism.",
+    "Every coefficient pole causing algebraic residue Y yields a whole fiber k'[c]; tensor nilpotence for h gives hbar in k', and the original coordinate reconstruction forces the divisor polynomial to be independent of z.",
+    "The remaining rank-one and nonlinear-conical cases have no nonconstant invariant in the original three-good-variable subring; every generic divisor is met and A intersect Frac(S[Y]) equals S[Y].",
+    "The actual commutator Q becomes lambda partial_v on the generic intrinsic line. A critical point of Y would make its original coefficient column a nonzero vertical vector, contradicting Q=-Je4 and JQ=0. Thus Y has degree one.",
+    "Intersection descent plus generic degree one identifies A=S[Y] in the remaining cases. This closes the homogeneous-speed-relation theorem, not arbitrary constant acceleration.",
+    "The separate valuation-gap lemma forces every generator-relation leading coefficient to have divisor order at least n+1 when the pencil slope has pole order n. The all-integer family proves sharpness."
+  ],
+  "proof_reviews": {
+    "combined_final": "Root, Geometry and Jet full EOF reconstruction of General's final 341-line, 11-equation file, hash 524dcd756e0d3d5cdb691eee6b11481e215a892a875c3211abb23929f21d6496.",
+    "critical_point": "Jet author; Root, General and Geometry independently reconstructed and read the final six-equation file.",
+    "synthesis": "Root author; General, Geometry and Jet final full EOF reviews.",
+    "all_other_scopes": "See proof-audits-pass89-working.md. Reviews are AI reconstructions with explicit inherited source inputs, not external expert or formal verification.",
+    "packet_audit": "Root and Jet full EOF read of the 135-line audit record; Jet checked the pole-support spacing delta and the synthesis algebraic-Y clarification."
+  },
+  "targeted_verification": {
+    "all_passed": true,
+    "total_suites": 2,
+    "total_test_methods": 2,
+    "started_at_utc": "2026-09-14T12:34:48.490210+00:00",
+    "finished_at_utc": "2026-09-14T12:34:49.042789+00:00",
+    "wall_seconds": 0.552434,
+    "unittest_seconds": [
+      0.144,
+      0.03
+    ],
+    "input_hashes_unchanged": true,
+    "input_files": 4,
+    "complete_saved_outputs": 2,
+    "canonical_tool_chunk": "7f0dc8"
+  },
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "fresh_full89_regression_performed": false,
+  "bounded_action_search_executed": false,
+  "central_registry_integrated": false,
+  "historical_claim_count": 544,
+  "remaining_mathematical_obligations": [
+    "Recognize the genuinely nonlinear nonconical rank-two-speed case Omega!=0 without assuming an invariant coordinate or polynomial relative presentation.",
+    "Supply an actual three-good-coordinate constant-acceleration reduction for arbitrary sliced four-variable actions, or develop a genuinely broader route.",
+    "Complete the unrestricted corrected complex-threefold cancellation proof. The current theorem is not a substitute for that objective.",
+    "Determine exact-statement prior art for the restricted theorem; the current bounded search is not a novelty audit.",
+    "Obtain human expert review before any claim of independent expert verification; external contact and submission require Thomas's explicit approval."
+  ],
+  "next_bounded_actions": [
+    "Start from the frozen nonconical identities in pass88: common invariant plane, three relative generators, Omega h in R, and equal fraction fields when Omega!=0.",
+    "Test whether a primitive normal or a genuine original-coordinate divisor argument reduces the nonconical three-generator presentation to two generators; do not import the conical unit-normal conclusion.",
+    "Exclude already recognized affine-linear speed relations before selecting a nonconical test family.",
+    "Audit the exact homogeneous-speed theorem against primary literature without public novelty claims or outreach."
+  ],
+  "general_conjecture_solved": false,
+  "arbitrary_constant_acceleration_recognized": false,
+  "arbitrary_sliced_action_reduced_to_frame": false,
+  "professor_interpretation_confirmed": false,
+  "historical_novelty_verified": false,
+  "human_expert_review_completed": false,
+  "formal_verification_completed": false,
+  "external_contact_made": false,
+  "submission_or_publication_made": false,
+  "predecessor_audit": {
+    "checked_at_utc": "2026-09-14T12:44:43.645Z",
+    "all_passed": true,
+    "prior_hash_records": 478,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "f439cc796327f9ee85d4bc14d25efbab30344e596501a717b8eb4abe8d30ebf6",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "primary_source_audit": {
+    "newly_verified_selected_statements": [
+      {
+        "source": "https://arxiv.org/pdf/1501.06046v4",
+        "scope": "Theorem 2.7 statement and displayed proof through (i)-(viii); Corollary 3.2 and Lemma 3.3 displayed proofs. Deeper Luroth and gcd inputs inherited."
+      },
+      {
+        "source": "https://arxiv.org/pdf/1701.03635v1",
+        "scope": "Full displayed Theorem 3.1 statement, especially (i); not a new proof audit of Wang's original theorem."
+      },
+      {
+        "source": "https://arxiv.org/pdf/1501.01438v1",
+        "scope": "Theorem 3.5 statement and complete displayed short proof; DVR proposition and PID patching inherited."
+      },
+      {
+        "source": "https://stacks.math.columbia.edu/tag/09E8",
+        "scope": "Complete displayed remark giving DVR extensions in a finite separable fraction-field extension; cited lemmas inherited."
+      },
+      {
+        "source": "https://stacks.math.columbia.edu/tag/0AVB",
+        "scope": "Complete displayed lemma and proof; apply M=R for normal-domain height-one intersection."
+      }
+    ],
+    "retained_file_count": 26,
+    "newly_downloaded_papers": 0,
+    "file_count_is_new_paper_count": false,
+    "bounded_novelty_search": "Inconclusive; no exact-statement absence or priority conclusion."
+  },
+  "integrity_events": [
+    "The first critical-point patch failed syntax validation before creating its target and was corrected.",
+    "Two draft curve-speed TeX spacing commands were restored before final mathematical reviews.",
+    "An explicit trailing TeX backslash-space in pole-support(7) was replaced with quad spacing commands; mathematical content unchanged.",
+    "The read-only link harness initially parsed the plain commutator expression [E,T](p) as a link. The recognizer was corrected without changing mathematical content.",
+    "No mathematical test failed in the pass."
+  ],
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-14T12:44:43.458Z",
+    "all_passed": true,
+    "total_artifacts": 14,
+    "total_numbered_equations": 61,
+    "line_count_convention": "Content lines after trimming trailing whitespace; trailing blank lines are excluded. This is not necessarily the physical wc -l count.",
+    "artifacts": [
+      {
+        "path": "research/binary-normal-unit-control-pass89.md",
+        "sha256": "5e491af155af00a2324d301497baa1bdf757b6544dece5f02da9dd36bd70997d",
+        "bytes": 4081,
+        "lines": 98,
+        "numbered_equations": 4
+      },
+      {
+        "path": "research/binary_normal_unit_checks_pass89.py",
+        "sha256": "4e890c12f544cfe14d922e0b1193585ea7fe116bb98752913e3299c220b2b093",
+        "bytes": 2152,
+        "lines": 50,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/constant-acceleration-conical-normal-pass89.md",
+        "sha256": "6d5740951f24304d62f3a45ddbedf55c170a750afac7eeb32aa86e5c7e6df3a8",
+        "bytes": 9388,
+        "lines": 206,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/constant-acceleration-curve-speed-pass89.md",
+        "sha256": "9ee04b2cad8f279a99c6f4b365f6917a798d37def602d560fdc45909264f96fc",
+        "bytes": 8299,
+        "lines": 198,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/constant-acceleration-pole-support-pass89.md",
+        "sha256": "55c1d827e7bb04f7570358c1c30db39c47ee7138998576f890d7d5ff0be40ef7",
+        "bytes": 7871,
+        "lines": 184,
+        "numbered_equations": 7
+      },
+      {
+        "path": "research/constant-acceleration-relative-degree-one-pass89.md",
+        "sha256": "6b6b46709f47d0f7f50bfc8dd562441035aec0cabdc8502404432ea93d8c44bf",
+        "bytes": 5926,
+        "lines": 137,
+        "numbered_equations": 6
+      },
+      {
+        "path": "research/constant-acceleration-relative-slice-descent-pass89.md",
+        "sha256": "524dcd756e0d3d5cdb691eee6b11481e215a892a875c3211abb23929f21d6496",
+        "bytes": 16140,
+        "lines": 341,
+        "numbered_equations": 11
+      },
+      {
+        "path": "research/generator-pencil-pole-order-control-pass89.md",
+        "sha256": "c5b9f895063e84726940668ac06bbbe7dc0e1eab2b32779c508ca888edb135a7",
+        "bytes": 5448,
+        "lines": 121,
+        "numbered_equations": 4
+      },
+      {
+        "path": "research/generator_pencil_valuation_checks_pass89.py",
+        "sha256": "a8d2cee9fb60d6a941c6935f6afbb90bc4610b8f6d825975cd9480a89cdba625",
+        "bytes": 2270,
+        "lines": 48,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/homogeneous-speed-recognition-frontier-pass89.md",
+        "sha256": "ba9a05a257fd825f23c4d019cfdad1745f2056aa3dfd0064300b13d5d1712a14",
+        "bytes": 9956,
+        "lines": 199,
+        "numbered_equations": 6
+      },
+      {
+        "path": "research/proof-audits-pass89-working.md",
+        "sha256": "3dc33b72879f025249549a85723d68a0ba46a57695a1ef154d42b70a7252d0fa",
+        "bytes": 7611,
+        "lines": 135,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/run_targeted_pass89.py",
+        "sha256": "68b785646eb6fc822d2d0b72448e72e5cbc83416e5cf111ba64bfdadb71c2f2d",
+        "bytes": 3877,
+        "lines": 103,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/universal-pencil-valuation-gap-pass89.md",
+        "sha256": "2b3983301f6618cda678656eb2cd17ef44a5b33dea5a7293459b7dffaf337c0e",
+        "bytes": 7058,
+        "lines": 159,
+        "numbered_equations": 7
+      },
+      {
+        "path": "research/verification-pass89-working.json",
+        "sha256": "5322bc8d8bcaf9a86b97cbb41aa9173243a7dabba54500693632717807cc893b",
+        "bytes": 3859,
+        "lines": 74,
+        "numbered_equations": 0
+      }
+    ],
+    "local_link_paths_checked": 735,
+    "deferred_checkpoint_links": [
+      {
+        "source": "research/homogeneous-speed-recognition-frontier-pass89.md",
+        "target": "research/checkpoint-pass89-working.json"
+      },
+      {
+        "source": "research/proof-audits-pass89-working.md",
+        "target": "research/checkpoint-pass89-working.json"
+      },
+      {
+        "source": "README.md",
+        "target": "research/checkpoint-pass89-working.json"
+      },
+      {
+        "source": "research-ledger.md",
+        "target": "research/checkpoint-pass89-working.json"
+      }
+    ],
+    "link_anchors_checked": false,
+    "targeted_suites": 2,
+    "targeted_methods": 2,
+    "current_run_sources_checked": 4,
+    "retained_output_hashes_checked": 2,
+    "primary_source_files_checked": 26,
+    "primary_source_files": [
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.pdf",
+        "sha256": "b4df87f9a4042c1110915f50779be26decb6473fc13fccb99038a91bcb9f3a03",
+        "bytes": 2153645
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.txt",
+        "sha256": "31b95df36405d2cf9b50cf24e649bc75a40b490a0f2caebdca0de0416bf85816",
+        "bytes": 862237
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77-source.md",
+        "sha256": "4a8edfdd91fd0ef6441384a92b5aa45b2cc39f19958abcc7fbe363c89f237b83",
+        "bytes": 1170
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.sha256",
+        "sha256": "243073116eef79c9fd0d28c06add2c602bf7aeae3797e10373be8252b35ddd00",
+        "bytes": 214
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.txt",
+        "sha256": "2450cbb34179187172a6c81dfedba9752ecb32b067c5a62ffcb2decab7f236d9",
+        "bytes": 98069
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.pdf",
+        "sha256": "31cec362bd10fbe65e2a4622979fbcf4fbff2bcd585bae9dd3fe78bc330d49cc",
+        "bytes": 387538
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.pdf",
+        "sha256": "c7922ecd2cdeacabf12eee7bd8115920bc0e2f2d4b0c64282a66f8c47fb42e01",
+        "bytes": 177030
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82.txt",
+        "sha256": "37430e92c0d66c5b1f33615ea4375b3be8b23503c54a7c6e6daf286d40d01c92",
+        "bytes": 16562
+      },
+      {
+        "path": "tmp/pdfs/berson-essen-maubach-divergence-pass82-source.md",
+        "sha256": "99865a4259f8ca7455ab163829290c5bb111b1c6153c5a4e7861fd4e78e5a437",
+        "bytes": 1083
+      },
+      {
+        "path": "tmp/pdfs/lipman-sathaye-briancon-skoda-pass83.pdf",
+        "sha256": "70a614756d88f14da18a2cebccb316c2e2c42d0b1ded94168a63e0660e0cc8ff",
+        "bytes": 678125
+      },
+      {
+        "path": "tmp/pdfs/hickel-jacobian-socle-pass83.pdf",
+        "sha256": "26413534d1feac31dab1ae0436d02083e14cdf3589276b57775a9c57d281de60",
+        "bytes": 218873
+      },
+      {
+        "path": "tmp/pdfs/hickel-jacobian-socle-pass83.txt",
+        "sha256": "0369ac31141870e864a509a0dbd5dec9ed18804651691e2b09ef31b992371e05",
+        "bytes": 59607
+      },
+      {
+        "path": "tmp/pdfs/general-dasgupta-lahiri-pass85.pdf",
+        "sha256": "15fe6cbd898ca7c0ca16e5bfa5186f64212c11b97aa476a579a37f58777305a2",
+        "bytes": 347896
+      },
+      {
+        "path": "tmp/pdfs/general-dasgupta-lahiri-pass85.txt",
+        "sha256": "f2df8d0b33245de4b0b4b36a4306567a59d6f15dd6f5dbf32b593fdd4d378fb0",
+        "bytes": 49828
+      },
+      {
+        "path": "tmp/pdfs/general-epstein-hochster-pass85.pdf",
+        "sha256": "1ba544cb49a75699f4cf73191e563383f20a4b1e31bf45abc8af61c7f32111da",
+        "bytes": 1137226
+      },
+      {
+        "path": "tmp/pdfs/general-epstein-hochster-pass85.txt",
+        "sha256": "8c06d9c9280f730aa119973de8ccc19ef5f83442cf36520cb48d7f27510435e1",
+        "bytes": 172630
+      },
+      {
+        "path": "tmp/pdfs/general-das-cancellation-pass86.pdf",
+        "sha256": "51988960879b0c4e3673635309e8c286fd47f2d74420d919923001748cbbc002",
+        "bytes": 141542
+      },
+      {
+        "path": "tmp/pdfs/general-dutta-lahiri-residual-pass86.pdf",
+        "sha256": "796c98f55ffa7d4b36ac848145a645e6c49d1c74ede433cadd7d34db8f28a4b4",
+        "bytes": 156952
+      },
+      {
+        "path": "tmp/pdfs/general-kaliman-zaidenberg-modification-pass86.pdf",
+        "sha256": "4a34c5511e8ab464a9094d409a41ecb1a60d43ce1ec962ee92acbabac5739a76",
+        "bytes": 481658
+      },
+      {
+        "path": "tmp/pdfs/general-jurkiewicz-reynolds-pass87.pdf",
+        "sha256": "98754b6eaf8fad7c8177604228e436e2cfc21315de26af7954d3859ee4fa697d",
+        "bytes": 276235
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.06046v4.pdf",
+        "sha256": "75b598e2e8cad4ec07e9e97ba027c89df659999137e70b22c96596b6003d7698",
+        "bytes": 339107
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.06046v4.txt",
+        "sha256": "aff7b6b02c41b507f58e37a15a6ecab34565f0606fdf10178e1f3963de86d7f5",
+        "bytes": 88771
+      },
+      {
+        "path": "tmp/pdfs/dg-nice-1701.03635v1.pdf",
+        "sha256": "09fc312059bfc11f00ecb00de46bdafeae9b1cfd2738d6383b9de739d3628b4b",
+        "bytes": 181779
+      },
+      {
+        "path": "tmp/pdfs/dg-nice-1701.03635v1.txt",
+        "sha256": "ab0ac579fa726ca4fbb55565f0412a9da2fbc1e234c481b5e47b49b9c3e29dc3",
+        "bytes": 41655
+      },
+      {
+        "path": "tmp/pdfs/bgl-1501.01438v1.pdf",
+        "sha256": "841365ff79f66f5ef8b16595507ec1059fcbd7edb7a0ec23ac4d883ed5a53623",
+        "bytes": 324585
+      },
+      {
+        "path": "tmp/pdfs/bgl-1501.01438v1.txt",
+        "sha256": "3e4515902dcbef971d4fe7d303974ed89dbbb289654b024244313d248cc2156f",
+        "bytes": 77489
+      }
+    ],
+    "mathematical_suites_executed": 0,
+    "scope": "Read-only hashes, numbering, local paths, whitespace and saved-run accounting; not proof verification."
+  },
+  "scope": "14 current artifacts and 61 numbered equations, separately from 478 frozen predecessor hash records. The checkpoint itself is an additional hash record on the next audit. No blanket inference from finite tests to the written recognition theorem."
+}

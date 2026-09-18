@@ -1,0 +1,29 @@
+{
+  "status": "targeted finite controls only; not universal proof verification",
+  "started_at_utc": "2026-09-14T13:56:03.604Z",
+  "finished_at_utc": "2026-09-14T13:56:04.429Z",
+  "wall_seconds": 0.824507125,
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.nonconical_global_jacobian_checks_pass91",
+    "research.nonconical_multiplicity_boundary_checks_pass91"
+  ],
+  "exit_code": 0,
+  "all_passed": true,
+  "suites": 2,
+  "test_methods": 2,
+  "unittest_seconds": 0.302,
+  "input_sha256": {
+    "research/nonconical_global_jacobian_checks_pass91.py": "a46d8bb5f67d957a20351d97c5c427ae12fa667faa95ceb5ba285ceea9b39b87",
+    "research/nonconical_multiplicity_boundary_checks_pass91.py": "e35e34ffc5891da3637617871909477fd97db4294650902851816ad8b856ae93"
+  },
+  "input_hashes_unchanged": true,
+  "stdout": "",
+  "stderr": "test_cofactor_actual_frame_and_primitive_boundary (research.nonconical_global_jacobian_checks_pass91.GlobalJacobianControls.test_cofactor_actual_frame_and_primitive_boundary) ... ok\ntest_presentation_fibers_and_original_coordinate_boundary (research.nonconical_multiplicity_boundary_checks_pass91.MultiplicityBoundaryChecks.test_presentation_fibers_and_original_coordinate_boundary) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.302s\n\nOK\n",
+  "output_sha256": "0d4c035d1933f1e8f8589f62bd9f89d20f6ac315fd554be3f80dedc3bd7789aa",
+  "scope": "Formal cofactor, actual inverse-frame and multiplicity-boundary polynomial identities. Does not certify the linear recognition, primitive-gcd, finite-support, residue-degree or connected-fiber proofs. No full regression.",
+  "canonical_tool_chunk": "3269e6"
+}

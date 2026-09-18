@@ -1,0 +1,59 @@
+{
+  "pass": 127,
+  "status": "supplied_three_good_speed_rank_one_recognized; rank_two_quotient_stability_shortcut_excluded; general_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3]. The professor's intended dimension, ground field and conclusion remain unconfirmed.",
+  "summary": "An actual sliced four-variable frame with three E-affine coordinates and speed transcendence degree at most one has polynomial kernel, with no bound on the last coordinate's E-degree. The proof constructs an invariant actual ambient coordinate using full-multiplicity content and a polynomial Wronskian argument, then applies the regular-kernel theorem. A separate actual rank-two translation frame shows that the original bad partial need not preserve its leading intrinsic kernel. The narrower canonical-volume identity remains valid but is not needed for recognition.",
+  "previous_checkpoint": {"path": "research/checkpoint-pass126-working.json", "sha256": "3ea3e430214e6a315e44c965cc22e8b7e55405d30a328084f328c628cc550949", "records": 827, "evidence": ["dce8f8", "35eaa3"], "scope": "Frozen predecessor hash and its recorded count verified, without rehashing the historical chain."},
+  "chain_record_count_after_including_this_checkpoint": 834,
+  "record_count_convention": "827 prior records plus six current artifacts plus this checkpoint. No separate synthesis artifact was created. Live indexes are not frozen records; this checkpoint's own hash is recorded externally.",
+  "current_integrity_audit": {
+    "artifacts": [
+      {"path": "research/three-good-speed-curve-recognition-pass127.md", "sha256": "47a61666fa56c3d0b4528250aa0fff721fd8811138d2567d147000466db30660", "bytes": 14962, "lines": 342, "equations": 9, "test_methods": 0, "local_links": 5},
+      {"path": "research/three-good-canonical-volume-factorization-pass127.md", "sha256": "a1273e1b82983f036275e2cd9106df205c22f9b6d3a287616143487795b97646", "bytes": 9396, "lines": 222, "equations": 7, "test_methods": 0, "local_links": 5},
+      {"path": "research/three-good-speed-curve-source-proof-audit-pass127.md", "sha256": "561d1b546c983cbaf02b8fccfd7fb0f60cfff5a1f9e11162247f1ec42fb553d0", "bytes": 9634, "lines": 195, "equations": 2, "test_methods": 0, "local_links": 3},
+      {"path": "research/three-good-rank-two-quotient-instability-pass127.md", "sha256": "242c3379744a9c18668cbdbdf1622e7911e4a019eb2d81019e04fed3f1094d38", "bytes": 6751, "lines": 171, "equations": 6, "test_methods": 0, "local_links": 3},
+      {"path": "research/three_good_speed_curve_checks_pass127.py", "sha256": "e8e700657a02b7228ecb31c93e17cae4390d21392b37b5f542761ec7002f1c3c", "bytes": 15854, "lines": 291, "equations": 0, "test_methods": 5, "local_links": 0},
+      {"path": "research/verification-pass127-working.json", "sha256": "9ed03357701723ae8be4c00c233ebc660b26e9ea31b5c9ab503fb00dc6d2383d", "bytes": 3125, "lines": 38, "equations": 0, "test_methods": 0, "local_links": 0}
+    ],
+    "artifact_count": 6, "proof_and_control_artifacts": 3, "source_proof_audits": 1, "equations": 24, "new_test_methods": 5, "local_markdown_links": 16,
+    "evidence": ["35eaa3", "919508"],
+    "scope": "Current hashes, UTF-8 bytes, line counts, numbered tags, checker AST counts and all sixteen local Markdown file targets verified. The link count includes the control note's Python checker link. No test module was imported or executed. Final checkpoint self-validation is recorded externally."
+  },
+  "canonical_verification": {
+    "path": "research/verification-pass127-working.json", "root_execution_evidence": ["18b278", "34bd73"], "execution_session_id": 53427, "exit_code": 0,
+    "suites": 3, "test_methods": 11, "new_methods": 5, "retained_methods": 6, "unittest_reported_seconds": 0.991,
+    "tool_call_wait_seconds": [1.002319417, 0.000209916], "timing_scope": "These are tool waits for two output chunks, not a separately measured process wall-clock duration.",
+    "before_hash_evidence": "8f1daa", "after_hash_evidence": "bbcb40",
+    "inputs": [
+      {"path": "research/three_good_speed_curve_checks_pass127.py", "sha256": "e8e700657a02b7228ecb31c93e17cae4390d21392b37b5f542761ec7002f1c3c", "test_methods": 5},
+      {"path": "research/three_good_cofactor_checks_pass126.py", "sha256": "ecd8d7952a0c29e3e23d28abcbe748fb7f301c8ca9e69ceb9cb048762b58710b", "test_methods": 3},
+      {"path": "research/three_good_controls_pass125.py", "sha256": "bd4ed1a8d89cdb472349959fef06ab66f4c95ee93b6d5723667f05856ee4ac53", "test_methods": 3}
+    ],
+    "all_current_input_hashes_match_recorded_before_and_after": true,
+    "review_evidence": ["dce8f8", "35eaa3"],
+    "review_scope": "Complete saved capture read and checked against Root's quoted canonical run. Its command, output identifiers, terminal status, input hashes and AST method counts [5,3,3] agree. The capture contains no complete process-output checksum, so none is claimed. Geometry did not independently execute the tests or retrieve a new process capture.",
+    "coverage_scope": "Five new finite controls cover actual examples of last E-degrees two, three and five, nonreduced content and normal-degree identities, explicit Wronskian inverses, a nonzero second-adjoint rank-two frame, and actual intrinsic-kernel nonpreservation. Six retained methods were rerun unchanged by Root. This is not a full historical-suite run or verification of universal proofs, cited theorems, unrestricted entry or cancellation."
+  },
+  "proof_reviews": [
+    {"artifact": "research/three-good-speed-curve-recognition-pass127.md", "reports": [{"reviewer": "Root", "evidence": ["2f2b0a", "21b302", "000a75"]}, {"reviewer": "Geometry", "evidence": ["a5428c", "2e3d73", "02c566"]}], "scope": "Complete nine-equation proof plus final elementary p_z=0 replacement. Checked actual polynomial curve factorization, full slice ideal, selected cofactor degeneration to an LND, all-degree content with multiplicities, primitive normal degree, low-degree alternatives, actual triangular inverse and regular-kernel source applicability. No nice-three classification is needed in the final dependency chain."},
+    {"artifact": "research/three-good-canonical-volume-factorization-pass127.md", "reports": [{"reviewer": "Root", "evidence": "407b51"}, {"reviewer": "Geometry", "evidence": "9379d2"}], "scope": "Complete seven-equation reconstruction in the actual unit joint-curve presentation: global smooth-hypersurface volume, constant unit ratio, alpha=C a Jac_S(p,h), and primitive relative LND. Primitivity is not freeness; this result is independent of the new speed-rank-one recognition proof."},
+    {"artifact": "research/three-good-rank-two-quotient-instability-pass127.md", "reports": [{"reviewer": "Root", "evidence": "356081"}, {"reviewer": "Geometry", "evidence": ["387c72", "35eaa3"]}], "scope": "Complete six-equation actual control plus final checker/provenance tail. Both inverse orders, unit and full-span rank-two speed row, nonconical determinant, intrinsic top versus second adjoint, exact kernel and T(h) not in A reconstruct. The frame is already a translation and does not obstruct a future rank-two recognition theorem."}
+  ],
+  "source_proof_audit_review": {"artifact": "research/three-good-speed-curve-source-proof-audit-pass127.md", "reports": [{"reviewer": "Root", "evidence": "02e397"}, {"reviewer": "General", "evidence": "16e483"}], "scope": "Complete saved audit, including the independent Riccati quotient derivation and its nonreduced-ideal validity. These peer reports audit the written algebra and source-applicability scope; they are not additional full primary-source proof audits."},
+  "code_review": {"artifact": "research/three_good_speed_curve_checks_pass127.py", "reports": [{"reviewer": "Geometry", "evidence": ["e2d809", "1d09a0"]}, {"reviewer": "Root", "evidence": ["02e397", "8f1daa"]}], "scope": "Complete first four methods and complete fifth-method/docstring delta read without peer reexecution. Actual frame examples, standalone quotient identities and logical boundary controls are distinguished explicitly."},
+  "source_scope": {
+    "fresh_selected_reads": "Geometry read de Bondt Corollary3.2 and Lemma3.3 with their complete displayed proofs; Bhatwadekar-Gupta-Lokhande Theorem3.5 and its complete short displayed proof; and the specified Dasgupta-Gupta and Dasgupta-Lahiri comparison statements and selected proof in the saved audit. Root separately reported selected endpoint reads.",
+    "main_required_sources": "Polynomial curve factorization supplies the polynomial speed parameter. The regular-kernel theorem applies only after an actual invariant ambient coordinate is constructed and the actual slice proves regularity. Nice-three classification is corroborating background, not a final dependency.",
+    "not_claimed": "No fresh recursive audit of all de Bondt dependencies, original Wang proofs, regular-kernel DVR and patching dependencies, or earlier quotient-surface source trees. No exhaustive literature search, novelty clearance or human expert certification."
+  },
+  "mathematical_boundary": [
+    "All supplied three-good sliced four-variable frames with speed transcendence degree at most one are recognized, without any degree assumption on the fourth coordinate.",
+    "This subsumes the actual unit joint-curve recognition frontier of126. It does not recognize arbitrary numerical partial-degree profiles, or assume the speed parameter itself is a coordinate.",
+    "The common leading intrinsic plane need not be preserved by the selected original partial, even for a unit, full-span, nonconical speed-rank-two frame. This disproves a proposed shortcut, not rank-two recognition.",
+    "Recognition of speed rank two and construction of a supplied three-good frame for an arbitrary sliced four-variable action remain unresolved. No unrestricted cancellation theorem is claimed."
+  ],
+  "goal_audit": {"pass_mathematics_classification": "special_recognition_theorem_and_actual_failed_shortcut_control_progress", "archival_task_classification": "packaging_and_verification_only", "full_goal_achieved": false, "genuine_external_blocker": false},
+  "boundaries": {"human_expert_review": false, "formal_verification": false, "historical_novelty_cleared": false, "external_contact": false, "submission": false, "public_posting": false, "new_automation": false, "files_through126_frozen": true, "all_historical_tests_rerun": false},
+  "live_indexes": ["README.md", "research-ledger.md"],
+  "live_index_scope": "Root owns the live index updates. Geometry did not edit the indexes or assert frozen hashes for them."
+}

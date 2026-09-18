@@ -1,0 +1,100 @@
+{
+  "pass": 199,
+  "status": "actual_nonmonomial_square_root_lower_normalization_and_bounded_primary_literature_audit; unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass198-working.json",
+    "sha256": "97ca3405f21fe69795387c34012e129bf27cd97076ced0084a58ea40adabb4be",
+    "records": 1229
+  },
+  "results": {
+    "actual_normalization": "Under the supplied actual global-slice exact1122 frame and full initial kernel (Z^2-X^3Y), the nonmonomial square-root family f=a*t+b*q, a,b in C*, q^2=t, is first normalized by actual diagonal scaling to f=q(q+1). Exact coefficient equations then give a complete finite-field lower-potential solution and actual polynomial shears and translations reducing k=R*rho, n=nu*rho^2/2, with R=1/(q(q+1)) and nu=1/(q^3(q+1)^3(3q-1)).",
+    "exact_field_and_actual_gates": "The complete homogeneous basis is justified by a nonzero Wronskian and the exact constant field, not a rational ansatz. Every original change has both polynomial inverse orders. The selected partial is scaled by a nonzero complex constant initially and is literally preserved thereafter; N, the selected fields, graph/projection distinction, exact profile and full initial kernel are preserved.",
+    "remaining_scalar": "The normalized third potential is ell=L3*rho^3+ell0 with ell0 in K. The graph case alone forces ell0=lambda*R and allows the actual constant W translation. The quadratic-projection alternative retains arbitrary ell0. This normalization alone does not prove recognition or exclusion of either alternative.",
+    "bounded_literature_audit": "Six precise searches and exact primary statement reads checked BGL Theorem3.5, nice/two-good results in Dasgupta-Gupta, image-ideal results in Dasgupta-Lahiri, and commuting-derivation results in Dasgupta-Gaifullin. None of the inspected statements supplies recognition from the stated1122/full-kernel hypotheses alone or subsumes the starting hypotheses of197/198. This is an applicability report, not an exhaustive search or novelty clearance.",
+    "remaining_scope": "This packet stops at actual lower-potential normalization. The separate200 graph/projection exclusions and synthesis are not included. Two-root nonzero-R cases, other initial forms, height-two kernels, higher profiles, arbitrary entry and unrestricted cancellation remain outside this result."
+  },
+  "goal_audit": {
+    "prior_progress": "Frozen198 excluded the reciprocal square-root family under supplied actual hypotheses. Its canonical run and records are not recounted as new199 evidence.",
+    "current_continuation": "The new199 proof establishes a complete actual lower-potential normalization for the nonmonomial family and adds a bounded primary-source applicability audit. Root executed its new three-method checker once after complete source reads; the initial response returned a session handle and the terminal response completed that same handle successfully.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Treat the two normalized nonmonomial alternatives using the full scalar Jacobian and exact actual field return. Separate200 sources and their canonical run are not199 evidence or records.",
+  "artifacts": [
+    {
+      "path": "research/weight-four-nonmonomial-square-root-actual-normalization-pass199-working.md",
+      "sha256": "a15bd8d173630767e0bf702065d6a310460321b97bfd0568196fb882e35f7e2e",
+      "bytes": 13014,
+      "lines": 372,
+      "equations": 22,
+      "test_methods": 0
+    },
+    {
+      "path": "research/time-degree-1122-primary-literature-audit-pass199-working.md",
+      "sha256": "6d37fa6bca748065e58fb23dde0a5a2a7898f18168dec97df29760d8f0e7a4f5",
+      "bytes": 7128,
+      "lines": 155,
+      "equations": 0,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight_four_nonmonomial_normalization_controls_pass199.py",
+      "sha256": "849c33de6dbf60e63be8b1274a2ec93ee016ab65cdc2d3d9e144c7915ac2658e",
+      "bytes": 10113,
+      "lines": 217,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/verification-pass199-working.json",
+      "sha256": "d837d4ce5979678975688f8860eb67d4ee1dda94d6707a7e513168474934c47c",
+      "bytes": 9721,
+      "lines": 138,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "chain_record_count_after_including_this_checkpoint": 1234,
+  "record_count_convention": "1229 frozen predecessor records plus the normalization note, bounded literature audit, checker source, verification199 and this checkpoint: five new records. README and ledger are not records. All200 sources, runs and later research are separate and not counted.",
+  "verification": {
+    "capture": "research/verification-pass199-working.json",
+    "canonical_runs": [
+      {
+        "suite": "nonmonomial_normalization199",
+        "path": "research/weight_four_nonmonomial_normalization_controls_pass199.py",
+        "pre_execution_read": "Root complete5342cd; General completec2faf6. Root confirmed both preceded execution. Jet7315d4 was reported after the initial response and is not recorded as a preread.",
+        "initial_output": "4539c6",
+        "terminal_output": "a8ee65",
+        "session_id": 73807,
+        "methods": 3,
+        "unittest_seconds": 0.924,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": false,
+        "pending_execution_handle": false,
+        "completion_via_original_handle": true,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/weight_four_nonmonomial_normalization_controls_pass199.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "login": false,
+        "initial_yield_time_ms": 1000
+      }
+    ],
+    "new_suites": 1,
+    "new_methods": 3,
+    "tagged_equations": 22,
+    "scope": "The actual lower-potential normalization applies to the supplied nonmonomial square-root family, not arbitrary entry or the later branch exclusions. The sole canonical run completed its original session73807 after a nonterminal initial response; no rerun or pending handle remains. The bounded literature audit is not novelty clearance. The full goal remains active and unsolved."
+  }
+}

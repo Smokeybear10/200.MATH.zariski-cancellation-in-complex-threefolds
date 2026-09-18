@@ -1,0 +1,148 @@
+{
+  "pass": 171,
+  "status": "working_nonzero_r_nonconstant_y_cusp_recognition_and_actual_zero_r_square_root_boundary; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/cusp-pure-quadratic-three-good-recognition-pass171-working.md",
+      "sha256": "f1ccc65a9ebc6e1059230684b44a776162d9cc33b1bf33cfafcf4b2557dd9a1a",
+      "bytes": 10996,
+      "lines": 277,
+      "equations": 9,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp-pure-quadratic-nonconstant-ratio-exclusion-pass171-working.md",
+      "sha256": "64f93fa5afdc5a3942dd49a54ea0867f700cd1a917eab563b0461dab13b9463f",
+      "bytes": 10893,
+      "lines": 269,
+      "equations": 12,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp-nonconstant-projected-coordinate-recognition-pass171-working.md",
+      "sha256": "c500a058cef255427686fd850a08de731d82b59521492e1383aa1ef96e8175a1",
+      "bytes": 5527,
+      "lines": 113,
+      "equations": 0,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp-zero-r-square-root-actual-boundary-pass171-working.md",
+      "sha256": "99b54d9210cd07c0529e19b880a885c94f1d2944d2a4c256f72d12efc6fa268c",
+      "bytes": 8773,
+      "lines": 249,
+      "equations": 12,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp_pure_quadratic_good_reframe_controls_pass171.py",
+      "sha256": "ea5a26d6ccdc333a7b952bb485a5fb699d358f929bb6ef1af1265df29bf0a1a5",
+      "bytes": 5433,
+      "lines": 118,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/cusp_zero_r_square_root_controls_pass171.py",
+      "sha256": "b7b21730904f6d1cd002bcf6cdb358c317d8695d422d7e7f9092a56825c16882",
+      "bytes": 6459,
+      "lines": 161,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/verification-pass171-working.json",
+      "sha256": "22a7e2181b11ebf8b9a98a7e3462eee6b42c939298fa6dfcd6ee02ff2b7ad2f1",
+      "bytes": 11978,
+      "lines": 161,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass170-working.json",
+    "sha256": "40b2cb741c73a24a5c38c24a6b78a8d625bd8fe3e568c52b951267a8fcafc316",
+    "records": 1080
+  },
+  "results": {
+    "actual_hypotheses": "Retains the actual159 globally sliced polynomial four-frame with exact E-time(1,1,2,2), full weighted initial ideal(XZ-Y^3), selected N=[u^3](partial_Z|A), exact coefficient field L and whole line A_L=L[v]. No arbitrary frame is assumed to enter these hypotheses.",
+    "pure_graph_coefficient_gate": "For r!=0 and the pure whole relation Phi-m=lambda(V-P(U)) with degree P at most2, the literal quartic, V^2, UV and U^3 coefficients force r in C*, s=n_rho in C, k=r*rho+k0 and k0'''=6s/r. Exact primitive subtraction over K=ker(partial_rho) gives s*t^3-r*k0=j*t^2+beta1*t+beta0 with complex constants.",
+    "actual_three_good_reframe": "Vnew=r^2W+sZ-r(XZ-Y^3)-(jY^2+beta1XY+beta0X^2) is an actual polynomial coordinate with a triangular inverse dividing only by the nonzero complex scalar r^2. Its literal chart expansion is h0+(s*k0-r*n0)X. Hence E^2Vnew=0 in the original ring, and the retained supplied-three-good theorem156 gives A isomorphic C^[3]. Its speed is not assumed constant or a unit.",
+    "extra_hypothesis_bypassed": "The p0 in K[rho] of degree at most1 condition from170 is not proved automatic. The new coordinate change bypasses it entirely. The pure-graph premise, rather than total degree alone, is needed for the missing UV coefficient. Constant and linear pure graphs are also incompatible with the determinant's uncancelled 3/r coefficient.",
+    "supplementary_exclusion": "A separate written argument treats a genuinely quadratic-rho intercept. For Gamma=-chi''/(2c''), actual field return and a weighted residue comparison first force K=C(Gamma) if Gamma is nonconstant. An elementary rational-map degree argument then puts the relevant coefficient in the complex span of1,Gamma; differentiation contradicts c''!=0. This supplement has no independent checker and is not needed for the stronger direct reframe.",
+    "synthesis": "In the actual cusp chart, r!=0 and y notin L now imply working recognition. Retained161 first makes y affine; selected-factor159 and169 remove nonconstant extra factors; degree P at most4 leaves the new pure low-degree reframe, retained cubic167/168, or retained quartic165/166. The synthesis retains those working dependencies and does not recursively certify them.",
+    "general_zero_r_normal_form": "For r=0,s=n_rho!=0, retained160 gives partial_rho^2(1/s^2)=0. With q=1/s and D_n=q*partial_rho, D_n n=1 and D_n^2q=0. Exact primitive subtraction proves q=A*n+B and rho=A*n^2/2+B*n+C over K. If A!=0, the odd valuation of the linear discriminant proves [K(n):K(rho)]=2. No assertion L=K(n) is made generally.",
+    "actual_square_root_boundary": "For c in C*, E=partial_x on C[x,t,n,y], take X=x,Y=y+tx,Z=n+3ty^2+3t^2yx+t^3x^2,H=XZ-Y^3=nx-y^3,W=t+cH^2. Both inverse orders are explicit: t=W-cH^2,y=Y-tX,n=Z-3ty^2-3t^2yX-t^3X^2. The exact leaders(1,t,t^3,c*n^2) have the full cusp kernel. Here N=2cn*partial_y, L=C(t,n), rho=c*n^2, [L:C(t,rho)]=2, s=1/(2cn), s_rho=-1/(4c^2n^3)!=0 and v=y/(2cn) gives the normalized determinant -1. Thus universal s_rho=0 is false even in an actual frame.",
+    "boundary_scope": "The square-root frame already has the slice X and the invariant coordinate t, so it is not a cancellation counterexample or a minimal-profile example. Its primitive selected derivation is partial_y. The coefficient-field cover does not obstruct this example's polynomial invariant ring.",
+    "remaining_scope": "At this checkpoint the remaining cusp cases include r=0 and r!=0 with y in L, together with other initial configurations and unrestricted entry. Later172 work and the unsaved lower-coefficient normal-form refinements are excluded from this packet. Full cancellation, human expert certification, formal verification and novelty clearance remain absent."
+  },
+  "chain_record_count_after_including_this_checkpoint": 1088,
+  "record_count_convention": "1080 prior records plus4 notes,2 standalone checkers, verification171 and this checkpoint. README and ledger are not records. The two distinct171 suites contain6 methods total; the supplement and synthesis have no independent checker. No172 source or execution is included.",
+  "verification": {
+    "capture": "research/verification-pass171-working.json",
+    "performed": true,
+    "canonical_executions": [
+      {
+        "performed": true,
+        "command": "/opt/anaconda3/bin/python research/cusp_pure_quadratic_good_reframe_controls_pass171.py -v",
+        "source_sha256": "ea5a26d6ccdc333a7b952bb485a5fb699d358f929bb6ef1af1265df29bf0a1a5",
+        "root_full_source_read": "1cbc0e",
+        "initial_output": "d5bb62",
+        "initial_session_id": null,
+        "terminal_output": "d5bb62",
+        "methods": 3,
+        "seconds": 0.125,
+        "exit_code": 0,
+        "terminal_in_initial_response": true,
+        "same_session_terminal_polls": 0,
+        "pending_execution_handle": false,
+        "interrupted": false,
+        "restarted": false,
+        "rerun": false,
+        "scope": "Formal coefficient jets and arbitrary-theta chart cancellation, plus both orders of the actual constant-field triangular coordinate map and an impure cubic discrepancy. These finite controls do not prove the retained recognition theorem or assert actual realization of arbitrary jets."
+      },
+      {
+        "performed": true,
+        "command": "/opt/anaconda3/bin/python research/cusp_zero_r_square_root_controls_pass171.py -v",
+        "source_sha256": "b7b21730904f6d1cd002bcf6cdb358c317d8695d422d7e7f9092a56825c16882",
+        "root_full_source_read": "194334",
+        "initial_output": "398f57",
+        "initial_session_id": null,
+        "terminal_output": "398f57",
+        "methods": 3,
+        "seconds": 0.181,
+        "exit_code": 0,
+        "terminal_in_initial_response": true,
+        "same_session_terminal_polls": 0,
+        "pending_execution_handle": false,
+        "interrupted": false,
+        "restarted": false,
+        "rerun": false,
+        "scope": "Actual square-root frame inverse, initial profile, inverse-derived T and selected N, exact coefficient derivatives, P/R identities, normalized determinant and a separate finite general quadratic-normal-form control. The final source additions preceded its only canonical run; they were not repairs after a failed test."
+      }
+    ],
+    "total_new_test_methods": 6,
+    "tagged_equations": 33,
+    "pending_execution_handle": false,
+    "rerun": false
+  },
+  "goal_audit": {
+    "previous_goal_turn": "The immediately preceding goal turn was status-only and made no new mathematical or execution progress. Earlier frozen successful runs retain their historical classifications.",
+    "current_continuation": "Derived the direct three-good reframe, completed the nonconstant-ratio supplement and the exact nonconstant-y/nonzero-r case synthesis, and constructed an actual square-root countercontrol in the next branch. Completed two distinct canonical runs d5bb62 and398f57 with3 methods each. These are substantive progress; administrative closure is not another proof or execution.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Analyze the remaining actual cusp branches without assuming s_rho=0 or collapsing the coefficient field to the ratio field. The zero-r nonzero-s branch genuinely admits a quadratic coefficient cover; nonzero-r constant-y, other initial profiles and unrestricted entry remain separate. Any172 developments require a separate reviewed record."
+}

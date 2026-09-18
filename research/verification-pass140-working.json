@@ -1,0 +1,83 @@
+{
+  "pass": 140,
+  "status": "actual_sharpness_and_descent_shortcut_obstructions; full_cancellation_unsolved",
+  "execution": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.sharp_dense_tail_controls_pass140 -v",
+    "source_read": "44761a",
+    "tool_output": "e19329",
+    "state": "completed_in_initial_call",
+    "exit_code": 0,
+    "methods": 4,
+    "reported_seconds": 4.221,
+    "old_suites_rerun": false
+  },
+  "test_scope": [
+    "Three methods check the sharp actual divided-difference family at degrees2,3,4: both inverse orders, exact selected partial, normalized Jacobian, independently differentiated tails and failure of the specified plane complement.",
+    "One method checks actual coefficient-field examples n2,3: both inverse orders, exact leading N, deck-invariant field identities, normalized Jacobian and first two tails.",
+    "Uniform degree sharpness and extension degree n are written algebraic proofs. Finite sample tests do not establish either universal assertion.",
+    "The formal reducible-tail example has independent written reconstructions, not a dedicated executed checker in this pass."
+  ],
+  "proof_reviews": {
+    "root": [
+      "ebddad: complete formal and sharp-family notes before later sharp note scope-only addition",
+      "44761a: complete final checker source before execution and complete unbounded actual field note"
+    ],
+    "general": [
+      "Author of complete formal obstruction acd548, terminology delta8f5d72",
+      "b44426: complete saved all-n field proof; hash bc1259",
+      "d220b4: complete final sharp-family note; f0ae77: complete final four-method checker"
+    ],
+    "geometry": [
+      "e1b425: complete formal obstruction",
+      "abb533: complete actual coefficient-field note",
+      "6493ad: complete sharp-family note",
+      "c7796c: final two actual note hashes"
+    ],
+    "jet": [
+      "a89557 and d68dda/c4e808: authored checker and sharp note, including final scope additions",
+      "b2e008: complete formal obstruction",
+      "635a55: complete actual coefficient-field note"
+    ]
+  },
+  "evidence_changes_next_action": [
+    "The chosen second tail fails to complement the first relation even in actual sliced polynomial frames. That direct-complement shortcut is false.",
+    "The finite coefficient-field extension can have arbitrary degree while m=1 in actual frames. Neither equality with the ratio field nor a bound solely in m is available.",
+    "The full formal Taylor system allows a reducible first tail, but the example fails actual polynomial-inverse and coefficient-return premises. Actual-frame primitivity remains undecided.",
+    "The divisorial lane rediscovered retained27/91 boundaries; dense good-ring injection and the cofactor-volume identity alone supplied no new descent. No redundant theorem note was created."
+  ],
+  "literature_scope": {
+    "searches": [
+      "turn4030: slice and nice/quasi-nice derivations",
+      "turn4032: adjoint and nilpotent derivation routes",
+      "turn4034: nilpotent Jacobians and retained actual examples"
+    ],
+    "primary_reads": [
+      "turn4031view0: Luis Cid, arXiv2604.03471v1, linearizability criterion; not used as a new descent theorem.",
+      "turn4031view1: arXiv2512.15590v1 landing/content; not used as proof input.",
+      "Geometry fresh Russell–Sathaye2.5.4 scope read, with retained primitive-plinth comparison."
+    ],
+    "limitations": "Targeted searches and selected statements only, not a comprehensive novelty audit. Nonprimary and unverified claimed-breakthrough search results were not used. No new external theorem is required for the three explicit140 constructions."
+  },
+  "goal_audit": {
+    "previous_goal_turn": "No progress: user status check and read-only validation.",
+    "current_goal_turn": "Progress: exact actual examples invalidate two potential descent assumptions and prove sharpness; four new finite methods pass.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "remaining_obligations": [
+    "Prove or disprove first-tail primitivity using actual polynomial-inverse hypotheses, retaining the exact finite coefficient field.",
+    "Even a positive generic primitivity result would not prove global polynomial descent.",
+    "Arbitrary coordinate entry and full corrected cancellation remain unsolved."
+  ],
+  "boundaries": {
+    "human_review": false,
+    "proof_assistant_verification": false,
+    "novelty_determination": false,
+    "public_posting": false,
+    "external_contact": false,
+    "submission": false,
+    "paid_sources": false,
+    "new_automation": false
+  }
+}

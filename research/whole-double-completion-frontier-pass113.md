@@ -1,0 +1,194 @@
+# Whole-double exclusions and completion rigidity
+
+Within the supplied actual quadratic frame, the proper whole-double
+alternative now forces a singular first coefficient and a nonmaximal
+residual ideal. A separate argument identifies the entire completed
+invariant kernel with the completed base and proves descent of every
+finite-degree module. These are conditional local results. They neither
+eliminate the remaining proper alternative nor solve cancellation.
+
+## 1. Target, hypotheses, and current result
+
+The working target is the unconfirmed interpretation of Luo's email:
+A[u] isomorphic to C^[4] implies A isomorphic to C^[3]. The literal
+emailed conclusion A^1 has a dimensional mismatch for general r.
+No result here resolves the intended field or dimension with Luo.
+
+The actual-frame assumptions are those of
+[all-normal111](quadratic-all-normal-mixed-exclusion-pass111.md) and
+[product-index112](whole-double-product-index-pass112.md): a smooth
+threefold with polynomial cylinder, a supplied primitive canonical
+locally nilpotent derivation N with full invariant plane, and the actual
+all-divisor quadratic degree classifications. The reduced whole fiber
+under consideration is one affine line, with full scheme ring
+C[c,G]/G squared and Nbar=lambda G partial_c, lambda nonzero constant.
+
+Let R be the regular local invariant surface, F_j=ker N^(j+1),
+F1=R{1,r}, and F2=R{1,G,H}. In the proper alternative H vanishes in
+the whole fiber, r=aG+bH, and the residual ideal J=(a,b) is m-primary.
+The first image ideal is PR, where P=Nr=ah+bB2 and
+NG=epsilon br+h. The new conclusions are:
+
+| Question in this actual alternative | Current conclusion |
+| --- | --- |
+| Support of the first image P | One analytically irreducible prime p, with P a unit times p^e |
+| Nonzero first base jet of h | Excluded; h is nonzero and belongs to m squared |
+| Residual ideal J=m | Excluded; J is a strictly smaller m-primary ideal |
+| New invariants after whole-fiber completion | None: ker N on the completion equals Rhat |
+| Finite N-degree after completion | Exactly F_j tensor_R Rhat, for every j |
+| Hidden quadratic parameter in the remaining proper case | Not constructed; it would contradict the proper-case residue image |
+
+The first three conclusions use actual topology and divisor information.
+The kernel statement additionally uses the uniform chart and actual
+primitivity. None is a consequence of a numerical grid or selected
+generic coordinates alone.
+
+## 2. One analytic branch and scalar contraction
+
+The [ramified-divisor proof](whole-double-ramified-completion-descent-pass113.md)
+first combines the actual divisor classification with the repaired
+supported integral calculation96. A divisor of P has degree-two
+constants. A whole irreducible reduced fiber permits only one such
+normalized branch. Its finite curve normalization has one closed point,
+so completing the finite normalization inclusion proves that its base
+prime remains prime in Rhat.
+
+The normalized degree-two constant cover also has one point, with
+ramification index two. Completing this finite DVR extension preserves
+its field extension. Flatness then shows that A'/pA' is a domain,
+where A'=A tensor_R Rhat. Exact completion and Krull intersection give
+P^d mathcal A intersect A'=P^d A' for all d, with mathcal A the
+whole-fiber completion. In particular mathcal A intersect A'[1/P]=A'.
+
+This is scalar contraction for the specific denominator P. It does not
+claim faithful flatness of A' to mathcal A, primeness of p in mathcal A,
+or descent of every formal element to A. Its initial nonzero-normal
+kernel calculation is strengthened by the separate proof in Section 4.
+
+## 3. Two actual exclusions
+
+The [coefficient exclusion proof](whole-double-smooth-coefficient-exclusion-pass113.md)
+starts from b squared in (h)+a(a,b), gcd(h,a)=1, and the sharp B2
+bound proved in112. If h were smooth, R/(h) would be a DVR.
+Integrality of b/a in that quotient gives b=a tau+h k, and the B2
+bound gives B2=h eta+a squared xi with eta,xi in m. No assumption
+that tau has zero residue is made.
+
+An elementary completed coefficient shear gives b'=h'k' and
+P=h'(a+k'B2), with h' still smooth. The m-primary property of (a,b')
+prevents h' from dividing a. Reducing the second factor modulo h'
+makes it a times a unit, so it is a nonunit not divisible by h'.
+This contradicts the one-analytic-prime description of P. Hence
+h belongs to m squared. The contradiction involves only a completed
+factorization of a base scalar, not descent of a formal slice.
+
+If J=m, then a,b are regular parameters. The same b squared relation
+forces the quadratic initial form h2 to have a nonzero b squared
+coefficient. The B2 bound puts B2 in m cubed, so the initial form
+of P is a h2. A direct homogeneous correction construction lifts
+these coprime initial factors. The resulting smooth factor cannot
+divide the other one, giving the same contradiction. This excludes
+J=m, not every primary ideal generated by a pair with one smooth member.
+
+## 4. All completed invariants and finite degrees
+
+The [completed-kernel proof](whole-double-completed-kernel-rigidity-pass113.md)
+uses the entire constant leading chart112:
+mathcal A=C[c][[x,G]], f=A(c)x+BG squared+higher weighted terms,
+and N*=gamma x partial_G+lambda G partial_c. Evaluation at any fixed
+c0 is injective on completed invariants. Differentiating Nz=0 repeatedly
+shows this: if z evaluates to zero, each successive c-derivative does
+too, because Nc at c0 is nonzero. Polynomial dependence on c then
+forces z=0.
+
+The transverse ring C[[x,G]] is free of rank two over Rhat=C[[x,f]].
+Degree-by-degree lifting gives generators 1,G, and even versus odd
+leading weights prove their independence. Consequently the completed
+kernel is a finite normal Rhat-domain of rank one or two. Rank one
+gives Rhat. Rank two would make its evaluated image the entire
+transverse ring, yielding an invariant Z with leading term G.
+
+Invariance forces gamma=0, and x,Z,c become formal coordinates.
+N would then be Nc times partial_c, with Nc a nonzero nonunit.
+All derivative values would share that factor. Actual primitivity
+supplies a regular sequence of length two in the actual image ideal;
+flat completion preserves it. Two elements with that common nonunit
+factor cannot form such a sequence. This excludes rank two, including
+in the zero-first-normal case.
+
+Finally, integrate finite-degree elements after inverting P and use
+the scalar contraction of Section 2. This proves
+ker N^(j+1) on mathcal A=F_j tensor_R Rhat for every j. It closes
+the completion-descent gap identified in112 for this actual branch.
+It does not construct a degree-two component parameter. In fact any
+such formal parameter would now contradict the actual proper residue
+image F2 mapped to C{1,G}. Existence, not descent, is the remaining
+obligation for that proposed route.
+
+## 5. Verification and sources
+
+The [capture113](verification-pass113-working.json) records four exact
+input hashes and complete output for:
+
+```sh
+/opt/anaconda3/bin/python -m unittest -v \
+  research.whole_double_hensel_slice_checks_pass113 \
+  research.whole_double_conormal_checks_pass112 \
+  research.quadratic_degree_module_checks_pass102 \
+  research.quadratic_divisor_filtration_checks_pass107
+```
+
+Canonical execution707957 passed six methods in four suites, two new
+and four retained. Elapsed time was 1.599617709 seconds; unittest
+reported 1.300 seconds. The complete stdout-newline-stderr hash is
+5777e447f3326b0c16cb8c2386919d5c2dde6d081dd393b2476b85ff0207064f.
+The new methods check coefficient identities and finite root liftings;
+one is an optional conic-slice control unused by the shortest exclusion.
+No numerical method verifies the topological hypotheses, all-order
+proofs, completed kernel, general cancellation, or novelty.
+
+All702 frozen records through112 were revalidated unchanged in58614f.
+The historical full75 run remains146 suites/1047 methods, with registry544;
+it was not rerun. The [checkpoint113](checkpoint-pass113-working.json)
+records the final artifact versions and independent saved-file AI
+reviews. These are not human expert review or Lean verification.
+
+Primary source reading covered Kaliman's
+[*Free C+-actions on C3 are translations*](https://www.math.miami.edu/~kaliman/library/Ka.invent.2004.c%2B.pdf),
+Lemmas 2.1--2.2 and 3.1 and Proposition 3.2, including the displayed
+proofs and homology diagram. The source supplies curve factorization
+and topology, not the present coefficient exclusion. The exact local
+integral deduction is the retained repaired argument96.
+The standard completion inputs are The Stacks Project,
+[curve normalization0C44](https://stacks.math.columbia.edu/tag/0C44),
+[finite completion00MA](https://stacks.math.columbia.edu/tag/00MA),
+[flat completion00MB](https://stacks.math.columbia.edu/tag/00MB),
+[Krull intersection00IQ](https://stacks.math.columbia.edu/tag/00IQ), and
+[DVR extensions09E8](https://stacks.math.columbia.edu/tag/09E8).
+Their complete selected statements and displayed proofs or deductions
+were read, not all foundational references behind them.
+
+Miyanishi's [*Ga-actions and completions*](https://www.sciencedirect.com/science/article/pii/S0021869307006540)
+was available only at abstract level. Its point-completion warning does
+not establish or refute these whole-fiber statements. The separate
+ramified note records a more specific comparison with the integral,
+fixed-point-free case in Gurjar and collaborators. No exhaustive
+statement-level novelty audit or new general cancellation survey was
+completed. No novelty claim is made.
+
+## 6. Remaining work
+
+The immediate local target is the proper branch with 0 not equal to h
+in m squared and J strictly contained in m. Either construct a
+volume-compatible formal quadratic parameter from its actual hypotheses,
+or obtain a new actual obstruction using the remaining higher-order
+coefficient and divisor constraints. A compatible coefficient tuple,
+an abstract formal derivation, or an already-polynomial triangular
+family does not satisfy that target.
+
+The separate global tasks remain: place an arbitrary cancellation input
+in a useful actual frame, handle the still-open relative cubic lane,
+and recognize the original algebra without adding another variable.
+The full goal remains active and unsolved. No external contact,
+submission, posting, paid access, financial action, or new automation
+was undertaken.

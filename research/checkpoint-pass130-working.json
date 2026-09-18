@@ -1,0 +1,48 @@
+{
+  "pass": 130,
+  "status": "conditional_all_degree_invariant_coordinate_recognition_proved_in_working_derivation; general_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3]. The professor's intended dimension, ground field and conclusion remain unconfirmed.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass129-working.json",
+    "sha256": "1cc805d6e71a6c0673a3d727db10f80cc8e39335d5433d4debd95e41e6b02ebe",
+    "records": 842,
+    "scope": "Frozen predecessor, not a recursive re-audit of historical artifacts."
+  },
+  "chain_record_count_after_including_this_checkpoint": 847,
+  "record_count_convention": "842 prior records plus four current artifacts plus this checkpoint; live indexes excluded.",
+  "artifacts": [
+    {"path": "research/invariant-linear-suspension-recognition-pass130.md", "sha256": "79970960561f1e1b40fa2c5ce6283b89d282257318ac165edbe474910345c3e5", "bytes": 12096, "lines": 306, "equations": 8},
+    {"path": "research/three-good-mixed-cubic-correction-criterion-pass130.md", "sha256": "3000692c8b499edb611ff81109fb7942cdf027cd4b54674bad5b73598eb34c38", "bytes": 14386, "lines": 362, "equations": 11},
+    {"path": "research/three_good_mixed_cubic_gate_checks_pass130.py", "sha256": "0a04163d0f80a226343dfb8e2ff4477c0c3c5858245d2d471392eb510162b058", "bytes": 12849, "lines": 241, "test_methods": 4},
+    {"path": "research/verification-pass130-working.json", "sha256": "e2596a89993ede5fb61ec959e47f7a2a763995ae1d29db7c354ad48fe115e55b", "bytes": 3098, "lines": 49}
+  ],
+  "integrity_evidence": "Root0530ac; Geometry078b20 for unchanged final main/checker/capture; General final supplement source-format hash a05729.",
+  "new_mathematical_result": "For actual B=C[w,y,t,z]=A[u], E locally nilpotent with Eu=1 and A=ker E, an invariant I=wz-g(y,t) with E^2w=0 and Ew nonzero forces g to be a plane coordinate. There is no degree bound on g or on Ey,Et,Ez. Consequently I is an ambient coordinate and BGL Theorem3.5 recognizes A=C^[3].",
+  "proof_chain": [
+    "A generic smooth fiber Xlambda of I is an affine-surface cylinder Ylambda x C, so H3(Xlambda;Q)=0 by the classical affine homotopy-dimension bound.",
+    "The complement w!=0 is C* x C^2. Ordinary tubular excision and relative Kunneth along the trivially normal divisor w=0 give H3(Xlambda;Q)=H1(g=-lambda;Q).",
+    "Every smooth generic plane component is A1. Rectify one by Abhyankar-Moh-Suzuki; units on every disjoint component force infinitely many parallel coordinate lines and hence g=P(h) for a plane coordinate h.",
+    "Evaluate the finite flow at rational time -w/Ew. The resulting r in Frac B satisfies I=-P(r), so normality puts r in B. If deg P>1, factoring P(r)+lambda contradicts irreducibility of wz-g-lambda.",
+    "An explicit plane inverse completes I to actual ambient coordinates; regularity of A and the published regular-kernel theorem give A=C^[3]."
+  ],
+  "application": "Both exact derivative corrections of a supplied mixed cubic relation imply coordinate recognition automatically. Primitivity ensures uniqueness but is not required for this implication; the retained intrinsic-plane theorem is likewise not required for the automatic coordinate step.",
+  "proof_reviews": {
+    "Root": {"supplement": "dc19b8", "main": ["d06733", "008f6f"], "source_format": "0530ac"},
+    "General_author": {"supplement": "3f0a3b", "main": ["157f39", "d74e91"], "final_source_format": ["bc366c", "61f9f7", "a05729"]},
+    "Geometry_independent": {"supplement": "69b70a", "main": "7163d7", "scope": "Complete mathematical versions before the final source-only footnotes and bibliography delta."},
+    "Jet_independent": {"scope": "Algebraic integral-root exclusion, full earlier main130, selected BGL inputs, and boundary controls."},
+    "limits": "Independent AI reconstructions, not human expert review, machine-checked formal proof, or novelty clearance. Published inputs are invoked with checked hypotheses; no recursive dependency-tree reproof is claimed."
+  },
+  "verification": {"capture": "research/verification-pass130-working.json", "execution_evidence": "2e15c4", "exit_code": 0, "methods": 6, "new_methods": 4, "retained_methods": 2, "unittest_seconds": 0.302, "tool_wait_seconds": 0.575014042, "before_hash": "a88bb2", "after_hash": "2e15c4", "scope": "Exact examples, inverse identities and explicit missing-hypothesis controls; not universal proof verification. Earlier completed five-method run is separately preserved in the capture."},
+  "source_scope": {"Milnor": "Morse Theory1963, Section7, Theorems7.1--7.2 and selected full proof, Rootedff7c+482677 and Generalc3340f.", "Thom": "Goresky-Hingston0707.3486v1, AppendixB.1 Eq(B.1.2), Rootturn3912view1 and Generalturn3924view0.", "AMS": "Vistoli math/9904035v3, printedp2 exact statement/short proof, Rootturn3907view2 and Generalturn3923view0; Geometry independently selected Palka1405.5391v2 TheoremB and Section3.", "BGL": "1501.01438v1 Theorem3.5 exact statement/short proof, Rootturn3926view0 plus independent selected reads. Cor4.5 only supports the additional coordinate diagnostic.", "novelty": "Focused comparison with Maubach Section4, BGL, and Isaev2607.11678v1 found no exact collision. This is not an exhaustive novelty search; coordinate classifications and the composition-factorization device are known."},
+  "remaining_gaps": [
+    "Passage of the two derivative corrections for arbitrary actual primitive mixed cubic relations.",
+    "Existence of a suitable mixed cubic relation in the full rank-two branch.",
+    "Unrestricted entry into the supplied coordinate frame and the full cancellation conjecture.",
+    "Historical novelty determination, human expert review and formal verification."
+  ],
+  "next_bounded_task": "Prove the two correction gates for an actual primitive mixed cubic relation, or construct an inverse-verified actual primitive counterexample. Do not substitute arbitrary coefficient data for a realized polynomial frame.",
+  "goal_audit": {"previous_status_turn": "informational_no_mathematical_progress_with_live_agent_snapshot", "current_turn": "substantive_conditional_proof_gap_reduction_and_verified_examples", "full_goal_achieved": false, "genuine_external_blocker": false},
+  "boundaries": {"artifacts_through129_unchanged": true, "human_review": false, "formal_verification": false, "novelty_cleared": false, "external_contact": false, "submission": false, "public_posting": false, "new_automation": false},
+  "live_indexes": ["README.md", "research-ledger.md"]
+}

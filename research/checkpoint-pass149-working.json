@@ -1,0 +1,93 @@
+{
+  "pass": 149,
+  "status": "conditional_nonlinear_placement_exclusions; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass148-working.json",
+    "sha256": "361ce3281aa08c969f49f0b7d09abcba97b49a76b0babb1ae33647f8e9934946",
+    "records": 972
+  },
+  "chain_record_count_after_including_this_checkpoint": 978,
+  "record_count_convention": "972 previous records plus three proof notes, one checker, verification149 and this checkpoint. Live indexes excluded; counts do not measure mathematical significance.",
+  "artifacts": [
+    {
+      "path": "research/generic-critical-determinant-and-relative-scope-pass149-working.md",
+      "sha256": "e27d94b1cc5b0e5ea0c5888ae34b50e6365bd49557762384052ba398eeb8af6d",
+      "bytes": 9037,
+      "lines": 218,
+      "equations": 8,
+      "test_methods": 0
+    },
+    {
+      "path": "research/nonlinear-intercept-triangular-kernel-exclusion-pass149-working.md",
+      "sha256": "bc3de61587888149814cba168f20217f07a60ea48e8963e1298f3fe5df989ee6",
+      "bytes": 8729,
+      "lines": 237,
+      "equations": 8,
+      "test_methods": 0
+    },
+    {
+      "path": "research/nonlinear-projected-plane-obstructions-pass149-working.md",
+      "sha256": "d197a432e661fa70cacbec39cf16dd2cd066f011992eae671a8d22ca4903e7b6",
+      "bytes": 10142,
+      "lines": 269,
+      "equations": 14,
+      "test_methods": 0
+    },
+    {
+      "path": "research/nonlinear_projection_controls_pass149.py",
+      "sha256": "e9b41e9a22ed25c1a3b7ee896595730c7f90b7783bf9e3c1de59b771844d7473",
+      "bytes": 9507,
+      "lines": 212,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/verification-pass149-working.json",
+      "sha256": "1ba36c61efa7065ae04bfe124dec129d53b167dd6b6d15042ab7a1b364085d47",
+      "bytes": 5344,
+      "lines": 102,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "results": [
+    "Two specified nonlinear projected placements for q=pz-t^2 are excluded by whole generic-line generation and the necessary unit minor ideal. The first lane has an exactly classified quadratic exception passing the generic test but failing on the surviving divisor p=0.",
+    "For original intercepts p=y-R(x), q=a(p)z-Q(x), deg R,deg Q>=2 and a nonconstant, the original speed Jacobian is nilpotent exactly for V=(constant,constant,h0(p)). Q is independent of p in this statement.",
+    "The exact generic critical determinant is a nonzero field constant exactly when the two-row minor ideal is unit. Actual139 already implies this condition; it is not a newly proved generic reduction.",
+    "Quotient-preserving nonlinear projected changes fixing r reduce directly to148. No arbitrary nonlinear-placement reduction is claimed."
+  ],
+  "verification": {
+    "capture": "research/verification-pass149-working.json",
+    "completion_output": "eeaa45",
+    "exit_code": 0,
+    "test_methods": 3,
+    "seconds": 0.149,
+    "numbered_equations": 30,
+    "pending_test_execution_handles": false,
+    "scope": "Conditional written proofs, separate AI reconstructions and finite exact formal controls. No full-cancellation proof, formal verification, human review or novelty clearance."
+  },
+  "next_bounded_task": "Resolve whether the base-dependent H(p,x) extension of the nonlinear-intercept rank-two exclusion holds, then audit whether that diagnostic result supplies any unrestricted selected-divisor or three-good-entry reduction. Do not mistake W=u for an unrecognized cancellation case.",
+  "remaining_gaps": [
+    "Base-dependent H(p,x) in the nonlinear-intercept classification is not settled by149;150 is investigating it separately.",
+    "No reduction of arbitrary projected placements to the enumerated cases or quotient normalizer.",
+    "No proof of general full-divisor residue triviality, global descent or arbitrary three-good entry.",
+    "Professor-intent confirmation, expert review and historical priority remain outstanding."
+  ],
+  "goal_audit": {
+    "previous_turn_classification": "progress: newly completed affected exact tests eeaa45, not only a status restatement",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  }
+}

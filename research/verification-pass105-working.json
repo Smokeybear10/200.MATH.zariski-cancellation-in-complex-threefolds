@@ -1,0 +1,48 @@
+{
+  "started_at_utc": "2026-09-14T20:17:08.095Z",
+  "finished_at_utc": "2026-09-14T20:17:10.110Z",
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.mixed_quartic_cubic_checks_pass105",
+    "research.mixed_third_degree_checks_pass105",
+    "research.quadratic_catalan_checks_pass104",
+    "research.adic_transverse_surface_checks_pass104",
+    "research.quadratic_degree_module_checks_pass102"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 2.011593583,
+  "suites": 5,
+  "test_methods": 7,
+  "input_files": [
+    {
+      "path": "research/mixed_quartic_cubic_checks_pass105.py",
+      "sha256": "c3bc62a6c6fc407ced97bd0806bf717d5e7aaf3df4c94410947862fc839adac8"
+    },
+    {
+      "path": "research/mixed_third_degree_checks_pass105.py",
+      "sha256": "c59aed169e3ababc71441de311f4038330212ce8960c36301474ba10e837d689"
+    },
+    {
+      "path": "research/quadratic_catalan_checks_pass104.py",
+      "sha256": "08cdaef3d2cfa2413ba45c395739595ac62a75a2b7c27abfee22c7bddf078e3b"
+    },
+    {
+      "path": "research/adic_transverse_surface_checks_pass104.py",
+      "sha256": "01d7a60ee9c8709f3e7c83c301449722a2a762de784e47dcf0a46a73c064fe74"
+    },
+    {
+      "path": "research/quadratic_degree_module_checks_pass102.py",
+      "sha256": "dd701dc05fe10c4ce5189ab848bfde4f0ea7bb724f27d4317b69f38c91613362"
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "stdout": "",
+  "stderr": "test_mixed_quartic_cubic_preparation_controls (research.mixed_quartic_cubic_checks_pass105.MixedQuarticCubicChecks.test_mixed_quartic_cubic_preparation_controls) ... ok\ntest_intrinsic_odd_specialization_is_possible (research.mixed_third_degree_checks_pass105.MixedThirdDegreeChecks.test_intrinsic_odd_specialization_is_possible) ... ok\ntest_weighted_fourth_and_fifth_derivatives (research.mixed_third_degree_checks_pass105.MixedThirdDegreeChecks.test_weighted_fourth_and_fifth_derivatives) ... ok\ntest_finite_catalan_recovery_and_residues (research.quadratic_catalan_checks_pass104.CatalanHiddenParameterChecks.test_finite_catalan_recovery_and_residues) ... ok\ntest_finite_lengths_bases_and_corrected_base (research.adic_transverse_surface_checks_pass104.AdicTransverseSurfaceChecks.test_finite_lengths_bases_and_corrected_base) ... ok\ntest_mixed_ramification_truncation (research.adic_transverse_surface_checks_pass104.AdicTransverseSurfaceChecks.test_mixed_ramification_truncation) ... ok\ntest_conic_first_coefficients_and_weight_comparison (research.quadratic_degree_module_checks_pass102.QuadraticDegreeModuleChecks.test_conic_first_coefficients_and_weight_comparison) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 1.695s\n\nOK\n",
+  "output_hash_convention": "stdout + one newline + stderr",
+  "complete_output_sha256": "de4591e9eb730b5ba64c31b3862cb69fedd183b9d0dcab429038bd8faadf57ae",
+  "all_passed": true,
+  "scope": "Three new finite coefficient/example methods in two suites; four retained finite methods in three dependency suites. Does not verify universal source-balance, normalization, full module, rank-defect or cancellation proofs."
+}

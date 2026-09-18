@@ -1,0 +1,96 @@
+{
+  "pass": 146,
+  "status": "decisive_actual_counterexample_to_projected_residual_coordinate_descent; cancellation_unsolved",
+  "results": [
+    "A retained genuine polynomial automorphism has the dense three-good profile, selected intrinsic kernel S=C[h,k], and selected speed k. The primitive clearing G=(V+hU)^2-kV+h^3 specializes at (h) to V(V-k), two disjoint lines.",
+    "Canonical Taylor differentiation independently gives Phi=-kG/h^4. Thus this is a failure for the actual primitive first-tail model, not an unrelated generic coordinate or a failure of145.",
+    "The full invariant ring A_k=S_k[y,z,w0]=S_k[a] remains polynomial. Two exact source relations remove the unwanted projected component. The open immersion and Laurent escaping-parameter formulas describe precisely this example, not all actual charts.",
+    "A different actual family has an everywhere-coordinate curve equation but a nonpolynomial canonical normalized parameter. Dividing the common factor of its leading derivation repairs its normalization; the canonical factor is not automatically a unit.",
+    "Primary source comparison identifies full-gradient, all-primes, same-base retraction and residue-constant hypotheses. None is supplied just by generic primitivity."
+  ],
+  "canonical_execution": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.divisorial_descent_controls_pass146 -v",
+    "source_sha256": "f68116824fad60e1e498315e158b749e948f8b2ba7815eb7b3f520e29f27a4b7",
+    "full_source_read": "72bd84, with pre-execution sign/power correction read in the patch and final overring delta read232526",
+    "completion_output": "232526",
+    "exit_code": 0,
+    "methods": 4,
+    "reported_seconds": 0.207,
+    "state": "completed_in_initial_call",
+    "python": "3.13.5 Anaconda",
+    "sympy": "1.13.3",
+    "pending_execution_handles": false
+  },
+  "superseded_execution": {
+    "completion_output": "38a0ab",
+    "exit_code": 0,
+    "methods": 4,
+    "reported_seconds": 0.211,
+    "scope": "Initial four-method source before additional overring identities. Not four additional methods."
+  },
+  "pre_execution_corrections": "Root caught a radial-determinant sign and two powers in the Laurent z expression while reading the authored source; corrected before its first execution. Neither error was part of an executed failed test or a frozen proof.",
+  "test_scope": [
+    "Both polynomial inverse orders, exact good speeds and density control, all selected partial coefficients and intrinsic leading derivation.",
+    "Generic plane-coordinate inverse, split residue polynomial and comaximality, actual selected component, exact three-generator overring relations and open-cover formulas.",
+    "Independent signed Taylor derivatives yielding both canonical tails and the normalized selected value.",
+    "Second actual inverse, everywhere-coordinate primitive relation, unremoved normalized-parameter pole and finite derivative-divisibility controls. The all-polynomial nonexistence proof is written, not inferred from samples.",
+    "No recursive old-suite rerun, formal proof verification or full cancellation claim."
+  ],
+  "reviews": {
+    "root": "Full main and normalized-parameter notes ba86b9; final Laurent delta76a3b8+702c5f. Full literature3b2ce0 plus exact-base delta76a3b8. Fresh final artifact metadata99aa84.",
+    "geometry": "Main author full294-line proof bffd17 plus final Laurent paragraph f00cfc; full Jet note c6b185. Full final checker24a9dc. Full literature bb5c99/hashc82736 and selected primary statements.",
+    "jet": "Full main core a0ce5d, canonical-tail/open-cover delta and complete checker c27680; final checker delta709e78+e6567b. Own note full19e47f. No execution by Jet.",
+    "general": "Full earlier main core928d72+c89f24 and independent exact split/gradient calculation. Literature author full66d01b plus exact-base delta80bd07.",
+    "limits": "These are separate AI reconstructions, not human peer review or an audit of every inherited proof."
+  },
+  "sources": [
+    {
+      "url": "https://repository.ias.ac.in/3203/1/311.pdf",
+      "statement": "Bhatwadekar-Dutta97 Proposition4.4 and standing Section4 hypotheses",
+      "root_evidence": "turn4077view3"
+    },
+    {
+      "url": "https://arxiv.org/html/2212.03488v4",
+      "statement": "Babu-Das definitions, Theorem1.1, TheoremA and CorollaryB",
+      "root_evidence": "turn4073view0"
+    },
+    {
+      "url": "https://www.ms.uky.edu/~sohum/ma561/affgeom/vars_in_k3.pdf",
+      "statement": "Russell-Sathaye Definition2.1.2, Theorem2.3.1, Remark2.5.4 and Corollary3.4",
+      "root_evidence": "turn4076view1-2 and turn4077view1-2; selected statements, not a recursive proof audit"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1302.5223",
+      "statement": "Das-Dutta Theorem3.13 and its retraction requirement",
+      "root_evidence": "turn4076view0, turn4077view0 and turn4083view1"
+    }
+  ],
+  "novelty_status": "The polynomial automorphism is a retained published-family control, not a new construction. No historical novelty assessment of these particular deductions is complete.",
+  "frozen_predecessor": {
+    "path": "research/checkpoint-pass145-working.json",
+    "sha256": "0e17fefc0300e884a7d9d1dc9704d8316db597a19eca200639152e9bf84307db",
+    "root_check": "a3976a",
+    "independent_jet_check": "acbd9a+72daad",
+    "artifacts_matched": 3,
+    "records": 956
+  },
+  "next_task": "Control the full invariant algebra over S, rather than require its smaller projected-good model to be a residual coordinate. Extend the earlier residue-degree argument91 to the all-degree dense chart using actual-good noncollapse134, then attack finite residue-constant extensions or find an actual inverse-verified realization.",
+  "goal_audit": {
+    "previous_turn": "progress: final145 four-method verification completed565a12",
+    "current_turn": "progress: actual counterexample to the proposed descent gate, full overring repair, new pole boundary, selected primary theorem audit and four passing new methods",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "proof_assistant_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "paid_sources": false,
+    "new_automation": false,
+    "frozen_earlier_files_edited": false
+  }
+}

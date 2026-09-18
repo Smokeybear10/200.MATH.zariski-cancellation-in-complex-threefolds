@@ -1,0 +1,80 @@
+{
+  "status": "audited working results; not yet integrated into full project registry or regression",
+  "previous_frozen_checkpoint": "consistency-pass-48.json",
+  "previous_scope": {
+    "claims": 492,
+    "test_methods": 979,
+    "suites": 115,
+    "hash_records": 159
+  },
+  "mathematical_notes": [
+    "research/normalized-cover-surjectivity-pass49.md",
+    "research/nodal-plinth-obstruction-pass49.md",
+    "research/frame-filtration-generation-pass49.md"
+  ],
+  "independent_audits": [
+    "research/proof-audits-pass49.md"
+  ],
+  "observed_root_runs": [
+    {
+      "command": "/opt/anaconda3/bin/python research/frame_filtration_generation_checks_pass49.py",
+      "test_methods": 1,
+      "unittest_seconds": 10.435,
+      "session_id": 41676,
+      "exit_code": 0,
+      "all_passed": true
+    }
+  ],
+  "new_standalone_methods": 1,
+  "new_standalone_suites": 1,
+  "full_project_regression_including_these_suites_completed": false,
+  "completed_proof_deductions": [
+    "Actual quotient homology excludes every unreached normalized exceptional-cover point. The full exceptional invariant ring is finite over the base curve and has the same normalization as the finite intermediate curve.",
+    "Actual quadratic residue trace excludes every second-image obstruction point at an ordinary node of the full plinth, including nonreduced J. A reduced full plinth with only ordinary nodes therefore forces J=C, not general polynomial recognition.",
+    "The actual independent degree-two frame gives A_R=R[F2_R] whenever (f,g,h1,h2)R=R. Obstruction support therefore lies at the simultaneous zero locus.",
+    "An actual nonlinear supplied slice has original projected generator degrees (2N,2N,N,N) for every N>=2. This is a generating-list countercontrol, not failure of low-degree generation of its polynomial ring."
+  ],
+  "limits": "No universal actual-frame reduction, full supplied (1,1,2,2) recognition, unrestricted cancellation proof, novelty certification, human review, proof-assistant verification or professor confirmation.",
+  "next_actions": [
+    "Integrate the three notes and one independent checker into a cited pass49 report, claims beginning Z493, a regression inheriting all 115 pass48 suites, and a new integrity checkpoint preserving all 155 previous nonmetadata records.",
+    "Attack the simultaneous zero locus using the actual coordinate frame; do not assume F3 generation or invariant stability of a noninvariant localization.",
+    "Test the trace argument at higher-multiplicity singularities and independently reconstruct the normalized-cover topology."
+  ],
+  "general_conjecture_solved": false,
+  "novelty_claimed": false,
+  "human_expert_review": false,
+  "proof_assistant_verified": false,
+  "interpretation_confirmed_by_professor": false,
+  "artifact_integrity": {
+    "checked_at_utc": "2026-09-13T19:49:59.040Z",
+    "all_passed": true,
+    "local_links_checked": 17,
+    "artifacts": [
+      {
+        "path": "research/normalized-cover-surjectivity-pass49.md",
+        "bytes": 10855,
+        "sha256": "2b6aa89021f1260830dcdc85e29819be38abe196193643a2265daf8eac99ccc7"
+      },
+      {
+        "path": "research/nodal-plinth-obstruction-pass49.md",
+        "bytes": 9352,
+        "sha256": "1b91833de95012af99689986ca340a64eb3ffb12c4ae113b290718ccebf99c40"
+      },
+      {
+        "path": "research/frame-filtration-generation-pass49.md",
+        "bytes": 10817,
+        "sha256": "9b89e8b1170642b17abdd9d6bffbf468b1df25dc27db11fea3d9f70005679b0f"
+      },
+      {
+        "path": "research/frame_filtration_generation_checks_pass49.py",
+        "bytes": 3419,
+        "sha256": "4dbf4046d38f168d8ab189722bb614c1dba3904dda3cbeb9644256fb5b0f4c4f"
+      },
+      {
+        "path": "research/proof-audits-pass49.md",
+        "bytes": 7516,
+        "sha256": "482c4880d3af6394d24a967aee272a637c674e7e71e0b740342d6197af7eb1da"
+      }
+    ]
+  }
+}

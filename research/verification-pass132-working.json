@@ -1,0 +1,68 @@
+{
+  "pass": 132,
+  "status": "thirteen_targeted_exact_methods_passed",
+  "working_directory": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+  "execution_owner": "Root",
+  "unittest": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.three_good_unit_row_and_two_shear_checks_pass132 research.three_good_primitive_profile_orbit_checks_pass131 research.three_good_mixed_cubic_gate_checks_pass130 -v",
+    "initial_execution_evidence": "bc24b3",
+    "completion_evidence": "831129",
+    "session_id": 91097,
+    "session_state": "completed",
+    "exit_code": 0,
+    "test_methods": 13,
+    "new_methods": 6,
+    "retained_methods": 7,
+    "unittest_reported_seconds": 0.830,
+    "initial_tool_wait_seconds": 1.002373125,
+    "completion_tool_wait_seconds": 0.000001416,
+    "before_hash_evidence": "bc24b3",
+    "after_hash_evidence": "b17658",
+    "inputs": [
+      {
+        "path": "research/three_good_unit_row_and_two_shear_checks_pass132.py",
+        "sha256": "374d2f6cb2dfb39134e8f6f799e17774eb77297081ede1725f4a27d7e2bbfd53",
+        "test_methods": 6,
+        "root_complete_source_read": "c8b622 first five methods, bc24b3 complete sixth method",
+        "source_only_peer_reviews": {
+          "author_Jet": "4973df first five methods; 6805e8 sixth method and header",
+          "General": "e203bc first three, daeaca fourth, 9eb2b3 and a679bc fifth, 7a6835 sixth",
+          "Geometry": "9a5afd first three, 821925 fourth and fifth, 9f6ab1 sixth"
+        }
+      },
+      {
+        "path": "research/three_good_primitive_profile_orbit_checks_pass131.py",
+        "sha256": "c6a47aa0ecf201b073b48625ef5717856aa5cba1ca5238ec52322b87503abe1e",
+        "test_methods": 3,
+        "scope": "Frozen retained checker, unchanged. Full source review recorded in checkpoint131."
+      },
+      {
+        "path": "research/three_good_mixed_cubic_gate_checks_pass130.py",
+        "sha256": "0a04163d0f80a226343dfb8e2ff4477c0c3c5858245d2d471392eb510162b058",
+        "test_methods": 4,
+        "scope": "Frozen retained checker, unchanged. Full source review recorded in checkpoint130."
+      }
+    ],
+    "new_coverage": [
+      "An actual successful nonprimitive frame with nonconstant L(a), both polynomial inverse orders, and a separate proper invariant-coordinate-hyperplane ideal.",
+      "The compensated two-shear family with ten symbolic constant coefficients, exact polynomial divided difference, both inverse orders, and both correction gates; primitive specialization excludes p03=1/2.",
+      "Four actual b-dependent two-shear words with explicitly verified inverse orders and exact failures of the selected degree profile.",
+      "The normalized constant-speed family with generic cubic F and symbolic quadratic eta(I), both staged inverse orders, derivative identities and polynomial kernel-coordinate completion.",
+      "An irreducible normalized action with EX=I^3 and a nonempty reduced fixed locus; coefficient gcd one is distinguished from a unit coefficient ideal.",
+      "The bad coordinate partial in the dense divided-difference normal form, its exact quadratic coefficient on the invariant generators, and the explicit intrinsic top."
+    ]
+  },
+  "earlier_intermediate_execution": {
+    "initial_evidence": "169c37",
+    "completion_evidence": "5206ec",
+    "session_id": 25905,
+    "exit_code": 0,
+    "test_methods": 12,
+    "unittest_reported_seconds": 0.779,
+    "new_checker_sha256": "478fee1d4efec9c9fe5ea634f5091f05c19632333c4b8e8782418df8929b955f",
+    "scope": "Earlier five-method checker before the genuine adjoint corollary and sixth method were added. Not the final checker version."
+  },
+  "before_and_after_new_checker_hashes_match": true,
+  "timing_scope": "Tool wait durations are not total process wall-clock measurements. Runtime observations are not deterministic mathematical outputs.",
+  "limits": "Exact finite symbolic controls only. They do not prove the arbitrary-degree classification, the valuation argument, the all-G two-shear restriction, the general dense cofactor theorem, or Wang's theorem. No full historical suite, proof-assistant verification, human review, novelty clearance, or computational solution of cancellation is claimed."
+}

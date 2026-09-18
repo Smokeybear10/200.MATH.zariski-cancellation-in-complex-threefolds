@@ -1,0 +1,57 @@
+{
+  "started_at_utc": "2026-09-15T00:45:18.226Z",
+  "finished_at_utc": "2026-09-15T00:45:20.693Z",
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.free_fiber_trace_shift_checks_pass115",
+    "research.whole_double_universal_factorization_checks_pass114",
+    "research.whole_double_conormal_checks_pass112",
+    "research.quadratic_degree_module_checks_pass102",
+    "research.quadratic_divisor_filtration_checks_pass107"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 2.462106584,
+  "suites": 5,
+  "test_methods": 8,
+  "new_methods": 2,
+  "retained_methods": 6,
+  "ast_method_counts": {
+    "research/free_fiber_trace_shift_checks_pass115.py": 2,
+    "research/whole_double_universal_factorization_checks_pass114.py": 2,
+    "research/whole_double_conormal_checks_pass112.py": 2,
+    "research/quadratic_degree_module_checks_pass102.py": 1,
+    "research/quadratic_divisor_filtration_checks_pass107.py": 1
+  },
+  "input_files": [
+    {
+      "path": "research/free_fiber_trace_shift_checks_pass115.py",
+      "sha256": "5321fb2505f54bf9a39875e86763396afd5b9ecd096f77486ffd325ddef00bf3"
+    },
+    {
+      "path": "research/whole_double_universal_factorization_checks_pass114.py",
+      "sha256": "139246736fdefdbec8482571cf258b2d884111813b66d7f8474b3192814241ba"
+    },
+    {
+      "path": "research/whole_double_conormal_checks_pass112.py",
+      "sha256": "ea5fdc95e9297c2807c119e3ef2674edbcf39e0f8c754861fb4c5f2a37ecab52"
+    },
+    {
+      "path": "research/quadratic_degree_module_checks_pass102.py",
+      "sha256": "dd701dc05fe10c4ce5189ab848bfde4f0ea7bb724f27d4317b69f38c91613362"
+    },
+    {
+      "path": "research/quadratic_divisor_filtration_checks_pass107.py",
+      "sha256": "87c7052e3e165f0d1ebc8faabc8f49d178c2c55a3cfe6daf0ef6d97e817e1a38"
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "stdout": "",
+  "stderr": "test_idempotent_shift_and_centered_conic (research.free_fiber_trace_shift_checks_pass115.FreeFiberTraceShiftChecks.test_idempotent_shift_and_centered_conic) ... ok\ntest_quadratic_trace_and_opposite_slopes (research.free_fiber_trace_shift_checks_pass115.FreeFiberTraceShiftChecks.test_quadratic_trace_and_opposite_slopes) ... ok\ntest_denominator_free_factor_and_ideal_certificates (research.whole_double_universal_factorization_checks_pass114.WholeDoubleUniversalFactorizationChecks.test_denominator_free_factor_and_ideal_certificates) ... ok\ntest_finite_root_and_cofactor_for_singular_coefficients (research.whole_double_universal_factorization_checks_pass114.WholeDoubleUniversalFactorizationChecks.test_finite_root_and_cofactor_for_singular_coefficients) ... ok\ntest_conormal_and_weighted_connections (research.whole_double_conormal_checks_pass112.WholeDoubleConormalChecks.test_conormal_and_weighted_connections) ... ok\ntest_product_index_determinant (research.whole_double_conormal_checks_pass112.WholeDoubleConormalChecks.test_product_index_determinant) ... ok\ntest_conic_first_coefficients_and_weight_comparison (research.quadratic_degree_module_checks_pass102.QuadraticDegreeModuleChecks.test_conic_first_coefficients_and_weight_comparison) ... ok\ntest_conic_filtration_and_hypothesis_controls (research.quadratic_divisor_filtration_checks_pass107.QuadraticDivisorFiltrationChecks.test_conic_filtration_and_hypothesis_controls) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 2.098s\n\nOK\n",
+  "output_hash_convention": "stdout + one newline + stderr",
+  "complete_output_sha256": "019d7e2a9c6c629380bc6bdbb0e17539cc94294fb90b3ece2a55ec809b9cf5da",
+  "all_passed": true,
+  "scope": "New exact quadratic trace/sign and idempotent coefficient-shift identities. Retained114 universal factor certificates,112 product/conormal,102 degree-module and107 divisor identities. Does not prove finite flatness, all-order lifting, supported topology, analytic prime support, all-point image equality, global coefficient intersection, actual-frame hypotheses, recognition, cancellation or novelty."
+}

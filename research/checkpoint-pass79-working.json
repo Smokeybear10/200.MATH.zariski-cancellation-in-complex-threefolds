@@ -1,0 +1,327 @@
+{
+  "status": "AI-audited working79: a nice sliced action with one supplied nonzero constant good direction has polynomial kernel; the no-good case has a common highest-field normal identity. Unrestricted cancellation remains unproved.",
+  "working_question": "Unconfirmed corrected complex-threefold interpretation: A[s] isomorphic to C^[4] implies A isomorphic to C^[3]. The professor has not confirmed field, dimension or correction.",
+  "previous_working_checkpoint": "research/checkpoint-pass78-working.json",
+  "previous_integrated_checkpoint": "consistency-pass-60.json",
+  "current_research_pass_classification": "progress",
+  "previous_check_in_classification": "No progress: status-only response, despite inspection of live agent handles. This continuation revalidated authoritative state and completed new proofs and exact finite checks.",
+  "synthesis": "research/nice-good-recognition-frontier-pass79.md",
+  "proof_audit": "research/proof-audits-pass79-working.md",
+  "verification_record": "research/verification-pass79-working.json",
+  "historical_integrated_counts": {
+    "claims": 544,
+    "test_methods": 1000,
+    "suites": 126
+  },
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047,
+    "all_passed": true
+  },
+  "targeted_verification": {
+    "path": "research/verification-pass79-working.json",
+    "sha256": "34c84f3335bae6110f6f8506a9e8669625a84fe276b0558f852070dfecefada4",
+    "suites": 1,
+    "test_methods": 4,
+    "all_passed": true,
+    "started_at_utc": "2026-09-14T07:56:15.302974+00:00",
+    "finished_at_utc": "2026-09-14T07:56:15.754528+00:00",
+    "monotonic_wall_seconds": 0.451162,
+    "unittest_seconds": 0.189,
+    "tracked_inputs": 3,
+    "retained_complete_outputs": 1
+  },
+  "new79_suites": 1,
+  "new79_test_methods": 4,
+  "fresh_full79_regression_performed": false,
+  "central_registry_integrated": false,
+  "completed_deductions": [
+    "Under actual E in LND(C^[4]), E(s*)=1, E^2(x_i)=0 and a supplied nonzero constant T with [E,[T,E]]=0, ker E is C^[3]. The square-zero and linear-cone cases use retained recognition gates; the new proof closes the nonlinear supplied-good branch.",
+    "In the actual relative reconstruction over S=C[u,v], the five-variable determinant of the four original coordinate lifts and F is a nonzero complex constant modulo F, by the conormal basis. Exact cofactors and mixed partials force F=aZ+bY^2+cY+d with a in S nonzero.",
+    "The original partial's cofactors give Tu=-a ell_v/kappa and Tv=a ell_u/kappa. Thus T(a) belongs to aB. Actual local nilpotence forces T(a)=0, and nonlinear invariant omission gives a in C*. Consequently F eliminates Z globally and A=S[Y].",
+    "In the faithfully flat two-generator curve presentation, the primitive intrinsic LND is a complex-unit multiple of D_F=F_Z partial_Y-F_Y partial_Z. Conormal exactness makes D_F an LND generically; primitive saturation and whole closed fibers make the global multiplier a complex unit. Its gradient pair has gcd one, not automatically unit ideal in a weaker intrinsic model.",
+    "After the supplied-good endpoint, D_F(Y/a)=1, so the primitive intrinsic field has a global slice. The unnormalized delta may still be an invariant replica and is not asserted to have a slice.",
+    "The transported original partial has theta which cannot preserve S in the nonlinear supplied-good branch. Its exact bracket and base-Wronskian equations retain actual polynomial generation, not arbitrary formal fields.",
+    "Q=[T,E] has Q^3(x_i)=0 for all four original coordinates in the nonlinear supplied-good branch, and its second coordinate iterate is nonzero and nonparallel to the first. This is not a zero-operator statement on all polynomials.",
+    "Without a good direction, when J^2 is nonzero all its nonzero columns are multiples f_i R of one actual ambient primitive polynomial LND R. It commutes with E, kills P, and f_i,P_i belong to the actual common plane S=ker(E) intersect ker(R). Its intrinsic restriction need not be primitive.",
+    "That common plane makes the velocity row unimodular over S and gives an S-linear global E-slice. The four-entry normal N=dual(P wedge P_u wedge P_v) has c=N dot x in S and an exact contracted relation N dot (x-a(S))=0. At any proper normal zero its first common nonzero homogeneous terms span at most two dimensions. No normal-unit, apex or no-good recognition follows.",
+    "Nearby published source criteria require an actual invariant ambient coordinate, a polynomial base presentation, a section, geometric divisor integrality, or unstabilized ML/DK assumptions. The bounded exact-statement search found no exact duplicate among checked sources, not a novelty verdict."
+  ],
+  "superseded_live_obligations": [
+    "The nonlinear nice supplied-good relative hypersurface no longer requires a separate primitive-freeness or coefficient-unit argument: the original cofactor/divisibility/omission proof supplies both.",
+    "The derived Q-cube coordinate bound is now proved in the stated nonlinear supplied-good branch, not universally for every action or adjusted field.",
+    "Do not re-open the proper binary parameter ideal under all supplied-good hypotheses; it was already excluded in78.",
+    "Do not use the Russell or Weitzenbock intrinsic presentations to contradict the endpoint without supplying its actual original-partial cofactor and omission hypotheses."
+  ],
+  "remaining_mathematical_obligations": [
+    "Recognize an arbitrary original sliced action under the full complex-threefold interpretation without assuming an available nice frame.",
+    "Resolve the nonlinear nice case with no nonzero constant good direction, or prove such a direction exists from the actual slice and geometry.",
+    "Exploit the new common highest-field plane and four-entry normal relation without assuming its normal ideal is unit. The allowed lowest-order span-one and span-two zero cases remain.",
+    "Keep ambient primitivity of the common R distinct from intrinsic primitivity or freeness of R|A. An S-linear E-slice is not an ambient-coordinate or common-slice conclusion.",
+    "Confirm the professor's intended corrected statement, field and dimension.",
+    "Complete a statement-level historical novelty audit and obtain human expert review and any claimed formal verification before a public research claim. No external contact or submission is authorized by this packet."
+  ],
+  "next_bounded_actions": [
+    "Start with nice-common-top-normal-identity-pass79.md rather than the closed supplied-good branch. Remove any S-content from the normal only with its polynomial invariant identities retained; analyze whether the actual P/J and slice constraints exclude the remaining low-rank initial normal configurations.",
+    "Use S=C[u,v], P_i,f_i in S, J=[P_u,P_v] Jac_x(u,v), and the S-linear E-slice to seek a global relative presentation without assuming a constant apex or a primitive R-invariant slice.",
+    "Independently attack any proposed normal-unit or no-good exclusion with actual-coordinate constructions or exact formal necessary conditions, keeping bare matrix or intrinsic countercontrols separate.",
+    "Maintain the arbitrary-frame problem and full cancellation scope. Preserve the new conditional theorem while looking for a route beyond niceness."
+  ],
+  "proof_review_kind": "Complete separate written AI mathematical reconstructions, selected primary-proof reads and scope/provenance audits. Finite exact controls and hashes are distinct. Not human expert or formal verification.",
+  "primary_source_audit": {
+    "checked_at_utc": "2026-09-14T08:07:19.545Z",
+    "all_passed": true,
+    "files": [
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.pdf",
+        "sha256": "b4df87f9a4042c1110915f50779be26decb6473fc13fccb99038a91bcb9f3a03",
+        "bytes": 2153645
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.txt",
+        "sha256": "31b95df36405d2cf9b50cf24e649bc75a40b490a0f2caebdca0de0416bf85816",
+        "bytes": 862237
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77-source.md",
+        "sha256": "4a8edfdd91fd0ef6441384a92b5aa45b2cc39f19958abcc7fbe363c89f237b83",
+        "bytes": 1170
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.sha256",
+        "sha256": "243073116eef79c9fd0d28c06add2c602bf7aeae3797e10373be8252b35ddd00",
+        "bytes": 214
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.txt",
+        "sha256": "2450cbb34179187172a6c81dfedba9752ecb32b067c5a62ffcb2decab7f236d9",
+        "bytes": 98069
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.pdf",
+        "sha256": "31cec362bd10fbe65e2a4622979fbcf4fbff2bcd585bae9dd3fe78bc330d49cc",
+        "bytes": 387538
+      }
+    ]
+  },
+  "selected_primary_reads": [
+    {
+      "title": "Differentials, conormal exact sequence",
+      "publisher": "The Stacks Project",
+      "url": "https://stacks.math.columbia.edu/tag/00RU",
+      "scope": "Root and Jet read the complete displayed Lemma10.131.9 proof; used for the quotient differential kernel, not an ambient Hamiltonian recognition theorem."
+    },
+    {
+      "title": "Quasi-regular sequences",
+      "publisher": "The Stacks Project",
+      "url": "https://stacks.math.columbia.edu/tag/00LN",
+      "scope": "Root freshly read the complete displayed regular-sequence associated-graded proof; nonreduced coefficients retained."
+    },
+    {
+      "title": "Homogeneous quasi-translations in dimension5",
+      "author": "Michiel de Bondt",
+      "url": "https://arxiv.org/html/1501.04845v3",
+      "scope": "Root and Geometry freshly read the complete selected Theorem5.1 statement/proof including both cases of(iv), and primary statement HTML. Not every cited dependency."
+    },
+    {
+      "title": "C+-actions on contractible threefolds",
+      "authors": "Shulim Kaliman and Nikolai Saveliev",
+      "url": "https://www.math.miami.edu/~kaliman/library/KaSa.michigan.2004.quotient.pdf",
+      "scope": "Root freshly read Lemma2.1 statement, Theorem2.7 and Corollary2.8 complete displayed proofs; full saved cylinder applicability note reread. Not all deeper surface/topological dependencies."
+    },
+    {
+      "title": "Nearby relative and nice-derivation recognition gates",
+      "notes": [
+        "research/relative-hypersurface-source-gates-pass79.md",
+        "research/quadratic-relative-modification-source-pass79.md",
+        "research/nice-good-recognition-source-scope-pass79.md"
+      ],
+      "scope": "Geometry's selected primary reads and explicit access limits are recorded in these notes; General independently checked their listed core source arguments. Root read the full notes, not all their primary proof selections. Newly consulted URLs are not all durably archived."
+    }
+  ],
+  "constant_good_equals_velocity_cone_apex_proved": true,
+  "nice_sliced_jacobian_cube_zero_proved": true,
+  "proper_binary_parameter_ideal_excluded": true,
+  "relative_two_generator_hypersurface_proved": true,
+  "relative_quadratic_generation_proved": true,
+  "primitive_relative_jacobian_identification_proved": true,
+  "supplied_constant_good_nice_sliced_action_recognized": true,
+  "supplied_good_recognition_scope": "Actual complex polynomial four-ring, original global slice, nice coordinate frame, and a supplied nonzero constant good direction. Proof status is written and AI-audited, not formal or human expert verified.",
+  "nonlinear_supplied_good_primitive_global_slice_proved": true,
+  "nonlinear_supplied_good_Q_cube_coordinate_bound_proved": true,
+  "common_highest_line_without_good_direction_proved": true,
+  "common_normal_lowest_order_rank_at_most_two_proved": true,
+  "normal_ideal_always_unit_proved": false,
+  "arbitrary_nice_action_recognized": false,
+  "no_good_direction_case_recognized": false,
+  "all_profile_height_threshold": 10,
+  "conditional_nonpolynomial_kernel_minimum_height_lower_bound": 11,
+  "conditional_nonpolynomial_nice_frame_height_lower_bound": 12,
+  "universal_frame_existence_proved": false,
+  "universal_nice_frame_existence_proved": false,
+  "universal_constant_good_direction_existence_proved": false,
+  "general_conjecture_solved": false,
+  "professor_interpretation_confirmed": false,
+  "historical_novelty_verified": false,
+  "human_expert_review_completed": false,
+  "formal_verification_completed": false,
+  "external_contact_made": false,
+  "submission_or_publication_made": false,
+  "predecessor_audit": {
+    "checked_at_utc": "2026-09-14T08:07:19.441Z",
+    "all_passed": true,
+    "prior_hash_records": 355,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "1687276fb8fe601022e4b081dc9020ca7f1652050f1c4eb233a1ae4b82fdefe5",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "artifact_integrity": {
+    "checked_at_utc": "2026-09-14T08:07:19.545Z",
+    "all_passed": true,
+    "prior_hash_records": 355,
+    "current_artifacts": 14,
+    "total_hash_records": 369,
+    "local_link_paths_checked": 656,
+    "deferred_checkpoint_links": [
+      {
+        "source": "research/nice-good-recognition-frontier-pass79.md",
+        "target": "research/checkpoint-pass79-working.json"
+      },
+      {
+        "source": "research/proof-audits-pass79-working.md",
+        "target": "research/checkpoint-pass79-working.json"
+      },
+      {
+        "source": "README.md",
+        "target": "research/checkpoint-pass79-working.json"
+      },
+      {
+        "source": "research-ledger.md",
+        "target": "research/checkpoint-pass79-working.json"
+      }
+    ],
+    "link_anchors_checked": false,
+    "link_scan_ignores_tex_math": true,
+    "current_numbered_equations": 76,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "new79_suites": 1,
+    "new79_methods": 4,
+    "targeted_suites": 1,
+    "targeted_methods": 4,
+    "retained_output_hashes_checked": 1,
+    "current_run_sources_checked": 3,
+    "primary_source_files_checked": 6,
+    "central_claim_count": 544,
+    "mathematical_suites_executed": 0,
+    "regression_runners_executed": 0,
+    "scope": "Read-only current hashes, equation numbering, local paths, text hygiene and saved run accounting. Predecessor hashes were checked separately. Not mathematical proof verification.",
+    "artifacts": [
+      {
+        "path": "research/relative-good-partial-equations-pass79.md",
+        "sha256": "e58d75c1e24fad2695b236b9bcfaa8b8bc5f5de6ebd824e58d088a4894e2c4d1",
+        "bytes": 12496,
+        "lines": 311,
+        "numbered_equations": 13
+      },
+      {
+        "path": "research/relative-jacobian-primitive-pass79.md",
+        "sha256": "c9e121c5200d60f2fb3f4c5c45218fee174e0501a66023031a802af785a3d09b",
+        "bytes": 7076,
+        "lines": 175,
+        "numbered_equations": 10
+      },
+      {
+        "path": "research/relative-quadratic-generation-pass79.md",
+        "sha256": "2944d96d51038c1925950b1b02e7a8c16d74acfdde6daf08c8cafafebb65fc46",
+        "bytes": 11344,
+        "lines": 302,
+        "numbered_equations": 14
+      },
+      {
+        "path": "research/nice-good-direction-recognition-pass79.md",
+        "sha256": "7f6bffab5755a0ccc8a996eaa658d9c782798094297c6b545909ab42f34ecdb7",
+        "bytes": 7820,
+        "lines": 191,
+        "numbered_equations": 11
+      },
+      {
+        "path": "research/nice-common-top-normal-identity-pass79.md",
+        "sha256": "ab5dbb480ac3507ff7f20a7edb6fb558aa786f4ddf028ab32034ff8cbca60615",
+        "bytes": 9678,
+        "lines": 228,
+        "numbered_equations": 9
+      },
+      {
+        "path": "research/relative-hypersurface-source-gates-pass79.md",
+        "sha256": "78ae60e6ab3372d9b01df5273533b015debefd72f4a476b88749adb7fe88c8c4",
+        "bytes": 9556,
+        "lines": 205,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/quadratic-relative-modification-source-pass79.md",
+        "sha256": "66958c8718959d9a6083e748da1c2ee99e03d3124775784539b68e557cc17759",
+        "bytes": 8084,
+        "lines": 185,
+        "numbered_equations": 5
+      },
+      {
+        "path": "research/nice-good-recognition-source-scope-pass79.md",
+        "sha256": "b1c5f547a3e537c8256c78deabfcbd0c810b53dc31063329ae83133797af64f9",
+        "bytes": 5934,
+        "lines": 132,
+        "numbered_equations": 3
+      },
+      {
+        "path": "research/relative-quadratic-controls-pass79.md",
+        "sha256": "ff5e71ade4e7bb678c6434a023b0ae8238a4230e83e24fc3f6ec0f7d2dc0ed9d",
+        "bytes": 5822,
+        "lines": 116,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/relative_quadratic_checks_pass79.py",
+        "sha256": "e574fa21954c8d1867a1f38fbd061231233d1f9979d746a9b1f4dc61b673626a",
+        "bytes": 8559,
+        "lines": 188,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/run_targeted_pass79.py",
+        "sha256": "36ac93ba3dfced28e31cb2c658d41d6f3a8cd94e78da56800d92bfb579e5eaea",
+        "bytes": 3212,
+        "lines": 88,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/verification-pass79-working.json",
+        "sha256": "34c84f3335bae6110f6f8506a9e8669625a84fe276b0558f852070dfecefada4",
+        "bytes": 2838,
+        "lines": 48,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/nice-good-recognition-frontier-pass79.md",
+        "sha256": "7e2798a4e7680cd3c29d798b052e23d131b62489bde6d32276d545b671c7afb3",
+        "bytes": 7805,
+        "lines": 167,
+        "numbered_equations": 3
+      },
+      {
+        "path": "research/proof-audits-pass79-working.md",
+        "sha256": "21aae5fd7ffb3da021f267ac6e96959583f21e091326368e27a596032defbd92",
+        "bytes": 11530,
+        "lines": 180,
+        "numbered_equations": 0
+      }
+    ]
+  },
+  "checkpoint_self_in_artifact_list": false
+}

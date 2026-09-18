@@ -1,0 +1,196 @@
+{
+  "status": "Audited working58–60 mathematical packet after full57. Not yet integrated into the central claim registry or a new full regression.",
+  "covered_working_passes": [
+    58,
+    59,
+    60
+  ],
+  "previous_frozen_checkpoint": "consistency-pass-57.json",
+  "previous_scope": {
+    "claims": 539,
+    "test_methods": 995,
+    "suites": 123,
+    "hash_records": 170
+  },
+  "mathematical_notes": [
+    "research/actual-frame-affine-ideal-pass58.md",
+    "research/faithful-frame-rank-obstruction-pass58.md",
+    "research/primitive-euler-divisor-pass59.md",
+    "research/faithful-quadratic-module-pass59.md",
+    "research/simple-speed-zero-exclusion-pass60.md"
+  ],
+  "source_scope_note": "research/coordinate-slice-degree-scope-pass58.md",
+  "audits": [
+    "research/faithful-quadratic-module-audit-pass59.md",
+    "research/simple-speed-zero-audit-pass60.md",
+    "research/proof-audits-pass60-working.md"
+  ],
+  "completed_deductions": [
+    "Actual ambient cofactors imply full ideal containment of the normalized affine-module Jacobian in the affine-slice image ideal; no unitness is forced.",
+    "The fixed invertible-row repair family cannot satisfy the actual Euler/Hessian equations. A repaired local rank still has a nonzero second good adjoint.",
+    "The entire quadratic actual-function module for the fixed faithful pair is classified. Every compatible quadratic belongs to the smaller bad-coordinate algebra, so no collection generates the full ring with that fixed pair.",
+    "Primitive Euler transversality at a divisor forces every graph coefficient regular and gives full local polynomial equality. Genuine plinth or common-speed divisors must have constant reduced projective speed direction.",
+    "The genuine full graph admits no simple common bad-speed zero: its speed Jacobian vanishes at every common zero. The proof uses exact regular eigenfunctions and recovers rational k terms before applying weight one.",
+    "The older extra parameter-speed sector (f,g)R=m is empty under the full frame, independently of any intrinsic J or jet assumptions. Isolated common speed zeros, if any, must be nonreduced."
+  ],
+  "supersession": {
+    "historical_claim": "Z532",
+    "effect": "Its necessary leading-coefficient statement remains useful. Its additional parameter-speed minimum-six sector is now excluded by the stronger simple-zero theorem; no possible surviving point is asserted.",
+    "historical_proof_unchanged": "research/slice-leading-image-obstruction-pass55.md",
+    "not_excluded": "The distinct reduced intrinsic second-image condition JR=m does not imply (f,g)R=m."
+  },
+  "independent_ai_reviews": {
+    "pass58_determinant": [
+      "author General",
+      "full Jet reconstruction",
+      "full root reconstruction"
+    ],
+    "pass58_fixed_family": [
+      "author Jet",
+      "full General reconstruction",
+      "full root reconstruction"
+    ],
+    "pass59_all_quadratics": [
+      "author Jet",
+      "independent root derivation and full reconstruction",
+      "full General reconstruction",
+      "full Geometry reconstruction"
+    ],
+    "pass59_divisor": [
+      "author General",
+      "full Jet reconstruction",
+      "independent root residue-direction derivation and full reconstruction"
+    ],
+    "pass60_simple_zero": [
+      "author root",
+      "General independent finite-order reconstruction and full audit",
+      "Geometry independent completion and full finite-order reconstruction",
+      "Jet full reconstruction"
+    ],
+    "limitations": "Independent AI reconstruction and symbolic identity checks are not human expert review, historical novelty certification, or formal proof-assistant verification."
+  },
+  "verification_log": "research/verification-pass60-working.json",
+  "new_test_methods": 5,
+  "new_suites": 3,
+  "full_project_regression_rerun": false,
+  "artifact_integrity": {
+    "checked_at_utc": "2026-09-13T22:33:23.489Z",
+    "all_passed": true,
+    "full57_hash_records_checked": 170,
+    "local_links_checked": 33,
+    "artifacts": [
+      {
+        "path": "research/actual-frame-affine-ideal-pass58.md",
+        "bytes": 8494,
+        "sha256": "b339ec8a1d8edb56e1bd6a146ccfed319cf8393430756eb930aaa0fa5070e84b",
+        "numbered_equations": 14,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/faithful-frame-rank-obstruction-pass58.md",
+        "bytes": 8676,
+        "sha256": "d8d4b4b44371e514a13be456d05b23ff950d3a6b0b4e43c389cc6a7565ede26c",
+        "numbered_equations": 18,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/faithful_frame_rank_checks_pass58.py",
+        "bytes": 3778,
+        "sha256": "84fdb1a7a06fc2c541baf5d7bf84bb65256113997a137ab586f4a3578b5d86c1",
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/coordinate-slice-degree-scope-pass58.md",
+        "bytes": 7761,
+        "sha256": "6fa2eb23895e4db2c1ac64e2d61ae7374afd63dec60bfc0e56e082b3e06f8b4d",
+        "numbered_equations": 9,
+        "source_footnotes": 3
+      },
+      {
+        "path": "research/primitive-euler-divisor-pass59.md",
+        "bytes": 11267,
+        "sha256": "0d20f2c025ba11f807a028616cbef40590797de53d56afa255dd3561f479d891",
+        "numbered_equations": 21,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/faithful-quadratic-module-pass59.md",
+        "bytes": 8636,
+        "sha256": "1707e21a9838997758b582442d88b225504666be69d6f44f5a659139be838778",
+        "numbered_equations": 24,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/faithful_quadratic_module_checks_pass59.py",
+        "bytes": 2795,
+        "sha256": "400f08880dc40318b389b67f452bc8d40b11f57044932d872111bb18d9a33a1e",
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/faithful-quadratic-module-audit-pass59.md",
+        "bytes": 7997,
+        "sha256": "03e87dfb8d16c383fca7da289b9506f1ed9d884bf6fe6b3647fe5c3c649fd783",
+        "numbered_equations": 8,
+        "source_footnotes": 2
+      },
+      {
+        "path": "research/simple-speed-zero-exclusion-pass60.md",
+        "bytes": 9334,
+        "sha256": "28932133c69b4a05c8c72738ea4faae6d883e33cd2884565cc71a1fbf7d1e040",
+        "numbered_equations": 13,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/simple_speed_zero_checks_pass60.py",
+        "bytes": 4287,
+        "sha256": "379641b2bebae8aa2e6a0f8bbede731cc6a698f79a607458558c5386889a9d14",
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/simple-speed-zero-audit-pass60.md",
+        "bytes": 4983,
+        "sha256": "6d734b2ce148c7c0876778b7dba1244904b0782e2a14aa507a496808c7242cbf",
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/proof-audits-pass60-working.md",
+        "bytes": 7484,
+        "sha256": "727452b29f189895638523ed60109742ee97b5dffc8a025dd2d538c247e93338",
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/verification-pass60-working.json",
+        "bytes": 2276,
+        "sha256": "7e47d7c15d656a57f65dcf0e7cffe25dc05f4c6684c7e5fa31cc4c38caf692db",
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      }
+    ]
+  },
+  "negative_control_limitations": [
+    "The faithful model has noncoordinate selected generators and is not a full-frame counterexample.",
+    "The tangent and isolated ramification controls satisfy only specified base Euler/rank equations. They do not realize the full Schur complement, ambient coordinates, or original sliced frame.",
+    "The discarded rational tangent example had regular Hessian coefficients and was not used in a theorem; the corrected ramified control is explicit."
+  ],
+  "primary_read_scope": {
+    "root_new_reads": "Full Zygadło v1 preprint via its unversioned endpoint; Freudenburg Lemmas4.1/4.3 and Theorem4.4 with complete proofs; Dasgupta–Lahiri positive-index Lemma2.9; Stacks0C0S complete optional completion statement/proof.",
+    "separate_primary_audit": "Geometry checked the stated standard affine-modification sources directly. Root did not claim another complete read of Kaliman–Zaidenberg.",
+    "novelty_status": "No statement-level exhaustive novelty certification completed."
+  },
+  "next_actions": [
+    "Integrate this frozen working packet only after capturing an actual expanded full regression; do not invent a full58 or full59 run.",
+    "Attack the full Schur determinant and actual-coordinate constraints at ramified isolated speed zeros, beginning with f=a²,g=b². Its base-only Euler controls are not frame realizations.",
+    "Classify or exclude a bounded constant-projective-direction divisor type. Primitive Euler transversality has already settled the nonconstant-direction type.",
+    "Keep complete supplied-profile recognition and unrestricted frame reduction separate. Do not revive the excluded simple-zero sector or fixed faithful-pair repair search."
+  ],
+  "general_conjecture_solved": false,
+  "novelty_claimed": false,
+  "human_expert_review": false,
+  "proof_assistant_verified": false,
+  "interpretation_confirmed_by_professor": false
+}

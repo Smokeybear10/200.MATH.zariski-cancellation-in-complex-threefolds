@@ -1,0 +1,39 @@
+{
+  "started_at_utc": "2026-09-14T17:29:48.157Z",
+  "finished_at_utc": "2026-09-14T17:29:48.637Z",
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.quadratic_double_branch_checks_pass97",
+    "research.quadratic_triple_branch_checks_pass97",
+    "research.quadratic_source_balance_checks_pass97"
+  ],
+  "exit_code": 0,
+  "suites": 3,
+  "test_methods": 3,
+  "wall_seconds": 0.474191875,
+  "unittest_seconds": 0.081,
+  "input_files": [
+    {
+      "path": "research/quadratic_double_branch_checks_pass97.py",
+      "sha256": "4f0a10d02455ac45c6a04c16ee3a39f87b8e6905db6559c19a756b634b0430ab"
+    },
+    {
+      "path": "research/quadratic_triple_branch_checks_pass97.py",
+      "sha256": "eca2f93c3fa2bcd9ae370a93fa45b3ab9dee63c84060f71c8dfccb57f0baeaf4"
+    },
+    {
+      "path": "research/quadratic_source_balance_checks_pass97.py",
+      "sha256": "150b438d6fcd45a3cc89091869e648c0bc54030c42599b15bdacbe9ab97278c7"
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "stdout": "",
+  "stderr": "test_weighted_coefficient_and_tangent_boundary (research.quadratic_double_branch_checks_pass97.DoubleBranchControls.test_weighted_coefficient_and_tangent_boundary) ... ok\ntest_intrinsic_triple_fiber_and_three_to_two_labels (research.quadratic_triple_branch_checks_pass97.QuadraticTripleBranchControl.test_intrinsic_triple_fiber_and_three_to_two_labels) ... ok\ntest_full_lattice_controls_and_uniform_row_divisibility (research.quadratic_source_balance_checks_pass97.QuadraticSourceBalanceChecks.test_full_lattice_controls_and_uniform_row_divisibility) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.081s\n\nOK\n",
+  "output_hash_convention": "stdout + one newline + stderr",
+  "complete_output_sha256": "1d79f7fd24d574249fafeca1f771d3ab840e45d16be90e5fdbf8fef61dadb788",
+  "all_passed": true,
+  "scope": "Three finite exact methods: double and triple formal controls and source-row integer controls including weighted projection examples. Not verification of universal geometry, the weighted normalization proof, original-frame reduction or cancellation."
+}

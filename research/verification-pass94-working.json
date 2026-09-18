@@ -1,0 +1,29 @@
+{
+  "started_at_utc": "2026-09-14T15:34:17.739Z",
+  "finished_at_utc": "2026-09-14T15:34:18.699Z",
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.weighted_conormal_checks_pass94"
+  ],
+  "exit_code": 0,
+  "suites": 1,
+  "test_methods": 1,
+  "wall_seconds": 0.951845875,
+  "unittest_seconds": 0.544,
+  "input_files": [
+    {
+      "path": "research/weighted_conormal_checks_pass94.py",
+      "sha256": "3c42853b462bf7954a2c46470bb7222d6dfbd4478bbc6c7c0b8f479133305e9f"
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "stdout": "",
+  "stderr": "test_weighted_coefficient_and_strict_remainders (research.weighted_conormal_checks_pass94.WeightedConormalControls.test_weighted_coefficient_and_strict_remainders) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.544s\n\nOK\n",
+  "output_hash_convention": "stdout + one newline + stderr",
+  "complete_output_sha256": "738fe43754b4975ce745406258e983fbe925775265f8a159dfaa2647db2d3058",
+  "all_passed": true,
+  "scope": "Finite symbolic weighted-operator controls at multiplicities2,3,4; not a formal verifier of the all-multiplicity proof, actual geometric hypotheses or cancellation."
+}

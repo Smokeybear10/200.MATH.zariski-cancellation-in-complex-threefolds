@@ -1,0 +1,41 @@
+{
+  "status": "targeted controls passed; universal theorems rely on written proofs and cited inputs",
+  "working_directory": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+  "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.three_good_controls_pass125 research.strict_slice_checks_pass84 research.embedded_square_controls_pass84 -v",
+  "execution_output_id": "d8b4ff",
+  "exit_code": 0,
+  "tool_wall_time_seconds": 0.663253583,
+  "unittest_reported_seconds": 0.364,
+  "suites": 3,
+  "methods": 6,
+  "new_methods": 3,
+  "retained_methods": 3,
+  "inputs_before_and_after": {
+    "research/three_good_controls_pass125.py": "bd4ed1a8d89cdb472349959fef06ab66f4c95ee93b6d5723667f05856ee4ac53",
+    "research/strict_slice_checks_pass84.py": "43ff529612cfc37f48833329c3b84a8c63d4400585d41bf0351e57b7a2f50d88",
+    "research/embedded_square_controls_pass84.py": "cc97022922c597dc3a428808cb1b478d4eebbf1b18791aa48e039e1cdd8714fd"
+  },
+  "new_control_scope": [
+    "Two-sided polynomial inverse and degree-zero leading intrinsic action in retained81's nonconstant-acceleration example",
+    "Two-sided polynomial inverses, actual last-coordinate partial, and positive leading intrinsic action in one family with last time degrees 2, 3, 5",
+    "Square-zero quadratic substitution inverse and bare monomial ideal first-power nonmembership"
+  ],
+  "retained_control_scope": [
+    "Two actual-slice return and strict-power certificate methods from84",
+    "One ideal-only square/trace/determinant boundary method from84"
+  ],
+  "earlier_run": {
+    "execution_output_id": "8ec535",
+    "methods": 3,
+    "unittest_reported_seconds": 0.093,
+    "status": "passed; superseded by canonical run, not additive coverage"
+  },
+  "not_verified_by_this_run": [
+    "Universal quantifiers in the intrinsic-speed or square-membership proofs",
+    "The primary classification and Briancon-Skoda theorems",
+    "First-power acceleration membership",
+    "Freeness of the constructed intrinsic action",
+    "Unrestricted coordinate-frame entry or cancellation",
+    "Historical novelty, human expert review, or Lean/formal proof verification"
+  ]
+}

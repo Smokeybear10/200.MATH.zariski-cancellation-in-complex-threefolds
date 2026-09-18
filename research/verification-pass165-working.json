@@ -1,0 +1,82 @@
+{
+  "pass": 165,
+  "status": "exact_weight_four_existence_criterion_in_actual_quartic_branch; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/cusp-quartic-weight-four-sufficiency-pass165-working.md",
+      "sha256": "81e580c8aeddddb485a65d0bf3db91aa995c0c01c2fb9cdd837f8ac461be25c5",
+      "bytes": 14631,
+      "lines": 363,
+      "equations": 15,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp_weight_four_sufficiency_controls_pass165.py",
+      "sha256": "1cac1fac5e18e1206abfe4bc8d87194ca8b5077726115febe8aa492ab6b71e3e",
+      "bytes": 9582,
+      "lines": 200,
+      "equations": 0,
+      "test_methods": 3
+    }
+  ],
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass164-working.json",
+    "sha256": "b76005f6f65c491d7b15da84ea3ffd2ca2ffce9a99c896823973064897047ab0",
+    "records": 1058
+  },
+  "results": {
+    "criterion": "Under every actual159 and quartic163 hypothesis, a nonconstant invariant of original weight<=4 exists if and only if (A*tau+B)*k0 is a complex polynomial in tau of degree<=4. The zero polynomial is included. Necessity is164; sufficiency is explicit here.",
+    "normalization": "Constant triangular weighted polynomial changes, with both inverse orders, reduce r to1/t,lambda to1/t² and n_rho to0. A nonzero complex square root exists. No generic coefficient-dependent shear is declared polynomial. These changes preserve the weighted filtration in both directions and preserve the degree-four condition.",
+    "integration": "Writing k0=-h*t³-4j*t²+b*t+c+q/t, all lower equations force the displayed Laurent forms for n0 and ell0. Homogeneous solutions are exhausted by explicit Euler identities and the exact joint constant field C, not by assuming K=C(t).",
+    "construction": "The stated Q of weight<=3 makes I=-Y*(XZ-Y³)+(X+h)*W+(1-hY)*Z+Q invariant. Every positive X coefficient cancels with independent theta. The graph intercept d0 remains unrestricted by the proof. I=n0+d0/t+h*t*ell0 lies in K, hence in S.",
+    "inverse": "Set J=W-YZ. Then I=Z+(X+h)J+Y^4+Q, giving Z=I-(X+h)J-Y^4-Q and W=J+YZ. Both inverse orders are polynomial. The construction returns through actual constant changes to the supplied frame.",
+    "recognition": "When the equivalent conditions hold, A is regular from the global E slice, and the actual invariant coordinate permits Bhatwadekar-Gupta-Lokhande Theorem3.5. Thus A=C[I]^[2]. This uses the cited external theorem.",
+    "remaining": "No proof in165 that the degree-four coefficient condition always holds. The subsequently completed actual field-return proof166 is separate and excluded from this packet. Lower-degree graphs, other initial profiles and unrestricted entry remain outside this result."
+  },
+  "canonical_execution": {
+    "command": "/opt/anaconda3/bin/python research/cusp_weight_four_sufficiency_controls_pass165.py -v",
+    "source_sha256": "1cac1fac5e18e1206abfe4bc8d87194ca8b5077726115febe8aa492ab6b71e3e",
+    "root_full_source_read": "c0015f",
+    "terminal_output": "57c3d3",
+    "methods": 3,
+    "seconds": 0.12,
+    "exit_code": 0,
+    "pending_execution_handle": false,
+    "rerun": false,
+    "scope": "All-constant invariant coefficients with independent theta and free d0; exact coordinate inverse; Euler identities and a proper algebraic coefficient-field boundary; both actual normalization inverse orders, literal potential scaling and signed translation. No finite test proves the general constant-field theorem or external recognition theorem."
+  },
+  "reviews": {
+    "root": "Full proof15f542, final mu/nu notation delta617871; independent normalization and Euler reconstruction. Full checker c0015f before canonical run. Final metadatafe3032.",
+    "general": "Complete author proof7cf0fe+2a1081 with link-only delta1512f5 and notation-only repair4a5bbd. Complete independent checker43531c at final hash78c6d0.",
+    "jet": "Complete proofccba07 with final notation deltae99966. Complete author checker0dda2e+143a32 and final hash75d4ed. No execution by author.",
+    "geometry": "Complete saved proof fbd7fc clean, including the actual normalization, exact-K Euler integrations, every positive X coefficient and both coordinate inverse orders. Fresh BGL statement-level review turn4161view0/1. No execution."
+  },
+  "primary_source": {
+    "url": "https://arxiv.org/html/1501.01438v1",
+    "theorem": "3.5",
+    "root_check": "turn4159view0 lines286-291, exact statement and displayed short proof freshly read; preceding open turn4158view0.",
+    "general_check": "turn4160view1, exact statement and displayed proof.",
+    "geometry_check": "turn4161view0/1, exact statement-level review for the regular-kernel endpoint.",
+    "scope": "Only the invariant-coordinate regular-kernel endpoint is imported. No recursive audit of its cited dependencies and no novelty search."
+  },
+  "runtime": "Fresh e17058: Python3.13.5 Anaconda, SymPy1.13.3.",
+  "goal_audit": {
+    "previous_goal_turn": "Progress, not a status-only turn: completed the actual field-return proof166 and its canonical59470e, which passed3methods0.174s exit0. That mathematical and execution evidence is captured separately in166, not added to this165 artifact count.",
+    "current_continuation": "Administrative closure of completed165 evidence: the exact criterion has full saved-source AI reviews and canonical57c3d3 passed3methods0.120s exit0. No checker is rerun and no new mathematical claim is inferred from packaging. The full target remains unproved.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "The separate166 packet completes the actual field-return implication. Continue with lower-degree graph branches or other unresolved initial profiles, retaining actual projected field equality and keeping those later artifacts outside this165 count."
+}

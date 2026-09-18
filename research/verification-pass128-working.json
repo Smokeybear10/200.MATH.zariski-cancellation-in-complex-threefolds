@@ -1,0 +1,34 @@
+{
+  "status": "seven targeted exact example methods passed; the general cancellation problem remains unsolved",
+  "working_directory": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+  "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.three_good_unit_rank_two_boundary_checks_pass128 research.three_good_speed_curve_checks_pass127 -v",
+  "execution_output_ids": ["7bc4a5", "8afdbd"],
+  "execution_session_id": 29591,
+  "exit_code": 0,
+  "unittest_reported_seconds": 0.978,
+  "tool_call_wait_seconds": [1.003516792, 0.000005083],
+  "timing_scope": "Tool wait durations for the two output chunks, not a separately measured process wall-clock duration.",
+  "suites": 2,
+  "methods": 7,
+  "new_methods": 2,
+  "retained_methods": 5,
+  "before_hash_output_id": "7bc4a5",
+  "after_hash_output_id": "89e0ab",
+  "inputs_before_and_after": {
+    "research/three_good_unit_rank_two_boundary_checks_pass128.py": "b424611c0677deef91b9d9c95311275aa4b4d09a795160af5aabd3c255e5b8e9",
+    "research/three_good_speed_curve_checks_pass127.py": "e8e700657a02b7228ecb31c93e17cae4390d21392b37b5f542761ec7002f1c3c"
+  },
+  "new_control_scope": [
+    "An actual polynomial inverse family with a constant shift parameter. Both inverse compositions, Jacobian, rank-two and full constant speed span, nonconical determinant, quadratic last coordinate, original coordinate partial, its exact filtration degree, and commutator identities are checked symbolically. The speed row is a unit after a nonzero complex specialization of the shift; the zero-shift boundary is explicitly different.",
+    "The middle commutator fails to preserve the intrinsic plane: N(Q(h))=2k^2 is nonzero. The example is already a translation. Its nonzero self-divisibility identity obstructs local nilpotence of the middle commutator, using the written LND lemma.",
+    "Four total-degree one through four examples check leading homogeneous evaluation; a two-sided fixed-good shear removes the realized quadratic acceleration. A separate a^5 nonmembership test concerns a polynomial not realized as an acceleration and is not a minimal-frame counterexample."
+  ],
+  "retained_control_scope": "All five methods from the frozen pass127 checker were rerun unchanged. This is not a full historical-suite rerun.",
+  "not_verified_by_this_run": [
+    "Universal normalizer, degree-preservation, rational-intersection or shear criteria; these require their written proofs",
+    "Recognition of the rank-two branch or existence of the supplied coordinate frame for arbitrary sliced actions",
+    "Existence of an actual fixed-good-shear-minimal counterexample or an acceleration realizing the bare nonmembership control",
+    "Historical novelty, human expert review, Lean or other formal proof verification, or unrestricted cancellation"
+  ],
+  "capture_limitation": "The two tool-output identifiers retain the process output. No complete-output checksum or peer execution is claimed."
+}

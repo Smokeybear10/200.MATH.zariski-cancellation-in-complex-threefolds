@@ -1,0 +1,48 @@
+{
+  "kind": "Fresh targeted76 capture, not a full regression",
+  "started_at_utc": "2026-09-14T05:55:42.248121+00:00",
+  "finished_at_utc": "2026-09-14T05:55:43.103716+00:00",
+  "wall_seconds": 0.855036,
+  "total_suites": 1,
+  "total_test_methods": 6,
+  "all_passed": true,
+  "new76_suites": 1,
+  "new76_test_methods": 6,
+  "fresh_full76_regression_performed": false,
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "source_hashes_before": {
+    "research/nice_frontier_checks_pass76.py": "3e2373d9f6adcb3b2f1b02ea8af8aa8a6d859a31f57afa0055f93367e2a0d563",
+    "research/run_targeted_pass76.py": "f49f0247aa473625a2ea26b69668b8e86b6a4b2850376502da601d694d1d5875",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_hashes_after": {
+    "research/nice_frontier_checks_pass76.py": "3e2373d9f6adcb3b2f1b02ea8af8aa8a6d859a31f57afa0055f93367e2a0d563",
+    "research/run_targeted_pass76.py": "f49f0247aa473625a2ea26b69668b8e86b6a4b2850376502da601d694d1d5875",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_inputs_unchanged": true,
+  "central_registry_integrated": false,
+  "general_cancellation_verified": false,
+  "scope": "Finite exact examples and operator identities. Not verification of universal written theorems, geometric sources, novelty or a formal proof. Repeated executions are not extra test methods.",
+  "suites": [
+    {
+      "path": "research/nice_frontier_checks_pass76.py",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/nice_frontier_checks_pass76.py"
+      ],
+      "exit_code": 0,
+      "expected_methods": 6,
+      "test_methods": 6,
+      "all_passed": true,
+      "unittest_seconds": 0.478,
+      "output": "test_leading_divisor_and_constant_apex_controls (__main__.NiceFrontierChecks.test_leading_divisor_and_constant_apex_controls) ... ok\ntest_nonunit_first_speed_primitive_slice (__main__.NiceFrontierChecks.test_nonunit_first_speed_primitive_slice) ... ok\ntest_pencil_arbitrary_two_jet_and_positive_frames (__main__.NiceFrontierChecks.test_pencil_arbitrary_two_jet_and_positive_frames) ... ok\ntest_two_invariant_jacobian_and_actual_gauge_inverse (__main__.NiceFrontierChecks.test_two_invariant_jacobian_and_actual_gauge_inverse) ... ok\ntest_variable_direction_commuting_slice_family (__main__.NiceFrontierChecks.test_variable_direction_commuting_slice_family) ... ok\ntest_weighted_pencil_obstruction_coefficients (__main__.NiceFrontierChecks.test_weighted_pencil_obstruction_coefficients) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.478s\n\nOK\n",
+      "output_sha256": "b8af1d0fa45fddf91764c0822079ceee74d9f052dad7a280615b5497bb6891ab"
+    }
+  ]
+}

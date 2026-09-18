@@ -1,0 +1,111 @@
+{
+  "pass": 205,
+  "status": "invariant_coefficient_nice_pair_recognition_and_t_independent_zero_R_application; unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass204-working.json",
+    "sha256": "d987de8c39f8fb97ac15e8b1ec1e769d4371389a73e4e1beeedec57d438562f8",
+    "records": 1262
+  },
+  "results": {
+    "criterion": "For an actual sliced four-ring, EX nonzero, E^2X=0, and a nonzero nice LND P fixing X and commuting with E, the additional E-invariance of PY,PZ,PW yields an E-invariant ambient coordinate. Primitive division, constant-linear invariant descent and a polynomial Bezout inverse establish an auxiliary slice before applying the precise three-variable triangularization and regular-kernel endpoints.",
+    "application": "In the supplied actual full weight-four chart, q_t=0, q_rhorho nonzero and evaluated R identically zero force all three projected entries affine. The actual P=aN-(NX)E then satisfies the criterion, including coefficient invariance. This recognizes the specified zero-R branches for the swapped pivot of Z^2-X^2W and the original pivot of ZW-X^4.",
+    "boundaries": "Niceness, commutation and the original slice alone do not imply coefficient invariance; an actual exact1122 height-two fixture separates them. Nonunit content is allowed and removed only by justified primitive division. The proof does not assume that the original slice lies in the auxiliary kernel.",
+    "remaining_scope": "R=0 and the stated coefficient hypotheses remain inputs of this packet. Nonzero-R branches, arbitrary coordinate entry and unrestricted cancellation remain unproved. Separate206 classification and eliminant work are not included."
+  },
+  "goal_audit": {
+    "current_progress": "A precise commuting-pair recognition criterion closes the actual-coordinate gate left in204 under its verified coefficient invariance. A second note proves the generalized conditional zero-R application. One three-method exact-algebra suite supplements these written arguments.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/nice-commuting-invariant-coefficients-recognition-pass205-working.md",
+      "sha256": "6abbe808927df21816a666ae4c3dd76b1788894d83864368b5d9f0c0e5f70dab",
+      "bytes": 12489,
+      "lines": 314,
+      "equations": 19,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-t-independent-zero-r-recognition-pass205-working.md",
+      "sha256": "528442663ceb953a73d8990087a5a2409e8e74a70a6b474665162aacd248dfe3",
+      "bytes": 9661,
+      "lines": 278,
+      "equations": 18,
+      "test_methods": 0
+    },
+    {
+      "path": "research/nice_commuting_zero_r_controls_pass205.py",
+      "sha256": "baf8368d2c6dc84d8eb2cc0c15490c2cdea1894a2252ab48b08316ab966f178e",
+      "bytes": 10307,
+      "lines": 214,
+      "equations": 0,
+      "test_methods": 3
+    }
+  ],
+  "canonical_executions": [
+    {
+      "suite": "nice_commuting_zero_R_controls205",
+      "path": "research/nice_commuting_zero_r_controls_pass205.py",
+      "pre_execution_read": "Author complete6b38c7; Root complete161d52.",
+      "initial_output": "0f0973",
+      "session_id": null,
+      "terminal_output": "0f0973",
+      "methods": 3,
+      "unittest_seconds": 0.220,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "completion_via_original_handle": false,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/nice_commuting_zero_r_controls_pass205.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "login": false,
+      "initial_yield_time_ms": 1000,
+      "initial_max_output_tokens": 6000
+    }
+  ],
+  "tagged_equations": 37,
+  "total_new_test_methods": 3,
+  "reviews": {
+    "criterion": "Geometry author full6e7131/metadata491656; Root fullb52212; General full8ad568; Jet completefdb969, exact hash94c2f5. Primitive division, the constant-row descent, coprime-dependent/comaximal argument, both Bezout inverse orders, and each original-ring theorem hypothesis reconstruct cleanly at6abbe808.",
+    "application": "Geometry author fulld63837/metadata2cd043; Root full2021b7; General fullc393fb; Jet complete8140aa, exact hash94c2f5. The q_rhorhorho and q_rhorhorhorho terms, nonzero quadratic w coefficient, full-line affine gate, and actual invariant P-coefficients reconstruct cleanly at52844266.",
+    "checker": "Author complete6b38c7 and Root complete161d52 preceded the sole execution. Jet completeae6ee4/hashbcd1db is a post-canonical source-only review, not a pre-run review. It independently reconstructs the staged X1 residual (y_t+theta_rho)N(third potential), with ell derivatives held fixed until after N differentiation, plus the Bezout and actual boundary controls.",
+    "metadata": "Read-onlyc4f72a confirms the three source hashes, byte/line counts,37 tagged equations,three methods and both frozen204 hashes. Historical source statements about author execution are unchanged; canonical execution is recorded here."
+  },
+  "proof_dependencies": {
+    "retained": [
+      "research/weight-four-radical-pivot-zero-r-nice-derivation-pass204-working.md",
+      "research/weight-four-universal-chart-potentials-pass184-working.md",
+      "research/two-linear-two-quadratic-initial-bound-pass157-working.md"
+    ],
+    "scope": "Retained actual-chart mechanisms. No earlier canonical run or separate206 artifact is counted."
+  },
+  "external_dependencies": {
+    "DG": "Dasgupta--Gupta Lemma2.3(ii) and Theorem3.6: irreducible nice derivations over an invariant UFD two-variable base and a PID three-variable base, respectively.",
+    "Daigle": "Daigle Theorem5.1 as stated precisely in Dasgupta--Gupta Theorem4.8: an irreducible LND on a characteristic-zero polynomial three-ring with a nonfixed coordinate of derivation-degree one admits the required triangular coordinate system.",
+    "BGL": "Bhatwadekar--Gupta--Lokhande Theorem3.5: a nonzero LND on a polynomial four-ring annihilating an ambient coordinate has polynomial kernel when that kernel is regular.",
+    "primary_urls": [
+      "https://arxiv.org/pdf/1701.03635v1",
+      "https://arxiv.org/html/1501.01438v1"
+    ],
+    "fresh_reads": "Root4298view0 confirms DG2.3/3.6,4300view0 confirms the exact Daigle4.8 restatement, and4300view1 confirms BGL3.5. Jet independently read4303view0/4304view0 and4304view1. Original Daigle5.1 search-index excerpt4301search12 matched, but directopen4302view0 failed; no complete original-paper access is claimed.",
+    "applicability": "The auxiliary slice and actual three-ring presentation precede Daigle. Its invariant coordinate extends through the explicit Bezout inverse to the original four-ring before BGL; the original global slice supplies regularity.",
+    "novelty_audit": false
+  },
+  "finite_control_scope": "Three finite methods check Bezout identities, actual hypothesis boundaries and undivided chart coefficients for q=rho^2 and q=1/rho. They do not prove comaximality, field descent, arbitrary local nilpotence or published recognition theorems.",
+  "next_bounded_task": "Analyze the nonzero-R branches and actual invariant-coordinate entry without assuming the coefficient-invariance criterion automatically applies. Separate206 work remains outside this packet; do not rerun205."
+}

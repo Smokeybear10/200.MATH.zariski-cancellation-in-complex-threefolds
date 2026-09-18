@@ -1,0 +1,102 @@
+{
+  "pass": 138,
+  "status": "all_degree_nonlinear_conical_rank_two_exclusion_in_working_proofs; unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3]. Professor's intended field, dimension and corrected statement remain unconfirmed.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass137-working.json",
+    "sha256": "44f988a7b960a03ce56225c12350b3d01fa702e770eacb494685b025be0cce48",
+    "records": 901
+  },
+  "chain_record_count_after_including_this_checkpoint": 908,
+  "record_count_convention": "901 prior records plus four mathematical notes, one new checker, verification138 and this checkpoint. Live indexes are excluded.",
+  "artifacts": [
+    {
+      "path": "research/all-degree-conical-chart-pass138-working.md",
+      "sha256": "7a62170c1af75eaf4c81c7ef7819c90475c58c054f9cea65a81b18ae005c64e4",
+      "bytes": 13327,
+      "lines": 326,
+      "equations": 12
+    },
+    {
+      "path": "research/weighted-coefficient-polynomiality-pass138.md",
+      "sha256": "c985e815c86be2d24b6821a34612e5ebe30dd6109aaeb399c9e2ea17d6685391",
+      "bytes": 8844,
+      "lines": 216,
+      "equations": 7
+    },
+    {
+      "path": "research/all-degree-conical-exclusion-pass138-working.md",
+      "sha256": "e7e1827a98c4aee423f6f58c7103bd7178b2f109f46c446a9dcbea5e8b55676a",
+      "bytes": 10735,
+      "lines": 249,
+      "equations": 11
+    },
+    {
+      "path": "research/higher-degree-no-slice-boundary-pass138.md",
+      "sha256": "983ad305d714717d5eecac1640ed95e64f1d6ab1151d09bb8e04eb29a632d806",
+      "bytes": 4150,
+      "lines": 113,
+      "equations": 5
+    },
+    {
+      "path": "research/all_degree_conical_controls_pass138.py",
+      "sha256": "452e85b90ffdfe293aaff7c49c31a1701135849226584bbc2d09c9953c46ceda",
+      "bytes": 7940,
+      "lines": 160,
+      "test_methods": 3
+    },
+    {
+      "path": "research/verification-pass138-working.json",
+      "sha256": "118fd6fda3971c4e4d761a077d79e6c3d093ee8c569ae7ff4fdbca12d63b892d",
+      "bytes": 8117,
+      "lines": 136
+    }
+  ],
+  "results": [
+    "The speed-based Cramer tangent identity extends to arbitrary last-coordinate degree because the selected cofactors do not depend on the last Jacobian row.",
+    "Descending actual X coefficients gives each w_j polynomial in y before assuming y generates the generic line. The whole-line equality then proves y_v is in L* and the normalized polynomial PDE has right side1/y_v.",
+    "A separate weighted differential-field lemma forces all PDE coefficients into K[kappa] without assuming L=K(kappa). Maximum (2,1)-weight bounds ordinary degree, giving an intermediate monic W relation of degree at most2ell.",
+    "General exact monic-pencil descent136 and the slice-dependent invariant-coordinate obstruction exclude every supplied nonlinear conical rank-two three-good frame, with no last-degree bound.",
+    "An actual elementary-shear family realizes the same nonlinear cone at every last degree ell>=3 after omitting the slice. Its derivative ideal is the proper ideal(xi), its kernel is polynomial, and it is not a cancellation counterexample."
+  ],
+  "proof_review_scope": "Root and independent AI agents reconstructed the new actual chart, weighted lemma, exclusion synthesis and explicit boundary. The selected135 and general136 proof inputs were read for their full relevant arguments. The exact primary field-rationality and nice-three-variable linear-invariant statements were freshly checked. This is not human review, proof-assistant verification, or a new audit of every source proof.",
+  "verification": {
+    "capture": "research/verification-pass138-working.json",
+    "execution": "0caa47",
+    "state": "completed_in_initial_call",
+    "exit_code": 0,
+    "test_methods": 3,
+    "formal_methods": 2,
+    "actual_boundary_methods": 1,
+    "reported_seconds": 0.403,
+    "all_methods_new": true,
+    "scope": "Finite raw determinant/chain-rule and weighted-index controls, plus both polynomial inverse orders and derivative checks in three actual nonsliced examples. Not universal theorem verification."
+  },
+  "remaining_gaps": [
+    "Handle higher-last-degree supplied three-good frames whose good speeds have no homogeneous relation. The conical argument does not cover this dense case.",
+    "Prove a sufficient coordinate-entry theorem for an arbitrary sliced polynomial fourfold instead of assuming a three-good frame.",
+    "Unrestricted corrected cancellation, professor-intent confirmation, human expert review, proof-assistant verification and historical novelty determination."
+  ],
+  "next_bounded_task": "Derive the actual dense-speed higher-degree chart and the coefficient recurrence in two independent speed ratios. Audit formal Taylor peeling over the exact finite algebraic coefficient field, retain the negative-power compatibility equations, and distinguish generic polynomial-graph results from global coordinate descent.",
+  "goal_audit": {
+    "previous_goal_turn": "No-progress user status check.",
+    "this_goal_turn": "Progress: all-degree conical extension and new exact verification.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "goal_status_to_preserve": "active"
+  },
+  "boundaries": {
+    "unrestricted_cancellation_solved": false,
+    "all_supplied_three_good_frames_recognized": false,
+    "arbitrary_three_good_entry_proved": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_cleared": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_files_intentionally_edited": false
+  },
+  "live_indexes": ["README.md", "research-ledger.md"]
+}

@@ -1,0 +1,29 @@
+{
+  "started_at_utc": "2026-09-14T17:51:04.316Z",
+  "finished_at_utc": "2026-09-14T17:51:04.748Z",
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.quadratic_zero_normal_checks_pass98"
+  ],
+  "exit_code": 0,
+  "suites": 1,
+  "test_methods": 1,
+  "wall_seconds": 0.426175125,
+  "unittest_seconds": 0.04,
+  "input_files": [
+    {
+      "path": "research/quadratic_zero_normal_checks_pass98.py",
+      "sha256": "c0c4ee3a08622841b33793e03184caef38bf3532a89eb059c76b8a2b050fbdf0"
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "stdout": "",
+  "stderr": "test_weighted_rows_charts_and_intrinsic_square_boundary (research.quadratic_zero_normal_checks_pass98.QuadraticZeroNormalChecks.test_weighted_rows_charts_and_intrinsic_square_boundary) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.040s\n\nOK\n",
+  "output_hash_convention": "stdout + one newline + stderr",
+  "complete_output_sha256": "524f92347b1bacfb4480aad2643b8bb854a2b9e4aa06de65cd885ed202a2d868",
+  "all_passed": true,
+  "scope": "One finite symbolic method: weighted quadratic-row identities, a cubic-row negative, a vanishing-p chart, and an intrinsic polynomial LND control. Not verification of the all-point length argument, original-frame geometry, recognition, or cancellation."
+}

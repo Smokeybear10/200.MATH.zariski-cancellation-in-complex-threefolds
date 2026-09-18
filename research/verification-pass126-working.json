@@ -1,0 +1,40 @@
+{
+  "status": "six targeted exact controls passed; universal conclusions depend on written proofs and cited theorems",
+  "working_directory": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+  "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.three_good_cofactor_checks_pass126 research.three_good_controls_pass125 -v",
+  "execution_output_id": "712098",
+  "exit_code": 0,
+  "tool_wall_time_seconds": 0.558698541,
+  "unittest_reported_seconds": 0.351,
+  "suites": 2,
+  "methods": 6,
+  "new_methods": 3,
+  "retained_methods": 3,
+  "before_hash_output_id": "b3f33d",
+  "after_hash_output_id": "1a3ec0",
+  "inputs_before_and_after": {
+    "research/three_good_cofactor_checks_pass126.py": "ecd8d7952a0c29e3e23d28abcbe748fb7f301c8ca9e69ceb9cb048762b58710b",
+    "research/three_good_controls_pass125.py": "bd4ed1a8d89cdb472349959fef06ab66f4c95ee93b6d5723667f05856ee4ac53"
+  },
+  "new_control_scope": [
+    "An actual two-sided inverse frame: all original partials, pairwise brackets, exact intrinsic shifts and common leading kernels, height ten, and inverse-flow-Jacobian orientation",
+    "A separate actual rank-one speed frame: two-sided inverse, selected partial and vanishing quadratic/cubic good-row cofactor coefficients",
+    "An actual variable-acceleration joint-curve frame: both inverse identities, polynomial flow, determinant/content identities, commuting commutator, vanishing second iterates on all three good coordinates, and nonzero last-coordinate second iterate Q squared W equals two"
+  ],
+  "retained_control_scope": [
+    "The three methods in125: actual proper-speed-ideal slice control; positive-shift family for last degrees two, three and five; square-zero inverse and bare ideal nonmembership boundary"
+  ],
+  "superseded_runs": [
+    {"execution_output_id": "108dcd", "methods": 5, "unittest_reported_seconds": 0.311, "status": "passed before third method was added; not additive coverage"},
+    {"execution_output_id": "2ead00", "methods": 6, "unittest_reported_seconds": 0.350, "status": "passed before three final boundary assertions; superseded, not additive coverage"}
+  ],
+  "not_verified_by_this_run": [
+    "Universal cofactor bounds, common-kernel statements or nonunit speed-curve recognition",
+    "The original Wang, Bhatwadekar-Gupta-Lokhande, de Bondt or Kaliman-Saveliev theorem proofs",
+    "The retained all-profile height-ten recognition proof",
+    "The unit-speed affine-modification frontier or freeness of the extracted intrinsic action",
+    "Unrestricted coordinate entry or cancellation",
+    "Historical novelty, human expert review, or Lean/formal verification"
+  ],
+  "capture_limitation": "The execution output is retained by its tool-output identifier; no complete-output checksum is claimed."
+}

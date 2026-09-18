@@ -1,0 +1,34 @@
+{
+  "started_at_utc": "2026-09-14T15:03:57.191Z",
+  "finished_at_utc": "2026-09-14T15:03:58.167Z",
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.ramification_gluing_controls_pass93",
+    "research.double_fiber_normal_order_checks_pass93"
+  ],
+  "exit_code": 0,
+  "suites": 2,
+  "test_methods": 3,
+  "wall_seconds": 0.969877917,
+  "unittest_seconds": 0.563,
+  "input_files": [
+    {
+      "path": "research/ramification_gluing_controls_pass93.py",
+      "sha256": "17666b2e2d45c700b807b1a00b22905abd845f177ffa6bd20eb7bb346d919103"
+    },
+    {
+      "path": "research/double_fiber_normal_order_checks_pass93.py",
+      "sha256": "e32e008becbde154378f2345d2de6ea8ee4af80a0e7ae9b7d332f6c320bf74de"
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "stdout": "",
+  "stderr": "test_finite_curve_multiplication_and_nonreduced_glued_fibers (research.ramification_gluing_controls_pass93.RamificationGluingControls.test_finite_curve_multiplication_and_nonreduced_glued_fibers) ... ok\ntest_full_lattices_weighted_columns_and_actual_point_support (research.ramification_gluing_controls_pass93.RamificationGluingControls.test_full_lattices_weighted_columns_and_actual_point_support) ... ok\ntest_third_derivative_identity_and_wrong_coefficient (research.double_fiber_normal_order_checks_pass93.DoubleFiberNormalOrderChecks.test_third_derivative_identity_and_wrong_coefficient) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.563s\n\nOK\n",
+  "output_hash_convention": "stdout + one newline + stderr",
+  "complete_output_sha256": "621e8d6cf6b3a71b9839656c468bad837b7d08ad0292cab3994f6320fbffbae6",
+  "all_passed": true,
+  "scope": "Finite support-lattice and curve-ring controls plus a symbolic normal-order identity; not a verifier of universal geometry or cancellation."
+}

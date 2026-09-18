@@ -1,0 +1,147 @@
+{
+  "pass": 133,
+  "status": "nineteen_targeted_exact_methods_and_final_finite_search_passed",
+  "working_directory": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+  "execution_owner": "Root",
+  "unittest": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.weighted_subduction_controls_pass133 research.commuting_good_quadratic_controls_pass133 research.three_good_unit_row_and_two_shear_checks_pass132 research.three_good_primitive_profile_orbit_checks_pass131 research.three_good_mixed_cubic_gate_checks_pass130 -v",
+    "initial_execution": "fc527b",
+    "completion": "62afcf",
+    "session_id": 13672,
+    "session_state": "completed",
+    "exit_code": 0,
+    "test_methods": 19,
+    "new_methods": 6,
+    "retained_methods": 13,
+    "unittest_reported_seconds": 1.426,
+    "inputs": [
+      {
+        "path": "research/weighted_subduction_controls_pass133.py",
+        "sha256": "b14ac236eead1230c37f5c7b8aee599e96d9e47cdbaa8efc4dc8a8bf36479ca0",
+        "methods": 3,
+        "root_complete_source_read": "11f538",
+        "author_complete_source_read": "b77551"
+      },
+      {
+        "path": "research/commuting_good_quadratic_controls_pass133.py",
+        "sha256": "bd7f855d7cd4dca112f14554c7b1cd5cb1a05d53e4b8f1580b191ced0a5f36d7",
+        "methods": 3,
+        "root_complete_source_read": "3dc788",
+        "author_complete_source_read": "e9bcf1",
+        "general_source_only_review": "7fd8b5"
+      },
+      {
+        "path": "research/three_good_unit_row_and_two_shear_checks_pass132.py",
+        "sha256": "374d2f6cb2dfb39134e8f6f799e17774eb77297081ede1725f4a27d7e2bbfd53",
+        "methods": 6,
+        "scope": "Frozen retained source, full prior review recorded in checkpoint132."
+      },
+      {
+        "path": "research/three_good_primitive_profile_orbit_checks_pass131.py",
+        "sha256": "c6a47aa0ecf201b073b48625ef5717856aa5cba1ca5238ec52322b87503abe1e",
+        "methods": 3,
+        "scope": "Frozen retained source, full prior review recorded in checkpoint131."
+      },
+      {
+        "path": "research/three_good_mixed_cubic_gate_checks_pass130.py",
+        "sha256": "0a04163d0f80a226343dfb8e2ff4477c0c3c5858245d2d471392eb510162b058",
+        "methods": 4,
+        "scope": "Frozen retained source, full prior review recorded in checkpoint130."
+      }
+    ],
+    "before_hash_evidence": "fc527b",
+    "after_hash_evidence": "793875",
+    "new_coverage": [
+      "Three commuting-direction methods: generic quadratic correction and finite multiplier family h0+h1*V+h2*K, both inverse orders, Hessian identity, actual commuting partial; sliced and dense nonfree examples; constant-direction covariance.",
+      "Three original-weight methods: retained129 frame and both inverses, actual selected partial; sharp powers v^k and strict powers a^k for k=1,...,4; exact relation multiplicities and iterated derivatives in both coordinate systems; changed-generator weight caveat."
+    ]
+  },
+  "search": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python research/primitive-gate-search-pass133.py --seconds 20 --max-words 1296 --term-cap 10000",
+    "sha256": "192bb828fbe777bcbce7e4a0f9c4cdab0775d236e338db9728cdf03ad5d08424",
+    "source_review": "Root complete original source51c93e and51fad6; final three-line theorem-conflict delta11f538.",
+    "initial_execution": "0e5c1b",
+    "completion": "793875",
+    "session_id": 73033,
+    "session_state": "completed",
+    "exit_code": 0,
+    "attempted_words": 1296,
+    "attempted_words_changing_X": 648,
+    "inverse_verified_both_orders": 1296,
+    "unique_endpoints": 507,
+    "counts": {
+      "duplicate": 789,
+      "profile_rejected": 457,
+      "quadratic_span_rejected": 50
+    },
+    "per_seed_counts": {
+      "nonprimitive132": {
+        "duplicate": 263,
+        "profile_rejected": 144,
+        "quadratic_span_rejected": 25
+      },
+      "quadratic_translation": {
+        "duplicate": 263,
+        "profile_rejected": 169
+      },
+      "retained77_quadratic_bad_shear": {
+        "duplicate": 263,
+        "profile_rejected": 144,
+        "quadratic_span_rejected": 25
+      }
+    },
+    "seed_inverse_orders_verified": [
+      "nonprimitive132",
+      "quadratic_translation",
+      "retained77_quadratic_bad_shear"
+    ],
+    "elapsed_script_seconds": 4.151355916168541,
+    "stop_reason": "exhausted_family",
+    "cutoffs": 0,
+    "findings": [],
+    "coverage_limit": "No primitive endpoint reached either correction in this finite family. The search therefore does not runtime-test the correction branches by itself. It proves no absence theorem.",
+    "theorem_conflict_delta": "After dichotomy133 was proved in the working derivation, a missing leading relation after actual/dense/rank-two/nonquadratic filters now raises an assertion instead of being counted as an ordinary rejection. This sentinel was not entered."
+  },
+  "implementation_smoke": {
+    "initial_execution": "0e5c1b",
+    "completion": "793875",
+    "same_completed_session": 73033,
+    "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python - <<'PY'\nimport runpy\nimport sympy as s\nn=runpy.run_path('research/primitive-gate-search-pass133.py')\na,b,v,u=[n[k] for k in ('a','b','v','u')]\nframe=[u,b+a*u,-a-b**3/s.Integer(2)+v*u,v+s.Rational(3,2)*b**2*a+s.Rational(3,2)*b*a**2*u+a**3*u**2/s.Integer(2)]\nfor label, target in [('primitive_normal_form',frame),('quadratic_bad_shear',frame[:3]+[frame[3]+frame[1]**2+2*frame[0]*frame[2]+3*frame[1]+5])]:\n    status,data=n['probe']([n['polynomial'](f) for f in target])\n    assert status=='both_gates_pass', (label,status,data)\n    assert s.expand(s.sympify(data['invariant'])-a)==0, data\n    print(label,status,data)\nassert n['solve_span']([a,b],a*b) is None\nprint('inconsistent_exact_span_rejected')\nPY",
+    "checks": [
+      "Known primitive normal form passes both corrections and recovers invariant a.",
+      "Its quadratic bad shear passes both corrections, with sigma=6*a, G2=3*g0*g1, G1=5*g0+g2 and invariant a.",
+      "Exact span solver rejects target a*b in span(a,b)."
+    ],
+    "scope": "These intentionally call search internals to smoke-test the implementation. They are not an independent theorem checker, and do not test an actual primitive correction-failure branch."
+  },
+  "earlier_root_executions": [
+    {
+      "kind": "finite_search_before_sentinel_change",
+      "initial": "19a3dc",
+      "completion": "eb8c52",
+      "session_id": 30470,
+      "exit_code": 0,
+      "sha256": "cfa8b9876fce3be464e8093d73fffe550048ddc7a768be4a9263ee8e1ec96888",
+      "elapsed_script_seconds": 4.189722041832283,
+      "counts": "Same final counts and no cutoffs."
+    },
+    {
+      "kind": "smoke_before_sentinel_change",
+      "evidence": "3dfe11",
+      "exit_code": 0,
+      "scope": "Same two successful fixtures and one inconsistent span."
+    },
+    {
+      "kind": "sixteen_method_intermediate_suite",
+      "initial": "3dc788",
+      "completion": "cab690",
+      "session_id": 13865,
+      "exit_code": 0,
+      "methods": 16,
+      "unittest_reported_seconds": 1.086,
+      "scope": "Commuting controls plus13 retained methods, before adding the weighted controls."
+    }
+  ],
+  "timing_scope": "Recorded script and unittest times are observations, not deterministic mathematical outputs or total research effort.",
+  "limits": "Finite exact examples only. The written multiplicity and invariant-growth proofs, not these tests, support the universal leading dichotomy. No full historical suite, proof-assistant verification, human expert review, novelty clearance, or solution of unrestricted cancellation is claimed."
+}

@@ -1,0 +1,99 @@
+{
+  "pass": 197,
+  "status": "restricted_full_square_root_monomial_nonzero_R_recognition; other_families_and_unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass196-working.json",
+    "sha256": "2a99718cb32f4ed6d7fe6f264661c2ac4608fad53a2a54a6800ae5fb23960c33",
+    "records": 1217
+  },
+  "results": {
+    "normalized_quadratic_projection": "Under a supplied actual global-slice exact1122 frame with full initial kernel (Z^2-X^3Y), q^2=t, the normalized f=q quadratic-projection branch has B=C[X,y,z,q]. The scalar Jacobian forces g to be quadratic in q; exact field return removes its quadratic term and proves K=C(q). A polynomial inverse recovers q,y,z in the original ring, dividing only a nonzero complex constant and never X. The slice then forces EX in C*, and A=C[y,z,q] directly.",
+    "entire_monomial_branch": "Composing actual normalization196 and its graph exclusion with the new quadratic-projection inverse recognizes the full actual nonzero-R monomial family f=beta0*q, beta0 in C*. The selected partial_Z, N, coefficient fields, generic degrees, exact1122 profile and full initial kernel are preserved by the normalization. The graph alternative is excluded by196; the projection alternative is recognized and nonempty.",
+    "actual_examples": "The displayed forward formulas and both polynomial inverse orders give an actual family with E=partial_X, exact1122 and entire initial kernel (Z^2-X^3Y). The selected N and scalar determinant are calculated. Fullness of the initial kernel follows from an explicit height-one prime/irreducibility argument, not just a checked relation.",
+    "remaining_scope": "The nonmonomial family f=a*t+b*q with a nonzero, the different reciprocal family f=b/q, and two-root nonzero-R square alternatives remain unresolved here. No full positive bad quadratic rank classification, height-two result, higher-minimum-profile reduction, arbitrary coordinate-entry theorem or unrestricted cancellation solution is asserted. Separate198 is excluded."
+  },
+  "goal_audit": {
+    "prior_progress": "Frozen196 recognition/exclusion and its independent closure audit remain prior completed progress, not new197 results.",
+    "current_continuation": "The new197 original-ring inverse and actual examples complete recognition of the monomial nonzero-R branch after composing the retained graph exclusion. Root executed the single finite suite once; its original execution session completed normally, without a rerun.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Investigate the other actual square families with all lower-potential, scalar-Jacobian and exact-field gates. Separate198 work is not included in this packet.",
+  "artifacts": [
+    {
+      "path": "research/weight-four-normalized-square-root-quadratic-projection-recognition-pass197-working.md",
+      "sha256": "c9a6d6a0d6366d3969bbd32d571d160819b2bf52d499d2d4ca05893922618e25",
+      "bytes": 14409,
+      "lines": 404,
+      "equations": 26,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-square-root-monomial-frontier-synthesis-pass197-working.md",
+      "sha256": "509e8bfa601979e9b9baddae73f13014acc7004c3bbf880459e00a5e92781260",
+      "bytes": 5241,
+      "lines": 124,
+      "equations": 4,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight_four_square_root_quadratic_projection_controls_pass197.py",
+      "sha256": "a802bd55c810dd838ffce5c426b7b9b6c6cde16f2046247a6cb6731e975d05d8",
+      "bytes": 6343,
+      "lines": 137,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/verification-pass197-working.json",
+      "sha256": "3aa42322786eb6959ff6355e89472990f22b6e54ece349f6925e648761e7b396",
+      "bytes": 8209,
+      "lines": 114,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "chain_record_count_after_including_this_checkpoint": 1222,
+  "record_count_convention": "1217 frozen predecessor records plus two proof/synthesis notes, one checker source, verification197 and this checkpoint: five new records. README and ledger are not records. No198 source, result or run is counted.",
+  "verification": {
+    "capture": "research/verification-pass197-working.json",
+    "canonical_runs": [
+      {
+        "suite": "square_root_quadratic_projection197",
+        "path": "research/weight_four_square_root_quadratic_projection_controls_pass197.py",
+        "pre_execution_read": "Root8ca204; Jet48f013",
+        "initial_output": "28af83",
+        "execution_session_id": 6608,
+        "terminal_output": "fa6bed",
+        "methods": 3,
+        "unittest_seconds": 3.11,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": false,
+        "pending_execution_handle": false,
+        "completion_via_original_handle": true,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/weight_four_square_root_quadratic_projection_controls_pass197.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "login": false,
+        "initial_yield_time_ms": 1000
+      }
+    ],
+    "new_suites": 1,
+    "new_methods": 3,
+    "tagged_equations": 30,
+    "scope": "The actual full monomial f=beta0*q nonzero-R branch is recognized under the supplied global-slice exact1122/full-kernel hypotheses. The original execution handle completed once. Other coefficient families and the general cancellation problem remain unresolved. AI source review and finite algebraic controls are not expert/formal/novelty certification."
+  }
+}

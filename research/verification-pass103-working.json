@@ -1,0 +1,29 @@
+{
+  "started_at_utc": "2026-09-14T19:22:03.720Z",
+  "finished_at_utc": "2026-09-14T19:22:04.485Z",
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.projected_derivation_thickening_checks_pass103"
+  ],
+  "exit_code": 0,
+  "suites": 1,
+  "test_methods": 2,
+  "wall_seconds": 0.7602045,
+  "unittest_seconds": 0.315,
+  "input_files": [
+    {
+      "path": "research/projected_derivation_thickening_checks_pass103.py",
+      "sha256": "54109f05d3c93bbb765d36fd7b31c33cc29c3de8cf25488fa762adc5f058361c"
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "stdout": "",
+  "stderr": "test_abstract_finite_thickenings_without_global_nilpotence (research.projected_derivation_thickening_checks_pass103.ProjectedDerivationThickeningChecks.test_abstract_finite_thickenings_without_global_nilpotence) ... ok\ntest_actual_three_good_frame_with_non_lnd_zeroth_coefficient (research.projected_derivation_thickening_checks_pass103.ProjectedDerivationThickeningChecks.test_actual_three_good_frame_with_non_lnd_zeroth_coefficient) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.315s\n\nOK\n",
+  "output_hash_convention": "stdout + one newline + stderr",
+  "complete_output_sha256": "6d0609e4536e1f80c17a9fb1a144f01b58ddf2b539c25e464ee6d5a20689c7bd",
+  "all_passed": true,
+  "scope": "Two finite symbolic controls: finite x-adic quotient flows and formal invariant inverses in an abstract non-LND example; actual three-good polynomial inverse frame, canonical field and projected non-LND iterates with no stable closed S-fiber. Not the universal adic lifting, all-degree cyclic-module proof, unknown original-frame realization, recognition, or cancellation."
+}

@@ -1,0 +1,135 @@
+{
+  "pass": 221,
+  "status": "nonsquare_binary_quartic_zero_return_excluded; supplied_squarefree_rank_two_sector_nonrealizable; remaining211_and31_branches_and_global_goal_open",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass220-working.json",
+    "sha256": "8a71ed83a291f0f35dbdc42ae86a9bcd180dc8ae10ae58757ea2aea0665c63ff",
+    "records": 1356
+  },
+  "results": {
+    "zero_return_obstruction": "For the actual full rank-two quartic chart q=f(t)/rho, zero return expresses theta as (rho f'/(2f))y-rho^3 k_rho/(2f). The complete third potential then has cubic coefficient J(f)/(24rho f^2), with J(f)=4f^2 f'''-6ff'f''+3(f')^3. If J(f) is nonzero, polynomial degree forces y and theta into L. The fourth potential has nonzero w^2 coefficient f/rho^3 and forces w into L; the second forces z into L, contradicting actual whole-line return. No projected normality or birationality is assumed in this step.",
+    "exact_square_classification": "For nonzero complex f of degree at most four, the root-order coefficient of J at a multiplicity-m finite root is c^3 m(m-2)(m-4). Odd multiplicities1 and3 are therefore impossible if J=0, forcing f to be a polynomial square. Conversely J(g^2)=8g^5 g''' vanishes for degree g at most two. Homogenization gives exactly the binary-quadratic squares, including even multiplicity at infinity and the constant case. Thus every nonsquare binary quartic has nonidentically zero return. This does not assert existence of a zero-return frame for either square partition.",
+    "actual_selected_pair_normalization": "For squarefree F4,220 now gives a whole projected line without an extra return hypothesis. Its leading direction comes from two distinct projective roots. The actual constant GL2 change X'=alpha X+beta Y,Y'=gamma X+delta Y fixes Z,W, preserves their literal selected partial and the entire initial ideal, and keeps exact1122 degrees. Complete projected transport gives y'=d y/l,theta'=theta/l-2rho beta y/l^2, with invertible pair matrix. It carries the chosen pair line to y=(t/rho)theta+nu and F4=XY(alpha0 Y^2+beta0 XY+gamma0 X^2), with alpha0,gamma0 nonzero complex constants. No coefficient-field linear combination is declared an original coordinate.",
+    "literal_auxiliary_profile": "For f=alpha0 t^3+beta0 t^2+gamma0 t, h=t/rho, the directional Taylor coefficients are H2(q;h,1)=alpha0 h^3 and H3(q;h,1)=0, and the normalized return has nonzero linear coefficient t(gamma0-alpha0 t^2)/rho^3. The full potentials therefore make w affine and z exactly quadratic in the affine parameter theta. The original polynomial auxiliary P=aN-(NX)E has exact coordinate degrees(0,1,2,1), with PY=tau h, PW=tau(X+lambda) and P^2Z=2alpha0 h^3 tau^2. These products are actual polynomials; their coefficient-field factors are not assumed regular.",
+    "Wang_and_Laurent_exclusion": "Primitive division and localization give an irreducible LND over C(X) with Y,W square-zero and Z exactly degree two. The ratio DW/DY=(X+lambda)/h is transcendental over C(X), proved using X independence and its leading Laurent coefficient, so Wang's first alternative is impossible. His second retains Y,W and has invariant coordinate Z+Q(Y,W). Exact derivative degree forces Q to have ordinary degree two. Its second derivative yields alpha0 h^3+A2(X)h^2+B2(X)h(X+lambda)+C2(X)(X+lambda)^2=0. A uniform leading Laurent comparison first bounds all adjusted orders by zero, then gives a nonzero complex cubic relation on the transcendental h, impossible. This is an actual derivation contradiction over C(X), not descent of its coordinate system to the original ring.",
+    "sector_conclusion_and_boundary": "No supplied actual globally sliced exact1122 frame with full initial kernel(ZW-F4(X,Y)) exists when F4 is squarefree. In the retained binary-quartic inventory,1111 is now excluded and22 was excluded in220;4 retains conditional recognition216. The nonsquare repeated partitions211 and31 retain projected-degree bounds two and three but are not resolved here. The normalized cubic-line argument does not use its discriminant inequality, but no broader partition theorem is promoted. Separate222 sources, executions and extensions are excluded. Arbitrary entry and unrestricted cancellation remain unresolved."
+  },
+  "goal_audit": {
+    "current_progress": "Two221 proofs exclude zero return for every nonsquare binary quartic and exclude the entire supplied squarefree rank-two sector by actual pair normalization and a Wang/Laurent contradiction. Five finite methods passed in one initially-terminal canonical execution. The remaining repeated partitions and the unrestricted goal remain open.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "actual_globally_sliced_exact1122_frame_required": true,
+    "entire_initial_kernel_required": true,
+    "zero_return_nonsquare_excluded": true,
+    "polynomial_degree_at_most_four_required_for_square_equivalence": true,
+    "projective_infinity_cases_included": true,
+    "zero_return_square_frame_existence_claim": false,
+    "nonzero_return_asserted_root_free": false,
+    "squarefree_whole_projected_line_proved": true,
+    "actual_GL2_pair_transport_proved": true,
+    "literal_selected_partial_preserved": true,
+    "full_initial_ideal_and_exact_profile_preserved": true,
+    "coefficient_field_rationality_assumed": false,
+    "coefficient_field_factors_assumed_regular": false,
+    "primitive_gcd_E_invariance_assumed": false,
+    "Wang_exact_two_alternatives_used": true,
+    "field_coordinate_lifted_to_original_ring": false,
+    "uniform_Laurent_argument_written_not_sampled": true,
+    "supplied_squarefree_sector_empty": true,
+    "all_nonsquare_quartic_sectors_excluded": false,
+    "partition211_or31_endpoint_proved_here": false,
+    "unit_speed_assumed": false,
+    "arbitrary_entry_proved": false,
+    "global_minimum_profile_claim": false,
+    "unrestricted_cancellation_proved": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/rank-two-nonsquare-quartic-zero-return-exclusion-pass221-working.md",
+      "sha256": "f139d89e9e2f0c1ada22f66b1ea105b26041c044025a89f85e76dc40347555e8",
+      "bytes": 7775,
+      "lines": 220,
+      "equations": 14,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rank-two-squarefree-quartic-line-exclusion-pass221-working.md",
+      "sha256": "d98de0ca794c6e851113ff19024a40acb58f2ebf20cc41ef28da8727d5566b11",
+      "bytes": 14147,
+      "lines": 368,
+      "equations": 22,
+      "test_methods": 0
+    },
+    {
+      "path": "research/binary_quartic_zero_return_line_controls_pass221.py",
+      "sha256": "19481b495180d3df5a280deb05e6b22a4adab847e47de1845808563d70b7dea0",
+      "bytes": 11045,
+      "lines": 228,
+      "equations": 0,
+      "test_methods": 5
+    }
+  ],
+  "canonical_executions": [
+    {
+      "suite": "binary_quartic_zero_return_line_controls221",
+      "path": "research/binary_quartic_zero_return_line_controls_pass221.py",
+      "pre_execution_read": "Jet complete final authorbcba20/metadata1877a3; Root complete saved preread7ad379 and unchanged hash19481b49...0b7dea0 rechecked immediately before execution. General's independent full peer read1cfbca was reported after the canonical completion and is not attributed as a pre-run review.",
+      "initial_output": "b74166",
+      "session_id": null,
+      "terminal_output": "b74166",
+      "methods": 5,
+      "unittest_seconds": 0.42,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "completion_via_original_handle": false,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/binary_quartic_zero_return_line_controls_pass221.py",
+      "preceding_read_only_hash_check_in_same_shell": true,
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "shell": "/bin/zsh",
+      "login": false,
+      "initial_yield_time_ms": 1000,
+      "initial_max_output_tokens": 5000,
+      "completion_note": "The same shell first performed a read-only shasum check, then the one Python command. Outputb74166 returned the five-test0.420s summary,OK and exit0 initially terminal. No session, poll or rerun."
+    }
+  ],
+  "tagged_equations": 36,
+  "total_new_test_methods": 5,
+  "reviews": {
+    "zero_return": "Root complete source886540; Geometry fullfa80fc/hash8c5023; General fullafbde5; Jet complete815281/hashab68c1. The exact cubic substitution, nonzero quadratic w coefficient, actual whole-line contradiction, differential square identity, local odd-root coefficient and projective infinity parity reconstruct. Root unsaved30f09a and Geometry unsavedad59dc9 are independent inline algebra, not saved-suite runs.",
+    "squarefree_line": "General final author1a193b+51252c; Root complete draft9a3717 then full final1c8bfe; Geometry complete552566+8f642d/hashd6924c; Jet complete2da9ca/hash204cc4. The final source added only three precision prose changes after the draft, with no numbered equation changed. Actual pair transport, preserved literal selected partial and exact profile, every directional coefficient, primitive localization, precise Wang hypotheses and both Laurent comparisons reconstruct.",
+    "checker": "Jet full final authorbcba20/metadata1877a3 and Root complete7ad379 were pre-run. General complete independent1cfbca confirms the same final SHA and all five methods; its clean report was received after canonical completion, so no pre-run timing is claimed. The standalone source imports only standard Python and SymPy, not retained checkers or solvers. All actual inverse orders, full projected corrections, symbolic local multiplicity and uniform common-scale leading-form controls reconstruct.",
+    "primary_statements": "Root fresh4360view0 and Jet fresh4365view0 lines358–383 confirm exact Dasgupta--Gupta Theorem4.1: its Wang restatement keeps the two square-zero coordinates in the second alternative. This is a primary statement/applicability check, not a claim to have read Wang's original paper. Primitive and transcendence arguments remain written proofs.",
+    "metadata_and_history": "Jet fresh metadata6f324a confirms three artifacts,36 tagged equations and five methods. Ledger full segmentfdc420 supplies final221 source peer references. Its older pending-checker text is historically superseded by Root's explicit b74166 completion report, not used to deny or duplicate the execution. General's fresh303b85 potential/GL2 computation and other unsaved work are not canonical saved-suite executions. No222 artifact or result is included."
+  },
+  "proof_dependencies": {
+    "retained": [
+      "research/weight-four-universal-chart-potentials-pass184-working.md",
+      "research/rank-two-binary-quartic-leading-sextic-pass220-working.md"
+    ],
+    "context_only": [
+      "research/mixed-quartic-line-nonrealizability-pass220-working.md",
+      "research/rank-two-initial-kernel-recognition-synthesis-pass216-working.md"
+    ],
+    "primary": [
+      "https://arxiv.org/html/1701.03635v1#S4.Thm1"
+    ],
+    "scope": "Actual field return, exact constants, full-kernel ratio independence and the published two-alternative LND theorem remain written inputs. The retained220 mixed exclusion and216 conditional recognition only describe the still-open partition inventory and are not new221 records."
+  },
+  "finite_control_scope": "Five methods check literal zero-return affine substitution and the complete cubic coefficient; the unrestricted square differential identity, symbolic local multiplicity factor and every root partition/infinity multiplicity fixture; general normalized cubic directional coefficients and auxiliary rows; both actual constant-GL2 inverse orders, projected intercept/linear/quadratic corrections and selected-pair transport; and uniform common-scale Laurent leading forms with symbolic exponents and a scalar-h boundary. They do not prove whole-line return, completeness of the root argument by fixtures, primitive LND facts, Wang's theorem, transcendence, the all-orders Laurent proof, arbitrary entry or cancellation.",
+  "next_bounded_task": "Study the actual degree-two and degree-three projected branches for repeated nonsquare partitions211 and31, or another explicitly bounded entry question. Preserve all supplied-frame hypotheses and keep separate222 work outside this packet. No221 rerun is authorized."
+}

@@ -1,0 +1,269 @@
+{
+  "pass": 110,
+  "status": "proved_conditional_collapsed_mixed_sector_exclusion_not_cancellation",
+  "working_target": "Unconfirmed intended complex-threefold cancellation: A[u] isomorphic to C^[4] implies A isomorphic to C^[3]. Literal emailed A^1 conclusion has a dimension mismatch for general r.",
+  "summary": "The proper residual second-image case in the supplied collapsed mixed quadratic sector with nonzero speed normal is excluded by an actual divided quartic, determinant index (b), adjugate annihilation and derivative-ideal contraction. Combined with107 full-Artin and108 unit-case exclusions, this closes that stated mixed sector. No smoothness or reducedness of B1's divisor is needed. Other fiber sectors and arbitrary-frame entry remain open.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass108-working.json",
+    "sha256": "7a25a9be481e320305fdbf174665f3f67874e7bc39457ab71cfab537d2d1b029",
+    "frozen_records": 673,
+    "full_revalidation_evidence": "ca1ba0",
+    "all_unchanged": true,
+    "preceding_goal_turn": "no_progress: user status check-in read109 proof and passed five retained checks; no changed research artifact or new mathematical result.",
+    "consolidation": "No109 checkpoint was created. Five saved109 artifacts and five110 artifacts are finalized together in this checkpoint."
+  },
+  "chain_record_count_after_including_this_checkpoint": 684,
+  "record_count_convention": "673 predecessor frozen records + ten current artifact hash records + this checkpoint = 684. README and research-ledger remain live and excluded. Repeated executions/reviews are not extra coverage.",
+  "canonical_verification": {
+    "path": "research/verification-pass110-working.json",
+    "tool_evidence": "1df637",
+    "suites": 4,
+    "test_methods": 8,
+    "new_methods": 3,
+    "retained_methods": 5,
+    "elapsed_seconds": 4.356164083,
+    "unittest_seconds": 3.499,
+    "complete_output_sha256": "5693696c3e4a06b25055275461919caf41338897a4d4c1f502bfc91bc945551b",
+    "all_passed": true,
+    "scope": "New singular coefficient and ideal controls, general-shear derivative, divided-W conic/determinant and unit-absorption identities; retained109 determinant and strong-nilpotence control,108 conic/row checks, and107 divisor checks. Does not verify actual flatness, division, all-divisor descent, purity, full-sector hypothesis reduction, frame existence or cancellation."
+  },
+  "author_executions": [
+    {
+      "author": "Jet",
+      "command": "/opt/anaconda3/bin/python research/mixed_singular_coefficient_checks_pass110.py",
+      "evidence": "fddfd0",
+      "methods": 3,
+      "unittest_seconds": 0.404,
+      "tool_wall_seconds": 1.532808166,
+      "exit_code": 0,
+      "earlier_execution": "b5d1fd passed before stronger-ideal and unit-absorption assertions were added; not additional coverage."
+    },
+    {
+      "author": "Jet",
+      "command": "/opt/anaconda3/bin/python research/mixed_divisor_determinant_checks_pass109.py",
+      "evidence": "06be08",
+      "methods": 2,
+      "unittest_seconds": 0.206,
+      "tool_wall_seconds": 0.464468083,
+      "exit_code": 0
+    }
+  ],
+  "historical_full_verification": {
+    "path": "research/verification-pass75-working.json",
+    "suites": 146,
+    "methods": 1047,
+    "claim_registry_count": 544,
+    "rerun_this_pass": false,
+    "revalidation": "ca1ba0 checked hashes and retained counts, not a full execution."
+  },
+  "sources": [
+    {
+      "url": "https://stacks.math.columbia.edu/tag/058G",
+      "use": "Finite-free colimit input to residue-basis purity.",
+      "root_evidence": "turn3664view0",
+      "scope": "Complete displayed statement and proof; deeper foundations not all rebuilt."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/058C",
+      "use": "Finite factorization and directed free-colimit construction.",
+      "root_evidence": "turn3664view1",
+      "scope": "Complete selected section's displayed statements and proofs."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/00HP",
+      "use": "Faithful flatness from nonzero closed fiber of a flat local map.",
+      "root_evidence": "turn3665view0",
+      "scope": "Complete displayed statement and proof."
+    },
+    {
+      "url": "https://arxiv.org/html/1601.00579v4",
+      "use": "Strong nilpotence versus constant similarity,109 obstruction's source gate.",
+      "root_evidence": "turn3665view1",
+      "scope": "Complete displayed Proposition1.3 criterion and proof; not a whole-paper audit."
+    }
+  ],
+  "proof_limits": [
+    "The actual three-good constant-acceleration ambient coordinate frame is supplied, not obtained from an arbitrary cancellation input.",
+    "The exclusion is the collapsed mixed multiplicity-(2,1) quadratic sector with nonzero speed normal.",
+    "Exact height-one divisor models and the nonzero whole residue of Nc are substantial retained actual-frame inputs.",
+    "The transition determinant is a unit times b, not a unit; only bF4 contained in M follows by adjugate.",
+    "No claim F4/M is cyclic, no purity of whole F2/F3/F4, and no F4 algebra-generation assertion is used.",
+    "The sharp-ideal coefficient control is not an actual algebra realization and fails the stronger necessary contraction.",
+    "The109 smooth exclusions are subsumed by110, not open branches or necessary inputs to its nonsmooth proof.",
+    "The109 strong-nilpotence obstruction rules out constant/affine triangularization only; the example already has a nonlinear polynomial inverse.",
+    "Finite checks do not prove flatness, actual divisibility, universal divisor classification, purity, source-frame existence or cancellation.",
+    "Whole-double, zero-normal, relative cubic, global recognition and arbitrary-frame entry remain unresolved.",
+    "Separate AI reconstructions are not human review, Lean verification, or novelty clearance."
+  ],
+  "draft_corrections": [
+    "A stray formatting plus in110's scope paragraph was removed before final independent EOF audits; generic integration coefficients renamed g0,g1,g2 to avoid collision with A0,A1.",
+    "The general divided-W proof replaced the provisional smooth/node extension: it needs neither a shear nor a normal/reduced quotient.",
+    "The intermediate smooth-b order observation is subsumed by the sharper ideal J=(h)+m(a)+m²(b) and is not an extra open task.",
+    "The110 coefficient note explicitly records failure of the stronger required ideal and does not leave its tuple as a viable actual-frame candidate.",
+    "Pre-creation integrity58cc47 had exactly three pending checkpoint links; post-creation fef599 resolved all877 checked local Markdown links."
+  ],
+  "proof_reviews": [
+    {
+      "reviewer": "Root",
+      "scope": "Complete saved109 notes/checker; complete110 proof/control/checker/synthesis and exact sharp, purity and divisor inputs; selected primary proofs and canonical affected run.",
+      "evidence": [
+        "979d2d",
+        "125640",
+        "194121",
+        "7accfa",
+        "1e63d6",
+        "264b7a",
+        "1c6e4e",
+        "279312",
+        "ef5f82",
+        "352e6b",
+        "7ddd7a",
+        "04580c"
+      ],
+      "canonical_evidence": "1df637"
+    },
+    {
+      "reviewer": "Geometry",
+      "scope": "Full saved nine-equation110 proof, actual division, determinant/adjugate, every ideal term, both contraction routes and nonreduced ending; fresh retained divisor/noncollapse/purity inputs. Complete synthesis, top README/ledger, and capture/hash/count audit.",
+      "evidence": [
+        "e06b96",
+        "d7b8c3",
+        "588ba6",
+        "566687",
+        "b1d65c",
+        "e92010",
+        "14afe5",
+        "b8e02a",
+        "d86236",
+        "61d07b",
+        "a918d2",
+        "9fa38b"
+      ],
+      "execution": false
+    },
+    {
+      "reviewer": "General",
+      "scope": "Full saved110 proof and retained sharp/divisor/slice/action/purity inputs; full current control note and code review. No new global reduction survived bounded source audit.",
+      "evidence": [
+        "b8877a",
+        "86e067",
+        "ca1440",
+        "695fc7",
+        "4f6f23",
+        "5812d6"
+      ],
+      "execution": false
+    },
+    {
+      "reviewer": "Jet",
+      "scope": "Full saved nine-equation110 exclusion and own eight-equation control/three-method checker; final linked-status/provenance delta.",
+      "evidence": [
+        "3883c6",
+        "53c19d",
+        "94adea",
+        "6a756f",
+        "6255a9"
+      ],
+      "author_execution": "fddfd0"
+    }
+  ],
+  "next_bounded_tasks": [
+    "Move the local lane to the whole-double sector: derive its actual residue-degree module and determine whether an index-ideal contraction exists without independence of 1,G,G². Do not carry over the mixed sharp ideal.",
+    "Audit the zero-speed-normal sector separately; the nonzero Nc input used in110 must be proved rather than inferred there.",
+    "Maintain a global lane for one actual ambient coordinate f with E²f=0 and a certified inverse, or an independent recognition argument. Its existence remains unproved, and fixed ordinary-degree search bounds are insufficient.",
+    "Keep relative cubic and global recognition obligations explicit; closing the current mixed local sector is not the overall goal."
+  ],
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-14T22:17:48.078Z",
+    "all_passed": true,
+    "artifacts": [
+      {
+        "path": "research/mixed-smooth-B1-exclusion-pass109.md",
+        "sha256": "92fc0a132217312b929e5dd30c6650452bc93c39644cce3cd1563c6fe0f7f066",
+        "bytes": 9240,
+        "content_lines": 207,
+        "equation_tags": 7
+      },
+      {
+        "path": "research/mixed-smooth-quartic-determinant-exclusion-pass109.md",
+        "sha256": "061ce0314612ffee2dd49af6cf79878393aae1ce0f33d858ba9302f6981c180a",
+        "bytes": 10649,
+        "content_lines": 220,
+        "equation_tags": 6
+      },
+      {
+        "path": "research/mixed-smooth-cubic-image-pass109.md",
+        "sha256": "6a0daa53f0cd5b90f6c3f3faa50cb93d7ecaab4fb23f07b3f2865d1a5cae37e4",
+        "bytes": 8432,
+        "content_lines": 195,
+        "equation_tags": 6
+      },
+      {
+        "path": "research/constant-acceleration-strong-nilpotence-obstruction-pass109.md",
+        "sha256": "0cb98c0f09f080e5ce95161d9ef1a91cb5ce01ca2187eda93fc16c4d1b90c9c6",
+        "bytes": 9662,
+        "content_lines": 214,
+        "equation_tags": 6
+      },
+      {
+        "path": "research/mixed_divisor_determinant_checks_pass109.py",
+        "sha256": "cec89d16bb631e2593aef910a3b6b87085d5a18033d668a5c1c683333914b829",
+        "bytes": 6012,
+        "content_lines": 131,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/mixed-proper-image-exclusion-pass110.md",
+        "sha256": "3f8915457c478be0e2697dcd92ea18ed808cab5b639bb1326945b627d534a9ce",
+        "bytes": 11279,
+        "content_lines": 239,
+        "equation_tags": 9
+      },
+      {
+        "path": "research/mixed-singular-coefficient-controls-pass110.md",
+        "sha256": "f96891eba8d3e68d116bbc7cc37889f00b1de5a97b98a0f0d82c2e71122fa4ef",
+        "bytes": 7914,
+        "content_lines": 197,
+        "equation_tags": 8
+      },
+      {
+        "path": "research/mixed_singular_coefficient_checks_pass110.py",
+        "sha256": "0ed599a8611aff602dcbc967335e88676ff4f6817182eef7a023b946014054e6",
+        "bytes": 6111,
+        "content_lines": 143,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/verification-pass110-working.json",
+        "sha256": "cf7cf671b82ce0fcb1d2be62140dbd1e55ea34faf0b705c48d2dcece3c8a0113",
+        "bytes": 3725,
+        "content_lines": 51,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/mixed-sector-exclusion-frontier-pass110.md",
+        "sha256": "e0bd03e961c8fcd43b7d08dcfd69cfb58083228250563e88cae21e51fa72246f",
+        "bytes": 10735,
+        "content_lines": 194,
+        "equation_tags": 0
+      }
+    ],
+    "equation_tags": 42,
+    "captured_methods": 8,
+    "ast_methods": {
+      "research/mixed_singular_coefficient_checks_pass110.py": 3,
+      "research/mixed_divisor_determinant_checks_pass109.py": 2,
+      "research/mixed_pure_quartic_checks_pass108.py": 2,
+      "research/quadratic_divisor_filtration_checks_pass107.py": 1
+    },
+    "new_test_methods": 3,
+    "complete_output_verified": true,
+    "input_files_unchanged": true,
+    "local_markdown_links_checked": 877,
+    "missing_links": [],
+    "tool_evidence": "fef599",
+    "stage": "post-creation all ten artifacts, capture inputs/output and877 local links verified"
+  },
+  "goal_status": "active",
+  "authorization_boundary": "Private local research, public-source reading and symbolic checks only. No external contact, submission, posting, paid resource, new automation or financial action."
+}

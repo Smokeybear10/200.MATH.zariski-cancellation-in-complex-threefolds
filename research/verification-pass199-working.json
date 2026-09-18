@@ -1,0 +1,138 @@
+{
+  "pass": 199,
+  "status": "actual_nonmonomial_square_root_lower_normalization_and_bounded_primary_literature_audit; unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass198-working.json",
+    "sha256": "97ca3405f21fe69795387c34012e129bf27cd97076ced0084a58ea40adabb4be",
+    "records": 1229
+  },
+  "results": {
+    "actual_normalization": "Under the supplied actual global-slice exact1122 frame and full initial kernel (Z^2-X^3Y), the nonmonomial square-root family f=a*t+b*q, a,b in C*, q^2=t, is first normalized by actual diagonal scaling to f=q(q+1). Exact coefficient equations then give a complete finite-field lower-potential solution and actual polynomial shears and translations reducing k=R*rho, n=nu*rho^2/2, with R=1/(q(q+1)) and nu=1/(q^3(q+1)^3(3q-1)).",
+    "exact_field_and_actual_gates": "The complete homogeneous basis is justified by a nonzero Wronskian and the exact constant field, not a rational ansatz. Every original change has both polynomial inverse orders. The selected partial is scaled by a nonzero complex constant initially and is literally preserved thereafter; N, the selected fields, graph/projection distinction, exact profile and full initial kernel are preserved.",
+    "remaining_scalar": "The normalized third potential is ell=L3*rho^3+ell0 with ell0 in K. The graph case alone forces ell0=lambda*R and allows the actual constant W translation. The quadratic-projection alternative retains arbitrary ell0. This normalization alone does not prove recognition or exclusion of either alternative.",
+    "bounded_literature_audit": "Six precise searches and exact primary statement reads checked BGL Theorem3.5, nice/two-good results in Dasgupta-Gupta, image-ideal results in Dasgupta-Lahiri, and commuting-derivation results in Dasgupta-Gaifullin. None of the inspected statements supplies recognition from the stated1122/full-kernel hypotheses alone or subsumes the starting hypotheses of197/198. This is an applicability report, not an exhaustive search or novelty clearance.",
+    "remaining_scope": "This packet stops at actual lower-potential normalization. The separate200 graph/projection exclusions and synthesis are not included. Two-root nonzero-R cases, other initial forms, height-two kernels, higher profiles, arbitrary entry and unrestricted cancellation remain outside this result."
+  },
+  "goal_audit": {
+    "prior_progress": "Frozen198 excluded the reciprocal square-root family under supplied actual hypotheses. Its canonical run and records are not recounted as new199 evidence.",
+    "current_continuation": "The new199 proof establishes a complete actual lower-potential normalization for the nonmonomial family and adds a bounded primary-source applicability audit. Root executed its new three-method checker once after complete source reads; the initial response returned a session handle and the terminal response completed that same handle successfully.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Treat the two normalized nonmonomial alternatives using the full scalar Jacobian and exact actual field return. Separate200 sources and their canonical run are not199 evidence or records.",
+  "artifacts": [
+    {
+      "path": "research/weight-four-nonmonomial-square-root-actual-normalization-pass199-working.md",
+      "sha256": "a15bd8d173630767e0bf702065d6a310460321b97bfd0568196fb882e35f7e2e",
+      "bytes": 13014,
+      "lines": 372,
+      "equations": 22,
+      "test_methods": 0
+    },
+    {
+      "path": "research/time-degree-1122-primary-literature-audit-pass199-working.md",
+      "sha256": "6d37fa6bca748065e58fb23dde0a5a2a7898f18168dec97df29760d8f0e7a4f5",
+      "bytes": 7128,
+      "lines": 155,
+      "equations": 0,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight_four_nonmonomial_normalization_controls_pass199.py",
+      "sha256": "849c33de6dbf60e63be8b1274a2ec93ee016ab65cdc2d3d9e144c7915ac2658e",
+      "bytes": 10113,
+      "lines": 217,
+      "equations": 0,
+      "test_methods": 3
+    }
+  ],
+  "canonical_executions": [
+    {
+      "suite": "nonmonomial_normalization199",
+      "path": "research/weight_four_nonmonomial_normalization_controls_pass199.py",
+      "pre_execution_read": "Root complete5342cd; General completec2faf6. Root confirmed both preceded execution. Jet7315d4 was reported after the initial response and is not recorded as a preread.",
+      "initial_output": "4539c6",
+      "terminal_output": "a8ee65",
+      "session_id": 73807,
+      "methods": 3,
+      "unittest_seconds": 0.924,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": false,
+      "pending_execution_handle": false,
+      "completion_via_original_handle": true,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/weight_four_nonmonomial_normalization_controls_pass199.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "login": false,
+      "initial_yield_time_ms": 1000
+    }
+  ],
+  "tagged_equations": 22,
+  "total_new_test_methods": 3,
+  "reviews": {
+    "normalization": "Geometry full author e9de17. Root full2c644d and General completeb91b6d+179266 independently reconstructed the raw coefficient equations, exact-K Wronskian completeness, actual scaling and shears, C-to-C+tau translation and all preservation gates. Jet reports full normalization reads42a56a+f528cf. Fresh General metadata b0deb7 matches the final source.",
+    "literature_audit": "General full author a69dbe followed by precision delta724736; complete fresh reread c2faf6. The source records six query strings and exact primary statement/proof retrievals. Its conclusions remain bounded to those inspected statements and carefully separate time degree from ordinary coefficient degree.",
+    "checker": "Root full5342cd and General completec2faf6 preceded the sole canonical run. Jet full7315d4 was reported after the initial output; no earlier review timing is inferred. General performed no execution, import or compilation.",
+    "metadata": "Read-only b0deb7 matches all three source hashes, byte and line counts,22 equation tags and three method definitions. Both frozen198 verification and checkpoint hashes match their final values."
+  },
+  "proof_dependencies": {
+    "new": [
+      "research/weight-four-nonmonomial-square-root-actual-normalization-pass199-working.md"
+    ],
+    "retained": [
+      "research/weight-four-universal-chart-potentials-pass184-working.md",
+      "research/weight-four-double-cover-nonzero-r-reduction-pass195-working.md",
+      "research/weight-four-square-root-two-gate-classification-pass195-working.md",
+      "research/weight-four-split-square-candidate-jacobian-obstruction-pass193-working.md"
+    ],
+    "scope": "The normalization applies only after the supplied actual chart and square-branch gates. Its actual maps precede any later field obstruction. The separate literature audit is contextual, not a new premise or recognition endpoint. No200 result is imported."
+  },
+  "external_dependencies": {
+    "new_published_endpoint": false,
+    "audit_only": [
+      {
+        "source": "Bhatwadekar-Gupta-Lokhande Theorem3.5",
+        "url": "https://arxiv.org/html/1501.01438v1",
+        "retrieval": "turn4272view4",
+        "limitation": "Requires an actual invariant coordinate and regular kernel."
+      },
+      {
+        "source": "Dasgupta-Gupta Corollary3.8 and Theorem4.1",
+        "url": "https://arxiv.org/pdf/1701.03635v1",
+        "retrieval": "turn4272view3; turn4273view1",
+        "limitation": "Nice four-variable or two-good actual three-ring hypotheses are not the original1122 hypotheses."
+      },
+      {
+        "source": "Dasgupta-Lahiri image-ideal results, version6",
+        "url": "https://arxiv.org/pdf/2302.13787v6",
+        "retrieval": "turn4274view2-5",
+        "limitation": "An invariant coefficient base and additional nice/triangular hypotheses are already required."
+      },
+      {
+        "source": "Dasgupta-Gaifullin commuting-derivation results",
+        "url": "https://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=sm&paperid=10094&option_lang=eng",
+        "retrieval": "turn4277view0-2",
+        "limitation": "The main theorem is for a known polynomial three-ring; the higher-dimensional extension presupposes fixed coordinates."
+      }
+    ],
+    "scope": "These statement reads support only the bounded applicability audit. No claim that the literature is exhausted or the research novel is made."
+  },
+  "finite_control_scope": {
+    "lower_coefficients": "Raw square-completion and rho coefficient identities, primitive arithmetic, displayed rational basis and nonzero Wronskian. Completeness over every finite exact coefficient field remains a written argument.",
+    "actual_changes": "Initial scaling, all polynomial shear/translation inverse orders, selected-partial columns, fixed-rho correction and the C-to-C+tau coefficient formula.",
+    "boundary": "Three finite methods in one once-only execution do not establish actualness, full field return, finite-field completeness, later branch exclusion, arbitrary entry, general cancellation, novelty, human expert review or formal verification."
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "pass": 192,
+  "grouped_passes": [
+    191,
+    192
+  ],
+  "status": "restricted_split_zero_R_recognition_and_actual_absent_variable_examples; nonzero_R_and_unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass190-working.json",
+    "sha256": "30b6c55dc7d6d13f67c713748c91a6c37a5eab46d3fd21e99bfce707b3463ae3",
+    "records": 1180
+  },
+  "results": {
+    "split_zero_R": "Under an actual globally sliced frame with exact E-degrees(1,1,2,2), full weighted initial kernel XYZ+X^4+Y^4, and R=k_rho=0, the coefficient-cover and field-return argument constructs I=W-(lambda*X*Y+beta*X+alpha*Y+D)*Z-Q0(X,Y). All displayed shear coefficients are complex and both polynomial inverse orders are supplied. Regularity from the global slice and the published Bhatwadekar-Gupta-Lokhande Theorem3.5 give A=C[I]^[2].",
+    "coefficient_lemmas": "For d=t^-4-1 over the exact finite field K/C(t), every algebraic solution of10*d*b''+5*d'*b'+d''*b=0 is lambda*t. A nontrivial quadratic cover would make gamma=a'''/(18*d) have pole order at least9, contradicting actual degree-one field return. The192 proof supplies the geometric hypotheses missing from the standalone191 lemmas.",
+    "negative_result": "The generalized square-completion ODE20*Df*f'''-3*d*(f'')^2-12*f''*Df'=0, Df=d'*f/4+d*f', has the exact nonaffine rational solution f=t^5+3*t. All nonzero denominator gates are checked. This refutes an attempted extrapolation of the old d=4*t lemma, not that lemma itself, actual realization, or cancellation.",
+    "actual_examples": "Two explicit polynomial frames with global slice realize R=0 and R=1 for the different full kernel X^2*Z-Y^4. Both original inverse orders, literal partial_Z operators, selected N=partial_y or -partial_y, calibration and full initial kernels are proved. They do not prove profile minimality and are not split examples.",
+    "remaining_scope": "The split nonzero-R branch, other unresolved weight-four forms, height-two initial kernels, higher possible minimum time profiles and arbitrary coordinate entry remain open in this packet. Separate193 work is excluded. The professor has not confirmed the corrected target."
+  },
+  "goal_audit": {
+    "prior_status_turn": "No progress toward proof completion was claimed for the preceding user check-in; it was status communication and source inspection.",
+    "current_continuation": "The pending final zero-R algebra suite was executed after complete source reads and independent review; it passed. The grouped191-192 proof, examples and failed-extension evidence are now captured. Additional193 mathematical work is separate and not counted here.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Resolve the split nonzero-R alternatives by their full coefficient, scalar-Jacobian and original-ring constraints; retain the rational ODE counterexample and do not infer arbitrary entry from special-frame recognition.",
+  "artifacts": [
+    {
+      "path": "research/weight-four-absent-variable-two-actual-frames-pass191-working.md",
+      "sha256": "f51582120996b29db7170faa8883d6341bdfb6e5880e56cc00a282313f7b2ab8",
+      "bytes": 9936,
+      "lines": 315,
+      "equations": 21,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-split-coefficient-ode-lemmas-pass191-working.md",
+      "sha256": "e344b9024923acfe5f182b2ad29570086d179e597713dd528a064a33187f046c",
+      "bytes": 7029,
+      "lines": 183,
+      "equations": 10,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-split-zero-r-coordinate-recognition-pass192-working.md",
+      "sha256": "8b8cc60389200e134a8e903aed56f4693a5b0c0f98af62f500d35cb98a27f500",
+      "bytes": 18900,
+      "lines": 529,
+      "equations": 28,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-split-nonzero-r-ode-counterexample-pass192-working.md",
+      "sha256": "b031f85241ce5c0fae9e80b94315c5bd3c170efb5e05d8569ea207ecdccad7b1",
+      "bytes": 7135,
+      "lines": 207,
+      "equations": 15,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-split-frontier-synthesis-pass192-working.md",
+      "sha256": "df5fa229769b8bc940a8df310d4cd37dbe845cc1f05d7504eb06a65d90cdd201",
+      "bytes": 7373,
+      "lines": 181,
+      "equations": 6,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight_four_absent_actual_frames_controls_pass191.py",
+      "sha256": "791bdeb4d9a95f71688a8e319f43fe750f0bf7d5266e7287b07cb1f4ea20aac7",
+      "bytes": 9171,
+      "lines": 183,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/weight_four_split_coefficient_controls_pass192.py",
+      "sha256": "0d35c382bf1fb08d3fb37b17618c1559876d230f97894d150f6e87ae9da0fa1a",
+      "bytes": 8886,
+      "lines": 179,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/weight_four_split_zero_r_controls_pass192.py",
+      "sha256": "78086e66bc003cb9fcf2cee88dab386179a906b85fae386ad425c412f2bd6983",
+      "bytes": 9646,
+      "lines": 198,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/verification-pass192-working.json",
+      "sha256": "01ed7ddf658fe7f6ee4e65986ad89946254a3ffee2fd2245b3b39d46bf648d60",
+      "bytes": 12448,
+      "lines": 234,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "chain_record_count_after_including_this_checkpoint": 1190,
+  "record_count_convention": "1180 frozen predecessor records plus five proof/synthesis notes, three checker sources, verification192 and this checkpoint: ten new records. README and ledger are not records. No193 source, proof or run is counted.",
+  "verification": {
+    "capture": "research/verification-pass192-working.json",
+    "canonical_runs": [
+      {
+        "suite": "actual_frames191",
+        "path": "research/weight_four_absent_actual_frames_controls_pass191.py",
+        "pre_execution_read": "Root09712f",
+        "initial_output": "a67b7c",
+        "terminal_output": "a67b7c",
+        "methods": 3,
+        "unittest_seconds": 0.115,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/weight_four_absent_actual_frames_controls_pass191.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "login": false,
+        "initial_yield_time_ms": 1000
+      },
+      {
+        "suite": "split_coefficients192",
+        "path": "research/weight_four_split_coefficient_controls_pass192.py",
+        "pre_execution_read": "Rootad5691",
+        "initial_output": "00ba25",
+        "initial_response_terminal": false,
+        "initial_session_id": 74393,
+        "completion_method": "write_stdin on the same session74393, empty input, yield1000ms",
+        "terminal_output": "28bc7d",
+        "methods": 3,
+        "unittest_seconds": 0.947,
+        "result": "OK",
+        "exit_code": 0,
+        "pending_execution_handle": false,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/weight_four_split_coefficient_controls_pass192.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "login": false,
+        "initial_yield_time_ms": 1000
+      },
+      {
+        "suite": "split_zero_R192",
+        "path": "research/weight_four_split_zero_r_controls_pass192.py",
+        "pre_execution_read": "Root90d49d",
+        "initial_output": "e8a4d9",
+        "terminal_output": "e8a4d9",
+        "methods": 3,
+        "unittest_seconds": 0.355,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": true,
+        "pending_execution_handle": false,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/weight_four_split_zero_r_controls_pass192.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "login": false,
+        "initial_yield_time_ms": 1000
+      }
+    ],
+    "new_suites": 3,
+    "new_methods": 9,
+    "tagged_equations": 80,
+    "scope": "Independent saved-source AI reviews plus finite exact controls. Not human expert review, formal verification, a novelty audit or unrestricted cancellation."
+  }
+}
+

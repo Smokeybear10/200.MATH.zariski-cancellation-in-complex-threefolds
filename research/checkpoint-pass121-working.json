@@ -1,0 +1,457 @@
+{
+  "pass": 121,
+  "status": "conditional_cubic_scalar_classification_and_null_reciprocal_exclusion; general_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3]. The literal emailed affine-line conclusion has a dimensional mismatch for general r.",
+  "summary": "Under the full actual exact cubic framework, either constant-axis norm forces D in C(h), cubic or quadratic plus a nonzero reciprocal affine-linear term. Polynomial Jacobian divisibility excludes the null reciprocal alternative. The null cubic speed has a perfect-cube component. All three surviving axis/type combinations admit polynomial unimodular speed controls, not actual original frames.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass120-working.json",
+    "sha256": "eb75cf960b5296283440bd55a1fec964431a063fcbf3e0cae332b59f763b16e4",
+    "records": 769,
+    "revalidations": [
+      "4515df",
+      "541894"
+    ]
+  },
+  "chain_record_count_after_including_this_checkpoint": 781,
+  "record_count_convention": "769 prior frozen records plus eleven current artifacts plus this checkpoint. README and research-ledger are live; the current checkpoint hash is recorded externally.",
+  "current_integrity_audit": {
+    "artifacts": [
+      {
+        "path": "research/cubic-axis-scalar-normal-forms-pass121.md",
+        "sha256": "33acbd7a4a59183caa0b4095b99d6590f6a5c480bafd6cb4475ce9489fc11b82",
+        "bytes": 9306,
+        "lines": 228,
+        "equations": 7,
+        "test_methods": 0
+      },
+      {
+        "path": "research/cubic-nonnull-axis-scalar-constraint-pass121.md",
+        "sha256": "94634e70896904a1d74219e7c93347d5690d2cae1f03dbc8c6c445225c5e5e19",
+        "bytes": 11037,
+        "lines": 269,
+        "equations": 8,
+        "test_methods": 0
+      },
+      {
+        "path": "research/cubic-null-axis-polynomial-speed-pass121.md",
+        "sha256": "5cee71da2bae6e2eb6a6eb257e4ff75eff2f8190c8ab48a5f163859fbe72c081",
+        "bytes": 9531,
+        "lines": 244,
+        "equations": 7,
+        "test_methods": 0
+      },
+      {
+        "path": "research/cubic-null-axis-scalar-constraint-pass121.md",
+        "sha256": "b6241bc8ec1a8faec7bff7f90dec6f394a057fd791c4a5c6f60e544e2ac4a1a7",
+        "bytes": 9861,
+        "lines": 233,
+        "equations": 8,
+        "test_methods": 0
+      },
+      {
+        "path": "research/cubic-scalar-classification-frontier-pass121.md",
+        "sha256": "3df6da5db38df366c1ff5b168dab7089b4052838b29aac5872e4c4764b92feb3",
+        "bytes": 8347,
+        "lines": 171,
+        "equations": 0,
+        "test_methods": 0
+      },
+      {
+        "path": "research/cubic-scalar-global-boundaries-pass121.md",
+        "sha256": "42b21427831bae01c95e5b946e4ca08500029335f3fc6ae030e2898f160d534a",
+        "bytes": 5111,
+        "lines": 118,
+        "equations": 4,
+        "test_methods": 0
+      },
+      {
+        "path": "research/cubic_nonnull_axis_checks_pass121.py",
+        "sha256": "7802b5c81182daf0124d3517a0a1a919a36803c2e1ceda44bf49b0937e04f653",
+        "bytes": 5892,
+        "lines": 139,
+        "equations": 0,
+        "test_methods": 2
+      },
+      {
+        "path": "research/cubic_null_axis_checks_pass121.py",
+        "sha256": "f72e88e1da70efaf2b26d085e627443e02af2dbf7daf876b1f907433425ae03f",
+        "bytes": 4887,
+        "lines": 115,
+        "equations": 0,
+        "test_methods": 1
+      },
+      {
+        "path": "research/cubic_null_polynomial_speed_checks_pass121.py",
+        "sha256": "0a1f4ea2abf826fc004be7a246210b508cab00d453b9dbbb7b2ce8606b0bd01f",
+        "bytes": 2880,
+        "lines": 77,
+        "equations": 0,
+        "test_methods": 1
+      },
+      {
+        "path": "research/cubic_scalar_speed_boundary_checks_pass121.py",
+        "sha256": "0becc9b68ab28aec037dcddb74f5ea66c95f575cf3f7052a35ac2d171a2d6c88",
+        "bytes": 1678,
+        "lines": 46,
+        "equations": 0,
+        "test_methods": 1
+      },
+      {
+        "path": "research/verification-pass121-working.json",
+        "sha256": "9508bf07e83e41629e66fa473a43e907fae4e6e65bbcb5f5170278e888426ccc",
+        "bytes": 5506,
+        "lines": 84,
+        "equations": 0,
+        "test_methods": 0
+      }
+    ],
+    "equations": 34,
+    "local_markdown_links": 31,
+    "all_passed": true,
+    "metadata_evidence": [
+      "eae37c",
+      "946162"
+    ],
+    "scope": "Eleven artifact hashes/bytes/lines,34 sequential numbered equation tags,31 local Markdown links, whitespace and checker AST counts. The synthesis also contains an unnumbered summary display."
+  },
+  "canonical_verification": {
+    "path": "research/verification-pass121-working.json",
+    "tool_evidence": [
+      "861ceb",
+      "02ed45"
+    ],
+    "suites": 7,
+    "test_methods": 9,
+    "new_methods": 5,
+    "retained_methods": 4,
+    "elapsed_seconds": 3.6433750411961228,
+    "unittest_seconds": 3.267,
+    "complete_output_sha256": "9cc213bf454268190447e84af44fc401a86ac0e94d037b87d4448cda9a1c7406",
+    "all_passed": true,
+    "scope": "Targeted exact conditional coefficient and control checks only. No full historical rerun, field integration proof, global original inverse, cancellation proof, human expert review, or novelty clearance."
+  },
+  "proof_reviews": [
+    {
+      "artifact": "research/cubic-axis-scalar-normal-forms-pass121.md",
+      "root": [
+        "4181ea"
+      ],
+      "author": [
+        "889166"
+      ],
+      "independent": [
+        {
+          "reviewer": "Geometry",
+          "evidence": [
+            "e81f69"
+          ],
+          "scope": "Complete seven-equation normal forms, constant ambient bases, finite field and polynomiality gates."
+        }
+      ]
+    },
+    {
+      "artifact": "research/cubic-null-axis-scalar-constraint-pass121.md",
+      "root": [
+        "1bbb4b",
+        "09d841"
+      ],
+      "author": [
+        "7fb279",
+        "cb15eb"
+      ],
+      "independent": [
+        {
+          "reviewer": "Geometry",
+          "evidence": [
+            "a2b168",
+            "bff105"
+          ],
+          "scope": "Full eight-equation proof and final checker/provenance tail."
+        },
+        {
+          "reviewer": "General",
+          "evidence": [
+            "b77349",
+            "05ef9f"
+          ],
+          "scope": "Full lower-volume and differential-field reconstruction, final provenance delta."
+        }
+      ]
+    },
+    {
+      "artifact": "research/cubic-nonnull-axis-scalar-constraint-pass121.md",
+      "root": [
+        "f33178",
+        "09d841"
+      ],
+      "independent": [
+        {
+          "reviewer": "General",
+          "evidence": [
+            "c301aa",
+            "d6e00a"
+          ],
+          "scope": "Complete final eight-equation proof, normalized conic, finite fields, nonprimitive derivative, both ODE conversions, source footer."
+        },
+        {
+          "reviewer": "Geometry",
+          "evidence": [
+            "3f9ae3",
+            "6cc33c",
+            "d154ce",
+            "2232ad"
+          ],
+          "scope": "Complete mathematical proof plus final source-only body/footer delta and hash. No independent primary-source reread."
+        }
+      ]
+    },
+    {
+      "artifact": "research/cubic-null-axis-polynomial-speed-pass121.md",
+      "root": [
+        "477860"
+      ],
+      "author": [
+        "a5beed"
+      ],
+      "independent": [
+        {
+          "reviewer": "Geometry",
+          "evidence": [
+            "5e6d87"
+          ],
+          "scope": "Complete seven-equation proof, reciprocal UFD cancellation/degree contradiction, perfect cube, polynomial control and metric."
+        },
+        {
+          "reviewer": "Jet",
+          "evidence": [
+            "7fe396"
+          ],
+          "scope": "Complete proof/code reconstruction, no original-frame claim."
+        }
+      ]
+    },
+    {
+      "artifact": "research/cubic-scalar-global-boundaries-pass121.md",
+      "root": [
+        "2caace",
+        "09d841"
+      ],
+      "independent": [
+        {
+          "reviewer": "Jet",
+          "evidence": [
+            "00002a",
+            "d7761b"
+          ],
+          "scope": "Complete corrected four-equation proof/code, both nonnull controls, J*N(v)=1 and null volume sign."
+        },
+        {
+          "reviewer": "Geometry",
+          "evidence": [
+            "3f08b5",
+            "2232ad"
+          ],
+          "scope": "Complete proof/code and independent determinant/unit-row/normalization reconstruction."
+        }
+      ]
+    },
+    {
+      "artifact": "research/cubic-scalar-classification-frontier-pass121.md",
+      "root": [
+        "a22dc5"
+      ],
+      "independent": [
+        {
+          "reviewer": "Geometry",
+          "evidence": [
+            "6cc33c"
+          ],
+          "scope": "Full synthesis, selected-axis case distinctions, three unresolved combinations and arbitrary-frame entry."
+        }
+      ]
+    }
+  ],
+  "code_reviews": [
+    {
+      "artifact": "research/cubic_null_axis_checks_pass121.py",
+      "methods": 1,
+      "root": [
+        "def0ad"
+      ],
+      "independent": [
+        "Geometry bff105",
+        "General 546e2d"
+      ]
+    },
+    {
+      "artifact": "research/cubic_nonnull_axis_checks_pass121.py",
+      "methods": 2,
+      "root": [
+        "def0ad"
+      ],
+      "independent": [
+        "Geometry 6b8baf",
+        "General 9f5b86"
+      ]
+    },
+    {
+      "artifact": "research/cubic_null_polynomial_speed_checks_pass121.py",
+      "methods": 1,
+      "root": [
+        "477860"
+      ],
+      "independent": [
+        "Geometry 5e6d87",
+        "Jet 7fe396"
+      ]
+    },
+    {
+      "artifact": "research/cubic_scalar_speed_boundary_checks_pass121.py",
+      "methods": 1,
+      "root": [
+        "2caace"
+      ],
+      "independent": [
+        "Jet 00002a",
+        "Geometry 3f08b5"
+      ]
+    }
+  ],
+  "capture_reviews": {
+    "root": [
+      "518883"
+    ],
+    "independent": [
+      {
+        "reviewer": "Geometry",
+        "evidence": [
+          "6cc33c",
+          "2232ad"
+        ],
+        "scope": "Complete capture, seven before/after/current source hashes, AST [1,2,1,1,2,1,1], nine recorded successes, command mapping and output hash. No rerun."
+      }
+    ]
+  },
+  "author_runs": [
+    {
+      "checker": "research/cubic_null_axis_checks_pass121.py",
+      "evidence": [
+        "7b32ea"
+      ],
+      "methods": 1,
+      "unittest_seconds": 0.786,
+      "wall_seconds": 0.905025792,
+      "exit_code": 0
+    },
+    {
+      "checker": "research/cubic_nonnull_axis_checks_pass121.py",
+      "evidence": [
+        "e5eafc",
+        "79ff31"
+      ],
+      "methods": 2,
+      "unittest_seconds": 0.977,
+      "wall_seconds": null,
+      "scope": "Execution yielded; combined command wall duration not claimed.",
+      "exit_code": 0
+    },
+    {
+      "checker": "research/cubic_null_polynomial_speed_checks_pass121.py",
+      "evidence": [
+        "161eff"
+      ],
+      "methods": 1,
+      "unittest_seconds": 0.127,
+      "wall_seconds": 0.305438875,
+      "exit_code": 0
+    },
+    {
+      "checker": "research/cubic_scalar_speed_boundary_checks_pass121.py",
+      "evidence": [
+        "cb7d24"
+      ],
+      "methods": 1,
+      "unittest_seconds": 0.251,
+      "wall_seconds": 0.5059575,
+      "exit_code": 0
+    }
+  ],
+  "source_dependencies": {
+    "fresh_primary": {
+      "source": "The Stacks Project, Lemma 10.47.8, tag037P",
+      "url": "https://stacks.math.columbia.edu/tag/037P",
+      "evidence": "turn3793view0",
+      "reader": "Root",
+      "scope": "Full displayed lemma and proof of geometric irreducibility from relative algebraic closedness. Characteristic zero supplies reduced algebraic base changes. Not a source for the scalar classification."
+    },
+    "retained_framework": [
+      "research/nonconical-quadratic-potential-pass90.md",
+      "research/nonconical-cubic-relation-pass90.md",
+      "research/nonconical-global-jacobian-field-pass91.md",
+      "research/cubic-general-axis-frontier-pass120.md",
+      "research/cubic-nondegenerate-conic-axis-pass120.md"
+    ]
+  },
+  "new_result_scope": [
+    "Both selected-axis norms force D in C(h) and the same cubic/reciprocal scalar classification in the full supplied actual cubic framework.",
+    "The null reciprocal alternative is excluded using polynomial speeds and nonzero moving-frame determinant.",
+    "The null cubic alternative forces a nonconstant perfect-cube polynomial speed component and an additional square-divisibility condition.",
+    "Explicit polynomial unimodular controls survive in the other three axis/type combinations; no actual full frame is assigned."
+  ],
+  "rejected_shortcuts": [
+    {
+      "claim": "The actual relative volume with v=y1 is a complex constant.",
+      "reason": "The exact canonical orientation gives J*N(v)=1. The graph parameter need not satisfy N(v)=1; J is only a base-field unit.",
+      "evidence": [
+        "Jet 2a32dc",
+        "Jet 07ec0b",
+        "Root 590648"
+      ],
+      "consequence": "No exclusion is inferred from comparing powers that would only be incompatible with a complex-constant volume."
+    }
+  ],
+  "unresolved_obligations": [
+    "Global original-coordinate reconstruction in the null cubic case.",
+    "Global original-coordinate reconstruction in both remaining nonnull scalar cases.",
+    "Entry from an arbitrary sliced polynomial cylinder into the supplied constant-acceleration framework.",
+    "Confirmation of the professor's intended field/dimension/conclusion.",
+    "Human expert review, formal proof checking if sought, statement-level novelty clearance."
+  ],
+  "next_bounded_proof_tasks": [
+    "Use the null cubic perfect-cube divisor and original-coordinate irreducibility, retaining the actual factor N(v).",
+    "Derive global restrictions for the nonnull cubic and reciprocal forms beyond polynomial speed/unit-row/metric identities.",
+    "Do not replace full original generation by a rational inverse or a generic coefficient model."
+  ],
+  "goal_audit": {
+    "objective": "keep going until u solved it",
+    "status": "active",
+    "previous_turn_classification": "verified_wait",
+    "current_turn_classification": "progress",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false
+  },
+  "boundaries": {
+    "human_expert_review": false,
+    "formal_verification": false,
+    "novelty_cleared": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "paid_resources": false,
+    "new_automation": false,
+    "files_through120_frozen": true
+  },
+  "historical_verification": {
+    "pass": 75,
+    "suites": 146,
+    "methods": 1047,
+    "integrity_revalidated": [
+      "541894"
+    ],
+    "rerun_in121": false
+  },
+  "live_indexes": [
+    "README.md",
+    "research-ledger.md"
+  ]
+}

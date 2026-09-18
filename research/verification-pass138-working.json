@@ -1,0 +1,136 @@
+{
+  "pass": 138,
+  "status": "all_degree_nonlinear_conical_exclusion_in_working_proofs; unrestricted_cancellation_unsolved",
+  "goal_audit": {
+    "previous_turn": "No progress: user-facing status check, not a live-process wait.",
+    "this_turn": "Progress: complete actual all-degree chart, abstract weighted polynomiality lemma, exact-field exclusion synthesis, arbitrary-degree omitted-slice family and three new exact test methods.",
+    "objective_changed": false,
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_goal_status": "active"
+  },
+  "proofs": [
+    {
+      "path": "research/all-degree-conical-chart-pass138-working.md",
+      "author": "general_affine17",
+      "equations": 12,
+      "author_complete_read": "0e3b12",
+      "root_complete_read": "937836",
+      "independent_complete_read": {"geometry_audit17": ["e3bd18", "5b8f9b"]},
+      "scope": "Actual invariant localization and whole generic line; arbitrary last Jacobian row; speed cofactor tangency; descending coefficients before dividing by y_v; normalized PDE with coefficient-field right side; weighted degree at most twice last degree. Includes last degree zero. Does not assume lower W coefficients are intrinsic invariants."
+    },
+    {
+      "path": "research/weighted-coefficient-polynomiality-pass138.md",
+      "author": "geometry_audit17",
+      "equations": 7,
+      "author_complete_read": "1c5d2c",
+      "root_complete_read": "c888b2",
+      "independent_complete_read": {"general_affine17": "2aef23", "jet_checker17": "11349d"},
+      "scope": "Complete differential-field lemma with commuting derivatives, exact K=ker(partial_kappa), r in K*, positive-weight recursion and explicit polynomial primitives. No L=K(kappa) or algebraic-extension-triviality assumption. Includes ordinary degree bound, odd endpoint, weight zero, variable r and an r=0 boundary."
+    },
+    {
+      "path": "research/all-degree-conical-exclusion-pass138-working.md",
+      "author": "root",
+      "equations": 11,
+      "root_complete_read": "78438e",
+      "independent_complete_read": {"general_affine17": "29ffd2", "geometry_audit17": "853716"},
+      "scope": "Combines actual chart and abstract coefficient lemma to obtain a monic original-W relation over a one-variable invariant field, with degree at most2ell. General exact-pencil descent136 gives an invariant coordinate; the inherited actual nice3 linear-invariant/PID speed-ideal obstruction contradicts nonlinear conical rank two. No bound on last degree remains in this branch."
+    },
+    {
+      "path": "research/higher-degree-no-slice-boundary-pass138.md",
+      "author": "jet_checker17",
+      "equations": 5,
+      "author_mathematical_complete_read": "e2f6ee",
+      "root_mathematical_complete_read": "c24712",
+      "independent_mathematical_complete_read": {"general_affine17": "91d642", "geometry_audit17": "3c8da8"},
+      "scope": "The actual elementary shear W_ell=W+Y^ell extends the137 nonsliced frame for every integer ell>=3. Both inverse orders, exact E-degree, proper derivative ideal(xi), polynomial kernel, invariant correction and selected partial have direct written proofs. Later Sources-only formatting does not change these mathematical statements."
+    }
+  ],
+  "inherited_inputs": {
+    "root_complete_reads": {
+      "selected_degree135_and_speed_chart137": "bff40d",
+      "general_monic_pencil_and_obstruction136": "d1fcfa"
+    },
+    "general_complete_reads": {
+      "selected_degree135": "3900be",
+      "speed_chart137": "55a6aa"
+    },
+    "qualification": "The selected-degree actual leading-LND proof, exact monic-pencil lemma and invariant-coordinate obstruction were reconstructed for their stated scope. The two classical source statements remain explicit external theorem inputs. This is not a new recursive audit of every historical source proof."
+  },
+  "tests": {
+    "path": "research/all_degree_conical_controls_pass138.py",
+    "sha256": "452e85b90ffdfe293aaff7c49c31a1701135849226584bbc2d09c9953c46ceda",
+    "bytes": 7940,
+    "lines": 160,
+    "methods": 3,
+    "root_source_read_before_execution": "a503c6",
+    "author_source_read_before_execution": "5b9f62",
+    "independent_source_only_reads": {"general_affine17": "427532", "geometry_audit17": "f37688"},
+    "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.all_degree_conical_controls_pass138 -v",
+    "execution": "0caa47",
+    "state": "completed_in_initial_call",
+    "exit_code": 0,
+    "reported_seconds": 0.403,
+    "result": "All three methods passed.",
+    "formal_methods": 2,
+    "actual_boundary_methods": 1,
+    "coverage": [
+      "Raw determinant coefficient recurrence at last degrees1,2,4, retaining arbitrary y_v and full fixed-v chain terms.",
+      "A formal y=v^2 boundary whose determinant fails the whole-line/unit-Jacobian premises.",
+      "Weighted operator coefficients at weights0 through7, including odd pure-X endpoints and variable r(tau).",
+      "Three explicit variable-r polynomial solutions with finite checks of the coefficient and total-degree bounds.",
+      "Actual nonsliced frames at last degrees3,4,5: both polynomial inverse orders, Jacobian, exact derivative degree, good speeds, common factor, invariant correction and selected partial."
+    ],
+    "not_covered": "These tests do not prove universal polynomiality, the degree-zero actual chart, arbitrary coordinate realization, the external source theorems, unrestricted cancellation or novelty.",
+    "retained_methods_rerun": 0,
+    "live_session": false,
+    "runtime": {"python": "3.13.5", "sympy": "1.13.3", "evidence": "c24712"}
+  },
+  "sources": [
+    {
+      "title": "Rational maps H for which K(tH) has transcendence degree 2 over K",
+      "author": "Michiel de Bondt",
+      "version": "arXiv1501.06046v4, 2017-11-02",
+      "url": "https://arxiv.org/pdf/1501.06046v4",
+      "statement": "Theorem1.1, printed p.4: one-variable subfield rationality.",
+      "fresh_exact_statement_read": "turn4023view0",
+      "limit": "No polynomial-generator descent is inferred from the source theorem alone."
+    },
+    {
+      "title": "Nice derivations over principal ideal domains",
+      "authors": ["Nikhilesh Dasgupta", "Neena Gupta"],
+      "version": "arXiv1701.03635v1, 2017-01-13",
+      "url": "https://arxiv.org/pdf/1701.03635v1",
+      "statement": "Theorem3.1(i), printed p.5: a nonzero nice LND on a polynomial threefold over a characteristic-zero field has a nonzero linear invariant.",
+      "fresh_exact_statement_read": "turn4023view1",
+      "limit": "The authors attribute this to Wang, Proposition4.6. Wang's original proof was not newly retrieved or independently reconstructed."
+    }
+  ],
+  "literature_audit_scope": {
+    "additional_targeted_queries": "turn4022",
+    "outcome": "Mostly unrelated or previously known keyword results; no new external theorem was inferred from snippets.",
+    "comprehensive_novelty_audit": false,
+    "novelty_cleared": false
+  },
+  "predecessor": {
+    "checkpoint": "research/checkpoint-pass137-working.json",
+    "sha256": "44f988a7b960a03ce56225c12350b3d01fa702e770eacb494685b025be0cce48",
+    "records": 901,
+    "root_artifact_integrity_check": "a45bd3",
+    "result": "All five listed137 artifact hashes unchanged."
+  },
+  "boundaries": {
+    "unrestricted_cancellation_solved": false,
+    "dense_higher_last_degree_recognized": false,
+    "arbitrary_three_good_entry_proved": false,
+    "human_expert_review": false,
+    "proof_assistant_verification": false,
+    "historical_novelty_cleared": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "frozen_predecessors_intentionally_edited": false
+  },
+  "next_bounded_task": "Derive the actual dense-speed higher-degree determinant using the two independent speed ratios. Test whether descending coefficients force a polynomial graph in two generic good variables, and explicitly separate any such generic result from actual coordinate descent. The arbitrary-three-good-entry requirement remains unresolved."
+}

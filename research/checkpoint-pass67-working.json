@@ -1,0 +1,206 @@
+{
+  "status": "Audited working67 conditional proof packet with actual full132-suite regression. Historical central registry remains at full60.",
+  "previous_working_checkpoint": "research/checkpoint-pass66-working.json",
+  "previous_integrated_checkpoint": "consistency-pass-60.json",
+  "preceding_goal_turn_classification": "no progress: the preceding user check-in was status-only",
+  "current_goal_turn_classification": "progress",
+  "synthesis": "research/constant-cubic-closure-pass67.md",
+  "proof_audit": "research/proof-audits-pass67-working.md",
+  "verification_record": "research/verification-pass67-working.json",
+  "historical_integrated_counts": {
+    "claims": 544,
+    "test_methods": 1000,
+    "suites": 126
+  },
+  "fresh_full_regression": {
+    "test_methods": 1011,
+    "suites": 132,
+    "all_passed": true,
+    "started_at_utc": "2026-09-14T01:00:54.530456+00:00",
+    "finished_at_utc": "2026-09-14T01:02:30.132767+00:00"
+  },
+  "new_current_methods": 3,
+  "new_current_suites": 2,
+  "all_working61_through67_additions": {
+    "methods": 11,
+    "suites": 6
+  },
+  "central_registry_integrated": false,
+  "completed_deductions": [
+    "Under an actual polynomial (1,1,2,2) adjoint frame, an original sliced action with E^3x in C^4 has polynomial three-variable kernel. The constant vector may be zero.",
+    "The independent nonzero constant cubic sector yields a true generic polynomial graph before the good-partial inverse determinant is used. Three coefficients give an explicit triangular ambient coordinate slice of the original action.",
+    "The dependent nonzero constant cubic sector yields an actual localized nice derivation with the explicit invariant denominator Delta(u), proved fixed before local nilpotence is used. The actual surviving good partial meets the inherited recognition lemma.",
+    "An actual polynomial cubic family disproves automatic constant-direction omission of the common parameter and preservation of its two-variable kernel by every good partial. It has a polynomial original kernel and is not a cancellation counterexample."
+  ],
+  "remaining_mathematical_obligations_at_this_checkpoint": [
+    "Nonconstant highest-vector cubic sectors of the supplied frame.",
+    "Higher-flow sectors of the supplied frame; pass68 working drafts are deliberately outside this checkpoint.",
+    "Universal existence of an applicable actual polynomial coordinate frame, or an unrestricted recognition proof."
+  ],
+  "proof_review_kind": "Independent AI full-file reconstructions, with author self-review separated; not human or formal verification.",
+  "all_supplied_two_quadratic_low_flow_recognized": true,
+  "all_supplied_two_quadratic_constant_third_derivative_recognized": true,
+  "all_supplied_two_quadratic_cubic_flow_recognized": false,
+  "entire_two_quadratic_profile_recognized": false,
+  "all_profile_height_threshold": 9,
+  "general_conjecture_solved": false,
+  "universal_frame_existence_proved": false,
+  "novelty_claimed": false,
+  "human_expert_review": false,
+  "proof_assistant_verified": false,
+  "interpretation_confirmed_by_professor": false,
+  "external_contact_or_submission": false,
+  "artifact_integrity": {
+    "checked_at_utc": "2026-09-14T01:12:00.815269+00:00",
+    "all_passed": true,
+    "old_full60_nonmutable_records": 168,
+    "prior_working64_artifacts": 13,
+    "prior_working65_artifacts": 11,
+    "prior_working66_artifacts": 9,
+    "prior_packets": [
+      {
+        "path": "research/checkpoint-pass64-working.json",
+        "sha256": "79837b5bcdd9291d9f145e9ff4a59645a08d4612f47d2cf1884d8cf25545c79f"
+      },
+      {
+        "path": "research/checkpoint-pass65-working.json",
+        "sha256": "48937ab0c218c0db8790f9572cb0f07bebd9d969ac09119a24baa6dddebd4f68"
+      },
+      {
+        "path": "research/checkpoint-pass66-working.json",
+        "sha256": "b4217516af1d50d19f6f446a49e85bba7462d6afabf69a35566968f3f825c635"
+      }
+    ],
+    "local_link_paths_checked": 27,
+    "deferred_future_checkpoint_links": [
+      {
+        "source": "research/constant-cubic-closure-pass67.md",
+        "target": "research/checkpoint-pass67-working.json"
+      }
+    ],
+    "link_anchors_checked": false,
+    "current_new_checkers": [
+      {
+        "path": "research/constant_cubic_nonomission_checks_pass67.py",
+        "methods": [
+          "test_symbolic_polynomial_family_and_all_actual_adjoint_columns",
+          "test_both_actual_inverse_orders_and_exact_nonomission_coefficients"
+        ],
+        "imports": [
+          "unittest",
+          "sympy"
+        ]
+      },
+      {
+        "path": "research/constant_cubic_graph_checks_pass67.py",
+        "methods": [
+          "test_three_exact_determinant_coefficients_and_coordinate_slice"
+        ],
+        "imports": [
+          "unittest",
+          "sympy"
+        ]
+      }
+    ],
+    "regression": {
+      "suites": 132,
+      "methods": 1011,
+      "all_passed": true
+    },
+    "current_additions": {
+      "suites": 2,
+      "methods": 3
+    },
+    "all_working61_through67_additions": {
+      "suites": 6,
+      "methods": 11
+    },
+    "retained_output_hashes_recomputed": 2,
+    "omitted_legacy_output_hashes_recomputed": false,
+    "central_claim_registry_integrated": false,
+    "general_cancellation_verified": false,
+    "scope": "Artifact integrity and actual captured finite-test accounting, not mathematical proof verification. An absent current checkpoint link is deferred because this capture precedes that packet; omitted legacy output is not reconstructed from hashes.",
+    "artifacts": [
+      {
+        "path": "research/dependent-constant-cubic-closure-pass67.md",
+        "bytes": 10601,
+        "sha256": "b622261cf6e082d360958a4a52e931a5c70c3290d826fea95051cdef61f496ee",
+        "lines": 325,
+        "numbered_equations": 19,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/independent-cubic-graph-closure-pass67.md",
+        "bytes": 10050,
+        "sha256": "2daf1253d694c9a1cad9778a91a524925d986624006621d3f526ac5eca7025f3",
+        "lines": 310,
+        "numbered_equations": 23,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/constant-cubic-nonomission-control-pass67.md",
+        "bytes": 7220,
+        "sha256": "241a54adca747f7cc15844340ced38e3a08e5c4da8b291cbc90f7cda20348f6b",
+        "lines": 224,
+        "numbered_equations": 15,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/constant_cubic_nonomission_checks_pass67.py",
+        "bytes": 4142,
+        "sha256": "cfc68256121b4d9cc99552d79ff12035c15a9ba13ffd1d721aac4fd448782706",
+        "lines": 99,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/constant_cubic_graph_checks_pass67.py",
+        "bytes": 3150,
+        "sha256": "51fa55346ebe26e8771dee19bd939156415e565a726a2031c94e1fb6ba704dfb",
+        "lines": 83,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/run_regression_pass67.py",
+        "bytes": 6246,
+        "sha256": "074c63892533b5871a42dc1376e3830585e42ab0305317e964690a96a46a4242",
+        "lines": 144,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/verification-pass67-working.json",
+        "bytes": 98259,
+        "sha256": "f3a00db1f0d024f2257ca4721250d4a5cb72fb13d71f717731f504e7c49aac0b",
+        "lines": 2534,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/constant-cubic-closure-pass67.md",
+        "bytes": 10536,
+        "sha256": "1f3f00385a1807df07d356dfd4167154e34ef5725d6ce08e49fb21537d49ead1",
+        "lines": 230,
+        "numbered_equations": 8,
+        "source_footnotes": 2
+      },
+      {
+        "path": "research/proof-audits-pass67-working.md",
+        "bytes": 13626,
+        "sha256": "d62bb8cd14a239a958fe244c619527a39b0cc54a6b042495bf33895c4f4d3add",
+        "lines": 279,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      },
+      {
+        "path": "research/consistency_checks_pass67.py",
+        "bytes": 10512,
+        "sha256": "f1ae539b9f00e396081a58c321edca4d48d628ed9b56c250e82276f8d024b61d",
+        "lines": 218,
+        "numbered_equations": 0,
+        "source_footnotes": 0
+      }
+    ]
+  }
+}

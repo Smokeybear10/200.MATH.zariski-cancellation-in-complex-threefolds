@@ -1,0 +1,347 @@
+{
+  "pass": 120,
+  "status": "general_cubic_metric_exclusions_and_constant_axis_restriction; general_cancellation_unsolved",
+  "working_target": "Unconfirmed intended complex-threefold cancellation A[u] isomorphic C^[4] implies A isomorphic C^[3]. Literal emailed affine-line conclusion has a dimensional mismatch for general r.",
+  "summary": "Without a polynomial or coordinate first-integral premise, the supplied actual exact cubic framework forces rank Q=3, rank(Q restricted to ker n)=2 and det Q nonconstant. A finite algebraic conic normalization and the highest three actual volume coefficients yield a nonzero constant complex axis v0 with Qv0 constant. The remaining null/non-null conic cases are not excluded.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass119-working.json",
+    "sha256": "fd59e84e9116f5d432923b81f3662f9359554eb6b938e388903fadada2d5f825",
+    "records": 761,
+    "revalidations": [
+      "84b3d2",
+      "19f729"
+    ]
+  },
+  "chain_record_count_after_including_this_checkpoint": 769,
+  "record_count_convention": "761 prior frozen hash records plus seven current artifacts plus this checkpoint. README and research-ledger remain live. Current checkpoint hash is external.",
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-15T02:58:23.621Z",
+    "artifacts": [
+      {
+        "path": "research/cubic-general-degenerate-metric-exclusion-pass120.md",
+        "sha256": "b05103450fa064cc73e40342d43aa97ea5838fbc239f2fea8ab0287eae5894f8",
+        "bytes": 14274,
+        "lines": 318,
+        "equations": 9
+      },
+      {
+        "path": "research/cubic-general-ruled-exclusion-pass120.md",
+        "sha256": "ad099e9c01ba4927f9ca81c21dac204564ca7cf574a8eae3fc44fa7892ba0130",
+        "bytes": 12629,
+        "lines": 293,
+        "equations": 8
+      },
+      {
+        "path": "research/cubic-nondegenerate-conic-axis-pass120.md",
+        "sha256": "841dfa016267c4558b4850f90ad21632de0fd77483ddad928dcf214c1a54ccb4",
+        "bytes": 10233,
+        "lines": 252,
+        "equations": 8
+      },
+      {
+        "path": "research/cubic_conic_axis_checks_pass120.py",
+        "sha256": "ddef12d7343a51decc198b272c872a0af5578766125cddb8e4f5f38a5734ce7e",
+        "bytes": 5166,
+        "lines": 114,
+        "equations": 0
+      },
+      {
+        "path": "research/cubic_rational_transfer_checks_pass120.py",
+        "sha256": "a9836678368493de7f3ac6830ff23cb037cf447e1f348524bdf210d60a917416",
+        "bytes": 3366,
+        "lines": 81,
+        "equations": 0
+      },
+      {
+        "path": "research/verification-pass120-working.json",
+        "sha256": "f9cf4cbbd2b888e7c8ac362957207a2a2c2ea59cd4f8a2d1b4dfd4dfbc305eaf",
+        "bytes": 3944,
+        "lines": 52,
+        "equations": 0
+      },
+      {
+        "path": "research/cubic-general-axis-frontier-pass120.md",
+        "sha256": "227b026ad26fef86dac8f3a91e0a13ba41a764afafb6499ea95884140ed805bd",
+        "bytes": 8094,
+        "lines": 148,
+        "equations": 0
+      }
+    ],
+    "equations": 25,
+    "local_markdown_links": 21,
+    "all_passed": true,
+    "metadata_evidence": "078bf8",
+    "scope": "Seven artifact hashes/bytes/lines,25 sequential equation tags,21 local Markdown links and whitespace. Prior761 frozen records separately revalidated."
+  },
+  "canonical_verification": {
+    "path": "research/verification-pass120-working.json",
+    "tool_evidence": "e5ab6d",
+    "suites": 5,
+    "test_methods": 9,
+    "new_methods": 3,
+    "retained_methods": 6,
+    "elapsed_seconds": 3.393490583,
+    "unittest_seconds": 2.929,
+    "complete_output_sha256": "92d5d449567d6fe000ef9dd87bf01a0afa37e751d88d6af4e0b3ed952fd01124",
+    "all_passed": true,
+    "scope": "Three new exact finite controls: normalized conic connection/tensor and highest volume coefficients with exactness and conditional finite gauge; one rational first-integral/degree-two base-transfer control with a deck-invariant noninverse witness. Six retained119/90 controls. No finite test establishes relative algebraic closedness, splitting-field constants, all-degree scalar descent, original-coordinate irreducibility, actual-frame existence, full cancellation, human expert review or novelty."
+  },
+  "author_runs": [
+    {
+      "checker": "research/cubic_conic_axis_checks_pass120.py",
+      "evidence": "6a1208",
+      "methods": 2,
+      "unittest_seconds": 0.874,
+      "wall_seconds": 0.9974805,
+      "exit_code": 0
+    },
+    {
+      "checker": "research/cubic_rational_transfer_checks_pass120.py",
+      "evidence": "8210e0",
+      "methods": 1,
+      "unittest_seconds": 0.221,
+      "wall_seconds": 0.4670375,
+      "exit_code": 0
+    }
+  ],
+  "proof_reviews": [
+    {
+      "artifact": "research/cubic-general-degenerate-metric-exclusion-pass120.md",
+      "author": "General",
+      "author_evidence": [
+        "782025",
+        "44d0e7"
+      ],
+      "root_reads": [
+        "0998c0"
+      ],
+      "independent_reviews": [
+        {
+          "reviewer": "Geometry",
+          "evidence": [
+            "307715"
+          ],
+          "scope": "Full nine-equation proof, rank-one minors, constant radical, polynomial projections and noncoordinate root-divisor endpoint."
+        },
+        {
+          "reviewer": "Jet",
+          "evidence": [
+            "c2f461"
+          ],
+          "scope": "Full nine-equation scalar transfer and exact polynomial intersection; no source read or run."
+        }
+      ]
+    },
+    {
+      "artifact": "research/cubic-general-ruled-exclusion-pass120.md",
+      "author": "Jet",
+      "author_evidence": [
+        "dfe39c",
+        "f89593"
+      ],
+      "root_reads": [
+        "98000b"
+      ],
+      "independent_reviews": [
+        {
+          "reviewer": "General",
+          "evidence": [
+            "28f940",
+            "b9b0ec",
+            "5c8bc3"
+          ],
+          "scope": "Full eight-equation proof plus final scoped control/code tail; no rerun."
+        },
+        {
+          "reviewer": "Geometry",
+          "evidence": [
+            "b4075d",
+            "8e1382"
+          ],
+          "scope": "Full eight-equation proof plus final code/provenance tail, rational point and base-only unit-volume transfer."
+        }
+      ]
+    },
+    {
+      "artifact": "research/cubic-nondegenerate-conic-axis-pass120.md",
+      "author": "Root",
+      "root_reads": [
+        "d0d702"
+      ],
+      "independent_reviews": [
+        {
+          "reviewer": "General",
+          "evidence": [
+            "f169dc",
+            "1c5d0c"
+          ],
+          "scope": "Full eight-equation proof, independent v5/v4/v3 expansion, finite splitting/gauge and null alternatives."
+        },
+        {
+          "reviewer": "Geometry",
+          "evidence": [
+            "b4075d"
+          ],
+          "scope": "Full eight-equation proof including exact constants under finite extension and volume cancellations."
+        },
+        {
+          "reviewer": "Jet",
+          "evidence": [
+            "498c0b"
+          ],
+          "scope": "Full eight-equation proof and actual polynomial generic-ring unit transfer; no run or source read."
+        }
+      ]
+    },
+    {
+      "artifact": "research/cubic-general-axis-frontier-pass120.md",
+      "author": "Root",
+      "root_reads": [
+        "5024cc"
+      ],
+      "independent_reviews": [
+        {
+          "reviewer": "Geometry",
+          "evidence": [
+            "eded93"
+          ],
+          "scope": "Full synthesis; exclusions distinguished from the surviving axis restriction and arbitrary-frame entry."
+        }
+      ]
+    }
+  ],
+  "code_reviews": [
+    {
+      "artifact": "research/cubic_conic_axis_checks_pass120.py",
+      "methods": 2,
+      "root": [
+        "086c18"
+      ],
+      "independent": [
+        {
+          "reviewer": "Geometry",
+          "evidence": [
+            "8e1382"
+          ]
+        },
+        {
+          "reviewer": "Jet",
+          "evidence": [
+            "a5618d",
+            "e5b90f"
+          ]
+        }
+      ],
+      "scope": "Actual matrix inversion and conditional tensor/volume/gauge identities, not existence of a splitting field or original frame."
+    },
+    {
+      "artifact": "research/cubic_rational_transfer_checks_pass120.py",
+      "methods": 1,
+      "root": [
+        "f6d6da"
+      ],
+      "author": [
+        "353db5",
+        "a54683"
+      ],
+      "independent": [
+        {
+          "reviewer": "Geometry",
+          "evidence": [
+            "8e1382"
+          ]
+        },
+        {
+          "reviewer": "General",
+          "evidence": [
+            "b9b0ec",
+            "5c8bc3"
+          ]
+        }
+      ],
+      "scope": "One explicit rational first integral and degree-two base extension, with exact derivative/volume identities and deck-invariant noninverse witness."
+    }
+  ],
+  "capture_reviews": {
+    "root": [
+      "b67ae4"
+    ],
+    "independent": [
+      {
+        "reviewer": "Geometry",
+        "evidence": [
+          "eded93",
+          "bc885c"
+        ],
+        "scope": "Complete capture, five input hashes, AST counts [2,1,2,3,1], nine recorded successes, output hash and 9=3new+6retained. No rerun."
+      }
+    ]
+  },
+  "source_dependencies": {
+    "primary": {
+      "source": "Michiel de Bondt, arXiv1501.06046v4",
+      "url": "https://arxiv.org/html/1501.06046v4",
+      "fresh_read_by": "General",
+      "evidence": "turn3792view0",
+      "scope": "Selected displayed Theorem3.1/Corollary3.2/Lemma3.3 proofs and retained Theorem1.1 statement/attribution; no fresh audit of every deeper classical dependency."
+    },
+    "root_scope": "Selected field proofs fully read in119 (turn3789view0) and reused through their exact applicability in the new saved proof. No new external classification theorem for the axis result.",
+    "retained_mathematical_framework": [
+      "research/nonconical-quadratic-potential-pass90.md",
+      "research/nonconical-cubic-relation-pass90.md",
+      "research/cubic-moving-frame-constraint-pass118.md",
+      "research/cubic-polynomial-curve-exclusion-pass119.md",
+      "research/cubic-first-integral-polynomial-gates-pass119.md"
+    ]
+  },
+  "new_result_scope": [
+    "Rank Q at most two is excluded in the supplied exact cubic framework without coordinate-first-integral premise.",
+    "Rank Q=3 with rank-one plane restriction is excluded over the full rational invariant field.",
+    "The remaining rank-three nondegenerate plane restriction has det Q nonconstant and a constant ambient axis with constant Q image."
+  ],
+  "unresolved_obligations": [
+    "Exclude or recognize the remaining null-axis conic case using the lower volume coefficients and global original-coordinate reconstruction.",
+    "Exclude or recognize the remaining non-null-axis conic case under the same actual hypotheses.",
+    "Entry of an arbitrary sliced polynomial cylinder into the supplied constant-acceleration framework.",
+    "Independent human expert review, formal proof checking if sought, statement-level novelty clearance.",
+    "Confirmation of the professor's intended corrected field, dimension and conclusion."
+  ],
+  "next_bounded_proof_tasks": [
+    "Prove constant-basis scalar normal forms separately for null and non-null axes.",
+    "Preserve the possibility that the nonconstant ratio of normal entries h gives a proper finite subfield C(h) of L; do not assume scalar coefficients are rational in h.",
+    "Use the lower exact volume coefficients and original coordinate irreducibility; coefficient controls alone do not settle realization."
+  ],
+  "goal_audit": {
+    "objective": "keep going until u solved it",
+    "status": "active",
+    "previous_turn_classification": "progress",
+    "current_turn_classification": "progress",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false
+  },
+  "boundaries": {
+    "human_expert_review": false,
+    "formal_verification": false,
+    "novelty_cleared": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "paid_resources": false,
+    "new_automation": false,
+    "files_through119_frozen": true
+  },
+  "historical_verification": {
+    "pass": 75,
+    "suites": 146,
+    "methods": 1047,
+    "integrity_revalidated": [
+      "84b3d2",
+      "19f729"
+    ],
+    "rerun_in120": false
+  },
+  "live_indexes": [
+    "README.md",
+    "research-ledger.md"
+  ]
+}

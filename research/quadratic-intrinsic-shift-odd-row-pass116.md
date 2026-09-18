@@ -1,0 +1,263 @@
+# Intrinsic translations and the actual closed-point odd rows
+
+Translations by the intrinsic locally nilpotent derivation give a
+two-parameter family of unit-row restrictions on the actual original
+coordinates. Their useful new content is at closed base points.
+The exact relative-degree-two hypothesis already makes the three
+columns b,d,e generically independent. Thus vanishing or proportional
+columns must not be presented as newly recognized nonempty sectors
+of that unresolved branch.
+
+## 1. Retained generic generation already forces full generic rank
+
+Retain the actual presentation and original-coordinate identities of
+[the global conic frontier115](quadratic-global-conic-frontier-pass115.md):
+
+\[
+\begin{gathered}
+S=\mathbb C[s,t],\quad K=\operatorname{Frac}S,\qquad
+A=S[U,r]/(r^2-2PU+\eta),\quad 0\ne P\in S,\\
+NU=r,\quad Nr=P,\quad N|_S=0,\qquad
+B=A[u]=\mathbb C[x_1,x_2,x_3,z],\quad E=\partial_u,\\
+x_{\rm tr}=bu+dU+er+f,\qquad
+z=\frac q2u^2+k_4U^2+k_3rU+k_2U+k_1r+k_0,\\
+b,d,e,f\in S^3,\quad k_i\in S,\quad q\in\mathbb C^*.
+\end{gathered}
+\tag{1}
+\]
+
+The speed b is unimodular, and the nonconical determinant Omega is
+nonzero. The particular relative two-generator plane relation has
+degree exactly two in this branch, not merely at most two.
+
+The full actual generation statement in
+[cubic-relation90, equation (1) and Sections 4--5](nonconical-cubic-relation-pass90.md)
+must be retained: A_Omega=S_Omega[y_1,y_2] and
+A_K=K[y_1,y_2]=K[A_1,A_2]=K[r]. The y_i are obtained by K-linear
+rows from the centered good vector dU+er+f. They differ from the
+original A_i by an invertible K-linear change. The retained degree
+identity says that the relative relation degree equals the maximum
+generic degree of those two generators.
+
+Let L=b_s cross b_t. The actual volume identity88 gives L dot d=0,
+L dot e=0 and L dot b=Omega nonzero. If d=0, both relative good
+generators have r-degree at most one, contrary to exact relative
+degree two. If d is nonzero and e is K-proportional to d, both
+relative good generators belong to K[V] for V=U+lambda r. But V has
+r-degree two, since U=(r squared+eta)/(2P). The equality
+K[y_1,y_2]=K[r] would then imply K[V]=K[r], impossible: every
+nonconstant polynomial in V has even positive r-degree. Thus d,e
+are K-independent. The volume identities now give
+
+\[
+\boxed{\quad \Delta:=\det[b,d,e]\ne0\quad\text{in }S.\quad}
+\tag{2}
+\]
+
+This is not everywhere full rank. It is a previously implicit
+consequence of the exact retained generic generation and branch
+degree, not a new fiber exclusion from the shifts below. In
+particular e=0 or e in Sd is already impossible in this exact
+relative-degree-two branch. The broader conditional coordinate
+implications in the preceding116 notes remain valid but do not
+supply additional unresolved sectors here. If d=0 in a broader
+degree-at-most-two setting, the relative relation has degree one
+and is already treated by
+[linear-recognition91](nonconical-linear-relation-recognition-pass91.md).
+
+## 2. The intrinsic shift is an actual polynomial automorphism
+
+Fix a in S. Since Na=0, aN is locally nilpotent. Its exponential
+tau_a=exp(aN) is a polynomial automorphism of A and B, with inverse
+tau_-a; it fixes S,u and commutes with E. Set
+
+\[
+\begin{gathered}
+U_a=U+ar+\frac{a^2P}{2},\qquad r_a=r+aP,\\
+U=U_a-ar_a+\frac{a^2P}{2},\qquad r=r_a-aP,\\
+r_a^2-2PU_a+\eta=0,\qquad NU_a=r_a,\quad Nr_a=P,\\
+A=S[U_a,r_a],\qquad B=S[U_a,u]\oplus r_a S[U_a,u].
+\end{gathered}
+\tag{3}
+\]
+
+Both inverse identities in (3) are exact before using the conic
+relation. In particular no rational replica or unproved denominator
+descent is being used. The sign involution in r_a is the actual
+conjugate tau_a sigma tau_-a; it fixes S,U_a,u. The canonical slice
+u=Ez/q has not changed.
+
+Substitution of (3), followed by r_a squared=2PU_a-eta, gives
+
+\[
+\begin{gathered}
+x_{\rm tr}=bu+dU_a+e_a r_a+f_a,\qquad
+e_a=e-ad,\quad f_a=f-aPe+\frac{a^2P}{2}d,\\
+z=\frac q2u^2+k_{4,a}U_a^2+k_{3,a}r_aU_a
+                  +k_{2,a}U_a+k_{1,a}r_a+k_{0,a},\\
+k_{4,a}=k_4,\qquad k_{3,a}=k_3-2ak_4,\\
+k_{2,a}=k_2-3aPk_3+3a^2Pk_4,\\
+k_{1,a}=k_1-ak_2+\frac32a^2Pk_3-a^3Pk_4,\\
+k_{0,a}=k_0-aPk_1+\frac{a^2P}{2}k_2
+       +\left(a\eta-\frac{a^3P^2}{2}\right)k_3
+       +\left(\frac{a^4P^2}{4}-a^2\eta\right)k_4.
+\end{gathered}
+\tag{4}
+\]
+
+For example the square U squared contributes 3a squared P to the
+U_a coefficient, because its explicit a squared P U_a term and
+its a squared r_a squared term both contribute. This explains
+the factor three in (4); no coefficient is extracted before the
+conic reduction.
+
+## 3. Every intrinsic shift admits the slice-shift argument
+
+Fix also alpha in S and set v=u+alpha r_a. Apply the actual
+slice-shift argument of
+[odd-row116, Sections 2--3](quadratic-involution-odd-row-pass116.md)
+to the conic coordinates U_a,r_a. The original four coordinates
+are still the exact polynomial generators of B. With
+I_(a,alpha) the S-ideal generated by the three entries of
+e-ad-alpha b, it proves
+
+\[
+\begin{gathered}
+(e-ad-\alpha b,\ (k_3-2ak_4)U_a+k_{1,a}-q\alpha v)
+          S[U_a,v]=S[U_a,v],\\
+(I_{a,\alpha},k_{1,a})=S,\qquad
+\alpha,\ k_3-2ak_4\in\sqrt{I_{a,\alpha}}
+\quad(a,\alpha\in S).
+\end{gathered}
+\tag{5}
+\]
+
+For completeness, this uses the fixed ideal (r_a), its generation
+by differences of the four original polynomial generators, domain
+cancellation of r_a, and contraction through the free rank-two
+extension S[U_a,v] to B. Modulo I_(a,alpha), the last displayed
+polynomial is a unit. Its constant coefficient must be a unit
+and its two other coefficients must be nilpotent. All ideal
+statements in (5) include possible nonreduced coefficient ideals.
+
+## 4. Exact closed-point restrictions and their boundary
+
+At a closed base point m, use subscript 0 for coefficient values.
+The constants a and alpha in (5) may be chosen independently.
+Thus any scalar equality e_0=a_0 d_0+alpha_0 b_0 forces
+alpha_0=0. If e_0=a_0d_0, the remaining conclusions are
+
+\[
+\begin{gathered}
+e_0=a_0d_0\quad\Longrightarrow\quad
+k_{3,0}=2a_0k_{4,0},\\
+k_{1,0}-a_0k_{2,0}
+ +\frac32a_0^2P_0k_{3,0}-a_0^3P_0k_{4,0}\ne0.
+\end{gathered}
+\tag{6}
+\]
+
+In particular, when b_0,d_0 are independent and e_0 belongs to
+their span, e_0 must be a multiple of d_0, with (6). When d_0=0,
+the earlier alternatives remain: e_0=0 or b_0,e_0 are independent.
+
+There is an important different case. If d_0 is a nonzero multiple
+of b_0, (5) forces e_0 to be independent of b_0; it does not by
+itself exclude this configuration. If e_0 were also in that line,
+varying a_0 would produce an equality with alpha_0 nonzero. But
+if e_0 is independent, e_0-a_0d_0-alpha_0b_0 never vanishes,
+and the pointwise unit-row conditions impose no contradiction.
+Thus (5) must not be reported as everywhere independence of b,d.
+
+There is a further exclusion on the actual special divisor P=0.
+Suppose P_0=0 and d_0=delta b_0 with delta nonzero. The preceding
+paragraph gives independence of b_0,e_0. Choose constant affine
+good linear combinations on this whole fiber to recover
+w=u+delta U and r; the third good combination is constant.
+With R0=C[r]/(r squared+eta_0), original polynomial generation
+then gives
+
+\[
+\begin{gathered}
+B/\mathfrak mB=R_0[w,U]=R_0[w,\bar z],\\
+\bar z=\frac q2w^2
+ +\left(\frac q2\delta^2+k_{4,0}\right)U^2
+ +(k_{2,0}-q\delta w+k_{3,0}r)U
+ +k_{1,0}r+k_{0,0}.
+\end{gathered}
+\tag{7}
+\]
+
+Reduce R0 at either of its complex points r=r_i; for a double
+root use its single reduced point. Equality in (7) gives
+C[w,U]=C[w,z_i]. A polynomial generator z_i of this one-variable
+polynomial algebra has U-degree one and unit leading coefficient
+in C[w], by comparison with a polynomial inverse. Its displayed
+linear coefficient contains -q delta w, which is not a unit.
+This is a contradiction. Consequently on P=0, d_0 is either zero
+or independent of b_0. The argument does not extend to P_0 nonzero,
+where U is already a polynomial in r.
+
+The exact generation over Omega gives one further scalar support
+restriction. Suppose P_0=Delta_0=0 but Omega_0 is nonzero. Then
+the plane L_0-perp is complementary to b_0 and contains d_0,e_0;
+their vanishing determinant makes them dependent. The two relative
+generators y_i are therefore affine polynomials in a single
+V=delta U+epsilon r, or both are constant. Generation over Omega
+specializes to equality with the entire fiber
+C[U,r]/(r squared+eta_0). If delta=0, their image has dimension
+zero. If delta is nonzero, C[V] is a polynomial one-ring: reduction
+at any root of r squared+eta_0 makes V an affine coordinate in U,
+proving its transcendence. At least one nonconstant affine generator
+then generates C[V] itself. Neither case can give the whole fiber,
+which is nonreduced if eta_0=0 and a product of two one-rings
+otherwise. Thus
+
+\[
+V(P,\Delta)\subseteq V(\Omega),\qquad
+\Omega\in\sqrt{(P,\Delta)}\quad\text{in }S.
+\tag{8}
+\]
+
+The ideal conclusion is Hilbert's Nullstellensatz over C. It is not
+Delta being a unit modulo P everywhere: no such conclusion is made
+on Omega=0. This is a direct coefficient consequence of the retained
+whole algebra equality A_Omega=S_Omega[y_1,y_2], not a fresh
+recognition theorem about arbitrary conics.
+
+## 5. Recognition implications and the unresolved locus
+
+If one assumes e=ad for a polynomial a in S in the broader algebraic
+setup (1), then e_a=0. The zero-column argument gives an actual
+triangular inverse making r_a an ambient coordinate, anti-invariant
+for its conjugate sign involution and fixed by E. The
+[fixed-surface theorem116](quadratic-fixed-surface-recognition-pass116.md)
+then gives A=C[r_a]^[2]. This implication uses an actual polynomial
+replica and is valid. However Section 1 shows that its antecedent
+cannot occur in the exact unresolved quadratic branch. It is not
+a new nonempty recognition case there.
+
+Similarly there is no generic proportionality denominator left to
+descend in that exact branch: d,e are already K-independent. If
+one drops the exact relative degree and actual generic generation,
+a proportionality coefficient need not belong to S merely because
+d,e have entries in S. No rational shift is promoted to an actual
+automorphism by this note.
+
+The useful additional restrictions are (5)--(8), at the closed
+degeneracy locus of the nonzero determinant (2). They do not make
+that determinant a unit or recognize all supplied frames. The
+relative cubic branch and entry of an arbitrary sliced action into
+an appropriate frame remain separate unresolved obligations.
+
+## Reading and verification scope
+
+The complete retained cubic-relation90 and linear-recognition91
+proofs were freshly read for Section 1, alongside the current global
+presentation and the actual odd-row and fixed-surface116 proofs.
+The exact intrinsic translation and all five fourth-coordinate
+coefficients are derived in (3)--(4). The shared
+[checker116](quadratic_involution_checks_pass116.py) has a separate
+finite method for these identities; no execution or universal
+geometric certification by that method is claimed here. No file
+through115 was edited, and no new primary theorem is invoked.

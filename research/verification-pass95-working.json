@@ -1,0 +1,39 @@
+{
+  "started_at_utc": "2026-09-14T16:07:34.066Z",
+  "finished_at_utc": "2026-09-14T16:07:34.688Z",
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.double_component_initial_checks_pass95",
+    "research.projected_generator_extraction_checks_pass95",
+    "research.cubic_quadratic_pencil_checks_pass95"
+  ],
+  "exit_code": 0,
+  "suites": 3,
+  "test_methods": 3,
+  "wall_seconds": 0.615537166,
+  "unittest_seconds": 0.177,
+  "input_files": [
+    {
+      "path": "research/double_component_initial_checks_pass95.py",
+      "sha256": "ba08d2304141b49c6b23e86cc3624cb67b9757d941ebefad55f3741c99afe51b"
+    },
+    {
+      "path": "research/projected_generator_extraction_checks_pass95.py",
+      "sha256": "5d1b11a2624e504984456e0bdbac4ba774eb8e3493fd4194c827263163dfea16"
+    },
+    {
+      "path": "research/cubic_quadratic_pencil_checks_pass95.py",
+      "sha256": "dc59941e7c7ae875a706d80adf2c3b5378a573a6ec5d2bd707b954b1c881d4d1"
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "stdout": "",
+  "stderr": "test_quadratic_pencil_and_surface_initial_operators (research.double_component_initial_checks_pass95.DoubleComponentInitialControls.test_quadratic_pencil_and_surface_initial_operators) ... ok\ntest_actual_inverse_projection_and_critical_curve (research.projected_generator_extraction_checks_pass95.ProjectedGeneratorExtractionControls.test_actual_inverse_projection_and_critical_curve) ... ok\ntest_sharp_normal_frame_and_artin_lengths (research.cubic_quadratic_pencil_checks_pass95.CubicQuadraticPencilControls.test_sharp_normal_frame_and_artin_lengths) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.177s\n\nOK\n",
+  "output_hash_convention": "stdout + one newline + stderr",
+  "complete_output_sha256": "11801a403c48cab8e7a95159aa4e8237a03e878211506a094b111c1de1a80dbd",
+  "all_passed": true,
+  "scope": "Finite exact initial-operator and normal-frame controls, two Artin algebras, and an actual inverse/projection/critical-curve example. Not a formal verifier of universal geometry, the all-coefficient existence proof or cancellation."
+}

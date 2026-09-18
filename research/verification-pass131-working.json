@@ -1,0 +1,60 @@
+{
+  "pass": 131,
+  "status": "targeted_exact_controls_and_bounded_inverse_verified_search_passed",
+  "working_directory": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+  "execution_owner": "Root",
+  "unittest": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python -m unittest research.three_good_primitive_profile_orbit_checks_pass131 research.three_good_mixed_cubic_gate_checks_pass130 -v",
+    "execution_evidence": "576a0d",
+    "exit_code": 0,
+    "completed_in_initial_call": true,
+    "ongoing_session": null,
+    "test_methods": 7,
+    "new_methods": 3,
+    "retained_methods": 4,
+    "unittest_reported_seconds": 0.362,
+    "tool_call_wait_seconds": 0.633626209,
+    "before_hash_evidence": "576a0d",
+    "after_hash_evidence": "abd0bb",
+    "inputs": [
+      {"path": "research/three_good_primitive_profile_orbit_checks_pass131.py", "sha256": "c6a47aa0ecf201b073b48625ef5717856aa5cba1ca5238ec52322b87503abe1e", "root_complete_source_read": "b92760", "test_methods": 3},
+      {"path": "research/three_good_mixed_cubic_gate_checks_pass130.py", "sha256": "0a04163d0f80a226343dfb8e2ff4477c0c3c5858245d2d471392eb510162b058", "source_scope": "Frozen predecessor, rerun unchanged; complete source review recorded in checkpoint130.", "test_methods": 4}
+    ],
+    "coverage": "General constant-cubic divided-difference frame and polynomial inverse in both orders; exceptional good-coordinate replacement and invariant rescaling; theta=0 density failure despite invertibility; nonzero linear-Z bad shear; 225 exact leading signatures at each of two weights, with actual leading coefficients checked; a three-step profile-preserving word; and an explicit seven-shear profile-leaving/reentering word changing C[I], including both inverse-word orders. Four retained130 methods check the derivative gates and recognition-hypothesis boundaries."
+  },
+  "bounded_search": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 /opt/anaconda3/bin/python research/three_good_primitive_gate_search_pass131.py --seconds 20 --max-words 192 --term-cap 4000",
+    "path": "research/three_good_primitive_gate_search_pass131.py",
+    "sha256": "725ba4a0d9c51248854c54c16c2dbf682d0c19c33b8b1ccd7663619caef4e5f8",
+    "root_complete_source_read": "db2c74 plus complete inverse-check delta cb9707",
+    "execution_evidence": "db152d",
+    "exit_code": 0,
+    "completed_in_initial_call": true,
+    "ongoing_session": null,
+    "before_hash_evidence": "db152d",
+    "after_hash_evidence": "abd0bb",
+    "attempted_words": 192,
+    "inverse_verified_words_both_orders": 192,
+    "unique_final_tuples": 133,
+    "counts": {"duplicate": 59, "profile_rejected": 124, "both_gates_pass": 9},
+    "stop_reason": "exhausted_family",
+    "time_cutoff": false,
+    "sparse_cutoff": false,
+    "findings": [],
+    "script_reported_seconds": 0.6841685420367867,
+    "tool_call_wait_seconds": 0.94784875,
+    "family": "Four-step commutators of one quadratic and one linear elementary shear among Y,Z,W, with u-exponent zero or one and either sign on the linear shear. Original X=u is fixed. Distinct qualifying endpoints are tested by exact rational coefficient linear algebra. This is a bounded family, not a search over all elementary words."
+  },
+  "earlier_author_exploration": {
+    "owner": "Jet",
+    "execution_evidence": "948937",
+    "script_sha256": "94b2941126a49d29053fe1fc7a756f25f8c556d131419342ad7c066a0c5a3935",
+    "attempted_words": 192,
+    "counts": {"duplicate": 59, "profile_rejected": 124, "both_gates_pass": 9},
+    "script_reported_seconds": 0.282403667,
+    "scope": "Historical author execution of the earlier script, before Root added runtime checks of both inverse-composition orders. Not a peer execution of the current script or of the independent unittest file."
+  },
+  "before_and_after_hashes_match": true,
+  "timing_scope": "Tool waits are not separately measured process wall-clock durations. Elapsed runtime fields are observational, not deterministic mathematical outputs.",
+  "limits": "These are exact finite controls, not a computational proof of the universal elementary-word stability theorem. The examples have a coordinate slice X=u; they do not establish entry for nonunit-speed frames or arbitrary sliced derivations. No absence theorem for primitive gate failures, full historical rerun, complete-output checksum, human review, Lean verification, or novelty clearance is claimed."
+}

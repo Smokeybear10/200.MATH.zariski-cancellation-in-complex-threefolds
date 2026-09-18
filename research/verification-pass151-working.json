@@ -1,0 +1,124 @@
+{
+  "pass": 151,
+  "status": "all_degree_polynomial_slice_off_speed_determinant; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/dense-all-degree-primitive-jacobian-factor-pass151-working.md",
+      "sha256": "20fd8906b0f4057ec13529df077f27ec01bd861f2263e0c1325d2cbe014b9c61",
+      "bytes": 16739,
+      "lines": 386,
+      "equations": 11,
+      "test_methods": 0
+    },
+    {
+      "path": "research/nonsliced-top-three-good-gate-pass151-working.md",
+      "sha256": "78d3ee2bb84d4ddd634626be1173a7d59ba02840f4d55298fde22e9c913f46be",
+      "bytes": 8809,
+      "lines": 226,
+      "equations": 9,
+      "test_methods": 0
+    },
+    {
+      "path": "research/off_omega_tail_slice_controls_pass151.py",
+      "sha256": "0ee6bfc26fe181aa6917db9be1c8531749d509c71d908744251dbb27859a23e4",
+      "bytes": 9792,
+      "lines": 206,
+      "equations": 0,
+      "test_methods": 2
+    },
+    {
+      "path": "research/nonsliced_top_gate_controls_pass151.py",
+      "sha256": "76bad9da1a4dafd48cbb34d510202430911707cf896e134a4e792407b867b458",
+      "bytes": 6958,
+      "lines": 165,
+      "equations": 0,
+      "test_methods": 3
+    }
+  ],
+  "main_result": {
+    "hypotheses": "Actual dense three-good frame139, S=ker N=C[P,Q] from the separately retained intrinsic quotient theorem; no bound on the last coordinate's E-degree.",
+    "factor": "N=Omega*D, Omega=det[a,a_P,a_Q], D=Jac(P,Q,u,.) in original coordinate order. D is a global primitive LND.",
+    "new_descent": "On R=S[1/(Omega*s)], inverse speed-ratio Jacobian makes coefficient partials preserve R. Descending peeling forces every f_j and corrected f_-1 into R. The signed second tail Psi belongs R[U,V] and (N/s^2)Psi(y,z)=1.",
+    "patching": "Omega belongs to the ideal of the three speeds. Clear each local N-slice denominator, combine with invariant coefficients, and get an N-slice on A_Omega. Scaling gives a primitive D-slice and A_Omega=S_Omega[r].",
+    "consequences": "Full divisor constants ell_p equal k_p for p not dividing Omega. The primitive plinth is supported on Omega=0; some Omega^n belongs to D(A) intersect S. If Omega is a nonzero complex constant, A=C^[3] in this actual coordinate regime.",
+    "dependency_limits": "The off-Omega recognition proof can patch N directly and does not need primitive-factor theorem or first-tail primitivity145. It does need actual chart139 and its corrected negative-tail identities, not just a generic line or a free action.",
+    "remaining": "No result here removes Omega=0 or supplies arbitrary three-good entry. No full cancellation or historical novelty claim."
+  },
+  "failed_realization": {
+    "pair": "B=C[u,a,b,c], E=partial_u, T=u*partial_a+(1+u^2*a)*partial_b+u^2*b*partial_c.",
+    "proved": "Both actions are sliced coordinate derivations with an explicit two-sided polynomial inverse. The exact quadratic top L=a*partial_b+b*partial_c is primitive and nonsliced; its full a-divisor constants have degree2.",
+    "gate": "The complete polynomial calculation gives ker T intersect ker E^2=C plus C*u, so three E-affine coordinates fixed by T cannot exist. There is also no E-invariant T-slice.",
+    "limits": "A failed actual-pair construction, not a selected-frame counterexample or a counterexample to cancellation."
+  },
+  "canonical_executions": [
+    {
+      "command": "/opt/anaconda3/bin/python research/off_omega_tail_slice_controls_pass151.py -v",
+      "source_sha256": "0ee6bfc26fe181aa6917db9be1c8531749d509c71d908744251dbb27859a23e4",
+      "source_read": "Root full826507 before execution",
+      "test_output": "1e3f49",
+      "completion_output": "db0259",
+      "exit_code": 0,
+      "methods": 2,
+      "seconds": 0.78,
+      "state": "terminal; final poll closed session65319",
+      "scope": "Independent exact identities for actual sharp140 degrees2,3 and nonconstant-Omega146: both inverse orders, actual T/top, ratio-Jacobian derivatives, recovered signed tails and primitive-slice rescaling."
+    },
+    {
+      "command": "/opt/anaconda3/bin/python research/nonsliced_top_gate_controls_pass151.py -v",
+      "source_sha256": "76bad9da1a4dafd48cbb34d510202430911707cf896e134a4e792407b867b458",
+      "source_read": "Root full3c6971 before execution",
+      "test_output": "71b206",
+      "completion_output": "71b206",
+      "exit_code": 0,
+      "methods": 3,
+      "seconds": 0.099,
+      "state": "terminal; no session handle",
+      "scope": "Both inverse orders, actual coordinate derivations, exact quadratic top and finite nilpotence chains, and coefficient/parity controls for the written affine-first-integral classification."
+    }
+  ],
+  "runtime": {
+    "python": "3.13.5 Anaconda",
+    "sympy": "1.13.3",
+    "fresh_read": "785a43"
+  },
+  "verification_limits": "Finite symbolic identities and separate AI reconstructions are not formal proof checking, human expert review, or a proof of the general conjecture. No test assertion failed and no test execution remains pending.",
+  "reviews": {
+    "root": "Full pair note2102ff/checker3c6971; full maincb4452 then all final deltas1290d7/df0c5e/cc2975; final main metadata24b522; full new checker826507; fresh actual139 charta70588/a2e78a and signed tailcd2a16; retained91full5dc98c and90full e6169f.",
+    "general": "Main author complete final0f25f3/e2bc47 at20fd8906; independent pair note/checker and full new checker source reviews, no test executions.",
+    "geometry": "Pair full72a9d3; independent off-Omega argument432e79; main full5121e9 with deltas e7551d/0ea736 at51b8c19 before checker-link-only finaldelta; full new checker e7551d at0ee6bfc2.",
+    "jet": "Pair and both-checker author EOF reads; independent main full4a936f at51b8c19 before checker-link-only finaldelta; final source guard9d5cbe. Project executions are Root's canonical runs above."
+  },
+  "literature": {
+    "url": "https://arxiv.org/html/2302.13787v6",
+    "checked": "Root turn4115view0: definitions and precise two-variable relative hypotheses, plus recalled three-variable nice theorem.",
+    "scope": "Targeted applicability check only; no new external classification used in the151 proof, and not a historical-priority audit."
+  },
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass150-working.json",
+    "sha256": "6f0f1cbe5d869217a24d7dac2aa69c3be76d9c0ebfe312c156d79038bcbd72f9",
+    "records": 983
+  },
+  "remaining_gaps": [
+    "Full residue-field behavior on the speed-determinant divisor Omega=0, or another global descent mechanism.",
+    "Entry into the supplied dense three-good coordinate setting from an arbitrary sliced action and treatment of other profiles.",
+    "Professor-intent confirmation, human expert reconstruction and historical priority."
+  ],
+  "goal_audit": {
+    "previous_turn_classification": "progress: new151 exact pair verification71b206 and independent review",
+    "current_turn_classification": "progress: all-degree primitive-factor extension, actual polynomial slice on all of D(Omega), two independently reviewed notes and five passing finite exact methods across two distinct sources",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  }
+}

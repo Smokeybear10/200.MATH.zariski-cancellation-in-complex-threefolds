@@ -1,0 +1,311 @@
+{
+  "status": "AI-audited working78: the proper binary parameter ideal is excluded in the actual nonlinear supplied-good nice branch; explicit relative hypersurface reduction. Unrestricted cancellation remains unproved.",
+  "previous_working_checkpoint": "research/checkpoint-pass77-working.json",
+  "previous_integrated_checkpoint": "consistency-pass-60.json",
+  "current_research_pass_classification": "progress",
+  "previous_check_in_classification": "No progress: status-only response. This continuation revalidated the authoritative state and completed new proof and exact finite verification.",
+  "synthesis": "research/binary-unit-ideal-frontier-pass78.md",
+  "proof_audit": "research/proof-audits-pass78-working.md",
+  "verification_record": "research/verification-pass78-working.json",
+  "historical_integrated_counts": {
+    "claims": 544,
+    "test_methods": 1000,
+    "suites": 126
+  },
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047,
+    "all_passed": true
+  },
+  "targeted_verification": {
+    "path": "research/verification-pass78-working.json",
+    "sha256": "26373c9bc2301ec9b6f7083ae933ba502f7e0d1baa27c5466e6ae420231efccb",
+    "suites": 1,
+    "test_methods": 4,
+    "all_passed": true,
+    "started_at_utc": "2026-09-14T07:26:38.957997+00:00",
+    "finished_at_utc": "2026-09-14T07:26:39.560741+00:00",
+    "monotonic_wall_seconds": 0.602369,
+    "unittest_seconds": 0.28,
+    "tracked_inputs": 3,
+    "retained_complete_outputs": 1
+  },
+  "new78_suites": 1,
+  "new78_test_methods": 4,
+  "fresh_full78_regression_performed": false,
+  "central_registry_integrated": false,
+  "completed_deductions": [
+    "Under the actual nonlinear ternary-cone, nice sliced and supplied-good-direction hypotheses, (p,q)S=S and the three transverse velocities generate S. All proper binary zero fibers, including ramified and nonreduced ones, are excluded.",
+    "The original polynomial normal invariant c=(h_p cross h_q)(p,q) dot x_trans lies in the actual common invariant plane S. Faithful-flat ideal contraction gives coefficients a_i in S. The regular-sequence associated graded at a hypothetical height-two parameter prime forces x_i-a_i into that prime; its three constant affine-linear equations contradict height two.",
+    "After the unit-ideal result, the primitive binary normal and transverse velocity are unimodular over S. Two Bezout identities and explicit cross products give a determinant-one relative basis, an actual polynomial slice, and A=S[y2,z] with a height-one principal defining relation over S=C[u,v]. This is not coordinate recognition.",
+    "In the relative presentation, delta(y2)=omega G(p,q)/e is nonzero, where G is the full binary gcd of the normal and omega=pTq-qTp. This element is not asserted to be a unit, S-valued or delta-invariant.",
+    "Throughout the nonlinear supplied-good binary branch, including dependent and unit parameter pairs, det(P,e4,Q,[T,Q])=p^(3e-6) omega^3 det(f,f',f'') is nonzero. Hence these four fields have generic rank four, and Q^2(x) is not rationally parallel to Q(x). No universal Q^3 bound follows.",
+    "For independent p,q the original Jacobian has exact fraction-field factorization J=UV and J^2=-(gamma/omega)Q eta. Gamma and omega are nonzero; eta has invariant polynomial coefficients. This does not assert local regularity of parameter derivatives.",
+    "The intermediate socle, reduced-component and regular-derivative obstructions were proved with all nilpotents retained. Their proper-parameter premise is now excluded in the actual branch. The weaker polynomial-plane example still has a genuine Euler pole and is not an original-action example.",
+    "A polynomial three-variable map with nilpotent Jacobian and projective ratios in C(y-F(x)), with F rational and F' nonconstant, has planar image. The proof uses the original Jacobian and highest-z coefficient, not preservation of nilpotence by nonlinear coordinate substitution."
+  ],
+  "superseded_live_obligations": [
+    "Do not continue trying to realize a proper binary parameter ideal under the same supplied-good nonlinear nice hypotheses: it is excluded by the normal-invariant theorem.",
+    "The old content lower bound h in (p,q)^(2e-1) supplies no restriction after the parameter ideal is proved to be S.",
+    "Ramification/pole removal is no longer needed to exclude the original proper-parameter branch; the earlier local notes are retained as conditional lemmas and weaker-model controls."
+  ],
+  "remaining_mathematical_obligations": [
+    "Recognize an arbitrary original sliced action under the unconfirmed complex-threefold interpretation, without assuming an available nice frame.",
+    "Resolve the no-good-direction nonlinear image-cone branch, or provide another recognition route which does not require a constant good direction.",
+    "In the remaining supplied-good nonlinear branch, use the actual relative hypersurface and original-action identities to prove polynomial recognition or control the primitive intrinsic fixed-locus ideal. Relative two-generation alone is insufficient.",
+    "Independent unit parameter pairs need not be coordinates or have globally finite parameter map. No classification of all such actual pairs has been proved.",
+    "A universal third-iterate bound for the original-coordinate derived field remains unproved. The all-profile height threshold remains ten.",
+    "Confirm the professor's intended corrected statement, field and dimension.",
+    "Complete a statement-level historical novelty audit, human expert review and any claimed formal verification before a public research claim. No external contact is authorized by this packet."
+  ],
+  "next_bounded_actions": [
+    "Start from the explicit matrix inverse and A=S[y2,z]=S[Y,Z]/(F). Derive the original good-partial equations in this relative presentation, retaining the exact content and primitive quotient, and seek a criterion that excludes its actual primitive fixed points.",
+    "Use the nonzero actual value delta(y2)=omega G(p,q)/e together with the second relative velocity and local complete-intersection fibers. Test any proposed unit or slice implication against the retained Weitzenbock plane-hypersurface control before claiming freeness.",
+    "Keep the no-good-direction and arbitrary-frame obligations active. Search for a source-checked recognition result or an actual construction satisfying all hypotheses, not a repeated proper-parameter or abstract intrinsic replica model."
+  ],
+  "proof_review_kind": "Separate complete AI mathematical reconstructions, selected primary-proof reads and final scope/provenance review. Finite exact controls and file hashes are distinct. Not human expert or formal verification.",
+  "primary_source_audit": {
+    "checked_at_utc": "2026-09-14T07:34:34.525Z",
+    "all_passed": true,
+    "files": [
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.pdf",
+        "sha256": "b4df87f9a4042c1110915f50779be26decb6473fc13fccb99038a91bcb9f3a03",
+        "bytes": 2153645
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.txt",
+        "sha256": "31b95df36405d2cf9b50cf24e649bc75a40b490a0f2caebdca0de0416bf85816",
+        "bytes": 862237
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77-source.md",
+        "sha256": "4a8edfdd91fd0ef6441384a92b5aa45b2cc39f19958abcc7fbe363c89f237b83",
+        "bytes": 1170
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.sha256",
+        "sha256": "243073116eef79c9fd0d28c06add2c602bf7aeae3797e10373be8252b35ddd00",
+        "bytes": 214
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.txt",
+        "sha256": "2450cbb34179187172a6c81dfedba9752ecb32b067c5a62ffcb2decab7f236d9",
+        "bytes": 98069
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.pdf",
+        "sha256": "31cec362bd10fbe65e2a4622979fbcf4fbff2bcd585bae9dd3fe78bc330d49cc",
+        "bytes": 387538
+      }
+    ]
+  },
+  "selected_primary_reads": [
+    {
+      "title": "Quasi-regular sequences",
+      "publisher": "The Stacks Project",
+      "urls": [
+        "https://stacks.math.columbia.edu/tag/061M",
+        "https://stacks.math.columbia.edu/tag/00LN"
+      ],
+      "scope": "Selected canonical definition and complete regular-sequence-to-quasi-regular displayed proof; arbitrary nonreduced coefficient algebra retained."
+    },
+    {
+      "title": "Duality and socle generators for residual intersections",
+      "authors": "David Eisenbud and Bernd Ulrich",
+      "url": "https://arxiv.org/pdf/1309.2050v4",
+      "scope": "Appendix Section8 parts1-5 and Theorem8.1 complete selected proof, printed40-41. Not all historical dependencies or all residual-intersection theorems."
+    },
+    {
+      "title": "C+-actions on contractible threefolds",
+      "authors": "Shulim Kaliman and Nikolai Saveliev",
+      "url": "https://www.math.miami.edu/~kaliman/library/KaSa.michigan.2004.quotient.pdf",
+      "scope": "Lemma2.1 statement, Theorem2.7 and Corollary2.8 complete displayed proofs; full saved intrinsic cylinder applicability proof reread. Not a new proof of all cited geometric classifications."
+    },
+    {
+      "title": "Regular local rings; miracle flatness",
+      "publisher": "The Stacks Project",
+      "urls": [
+        "https://stacks.math.columbia.edu/tag/00NN",
+        "https://stacks.math.columbia.edu/tag/00R4"
+      ],
+      "scope": "Selected complete displayed proofs for the reduced intermediate argument and inherited intrinsic quotient applicability. No parameter-map miracle-flatness premise in the final normal proof."
+    }
+  ],
+  "constant_good_equals_velocity_cone_apex_proved": true,
+  "nice_sliced_jacobian_cube_zero_proved": true,
+  "actual_binary_parameter_restrictions_proved": true,
+  "proper_binary_parameter_ideal_excluded": true,
+  "proper_binary_parameter_ideal_exclusion_scope": "Actual nonlinear ternary velocity cone, nice sliced original action and supplied constant good direction, with the source-checked binary and intrinsic quotient inputs.",
+  "relative_two_generator_hypersurface_proved": true,
+  "derived_wronskian_generic_rank_four_proved": true,
+  "general_nice_sliced_good_partial_primitive_freeness_proved": false,
+  "universal_good_partial_Q_cube_bound_proved": false,
+  "arbitrary_nice_action_recognized": false,
+  "all_profile_height_threshold": 10,
+  "conditional_nonpolynomial_kernel_minimum_height_lower_bound": 11,
+  "universal_frame_existence_proved": false,
+  "universal_nice_frame_existence_proved": false,
+  "general_conjecture_solved": false,
+  "novelty_claimed": false,
+  "human_expert_review": false,
+  "proof_assistant_verified": false,
+  "interpretation_confirmed_by_professor": false,
+  "external_contact_or_submission": false,
+  "predecessor_audit": {
+    "checked_at_utc": "2026-09-14T07:34:19.595Z",
+    "all_passed": true,
+    "prior_hash_records": 340,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "81326ae6ffdcf8c634f66bc8af180713e65798a2591a594df7b690c3bfed7eca",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "artifact_integrity": {
+    "checked_at_utc": "2026-09-14T07:34:34.525Z",
+    "all_passed": true,
+    "prior_hash_records": 340,
+    "current_artifacts": 14,
+    "total_hash_records": 354,
+    "local_link_paths_checked": 644,
+    "deferred_checkpoint_links": [
+      {
+        "source": "research/binary-unit-ideal-frontier-pass78.md",
+        "target": "research/checkpoint-pass78-working.json"
+      },
+      {
+        "source": "research/proof-audits-pass78-working.md",
+        "target": "research/checkpoint-pass78-working.json"
+      },
+      {
+        "source": "README.md",
+        "target": "research/checkpoint-pass78-working.json"
+      },
+      {
+        "source": "research-ledger.md",
+        "target": "research/checkpoint-pass78-working.json"
+      }
+    ],
+    "link_anchors_checked": false,
+    "link_scan_ignores_tex_math": true,
+    "current_numbered_equations": 85,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "new78_suites": 1,
+    "new78_methods": 4,
+    "targeted_suites": 1,
+    "targeted_methods": 4,
+    "retained_output_hashes_checked": 1,
+    "current_run_sources_checked": 3,
+    "primary_source_files_checked": 6,
+    "central_claim_count": 544,
+    "mathematical_suites_executed": 0,
+    "regression_runners_executed": 0,
+    "scope": "Read-only current hashes, equation numbering, local paths, text hygiene and saved run accounting. Predecessor hashes were checked separately. Not mathematical proof verification.",
+    "artifacts": [
+      {
+        "path": "research/binary-euler-reduction-pass78.md",
+        "sha256": "1d8a1b67db7398f38d09b4a9158124b49e60d8ddcd5ecaf06cf758f477dbe4b1",
+        "bytes": 7059,
+        "lines": 176,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/nonlinear-shear-projective-obstruction-pass78.md",
+        "sha256": "354272f0b0121624b2669ca4927baa7cf72e459ceb6ccac2e7384d62a8a7cf3b",
+        "bytes": 6231,
+        "lines": 174,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/binary-ramification-socle-pass78.md",
+        "sha256": "550c04ccfc917b0a7459966e7bb6c7fd0c7923fef19ab76a05482af186c1765d",
+        "bytes": 9019,
+        "lines": 218,
+        "numbered_equations": 9
+      },
+      {
+        "path": "research/binary-reduced-fiber-exclusion-pass78.md",
+        "sha256": "6045a5d484bfc36bab1c4d9f4051ca8e6e104057847b5750977312bd6c1f67fb",
+        "bytes": 9424,
+        "lines": 237,
+        "numbered_equations": 10
+      },
+      {
+        "path": "research/binary-regular-derivative-exclusion-pass78.md",
+        "sha256": "a92566d49d211b64556bc051ced078c74d0da1225e78fa266d317e826038a6fb",
+        "bytes": 10214,
+        "lines": 258,
+        "numbered_equations": 12
+      },
+      {
+        "path": "research/binary-wronskian-derived-rank-pass78.md",
+        "sha256": "f9694954ea9cef0d957a8c763e26022a9f71cbf6cbd17c14759fc3e99a0d213a",
+        "bytes": 10370,
+        "lines": 260,
+        "numbered_equations": 13
+      },
+      {
+        "path": "research/binary-normal-syzygy-exclusion-pass78.md",
+        "sha256": "868324374bce1eb41d08c87c8519c0ffdb4692c697383751da5c6881aba56313",
+        "bytes": 9767,
+        "lines": 224,
+        "numbered_equations": 9
+      },
+      {
+        "path": "research/binary-relative-hypersurface-pass78.md",
+        "sha256": "afabfe8417d753f11440334aec85e812acd961753c56baa4a06913ea7a6bfea3",
+        "bytes": 8006,
+        "lines": 241,
+        "numbered_equations": 12
+      },
+      {
+        "path": "research/nice-binary-ramification-controls-pass78.md",
+        "sha256": "1601485ff8211bde1819fa79f3f17463ef42d47d9abf68666aa2ab1e4ccd0dad",
+        "bytes": 7128,
+        "lines": 137,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/nice_binary_ramification_checks_pass78.py",
+        "sha256": "472b2d432e92cb48fca192dff7c64ecacb3f400be13c5e6e436f6507fccc7809",
+        "bytes": 11177,
+        "lines": 208,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/run_targeted_pass78.py",
+        "sha256": "c695ac5284dc83ef5f9ddee5e7ac517c66e19ab77c01867f7412d7bb58623fa6",
+        "bytes": 3220,
+        "lines": 89,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/verification-pass78-working.json",
+        "sha256": "26373c9bc2301ec9b6f7083ae933ba502f7e0d1baa27c5466e6ae420231efccb",
+        "bytes": 2865,
+        "lines": 48,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/binary-unit-ideal-frontier-pass78.md",
+        "sha256": "ccefbacce3dbc69e5085510e954650a24279fbb4d302592e9a12656d5622ab40",
+        "bytes": 9001,
+        "lines": 176,
+        "numbered_equations": 4
+      },
+      {
+        "path": "research/proof-audits-pass78-working.md",
+        "sha256": "47977c97cec88d9c0d5ef98d9a8698b0b3a4a17f047d261161788d7083c0573e",
+        "bytes": 11911,
+        "lines": 191,
+        "numbered_equations": 0
+      }
+    ]
+  }
+}

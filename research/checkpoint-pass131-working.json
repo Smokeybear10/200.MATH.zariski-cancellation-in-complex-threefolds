@@ -1,0 +1,44 @@
+{
+  "pass": 131,
+  "status": "primitive_cubic_elementary_path_stability_proved_in_working_derivation; unrestricted_path_extension_disproved; general_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3]. The professor's intended correction, field and dimension remain unconfirmed.",
+  "previous_checkpoint": {"path": "research/checkpoint-pass130-working.json", "sha256": "b83e5be5f0721a3692d34bea430a9d7f46e022ee5b2be0b5a80397bb97fb0bc9", "records": 847, "scope": "Frozen predecessor verified in f889bd; not a recursive historical-chain audit."},
+  "chain_record_count_after_including_this_checkpoint": 852,
+  "record_count_convention": "847 prior records plus four current artifacts plus this checkpoint; live indexes excluded.",
+  "artifacts": [
+    {"path": "research/three-good-primitive-profile-orbit-closure-pass131.md", "sha256": "b20a4975593c61a848d7d38dd9f19ef867c38e2fd926cf4026f2707d039530a6", "bytes": 14363, "lines": 377, "equations": 9},
+    {"path": "research/three_good_primitive_profile_orbit_checks_pass131.py", "sha256": "c6a47aa0ecf201b073b48625ef5717856aa5cba1ca5238ec52322b87503abe1e", "bytes": 13594, "lines": 254, "test_methods": 3},
+    {"path": "research/three_good_primitive_gate_search_pass131.py", "sha256": "725ba4a0d9c51248854c54c16c2dbf682d0c19c33b8b1ccd7663619caef4e5f8", "bytes": 9047, "lines": 192},
+    {"path": "research/verification-pass131-working.json", "sha256": "6780d442a97cec27c2dd2519bb8ee2e0bd8e9671c5e934e814a13f45fc176424", "bytes": 4430, "lines": 60}
+  ],
+  "integrity_evidence": "Root abd0bb and bb7e2f; complete source deltas cb9707. Independent final proof/checker hash and AST review Geometry b61156.",
+  "new_mathematical_result": "In the actual sliced polynomial four-ring, a successful primitive mixed-cubic lift remains successful and primitive along any finite elementary coordinate word whose every intermediate frame has three E-degree-one goods, one E-degree-two bad, rank-two speeds and dense speed cone. The invariant changes only by nonzero constant scaling and an additive constant; its subring C[I] is preserved.",
+  "proof_chain": [
+    "Retained130 recognition and the elementary cubic plane-coordinate criterion normalize a successful lift to I=XW-F(Y)-delta*Z, with cubic F and nonzero cubic and Z coefficients. The required bad shear has ordinary degree at most two and cannot remove the acceleration because primitivity puts q outside W2.",
+    "Dense cone makes the three good initials and the two projective speed ratios faithful. At fixed E-degree every normal-monomial leading comparison has a common nonzero factor (EX)^d; no unit assumption is used.",
+    "For an arbitrary held-coordinate ring after normalization, rational dependence of its three initials forces its good forms to span X,Y and its quadratic bad shear to be independent of Z. This follows by two reductions modulo the pole variable X.",
+    "The remaining actual ring is C[X,Y,W+beta*Z]. Normal monomials in X,Y,Hbeta=X(W+beta*Z)-F(Y),W+beta*Z have disjoint leading exponents, giving exactly the E-affine subspaces stated in equation6 for beta zero and nonzero.",
+    "Only the beta-zero case permits a nonlinear good update. Its new speed coefficient theta is nonzero by density and its corrected invariant is kappa/theta times I. Other good updates and all allowed bad updates are the retained affine/quadratic covariance. Induct along the finite word."
+  ],
+  "scope_counterexample": "Seven explicitly invertible elementary shears conjugate the adapted invariant shear a -> a+b into the cubic129 frame. Both endpoints pass the gates, but C[a] changes to C[a+b]. The total automorphism commutes with E; the factorization loses dense cone at step1 and quadratic bad degree at step3. This disproves unrestricted subring preservation, not primitive gate passage or cancellation.",
+  "proof_reviews": {
+    "Root": {"full_initial_note": ["c91137", "8401f8"], "complete_new_section_and_final_deltas": ["3d2ae2", "abd0bb", "cb9707"], "retained130_criterion": ["9d7b2f", "118021"], "selected_suspension_and_cubic_lemma": "d1d1a0"},
+    "General_author": {"full_note": "811584", "final_deltas": ["eb9601", "3759d2", "7324a2"], "final_hash": "a085b3"},
+    "Geometry_independent": {"full_note": "da8304", "final_deltas_and_integrity": ["48ad75", "b61156"]},
+    "Jet_independent": {"full_final_note": ["16e5d4", "4751c1"]},
+    "limits": "Independent AI reconstructions of this bounded theorem, not human expert review, formal verification or historical novelty clearance. Retained130 inputs are dependencies, not a newly repeated full primary-source audit."
+  },
+  "verification": {"capture": "research/verification-pass131-working.json", "unittest_evidence": "576a0d", "exit_code": 0, "methods": 7, "new_methods": 3, "retained_methods": 4, "unittest_seconds": 0.362, "search_evidence": "db152d", "inverse_verified_words_both_orders": 192, "qualifying_distinct_candidates": 9, "gate_failures_found": 0, "scope": "Finite exact examples and a specified commutator family; not all-degree/all-word proof verification or absence of other gate failures."},
+  "checker_reviews": {"Root": "b92760", "Jet_author": "d1ea8e", "General_independent": "bc418a", "Geometry_independent": "48ad75", "scope": "Source-only peer checks; no peer runtime execution of the final scripts claimed."},
+  "source_comparison": {"source": "Philippe Bonnet and Stephane Venereau, Relations between the leading terms of a polynomial automorphism, arXiv:0808.1821v1, 2008", "url": "https://arxiv.org/pdf/0808.1821v1", "root_scope": "Definition1.1, Theorem1.2 and displayed Section3 argument, turn3931view0 plus turn3932view0", "independent_scope": "Geometry introductory hypotheses, turn3933view0", "conclusion": "Its positive weighted source-grading hypothesis is not the present u-filtration with dimension-three degree-zero kernel. It does not directly furnish the missing universal mixed relation or correction gates. No recursive proof or novelty audit."},
+  "remaining_gaps": [
+    "Whether an arbitrary actual primitive mixed-cubic relation passes both derivative corrections.",
+    "Existence of a suitable mixed relation in the full rank-two branch.",
+    "Connectivity or entry for arbitrary frames, including paths that leave the selected profile.",
+    "Full cancellation, human expert review, formal verification and novelty determination."
+  ],
+  "next_bounded_task": "Investigate actual profile-leaving/reentering families for a primitive gate failure, or prove the first correction directly using actual inverse/cofactor/divisor constraints without assuming connectivity. Changing C[I] between successful endpoints alone is no longer a useful stopping criterion.",
+  "goal_audit": {"preceding_check_in": "verified_live_agent_status_not_new_mathematical_progress", "current_turn": "completed_restricted_all_word_proof_and_decisive_scope_counterexample_with_exact_tests", "full_goal_achieved": false, "genuine_external_blocker": false},
+  "boundaries": {"no_prior_artifact_intentionally_edited": true, "selected_frozen130_hashes_unchanged": true, "human_review": false, "formal_verification": false, "novelty_cleared": false, "external_contact": false, "submission": false, "public_posting": false, "new_automation": false},
+  "live_indexes": ["README.md", "research-ledger.md"]
+}

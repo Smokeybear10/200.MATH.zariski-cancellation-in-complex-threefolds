@@ -1,0 +1,157 @@
+{
+  "pass": 218,
+  "status": "supplied_mixed_conic_radial_and_lower_potential_restrictions; zero_M_excluded; exact_simple_return_cofactor; conic_recognition_open_at_this_packet_stage; global_goal_open",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass217-working.json",
+    "sha256": "2d4aeb0baacdd8901baa12c9afeac8096e7aa83555275aa752fb5704d3379acc",
+    "records": 1338
+  },
+  "results": {
+    "radial": "In the retained branch-II actual mixed conic chart, k=C/rho+F rho+G and alpha=rho/C. The highest and complete next scalar-Jacobian coefficients force delta into the radial constant field and C into C*. Coefficient fields are not assumed rational.",
+    "cofactor_and_zero_M": "The two exact potential gradients give R|q1|R^2 and the root-order dichotomy q1 in L*R for M nonzero, versus L*R^2 for M=0. The already-differentiated raw column evaluated at X*=h epsilon-delta, xi*=-C/(2h rho)-b/(2alpha) equals (0,M/h,0). The nonzero actual scalar determinant therefore excludes M=0, fixing the surviving cofactor exactly to L*R.",
+    "lower_potentials": "Complete raw coefficient convolutions give explicit c,n,f. Combining their cubic fourth-potential coefficient with the complete preceding Jacobian relation, without division by M, yields G_hhh=0, F_hhh/3+(c0-G_h^2/(4C))_h-delta_h=0, and M(epsilon-delta_h)=0. Thus G has degree at most two in h over C, c0=delta-F_hh/3+G_h^2/(4C)+gamma for gamma complex, and the actual surviving branch has epsilon=delta_h. The square-root radial mode is retained as a formal countercontrol to using the preceding Jacobian relation alone.",
+    "remaining_scope": "Only necessary restrictions of the actual supplied exact1122 mixed conic are proved here. No full conic endpoint, arbitrary entry, coefficient-field rationality or global cancellation is claimed. The217 line recognition and zero-return exclusion remain retained results; all separate219 artifacts, executions and closure claims are excluded."
+  },
+  "goal_audit": {
+    "current_progress": "Five218 proof notes determine exact radial and lower-potential restrictions, exclude M=0 by a raw actual Jacobian column, and fix the surviving cofactor order. Five finite algebra methods passed in one canonical execution completed through its original live handle. The remaining conic and the full goal are not closed by this packet.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "actual_globally_sliced_exact1122_frame_required": true,
+    "entire_principal_initial_kernel_required": true,
+    "retained217_branch_II_reduction_required": true,
+    "literal_q_t_squared_over_rho": true,
+    "original_and_radial_partial_derivatives_distinguished": true,
+    "C_nonzero_complex_proved": true,
+    "delta_in_radial_constant_field_proved": true,
+    "complete_fourth_Jacobian_coefficient_used": true,
+    "square_root_boundary_before_lower_potentials_retained": true,
+    "zero_M_excluded_by_actual_scalar_Jacobian": true,
+    "evaluated_cofactor_exactly_L_star_times_R": true,
+    "lower_potential_restrictions_keep_both_M_cases_before_combining": true,
+    "actual_epsilon_equals_delta_h": true,
+    "nonzero_return_has_no_roots_claim": false,
+    "conic_recognition_or_exclusion": false,
+    "coefficient_field_factors_assumed_regular": false,
+    "coefficient_field_rationality_claim": false,
+    "moving_point_differentiated_as_coordinate_change": false,
+    "xi_asserted_ambient_coordinate": false,
+    "arbitrary_entry_proved": false,
+    "all_height_two_initial_kernels_recognized": false,
+    "global_minimum_profile_claim": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "artifacts": [
+    {
+      "path": "research/mixed-conic-radial-constant-leading-ratios-pass218-working.md",
+      "sha256": "e11b54d39ea8c82a311b6d46a365319b8817bd4f6e9e74d88bf8dac098611f37",
+      "bytes": 6596,
+      "lines": 196,
+      "equations": 13,
+      "test_methods": 0
+    },
+    {
+      "path": "research/mixed-conic-next-jacobian-constant-pass218-working.md",
+      "sha256": "75d4f1f9d2ca6fc9ac6fc6c02a9b9b234586f6235ced14c0d8445820ece79dfb",
+      "bytes": 8113,
+      "lines": 236,
+      "equations": 14,
+      "test_methods": 0
+    },
+    {
+      "path": "research/mixed-conic-return-cofactor-order-dichotomy-pass218-working.md",
+      "sha256": "6b6656b48ff993e8fde32e70a5d594d0c256ea5d361a582f145420e891318911",
+      "bytes": 8264,
+      "lines": 218,
+      "equations": 10,
+      "test_methods": 0
+    },
+    {
+      "path": "research/mixed-conic-zero-M-jacobian-exclusion-pass218-working.md",
+      "sha256": "25887bff36fdbf644f60056c0954d0f1250a761d1efea24084e53f15aa740780",
+      "bytes": 6083,
+      "lines": 174,
+      "equations": 12,
+      "test_methods": 0
+    },
+    {
+      "path": "research/mixed-conic-lower-potential-radial-restrictions-pass218-working.md",
+      "sha256": "af716d4f0c1438850e51b4f9013f882d61d33b50d7200fd9051c23b24cba52f9",
+      "bytes": 13024,
+      "lines": 360,
+      "equations": 24,
+      "test_methods": 0
+    },
+    {
+      "path": "research/mixed_conic_radial_controls_pass218.py",
+      "sha256": "254551f0d9d96e4e6d9ada9720d4ad7fff699f00682002a8e2633e64deada40a",
+      "bytes": 17161,
+      "lines": 347,
+      "equations": 0,
+      "test_methods": 5
+    },
+    {
+      "path": "research/verification-pass218-working.json",
+      "sha256": "206fa75d162b5dd71aa4fcf253a71a8497b6b68cd9f9a110f45a8d226e71c4d3",
+      "bytes": 13236,
+      "lines": 162,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "chain_record_count_after_including_this_checkpoint": 1346,
+  "record_count_convention": "1338 held predecessor records plus five218 proof notes, one checker source, verification218 and this checkpoint: eight new records. Mutable indices, retained proof inputs, separate219 sources or runs, and unsaved inline exploration are not counted.",
+  "verification": {
+    "capture": "research/verification-pass218-working.json",
+    "canonical_runs": [
+      {
+        "suite": "mixed_conic_radial_controls218",
+        "path": "research/mixed_conic_radial_controls_pass218.py",
+        "pre_execution_read": "Jet final complete author EOF086c67/hasha5e88f/countc86b7d; Root complete EOF7ea1e9+8394e2/hash463926; Geometry independent complete EOF5bb5e4+3cf5be/hasha88c15. All three completed saved-source reads preceded the sole canonical execution.",
+        "initial_output": "3e6f87",
+        "session_id": 93540,
+        "terminal_output": "eacf19",
+        "methods": 5,
+        "unittest_seconds": 0.758,
+        "result": "OK",
+        "exit_code": 0,
+        "initial_response_terminal": false,
+        "initial_output_contains_test_summary": true,
+        "terminal_output_empty": true,
+        "pending_execution_handle": false,
+        "completion_via_original_handle": true,
+        "original_handle_poll_count": 1,
+        "rerun": false,
+        "command": "/opt/anaconda3/bin/python research/mixed_conic_radial_controls_pass218.py",
+        "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+        "shell": "/bin/zsh",
+        "login": false,
+        "initial_yield_time_ms": 1000,
+        "initial_max_output_tokens": 6000,
+        "completion_poll": {
+          "tool": "write_stdin",
+          "session_id": 93540,
+          "chars": "",
+          "yield_time_ms": 1000,
+          "max_output_tokens": 6000
+        },
+        "completion_note": "The initial response printed five tests and OK but still returned a live session. Root resumed that original handle once; the empty terminal response supplied exit code zero. This was one execution, not a rerun."
+      }
+    ],
+    "new_suites": 1,
+    "new_methods": 5,
+    "tagged_equations": 73,
+    "scope": "Finite raw-potential, radial-derivative, complete-Jacobian, moving-point evaluation, root-order and full lower-coefficient identities only. Written proofs supply the actual calibration, field-return and constant/integration arguments. Jet, Root and Geometry completed saved-source reads before the sole execution. The initial response3e6f87 printed the test summary but retained live session93540; one original-handle poll ended it in eacf19 with exit code zero and empty output. There was no rerun or pending handle."
+  },
+  "next_bounded_task": "Analyze the remaining actual conic scalar coefficients and any original-ring endpoint after these necessary restrictions. Separate219 work and its later execution must remain in a distinct packet. No218 rerun is authorized."
+}

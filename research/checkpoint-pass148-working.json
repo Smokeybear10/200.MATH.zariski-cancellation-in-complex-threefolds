@@ -1,0 +1,92 @@
+{
+  "pass": 148,
+  "status": "conditional_triangular_residue_frame_exclusion; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass147-working.json",
+    "sha256": "8ed728a33e72201203b2e65197769d7c0ca9b9972fd9bc40ef1081cb8cbd7ae1",
+    "records": 966
+  },
+  "chain_record_count_after_including_this_checkpoint": 972,
+  "record_count_convention": "966 previous records plus three proof notes, one checker, verification148 and this checkpoint. Live indexes excluded; record counts do not measure mathematical significance.",
+  "artifacts": [
+    {
+      "path": "research/fixed-projection-weitzenbock-obstruction-pass148-working.md",
+      "sha256": "90ce66d8fa55426f0818ae324d5003cdc982d649ac6ec1f42245925b8c8d8af3",
+      "bytes": 7913,
+      "lines": 190,
+      "equations": 7,
+      "test_methods": 0
+    },
+    {
+      "path": "research/line-family-triangular-kernel-exclusion-pass148-working.md",
+      "sha256": "a8b2b3795d317bcb95a1b85a8008d7408fb06f650d1faf7fdb8ebb12e4b20704",
+      "bytes": 11197,
+      "lines": 284,
+      "equations": 10,
+      "test_methods": 0
+    },
+    {
+      "path": "research/triangular-residue-frame-exclusion-pass148-working.md",
+      "sha256": "b3f3603ddb8bb27f393ece1cc19d24fe3b403e63ce44790ecbff6c34bd28c00c",
+      "bytes": 12476,
+      "lines": 300,
+      "equations": 9,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weitzenbock_projection_controls_pass148.py",
+      "sha256": "f78cf8b79132844146516bf365bdeb79ca401e67941814e6b4a9374fa2196a9f",
+      "bytes": 11246,
+      "lines": 211,
+      "equations": 0,
+      "test_methods": 4
+    },
+    {
+      "path": "research/verification-pass148-working.json",
+      "sha256": "373077ca6743cce91121332b3051ae493dced56ddebf5612c71eb9f42cd9bc8f",
+      "bytes": 8052,
+      "lines": 112,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "results": [
+    "An actual dense three-good chart cannot simultaneously have the specified embedded triangular quotient with nonlinear divisor specialization and an affine-linear projected pair. This covers every affine plane placement, arbitrary H(r,t), multiple roots of a, rational speed ratios and arbitrary last-coordinate time degree.",
+    "A separate generic critical-point lemma supplies the fixed-plane obstruction over every invariant localization.",
+    "In a W=u actual line family, nilpotence of the speed Jacobian forces speeds lying in the specified triangular subring to have rank at most one. A divisor coefficient argument extends this to arbitrary base-dependent H with one nonlinear specialization."
+  ],
+  "verification": {
+    "capture": "research/verification-pass148-working.json",
+    "completion_output": "4b6e7d",
+    "exit_code": 0,
+    "test_methods": 4,
+    "seconds": 266.951,
+    "numbered_equations": 26,
+    "pending_test_execution_handles": false,
+    "scope": "Written conditional proofs with separate AI reconstructions and finite exact formal controls. No actual counterexample frame, universal residue-triviality proof, formal verification or human review."
+  },
+  "next_bounded_task": "Test genuinely nonlinear placements of the first two projected goods without changing the original polynomial inverse or selected leading derivation. A nonlinear first-coordinate shear is one bounded next ansatz. Do not repeat the excluded affine or third-coordinate-shear families.",
+  "remaining_gaps": [
+    "The simultaneous triangular quotient and affine projected placement are not automatic.",
+    "Finite residue constants for unrestricted actual selected intrinsic actions are unresolved.",
+    "Global polynomial descent and arbitrary three-good coordinate entry are unresolved.",
+    "Professor-intent confirmation, human expert review and historical novelty assessment are outstanding."
+  ],
+  "goal_audit": {
+    "current_turn_classification": "progress",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_files_edited": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "checked_at_utc": "2026-09-13 22:31:47 UTC",
+  "completed_at_utc": "2026-09-13 22:31:48 UTC",
+  "scope": "Only three new standalone identity suites for working58–60. Not a full regression, universal theorem check, or proof-assistant verification.",
+  "suites": [
+    {
+      "command": "/opt/anaconda3/bin/python research/faithful_frame_rank_checks_pass58.py",
+      "test_methods": 2,
+      "unittest_seconds": 0.17,
+      "exit_code": 0,
+      "all_passed": true,
+      "raw_output": "test_actual_local_jacobian_and_nonzero_good_adjoint (__main__.FaithfulFrameRankChecks.test_actual_local_jacobian_and_nonzero_good_adjoint) ... ok\ntest_hessian_and_exact_pole_module (__main__.FaithfulFrameRankChecks.test_hessian_and_exact_pole_module) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.170s\n\nOK\n"
+    },
+    {
+      "command": "/opt/anaconda3/bin/python research/faithful_quadratic_module_checks_pass59.py",
+      "test_methods": 1,
+      "unittest_seconds": 0.039,
+      "exit_code": 0,
+      "all_passed": true,
+      "raw_output": "test_complete_monic_expansion_and_six_element_basis (__main__.FaithfulQuadraticModuleChecks.test_complete_monic_expansion_and_six_element_basis) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.039s\n\nOK\n"
+    },
+    {
+      "command": "/opt/anaconda3/bin/python research/simple_speed_zero_checks_pass60.py",
+      "test_methods": 2,
+      "unittest_seconds": 0.063,
+      "exit_code": 0,
+      "all_passed": true,
+      "raw_output": "test_nonlinear_etale_speed_coordinates (__main__.SimpleSpeedZeroChecks.test_nonlinear_etale_speed_coordinates) ... ok\ntest_ramification_retains_weights_but_allows_poles (__main__.SimpleSpeedZeroChecks.test_ramification_retains_weights_but_allows_poles) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.063s\n\nOK\n"
+    }
+  ],
+  "total_test_methods": 5,
+  "total_suites": 3,
+  "all_passed": true,
+  "full_project_regression_rerun": false,
+  "previous_full_regression": "verification-pass-57.json",
+  "general_cancellation_verified": false,
+  "human_expert_review": false,
+  "proof_assistant_verified": false,
+  "novelty_established": false
+}

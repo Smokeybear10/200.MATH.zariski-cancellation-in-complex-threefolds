@@ -1,0 +1,24 @@
+{
+  "started_at_utc": "2026-09-14T02:28:01.852Z",
+  "finished_at_utc": "2026-09-14T02:28:02.329Z",
+  "elapsed_seconds": 0.477,
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "research/finite_root_top_checks_pass70.py"
+  ],
+  "checker_sha256": "527a3fc0ff78e8299be0391193792e70b7f322c6daa2ee9dc94719f5cb1a09d4",
+  "exit_code": 0,
+  "launch_error": null,
+  "suites": 1,
+  "expected_methods": 2,
+  "methods": 2,
+  "unittest_seconds": 0.21,
+  "output_capture": "stdout concatenated with stderr; both fully retained",
+  "output": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.210s\n\nOK\n",
+  "output_sha256": "1598d6ee16ef92ad0b0ba0e9d86adf4f275de460699d63f1400303ab94fa1b11",
+  "all_passed": true,
+  "fresh_full70_regression": false,
+  "proof_assistant_verified": false,
+  "general_cancellation_verified": false,
+  "scope": "One standalone two-method exact coefficient/example suite. Does not prove field extension, common constants, normality, recognition theorems, novelty or general cancellation."
+}

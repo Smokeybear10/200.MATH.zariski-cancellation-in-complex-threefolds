@@ -1,0 +1,212 @@
+{
+  "pass": 196,
+  "status": "restricted_two_root_zero_R_recognition_and_square_root_monomial_graph_exclusion; other_square_branches_and_unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass195-working.json",
+    "sha256": "821118209780884056f7fda7738d478eb5e24b3d68c4c40b1f8a2c94e5e736df",
+    "records": 1208
+  },
+  "results": {
+    "two_root_zero_R": "Under a supplied actual global-slice exact1122 frame with full initial kernel (Z^2-X^2*Y*(X-Y)), the R=k_rho=0 branch has an original invariant coordinate I=W-lambda*Z^2/2-(alpha*Y+beta*X+D)*Z-Q0(X,Y), with complex coefficients and both inverse orders. Actual field return excludes the quadratic cover; a regular-differential obstruction excludes the second algebraic slope. The slice gives a regular kernel and Bhatwadekar-Gupta-Lokhande Theorem3.5 gives A=C[I]^[2].",
+    "monomial_actual_normalization": "For the other full kernel (Z^2-X^3Y), the actual square family f=beta*q, beta in C*, q^2=t admits explicit original polynomial maps normalizing k=rho/q and n=-rho^2/(2*q^3). Exact finite-field integrations follow from all positive-rho B1 coefficients. The maps preserve the literal selected partial_Z, N, L/K, full initial kernel and exact time/generic degrees. This k/n normalization applies to both square alternatives; only the graph case also normalizes ell=-rho^3/(2*q^5).",
+    "monomial_graph_exclusion": "In the quadratic-graph subbranch, the completed-square relation makes z=g in L*. The scalar Jacobian then gives g_rho=0, retaining Ny and the speed. The actual identity Z^2-X^3*Y-2*X*(W-C)=g^2 contradicts normality and irreducibility of its primitive W-linear left side. This excludes the entire f=beta*q quadratic-graph branch under the stated actual hypotheses, not merely one fixture.",
+    "formal_boundary": "The separate rational fixture satisfies the universal potentials, formal full initial relation, projected field return and constant rational Jacobian, but its original field has exact index two. Its formal time derivative does not preserve the four-entry polynomial subring. It is not an actual LND frame or a cancellation counterexample.",
+    "remaining_scope": "The f=beta*q quadratic-projection branch is not recognized in this packet; separate197 is excluded. The f=a*t+b*q family with a nonzero, the f=b/q family, and two-root nonzero-R square alternatives remain open here. Neither whole double-cover configuration, all positive bad quadratic rank, height-two kernels, higher minimum profiles, arbitrary entry nor unrestricted cancellation is settled. No minimum or entry theorem."
+  },
+  "goal_audit": {
+    "prior_status_turn": "The immediately preceding status check supplied no new mathematical result. Frozen195 and its completed independent audit remain prior progress, not recounted proof work.",
+    "current_continuation": "This continuation completes the two-root zero-R proof and the actual normalization/normality composition excluding one monomial graph branch. Root executed both finite196 suites once after complete source reads; the original index-two fixture is explicitly separated from actual frames.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Investigate the remaining actual square families using all scalar coefficients, exact field return and original-ring descent. Separate197 quadratic-projection work is not included in this record.",
+  "artifacts": [
+    {
+      "path": "research/weight-four-two-root-zero-r-coordinate-recognition-pass196-working.md",
+      "sha256": "c7f99aa185289bf86d898235d9ea7d281c7ad0be188a038fda527b01f8a92890",
+      "bytes": 17108,
+      "lines": 448,
+      "equations": 28,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-square-root-formal-index-two-boundary-pass196-working.md",
+      "sha256": "43ae02a5f2065ba1128ca0843862b434b3b528b68bf9397b42bbaf3febfad5e8",
+      "bytes": 10063,
+      "lines": 286,
+      "equations": 17,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-square-root-monomial-actual-normalization-pass196-working.md",
+      "sha256": "94736b8d6e46803ff3199a95f7b26b357b637143d367579e69945cb758b75d68",
+      "bytes": 13071,
+      "lines": 341,
+      "equations": 19,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-normalized-square-root-graph-obstruction-pass196-working.md",
+      "sha256": "895cc43ec3382df89655a6326d6b82b76e7ed14aef284d537c4204732060d8fd",
+      "bytes": 8877,
+      "lines": 252,
+      "equations": 10,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-double-cover-frontier-synthesis-pass196-working.md",
+      "sha256": "b57db000e9e708a6122a4fc205049a77ef1c92f96fe09d86bf89bb4746ae9596",
+      "bytes": 6724,
+      "lines": 144,
+      "equations": 4,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight_four_two_root_zero_r_controls_pass196.py",
+      "sha256": "0b0a8e927c5fbb2280034d425a620109de2430e7555d0ad25b5d3555d6dd9b78",
+      "bytes": 8774,
+      "lines": 191,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/weight_four_square_root_graph_controls_pass196.py",
+      "sha256": "4597e99f405880fd01e5a422bdadbe9a65f36b42bc52b301657907c52ab08372",
+      "bytes": 6936,
+      "lines": 144,
+      "equations": 0,
+      "test_methods": 3
+    }
+  ],
+  "canonical_executions": [
+    {
+      "suite": "two_root_zero_R196",
+      "path": "research/weight_four_two_root_zero_r_controls_pass196.py",
+      "pre_execution_read": "Root8bfd97",
+      "initial_output": "20f6f7",
+      "terminal_output": "20f6f7",
+      "methods": 3,
+      "unittest_seconds": 0.429,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/weight_four_two_root_zero_r_controls_pass196.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "login": false,
+      "initial_yield_time_ms": 1000
+    },
+    {
+      "suite": "square_root_graph196",
+      "path": "research/weight_four_square_root_graph_controls_pass196.py",
+      "pre_execution_read": "Root9cbe9c; General062d4a",
+      "initial_output": "c723d0",
+      "terminal_output": "c723d0",
+      "methods": 3,
+      "unittest_seconds": 0.413,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/weight_four_square_root_graph_controls_pass196.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "login": false,
+      "initial_yield_time_ms": 1000
+    }
+  ],
+  "tagged_equations": 78,
+  "total_new_test_methods": 6,
+  "reviews": {
+    "two_root_proof": "Jet full author13bae0+66675b at c7f99aa1; Root full dc8799; General full93be42+9a3530; Geometry full0cc6ba+1cb64d reconstructs the exact-field pole bound, regular-differential argument and original transport/inverse.",
+    "formal_fixture": "General full author0f46d9 at43ae02a5; Root full394760 and d87e76 plus independent raw identities6b984a; Geometry fullec7649 and metadata8482bc reconstruct exact index two, irreducibility and the failure of actual derivative preservation.",
+    "normalization": "Geometry full author e11176, full current c008d0 and precise final delta/read d1db8b at94736b8d. Root full2120e1 on the prior notation, then complete final e50a18; General90ee23+135f63 on the prior notation and full final0d07ac; Jet fresh full f505fd+a887c9 on the final preservation clarification. The final source renames the complex constant, includes initial theta scaling, identifies the third potential correctly, and explicitly preserves partial_Z/N/L/K. The k/n lemma is not graph-only.",
+    "normalized_obstruction": "General full revised author797000 at895cc43e; Root full3083e3; Geometry full93bfb1. The final hypothesis starts with g in L*, not K*, and explicitly derives the smaller-field membership from the calibrated scalar determinant.",
+    "synthesis": "Root full522fb8 atb57db000; General full2f42de; Geometry full4cc4a0. It supplies z in L* before applying the normalized obstruction, and excludes all197 conclusions.",
+    "checker_sources": "Two-root checker author6a6cac and Root pre-run8bfd97. Graph checker Root pre-run9cbe9c and General pre-run062d4a. Geometry full1cb64d and3f309f are subsequent source-only reviews, not pre-canonical evidence. No checker was executed, imported or compiled by Geometry.",
+    "metadata": "Geometry4447ce and fresh source-only metadata collection confirm all seven source hashes and 78 equations/six methods. Frozen195 V/CP hashes remain unchanged."
+  },
+  "external_dependencies": [
+    {
+      "source": "Bhatwadekar-Gupta-Lokhande Theorem3.5",
+      "url": "https://arxiv.org/html/1501.01438v1",
+      "fresh_primary_reads": [
+        "Root4269view0"
+      ],
+      "retained_primary_reads": [
+        "Geometry4264view1, lines286-291"
+      ],
+      "use": "The actual invariant coordinate and slice-regular kernel meet the published polynomial-kernel theorem. No claim of a new or recursively reproved structural result."
+    },
+    {
+      "source": "Wang's theorem reproduced as Dasgupta-Gupta Theorem4.1",
+      "url": "https://arxiv.org/pdf/1701.03635v1",
+      "retained_primary_reads": [
+        "Root4262view0",
+        "Geometry4250view1"
+      ],
+      "use": "Retained actual constant-projection exclusion after primitive-LND and kernel-contraction gates; not a theorem about arbitrary formal coefficient systems."
+    },
+    {
+      "source": "Projective coefficient curves and degree of a rational function",
+      "urls": [
+        "https://stacks.math.columbia.edu/tag/0BY1",
+        "https://stacks.math.columbia.edu/tag/0AYZ",
+        "https://stacks.math.columbia.edu/tag/02NY"
+      ],
+      "fresh_primary_reads": [
+        "Root4269view1/2"
+      ],
+      "retained_primary_reads": [
+        "Root4245view0:0BY1",
+        "Root4245view1:0AYZ",
+        "Root4245view2:02NY"
+      ],
+      "use": "Degree-one actual field return contradicts a pole of order at least nine. The new regular-differential obstruction is proved by local charts and pullback in the source, not by a finite test."
+    }
+  ],
+  "proof_dependencies": {
+    "new": [
+      "research/weight-four-two-root-zero-r-coordinate-recognition-pass196-working.md",
+      "research/weight-four-square-root-formal-index-two-boundary-pass196-working.md",
+      "research/weight-four-square-root-monomial-actual-normalization-pass196-working.md",
+      "research/weight-four-normalized-square-root-graph-obstruction-pass196-working.md",
+      "research/weight-four-double-cover-frontier-synthesis-pass196-working.md"
+    ],
+    "retained": [
+      "research/weight-four-universal-chart-potentials-pass184-working.md",
+      "research/weight-four-absent-zero-r-field-normal-form-pass190-working.md",
+      "research/weight-four-split-coefficient-ode-lemmas-pass191-working.md",
+      "research/weight-four-split-zero-r-coordinate-recognition-pass192-working.md",
+      "research/weight-four-split-square-candidate-jacobian-obstruction-pass193-working.md",
+      "research/weight-four-double-cover-nonzero-r-reduction-pass195-working.md",
+      "research/weight-four-square-root-two-gate-classification-pass195-working.md"
+    ],
+    "scope": "Only the identified general-q chart, exact-field, pencil and scalar-Jacobian mechanisms are retained. No frozen source is edited or represented as recursively reverified. No197 source is counted."
+  },
+  "exploratory_arithmetic": {
+    "entries": [
+      "Geometry642652: new inline symbolic expansion of raw lower-coefficient identities, not a saved-suite execution.",
+      "Root6b984a: independent raw fixture potentials/J/identity arithmetic, not an additional test suite."
+    ],
+    "new_canonical_methods_added_by_exploration": 0
+  },
+  "finite_control_scope": {
+    "two_root_zero_R196": "Quotient-field slope jets, exact quartic differential and infinity chart identities, projected square subtraction, original coefficient transport and both polynomial inverse orders.",
+    "square_root_graph196": "Raw U3/B1 lower coefficients, Laurent solutions, actual shear columns and both inverse orders, normalized square identity, scalar g_rho gate and formal-fixture determinant.",
+    "boundary": "Finite checks do not prove complete exact-field integration, field return, projective-curve conclusions, integral closure, irreducibility, recognition, novelty or unrestricted cancellation."
+  }
+}

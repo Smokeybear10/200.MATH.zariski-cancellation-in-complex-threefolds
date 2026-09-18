@@ -1,0 +1,52 @@
+{
+  "pass": 120,
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.cubic_conic_axis_checks_pass120",
+    "research.cubic_rational_transfer_checks_pass120",
+    "research.cubic_ruled_checks_pass119",
+    "research.cubic_polynomial_curve_checks_pass119",
+    "research.nonconical_quadratic_potential_checks_pass90"
+  ],
+  "checked_at_utc": "2026-09-15T02:55:23.747Z",
+  "suites": 5,
+  "test_methods": 9,
+  "new_methods": 3,
+  "retained_methods": 6,
+  "exit_code": 0,
+  "all_passed": true,
+  "elapsed_seconds": 3.393490583,
+  "unittest_seconds": 2.929,
+  "stdout": "",
+  "stderr": "test_normalized_conic_connection_and_tensor (research.cubic_conic_axis_checks_pass120.CubicConicAxisChecks.test_normalized_conic_connection_and_tensor) ... ok\ntest_volume_coefficients_exactness_and_finite_gauge (research.cubic_conic_axis_checks_pass120.CubicConicAxisChecks.test_volume_coefficients_exactness_and_finite_gauge) ... ok\ntest_quadratic_field_transfer_and_missing_original_inverse (research.cubic_rational_transfer_checks_pass120.RationalTransferChecks.test_quadratic_field_transfer_and_missing_original_inverse) ... ok\ntest_conditional_ruled_tensor_and_volume_coefficients (research.cubic_ruled_checks_pass119.CubicRuledChecks.test_conditional_ruled_tensor_and_volume_coefficients) ... ok\ntest_unit_speed_metric_control_without_actual_frame (research.cubic_ruled_checks_pass119.CubicRuledChecks.test_unit_speed_metric_control_without_actual_frame) ... ok\ntest_fractional_exponent_and_nonlinear_remainder_controls (research.cubic_polynomial_curve_checks_pass119.CubicPolynomialCurveChecks.test_fractional_exponent_and_nonlinear_remainder_controls) ... ok\ntest_indicial_and_infinitesimal_identities (research.cubic_polynomial_curve_checks_pass119.CubicPolynomialCurveChecks.test_indicial_and_infinitesimal_identities) ... ok\ntest_ramified_frame_and_root_divisor_controls (research.cubic_polynomial_curve_checks_pass119.CubicPolynomialCurveChecks.test_ramified_frame_and_root_divisor_controls) ... ok\ntest_generic_volume_coefficient_and_symmetric_potential (research.nonconical_quadratic_potential_checks_pass90.NonconicalQuadraticPotentialChecks.test_generic_volume_coefficient_and_symmetric_potential) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 2.929s\n\nOK\n",
+  "complete_output_sha256": "92d5d449567d6fe000ef9dd87bf01a0afa37e751d88d6af4e0b3ed952fd01124",
+  "output_hash_convention": "SHA256 of UTF-8 stdout + one newline + stderr.",
+  "input_files": [
+    {
+      "path": "research/cubic_conic_axis_checks_pass120.py",
+      "sha256": "ddef12d7343a51decc198b272c872a0af5578766125cddb8e4f5f38a5734ce7e"
+    },
+    {
+      "path": "research/cubic_rational_transfer_checks_pass120.py",
+      "sha256": "a9836678368493de7f3ac6830ff23cb037cf447e1f348524bdf210d60a917416"
+    },
+    {
+      "path": "research/cubic_ruled_checks_pass119.py",
+      "sha256": "f3d4c778bb1f3a8ffb728fe5ac487be9ca398f49112f0250931fc7d8b5b35b93"
+    },
+    {
+      "path": "research/cubic_polynomial_curve_checks_pass119.py",
+      "sha256": "a49fa8f968dc4b2c73dd9209c23d0f6dedcd3bb4563337af7ca345bf4f16eb19"
+    },
+    {
+      "path": "research/nonconical_quadratic_potential_checks_pass90.py",
+      "sha256": "d429f7e80321c813d0745bd61834a26a642750ffeff3b31a2965c78bc94bc966"
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "tool_evidence": "e5ab6d",
+  "scope": "Three new exact finite controls: normalized conic connection/tensor and highest volume coefficients with exactness and conditional finite gauge; one rational first-integral/degree-two base-transfer control with a deck-invariant noninverse witness. Six retained119/90 controls. No finite test establishes relative algebraic closedness, splitting-field constants, all-degree scalar descent, original-coordinate irreducibility, actual-frame existence, full cancellation, human expert review or novelty."
+}

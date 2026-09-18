@@ -1,0 +1,120 @@
+{
+  "pass": 141,
+  "status": "exact_shear_minimum_and_component_persistence; unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass140-working.json",
+    "sha256": "44ffe0b4041dd29982c6962c355e810d3849d920dc4afe90795596f4b986f683",
+    "records": 921
+  },
+  "chain_record_count_after_including_this_checkpoint": 929,
+  "record_count_convention": "921 prior records plus four mathematical notes, two checkers, verification141 and this checkpoint. Live indexes excluded.",
+  "artifacts": [
+    {
+      "path": "research/dense-shear-minimal-tail-pass141-working.md",
+      "sha256": "5819d1f18f0f2094f998bb75c9c7feb0741202303646e5db440896675c83b470",
+      "bytes": 12704,
+      "lines": 318,
+      "equations": 11,
+      "test_methods": 0
+    },
+    {
+      "path": "research/dense-tail-component-persistence-pass141-working.md",
+      "sha256": "ab5e4476a12b18b4204e2e059d47f6e2f45442d1f699dbb9c0b657f3a7784874",
+      "bytes": 9771,
+      "lines": 244,
+      "equations": 8,
+      "test_methods": 0
+    },
+    {
+      "path": "research/dense_shear_tail_controls_pass141.py",
+      "sha256": "d86d88477737446fdc53d21908ba0967364462f74088d3c6c704f3573906bc81",
+      "bytes": 9245,
+      "lines": 187,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/formal-tail-inverse-branch-family-pass141-working.md",
+      "sha256": "b44cf155b851268106f808cce36bf243bb41f01d7f272eebeb2190dbdb25091c",
+      "bytes": 10129,
+      "lines": 252,
+      "equations": 8,
+      "test_methods": 0
+    },
+    {
+      "path": "research/formal_inverse_branch_controls_pass141.py",
+      "sha256": "ab1707bab1767c3e69507fc407a3fba2296dd6b3525ce82eaa94577d2da062a2",
+      "bytes": 11009,
+      "lines": 225,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/linear-first-tail-recognition-pass141-working.md",
+      "sha256": "1ce19523fac19365616f81de6e1fe92053eff062078db1d69298e1ac776a8dba",
+      "bytes": 5222,
+      "lines": 121,
+      "equations": 4,
+      "test_methods": 0
+    },
+    {
+      "path": "research/verification-pass141-working.json",
+      "sha256": "9d239e427b59cb9ca2dc40e1ca703dd0d072fef0fbe35951af51a02cb54f6fc9",
+      "bytes": 6963,
+      "lines": 118,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "results": [
+    "For an actual dense fixed-good chart, all polynomial bad shears preserve Phi and Psi; mu=deg(Phi)-1, with an explicit minimizing shear.",
+    "A linear actual first tail is equivalent to an invariant bad-slot shear and, using the cited nice-derivation theorem with every premise checked, implies A isomorphic C^[3]. This is only a sufficient criterion.",
+    "A uniform formal family has arbitrary first-tail degree n and exact inverse-field degree n, but fails actual polynomial-coordinate and coefficient-return conditions.",
+    "Every first-tail component on which Psi is transcendental over L supports all formal cofactor/Taylor recurrences. This gives simplicity on that component but neither polynomial curve coordinates nor an actual inverse branch."
+  ],
+  "verification": {
+    "capture": "research/verification-pass141-working.json",
+    "executions": [
+      {
+        "completion": "191007",
+        "initial": "9249f7",
+        "exit_code": 0,
+        "methods": 3,
+        "seconds": 6.154
+      },
+      {
+        "completion": "00fe28",
+        "exit_code": 0,
+        "methods": 3,
+        "seconds": 0.462
+      }
+    ],
+    "total_new_test_methods": 6,
+    "numbered_equations_in_notes": 31,
+    "scope": "Finite exact controls plus separate written proofs and independent AI reconstructions. No proof-assistant or human-expert verification."
+  },
+  "next_bounded_task": "Use the actual projected-ring presentation and polynomial inverse to compare coefficient-field compatibility on every Psi-transcendental factor of Phi. The new component lemma proves later formal recurrences automatically, so they cannot alone select the actual component. Seek a precise finite set of rational coefficient-return relations, retaining a primitive element of the finite coefficient field, and prove what their saturated ideal selects. This is not permission to infer that all formal components are branches of the same inverse.",
+  "remaining_gaps": [
+    "No proof that every actual first tail is primitive and no actual counterexample.",
+    "No global polynomial descent for the remaining dense higher-degree supplied-profile cases.",
+    "No general three-good coordinate-entry argument or unrestricted cancellation proof.",
+    "Intended field/dimension/corrected professor statement unconfirmed; expert review and novelty determination outstanding."
+  ],
+  "goal_audit": {
+    "previous_goal_turn": "No-progress status check",
+    "current_goal_turn": "Progress through completed exact arguments and six passing new tests",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "earlier_frozen_files_edited": false
+  }
+}

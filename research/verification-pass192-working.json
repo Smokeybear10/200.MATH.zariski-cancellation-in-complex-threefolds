@@ -1,0 +1,234 @@
+{
+  "pass": 192,
+  "grouped_passes": [
+    191,
+    192
+  ],
+  "status": "restricted_split_zero_R_recognition_and_actual_absent_variable_examples; nonzero_R_and_unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass190-working.json",
+    "sha256": "30b6c55dc7d6d13f67c713748c91a6c37a5eab46d3fd21e99bfce707b3463ae3",
+    "records": 1180
+  },
+  "results": {
+    "split_zero_R": "Under an actual globally sliced frame with exact E-degrees(1,1,2,2), full weighted initial kernel XYZ+X^4+Y^4, and R=k_rho=0, the coefficient-cover and field-return argument constructs I=W-(lambda*X*Y+beta*X+alpha*Y+D)*Z-Q0(X,Y). All displayed shear coefficients are complex and both polynomial inverse orders are supplied. Regularity from the global slice and the published Bhatwadekar-Gupta-Lokhande Theorem3.5 give A=C[I]^[2].",
+    "coefficient_lemmas": "For d=t^-4-1 over the exact finite field K/C(t), every algebraic solution of10*d*b''+5*d'*b'+d''*b=0 is lambda*t. A nontrivial quadratic cover would make gamma=a'''/(18*d) have pole order at least9, contradicting actual degree-one field return. The192 proof supplies the geometric hypotheses missing from the standalone191 lemmas.",
+    "negative_result": "The generalized square-completion ODE20*Df*f'''-3*d*(f'')^2-12*f''*Df'=0, Df=d'*f/4+d*f', has the exact nonaffine rational solution f=t^5+3*t. All nonzero denominator gates are checked. This refutes an attempted extrapolation of the old d=4*t lemma, not that lemma itself, actual realization, or cancellation.",
+    "actual_examples": "Two explicit polynomial frames with global slice realize R=0 and R=1 for the different full kernel X^2*Z-Y^4. Both original inverse orders, literal partial_Z operators, selected N=partial_y or -partial_y, calibration and full initial kernels are proved. They do not prove profile minimality and are not split examples.",
+    "remaining_scope": "The split nonzero-R branch, other unresolved weight-four forms, height-two initial kernels, higher possible minimum time profiles and arbitrary coordinate entry remain open in this packet. Separate193 work is excluded. The professor has not confirmed the corrected target."
+  },
+  "goal_audit": {
+    "prior_status_turn": "No progress toward proof completion was claimed for the preceding user check-in; it was status communication and source inspection.",
+    "current_continuation": "The pending final zero-R algebra suite was executed after complete source reads and independent review; it passed. The grouped191-192 proof, examples and failed-extension evidence are now captured. Additional193 mathematical work is separate and not counted here.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Resolve the split nonzero-R alternatives by their full coefficient, scalar-Jacobian and original-ring constraints; retain the rational ODE counterexample and do not infer arbitrary entry from special-frame recognition.",
+  "artifacts": [
+    {
+      "path": "research/weight-four-absent-variable-two-actual-frames-pass191-working.md",
+      "sha256": "f51582120996b29db7170faa8883d6341bdfb6e5880e56cc00a282313f7b2ab8",
+      "bytes": 9936,
+      "lines": 315,
+      "equations": 21,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-split-coefficient-ode-lemmas-pass191-working.md",
+      "sha256": "e344b9024923acfe5f182b2ad29570086d179e597713dd528a064a33187f046c",
+      "bytes": 7029,
+      "lines": 183,
+      "equations": 10,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-split-zero-r-coordinate-recognition-pass192-working.md",
+      "sha256": "8b8cc60389200e134a8e903aed56f4693a5b0c0f98af62f500d35cb98a27f500",
+      "bytes": 18900,
+      "lines": 529,
+      "equations": 28,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-split-nonzero-r-ode-counterexample-pass192-working.md",
+      "sha256": "b031f85241ce5c0fae9e80b94315c5bd3c170efb5e05d8569ea207ecdccad7b1",
+      "bytes": 7135,
+      "lines": 207,
+      "equations": 15,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-split-frontier-synthesis-pass192-working.md",
+      "sha256": "df5fa229769b8bc940a8df310d4cd37dbe845cc1f05d7504eb06a65d90cdd201",
+      "bytes": 7373,
+      "lines": 181,
+      "equations": 6,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight_four_absent_actual_frames_controls_pass191.py",
+      "sha256": "791bdeb4d9a95f71688a8e319f43fe750f0bf7d5266e7287b07cb1f4ea20aac7",
+      "bytes": 9171,
+      "lines": 183,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/weight_four_split_coefficient_controls_pass192.py",
+      "sha256": "0d35c382bf1fb08d3fb37b17618c1559876d230f97894d150f6e87ae9da0fa1a",
+      "bytes": 8886,
+      "lines": 179,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/weight_four_split_zero_r_controls_pass192.py",
+      "sha256": "78086e66bc003cb9fcf2cee88dab386179a906b85fae386ad425c412f2bd6983",
+      "bytes": 9646,
+      "lines": 198,
+      "equations": 0,
+      "test_methods": 3
+    }
+  ],
+  "canonical_executions": [
+    {
+      "suite": "actual_frames191",
+      "path": "research/weight_four_absent_actual_frames_controls_pass191.py",
+      "pre_execution_read": "Root09712f",
+      "initial_output": "a67b7c",
+      "terminal_output": "a67b7c",
+      "methods": 3,
+      "unittest_seconds": 0.115,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/weight_four_absent_actual_frames_controls_pass191.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "login": false,
+      "initial_yield_time_ms": 1000
+    },
+    {
+      "suite": "split_coefficients192",
+      "path": "research/weight_four_split_coefficient_controls_pass192.py",
+      "pre_execution_read": "Rootad5691",
+      "initial_output": "00ba25",
+      "initial_response_terminal": false,
+      "initial_session_id": 74393,
+      "completion_method": "write_stdin on the same session74393, empty input, yield1000ms",
+      "terminal_output": "28bc7d",
+      "methods": 3,
+      "unittest_seconds": 0.947,
+      "result": "OK",
+      "exit_code": 0,
+      "pending_execution_handle": false,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/weight_four_split_coefficient_controls_pass192.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "login": false,
+      "initial_yield_time_ms": 1000
+    },
+    {
+      "suite": "split_zero_R192",
+      "path": "research/weight_four_split_zero_r_controls_pass192.py",
+      "pre_execution_read": "Root90d49d",
+      "initial_output": "e8a4d9",
+      "terminal_output": "e8a4d9",
+      "methods": 3,
+      "unittest_seconds": 0.355,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": true,
+      "pending_execution_handle": false,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/weight_four_split_zero_r_controls_pass192.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "login": false,
+      "initial_yield_time_ms": 1000
+    }
+  ],
+  "tagged_equations": 80,
+  "total_new_test_methods": 9,
+  "reviews": {
+    "actual_examples": "General author e2bd0a; Rootd314cf and fresh8a67c8; Jet4b6572 and Geometryea9707+8900ca reconstructed inverse orders, literal partials and full initial kernels. Sourcef5158212.",
+    "standalone_lemmas": "Rootd314cf, fresh5314ee; General3dfde4, Jet5b3147 and Geometryfa289c independently checked the regular-differential and pole-order arguments. Sourcee344b902.",
+    "split_zero_R": "General authorfb1bfb+b41d65 and final810dfb; Root44962a and fresh4f0254+8cdb34; Geometry7fe169+e971d8; Jetf5edb9. Source8b8cc603.",
+    "ODE_counterexample": "Root7aa4ce and fresh9d4d2c; Jet2dc9b9; Geometrye1fad0. Sourceb031f852. The actual-frame/full-system boundary is explicit.",
+    "synthesis": "Root full final75fcd4 and Geometry full92894b atdf5fa229; independent metadata029571 agrees. The split zero-R recognition, different actual absent-variable examples and necessary-ODE-only negative result are correctly separated.",
+    "checker_sources": "Actual191: Jetdca9db, Root09712f before run, Geometrya655d9 subsequently. Coefficients192: Jetfa4eab, Rootad5691 before run, Geometry2ae395 subsequently. Zero-R192: Root90d49d and Jet6c80df before run. Source review did not execute, import or compile.",
+    "metadata": "Rootdd9c0d verifies all eight final source hashes/counts. Root7e1b35 confirms frozen190 V/CP hashes unchanged."
+  },
+  "external_dependencies": [
+    {
+      "source": "Bhatwadekar-Gupta-Lokhande Theorem3.5",
+      "url": "https://arxiv.org/html/1501.01438v1",
+      "fresh_primary_reads": [
+        "Root4251view1 and4252view1",
+        "General4247view0/1",
+        "Geometry4250view0"
+      ],
+      "use": "Regular kernel of a nonzero LND fixing an actual ambient coordinate is a polynomial two-ring over that coordinate.",
+      "scope": "Published statement and displayed proof retained. Not a recursive reproof of structural dependencies."
+    },
+    {
+      "source": "Wang's two-coordinate theorem as Dasgupta-Gupta Theorem4.1",
+      "url": "https://arxiv.org/pdf/1701.03635v1",
+      "fresh_primary_reads": [
+        "Root4252view0",
+        "Geometry4250view1"
+      ],
+      "use": "Exclude constant projected y in the split zero-R branch after establishing an actual irreducible three-ring LND.",
+      "scope": "Exact hypotheses and alternatives checked."
+    },
+    {
+      "source": "Projective curve and pole-degree facts",
+      "urls": [
+        "https://stacks.math.columbia.edu/tag/0BY1",
+        "https://stacks.math.columbia.edu/tag/0AYZ",
+        "https://stacks.math.columbia.edu/tag/02NY"
+      ],
+      "retained_primary_reads": [
+        "Root4245view0",
+        "Root4245view1",
+        "Root4245view2"
+      ],
+      "use": "Smooth projective coefficient curves, regular differentials and degree of a rational function from its pole divisor.",
+      "scope": "These visits are retained from190, not represented as new192 browsing."
+    }
+  ],
+  "proof_dependencies": {
+    "new": [
+      "research/weight-four-absent-variable-two-actual-frames-pass191-working.md",
+      "research/weight-four-split-coefficient-ode-lemmas-pass191-working.md",
+      "research/weight-four-split-zero-r-coordinate-recognition-pass192-working.md",
+      "research/weight-four-split-nonzero-r-ode-counterexample-pass192-working.md",
+      "research/weight-four-split-frontier-synthesis-pass192-working.md"
+    ],
+    "retained": [
+      "research/weight-four-universal-chart-potentials-pass184-working.md",
+      "research/weight-four-absent-variable-zero-r-reduction-pass187-working.md",
+      "research/weight-four-absent-zero-r-cover-collapse-pass189-working.md",
+      "research/weight-four-absent-zero-r-field-normal-form-pass190-working.md"
+    ],
+    "scope": "Retained chart and exact-field lemmas are inputs, not claimed recursively reverified."
+  },
+  "finite_control_scope": {
+    "actual_frames191": "Polynomial inverse orders, literal original partials, selected leading derivations, potential identities and calibration; full kernel proof remains written.",
+    "split_coefficients192": "Generalized ODE reduction, rational counterexample and finite slope/pole identities; not all algebraic solutions or geometric realization.",
+    "split_zero_R192": "General coefficient integral and cover recurrence, residual pencil jets retaining D', explicit Laurent-fixture transport and both shear inverse orders. The fixture is not asserted actual.",
+    "boundary": "No finite suite proves actual field return, projective-curve theory, constant-field descent, all retained inputs or the published recognition theorem."
+  }
+}

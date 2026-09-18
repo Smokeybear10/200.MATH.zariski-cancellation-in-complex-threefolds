@@ -1,0 +1,165 @@
+{
+  "status": "Audited working71 conditional proof packet: all dependent-defect sliced actions under the supplied actual two-quadratic frame are recognized. Independent moving degrees four and five and universal frame existence remain unresolved.",
+  "previous_working_checkpoint": "research/checkpoint-pass70-working.json",
+  "previous_integrated_checkpoint": "consistency-pass-60.json",
+  "current_research_pass_classification": "progress",
+  "previous_status_only_turn_classification": "no progress; current files revalidated and the pending terminal proof completed",
+  "synthesis": "research/dependent-frame-closure-pass71.md",
+  "proof_audit": "research/proof-audits-pass71-working.md",
+  "verification_record": "research/verification-pass71-working.json",
+  "historical_integrated_counts": {
+    "claims": 544,
+    "test_methods": 1000,
+    "suites": 126
+  },
+  "last_full_regression": {
+    "path": "research/verification-pass69-working.json",
+    "suites": 136,
+    "test_methods": 1021,
+    "all_passed": true
+  },
+  "targeted_current_verification": {
+    "path": "research/verification-pass71-working.json",
+    "suites": 1,
+    "methods": 3,
+    "all_passed": true,
+    "unittest_seconds": 0.152,
+    "started_at_utc": "2026-09-14T03:05:52.007Z",
+    "finished_at_utc": "2026-09-14T03:05:52.543Z",
+    "checker_sha256": "9522267108df2f9f14df3958a0c004aa42c7678384f8127b48c84eef0bf3145d",
+    "output_sha256": "703b99d9161b29bd7d60908c527dee9e5660257ad2b5168bbab9479863ca7302"
+  },
+  "fresh_full71_regression_performed": false,
+  "central_registry_integrated": false,
+  "completed_deductions": [
+    "Under an actual polynomial (1,1,2,2) adjoint frame and the original polynomial slice, every fraction-field dependent pair of quadratic defects has a polynomial three-variable original kernel. Constant relations and zero defects are included.",
+    "The terminal dependent moving quartic has an actual polynomial nice replica T=gS with one power of g clearing all rational coefficients and with a surviving actual coordinate w fixed by T.",
+    "The original nice coefficient chain and a known characteristic-zero linear-invariant theorem force Ew=0 or Ew=lambda*g with a nonzero complex constant lambda.",
+    "In the nonzero-speed terminal case, coefficient comparison over the delta-constant field produces actual polynomial shears to a rational two-direction symmetry. The required good actual partial is either unchanged or verified by exact second-adjoint cancellation.",
+    "The original slice and original derivation meet the complete rational two-direction recognition theorem after those shears; no global recognition is inferred from an invariant localization alone.",
+    "The required linear-invariant source statement was directly verified over any characteristic-zero field. An accessible complex proof route was read, and finite-coefficient-field and matrix-rank descent supplies an additional explicit field-transfer justification."
+  ],
+  "remaining_mathematical_obligations_at_this_checkpoint": [
+    "Independent defects with nonconstant highest vector in coordinate flow degrees four or five, after the inherited individual recognition criteria. Subsequent rank-drop transfer investigations belong to pass72, not this packet.",
+    "Universal existence of an applicable actual polynomial coordinate frame, or an unrestricted recognition proof.",
+    "Confirmation from the professor of the intended field, dimension and corrected statement; the current complex-threefold interpretation is unconfirmed."
+  ],
+  "proof_review_kind": "Independent AI through-EOF reconstructions with author work separated. The source-field statement was made explicitly K-linear during review. Finite symbolic controls and artifact integrity are not human review or proof-assistant verification.",
+  "all_supplied_two_quadratic_low_flow_recognized": true,
+  "all_supplied_two_quadratic_constant_highest_flow_recognized": true,
+  "all_supplied_two_quadratic_cubic_flow_recognized": true,
+  "dependent_rotating_moving_orders_three_four_excluded": true,
+  "all_supplied_dependent_common_power_quartic_recognized": true,
+  "all_supplied_two_quadratic_dependent_defects_recognized": true,
+  "entire_two_quadratic_profile_recognized": false,
+  "all_profile_height_threshold": 9,
+  "general_conjecture_solved": false,
+  "universal_frame_existence_proved": false,
+  "novelty_claimed": false,
+  "human_expert_review": false,
+  "proof_assistant_verified": false,
+  "interpretation_confirmed_by_professor": false,
+  "external_contact_or_submission": false,
+  "pass72_drafts_excluded": true,
+  "artifact_integrity": {
+    "checked_at_utc": "2026-09-14T03:11:38.792Z",
+    "all_passed": true,
+    "frozen_predecessor": {
+      "path": "research/checkpoint-pass70-working.json",
+      "sha256": "9d67adc77717dc0774441da0fcb4d2610f5d100693d5c7d9693c5761fe77fb6b"
+    },
+    "prior_hash_records": 253,
+    "current_artifacts": 9,
+    "total_hash_records": 262,
+    "local_link_paths_checked": 517,
+    "deferred_checkpoint_links": [
+      {
+        "source": "research/proof-audits-pass71-working.md",
+        "target": "research/checkpoint-pass71-working.json"
+      },
+      {
+        "source": "README.md",
+        "target": "research/checkpoint-pass71-working.json"
+      },
+      {
+        "source": "research-ledger.md",
+        "target": "research/checkpoint-pass71-working.json"
+      }
+    ],
+    "link_anchors_checked": false,
+    "current_numbered_equations": 63,
+    "current_targeted_suite_count": 1,
+    "current_targeted_method_count": 3,
+    "targeted_output_rehashed": true,
+    "central_claim_count": 544,
+    "mathematical_suites_executed": 0,
+    "regression_runners_executed": 0,
+    "pass72_drafts_excluded": true,
+    "scope": "Read-only exact file hashes, text hygiene, local paths, equation numbering and saved finite-run accounting. Not mathematical proof verification, novelty review or general cancellation.",
+    "artifacts": [
+      {
+        "path": "research/terminal-quartic-parabolic-form-pass71.md",
+        "sha256": "583828a28b8dfecc91eb96d4797aba5044727559848ee2e7fc177950c0a1ffc2",
+        "bytes": 10857,
+        "lines": 343,
+        "numbered_equations": 21
+      },
+      {
+        "path": "research/nice-chain-speed-proportionality-pass71.md",
+        "sha256": "01f034e78bf9232c6380e5f5b2a34cbc57907f3bdb91e3f7486e6629a5e070c5",
+        "bytes": 8372,
+        "lines": 232,
+        "numbered_equations": 12
+      },
+      {
+        "path": "research/terminal-quartic-recognition-pass71.md",
+        "sha256": "8b39e49f5a5e8775ea31abb83474d1bac2c88a8b6c90ec51f276a8eff7c15604",
+        "bytes": 10649,
+        "lines": 296,
+        "numbered_equations": 22
+      },
+      {
+        "path": "research/dependent-frame-closure-pass71.md",
+        "sha256": "39c756e731227fccf0ae33ec39bf9634fd2dfb01327b8aaf2da13984f1da2c85",
+        "bytes": 9555,
+        "lines": 218,
+        "numbered_equations": 6
+      },
+      {
+        "path": "research/nice-linear-invariant-source-pass71.md",
+        "sha256": "2e7542d05816923b81c86a21b8c4009cceb50325c808c6903ef1c0654d1edf6f",
+        "bytes": 6558,
+        "lines": 131,
+        "numbered_equations": 2
+      },
+      {
+        "path": "research/terminal-quartic-controls-pass71.md",
+        "sha256": "5f612a1b22da51a5b6c85bcc43620c376a854c5aa92c2a002c80541fc80d562a",
+        "bytes": 5167,
+        "lines": 127,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/terminal_quartic_recognition_checks_pass71.py",
+        "sha256": "9522267108df2f9f14df3958a0c004aa42c7678384f8127b48c84eef0bf3145d",
+        "bytes": 9705,
+        "lines": 198,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/verification-pass71-working.json",
+        "sha256": "04d396b707ddfc52f1764420a97369296aff6cf821a76209208acae1aeefc35a",
+        "bytes": 845,
+        "lines": 16,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/proof-audits-pass71-working.md",
+        "sha256": "b478e3708f194a0a6e277b6adb0e7c2683c57ef9e92a4b05e254bec9b718902c",
+        "bytes": 7163,
+        "lines": 136,
+        "numbered_equations": 0
+      }
+    ]
+  }
+}

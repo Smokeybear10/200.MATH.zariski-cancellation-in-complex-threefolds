@@ -1,0 +1,93 @@
+{
+  "pass": 146,
+  "status": "actual_residual_coordinate_gate_refuted; full_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass145-working.json",
+    "sha256": "0e17fefc0300e884a7d9d1dc9704d8316db597a19eca200639152e9bf84307db",
+    "records": 956
+  },
+  "chain_record_count_after_including_this_checkpoint": 962,
+  "record_count_convention": "956 prior records plus three notes, one checker, verification146 and this checkpoint. Live indexes excluded.",
+  "artifacts": [
+    {
+      "path": "research/divisorial-descent-audit-pass146-working.md",
+      "sha256": "9d983663cb6fbbead643dde6945710c333186667eca8efa1a89e88b17e1ae59b",
+      "bytes": 11729,
+      "lines": 307,
+      "equations": 9,
+      "test_methods": 0
+    },
+    {
+      "path": "research/actual-descent-controls-pass146-working.md",
+      "sha256": "e12f52a23eb3e39768941fb0cb5d605e9eaa286093dda84e9877c56bfe8a43c5",
+      "bytes": 7725,
+      "lines": 186,
+      "equations": 7,
+      "test_methods": 0
+    },
+    {
+      "path": "research/divisorial-descent-literature-pass146-working.md",
+      "sha256": "ad2213e8b1c917f205657a183b1b34a1c019a06d0c1000188add32acab92cbd7",
+      "bytes": 10052,
+      "lines": 222,
+      "equations": 6,
+      "test_methods": 0
+    },
+    {
+      "path": "research/divisorial_descent_controls_pass146.py",
+      "sha256": "f68116824fad60e1e498315e158b749e948f8b2ba7815eb7b3f520e29f27a4b7",
+      "bytes": 9333,
+      "lines": 196,
+      "equations": 0,
+      "test_methods": 4
+    },
+    {
+      "path": "research/verification-pass146-working.json",
+      "sha256": "21fb7e83d8a007b388858337c761aade05ed63b2f117010a27538a41d9ce664f",
+      "bytes": 6473,
+      "lines": 96,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "results": [
+    "The primitive clearing of the literal canonical first tail can split over an unremoved divisor, in a genuine inverse-verified dense sliced frame.",
+    "The missing component lies in the projected-good subring, not the full invariant algebra. The additional projected coordinate and its two relations recover the actual polynomial line.",
+    "Even a descended curve coordinate need not supply a polynomial slice for the canonically normalized intrinsic leading derivation.",
+    "The literature criteria require full-gradient, all-fiber or relative-retraction/residue conditions not implied by generic primitivity."
+  ],
+  "verification": {
+    "capture": "research/verification-pass146-working.json",
+    "completion_output": "232526",
+    "exit_code": 0,
+    "test_methods": 4,
+    "seconds": 0.207,
+    "numbered_equations": 22,
+    "pending_test_execution_handles": false,
+    "scope": "Explicit written counterexamples and same-base source comparison, separate AI reconstructions, finite exact identities. No human review, proof-assistant verification or novelty clearance."
+  },
+  "next_bounded_task": "Study the whole A_(p)/pA_(p), not the smaller projected-good order. Extend91's residue-field degree bound to dense139 using134 noncollapse and arbitrary good-coordinate reselection. Then determine whether an actual selected intrinsic action can have nontrivial finite residue constants.",
+  "remaining_gaps": [
+    "Geometric integrality and descent of the full invariant-ring fibers; no relative retraction proved.",
+    "Recognition for every remaining dense higher-degree supplied frame.",
+    "Arbitrary three-good coordinate entry or another route covering arbitrary cylinders.",
+    "Full cancellation and independent human/priority review; professor's intended correction remains unconfirmed."
+  ],
+  "goal_audit": {
+    "classification": "progress",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_files_edited": false
+  }
+}

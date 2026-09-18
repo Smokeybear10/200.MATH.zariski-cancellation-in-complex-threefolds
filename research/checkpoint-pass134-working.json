@@ -1,0 +1,211 @@
+{
+  "pass": 134,
+  "status": "primitive_corrections_and_direct_recognition_proved_in_working_derivation_for_supplied_dense_quadratic_frames; general_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3]. Professor's intended correction, field and dimension remain unconfirmed.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass133-working.json",
+    "sha256": "0348b6deb296cf94577dee31ffd61acdbcf97a287edf1eceb38cb5ad5908c04e",
+    "records": 867
+  },
+  "chain_record_count_after_including_this_checkpoint": 881,
+  "record_count_convention": "867 previous records plus twelve scientific/core artifacts, verification134 and this checkpoint. Live indexes and provisional135 work are excluded.",
+  "artifacts": [
+    {
+      "path": "research/binary_cubic_rigidity_controls_pass134.py",
+      "sha256": "8b110580bd0f8cf112dc2736f89d976a2ce9fa7c6382c37399b34cd4a13cb580",
+      "bytes": 8397,
+      "lines": 175,
+      "test_methods": 3
+    },
+    {
+      "path": "research/constant-speed-binary-cubic-rigidity-pass134-working.md",
+      "sha256": "80ab735ac0d617025366b4003db92aca8cfffd50434770d0645db566b5fc14f5",
+      "bytes": 12173,
+      "lines": 295,
+      "equations": 10
+    },
+    {
+      "path": "research/dense-good-speed-divisor-exclusion-pass134.md",
+      "sha256": "446974be9ec53fee9818b02f1837c839dde54855b2f6023e234c28e385eef5c5",
+      "bytes": 5501,
+      "lines": 134,
+      "equations": 6
+    },
+    {
+      "path": "research/low_weight_localization_controls_pass134.py",
+      "sha256": "13effb0682ee5ad96aa6c4a7715ec44da54508b53d88fe3fb75f76ea8a9ed22f",
+      "bytes": 8146,
+      "lines": 167,
+      "test_methods": 2
+    },
+    {
+      "path": "research/primitive-binary-cubic-localization-rigidity-pass134-working.md",
+      "sha256": "ec9e11058249c235c97d05c43d094f77d83a4b8b871408fc2a39adbd6fec2c65",
+      "bytes": 11426,
+      "lines": 272,
+      "equations": 8
+    },
+    {
+      "path": "research/primitive-cubic-correction-existence-pass134-working.md",
+      "sha256": "c1a4c2650bdaefab6aba85d9c3d26c615bee0128c15a28b088d0f0f593c8001f",
+      "bytes": 15908,
+      "lines": 358,
+      "equations": 17
+    },
+    {
+      "path": "research/primitive-generic-line-exclusion-pass134-working.md",
+      "sha256": "d5a449231d8112d6ea5cb117cee2f927b5ee10c67a8912ee04af88405d84cc92",
+      "bytes": 9326,
+      "lines": 217,
+      "equations": 8
+    },
+    {
+      "path": "research/primitive_graph_descent_controls_pass134.py",
+      "sha256": "8ff4c26794df8f8bd3d7707b132642f2acc7e0cc2fb81c6826a80c0cf6307b53",
+      "bytes": 10283,
+      "lines": 194,
+      "test_methods": 3
+    },
+    {
+      "path": "research/primitive_seed_commutator_search_pass134.py",
+      "sha256": "fc19d15ee4f8b3c76b88f051d61fd3ab821fe3d9e7270b99f38644c056fb1a5b",
+      "bytes": 5092,
+      "lines": 105,
+      "test_methods": 0
+    },
+    {
+      "path": "research/rational-pencil-weight-descent-pass134-working.md",
+      "sha256": "9830cc09736c7143ed3b3daaa5f9222e56a1249f567fb9d2b8a71b2da4562e85",
+      "bytes": 5271,
+      "lines": 116,
+      "equations": 5
+    },
+    {
+      "path": "research/rational_pencil_weight_controls_pass134.py",
+      "sha256": "68546f8c7b6e1c01590b8cc92b361103d39c21d20d8883902d27b8e06b25b858",
+      "bytes": 3723,
+      "lines": 77,
+      "test_methods": 2
+    },
+    {
+      "path": "research/three-good-low-weight-correction-boundary-pass134-working.md",
+      "sha256": "b5dec49ec1f129c855c86c9a2c9cffc63c779f67c65f35e88554b6b0786515e9",
+      "bytes": 7326,
+      "lines": 160,
+      "equations": 6
+    },
+    {
+      "path": "research/verification-pass134-working.json",
+      "sha256": "bbe3cc7f0103ac53e58f53f171f3642b5d81f41261583b417ce2d77256a763e8",
+      "bytes": 11577,
+      "lines": 237
+    }
+  ],
+  "new_results": [
+    "In the supplied actual sliced dense rank-two three-good quadratic class with q outside the constant quadratic speed span, both lower correction gates hold. A nonconstant invariant of original weight three exists.",
+    "Invariant localization extends the binary pure-cube restriction without incorrectly asserting that the selected original partial remains locally nilpotent after localization. An actual generic line component is excluded by a constant ambient commuter.",
+    "The surviving cubic graph has constant nonzero slope by its actual unit-Jacobian identity. Its coefficients descend to a transcendence-degree-one invariant field. The rational-pencil kernel over exactly that field forces numerator and denominator of a rational generator to have original weight at most three.",
+    "A further coefficient comparison gives an explicit invariant coordinate and an affine normalized cubic presentation. Classification132 Sections1--5 gives nonzero constant leading speed and an explicit polynomial kernel. Neither its geometric Section6 nor the topology theorem130 is needed in this final chain.",
+    "The good-speed gcd statement is identified as a dense-cone corollary of the retained82 ideal theorem. The normal associated-graded example is not a correction counterexample and does not justify cancelling ambient factors."
+  ],
+  "proof_reviews": {
+    "central_final_sha256": "c1a4c2650bdaefab6aba85d9c3d26c615bee0128c15a28b088d0f0f593c8001f",
+    "central_equations": 17,
+    "Root": "01e308 complete fourteen-equation proof;914ac2 scope/link delta;5fe488 complete direct-normalization change and Sources.",
+    "General": "b88951/93f7ed complete original;af4d99/fa03b9 scope/link delta;52b033 final direct-normalization change;35b3ff final hash.",
+    "Geometry": "148e06 complete original;94b35c scope/link delta;313cba final Sections6/7 and Sources;4e51d8 final hash.",
+    "Jet": "cb9914 and af0d94 complete earlier versions;3832c5 final Sections6/7 and Sources;6157fe final hash.",
+    "localization": "Root237ff7 full;Geometryb68ce1 full;Jet738159+a22711 full mathematical body. Scope-only wording updated914ac2; all eight equations unchanged.",
+    "generic_line": "Root6652bd full;Geometry96c18e plus7f2f8f source-title delta;General0ce166 full;Jet5ddbb3 full.",
+    "rational_pencil": "Root01e308 full;Jetf6076c full;Geometry75f54a full.",
+    "low_weight": "Rootc1bf98 and1c9835;Generald912cc;Jet41fd92, complete proof reads.",
+    "constant_speed": "Root6de0b9 and121962 full;Generalauthor8d4dab+dbd09e;Geometrya6db20;Jet9c369a full. Header only changed914ac2.",
+    "checker_final_graph": "Root401c20+fe41eb;Jet authorc39276+050c8e+012264;Geometry9b6e1b+ebb8a6+7a0767;General5be5ba+01a5d9. Source-only peer reviews.",
+    "limit": "Independent AI mathematical reconstructions and exact finite controls, not human expert review, proof-assistant verification or historical novelty clearance."
+  },
+  "verification": {
+    "capture": "research/verification-pass134-working.json",
+    "unittest": {
+      "initial": "832778",
+      "completion": "365ec8",
+      "session_id": 67635,
+      "state": "completed",
+      "exit_code": 0,
+      "methods": 29,
+      "new_methods": 10,
+      "retained_methods": 19,
+      "seconds": 1.827
+    },
+    "search": {
+      "initial": "b0ab56",
+      "completion": "65dde6",
+      "session_id": 45166,
+      "state": "completed",
+      "exit_code": 0,
+      "words": 1296,
+      "both_inverse_orders": 1296,
+      "unique_endpoints": 507,
+      "primitive_endpoints_passing_both_gates": 75,
+      "cutoffs": 0,
+      "stop_reason": "exhausted_family"
+    },
+    "initial_search_failure": "A time-limited seed inverse expansion tested zero candidate words. It is not negative mathematical evidence. Staged exact inverse checks repaired the implementation; all later word inverses were checked in both orders.",
+    "limits": "Finite exact algebra controls and a finite search do not prove the universal lemmas. The saved derivation uses stated classical inputs and independent AI reviews, not human or proof-assistant verification."
+  },
+  "source_inputs": {
+    "luroth": {
+      "url": "https://arxiv.org/pdf/1501.06046v4",
+      "author": "Michiel de Bondt",
+      "title": "Rational maps H for which K(tH) has transcendence degree2 over K",
+      "location": "Theorem1.1 and classical attribution, printedp4",
+      "Root": "turn3992view0",
+      "General": "turn3993view0",
+      "Geometry": "turn3996view0",
+      "Jet": "turn3995view0"
+    },
+    "luroth_reduction": {
+      "url": "https://www.numdam.org/item/JTNB_1989__1_1_27_0.pdf",
+      "author": "Jack Ohm",
+      "title": "On ruled fields",
+      "year": 1989,
+      "location": "Section1.2, printedp29",
+      "Root": "turn3990view0",
+      "Geometry": "turn3997view0"
+    },
+    "wang": {
+      "url": "https://arxiv.org/pdf/1701.03635v1",
+      "authors": "Nikhilesh Dasgupta and Neena Gupta",
+      "title": "Nice derivations over principal ideal domains",
+      "location": "Theorem4.1, printedp9",
+      "Root": "turn3988view0",
+      "scope": "Exact attributed Wang alternatives; original-thesis review retained in132, not a new recursive audit."
+    },
+    "limits": "Classical results are inputs, not claimed new. Bounded source and keyword checks are not a comprehensive statement-level novelty audit."
+  },
+  "remaining_gaps": [
+    "Nonlinear conical speed-rank-two three-good quadratic frames with nonconstant acceleration outside C+W2 are not recognized by the reviewed saved theorems.",
+    "Entry or reduction for arbitrary sliced polynomial fourfolds outside the supplied coordinate profiles.",
+    "Full corrected complex-threefold cancellation; confirmation of professor's intended statement; expert review; formal verification; historical novelty determination."
+  ],
+  "next_bounded_task": "Investigate the unresolved nonlinear conical speed-rank-two sector, beginning with whether the selected bad partial has adjoint degree at most one. Preserve the independent arbitrary-frame entry problem. Do not resume blind searches for primitive correction failure in the class covered by134.",
+  "goal_audit": {
+    "previous_goal_turn": "The immediately preceding user check-in was informational: it revalidated current hashes and recorded test completion but made no new mathematical progress. It is classified as no progress toward solving cancellation, not a live computation wait.",
+    "current_turn": "Packages the completed134 proof and verification without redefining full success; proceeds to a bounded unresolved-sector investigation.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false
+  },
+  "boundaries": {
+    "prior_frozen_artifacts_intentionally_edited": false,
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_cleared": false,
+    "external_contact": false,
+    "submission": false,
+    "public_posting": false,
+    "new_automation": false
+  },
+  "live_indexes": [
+    "README.md",
+    "research-ledger.md"
+  ]
+}

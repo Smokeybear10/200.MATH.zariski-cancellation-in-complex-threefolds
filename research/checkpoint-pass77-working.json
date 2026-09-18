@@ -1,0 +1,278 @@
+{
+  "status": "AI-audited working77: actual binary parameters, exact transverse scheme and content restrictions, and original-action exclusions for specified constructions. Unrestricted cancellation remains unproved.",
+  "previous_working_checkpoint": "research/checkpoint-pass76-working.json",
+  "previous_integrated_checkpoint": "consistency-pass-60.json",
+  "current_research_pass_classification": "progress",
+  "previous_check_in_classification": "No progress: a read-only user status response. This continuation revalidated current files and completed new proof, counterexample-to-shortcut and verification evidence.",
+  "synthesis": "research/binary-scheme-frontier-pass77.md",
+  "proof_audit": "research/proof-audits-pass77-working.md",
+  "verification_record": "research/verification-pass77-working.json",
+  "historical_integrated_counts": {
+    "claims": 544,
+    "test_methods": 1000,
+    "suites": 126
+  },
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047,
+    "all_passed": true
+  },
+  "targeted_verification": {
+    "path": "research/verification-pass77-working.json",
+    "sha256": "a08edd2b78c79335247e54af007fba7c7f123c5c8decd1c8cec8b9f2377fb70f",
+    "suites": 1,
+    "test_methods": 5,
+    "all_passed": true,
+    "started_at_utc": "2026-09-14T06:44:02.007183+00:00",
+    "finished_at_utc": "2026-09-14T06:44:02.737938+00:00",
+    "monotonic_wall_seconds": 0.730322,
+    "unittest_seconds": 0.457,
+    "tracked_inputs": 3,
+    "retained_complete_outputs": 1
+  },
+  "new77_suites": 1,
+  "new77_test_methods": 5,
+  "fresh_full77_regression_performed": false,
+  "central_registry_integrated": false,
+  "completed_deductions": [
+    "With an actual nice sliced E, Jacobian square nonzero, a supplied constant good direction and nonlinear ternary velocity cone, the three transverse velocities are coprime homogeneous binary forms of actual invariant polynomials p,q. The pair has gcd one. Their ideal powers satisfy I^(2e-1) subset L subset I^e in both B and A, and their zero sets coincide.",
+    "The descended pair is also Q-invariant. Original slice contraction gives Tp,Tq,TP4 in I_A^e and intrinsic delta(A) subset I_A^(2e-1), with delta(I_A^r) subset I_A^(r+2e-1). A proper parameter ideal requires algebraically independent p,q. No parameter is assumed to be an ambient coordinate.",
+    "The transverse velocity ideal is an actual cylinder in the good coordinate, including nilpotents. Its intrinsic quotient is explicitly the same quotient of the three-variable base ring. The full nonreduced first-jet matrix satisfies N(w)=N0-w v^(-1)N0^2, and JacQ=-v^(-1)N0^2 modulo that ideal.",
+    "For a flat S-algebra and a derivation nonzero on every whole scheme fiber, {c in S:cD(A) subset LA}=L for every base ideal L. The inherited primitive-fiber theorem applies, so raw delta=hD image order is equivalent to exact base-ideal membership of h, without assuming D free.",
+    "In the binary branch the exact content satisfies h in (p,q)^(2e-1)S and Th in (p,q)^(3e-2)A. T(S) is contained in (p,q)^e A, not asserted to lie in S. These statements supply no upper bound on h or primitive-freeness conclusion.",
+    "For every m>=2 an actual two-shear coordinate pair has proper ideal, T-derivatives in its m-th power, and no nonconstant polynomial in C[p,q] killed by any nonzero constant partial. Nevertheless every derivation killing that pair and square-killing the four original coordinates is zero. This rules out a stationarity-plus-omission shortcut and its exact nice-action realization, not cancellation.",
+    "The graph-parameter construction forces a conic in its nonlinear nice square-nonzero branch. Separately, a nilpotent-Jacobian rank-two three-variable map with an aligned original-linear projective parameter cannot have nonlinear conical image. Neither extra hypothesis is proved for every action. The Chamberland inverse control is exactly the old conic seed after a constant change."
+  ],
+  "remaining_mathematical_obligations": [
+    "Recognize an arbitrary original sliced action under the unconfirmed complex-threefold interpretation, without assuming an available nice frame.",
+    "Resolve the no-good-direction nonlinear image-cone branch or find a recognition route that does not require a constant apex.",
+    "In the supplied-good nonlinear ternary branch, exclude the proper parameter ideal or construct an actual example satisfying every original-action hypothesis. Gcd, scheme stationarity and constant-direction omission are insufficient.",
+    "Control the primitive intrinsic fixed-locus ideal after division by the exact content. Its new necessary content order has no matching upper bound, and scheme-fiber nonvanishing is not pointwise freeness.",
+    "A universal Q^3 bound on original coordinates remains unproved. The all-profile height threshold remains ten.",
+    "Confirm the professor's intended corrected statement, field and dimension.",
+    "Historical novelty, human expert review and formal verification remain incomplete."
+  ],
+  "next_bounded_actions": [
+    "Use the original E(P)=0 and coordinate second-derivative equations to constrain a genuinely two-parameter proper ideal. The explicit two-shear test proves that stationarity and omission alone cannot close this step.",
+    "In the independent-parameter branch, investigate the two-by-two factorization JacP=UV with U the derivatives of the velocity functions in p,q and V=Jac(p,q). Derive the Euler and good-direction identities with all algebraic-extension and possible ramification denominators retained; test whether they constrain content h beyond its lower ideal order.",
+    "Seek an actual polynomial inverse for a three-variable line family with nilpotent rank-two Jacobian and nonlinear conical image outside the excluded aligned class. Do not treat nilpotence as an inverse certificate.",
+    "Keep the no-apex and arbitrary-frame obligations active. Do not repeat frozen graph, aligned or stationary-only constructions as new full candidates without a changed mathematical hypothesis."
+  ],
+  "proof_review_kind": "Separate full AI mathematical reconstructions, selected primary-proof reads and final scope/provenance review. Finite exact controls and file hashes are distinct. Not human expert or formal verification.",
+  "primary_source_audit": {
+    "checked_at_utc": "2026-09-14T06:48:52.703Z",
+    "all_passed": true,
+    "files": [
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.pdf",
+        "sha256": "b4df87f9a4042c1110915f50779be26decb6473fc13fccb99038a91bcb9f3a03",
+        "bytes": 2153645
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.txt",
+        "sha256": "31b95df36405d2cf9b50cf24e649bc75a40b490a0f2caebdca0de0416bf85816",
+        "bytes": 862237
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77-source.md",
+        "sha256": "4a8edfdd91fd0ef6441384a92b5aa45b2cc39f19958abcc7fbe363c89f237b83",
+        "bytes": 1170
+      },
+      {
+        "path": "tmp/pdfs/bondt-homogeneous-keller-maps-pass77.sha256",
+        "sha256": "243073116eef79c9fd0d28c06add2c602bf7aeae3797e10373be8252b35ddd00",
+        "bytes": 214
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.txt",
+        "sha256": "2450cbb34179187172a6c81dfedba9752ecb32b067c5a62ffcb2decab7f236d9",
+        "bytes": 98069
+      },
+      {
+        "path": "tmp/pdfs/bondt-1501.04845v3.pdf",
+        "sha256": "31cec362bd10fbe65e2a4622979fbcf4fbff2bcd585bae9dd3fe78bc330d49cc",
+        "bytes": 387538
+      }
+    ]
+  },
+  "new_primary_source": {
+    "title": "Homogeneous Keller maps",
+    "author": "Michiel de Bondt",
+    "year": 2009,
+    "url": "https://webdoc.ubn.ru.nl/mono/b/bondt_m_de/homokema.pdf",
+    "selected_result": "Theorem4.3.1 and complete displayed proof, printed87-89",
+    "unused_refinements": [
+      "Optional irreducibility refinement",
+      "Theorem4.3.5 minimum-degree argument"
+    ],
+    "whole_thesis_reaudited": false,
+    "rational_luroth_cited_proof_reaudited": false
+  },
+  "constant_good_equals_velocity_cone_apex_proved": true,
+  "nice_sliced_jacobian_cube_zero_proved": true,
+  "actual_binary_parameter_restrictions_proved": true,
+  "flat_all_ideal_content_lemma_proved": true,
+  "stationary_omission_shortcut_excluded": true,
+  "proper_binary_parameter_ideal_excluded": false,
+  "general_nice_sliced_good_partial_primitive_freeness_proved": false,
+  "universal_good_partial_Q_cube_bound_proved": false,
+  "arbitrary_nice_action_recognized": false,
+  "all_profile_height_threshold": 10,
+  "conditional_nonpolynomial_kernel_minimum_height_lower_bound": 11,
+  "universal_frame_existence_proved": false,
+  "universal_nice_frame_existence_proved": false,
+  "general_conjecture_solved": false,
+  "novelty_claimed": false,
+  "human_expert_review": false,
+  "proof_assistant_verified": false,
+  "interpretation_confirmed_by_professor": false,
+  "external_contact_or_submission": false,
+  "predecessor_audit": {
+    "checked_at_utc": "2026-09-14T06:36:45.936Z",
+    "all_passed": true,
+    "prior_hash_records": 326,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "d8ef92b7d103f697d83c18fcf03d9ef99f1ecf79c73b76f40e0826499efb9f43",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "artifact_integrity": {
+    "checked_at_utc": "2026-09-14T06:48:52.618Z",
+    "all_passed": true,
+    "prior_hash_records": 326,
+    "current_artifacts": 13,
+    "total_hash_records": 339,
+    "local_link_paths_checked": 610,
+    "deferred_checkpoint_links": [
+      {
+        "source": "research/binary-scheme-frontier-pass77.md",
+        "target": "research/checkpoint-pass77-working.json"
+      },
+      {
+        "source": "research/proof-audits-pass77-working.md",
+        "target": "research/checkpoint-pass77-working.json"
+      },
+      {
+        "source": "README.md",
+        "target": "research/checkpoint-pass77-working.json"
+      },
+      {
+        "source": "research-ledger.md",
+        "target": "research/checkpoint-pass77-working.json"
+      }
+    ],
+    "link_anchors_checked": false,
+    "link_scan_ignores_tex_math": true,
+    "current_numbered_equations": 68,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "new77_suites": 1,
+    "new77_methods": 5,
+    "targeted_suites": 1,
+    "targeted_methods": 5,
+    "retained_output_hashes_checked": 1,
+    "current_run_sources_checked": 3,
+    "central_claim_count": 544,
+    "mathematical_suites_executed": 0,
+    "regression_runners_executed": 0,
+    "scope": "Read-only current hashes, equation numbering, local paths, text hygiene and saved run accounting. Predecessor hashes were checked separately. Not mathematical proof verification.",
+    "artifacts": [
+      {
+        "path": "research/nice-binary-parameter-descent-pass77.md",
+        "sha256": "0bc9dd0426f52c11adf2a579ed620a7e4f24fc0cf4da12df77ae3345f8671de7",
+        "bytes": 9415,
+        "lines": 213,
+        "numbered_equations": 9
+      },
+      {
+        "path": "research/transverse-ideal-scheme-jets-pass77.md",
+        "sha256": "20977fe56fab37d33a8a49f58e170e3472de12e37466928e739e5aa3fe1d245d",
+        "bytes": 9568,
+        "lines": 249,
+        "numbered_equations": 14
+      },
+      {
+        "path": "research/binary-conormal-obstruction-pass77.md",
+        "sha256": "9f4404be9196b3a43597d1c7399dfa91aab51fba4057470da6d6c60ca8c3ea4f",
+        "bytes": 8132,
+        "lines": 184,
+        "numbered_equations": 9
+      },
+      {
+        "path": "research/graph-parameter-conic-obstruction-pass77.md",
+        "sha256": "f741c78e0013d0931644ba3357eb63fd7d5519be2e06819a178a7ef19eb1b669",
+        "bytes": 7553,
+        "lines": 182,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/aligned-projective-line-family-obstruction-pass77.md",
+        "sha256": "d06806872048626ef6f35a78bf086035dcc3ba5b1354ab1a4c1323806b1d0d92",
+        "bytes": 7063,
+        "lines": 163,
+        "numbered_equations": 6
+      },
+      {
+        "path": "research/primitive-fiber-content-pass77.md",
+        "sha256": "5580f48446400c8841922689da76201c57efeeca982cec05e58faeb22e906f7e",
+        "bytes": 10382,
+        "lines": 245,
+        "numbered_equations": 9
+      },
+      {
+        "path": "research/stationary-parameter-omission-control-pass77.md",
+        "sha256": "c3c1b072b3067933feb690bbd42bc77aecb8b68afca110b44c626396c84364e8",
+        "bytes": 5617,
+        "lines": 172,
+        "numbered_equations": 10
+      },
+      {
+        "path": "research/nice-binary-scheme-controls-pass77.md",
+        "sha256": "83121744059043d5792984e3da92864162d3429d028cc80bc95be87a83d7410b",
+        "bytes": 7347,
+        "lines": 144,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/nice_binary_scheme_checks_pass77.py",
+        "sha256": "670f65c6fabf2594d7f8878260595480ea4203d77cabe5541b3b1fd04fe81967",
+        "bytes": 15350,
+        "lines": 273,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/run_targeted_pass77.py",
+        "sha256": "8f6b4b7c52cd75a298022be43c9ce0998b00b9cec672fafbd25a754cad4f577f",
+        "bytes": 3213,
+        "lines": 88,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/verification-pass77-working.json",
+        "sha256": "a08edd2b78c79335247e54af007fba7c7f123c5c8decd1c8cec8b9f2377fb70f",
+        "bytes": 2938,
+        "lines": 48,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/binary-scheme-frontier-pass77.md",
+        "sha256": "b04fa69c2670054708ee79b5617f3441d9c18df4ac3e6b391715ccaf9db6fa66",
+        "bytes": 8553,
+        "lines": 180,
+        "numbered_equations": 3
+      },
+      {
+        "path": "research/proof-audits-pass77-working.md",
+        "sha256": "35e9c522bf3d1134bd0dde9596a077ac1bba23e5301f59dfc663c4a113537df8",
+        "bytes": 10770,
+        "lines": 191,
+        "numbered_equations": 0
+      }
+    ]
+  }
+}

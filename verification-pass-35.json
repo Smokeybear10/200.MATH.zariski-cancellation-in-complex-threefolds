@@ -1,0 +1,695 @@
+{
+  "checked_at_utc": "2026-09-13 12:20:32 UTC",
+  "completed_at_utc": "2026-09-13 12:22:00 UTC",
+  "working_directory": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+  "suites": [
+    {
+      "name": "exact",
+      "command": "/opt/anaconda3/bin/python verify_exact.py",
+      "test_methods": 19,
+      "elapsed_seconds": 0.326,
+      "unittest_seconds": 0.131,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "extension",
+      "command": "python3 verify_extension.py",
+      "test_methods": 16,
+      "elapsed_seconds": 0.377,
+      "unittest_seconds": 0.301,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "first_pole",
+      "command": "python3 verify_first_pole.py",
+      "test_methods": 16,
+      "elapsed_seconds": 0.107,
+      "unittest_seconds": 0.028,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "nonlinear",
+      "command": "python3 verify_nonlinear.py",
+      "test_methods": 18,
+      "elapsed_seconds": 0.176,
+      "unittest_seconds": 0.133,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "higher_poles",
+      "command": "python3 verify_higher_poles.py",
+      "test_methods": 9,
+      "elapsed_seconds": 0.572,
+      "unittest_seconds": 0.519,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "outside_coefficients",
+      "command": "python3 verify_outside_coefficients.py",
+      "test_methods": 3,
+      "elapsed_seconds": 0.044,
+      "unittest_seconds": 0.002,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "primitive_classifier",
+      "command": "/opt/anaconda3/bin/python research/primitive_classifier.py --self-test",
+      "test_methods": 17,
+      "elapsed_seconds": 0.743,
+      "unittest_seconds": 0.511,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "full_coefficient_classifier",
+      "command": "/opt/anaconda3/bin/python research/full_coefficient_classifier.py --self-test",
+      "test_methods": 9,
+      "elapsed_seconds": 0.269,
+      "unittest_seconds": 0.053,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "global_filtration",
+      "command": "/opt/anaconda3/bin/python verify_global_filtration.py",
+      "test_methods": 19,
+      "elapsed_seconds": 0.403,
+      "unittest_seconds": 0.193,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "linear_variable",
+      "command": "/opt/anaconda3/bin/python verify_linear_variable.py",
+      "test_methods": 9,
+      "elapsed_seconds": 4.421,
+      "unittest_seconds": 4.221,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "quadratic_pencils",
+      "command": "/opt/anaconda3/bin/python verify_quadratic_pencils.py",
+      "test_methods": 17,
+      "elapsed_seconds": 0.412,
+      "unittest_seconds": 0.206,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "quadratic_coefficients",
+      "command": "/opt/anaconda3/bin/python verify_quadratic_coefficients.py",
+      "test_methods": 8,
+      "elapsed_seconds": 1.455,
+      "unittest_seconds": 1.254,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "repeated_crossing",
+      "command": "/opt/anaconda3/bin/python verify_repeated_crossing.py",
+      "test_methods": 15,
+      "elapsed_seconds": 1.277,
+      "unittest_seconds": 1.07,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "central_arrangements",
+      "command": "/opt/anaconda3/bin/python verify_central_arrangements.py",
+      "test_methods": 14,
+      "elapsed_seconds": 3.264,
+      "unittest_seconds": 3.057,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "quadratic_obstructions",
+      "command": "/opt/anaconda3/bin/python verify_quadratic_obstructions.py",
+      "test_methods": 13,
+      "elapsed_seconds": 10.032,
+      "unittest_seconds": 9.833,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "torsion_monodromy",
+      "command": "python3 verify_torsion_monodromy.py",
+      "test_methods": 6,
+      "elapsed_seconds": 0.056,
+      "unittest_seconds": 0.008,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "two_power_slices",
+      "command": "/opt/anaconda3/bin/python verify_two_power_slices.py",
+      "test_methods": 17,
+      "elapsed_seconds": 0.374,
+      "unittest_seconds": 0.184,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "intrinsic_quotients",
+      "command": "/opt/anaconda3/bin/python verify_intrinsic_quotients.py",
+      "test_methods": 12,
+      "elapsed_seconds": 0.37,
+      "unittest_seconds": 0.163,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "frame_height",
+      "command": "/opt/anaconda3/bin/python research/frame_height_checks.py",
+      "test_methods": 16,
+      "elapsed_seconds": 0.568,
+      "unittest_seconds": 0.331,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "height_eight_algebra",
+      "command": "/opt/anaconda3/bin/python research/height_eight_algebra_checks.py",
+      "test_methods": 7,
+      "elapsed_seconds": 0.413,
+      "unittest_seconds": 0.215,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "mixed_height",
+      "command": "/opt/anaconda3/bin/python research/mixed_height_checks.py",
+      "test_methods": 22,
+      "elapsed_seconds": 1.011,
+      "unittest_seconds": 0.813,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "projective_plane",
+      "command": "/opt/anaconda3/bin/python research/projective_plane_checks.py",
+      "test_methods": 25,
+      "elapsed_seconds": 0.359,
+      "unittest_seconds": 0.153,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "invariant_mixing",
+      "command": "/opt/anaconda3/bin/python research/invariant_mixing_verifier.py --self-test",
+      "test_methods": 23,
+      "elapsed_seconds": 0.922,
+      "unittest_seconds": 0.724,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "invariant_slice",
+      "command": "/opt/anaconda3/bin/python research/invariant_slice_checks.py",
+      "test_methods": 22,
+      "elapsed_seconds": 1.89,
+      "unittest_seconds": 1.679,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "rank_three_images",
+      "command": "/opt/anaconda3/bin/python research/rank_three_image_checks_pass17.py",
+      "test_methods": 8,
+      "elapsed_seconds": 0.677,
+      "unittest_seconds": 0.472,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "nonreduced_jets",
+      "command": "/opt/anaconda3/bin/python research/nonreduced_jet_checks.py",
+      "test_methods": 18,
+      "elapsed_seconds": 6.847,
+      "unittest_seconds": 6.625,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "general_jet_lift",
+      "command": "/opt/anaconda3/bin/python research/general_jet_lift_checks.py",
+      "test_methods": 8,
+      "elapsed_seconds": 66.867,
+      "unittest_seconds": 66.534,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "polynomial_fiber",
+      "command": "/opt/anaconda3/bin/python research/polynomial_fiber_checks_pass18.py",
+      "test_methods": 8,
+      "elapsed_seconds": 43.488,
+      "unittest_seconds": 43.081,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "rescaling_curve_controls",
+      "command": "/opt/anaconda3/bin/python research/rescaling_curve_controls_pass18.py",
+      "test_methods": 10,
+      "elapsed_seconds": 0.397,
+      "unittest_seconds": 0.202,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "global_bridge",
+      "command": "/opt/anaconda3/bin/python research/global_bridge_checks_pass19.py",
+      "test_methods": 12,
+      "elapsed_seconds": 1.108,
+      "unittest_seconds": 0.906,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "iterated_local_slice",
+      "command": "/opt/anaconda3/bin/python research/iterated_local_slice_checks_pass19.py",
+      "test_methods": 4,
+      "elapsed_seconds": 0.847,
+      "unittest_seconds": 0.643,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "multiplier_surface_controls",
+      "command": "/opt/anaconda3/bin/python research/multiplier_surface_controls_pass20.py",
+      "test_methods": 11,
+      "elapsed_seconds": 2.471,
+      "unittest_seconds": 2.259,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "nonunit_local_slice",
+      "command": "/opt/anaconda3/bin/python research/nonunit_local_slice_checks_pass20.py",
+      "test_methods": 6,
+      "elapsed_seconds": 0.741,
+      "unittest_seconds": 0.546,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "primitive_bridge",
+      "command": "/opt/anaconda3/bin/python research/primitive_bridge_checks_pass21.py",
+      "test_methods": 14,
+      "elapsed_seconds": 26.941,
+      "unittest_seconds": 26.703,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "radical_nonlinear",
+      "command": "/opt/anaconda3/bin/python research/radical_nonlinear_checks_pass22.py",
+      "test_methods": 15,
+      "elapsed_seconds": 3.199,
+      "unittest_seconds": 2.881,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "nodal_generators",
+      "command": "/opt/anaconda3/bin/python research/nodal_generators_checks_pass22.py",
+      "test_methods": 7,
+      "elapsed_seconds": 1.699,
+      "unittest_seconds": 1.467,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "polynomial_coefficients",
+      "command": "/opt/anaconda3/bin/python research/polynomial_coefficient_checks_pass23.py",
+      "test_methods": 14,
+      "elapsed_seconds": 1.125,
+      "unittest_seconds": 0.929,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "nodal_elimination",
+      "command": "/opt/anaconda3/bin/python research/nodal_elimination_checks_pass23.py",
+      "test_methods": 7,
+      "elapsed_seconds": 0.496,
+      "unittest_seconds": 0.281,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "reduction_controls",
+      "command": "/opt/anaconda3/bin/python research/reduction_controls_pass24.py",
+      "test_methods": 23,
+      "elapsed_seconds": 1.22,
+      "unittest_seconds": 1.014,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "nodal_hypersurface",
+      "command": "/opt/anaconda3/bin/python research/nodal_hypersurface_checks_pass24.py",
+      "test_methods": 8,
+      "elapsed_seconds": 0.314,
+      "unittest_seconds": 0.111,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "commuting_leading",
+      "command": "/opt/anaconda3/bin/python research/commuting_leading_controls_pass25.py",
+      "test_methods": 16,
+      "elapsed_seconds": 0.515,
+      "unittest_seconds": 0.311,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "coupled_homotopy",
+      "command": "/opt/anaconda3/bin/python research/coupled_homotopy_checks_pass25.py",
+      "test_methods": 7,
+      "elapsed_seconds": 0.495,
+      "unittest_seconds": 0.284,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "ambient_lifting",
+      "command": "/opt/anaconda3/bin/python research/ambient_lifting_checks_pass25.py",
+      "test_methods": 5,
+      "elapsed_seconds": 1.381,
+      "unittest_seconds": 1.147,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "simultaneous_frame",
+      "command": "/opt/anaconda3/bin/python research/simultaneous_frame_checks_pass26.py",
+      "test_methods": 12,
+      "elapsed_seconds": 0.446,
+      "unittest_seconds": 0.238,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "moving_plane_lie",
+      "command": "/opt/anaconda3/bin/python research/moving_plane_lie_checks_pass26.py",
+      "test_methods": 8,
+      "elapsed_seconds": 0.331,
+      "unittest_seconds": 0.124,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "actual_surface",
+      "command": "/opt/anaconda3/bin/python research/actual_surface_checks_pass26.py",
+      "test_methods": 7,
+      "elapsed_seconds": 0.46,
+      "unittest_seconds": 0.245,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "relative_completion",
+      "command": "/opt/anaconda3/bin/python research/relative_completion_checks_pass27.py",
+      "test_methods": 11,
+      "elapsed_seconds": 0.582,
+      "unittest_seconds": 0.387,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "primitive_top",
+      "command": "/opt/anaconda3/bin/python research/primitive_top_checks_pass27.py",
+      "test_methods": 8,
+      "elapsed_seconds": 0.254,
+      "unittest_seconds": 0.06,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "noninvariant_surface",
+      "command": "/opt/anaconda3/bin/python research/noninvariant_surface_checks_pass27.py",
+      "test_methods": 6,
+      "elapsed_seconds": 0.328,
+      "unittest_seconds": 0.113,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "translation_frame",
+      "command": "/opt/anaconda3/bin/python research/translation_frame_checks_pass28.py",
+      "test_methods": 10,
+      "elapsed_seconds": 0.274,
+      "unittest_seconds": 0.073,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "canonical_top",
+      "command": "/opt/anaconda3/bin/python research/canonical_top_checks_pass28.py",
+      "test_methods": 12,
+      "elapsed_seconds": 0.533,
+      "unittest_seconds": 0.315,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "changed_fiber_surface",
+      "command": "/opt/anaconda3/bin/python research/changed_fiber_surface_checks_pass28.py",
+      "test_methods": 7,
+      "elapsed_seconds": 3.005,
+      "unittest_seconds": 2.709,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "finite_lie_certificate",
+      "command": "/opt/anaconda3/bin/python research/finite_lie_certificate_checks_pass29.py",
+      "test_methods": 10,
+      "elapsed_seconds": 0.292,
+      "unittest_seconds": 0.099,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "horizontal_selection",
+      "command": "/opt/anaconda3/bin/python research/horizontal_selection_checks_pass29.py",
+      "test_methods": 8,
+      "elapsed_seconds": 0.872,
+      "unittest_seconds": 0.67,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "global_invariant_embedding",
+      "command": "/opt/anaconda3/bin/python research/global_invariant_embedding_checks_pass29.py",
+      "test_methods": 7,
+      "elapsed_seconds": 0.584,
+      "unittest_seconds": 0.384,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "finite_closure_frame",
+      "command": "/opt/anaconda3/bin/python research/finite_closure_frame_checks_pass30.py",
+      "test_methods": 10,
+      "elapsed_seconds": 0.59,
+      "unittest_seconds": 0.346,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "horizontal_gauge",
+      "command": "/opt/anaconda3/bin/python research/horizontal_gauge_checks_pass30.py",
+      "test_methods": 8,
+      "elapsed_seconds": 0.496,
+      "unittest_seconds": 0.204,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "all_noninvariant_surface",
+      "command": "/opt/anaconda3/bin/python research/all_noninvariant_surface_checks_pass30.py",
+      "test_methods": 6,
+      "elapsed_seconds": 0.565,
+      "unittest_seconds": 0.306,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "minimal_horizontal",
+      "command": "/opt/anaconda3/bin/python research/minimal_horizontal_checks_pass31.py",
+      "test_methods": 10,
+      "elapsed_seconds": 1.035,
+      "unittest_seconds": 0.794,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "hypersurface_lifting",
+      "command": "/opt/anaconda3/bin/python research/hypersurface_lifting_checks_pass31.py",
+      "test_methods": 5,
+      "elapsed_seconds": 0.401,
+      "unittest_seconds": 0.203,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "finite_thickening",
+      "command": "/opt/anaconda3/bin/python research/finite_thickening_checks_pass31.py",
+      "test_methods": 5,
+      "elapsed_seconds": 0.36,
+      "unittest_seconds": 0.172,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "unrestricted_minimum",
+      "command": "/opt/anaconda3/bin/python research/unrestricted_minimum_checks_pass32.py",
+      "test_methods": 10,
+      "elapsed_seconds": 0.942,
+      "unittest_seconds": 0.679,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "ambient_residue",
+      "command": "/opt/anaconda3/bin/python research/ambient_residue_checks_pass32.py",
+      "test_methods": 6,
+      "elapsed_seconds": 0.347,
+      "unittest_seconds": 0.136,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "divergence_torsion",
+      "command": "/opt/anaconda3/bin/python research/divergence_torsion_checks_pass32.py",
+      "test_methods": 7,
+      "elapsed_seconds": 0.517,
+      "unittest_seconds": 0.307,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "stable_polynomial_invariants",
+      "command": "/opt/anaconda3/bin/python research/stable_polynomial_invariants_checks_pass32.py",
+      "test_methods": 6,
+      "elapsed_seconds": 0.333,
+      "unittest_seconds": 0.14,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "minimum_top_structure",
+      "command": "/opt/anaconda3/bin/python research/minimum_top_structure_checks_pass33.py",
+      "test_methods": 8,
+      "elapsed_seconds": 3.203,
+      "unittest_seconds": 2.999,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "all_speed_ambient",
+      "command": "/opt/anaconda3/bin/python research/all_speed_ambient_checks_pass33.py",
+      "test_methods": 6,
+      "elapsed_seconds": 0.252,
+      "unittest_seconds": 0.057,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "nodal_plinth",
+      "command": "/opt/anaconda3/bin/python research/nodal_plinth_checks_pass33.py",
+      "test_methods": 5,
+      "elapsed_seconds": 0.305,
+      "unittest_seconds": 0.103,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "cross_frame_saturation",
+      "command": "/opt/anaconda3/bin/python research/cross_frame_saturation_checks_pass33.py",
+      "test_methods": 6,
+      "elapsed_seconds": 0.239,
+      "unittest_seconds": 0.06,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "intrinsic_rank",
+      "command": "/opt/anaconda3/bin/python research/intrinsic_rank_checks_pass34.py",
+      "test_methods": 5,
+      "elapsed_seconds": 0.281,
+      "unittest_seconds": 0.088,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "integral_ramification",
+      "command": "/opt/anaconda3/bin/python research/integral_ramification_checks_pass34.py",
+      "test_methods": 4,
+      "elapsed_seconds": 0.287,
+      "unittest_seconds": 0.103,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "odd_realization",
+      "command": "/opt/anaconda3/bin/python research/odd_realization_checks_pass34.py",
+      "test_methods": 5,
+      "elapsed_seconds": 0.208,
+      "unittest_seconds": 0.023,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "plinth_repair",
+      "command": "/opt/anaconda3/bin/python research/plinth_repair_checks_pass34.py",
+      "test_methods": 6,
+      "elapsed_seconds": 11.622,
+      "unittest_seconds": 11.375,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "isolated_node",
+      "command": "/opt/anaconda3/bin/python research/isolated_node_checks_pass35.py",
+      "test_methods": 5,
+      "elapsed_seconds": 0.279,
+      "unittest_seconds": 0.087,
+      "exit_code": 0,
+      "all_passed": true
+    },
+    {
+      "name": "general_q1_repair",
+      "command": "/opt/anaconda3/bin/python research/general_q1_repair_checks_pass35.py",
+      "test_methods": 7,
+      "elapsed_seconds": 0.407,
+      "unittest_seconds": 0.216,
+      "exit_code": 0,
+      "all_passed": true
+    }
+  ],
+  "total_test_methods": 789,
+  "all_passed": true,
+  "total_suites": 75,
+  "new_suite_test_methods": 12,
+  "new_suite_count": 2,
+  "runner": "research/run_regression_pass35.py",
+  "orchestration_parser_controls": 5,
+  "orchestration_controls_counted_as_test_methods": false,
+  "scope": "Finite exact controls and prior regression checks. Written general proofs and cited classification inputs are not replaced by these tests; no Lean proof, human expert review, novelty certification, or unrestricted complex threefold cancellation solution.",
+  "general_cancellation_verified": false,
+  "human_expert_review": false,
+  "proof_assistant_verified": false,
+  "novelty_established": false
+}

@@ -1,0 +1,54 @@
+{
+  "kind": "Fresh targeted85 capture, not a full regression",
+  "started_at_utc": "2026-09-14T10:48:50.300288+00:00",
+  "finished_at_utc": "2026-09-14T10:48:50.866485+00:00",
+  "wall_seconds": 0.565861,
+  "total_suites": 1,
+  "total_test_methods": 2,
+  "all_passed": true,
+  "new85_suites": 1,
+  "new85_test_methods": 2,
+  "fresh_full85_regression_performed": false,
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "source_hashes_before": {
+    "research/return_denominator_checks_pass85.py": "807f5f306f75c802ffb807d257a876204cd91a63895f21061910fe0ca519244e",
+    "research/run_targeted_pass85.py": "d48faa86ffc09527a18bfa347b9320274e6f3c5649375b382606db1a07515d9e",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_hashes_after": {
+    "research/return_denominator_checks_pass85.py": "807f5f306f75c802ffb807d257a876204cd91a63895f21061910fe0ca519244e",
+    "research/run_targeted_pass85.py": "d48faa86ffc09527a18bfa347b9320274e6f3c5649375b382606db1a07515d9e",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_inputs_unchanged": true,
+  "bounded_search_executed": false,
+  "search_candidates_are_test_methods": false,
+  "central_registry_integrated": false,
+  "general_cancellation_verified": false,
+  "scope": "Two finite exact methods in one suite: one actual sliced action with a cancelled return divisor, and the retained two-speed frame with its normalized reflection and fibers. Not a universal proof of the regular locus or fixed-ring theorems, an action search, or a full regression. Repeats and helper calculations do not add methods.",
+  "suites": [
+    {
+      "path": "research/return_denominator_checks_pass85.py",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/return_denominator_checks_pass85.py"
+      ],
+      "started_at_utc": "2026-09-14T10:48:50.300722+00:00",
+      "finished_at_utc": "2026-09-14T10:48:50.865891+00:00",
+      "wall_seconds": 0.565197,
+      "exit_code": 0,
+      "expected_methods": 2,
+      "test_methods": 2,
+      "method_count_matches": true,
+      "all_passed": true,
+      "unittest_seconds": 0.208,
+      "output": "test_centered_two_speed_pair_and_fibers (__main__.ReturnDenominatorChecks.test_centered_two_speed_pair_and_fibers) ... ok\ntest_common_factor_removed_from_actual_return (__main__.ReturnDenominatorChecks.test_common_factor_removed_from_actual_return) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.208s\n\nOK\n",
+      "output_sha256": "3677249ef8a1266396bdb7ee62d6ac843ef181fe779242f7941820e55634e03a"
+    }
+  ]
+}

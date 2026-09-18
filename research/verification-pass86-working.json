@@ -1,0 +1,54 @@
+{
+  "kind": "Fresh targeted86 capture, not a full regression",
+  "started_at_utc": "2026-09-14T10:58:23.425828+00:00",
+  "finished_at_utc": "2026-09-14T10:58:24.273863+00:00",
+  "wall_seconds": 0.847596,
+  "total_suites": 1,
+  "total_test_methods": 2,
+  "all_passed": true,
+  "new86_suites": 1,
+  "new86_test_methods": 2,
+  "fresh_full86_regression_performed": false,
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "source_hashes_before": {
+    "research/coordinate_critical_value_checks_pass86.py": "6bbc22f085e971adfd626c7597d283b30c90a705c6f63f0c203322504c003fdc",
+    "research/run_targeted_pass86.py": "7a85df634b298cfbeb80228e02a006d4d5065e1a16943d941948a2596d5b9e9b",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_hashes_after": {
+    "research/coordinate_critical_value_checks_pass86.py": "6bbc22f085e971adfd626c7597d283b30c90a705c6f63f0c203322504c003fdc",
+    "research/run_targeted_pass86.py": "7a85df634b298cfbeb80228e02a006d4d5065e1a16943d941948a2596d5b9e9b",
+    "research/verification-pass75-working.json": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247"
+  },
+  "source_inputs_unchanged": true,
+  "bounded_search_executed": false,
+  "search_candidates_are_test_methods": false,
+  "central_registry_integrated": false,
+  "general_cancellation_verified": false,
+  "scope": "Two finite exact methods in one suite cover three actual actions: two common-factor multiplicities within the first method and the retained two-speed frame in the second. They check polynomial inverse pairs, critical-value differentials and discriminant identities. They do not prove the universal fiber or smoothness theorems, nor recognition. No full regression or action search.",
+  "suites": [
+    {
+      "path": "research/coordinate_critical_value_checks_pass86.py",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "research/coordinate_critical_value_checks_pass86.py"
+      ],
+      "started_at_utc": "2026-09-14T10:58:23.426382+00:00",
+      "finished_at_utc": "2026-09-14T10:58:24.273348+00:00",
+      "wall_seconds": 0.84699,
+      "exit_code": 0,
+      "expected_methods": 2,
+      "test_methods": 2,
+      "method_count_matches": true,
+      "all_passed": true,
+      "unittest_seconds": 0.561,
+      "output": "test_cancellation_frame_full_reduced_open (__main__.CriticalValueChecks.test_cancellation_frame_full_reduced_open) ... ok\ntest_two_speed_smooth_function_not_lnd_slice (__main__.CriticalValueChecks.test_two_speed_smooth_function_not_lnd_slice) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.561s\n\nOK\n",
+      "output_sha256": "35eedbaf6a0a154095957033c33101071be16446fa7b91f99d31ea65f91ea60a"
+    }
+  ]
+}

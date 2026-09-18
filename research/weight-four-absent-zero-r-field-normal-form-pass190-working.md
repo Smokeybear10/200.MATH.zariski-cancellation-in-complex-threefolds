@@ -1,0 +1,316 @@
+# The zero-R coefficient gates and original-ring return
+
+Status: working proof under the full actual absent-variable hypotheses.
+This note proves the coefficient gates left open in the conditional
+[coordinate-return190](weight-four-absent-zero-r-coordinate-return-pass190-working.md).
+Its essential extra input is the exact function-field equality supplied
+by the actual inverse. Scalar differential identities alone do not suffice.
+This is a restricted-case result, not unrestricted cancellation or a
+novelty claim.
+
+## 1. Retained actual hypotheses
+
+Retain the full hypotheses and conclusions of
+[zero-R187](weight-four-absent-variable-zero-r-reduction-pass187-working.md)
+and [cover-collapse189](weight-four-absent-zero-r-cover-collapse-pass189-working.md).
+In particular, the original ring and globally sliced action are
+\[
+B=\mathbb C[X,Y,Z,W]=\mathcal A[u],\quad E=\partial_u,\quad
+\deg_E(X,Y,Z,W)=(1,1,2,2),\quad
+\ker\theta_0=(\mathsf X^2\mathsf Z-\mathsf Y^4).
+\tag{1}
+\]
+The displayed kernel is the full initial kernel, not just one relation.
+In the zero-R branch the retained exact coefficient fields satisfy
+\[
+\begin{gathered}
+L=K(n),\quad [K:\mathbb C(t)]<\infty,\quad
+\ker_K\partial_t=\mathbb C,\quad t'=1,\\
+\rho=bn+c,\qquad b\in\mathbb C^*,\quad c,k\in K,\\
+z=n+6t^2y^2+k'y,\qquad
+\mathbb C(y,z,w)=K(y)(z).
+\end{gathered}
+\tag{2}
+\]
+The elements \(n,y\) are independent over \(K\); equivalently \(y,z\)
+are independent over \(K\). Primes refer to the derivative on \(K\)
+extended fixing \(n,y\), not to the old derivative fixing \(\rho\).
+Write
+\[
+h=k''/2,\quad F(U)=4tU^3+hU^2,\quad
+\delta=\partial_t-F_U\partial_n,\quad M=M_1n+M_0,\quad M_i\in K.
+\tag{3}
+\]
+The retained identities in the independent variable \(U\) are
+\[
+\begin{aligned}
+P&=c'U-bF+M_1n+M_0,\\
+\mathcal W&=-bU^4-\frac{bh'}3U^3+\frac{c''}2U^2
+ +(M_1'n+M_0')U-M_1F+W_0,\qquad W_0\in K(n),\\
+\mathcal W_U&=\delta P,\qquad \delta\mathcal W\in K(n)^*,
+\qquad w=\mathcal W(y).
+\end{aligned}
+\tag{4}
+\]
+All speed and actual coefficient-field factors retained in189 remain
+unchanged. No normalization of \(Ny\) or assertion that \(EX\) is an
+original-ring unit is used.
+
+## 2. Residual scalar coefficients
+
+For \(\mathcal W_j=[U^j]\mathcal W\), differentiation gives
+\[
+[U^j]\delta\mathcal W
+ =\mathcal W_j'-12t\,\partial_n\mathcal W_{j-2}
+                  -2h\,\partial_n\mathcal W_{j-1}.
+\tag{5}
+\]
+Missing coefficients are zero. The coefficients of \(U^3,U^2,U\)
+in (4), in that order, yield
+\[
+\begin{aligned}
+16tM_1'+4M_1&=-bh''/3,\\
+\partial_nW_0&=D:=
+ \frac{c'''}{24t}-\frac{h'M_1}{12t}-\frac{hM_1'}{4t}\in K,\\
+0&=M_1''n+M_0''-2hD.
+\end{aligned}
+\tag{6}
+\]
+Since the kernel of \(\partial_n\) on \(K(n)\) is \(K\), and \(n\)
+is transcendental over \(K\), these equations prove
+\[
+W_0=Dn+g_0,\quad g_0\in K,\qquad
+M_1''=0,\quad M_0''=2hD,\qquad
+\delta\mathcal W=D'n+g_0'\ne0.
+\tag{7}
+\]
+The last expression is scalar in \(U\), not necessarily in \(n\).
+In particular, (7) does not yet imply \(D'=0\).
+
+The constant field in (2) allows successive explicit primitive
+subtractions in (6), giving
+\[
+\begin{aligned}
+M_1&=\alpha t+\beta,\\
+h&=-10\alpha t^3/b-6\beta t^2/b+h_1t+h_0,\\
+k&=-\alpha t^5/b-\beta t^4/b+(h_1/3)t^3+h_0t^2+k_1t+k_0,
+\end{aligned}
+\quad
+\alpha,\beta,h_1,h_0,k_1,k_0\in\mathbb C.
+\tag{8}
+\]
+For example \(M_1'\) is constant, then \(M_1-\alpha t\) is
+constant. Subtracting the displayed polynomial primitive twice
+from \(h''=-(60\alpha t+12\beta)/b\) gives the formula for \(h\);
+the formula for \(k\) follows from \(k''=2h\).
+This does not assume that arbitrary algebraic functions are integrable.
+
+Substituting \(n=z-6t^2y^2-k'y\) into (4) now gives
+\[
+\begin{aligned}
+w&=(\alpha y+D)z+G_t(y)+g_0,\\
+G_t(U)&=-bU^4-\frac{bh_1}{3}U^3+g_2U^2+g_1U,\\
+g_2&=c''/2-hM_1-\alpha k'-6t^2D,\qquad
+g_1=M_0'-Dk'.
+\end{aligned}
+\tag{9}
+\]
+Here the subscript on \(G_t\) only warns that its coefficients may
+still lie in \(K\); it is not a derivative.
+Differentiating and using (6), \(M_1'=\alpha\), and \(k''=2h\) gives
+\[
+g_2'=-6t^2D',\qquad g_1'=-k'D'.
+\tag{10}
+\]
+For the first identity, the terms other than \(-6t^2D'\) are
+\(c'''/2-h'M_1-3h\alpha-12tD=0\). For the second,
+\(M_0''-Dk''=0\).
+
+## 3. An exact linear-pencil lemma
+
+Let \(F_0\) be a field of characteristic zero, \(H/F_0\) a
+one-variable function field, and \(z\) transcendental over \(H\).
+Suppose \(D,v\in H\), \(D\) is transcendental over \(F_0\), and
+\[
+H(z)=F_0(z,Dz+v).
+\tag{11}
+\]
+Then
+\[
+H=F_0(D,v),\qquad v\in F_0+F_0D.
+\tag{12}
+\]
+
+First put \(H_0=F_0(D,v)\). The inclusions
+\(H(z)=F_0(z,Dz+v)\subset H_0(z)\subset H(z)\) are equalities.
+Intersecting with \(H\) gives \(H_0=H\): an element of \(H\)
+expressed rationally in the independent \(z\) over \(H_0\) lies in
+\(H_0\), by clearing the denominator and comparing a nonzero
+denominator coefficient.
+
+The evaluation kernel \(F_0[S,T]\longrightarrow F_0[D,v]\) is
+a height-one prime, hence is generated by an irreducible
+polynomial \(\mathcal R(S,T)\). Let its total degree be \(d\).
+Adjoin an independent \(z\), and make the polynomial automorphism
+\(T\mapsto W-zS\). The transformed relation
+\(\mathcal R(S,W-zS)\) is irreducible in \(F_0[z,S,W]\).
+Its degree in \(S\) is exactly \(d\), since the coefficient of
+\(S^d\) is the nonzero polynomial \(\mathcal R_d(1,-z)\), where
+\(\mathcal R_d\) is the nonzero top homogeneous part of \(\mathcal R\).
+
+The elements \(z,W=Dz+v\) are independent over \(F_0\).
+Indeed, for a nonzero polynomial relation of total degree \(N\),
+substitution would make its \(z^N\) coefficient the nonzero
+polynomial \(H_N(1,D)\); this cannot vanish since \(D\) is
+transcendental over \(F_0\). Gauss's lemma therefore identifies the
+transformed relation as the minimal polynomial of \(D\) over
+\(F_0(z,W)\), up to a scalar, and gives
+\[
+[H(z):F_0(z,Dz+v)]=d.
+\tag{13}
+\]
+Equation (11) forces \(d=1\). The coefficient of \(T\) in
+\(\mathcal R\) is nonzero, since \(D\) is transcendental. Solving
+the linear relation proves (12).
+The argument uses the full relation ideal and exact field equality;
+a vanishing relation or a formal Jacobian alone would not prove it.
+
+## 4. The remaining slope is complex
+
+Assume \(D\notin\mathbb C\). Set
+\[
+F_0=\mathbb C(y),\quad H=K(y),\quad
+v=G_t(y)+g_0,\quad w_1=w-\alpha yz.
+\]
+The element \(D\) is transcendental over \(F_0\): it is
+nonconstant on the complex coefficient curve and \(y\) is
+independent over \(K\). Since \(\alpha\in\mathbb C\), the exact
+equality in (2) becomes
+\[
+H(z)=F_0(z,w_1),\qquad w_1=Dz+v.
+\tag{14}
+\]
+The lemma proves \(v\in\mathbb C(y)+\mathbb C(y)D\).
+
+Every coefficient of the polynomial \(v\in K[y]\) then lies in
+the complex vector space \(V=\mathbb C+\mathbb CD\).
+For precision, clear a common denominator in \(y\); the resulting
+polynomial lies in \(V[y]\). Choose a complex basis for the finite
+span of \(V\) and the coefficients of \(v\). Comparison of basis
+components outside \(V\) shows that a nonzero polynomial in
+\(\mathbb C[y]\) times each such component polynomial is zero.
+Thus every outside component vanishes. In particular
+\(g_2=a_2+b_2D\) with \(a_2,b_2\in\mathbb C\).
+
+Because the constant field of \(K\) is \(\mathbb C\), the assumption
+on \(D\) implies \(D'\ne0\). Equation (10) now gives
+\[
+b_2D'=-6t^2D',\qquad b_2=-6t^2,
+\tag{15}
+\]
+contradicting the transcendence of \(t\) over \(\mathbb C\).
+Therefore
+\[
+D\in\mathbb C,\qquad g_1,g_2\in\mathbb C,\qquad
+\delta\mathcal W=g_0'\ne0.
+\tag{16}
+\]
+This establishes all coefficient gates in coordinate-return190.
+
+There is also a useful exact projected-ring conclusion:
+\[
+\begin{gathered}
+G(U)=-bU^4-(bh_1/3)U^3+g_2U^2+g_1U\in\mathbb C[U],\\
+g_0=w-(\alpha y+D)z-G(y),\qquad
+\mathbb C[y,z,w]=\mathbb C[y,z,g_0],\\
+K=\mathbb C(g_0),\qquad L=\mathbb C(g_0)(n).
+\end{gathered}
+\tag{17}
+\]
+The inverse in the projected ring is
+\(w=g_0+(\alpha y+D)z+G(y)\). To obtain the last line, (2) gives
+\(K(y,z)=\mathbb C(g_0)(y,z)\); intersect with \(K\), using
+independence of \(y,z\) over \(K\). Neither that field equality
+nor the projected-ring equality by itself supplies an original
+ambient coordinate.
+
+## 5. Explicit coefficients and the original coordinate
+
+For comparison with finite symbolic checks, (9), (16), and the
+constant field give the full remaining polynomial coefficients
+\[
+\begin{aligned}
+M_0={}&Dk+g_1t+m_{00},\\
+c={}&-\alpha^2t^6/b-2\alpha\beta t^5/b
+ +(\alpha h_1/3-\beta^2/b+D)t^4\\
+ &+(\alpha h_0+\beta h_1/3)t^3
+ +(\beta h_0+\alpha k_1+g_2)t^2+c_1t+c_0,
+\end{aligned}
+\quad m_{00},c_1,c_0\in\mathbb C.
+\tag{18}
+\]
+One checks \(M_0'=Dk'+g_1\) and
+\(c''=2g_2+2hM_1+2\alpha k'+12Dt^2\), and subtracts those
+explicit polynomial primitives. No specialization of the
+function field at \(t=0\) is needed.
+
+The actual original coordinates have the expressions
+\[
+\begin{aligned}
+Y&=y+tX,\\
+Z&=z+(4t^3y+k)X+t^4X^2,\\
+W&=w+P(y)X+\rho X^2.
+\end{aligned}
+\tag{19}
+\]
+With
+\[
+\begin{aligned}
+A_0(X,Y)&=bX^2+\beta X+\alpha Y+D,\\
+Q_0(X,Y)&=G(Y)
+ +X[-bh_0Y^2+(c_1-\beta k_1-\alpha k_0)Y+m_{00}]\\
+ &\hspace{5mm}+X^2[c_0-bk_1Y-\beta k_0]-bk_0X^3,
+\end{aligned}
+\tag{20}
+\]
+substitution of (8), (18), and (19) gives the literal identity
+\[
+I:=W-A_0(X,Y)Z-Q_0(X,Y)=g_0.
+\tag{21}
+\]
+Alternatively, the proof in coordinate-return190 obtains \(Q_0\)
+without expanding (18): the exact field derivation
+\(\partial_t-X\partial_y-F_U(y)\partial_n\) kills \(X,Y,Z\)
+and takes \(W\) to \(g_0'\). The coefficient of \(n\) in \(W\)
+is \(A_0(X,Y)\), so subtracting \(A_0Z+g_0\) removes \(n\);
+transport by \(y=Y-tX\) forces every remaining coefficient
+to be complex. That independently gives the polynomial correction.
+
+In (21), \(A_0,Q_0\) are in \(\mathbb C[X,Y]\), so \(I\) is an
+original polynomial. Its equality with \(g_0\in L\) makes it
+\(E\)-invariant. The change fixing \(X,Y,Z\) and replacing \(W\)
+by \(I\) has inverse
+\[
+W=I+A_0(X,Y)Z+Q_0(X,Y).
+\tag{22}
+\]
+Thus \(B=\mathbb C[X,Y,Z,I]\) with an actual invariant ambient
+coordinate. The hypotheses of Bhatwadekar--Gupta--Lokhande
+Theorem 3.5 are supplied exactly as in coordinate-return190:
+the nonzero \(E\) is \(\mathbb C[I]\)-linear and its kernel is
+regular, since the global slice makes \(u=0\) a smooth hypersurface.
+Consequently \(\mathcal A=\mathbb C[I]^{[2]}\).
+
+The primary theorem is
+[Theorem 3.5, Some K-theoretic properties of the kernel of a locally
+nilpotent derivation on four variables](https://arxiv.org/html/1501.01438v1).
+The finite checker is
+[zero-R controls190](weight_four_absent_zero_r_controls_pass190.py).
+It checks coefficient identities and both polynomial inverse orders;
+it does not prove the exact field-return lemma, the retained187--189
+inputs, the published theorem, or this argument in a proof assistant.
+
+This closes only the zero-R branch under (1) and all retained actual
+chart inputs. It does not prove entry of an arbitrary globally sliced
+action into this frame, settle the nonzero-R branch by itself, solve
+the general cancellation problem, or establish historical novelty.

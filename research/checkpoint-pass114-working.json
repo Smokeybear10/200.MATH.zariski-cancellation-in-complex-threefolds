@@ -1,0 +1,311 @@
+{
+  "pass": 114,
+  "status": "conditional_local_theorem_proved_with_independent_AI_reconstructions; general_cancellation_unsolved",
+  "working_target": "Unconfirmed intended complex-threefold cancellation A[u]≅C^[4] implies A≅C^[3]; literal emailed A^1 conclusion mismatches dimension for general r.",
+  "summary": "Universal cubic-root factorization excludes the actual proper residual second-image whole-double branch. Under retained fixed-profile97/all-normal111/cyclic103, every closed fiber containing a fixed point in the supplied nonconical quadratic frame has an actual localized cyclic-conic presentation. No global recognition or arbitrary-frame reduction.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass113-working.json",
+    "sha256": "bc45eafeb3fb0d6f4ea2551a0f534b49586290808addc93e693d8f6ed605a296",
+    "records": 709,
+    "revalidation": "ae829c"
+  },
+  "chain_record_count_after_including_this_checkpoint": 721,
+  "record_count_convention": "709 previous frozen hash records plus11 current artifacts plus this checkpoint. README and research-ledger remain live; current checkpoint hash is recorded externally, never in itself.",
+  "canonical_verification": {
+    "path": "research/verification-pass114-working.json",
+    "tool_evidence": [
+      "143960",
+      "971858"
+    ],
+    "suites": 6,
+    "test_methods": 8,
+    "new_methods": 4,
+    "retained_methods": 4,
+    "elapsed_seconds": 3.449506209,
+    "unittest_seconds": 3.081,
+    "complete_output_sha256": "bbfe85f190e362412ea7a1062b16b9e46e2816f7d394817449fdb13b980f9290",
+    "all_passed": true,
+    "scope": "New universal factor and ideal polynomial certificates plus finite Newton roots; retained-in-pass smooth-a and Artinian square-ideal controls. Retained112 conormal/product,102 conic module and107 divisor identities. Does not verify all-order Hensel lifting, actual-frame hypotheses, analytic-prime support, integral topology, geometric dependency chain, global recognition, cancellation or novelty."
+  },
+  "author_executions": [
+    {
+      "checker": "whole_double_newton_checks_pass114.py",
+      "evidence": "1807f9",
+      "methods": 1,
+      "unittest_seconds": 0.636
+    },
+    {
+      "checker": "whole_double_square_ideal_checks_pass114.py",
+      "evidence": "238e6d",
+      "methods": 1,
+      "unittest_seconds": 0.412
+    },
+    {
+      "checker": "whole_double_universal_factorization_checks_pass114.py",
+      "evidence": "ebbfc6",
+      "methods": 2,
+      "unittest_seconds": 0.85
+    }
+  ],
+  "historical_full_verification": {
+    "pass": 75,
+    "suites": 146,
+    "methods": 1047,
+    "claims_registry": 544,
+    "rerun_this_pass": false
+  },
+  "sources": [
+    {
+      "url": "https://stacks.math.columbia.edu/tag/04GM",
+      "read": "Full displayed statement/proof; nonmonic unit-derivative Newton argument reconstructed directly",
+      "evidence": "turn3701view0"
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/0AG0",
+      "read": "Full displayed statement/proof, not all deeper references",
+      "evidence": "turn3703view0"
+    },
+    {
+      "urls": [
+        "https://stacks.math.columbia.edu/tag/063L",
+        "https://stacks.math.columbia.edu/tag/063M",
+        "https://stacks.math.columbia.edu/tag/0632"
+      ],
+      "read": "Selected statements/displayed proofs or equation for superseded square-ideal route",
+      "evidence": [
+        "turn3697view0",
+        "turn3697view1",
+        "turn3697view2"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/html/2512.15590v2",
+      "read": "Introduction and Example2.6 reconfirm previously recorded internal contradiction; excluded as mathematical/status authority",
+      "evidence": "turn3700view0"
+    },
+    {
+      "urls": [
+        "https://arxiv.org/abs/2208.14736",
+        "https://arxiv.org/abs/2501.09613"
+      ],
+      "read": "Abstract/version records only this pass",
+      "evidence": [
+        "turn3699view1",
+        "turn3699view2"
+      ]
+    }
+  ],
+  "proof_limits": [
+    "Actual product112 and analytic-prime113 hypotheses remain indispensable.",
+    "No completed-kernel, smoothness of generators, square-ideal, weights or slice-descent premise needed for universal exclusion.",
+    "Bounded four earlier114 proof notes are superseded history, not four additional resolved strata.",
+    "Two universal proofs reconstruct the same one exclusion.",
+    "No classification of fixed-point-free closed fibers, global conic patching, relative cubic solution or arbitrary-frame entry.",
+    "No human expert review, formal verification, exhaustive novelty audit, public novelty claim or publication."
+  ],
+  "proof_reviews": [
+    {
+      "reviewer": "Root",
+      "scope": "Full six saved114 proof notes, three new checkers; actual112 and113 coefficient/analytic-prime interface,111 dichotomy/all-normal extension,103 cyclic proof,97 fixed-profile bound; canonical run",
+      "evidence": [
+        "9d795f",
+        "668c41",
+        "bc8bea",
+        "12c5eb",
+        "3d0f33",
+        "93c1c0",
+        "14e183",
+        "5d98f8",
+        "05b8c0",
+        "723d4c",
+        "590118",
+        "aaf089",
+        "9fd4d1",
+        "b68414"
+      ],
+      "execution": [
+        "143960",
+        "971858"
+      ]
+    },
+    {
+      "reviewer": "General",
+      "scope": "Independent cubic-division proof; full root universal proof and checker; square-ideal proof; weighted proof author; smooth-a author and smooth-b/Newton reviews",
+      "evidence": [
+        "bf22d5",
+        "7d3ede",
+        "6581fd",
+        "39ba66",
+        "1c3770",
+        "c48284",
+        "7d8468",
+        "f12053"
+      ],
+      "execution": false
+    },
+    {
+      "reviewer": "Geometry",
+      "scope": "Full universal explicit and division proofs, exact actual111/112/113 interface, all three new checkers code-only; prior114 smooth-a/square/weighted full reviews; smooth-b author",
+      "evidence": [
+        "65f9b1",
+        "83b92b",
+        "d06c3c",
+        "daf22f",
+        "04a7a8",
+        "6ea1b7",
+        "94246c",
+        "70b7f2",
+        "3bfa27",
+        "e01533",
+        "507eaa"
+      ],
+      "execution": false
+    },
+    {
+      "reviewer": "Jet",
+      "scope": "Full universal explicit and division proofs, square-ideal and smooth-a proofs; author of three new checkers",
+      "evidence": [
+        "271ac1",
+        "ed6953",
+        "63c391",
+        "316e70",
+        "3f9a80",
+        "079e2d",
+        "c6927c"
+      ],
+      "author_executions": [
+        "1807f9",
+        "238e6d",
+        "ebbfc6"
+      ]
+    },
+    {
+      "reviewer": "General",
+      "scope": "Full synthesis/capture and live README/ledger; retained97 fixedprofile/111 dichotomy/103 cyclic interfaces. Capture hashes and AST verified without running tests.",
+      "evidence": [
+        "13b1d8",
+        "456208",
+        "a0be6b",
+        "73e4a4",
+        "c49e5f"
+      ],
+      "execution": false
+    }
+  ],
+  "next_bounded_tasks": [
+    "Audit lowest missing global recognition bridge in the supplied quadratic frame, including fixed-point-free fibers; do not continue subdividing the excluded proper branch.",
+    "Keep arbitrary original-frame entry and relative cubic lane as separate unresolved routes.",
+    "Reassess source overlap and obtain human mathematical review before any novelty/publication claim; no outreach without authorization."
+  ],
+  "draft_corrections": [
+    {
+      "evidence": "d61772",
+      "issue": "Scratch polynomial conversion retained a displayed rational denominator; computation aborted before verification",
+      "repair": "sp.cancel clears the unit denominator representation; exact symbolic identities zero in287c6f. Mathematical formulas unchanged."
+    },
+    {
+      "issue": "Immediately previous README paragraph retained present-tense open status; synthesis leftp in m implicit",
+      "repair": "README now explicitly marks checkpoint113 status as superseded; synthesis explicitly statesp in m and nonzero. No frozen-through113 file edited."
+    }
+  ],
+  "goal_status": "active",
+  "authorization_boundary": "Private local research and public-source reads only. No outreach, publication, submission, paid access, new automation or financial action.",
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-15T00:28:27.172Z",
+    "all_passed": true,
+    "artifacts": [
+      {
+        "path": "research/whole-double-smooth-a-exclusion-pass114.md",
+        "sha256": "6b4ee975bb72bb80f5089da9909c121827df9e693406374c52c0ff74f9c99a89",
+        "bytes": 10577,
+        "content_lines": 252,
+        "equation_tags": 8
+      },
+      {
+        "path": "research/whole-double-smooth-second-generator-exclusion-pass114.md",
+        "sha256": "921eeb257fff62b37add40b8a235f524d497d1e2c21ff126708db6d0b7f1be6c",
+        "bytes": 8119,
+        "content_lines": 187,
+        "equation_tags": 6
+      },
+      {
+        "path": "research/whole-double-square-ideal-exclusion-pass114.md",
+        "sha256": "1a55522da4c01fc9aef9650ea6cc9987e14a05407b11f26d240cec50ee1151c4",
+        "bytes": 8993,
+        "content_lines": 211,
+        "equation_tags": 7
+      },
+      {
+        "path": "research/whole-double-weighted-initial-exclusion-pass114.md",
+        "sha256": "ea2931739be68ae54c17354f4f87eec30d573ff707af4670fc265bdca12f163c",
+        "bytes": 8097,
+        "content_lines": 195,
+        "equation_tags": 7
+      },
+      {
+        "path": "research/whole-double-universal-factorization-pass114.md",
+        "sha256": "bbe840b78cad7e89d8120284435e30072c94552bf6de8a39b6a8726ebd1f0e27",
+        "bytes": 6393,
+        "content_lines": 180,
+        "equation_tags": 8
+      },
+      {
+        "path": "research/whole-double-cubic-division-exclusion-pass114.md",
+        "sha256": "bbe67d1e96a408d109d6b49605ae5ae0bce6bc157377947c92e263a630745689",
+        "bytes": 7785,
+        "content_lines": 191,
+        "equation_tags": 7
+      },
+      {
+        "path": "research/whole_double_newton_checks_pass114.py",
+        "sha256": "6e62a7cf13fb96d69d8828ae22bb069c3652bd5563cbd20624ffebb253e17b97",
+        "bytes": 5172,
+        "content_lines": 103,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/whole_double_square_ideal_checks_pass114.py",
+        "sha256": "f58dce1da51a83b3dcf9e940ee59d24f3b3f11f86e00a98c1586124d59c66b70",
+        "bytes": 5434,
+        "content_lines": 118,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/whole_double_universal_factorization_checks_pass114.py",
+        "sha256": "139246736fdefdbec8482571cf258b2d884111813b66d7f8474b3192814241ba",
+        "bytes": 4626,
+        "content_lines": 103,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/verification-pass114-working.json",
+        "sha256": "705ab93be04c11db02783dcb9a163dcc9a58239698984676eb7eea2aa9142c73",
+        "bytes": 4331,
+        "content_lines": 63,
+        "equation_tags": 0
+      },
+      {
+        "path": "research/whole-double-universal-frontier-pass114.md",
+        "sha256": "7ddd0f6b285cfb15a808c562990a52c427780c8357b27deef6b7029e560f6f57",
+        "bytes": 9546,
+        "content_lines": 204,
+        "equation_tags": 0
+      }
+    ],
+    "equation_tags": 43,
+    "captured_methods": 8,
+    "ast_methods": {
+      "research/whole_double_universal_factorization_checks_pass114.py": 2,
+      "research/whole_double_newton_checks_pass114.py": 1,
+      "research/whole_double_square_ideal_checks_pass114.py": 1,
+      "research/whole_double_conormal_checks_pass112.py": 2,
+      "research/quadratic_degree_module_checks_pass102.py": 1,
+      "research/quadratic_divisor_filtration_checks_pass107.py": 1
+    },
+    "new_test_methods": 4,
+    "complete_output_verified": true,
+    "input_files_unchanged": true,
+    "local_markdown_links_checked": 894,
+    "missing_links": []
+  }
+}

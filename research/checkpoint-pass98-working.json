@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "pass": 98,
+  "created_at_utc": "2026-09-14 17:59:32 UTC",
+  "active_goal": "keep going until u solved it",
+  "working_question": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic to C^[4] implies A isomorphic to C^[3].",
+  "general_conjecture_solved": false,
+  "goal_status": "active",
+  "this_pass_classification": "progress",
+  "preceding_turn_classification": "The intervening check-in was a status answer, classified as no progress. This continuation revalidated the live saved state, independently reconstructed both new proofs, ran the canonical finite check, and integrated their exact scope.",
+  "summary": "For a mixed (2,1) quadratic fiber with L(m) nonzero, original volume and disjointness force the simple companion collapsed, giving actual parallel planes and exact radical/component equations. At a collapsed double component with zero first normal N-action, whole-thickening length and actual volume force constant transverse quadratic coefficient and a unimodular conormal row of degree at most two. Neither result gives recognition or general cancellation.",
+  "scope_assumptions": [
+    "The supplied actual original nonconical constant-acceleration frame B=A[u]=C^[4], canonical u=Ez/q, E^2 of the three good coordinates zero, E^2z=q nonzero constant, specified primitive canonical N commuting with E and killing u, full kernel S=C^[2].",
+    "Retained smooth factorial contractible A, faithful flatness over S, A=S[A1,A2,c], A_K=K[v], generic degree bounds2,2,4 and the actual whole prime-divisor constant extensions of degree at most2, as in checkpoint97.",
+    "The companion-collapse theorem assumes a whole (2,1) fiber with fixed double component and L(m) nonzero; it does not assume nonzero first normal action.",
+    "The zero-normal theorem assumes a collapsed double component and N(q) contained in q^2, on either profile(2) or(2,1); its all-point transverse coefficient uses the entire rank-two thickening and actual affine parameter c.",
+    "Both proofs retain original-coordinate and full-kernel gates. Neither a relative generator system nor an intrinsic control replaces them."
+  ],
+  "completed_deductions": [
+    "In a mixed (2,1) fiber with L(m) nonzero, specialization of the global volume relation forces the simple component to be collapsed. Otherwise its entire good projected line would hit the fixed vertical component.",
+    "Both component cylinders are distinct parallel affine planes in actual constant-affine good coordinates: q2B=(ell,Y), q1B=(ell,Y-1).",
+    "The actual good hyperplane ell=L(m) dot x_tr-kappa(m) has Eell in m^2 but nonzero, with E^2ell=0. It is not an E-invariant coordinate.",
+    "Canonical evaluation yields E-invariant F=ell-uEell and G=Y-uEY in A, exact component ideals q2=(F,G),q1=(F,G-1), and radical fiber (F,G(G-1)). No N-invariance or coordinate assertion follows.",
+    "Zero first normal N-action gives a constant quotient column and a unimodular polynomial row(p,q). The transverse binary quadratic class evaluated on(-q,p) is nonzero at every complex c, hence a nonzero constant.",
+    "With actual volume factor epsilon0=nu*p, weighted substitution v=y/p gives D*v=0 and D*c=2nu*A*v. Actual N^3F=N^3G=0 then implies p'''=q'''=0.",
+    "The polynomial row spans are, up to constant row and affine parameter changes, span{1},span{1,c},span{1,c^2},span{c,c^2+1}. This classifies indicated conormal data only.",
+    "A primitive intrinsic polynomial control N=-x^2*d_y+2y*d_c has the leading square-zero identity on c but N^2c=-2x^2 nonzero, blocking its promotion to the full action."
+  ],
+  "proof_reviews": {
+    "companion_collapse": "Geometry author; Root complete saved proof and original-plane/evaluation reconstruction (7348dc,99ccfd,4e1802); General saved eight-equation audit ec1b31; Jet independent saved EOF audit. All clean within stated assumptions.",
+    "zero_normal": "Jet author; Root complete saved proof/code and full selected conormal93,weighted94,column94,rank95 reads (a85504,77497f,6f2f7c,704d14,b2b8c4,dbe7eb); General eight-equation/code audit2e8009 and independent repeat9db406.",
+    "predecessor_red_team": "General targeted source-balance97/base-change94/flat-rank93 plus relevant96/lattice97 reconstruction (5cf4e1,634b0f) found no gap in D=O', retention of every source label, ef counting, and full-lattice primitivity. An intrinsic residue-degree-two example tests the ef rather than e entry. No new run or foundational-topology certification.",
+    "integration": "Root final synthesis/audit and README/ledger reads; General7ef1d5,4d9573,dac7b2 and final413205 check clean after clarifying that the missing generator invariance is N-invariance, not E-invariance. One AST method and input/output digests checked independently without rerun.",
+    "limit": "AI reconstructions, not human expert review, Lean verification, historical novelty clearance, or a fresh audit of every foundational dependency."
+  },
+  "targeted_verification": {
+    "path": "research/verification-pass98-working.json",
+    "sha256": "72a30c2c470ffd7cb233ea899e174d163cc8b45242e86bc95c88d7a4281809e4",
+    "all_passed": true,
+    "suites": 1,
+    "test_methods": 1,
+    "started_at_utc": "2026-09-14T17:51:04.316Z",
+    "finished_at_utc": "2026-09-14T17:51:04.748Z",
+    "wall_seconds": 0.426175125,
+    "unittest_seconds": 0.04,
+    "input_files": 1,
+    "input_hashes_unchanged": true,
+    "complete_output_sha256": "524f92347b1bacfb4480aad2643b8bb854a2b9e4aa06de65cd885ed202a2d868",
+    "output_hash_convention": "stdout + one newline + stderr",
+    "canonical_tool_chunk": "9fb463",
+    "independent_repeats": "Author494882:one method0.080s,wall0.562201208; General9db406:one method0.043s,wall0.354280417. Repeats of the same method, not additional coverage.",
+    "scope": "One finite symbolic method: weighted quadratic-row identities, a cubic-row negative, a vanishing-p chart, and an intrinsic polynomial LND control. Not verification of the all-point length argument, original-frame geometry, recognition, or cancellation."
+  },
+  "predecessor_audit": {
+    "checked_at_utc": "2026-09-14T17:57:33.384Z",
+    "all_passed": true,
+    "prior_hash_records": 586,
+    "current_full_suites": 146,
+    "current_full_methods": 1047,
+    "current_run_sources_checked": 9,
+    "retained_output_hashes_checked": 6,
+    "claims": 544,
+    "previous_checkpoint_sha256": "df01ff4a38d26cbe7773b6bd7c774748e0755e47a7ccf2e8f342dcf34ee7841b",
+    "verification_sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "tool_chunk": "6df306",
+    "unchanged": true,
+    "earlier_checks": [
+      "19ee53",
+      "564af9"
+    ]
+  },
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-14T17:57:33.508Z",
+    "all_passed": true,
+    "artifact_count": 6,
+    "numbered_equations": 21,
+    "local_links_checked": 781,
+    "missing_links": [],
+    "deferred_links": [
+      {
+        "from": "research/proof-audits-pass98-working.md",
+        "target": "checkpoint-pass98-working.json"
+      },
+      {
+        "from": "research/quadratic-plane-and-zero-normal-frontier-pass98.md",
+        "target": "checkpoint-pass98-working.json"
+      },
+      {
+        "from": "README.md",
+        "target": "research/checkpoint-pass98-working.json"
+      },
+      {
+        "from": "research-ledger.md",
+        "target": "research/checkpoint-pass98-working.json"
+      }
+    ],
+    "targeted_inputs_checked": 1,
+    "targeted_complete_outputs_checked": 1,
+    "artifacts": [
+      {
+        "path": "research/proof-audits-pass98-working.md",
+        "sha256": "a70697ed4f1a96383b865419a45e0d3e6010edac0093cbf109b04e29fdcc2669",
+        "bytes": 8178,
+        "content_lines": 157,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/quadratic-normal-companion-collapse-pass98.md",
+        "sha256": "b1f659d94b8296759c52a1a43c41fe4d31295e31a5aa72ffcb444239b185eafc",
+        "bytes": 9472,
+        "content_lines": 232,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/quadratic-plane-and-zero-normal-frontier-pass98.md",
+        "sha256": "c825f77b45e356f90749ef8e90c1464c3ebae744b82037dc66d6722472e7b2d5",
+        "bytes": 10532,
+        "content_lines": 238,
+        "numbered_equations": 5
+      },
+      {
+        "path": "research/quadratic-zero-normal-row-pass98.md",
+        "sha256": "dd1c751a1603df3c0462f37b5ad334976b40c1b57c5b03e294548624e6c7b64b",
+        "bytes": 10198,
+        "content_lines": 240,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/quadratic_zero_normal_checks_pass98.py",
+        "sha256": "c0c4ee3a08622841b33793e03184caef38bf3532a89eb059c76b8a2b050fbdf0",
+        "bytes": 3176,
+        "content_lines": 85,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/verification-pass98-working.json",
+        "sha256": "72a30c2c470ffd7cb233ea899e174d163cc8b45242e86bc95c88d7a4281809e4",
+        "bytes": 1344,
+        "content_lines": 29,
+        "numbered_equations": 0
+      }
+    ],
+    "tool_chunk": "f7dae5",
+    "scope": "Six saved98 artifacts plus live README/ledger local links. Four self-checkpoint links intentionally deferred until save and checked afterward. Later99 scratch proofs are not included."
+  },
+  "selected_primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/1701.03635",
+      "authors": "Nikhilesh Dasgupta and Neena Gupta",
+      "title": "Nice derivations over principal ideal domains",
+      "date": "2017-01-13",
+      "scope": "Root complete displayed Theorem3.6 proof and Corollary3.8 read; actual relative polynomial-ring/invariant-coordinate gate remains missing. Already audited lead, no new recognition or novelty progress."
+    },
+    {
+      "url": "https://arxiv.org/html/2604.11693v1",
+      "authors": "Elżbieta Adamus and Zbigniew Hajto",
+      "title": "Strongly nilpotent automorphisms are Pascal finite",
+      "date": "2026-04-13",
+      "scope": "General complete HTML reading; Root difference-operator and strong-nilpotence definitions plus displayed Theorem5.1 and Remark5.2 proofs. Source gives no invariant-ring recognition; dependent strong-nilpotence/wildness results not all freshly reconstructed."
+    }
+  ],
+  "last_full_regression": {
+    "path": "research/verification-pass75-working.json",
+    "sha256": "960cab63db3d427d5e25d142edc2f53b543f9fefd0d55d0b0d17dcd7d0fab247",
+    "suites": 146,
+    "test_methods": 1047
+  },
+  "fresh_full98_regression_performed": false,
+  "central_registry_integrated": false,
+  "historical_claim_count": 544,
+  "record_accounting": {
+    "prior_frozen_records": 586,
+    "new_artifacts": 6,
+    "new_checkpoint_self": 1,
+    "records_after_checkpoint_freeze": 593,
+    "note": "Checkpoint self hash is retained externally and independently checked after saving. Live README/ledger and99 scratch notes are excluded from frozen record counts."
+  },
+  "rejected_shortcuts": [
+    "Collapsed companion and parallel original planes do not produce a global invariant coordinate.",
+    "The radical fiber ideal is not the full nonreduced fiber ideal.",
+    "F and G are E-invariant by construction; the unproved invariance in the frontier is N-invariance.",
+    "Generic multiplicity cannot replace all-point length in proving that the transverse coefficient is a unit.",
+    "The leading identity D*^2c=0 cannot be promoted to N^2c=0 in A.",
+    "Polynomial degree in the flow parameter is not ordinary spatial polynomial degree, strong nilpotence, or an invariant-ring recognition theorem.",
+    "Even recognizing every supplied constant-acceleration frame would not establish the arbitrary sliced-action reduction."
+  ],
+  "next_bounded_actions": [
+    "Integrate and challenge the separately saved99 parallel-plane Jacobian and constant-base conormal compatibility proofs. Root has read both, and separate peer reconstructions exist; they are not frozen or claimed as98 deductions.",
+    "Test higher-order actual constraints on the mixed fiber after separating its simple-plane nonzero linear speed from double-plane vanishing. Do not turn restricted spatial divisibility into a normal-square claim.",
+    "Continue whole collapsed/noncollapsed double-fiber and L(m)=0 analysis. Retain nonzero-first-normal and zero-first-normal cases distinctly.",
+    "Keep arbitrary-frame reduction and general cancellation as unresolved parts of the full objective."
+  ],
+  "arbitrary_constant_acceleration_recognized": false,
+  "arbitrary_sliced_action_reduced_to_frame": false,
+  "professor_interpretation_confirmed": false,
+  "historical_novelty_verified": false,
+  "human_expert_review_completed": false,
+  "formal_verification_completed": false,
+  "external_contact_made": false,
+  "submission_or_publication_made": false
+}

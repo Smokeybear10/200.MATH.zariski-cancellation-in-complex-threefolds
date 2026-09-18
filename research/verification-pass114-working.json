@@ -1,0 +1,63 @@
+{
+  "started_at_utc": "2026-09-15T00:24:27.341Z",
+  "finished_at_utc": "2026-09-15T00:24:30.795Z",
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.whole_double_universal_factorization_checks_pass114",
+    "research.whole_double_newton_checks_pass114",
+    "research.whole_double_square_ideal_checks_pass114",
+    "research.whole_double_conormal_checks_pass112",
+    "research.quadratic_degree_module_checks_pass102",
+    "research.quadratic_divisor_filtration_checks_pass107"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 3.449506209,
+  "suites": 6,
+  "test_methods": 8,
+  "new_methods": 4,
+  "retained_methods": 4,
+  "ast_method_counts": {
+    "research/whole_double_universal_factorization_checks_pass114.py": 2,
+    "research/whole_double_newton_checks_pass114.py": 1,
+    "research/whole_double_square_ideal_checks_pass114.py": 1,
+    "research/whole_double_conormal_checks_pass112.py": 2,
+    "research/quadratic_degree_module_checks_pass102.py": 1,
+    "research/quadratic_divisor_filtration_checks_pass107.py": 1
+  },
+  "input_files": [
+    {
+      "path": "research/whole_double_universal_factorization_checks_pass114.py",
+      "sha256": "139246736fdefdbec8482571cf258b2d884111813b66d7f8474b3192814241ba"
+    },
+    {
+      "path": "research/whole_double_newton_checks_pass114.py",
+      "sha256": "6e62a7cf13fb96d69d8828ae22bb069c3652bd5563cbd20624ffebb253e17b97"
+    },
+    {
+      "path": "research/whole_double_square_ideal_checks_pass114.py",
+      "sha256": "f58dce1da51a83b3dcf9e940ee59d24f3b3f11f86e00a98c1586124d59c66b70"
+    },
+    {
+      "path": "research/whole_double_conormal_checks_pass112.py",
+      "sha256": "ea5fdc95e9297c2807c119e3ef2674edbcf39e0f8c754861fb4c5f2a37ecab52"
+    },
+    {
+      "path": "research/quadratic_degree_module_checks_pass102.py",
+      "sha256": "dd701dc05fe10c4ce5189ab848bfde4f0ea7bb724f27d4317b69f38c91613362"
+    },
+    {
+      "path": "research/quadratic_divisor_filtration_checks_pass107.py",
+      "sha256": "87c7052e3e165f0d1ebc8faabc8f49d178c2c55a3cfe6daf0ef6d97e817e1a38"
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "stdout": "",
+  "stderr": "test_denominator_free_factor_and_ideal_certificates (research.whole_double_universal_factorization_checks_pass114.WholeDoubleUniversalFactorizationChecks.test_denominator_free_factor_and_ideal_certificates) ... ok\ntest_finite_root_and_cofactor_for_singular_coefficients (research.whole_double_universal_factorization_checks_pass114.WholeDoubleUniversalFactorizationChecks.test_finite_root_and_cofactor_for_singular_coefficients) ... ok\ntest_distinguished_a_colength_two_controls (research.whole_double_newton_checks_pass114.WholeDoubleNewtonChecks.test_distinguished_a_colength_two_controls) ... ok\ntest_nilpotent_coefficients_and_finite_ideal_lifts (research.whole_double_square_ideal_checks_pass114.WholeDoubleSquareIdealChecks.test_nilpotent_coefficients_and_finite_ideal_lifts) ... ok\ntest_conormal_and_weighted_connections (research.whole_double_conormal_checks_pass112.WholeDoubleConormalChecks.test_conormal_and_weighted_connections) ... ok\ntest_product_index_determinant (research.whole_double_conormal_checks_pass112.WholeDoubleConormalChecks.test_product_index_determinant) ... ok\ntest_conic_first_coefficients_and_weight_comparison (research.quadratic_degree_module_checks_pass102.QuadraticDegreeModuleChecks.test_conic_first_coefficients_and_weight_comparison) ... ok\ntest_conic_filtration_and_hypothesis_controls (research.quadratic_divisor_filtration_checks_pass107.QuadraticDivisorFiltrationChecks.test_conic_filtration_and_hypothesis_controls) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 3.081s\n\nOK\n",
+  "output_hash_convention": "stdout + one newline + stderr",
+  "complete_output_sha256": "bbfe85f190e362412ea7a1062b16b9e46e2816f7d394817449fdb13b980f9290",
+  "all_passed": true,
+  "scope": "New universal factor and ideal polynomial certificates plus finite Newton roots; retained-in-pass smooth-a and Artinian square-ideal controls. Retained112 conormal/product,102 conic module and107 divisor identities. Does not verify all-order Hensel lifting, actual-frame hypotheses, analytic-prime support, integral topology, geometric dependency chain, global recognition, cancellation or novelty."
+}

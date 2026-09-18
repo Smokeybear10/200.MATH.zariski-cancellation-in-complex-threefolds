@@ -1,0 +1,311 @@
+{
+  "pass": 118,
+  "status": "conditional_cubic_polynomial_pullback_exclusion_and_rational_first_integral; general_cancellation_unsolved",
+  "working_target": "Unconfirmed intended complex-threefold cancellation A[u] isomorphic C^[4] implies A isomorphic C^[3]. Literal emailed A^1 conclusion has dimensional mismatch for general r.",
+  "summary": "Exact cubic relative degree is excluded for b=(s,p(s,t),f(s)) with s,t actual polynomial invariant-plane coordinates, p_t nonzero, f polynomial. A generic commuting-frame/Riccati calculation ends in global original-coordinate irreducibility. General cubic frames have a rational first integral for their leading relative direction. Exact principal-open examples with unit Jacobian, including globally unimodular speed, retain a global slice pole.",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass117-working.json",
+    "sha256": "96ec4fcf83b826c85f3aa234eb464235cf7aeae8e4ad7b99f5328f78eaecd5e8",
+    "records": 742,
+    "revalidations": [
+      "988205",
+      "306a69"
+    ]
+  },
+  "chain_record_count_after_including_this_checkpoint": 752,
+  "record_count_convention": "742 previous frozen hash records plus nine current artifacts plus this checkpoint. README and research-ledger remain live. Current checkpoint hash is external.",
+  "current_integrity_audit": {
+    "checked_at_utc": "2026-09-15T02:05:14.271Z",
+    "artifacts": [
+      {
+        "path": "research/nice-recognition-adversarial-dependency-audit-pass118.md",
+        "sha256": "af7e33c986c3c988be289f87fbfa32385b76ca8cdb546867da8de687f828ec6f",
+        "bytes": 9838,
+        "lines": 177,
+        "equations": 0
+      },
+      {
+        "path": "research/cubic-moving-frame-constraint-pass118.md",
+        "sha256": "831ccbe46c6c70316dc80f88d311f2a205718099e0147d28e67850a8a7975af8",
+        "bytes": 6930,
+        "lines": 186,
+        "equations": 7
+      },
+      {
+        "path": "research/cubic-cylinder-velocity-exclusion-pass118.md",
+        "sha256": "5d3834c9a9c45059519eb81eb4872b5573e7bc5708f2644ffa3f79cf8ecea06a",
+        "bytes": 10989,
+        "lines": 246,
+        "equations": 7
+      },
+      {
+        "path": "research/cubic-polynomial-pullback-exclusion-pass118.md",
+        "sha256": "4bec35f5215ffbca9f5a96b24a6a3df21b9a66e2cacfe1e3261e6124deb5be48",
+        "bytes": 9926,
+        "lines": 231,
+        "equations": 7
+      },
+      {
+        "path": "research/cubic-principal-open-frame-control-pass118.md",
+        "sha256": "186431b9b840d5b2b300f7866cf9bf001586ce25fb873aa012c2792161efe003",
+        "bytes": 8830,
+        "lines": 219,
+        "equations": 8
+      },
+      {
+        "path": "research/cubic_moving_frame_checks_pass118.py",
+        "sha256": "37309d71d65224db7f5530758ca7dad58775f649d3e0ba785716de9b7ab0e881",
+        "bytes": 10861,
+        "lines": 224,
+        "equations": 0
+      },
+      {
+        "path": "research/cubic_pullback_transfer_checks_pass118.py",
+        "sha256": "782cab2abe1be015084fb6a427c37c2cd2eb4d72b5f2c10260a390f0964b8aa9",
+        "bytes": 2517,
+        "lines": 66,
+        "equations": 0
+      },
+      {
+        "path": "research/verification-pass118-working.json",
+        "sha256": "ff9600f806b6b192bf9cce31e540a0d0c4f5a54fad64fce2aef5016995eebe30",
+        "bytes": 4111,
+        "lines": 60,
+        "equations": 0
+      },
+      {
+        "path": "research/cubic-global-obstruction-frontier-pass118.md",
+        "sha256": "03b95bf190aea8019828069a285d11819158667001d4f642d79f00755cb73b83",
+        "bytes": 8297,
+        "lines": 171,
+        "equations": 0
+      }
+    ],
+    "equations": 29,
+    "all_passed": true,
+    "metadata_evidence": "ff9dd9",
+    "scope": "Nine artifact SHA256/bytes/lines,29 sequential displayed equation labels,whitespace; current capture output/input hashes. Full prior742 source chain checked separately."
+  },
+  "canonical_verification": {
+    "path": "research/verification-pass118-working.json",
+    "tool_evidence": "905797",
+    "suites": 4,
+    "test_methods": 7,
+    "new_methods": 4,
+    "retained_methods": 3,
+    "elapsed_seconds": 1.280320375,
+    "unittest_seconds": 0.954,
+    "complete_output_sha256": "8ffd81b0a74b9f411ca7f74c794ef1e9b411b2f9956638c0c0252c9de7693407",
+    "all_passed": true,
+    "scope": "New birational and degree-two rational-base transfer/reconstruction controls; affine/nonholonomic coefficient and rank-one metric identities; actual principal-open inverses, both moving connections and global pole witnesses; bounded cylinder Laurent controls. Retained117 metric/shear and90 volume controls. No test proves the all-degree Riccati argument, general rational constant-field transfer, global coordinate irreducibility endpoint, rational first-integral field theorem, source-dependent nice80, arbitrary-frame entry, general cancellation or novelty."
+  },
+  "superseded_capture": {
+    "tool_evidence": "0c36d7",
+    "suites": 3,
+    "test_methods": 6,
+    "new_methods": 3,
+    "retained_methods": 3,
+    "complete_output_sha256": "c20a4e4a820c3f40ed11f946875c5cceff473520965c10222e87693fb63486c4",
+    "reason": "Added the separate one-method rational-base transfer control before pass118 freeze. Earlier passing run is not additional method coverage."
+  },
+  "author_runs": [
+    {
+      "evidence": "bfd035",
+      "checker": "research/cubic_moving_frame_checks_pass118.py",
+      "methods": 3,
+      "unittest_seconds": 0.658,
+      "wall_seconds": 0.911114583,
+      "exit_code": 0
+    },
+    {
+      "evidence": "3448ce",
+      "checker": "research/cubic_pullback_transfer_checks_pass118.py",
+      "methods": 1,
+      "unittest_seconds": 0.05,
+      "wall_seconds": 0.303034208,
+      "exit_code": 0
+    }
+  ],
+  "proof_reviews": [
+    {
+      "artifact": "research/cubic-moving-frame-constraint-pass118.md",
+      "author": "Root",
+      "root_reads": [
+        "525c99"
+      ],
+      "independent_reviews": [
+        {
+          "reviewer": "General",
+          "evidence": [
+            "d8b4fe"
+          ],
+          "scope": "Complete seven-equation reconstruction; subsequent link-only correction."
+        },
+        {
+          "reviewer": "Geometry",
+          "evidence": [
+            "3de0be"
+          ],
+          "scope": "Full final proof, nonholonomic signs, constant field and rank-degenerate Q."
+        },
+        {
+          "reviewer": "Jet",
+          "evidence": [
+            "04678a"
+          ],
+          "scope": "Full proof, determinant normalization, rank-one residual and trdeg-one argument."
+        }
+      ]
+    },
+    {
+      "artifact": "research/cubic-cylinder-velocity-exclusion-pass118.md",
+      "author": "General",
+      "root_reads": [
+        "ec8429",
+        "ef6dce"
+      ],
+      "independent_reviews": [
+        {
+          "reviewer": "Jet",
+          "evidence": [
+            "856c8e"
+          ],
+          "scope": "Full scalar proof and all-degree/finite Laurent distinction."
+        },
+        {
+          "reviewer": "Geometry",
+          "evidence": [
+            "2921a7",
+            "95d0b9"
+          ],
+          "scope": "Full proof and final stronger-result/checker scope delta."
+        }
+      ]
+    },
+    {
+      "artifact": "research/cubic-polynomial-pullback-exclusion-pass118.md",
+      "author": "General; stronger endpoint proposed independently by Root",
+      "root_reads": [
+        "141c51",
+        "3e2b94"
+      ],
+      "independent_reviews": [
+        {
+          "reviewer": "Geometry",
+          "evidence": [
+            "e25c77",
+            "9ebd53"
+          ],
+          "scope": "Full seven-equation theorem and final checker-link tail; exact constants and generic base transfer."
+        },
+        {
+          "reviewer": "Jet",
+          "evidence": [
+            "053517",
+            "676948"
+          ],
+          "scope": "Full actual-ring, degree and original-coordinate irreducibility proof before checker-link tail."
+        }
+      ]
+    },
+    {
+      "artifact": "research/cubic-principal-open-frame-control-pass118.md",
+      "author": "Jet",
+      "root_reads": [
+        "336065",
+        "6b19d3",
+        "3451be"
+      ],
+      "independent_reviews": [
+        {
+          "reviewer": "General",
+          "evidence": [
+            "ee3262",
+            "1959fd",
+            "51f685"
+          ],
+          "scope": "Full control, both inverse orders and metric/pullback additions."
+        },
+        {
+          "reviewer": "Geometry",
+          "evidence": [
+            "892b7b",
+            "892019",
+            "95d0b9"
+          ],
+          "scope": "Full initial seven-equation control plus final eight-equation pullback/stronger-exclusion scope delta."
+        }
+      ]
+    },
+    {
+      "artifact": "research/nice-recognition-adversarial-dependency-audit-pass118.md",
+      "author": "Geometry",
+      "root_reads": [
+        "5a64ea"
+      ],
+      "independent_reviews": [
+        {
+          "reviewer": "General",
+          "evidence": [
+            "fab081"
+          ],
+          "scope": "Full audit note reconstruction; not a separate fresh audit of every cited primary proof."
+        }
+      ]
+    }
+  ],
+  "code_reviews": [
+    {
+      "artifact": "research/cubic_moving_frame_checks_pass118.py",
+      "root_reads": [
+        "336065",
+        "37d26a"
+      ],
+      "independent_evidence": [
+        "f5b017",
+        "ee3262",
+        "1959fd",
+        "51f685"
+      ],
+      "scope": "Complete final code-only reconstructions; three methods with bounded identity/example coverage."
+    },
+    {
+      "artifact": "research/cubic_pullback_transfer_checks_pass118.py",
+      "root_reads": [
+        "c3bc3a"
+      ],
+      "independent_evidence": [
+        "95d0b9",
+        "a3f4f5"
+      ],
+      "scope": "Complete one-method code review; birational and degree-two maps, not proof of universal field or primeness statements."
+    }
+  ],
+  "packaging_reviews": {
+    "reviewer": "Geometry",
+    "synthesis_and_capture": ["9ebd53", "c8af93"],
+    "checkpoint_and_integrity": ["db1d9f", "ff2ea4"],
+    "scope": "Complete synthesis/capture and checkpoint before final evidence-only additions; nine artifact hashes/bytes/lines,29 tags,34 current Markdown links,20 JSON file references,previous checkpoint hash,752-record arithmetic and capture consistency. No test rerun or repeated full prior742 rehash. Added the omitted892019 mathematical-delta read explicitly before freeze."
+  },
+  "source_audit_boundary": "Geometry freshly checked selected de Bondt3.8 and5.1 proofs, retained thesis4.3.1 extraction, and Kaliman-Saveliev2.7/2.8 statements/proofs. Deeper and separate dependencies remain uncrossed as listed in the audit. Root checked Hildebrand primary abstract/version history only for nonapplicability. Failed EMIS mirror not counted as a read.",
+  "historical_full_verification": {
+    "pass": 75,
+    "suites": 146,
+    "methods": 1047,
+    "claims_registry": 544,
+    "rerun_this_pass": false
+  },
+  "unresolved": [
+    "General exact cubic relative branch outside the specified velocity form",
+    "Whether rational first-integral field has an actual polynomial base coordinate",
+    "Global velocity classification and divisor control",
+    "Arbitrary cylinder entry into the supplied acceleration frame",
+    "Full complex-threefold cancellation",
+    "Luo's intended field/dimension",
+    "Human expert and formal proof verification",
+    "Historical novelty"
+  ],
+  "next_task": "Use the rational first-integral and plane/quadratic constraints to analyze remaining global polynomial velocity geometry. Do not infer a polynomial coordinate/LND from a rational integral, or repeat a local-Jacobian-only proof defeated by the explicit pole control.",
+  "confidence": "Independent AI reconstructions and exact finite symbolic tests are not human expert review, formal certification or novelty clearance.",
+  "permissions": "Private local research/public primary sources only; no posting, submission, expert contact, paid access, unrelated file mutation or new automation."
+}

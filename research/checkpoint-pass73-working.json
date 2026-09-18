@@ -1,0 +1,157 @@
+{
+  "status": "AI-audited working73 conditional deduction: the entire supplied actual two-quadratic frame is recognized for an original sliced action over C, and the all-profile slice-filtration height threshold is ten. Universal frame existence and unrestricted cancellation remain unproved.",
+  "previous_working_checkpoint": "research/checkpoint-pass72-working.json",
+  "previous_integrated_checkpoint": "consistency-pass-60.json",
+  "current_research_pass_classification": "progress",
+  "previous_status_only_turn_classification": "no progress in the root proof; current files and live reviewers were revalidated before substantive proof work",
+  "synthesis": "research/height-ten-closure-pass73.md",
+  "proof_audit": "research/proof-audits-pass73-working.md",
+  "universal_frontier": "research/universal-family-degree-boundary-pass73.md",
+  "verification_record": "research/verification-pass73-working.json",
+  "historical_integrated_counts": {
+    "claims": 544,
+    "test_methods": 1000,
+    "suites": 126
+  },
+  "last_full_regression": {
+    "path": "research/verification-pass73-working.json",
+    "sha256": "18035cf02d2aad2fa33c82c09ee3bb885cb638cba6e11f419d826601867d95a1",
+    "suites": 140,
+    "test_methods": 1034,
+    "all_passed": true,
+    "started_at_utc": "2026-09-14T04:03:41.142995+00:00",
+    "finished_at_utc": "2026-09-14T04:05:28.113399+00:00",
+    "wall_seconds": 106.970404
+  },
+  "new_current_tests": {
+    "suites": 1,
+    "methods": 3
+  },
+  "additions_since_full69": {
+    "suites": 4,
+    "methods": 13
+  },
+  "fresh_full73_regression_performed": true,
+  "central_registry_integrated": false,
+  "completed_deductions": [
+    "The original independent joint-rank-three moving quartic and quintic sectors satisfy the exact original-ring terminal71/72 recognition hypotheses, using full six-dimensional companion images and actual coordinate changes.",
+    "Dependent71, joint-rank-two72, cubic70, higher constant-top68 and the new higher moving transfer exhaust every supplied two-quadratic frame.",
+    "The actual low-profile and other height-ten theorems complete the sorted-profile exhaustion H<=10. A hypothetical nonpolynomial cancellation kernel would have H_min>=11, with no proof that this situation occurs or is impossible.",
+    "For a fixed finite family of bounded-degree sliced LNDs with bounded coordinate nilpotence order, pointwise polynomial kernels over C are equivalent to a uniform finite inverse-coordinate degree bound. This also holds for coordinates adapted to the supplied slice, using only the slice theorem. Pointwise existence and a bound are not obtained."
+  ],
+  "remaining_mathematical_obligations": [
+    "Produce an applicable actual frame or an invariant ambient coordinate for arbitrary sliced actions, or another unrestricted recognition proof.",
+    "The bounded-family reformulation still requires pointwise witness existence on every exceptional parameter locus. Constructibility alone does not provide it.",
+    "The intended field, dimension and corrected statement remain unconfirmed by the professor.",
+    "Historical novelty review, human expert review and formal verification have not been completed."
+  ],
+  "proof_review_kind": "Full saved-file independent AI reconstructions, separated from author self-review, outline checks, actual finite regression and file integrity. Not expert or proof-assistant verification.",
+  "entire_two_quadratic_profile_recognized": true,
+  "all_profile_height_threshold": 10,
+  "conditional_nonpolynomial_kernel_minimum_height_lower_bound": 11,
+  "conditional_bounded_family_uniformity_proved": true,
+  "universal_bounded_family_witness_existence_proved": false,
+  "universal_frame_existence_proved": false,
+  "general_conjecture_solved": false,
+  "novelty_claimed": false,
+  "human_expert_review": false,
+  "proof_assistant_verified": false,
+  "interpretation_confirmed_by_professor": false,
+  "external_contact_or_submission": false,
+  "pass74_drafts_excluded": true,
+  "artifact_integrity": {
+    "checked_at_utc": "2026-09-14T04:20:35.504Z",
+    "all_passed": true,
+    "frozen_predecessor": {
+      "path": "research/checkpoint-pass72-working.json",
+      "sha256": "fd2d818262bff6d95687c3f73ae70085adc38999feb7b5b013905c0a2ec043ec"
+    },
+    "prior_hash_records": 275,
+    "current_artifacts": 8,
+    "total_hash_records": 283,
+    "local_link_paths_checked": 532,
+    "deferred_checkpoint_links": [
+      {
+        "source": "research/proof-audits-pass73-working.md",
+        "target": "research/checkpoint-pass73-working.json"
+      },
+      {
+        "source": "README.md",
+        "target": "research/checkpoint-pass73-working.json"
+      },
+      {
+        "source": "research-ledger.md",
+        "target": "research/checkpoint-pass73-working.json"
+      }
+    ],
+    "link_anchors_checked": false,
+    "link_scan_ignores_tex_math": true,
+    "current_numbered_equations": 41,
+    "full_run_suites": 140,
+    "full_run_methods": 1034,
+    "retained_output_hashes_checked": 4,
+    "central_claim_count": 544,
+    "mathematical_suites_executed": 0,
+    "regression_runners_executed": 0,
+    "pass74_drafts_excluded": true,
+    "scope": "Read-only exact hashes, equation numbering, local paths, text hygiene and saved finite-run accounting. Not mathematical proof verification.",
+    "artifacts": [
+      {
+        "path": "research/independent-higher-joint-rank-closure-pass73.md",
+        "sha256": "86577d63c529ea9466698a38f843c62084a03a158e2808686d24f5a741d026ed",
+        "bytes": 18757,
+        "lines": 505,
+        "numbered_equations": 26
+      },
+      {
+        "path": "research/height-ten-closure-pass73.md",
+        "sha256": "d20b1db3f10dd2fad51e4b4aac86948d178e52bd3a9de676b57023ead8389340",
+        "bytes": 6508,
+        "lines": 149,
+        "numbered_equations": 7
+      },
+      {
+        "path": "research/universal-family-degree-boundary-pass73.md",
+        "sha256": "5c9612c24edbcd187adba2bc8776cca5062b66b14786f995519b73963ad490e0",
+        "bytes": 15938,
+        "lines": 342,
+        "numbered_equations": 8
+      },
+      {
+        "path": "research/higher_joint_rank_checks_pass73.py",
+        "sha256": "abb587334202bcbcf4e3c6bdd2dcff596038da40cb4dc6e40ac869b4e7d02586",
+        "bytes": 10342,
+        "lines": 190,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/higher-joint-rank-controls-pass73.md",
+        "sha256": "ef47fc20c9b84ef66f863aeb335f7d6904b4822b579b766643b58f06c88fdf1a",
+        "bytes": 4905,
+        "lines": 105,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/run_regression_pass73.py",
+        "sha256": "f51879dfa3228d611ddcd20aa163d37fadaef1c160d6e95d80dee9164d4b6525",
+        "bytes": 4340,
+        "lines": 96,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/verification-pass73-working.json",
+        "sha256": "18035cf02d2aad2fa33c82c09ee3bb885cb638cba6e11f419d826601867d95a1",
+        "bytes": 104119,
+        "lines": 2689,
+        "numbered_equations": 0
+      },
+      {
+        "path": "research/proof-audits-pass73-working.md",
+        "sha256": "054db727d2d3f94546f647bb368a67f252e25fe087e692506cbc6015abb13d04",
+        "bytes": 7649,
+        "lines": 139,
+        "numbered_equations": 0
+      }
+    ]
+  }
+}

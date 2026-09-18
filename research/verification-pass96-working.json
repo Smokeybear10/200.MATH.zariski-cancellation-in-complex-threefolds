@@ -1,0 +1,29 @@
+{
+  "started_at_utc": "2026-09-14T16:34:57.323Z",
+  "finished_at_utc": "2026-09-14T16:34:57.810Z",
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.quadratic_global_bridge_checks_pass96"
+  ],
+  "exit_code": 0,
+  "suites": 1,
+  "test_methods": 1,
+  "wall_seconds": 0.481187666,
+  "unittest_seconds": 0.094,
+  "input_files": [
+    {
+      "path": "research/quadratic_global_bridge_checks_pass96.py",
+      "sha256": "f482c0bb934986d1bb5e438469eccdd4e60628bec1b7995d4fc23f37a3de649e"
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "stdout": "",
+  "stderr": "test_exact_relative_structure_and_failed_ambient_inverse (research.quadratic_global_bridge_checks_pass96.QuadraticGlobalBridgeControl.test_exact_relative_structure_and_failed_ambient_inverse) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.094s\n\nOK\n",
+  "output_hash_convention": "stdout + one newline + stderr",
+  "complete_output_sha256": "9d767260723bcc372c73dea2ef2c29be9b7ce6ca2cb2c7d2c80c792d6ad5b3b7",
+  "all_passed": true,
+  "scope": "One finite exact polynomial speed-row, relative inverse, Jacobian and tangent control. Not verification of universal topology, finite-flat arguments, original-frame recognition or cancellation."
+}

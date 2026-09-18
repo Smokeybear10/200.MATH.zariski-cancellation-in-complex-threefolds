@@ -1,0 +1,131 @@
+{
+  "pass": 200,
+  "status": "restricted_full_square_root_initial_kernel_recognition; unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass199-working.json",
+    "sha256": "360a4f26192497e7f246b50750248ea7be34da014e7af9c6b76515e76e2f9aa5",
+    "records": 1234
+  },
+  "results": {
+    "nonmonomial_graph": "After actual normalization199 to f=q(q+1), q^2=t, the completed-square graph forces the residual scalar g to be complex. The exact projected field return would identify C(y,z,h) with C(y,z,h^3/2+zh), contradicting the irreducible cubic field degree. The scalar Jacobian separately supplies the required nonzero/descent gates, with Ny retained.",
+    "nonmonomial_quadratic_projection": "The same normalized actual chart gives g=alpha*q+beta/(3q-1)+gamma and a complete offset solution by exact coefficient differentiation, without assuming K=C(q). Eliminating the generic parameter forces an irreducible quartic to have its root h in C(y,z,w). The primitive linear-w proof covers alpha=0 and beta=0, subject only to the retained nonzero derivative gate.",
+    "full_supplied_kernel": "Composing zero-R recognition195, the necessary classification195, monomial normalization/graph exclusion196 and polynomial inverse197, reciprocal exclusion198, and normalization199 with both new200 exclusions proves A isomorphic C^[3] for every supplied actual global-slice exact1122 frame whose entire initial kernel is (Z^2-X^3Y). The entire-kernel requirement is stronger than a single leading relation.",
+    "remaining_scope": "No arbitrary action is put into this frame. The different kernel Z^2-X^2Y(X-Y) with nonzero R, other initial forms and ranks, height-two kernels, higher profiles, coordinate entry and unrestricted cancellation remain open. No minimum or entry theorem is asserted."
+  },
+  "goal_audit": {
+    "prior_progress": "Frozen199 supplies the actual normalization and its separate bounded literature audit. Its three-method canonical run remains prior evidence and is not counted as a new200 run.",
+    "current_continuation": "The new graph and quadratic-projection field obstructions complete the composed restricted square-root-kernel theorem. Root executed the four-method200 checker once after a complete source read; its original session completed successfully. Packet assembly is source-only.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Investigate the actual nonzero-R alternatives for the different two-root kernel Z^2-X^2Y(X-Y), retaining all exact-field and original-coordinate gates. Other entry and higher-profile frontiers remain separate.",
+  "artifacts": [
+    {
+      "path": "research/weight-four-normalized-nonmonomial-graph-obstruction-pass200-working.md",
+      "sha256": "13a1508677326b239a24192180b46d9ac0aa189e4200a7af99cddc9cb2fd3e7c",
+      "bytes": 9481,
+      "lines": 268,
+      "equations": 16,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-nonmonomial-quadratic-field-obstruction-pass200-working.md",
+      "sha256": "b7dd018b0ce3b5965e0e0f242c9671473791e3d59722c2f19811fef562f2174a",
+      "bytes": 9201,
+      "lines": 269,
+      "equations": 16,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-square-root-complete-recognition-synthesis-pass200-working.md",
+      "sha256": "5b6edbd944f7e9990623e00519bc6083907613030aaf1d97dfb43c5d1aa6826b",
+      "bytes": 7390,
+      "lines": 171,
+      "equations": 7,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight_four_nonmonomial_obstruction_controls_pass200.py",
+      "sha256": "199a976d77d54a153ffa7c8dee0432063c99495f96cec4498cf6d181e227fa71",
+      "bytes": 9053,
+      "lines": 196,
+      "equations": 0,
+      "test_methods": 4
+    }
+  ],
+  "canonical_executions": [
+    {
+      "suite": "nonmonomial_obstructions200",
+      "path": "research/weight_four_nonmonomial_obstruction_controls_pass200.py",
+      "pre_execution_read": "Root complete1642b6.",
+      "initial_output": "b5711f",
+      "session_id": 89807,
+      "terminal_output": "0f78e8",
+      "methods": 4,
+      "unittest_seconds": 0.922,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": false,
+      "pending_execution_handle": false,
+      "completion_via_original_handle": true,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/weight_four_nonmonomial_obstruction_controls_pass200.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "login": false,
+      "initial_yield_time_ms": 1000
+    }
+  ],
+  "tagged_equations": 39,
+  "total_new_test_methods": 4,
+  "reviews": {
+    "graph": "Jet complete author ea689f+b0a78e. Geometry complete saved-source review6c10d7 reconstructs the completed-square graph, exact scalar calibration, field-inclusion chain and cubic irreducibility at13a15086.",
+    "quadratic_projection": "Root complete author25ae9a. Geometry fullb68db8, with read-only metadata063cc7, reconstructs the xi-scaled coefficient A, raw determinant, exact finite-field integrations, offset equation and quartic primitive argument atb7dd018b.",
+    "synthesis": "Root full9f8685 followed by final verification/prose and one-character TeX deltas e04d72+9e454c; final metadataa70408. Geometry earlier full6c10d7 and fresh final complete99c1c2 cover final5b6edbd9. General reports complete chain reads e282e3+4d1046+b91b6d+179266+fcf498 and retained zero-R195 reads a6de92+f508f5. These are saved-source AI reviews, not human or formal certification.",
+    "checker": "Jet complete author3299d3+7e18eb. Root full1642b6 preceded the sole canonical execution. Geometry fullccdd1a is a subsequent source-only review, explicitly after execution. No checker was executed, imported or compiled during this assembly.",
+    "metadata": "Read-only b72203 matches all four current artifact hashes, byte and line counts,39 equation tags and four methods. Frozen199 verification/checkpoint hashes were independently rechecked in148e06. The graph and projection source status lines predate these recorded completed reviews; their source hashes are preserved."
+  },
+  "proof_dependencies": {
+    "new": [
+      "research/weight-four-normalized-nonmonomial-graph-obstruction-pass200-working.md",
+      "research/weight-four-nonmonomial-quadratic-field-obstruction-pass200-working.md",
+      "research/weight-four-square-root-complete-recognition-synthesis-pass200-working.md"
+    ],
+    "retained": [
+      "research/weight-four-universal-chart-potentials-pass184-working.md",
+      "research/weight-four-split-square-candidate-jacobian-obstruction-pass193-working.md",
+      "research/weight-four-double-root-zero-r-coordinate-recognition-pass195-working.md",
+      "research/weight-four-double-cover-nonzero-r-reduction-pass195-working.md",
+      "research/weight-four-square-root-two-gate-classification-pass195-working.md",
+      "research/weight-four-square-root-monomial-actual-normalization-pass196-working.md",
+      "research/weight-four-normalized-square-root-graph-obstruction-pass196-working.md",
+      "research/weight-four-normalized-square-root-quadratic-projection-recognition-pass197-working.md",
+      "research/weight-four-reciprocal-square-root-frontier-synthesis-pass198-working.md",
+      "research/weight-four-nonmonomial-square-root-actual-normalization-pass199-working.md"
+    ],
+    "scope": "The retained sources supply the actual chart, exhaustive necessary alternatives, actual normalizations and completed older branches. No fresh recursive audit of every retained source is claimed. The bounded literature audit199 is context, not a new premise or novelty clearance."
+  },
+  "external_dependencies": {
+    "new_published_endpoint": false,
+    "retained_endpoint": "The zero-R195 branch retains its audited actual invariant-coordinate/regular-kernel application of Bhatwadekar-Gupta-Lokhande Theorem3.5. The new200 exclusions use written elementary field-degree and Gauss-lemma arguments, not a new literature theorem.",
+    "bounded_literature_context": "research/time-degree-1122-primary-literature-audit-pass199-working.md",
+    "fresh_search_or_novelty_claim": false
+  },
+  "finite_control_scope": {
+    "raw_potentials": "Literal normalized potentials, completed-square remainder, xi=R*zeta scaling and both simplified z,w identities.",
+    "graph": "Raw scalar-Jacobian identity, zero-xi boundary and cubic parameter substitution.",
+    "quadratic_projection": "Independent generic determinant jets, offset and third-order g equations, all constant-parameter cases, v equation and quartic primitive coefficient slots.",
+    "boundary": "Four finite methods in one run do not prove actual field return, finite-field solution completeness, polynomial irreducibility, arbitrary coordinate entry, general cancellation, novelty, human expert review or formal verification."
+  }
+}

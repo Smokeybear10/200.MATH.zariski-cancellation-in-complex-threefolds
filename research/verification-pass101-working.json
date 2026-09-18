@@ -1,0 +1,29 @@
+{
+  "started_at_utc": "2026-09-14T18:45:57.732Z",
+  "finished_at_utc": "2026-09-14T18:45:58.471Z",
+  "command": [
+    "/opt/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "research.quadratic_polynomial_lift_checks_pass101"
+  ],
+  "exit_code": 0,
+  "suites": 1,
+  "test_methods": 2,
+  "wall_seconds": 0.732291625,
+  "unittest_seconds": 0.337,
+  "input_files": [
+    {
+      "path": "research/quadratic_polynomial_lift_checks_pass101.py",
+      "sha256": "48d56c7f5bd46d7de88aead280653aa730559b2843bb1fceddb770db13cb780f"
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "stdout": "",
+  "stderr": "test_intrinsic_module_residues_and_polynomial_shear (research.quadratic_polynomial_lift_checks_pass101.QuadraticPolynomialLiftChecks.test_intrinsic_module_residues_and_polynomial_shear) ... ok\ntest_sharp_base_order_noniteration_control (research.quadratic_polynomial_lift_checks_pass101.QuadraticPolynomialLiftChecks.test_sharp_base_order_noniteration_control) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.337s\n\nOK\n",
+  "output_hash_convention": "stdout + one newline + stderr",
+  "complete_output_sha256": "a26ef750b17b264c865b35eda5227c8ee3228651f50f3364544fa91b5a32b3df",
+  "all_passed": true,
+  "scope": "Two finite symbolic methods: intrinsic polynomial lifting controls at m=1,2,3, exact shear/inverse formulas and finite parity table; sharp intrinsic noniteration and ideal equality control. Not an all-polynomial saturation proof, an arbitrary original four-coordinate frame, the universal degree-cutoff proof, recognition, or cancellation."
+}

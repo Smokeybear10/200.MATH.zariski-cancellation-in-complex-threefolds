@@ -1,0 +1,96 @@
+{
+  "pass": 174,
+  "status": "working_recognition_under_full_actual_cusp_initial_kernel; unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "artifacts": [
+    {
+      "path": "research/cusp-constant-projection-parabola-field-pass174-working.md",
+      "sha256": "87539118bfa1c5d3fe1685f1d90eec237d0bb9bae318c928ada1740df00c3c98",
+      "bytes": 11166,
+      "lines": 282,
+      "equations": 13,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp-constant-projection-global-recognition-pass174-working.md",
+      "sha256": "91ce3f6a380f09afc401b26c4d5e82623d15985227da7b8622ad226418308b85",
+      "bytes": 10874,
+      "lines": 295,
+      "equations": 19,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp-initial-recognition-synthesis-pass174-working.md",
+      "sha256": "ce534ea46cf7a1b58dfc3f524aaa76e60a898669859640cfb34d2150c21b3fe7",
+      "bytes": 6103,
+      "lines": 116,
+      "equations": 0,
+      "test_methods": 0
+    },
+    {
+      "path": "research/cusp_constant_intercept_controls_pass174.py",
+      "sha256": "8af67d169f1b8a24f5f831bd79e9e7c0ca752f4837442056c573d0565d3477af",
+      "bytes": 6178,
+      "lines": 139,
+      "equations": 0,
+      "test_methods": 3
+    },
+    {
+      "path": "research/verification-pass174-working.json",
+      "sha256": "470374a29917812deb65a4956a4aee594115906e44fa914ceb3e52b4889c4716",
+      "bytes": 12600,
+      "lines": 139,
+      "equations": 0,
+      "test_methods": 0
+    }
+  ],
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass173-working.json",
+    "sha256": "8655e97c4767299b0e72c15c97bf68304fbfd58a4c4db2bed969a94b0b9d2947",
+    "records": 1097
+  },
+  "results": {
+    "actual_hypotheses": "Retains the full actual159 globally sliced complex polynomial frame B=C[X,Y,Z,W]=A[u], exact E-time(1,1,2,2), full weighted initial kernel(XZ-Y^3), selected N, exact finite coefficient field L, independent t,rho and whole generic line. The new branch assumes r=k_rho!=0 and y in L. It allows selected extra factors and a nonunit selected speed.",
+    "vertical_parameter": "The whole-line equality L[y,theta]=L[v] makes theta affine with nonzero slope when y is in L. Thus z too is an affine whole-line parameter. The actual determinant rules out y_rho=0, so t,y form a separating transcendence basis. The literal X^2 potential makes w a polynomial of degree at most two in z over L.",
+    "parabola_field_return": "With k=C(y), actual k(z,w)=L(z) makes k relatively algebraically closed in L. If either positive-z coefficient is outside k, a weighted residue calculation and rational-map degree one force L=k(T) and w=A(z)T+B(z), with A,B in k[z] and deg A positive. No rationality of L was assumed beforehand.",
+    "actual_localization_gate": "For that nonconstant-leading pencil, k[z,w] intersect L equals k: the highest T-coefficient of a polynomial involving w has positive z-degree. The actual polynomial representative a0(y,z,w)=EX belongs to this intersection, so a lies in C[y]. The actual localization A_a=C[y,z,w]_(a0) then lies in k[z,w], forcing both t and rho into k, contrary to independence. Hence w=alpha(y)z^2+beta(y)z+g and L=C(y,g). This argument uses the single allowed speed localization, not an assumed global unit.",
+    "determinant_rigidity": "In the exact coefficient partials for t,y, write theta=Hz+J, H=1/r. The constant-in-X determinant gives alpha_y=0, H_t=2alpha*sigma_t+beta_y and H_y=2alpha*k_y. Commutation yields beta_yy=-12alpha*t. Therefore alpha=0, beta=lambda*y+nu, H=lambda*t+mu with lambda,nu,mu complex.",
+    "original_shear_and_partial": "The coefficient beta+HX equals lambda*Y+nu+mu*X in the original ring. The actual polynomial shear V=W-(lambda*Y+nu+mu*X)Z has a two-sided inverse and a z-independent chart expression. The derivation partial_z fixing L,X is therefore the new actual partial_Z holding X,Y,V fixed. It commutes with E=a*partial_X, so E restricts to a nonzero LND D on actual C[X,Y,V], with D^2X=D^2Y=0.",
+    "published_recognition": "Divide D by its invariant polynomial coefficient gcd to obtain an irreducible LND D0 with the same kernel and square-zero first two coordinates. Wang's exact two-coordinate theorem over C either contradicts ratio independence or gives an invariant coordinate xi of the three-ring. This is an ambient coordinate in B. The global slice makes A regular, and Bhatwadekar-Gupta-Lokhande Theorem3.5 gives A=C[xi]^[2]. No slice on D or unit remaining coefficient is inferred.",
+    "cusp_synthesis": "The same actual chart has four exhaustive branches. Nonzero r and nonconstant y use171; nonzero r and constant y use the new174 field and recognition proofs; r=s=0 is excluded by172; r=0,s!=0 is recognized by173 with its genuine quadratic coefficient cover allowed. Thus the retained working arguments recognize every actual sliced frame with exact1122 degrees and the specified full cusp initial kernel.",
+    "remaining_scope": "The full initial-kernel hypothesis is not replaced by ae=b^3. The split cubic full kernel(XZ+YW), weight-four height-one initial relations, and height-two initial kernels remain outside this result even within1122. Arbitrary entry into1122 or into a three-good frame, and higher possible minimizing profiles, remain independent gaps. Unrestricted cancellation is not proved. No175 result is included."
+  },
+  "chain_record_count_after_including_this_checkpoint": 1103,
+  "record_count_convention": "1097 prior records plus two proof notes, one cusp synthesis, one checker, verification174 and this checkpoint. README and ledger are not records. No175 source or result is counted.",
+  "verification": {
+    "capture": "research/verification-pass174-working.json",
+    "performed": true,
+    "canonical_terminal": "8aa20f",
+    "methods": 3,
+    "seconds": 0.08,
+    "exit_code": 0,
+    "initial_response_terminal": true,
+    "pending_execution_handle": false,
+    "rerun": false,
+    "tagged_equations": 32
+  },
+  "goal_audit": {
+    "prior_completed_evidence": "Frozen173 remains at1097 records with its separate three-method canonical128020 run. It is not repeated or counted as174 evidence.",
+    "preceding_status_turn": "The preceding status check only verified an active worker and waited; it supplied no new mathematical result. This research continuation produced the separately captured173 progress and the new174 branch proof and synthesis.",
+    "current_continuation": "Completed the constant-projection coefficient-field/localization argument, actual polynomial shear, commuting-partial reduction and published recognition endpoint, then assembled the exhaustive cusp case table. Root performed one new three-method canonical run. Packet assembly itself adds no mathematical theorem or execution.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Investigate the actual split-cubic initial setup(XZ+YW) within the retained1122 reduction. Its actual polynomial-kernel example157 prevents blanket exclusion. Do not assume every action admits1122 or the split form. Weight-four initial relations, height-two initial kernels and global entry remain separate. Any175 development is outside this174 packet."
+}

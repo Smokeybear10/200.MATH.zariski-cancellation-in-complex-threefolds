@@ -1,0 +1,114 @@
+{
+  "pass": 197,
+  "status": "restricted_full_square_root_monomial_nonzero_R_recognition; other_families_and_unrestricted_cancellation_unsolved",
+  "working_target": "Unconfirmed corrected complex-threefold cancellation: A[u] isomorphic C^[4] implies A isomorphic C^[3].",
+  "previous_checkpoint": {
+    "path": "research/checkpoint-pass196-working.json",
+    "sha256": "2a99718cb32f4ed6d7fe6f264661c2ac4608fad53a2a54a6800ae5fb23960c33",
+    "records": 1217
+  },
+  "results": {
+    "normalized_quadratic_projection": "Under a supplied actual global-slice exact1122 frame with full initial kernel (Z^2-X^3Y), q^2=t, the normalized f=q quadratic-projection branch has B=C[X,y,z,q]. The scalar Jacobian forces g to be quadratic in q; exact field return removes its quadratic term and proves K=C(q). A polynomial inverse recovers q,y,z in the original ring, dividing only a nonzero complex constant and never X. The slice then forces EX in C*, and A=C[y,z,q] directly.",
+    "entire_monomial_branch": "Composing actual normalization196 and its graph exclusion with the new quadratic-projection inverse recognizes the full actual nonzero-R monomial family f=beta0*q, beta0 in C*. The selected partial_Z, N, coefficient fields, generic degrees, exact1122 profile and full initial kernel are preserved by the normalization. The graph alternative is excluded by196; the projection alternative is recognized and nonempty.",
+    "actual_examples": "The displayed forward formulas and both polynomial inverse orders give an actual family with E=partial_X, exact1122 and entire initial kernel (Z^2-X^3Y). The selected N and scalar determinant are calculated. Fullness of the initial kernel follows from an explicit height-one prime/irreducibility argument, not just a checked relation.",
+    "remaining_scope": "The nonmonomial family f=a*t+b*q with a nonzero, the different reciprocal family f=b/q, and two-root nonzero-R square alternatives remain unresolved here. No full positive bad quadratic rank classification, height-two result, higher-minimum-profile reduction, arbitrary coordinate-entry theorem or unrestricted cancellation solution is asserted. Separate198 is excluded."
+  },
+  "goal_audit": {
+    "prior_progress": "Frozen196 recognition/exclusion and its independent closure audit remain prior completed progress, not new197 results.",
+    "current_continuation": "The new197 original-ring inverse and actual examples complete recognition of the monomial nonzero-R branch after composing the retained graph exclusion. Root executed the single finite suite once; its original execution session completed normally, without a rerun.",
+    "full_goal_achieved": false,
+    "genuine_external_blocker": false,
+    "preserve_status": "active"
+  },
+  "boundaries": {
+    "human_review": false,
+    "formal_verification": false,
+    "novelty_clearance": false,
+    "external_contact": false,
+    "public_posting": false,
+    "submission": false,
+    "new_automation": false,
+    "earlier_frozen_artifacts_edited": false
+  },
+  "next_bounded_task": "Investigate the other actual square families with all lower-potential, scalar-Jacobian and exact-field gates. Separate198 work is not included in this packet.",
+  "artifacts": [
+    {
+      "path": "research/weight-four-normalized-square-root-quadratic-projection-recognition-pass197-working.md",
+      "sha256": "c9a6d6a0d6366d3969bbd32d571d160819b2bf52d499d2d4ca05893922618e25",
+      "bytes": 14409,
+      "lines": 404,
+      "equations": 26,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight-four-square-root-monomial-frontier-synthesis-pass197-working.md",
+      "sha256": "509e8bfa601979e9b9baddae73f13014acc7004c3bbf880459e00a5e92781260",
+      "bytes": 5241,
+      "lines": 124,
+      "equations": 4,
+      "test_methods": 0
+    },
+    {
+      "path": "research/weight_four_square_root_quadratic_projection_controls_pass197.py",
+      "sha256": "a802bd55c810dd838ffce5c426b7b9b6c6cde16f2046247a6cb6731e975d05d8",
+      "bytes": 6343,
+      "lines": 137,
+      "equations": 0,
+      "test_methods": 3
+    }
+  ],
+  "canonical_executions": [
+    {
+      "suite": "square_root_quadratic_projection197",
+      "path": "research/weight_four_square_root_quadratic_projection_controls_pass197.py",
+      "pre_execution_read": "Root8ca204; Jet48f013",
+      "initial_output": "28af83",
+      "execution_session_id": 6608,
+      "terminal_output": "fa6bed",
+      "methods": 3,
+      "unittest_seconds": 3.11,
+      "result": "OK",
+      "exit_code": 0,
+      "initial_response_terminal": false,
+      "pending_execution_handle": false,
+      "completion_via_original_handle": true,
+      "rerun": false,
+      "command": "/opt/anaconda3/bin/python research/weight_four_square_root_quadratic_projection_controls_pass197.py",
+      "cwd": "/Users/thomasou/Documents/ChatGPT/Long term/zariski-cancellation",
+      "login": false,
+      "initial_yield_time_ms": 1000
+    }
+  ],
+  "tagged_equations": 30,
+  "total_new_test_methods": 3,
+  "reviews": {
+    "proof": "Jet full author e38ad5+f85aa6, with final potential-numbering-only delta6e4f14/fabafd/2ac2d4, final c9a6d6a0. Root fullff3990 plus final numberingdelta83e0f4; General complete6fe842+e15381/hash942563; Geometry complete506de0+fb1931. Reviews reconstruct scalar/field distinctions, both original inverse orders, slice-forced constant speed, actual examples and the full prime initial kernel.",
+    "synthesis": "Root complete3e6cbc at509e8bfa; Jet completead2214; Geometry completefb1931. The synthesis composes only the actual normalization and graph exclusion196 with the new projection theorem, and explicitly leaves other coefficient families and arbitrary entry open.",
+    "checker": "Root full8ca204 and Jet complete48f013 before the canonical run. Geometry fullfb1931 is a subsequent source-only review, not pre-canonical evidence. The source was not executed, imported or compiled by Geometry.",
+    "metadata": "Fresh read-only source metadata matches three current source hashes, 30 tagged equations and three methods. Frozen196 verification/checkpoint hashes were independently rechecked."
+  },
+  "proof_dependencies": {
+    "new": [
+      "research/weight-four-normalized-square-root-quadratic-projection-recognition-pass197-working.md",
+      "research/weight-four-square-root-monomial-frontier-synthesis-pass197-working.md"
+    ],
+    "retained": [
+      "research/weight-four-universal-chart-potentials-pass184-working.md",
+      "research/weight-four-double-cover-nonzero-r-reduction-pass195-working.md",
+      "research/weight-four-square-root-two-gate-classification-pass195-working.md",
+      "research/weight-four-square-root-monomial-actual-normalization-pass196-working.md",
+      "research/weight-four-normalized-square-root-graph-obstruction-pass196-working.md",
+      "research/weight-four-double-cover-frontier-synthesis-pass196-working.md"
+    ],
+    "scope": "Retained actual chart, whole-plane, reduction and normalization gates apply precisely to the supplied full square-root configuration. The normalized projection endpoint is direct from its polynomial inverse and the global slice; it does not invoke an additional recognition theorem. Frozen sources are unchanged, and no198 theorem is imported."
+  },
+  "external_dependencies": {
+    "new_published_endpoint": false,
+    "scope": "No new literature theorem is invoked for the normalized197 endpoint. Any published structural inputs of retained195/196 reductions remain as documented there, without a claim of new or recursive verification."
+  },
+  "finite_control_scope": {
+    "scalar": "Literal determinant coefficients, g''' identity and the quadratic involution. Exact finite-field constants and the actual field-return exclusion remain written arguments.",
+    "inverse_and_examples": "Raw S/T/H identities, actual selected partial_Z and N columns, both full polynomial inverse orders, determinant beta and exact time leaders. The full initial prime-kernel conclusion uses the written dimension/irreducibility proof.",
+    "boundary": "Finite checks do not prove general actual field return, field-intersection completeness, arbitrary entry, historical novelty or unrestricted cancellation."
+  }
+}
